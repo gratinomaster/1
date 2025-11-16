@@ -1,78 +1,18 @@
 [
   {
-    "name": "TV Globo S\u00e3o Paulo",
-    "group": "GLOBO AO VIVO",
-    "tvg_id": "TVGloboSaoPaulo.br",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLBbr7-LGDTs8A4UlZaQ-v0s-u_T294dLLGlTkDsWp9mh_OPCP6ysZoaUkWA&s",
-    "url": "http://hls1.sua.tv:80/live/globosphd/s.m3u8",
+    "name": "UCL (720p)",
+    "group": "Undefined",
+    "tvg_id": "UCL.uy@SD",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAAhakUuAf6MjTIeV4ej2mfIeyHA2UifBsZMvRXynfz11TK7Fo88x-IAOleg&s",
+    "url": "https://livedelta.cdn.antel.net.uy/out/u/url_canalu.m3u8",
     "extra": []
   },
   {
-    "name": "TV Globo S\u00e3o Paulo",
-    "group": "GLOBO AO VIVO",
-    "tvg_id": "Globo SP",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDL0hiZWrm3Adfp7RouFKTT_oIyrYNUoouTMHacd4Zjf0oUUr49R-4em6lLA&s",
-    "url": "http://hls1.sua.tv:80/live/globosphd/s.m3u8",
+    "name": "VIVO TV (1080p)",
+    "group": "Undefined",
+    "tvg_id": "VIVOTV.uy@SD",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhndrnI2gmKpIdYG-IQgRXMTjuGWVbej4nEJA1Yw7EvNGYL92_NoWca-n9Xw&s",
+    "url": "https://stream.vivotv.uy/hls/stream.m3u8",
     "extra": []
-  },
-  {
-    "name": "TV Globo S\u00e3o Paulo",
-    "group": "GLOBO AO VIVO",
-    "tvg_id": "Globo SP",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVTA2lPxgzulUUqfQtAZ91PEug5evdlLfqP1l7Sr6U38KAtWklLFsOtIyqHg&s",
-    "url": "http://hls1.sua.tv:80/live/globosphd/s.m3u8",
-    "extra": []
-  },
-  {
-    "name": "TV Bahia",
-    "group": "GLOBO AO VIVO",
-    "tvg_id": "Globo BA",
-    "logo": "https://upload.wikimedia.org/wikipedia/pt/1/1e/Logotipo_TV_Bahia.png",
-    "url": "http://hls1.sua.tv/live/globotvbahiafhdbr2/s.m3u8",
-    "extra": []
-  },
-  {
-    "name": "TV Bahia",
-    "group": "GLOBO AO VIVO",
-    "tvg_id": "Globo TV Bahia.br",
-    "logo": "https://i.imgur.com/k4fl1wF.png",
-    "url": "http://hls1.sua.tv/live/globotvbahiafhdbr2/s.m3u8",
-    "extra": []
-  },
-  {
-    "name": "TV Bahia",
-    "group": "GLOBO AO VIVO",
-    "tvg_id": "Globo TV Bahia.br",
-    "logo": "https://upload.wikimedia.org/wikipedia/pt/1/1e/Logotipo_TV_Bahia.png",
-    "url": "http://hls1.sua.tv/live/globotvbahiafhdbr2/s.m3u8",
-    "extra": []
-  },
-  {
-    "name": "TV Bahia",
-    "group": "GLOBO AO VIVO",
-    "tvg_id": "Globo TV Bahia.br",
-    "logo": "https://upload.wikimedia.org/wikipedia/pt/1/1e/Logotipo_TV_Bahia.png",
-    "url": "http://hls1.sua.tv/live/globotvbahiafhdbr2/s.m3u8",
-    "extra": []
-  },
-  {
-    "name": "Record SicTV (RO)",
-    "group": "Canais | ABERTO",
-    "tvg_id": "RecordTV",
-    "logo": "https://i.imgur.com/lyQ1v9M.png",
-    "url": "https://parecisfmlive.brasilstream.com.br/hls/parecisfmlive/index.m3u8",
-    "extra": [
-      "#EXTGRP:Canais | RECORD TV"
-    ]
-  },
-  {
-    "name": "RecordTV Conquista HD",
-    "group": "Canais | ABERTO",
-    "tvg_id": "RecordTV",
-    "logo": "https://i.imgur.com/lyQ1v9M.png",
-    "url": "https://tvconquistalrv.duckdns.org:3334/hls/tvconquistalrv.m3u8?ManoTV",
-    "extra": [
-      "#EXTGRP:Canais | RECORD TV"
-    ]
   }
 ]
