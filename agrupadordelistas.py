@@ -3,6 +3,7 @@ import requests
 
 # URLs dos repositórios que contêm os arquivos M3U
 repo_urls = [
+    "https://api.github.com/repos/gmtv4/rastaf/contents",
     "https://raw.githubusercontent.com/strikeinthehouse/1/refs/heads/main/lista2.M3U",
     "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/uy.m3u",        
     "https://github.com/strikeinthehouse/Navez/raw/main/playlist.m3u",
@@ -670,7 +671,7 @@ import requests
 
 # Lista de URLs dos repositórios do GitHub
 repo_urls = [
-    "https://api.github.com/repos/strikeinthehouse/JCTN/contents",
+    "https://api.github.com/repos/gratinomaster/JCTV/contents",
     "https://api.github.com/repos/strikeinthehouse/YT-OK/contents",
 ]
 
