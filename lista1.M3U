@@ -66,8 +66,25 @@ https://livedelta.cdn.antel.net.uy/out/u/url_canalu.m3u8
 #EXTINF:-1 group-title="Undefined" tvg-id="VIVOTV.uy@SD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhndrnI2gmKpIdYG-IQgRXMTjuGWVbej4nEJA1Yw7EvNGYL92_NoWca-n9Xw&s",VIVO TV (1080p)
 https://stream.vivotv.uy/hls/stream.m3u8
 #EXTM3U
-#EXTM3U
-#EXTM3U
+#EXTM3U url-tvg="https://github.com/LITUATUI/M3UPT/raw/main/EPG/epg-vodafone-pt.xml.xz,https://github.com/LITUATUI/M3UPT/raw/main/EPG/epg-nos-pt.xml.xz,https://github.com/LITUATUI/M3UPT/raw/main/EPG/epg-meo-pt.xml.xz,https://github.com/LITUATUI/M3UPT/raw/main/EPG/epg-rtp-pt.xml.xz,https://github.com/LITUATUI/M3UPT/raw/main/EPG/epg-sic-pt.xml.xz,https://github.com/LITUATUI/M3UPT/raw/main/EPG/epg-tvi-pt.xml.xz,https://github.com/LITUATUI/M3UPT/raw/main/EPG/epg-mitv-br.xml.xz"
+# M3UPT.com - IPTV playlist in M3U format with TV and radio stations in Portuguese. Public and official streams only.
+# 📺 TV
+#EXTINF:-1 group-title="TV" tvg-id="RTP1.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP1.png",RTP 1
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:144.0) Gecko/20100101 Firefox/144.0
+#EXTVLCOPT:http-origin=https://www.rtp.pt
+#EXTVLCOPT:http-referrer=https://www.rtp.pt/play/direto/rtp1
+https://streaming-live.rtp.pt/liverepeater/smil:rtp1HD.smil/playlist.m3u8
+#EXTINF:-1 group-title="TV" tvg-id="RTP2.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP2.png",RTP 2
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:144.0) Gecko/20100101 Firefox/144.0
+#EXTVLCOPT:http-origin=https://www.rtp.pt
+#EXTVLCOPT:http-referrer=https://www.rtp.pt/play/direto/rtp2
+https://streaming-live.rtp.pt/liverepeater/rtp2HD.smil/playlist.m3u8
+#EXTINF:-1 group-title="TV" tvg-id="SIC.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/SIC.png",SIC
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:144.0) Gecko/20100101 Firefox/144.0
+#EXTVLCOPT:http-origin=https://sic.pt
+#EXTVLCOPT:http-referrer=https://sic.pt/
+https://d1zx6l1dn8vaj5.cloudfront.net/out/v1/b89cc37caa6d418eb423cf092a2ef970/index.m3u8
+#EXTINF:-1 group-title="TV" tvg-id="TVI.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/TVI.png",TVI
 #EXTM3U
 #EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_IL1.xml.gz"
 #EXTINF:-1 group-title="NEWS WORLD" tvg-chno="1302" tvg-id="כאן.11.il" tvg-logo="data:image/webp;base64,UklGRnQEAABXRUJQVlA4IGgEAABQOACdASqQASwBPslksVCnpiUiorTY8PAZCWlu/HyY4OtQxv2MtH7RD7ivEWXuEPkWLO+Xtcu/7izvl7XLv+4s75e1y7/uLO+Xtcu/7izvl7XLv+4s75e1y7/uLO+Xtcu/7izvl7XLv+4s75e1y7g1SYAxBfVhe1y7/uGvpH3Hj3vUCtoW9cPKM9r5cY108faAWl8A9wbgNcsy4Jg6dZ5g2dXPrizvcsmUh+FF1+SMKI0flpT2wyqqljo3Qd4BAbhjAcpG1qD1u4YSmZkU2netaXEKWJzm7DvlXi6ViOyAFZLY6LFCtrQaftOpP1KZsjwuk764uUyR6sctF3/tIvcWbTSyBuMsibM3uY4JdpH3Itg7A2dQJZhBOxxDmOaCI5r3Dz1qINqajePWYcAI8Z6Hw+//Yk/dPGfT9Uy6A7uYNdszOGHyzto1IuYR1QgNMbR3p2cG568meMCKoSpziNDs4U5flu1kLaHmVy4/M6l39RRDizvl35Dz6rjC4JICl7izvl7XLv+4s75e1y7/uLO+Xtcu/7izvl7XLv+4s75e1y7/uLO+Xtcu/7izvl7XLv+4s75e1y7/uLO+Xtcu/7izvl7XLv+4s75exgAA/v3WoAAAAAkGkiqv6ooPLzy/+PHznLGBZYe7N5s4de3jVy4rK2k3wfBWVw2hwXsop3B6QMEhO8bGByMRaTLjdFC4A/mtTHmEcYr5CxN3aQBRbP5wSe9WhYhdQ3eGzISYZPbiyjiMuO4Esn8mUBQO5wr/wPdvRE4NAWIfRqjY33usKSEQxuPLPmgCINuK1fcFv+VXNtjFtD3GF35z4jfNH/jXCs9jc5Rj5BS7omtNEjpY2in3m0CD7wvD0nwW9pCxq2HU2KTFogTHyAGDJRbCJEATjBCgAFawDxZly7UZLj/dtBGLp8q2z/9aRqlEisdXqa4cWVkTVYY2Cx9yYcqq4A6ytZJ24qBREwTe+R21DxGSV8I6v+HTO/RLV9IRIw5+jbJicoD5pROY9nlqersZw9dWvbDt6K8epDQaMDXpJIzxJkGf3l5/K3lWzYNtPaipq/8LrGhs73ismqMPP+R78NT6CARoJk083bSRiPTx54/G4rIfe+PIleEPMUxm3STHrIcpc6P6kb4ZXMREQzgidSwkyCM4qVXoVLBXaZDQiCdTkx6VMm5gzm4r0CPemQMXHQVcFVYSTIpP/wB4Ca6lnH717uKwEz9W0H0otjfOzs3NM4jYz2Lb9qmay4mCbHPxT8bzprnG5lIIP5f9U+itwNUZcdd1+wbQ7fcSuCYcn408io+thz93ERX+jMfjWf41zEIZ9l7hmAkZqYbCurdxM40IlQDszIfwyop3y1+bIr76ym0qQirln2lcMX7MohIJ/iAQib5XnnqOT2uIGzIKTCaxqOebdUAKxF5kfD3fHzqXmw1mObRzajHqtwglWluSz4YHhvGLr1H4yhMZpv4cbSO25B2b/lUoU6S17YfM6PGz4vTAAAAAAAAAAAA=" , ערוץ כאן 11 לצפייה ישירה
@@ -9980,20 +9997,3 @@ https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg01076-lightningintern-gbnewsnz-sa
 #EXTINF:-1 tvg-id="KBPXLD5.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/GEB_logo_blue.png/512px-GEB_logo_blue.png" group-title="NEWS WORLD",Geb Tv (KBPX LD5) (1080p)
 https://edge1.lifestreamcdn.com/live/geb/playlist.m3u8
 #EXTINF:-1 tvg-id="GeopolisTV.cd" tvg-logo="https://i.imgur.com/WzGAIYe.jpg" group-title="NEWS WORLD",Géopolis TV (240p)
-https://tnt-television.com/Geopolis_tv/index.m3u8
-#EXTINF:-1 tvg-id="GiornaleRadioTV.it" tvg-logo="https://i.imgur.com/2Y5qiao.png" group-title="NEWS WORLD",Giornale Radio TV (720p)
-https://5f204aff97bee.streamlock.net/GR_tv/livestream/playlist.m3u8
-#EXTINF:-1 tvg-id="GIT.ua" tvg-logo="https://i.imgur.com/b5K5Uwh.png" group-title="NEWS WORLD",GIT (720p)
-https://stream.uagit.tv/gittv.m3u8
-#EXTINF:-1 tvg-id="GlobalNews.tw" tvg-logo="https://yt3.googleusercontent.com/N017-8I-vc4i_gbztqHFzM9Bap8EWKmsfPBu0HBWM6O4zGX1HBFn5DdLuWcwQLlPQ7F4ej8Mlw=s512-c-k-c0x00ffffff-no-rj" group-title="NEWS WORLD",Global News (1080p)
-https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV02.m3u8
-#EXTINF:-1 tvg-id="GlobalPunjab.in" tvg-logo="https://i.imgur.com/WDLqcWW.png" group-title="NEWS WORLD",Global Punjab (1080p)
-https://server.livelegitpro.in/globalpunjab/globalpunjab/index.m3u8
-#EXTINF:-1 tvg-id="GuardianTalkRadio.bs" tvg-logo="https://i.imgur.com/o3cWUwL.png" group-title="NEWS WORLD",Guardian Talk Radio (1080p)
-https://cdn-edge1.streamcomedia.com/abr_tngr969fm/abr-tngr969fm_streams/playlist.m3u8
-#EXTINF:-1 tvg-id="GugbangTV.kr" tvg-logo="https://i.imgur.com/f1tz5fg.png" group-title="NEWS WORLD",Gugbang TV (1080p) [Not 24/7]
-http://mediaworks.dema.mil.kr:1935/live_edge/cudo.sdp/playlist.m3u8
-#EXTINF:-1 tvg-id="GulistanNews.in" tvg-logo="https://i.imgur.com/q5z6ycZ.png" group-title="NEWS WORLD",Gulistan News (720p)
-https://live.gulistannews.in/hls/gul.m3u8
-#EXTINF:-1 tvg-id="GuneydoguTV.tr" tvg-logo="https://i.imgur.com/JT5pp3Y.png" group-title="NEWS WORLD",Guneydogu TV (720p)
-https://edge1.socialsmart.tv/gtv/bant1/playlist.m3u8
