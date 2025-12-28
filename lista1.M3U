@@ -25,7 +25,7 @@ https://d1zx6l1dn8vaj5.cloudfront.net/out/v1/b89cc37caa6d418eb423cf092a2ef970/in
 #EXTINF:-1 group-title="TV" tvg-id="TVI.HD.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/TVI.png",TVI
 https://video-auth6.iol.pt/live_tvi/live_tvi/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9MTIvMjgvMjAyNSAxMDo3OjI1IEFNJmhhc2hfdmFsdWU9U3AwTWZnbzhIQ09QNlBwcm4vbFhKUT09JnZhbGlkbWludXRlcz0xNDQwJmlkPWExOTczNmFlLWFlNWYtNGNmYy1hZTg2LTk2YzZhNDRlNjU0MQ==/
 
-#EXTINF:-1 group-title="TV" tvg-name="RTP Noticias" tvg-id="TPA.Notícias.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/rtpnoticias.png",RTP Notícias
+#EXTINF:-1 group-title="TV" tvg-name="RTP Noticias" tvg-id="RTP.3.HD.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/rtpnoticias.png",RTP Notícias
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:144.0) Gecko/20100101 Firefox/144.0
 #EXTVLCOPT:http-origin=https://www.rtp.pt
 #EXTVLCOPT:http-referrer=https://www.rtp.pt/play/direto/rtp3
