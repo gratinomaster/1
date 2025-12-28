@@ -1,9 +1,3 @@
 #EXTM3U
-#EXTINF:-1 tvg-logo="https://archive.org/download/ComiteDeVeteranos/ComiteDeVeteranos.thumbs%2FCR%20Toluquilla_000045.jpg", CR Toluquilla
-https://archive.org/download/ComiteDeVeteranos/CR%20Toluquilla.mp4
-#EXTINF:-1 tvg-logo="https://archive.org/download/ComiteDeVeteranos/ComiteDeVeteranos.thumbs%2FComite%20de%20Veteranos_000045.jpg", Comite de Veteranos
-https://archive.org/download/ComiteDeVeteranos/Comite%20de%20Veteranos.mp4
-#EXTINF:-1 tvg-logo="https://archive.org/download/ComiteDeVeteranos/ComiteDeVeteranos.thumbs%2FCurso%20Rescate%20Urbano_000045.jpg", Curso Rescate Urbano
-https://archive.org/download/ComiteDeVeteranos/Curso%20Rescate%20Urbano.mp4
-#EXTINF:-1 tvg-logo="https://archive.org/download/ComiteDeVeteranos/ComiteDeVeteranos.thumbs%2FHuracan%20Willma_000045.jpg", Huracan Willma
-https://archive.org/download/ComiteDeVeteranos/Huracan%20Willma.mp4
+#EXTINF:-1 tvg-logo="None", Comite De Veteranos
+https://archive.org/download/ComiteDeVeteranos/CR%20Toluquilla.ogv
