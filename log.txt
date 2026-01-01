@@ -1,45 +1,77 @@
-[2026-01-01 07:02:36] ============================================================
-[2026-01-01 07:02:36] Gerador de Playlist M3U para Archive.org
-[2026-01-01 07:02:36] Versão com logs para GitHub Actions
-[2026-01-01 07:02:36] ============================================================
-[2026-01-01 07:02:36] 
-[2026-01-01 07:02:36] Configuração:
-[2026-01-01 07:02:36]   - Entrada: ia.txt
-[2026-01-01 07:02:36]   - Saída: lista30.M3U
-[2026-01-01 07:02:36]   - Diretório: /home/runner/work/1/1
-[2026-01-01 07:02:36] 
-[2026-01-01 07:02:36] ============================================================
-[2026-01-01 07:02:36] INICIANDO PROCESSAMENTO
-[2026-01-01 07:02:36] ============================================================
-[2026-01-01 07:02:36] ✓ Arquivo de entrada encontrado: ia.txt
-[2026-01-01 07:02:36] Total de linhas lidas: 3
-[2026-01-01 07:02:36] Encontradas 3 URL(s) válida(s) para processar
-[2026-01-01 07:02:36] 
-[2026-01-01 07:02:36] [1/3] Processando: https://archive.org/details/Filme1984GeorgeOrwellDubladoConhecimentoEhPoderByN1ngGg3n
-[2026-01-01 07:02:36] Executando yt-dlp para: https://archive.org/details/Filme1984GeorgeOrwellDubladoConhecimentoEhPoderByN1ngGg3n
-[2026-01-01 07:02:37] Processando 1 entrada(s) JSON...
-[2026-01-01 07:02:37] ✓ Extraídos 1 vídeo(s) com sucesso
-[2026-01-01 07:02:37] ✓ Encontrados 1 vídeo(s)
-[2026-01-01 07:02:37] 
-[2026-01-01 07:02:37] [2/3] Processando: https://archive.org/details/globo-e-record-novelas-e-variados-2005-2006-e-2010-fita-vhs
-[2026-01-01 07:02:37] Executando yt-dlp para: https://archive.org/details/globo-e-record-novelas-e-variados-2005-2006-e-2010-fita-vhs
-[2026-01-01 07:02:38] Processando 3 entrada(s) JSON...
-[2026-01-01 07:02:38] ✓ Extraídos 3 vídeo(s) com sucesso
-[2026-01-01 07:02:38] ✓ Encontrados 3 vídeo(s)
-[2026-01-01 07:02:38] 
-[2026-01-01 07:02:38] [3/3] Processando: https://archive.org/details/globo-tv-gazeta-sao-paulo-e-redetv-ano-2007-em-fita-vhs
-[2026-01-01 07:02:38] Executando yt-dlp para: https://archive.org/details/globo-tv-gazeta-sao-paulo-e-redetv-ano-2007-em-fita-vhs
-[2026-01-01 07:02:39] Processando 4 entrada(s) JSON...
-[2026-01-01 07:02:39] ✓ Extraídos 4 vídeo(s) com sucesso
-[2026-01-01 07:02:39] ✓ Encontrados 4 vídeo(s)
-[2026-01-01 07:02:39] 
-[2026-01-01 07:02:39] Criando arquivo M3U: lista30.M3U
-[2026-01-01 07:02:39] ✓ Arquivo lista30.M3U criado com sucesso
-[2026-01-01 07:02:39] ============================================================
-[2026-01-01 07:02:39] ✓ SUCESSO: Arquivo 'lista30.M3U' criado com 8 vídeo(s)
-[2026-01-01 07:02:39] ============================================================
-[2026-01-01 07:02:39] ✓ Arquivo confirmado: lista30.M3U (2768 bytes)
-[2026-01-01 07:02:39] 
-[2026-01-01 07:02:39] ============================================================
-[2026-01-01 07:02:39] PROCESSAMENTO FINALIZADO
-[2026-01-01 07:02:39] ============================================================
+[2026-01-01 07:14:13] ============================================================
+[2026-01-01 07:14:13] Gerador de Playlist M3U para Archive.org
+[2026-01-01 07:14:13] Versão com logs para GitHub Actions
+[2026-01-01 07:14:13] ============================================================
+[2026-01-01 07:14:13] 
+[2026-01-01 07:14:13] Configuração:
+[2026-01-01 07:14:13]   - Entrada: ia.txt
+[2026-01-01 07:14:13]   - Saída: lista30.M3U
+[2026-01-01 07:14:13]   - Diretório: /home/runner/work/1/1
+[2026-01-01 07:14:13] 
+[2026-01-01 07:14:13] ============================================================
+[2026-01-01 07:14:13] INICIANDO PROCESSAMENTO
+[2026-01-01 07:14:13] ============================================================
+[2026-01-01 07:14:13] ✓ Arquivo de entrada encontrado: ia.txt
+[2026-01-01 07:14:13] Total de linhas lidas: 8
+[2026-01-01 07:14:13] Encontradas 8 URL(s) válida(s) para processar
+[2026-01-01 07:14:13] 
+[2026-01-01 07:14:13] [1/8] Processando: https://archive.org/details/fita-locomotion-2
+[2026-01-01 07:14:13] Executando yt-dlp para: https://archive.org/details/fita-locomotion-2
+[2026-01-01 07:14:14] ✗ Erro ao executar yt-dlp para a URL https://archive.org/details/fita-locomotion-2
+[2026-01-01 07:14:14] Código de erro: 1
+[2026-01-01 07:14:14] Stderr: ERROR: opening play-av tag not found
+
+[2026-01-01 07:14:14] ✗ Nenhum vídeo encontrado para esta URL
+[2026-01-01 07:14:14] 
+[2026-01-01 07:14:14] [2/8] Processando: https://archive.org/details/Filme1984GeorgeOrwellDubladoConhecimentoEhPoderByN1ngGg3n
+[2026-01-01 07:14:14] Executando yt-dlp para: https://archive.org/details/Filme1984GeorgeOrwellDubladoConhecimentoEhPoderByN1ngGg3n
+[2026-01-01 07:14:15] Processando 1 entrada(s) JSON...
+[2026-01-01 07:14:15] ✓ Extraídos 1 vídeo(s) com sucesso
+[2026-01-01 07:14:15] ✓ Encontrados 1 vídeo(s)
+[2026-01-01 07:14:15] 
+[2026-01-01 07:14:15] [3/8] Processando: https://archive.org/details/globo-e-record-novelas-e-variados-2005-2006-e-2010-fita-vhs
+[2026-01-01 07:14:15] Executando yt-dlp para: https://archive.org/details/globo-e-record-novelas-e-variados-2005-2006-e-2010-fita-vhs
+[2026-01-01 07:14:16] Processando 3 entrada(s) JSON...
+[2026-01-01 07:14:16] ✓ Extraídos 3 vídeo(s) com sucesso
+[2026-01-01 07:14:16] ✓ Encontrados 3 vídeo(s)
+[2026-01-01 07:14:16] 
+[2026-01-01 07:14:16] [4/8] Processando: https://archive.org/details/globo-tv-gazeta-sao-paulo-e-redetv-ano-2007-em-fita-vhs
+[2026-01-01 07:14:16] Executando yt-dlp para: https://archive.org/details/globo-tv-gazeta-sao-paulo-e-redetv-ano-2007-em-fita-vhs
+[2026-01-01 07:14:17] Processando 4 entrada(s) JSON...
+[2026-01-01 07:14:17] ✓ Extraídos 4 vídeo(s) com sucesso
+[2026-01-01 07:14:17] ✓ Encontrados 4 vídeo(s)
+[2026-01-01 07:14:17] 
+[2026-01-01 07:14:17] [5/8] Processando: https://archive.org/details/o_aprendiz_2_2o_e_3o_episodio_tv_pampa_30_06_2005
+[2026-01-01 07:14:17] Executando yt-dlp para: https://archive.org/details/o_aprendiz_2_2o_e_3o_episodio_tv_pampa_30_06_2005
+[2026-01-01 07:14:18] Processando 1 entrada(s) JSON...
+[2026-01-01 07:14:18] ✓ Extraídos 1 vídeo(s) com sucesso
+[2026-01-01 07:14:18] ✓ Encontrados 1 vídeo(s)
+[2026-01-01 07:14:18] 
+[2026-01-01 07:14:18] [6/8] Processando: https://archive.org/details/intervalos-bbb-6-globo-16-02-2006
+[2026-01-01 07:14:18] Executando yt-dlp para: https://archive.org/details/intervalos-bbb-6-globo-16-02-2006
+[2026-01-01 07:14:20] Processando 1 entrada(s) JSON...
+[2026-01-01 07:14:20] ✓ Extraídos 1 vídeo(s) com sucesso
+[2026-01-01 07:14:20] ✓ Encontrados 1 vídeo(s)
+[2026-01-01 07:14:20] 
+[2026-01-01 07:14:20] [7/8] Processando: https://archive.org/details/intervalos_o_aprendiz_record_21_e_23_12_2004
+[2026-01-01 07:14:20] Executando yt-dlp para: https://archive.org/details/intervalos_o_aprendiz_record_21_e_23_12_2004
+[2026-01-01 07:14:22] Processando 1 entrada(s) JSON...
+[2026-01-01 07:14:22] ✓ Extraídos 1 vídeo(s) com sucesso
+[2026-01-01 07:14:22] ✓ Encontrados 1 vídeo(s)
+[2026-01-01 07:14:22] 
+[2026-01-01 07:14:22] [8/8] Processando: http://newoneblack.site:80/888999/888999/234261
+[2026-01-01 07:14:22] Executando yt-dlp para: http://newoneblack.site:80/888999/888999/234261
+[2026-01-01 07:14:24] Processando 1 entrada(s) JSON...
+[2026-01-01 07:14:24] ✓ Extraídos 1 vídeo(s) com sucesso
+[2026-01-01 07:14:24] ✓ Encontrados 1 vídeo(s)
+[2026-01-01 07:14:24] 
+[2026-01-01 07:14:24] Criando arquivo M3U: lista30.M3U
+[2026-01-01 07:14:24] ✓ Arquivo lista30.M3U criado com sucesso
+[2026-01-01 07:14:24] ============================================================
+[2026-01-01 07:14:24] ✓ SUCESSO: Arquivo 'lista30.M3U' criado com 12 vídeo(s)
+[2026-01-01 07:14:24] ============================================================
+[2026-01-01 07:14:24] ✓ Arquivo confirmado: lista30.M3U (4444 bytes)
+[2026-01-01 07:14:24] 
+[2026-01-01 07:14:24] ============================================================
+[2026-01-01 07:14:24] PROCESSAMENTO FINALIZADO
+[2026-01-01 07:14:24] ============================================================
