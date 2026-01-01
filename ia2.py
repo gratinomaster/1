@@ -1,10 +1,17 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Gerador de Playlist M3U para Archive.org
-Extrai vídeos de coleções do Archive.org e gera arquivos M3U compatíveis com players IPTV.
+Gerador Universal de Playlist M3U
+Extrai vídeos e streams de qualquer site suportado pelo yt-dlp e gera arquivos M3U.
 
-Autor: Modificado para funcionar perfeitamente com Archive.org e GitHub Actions
+Suporta:
+- Archive.org (coleções com múltiplos vídeos)
+- Streams ao vivo (RTP, TVI, RTVE, YouTube Live, etc)
+- Vídeos únicos (YouTube, Vimeo, etc)
+- Playlists (YouTube, etc)
+- Qualquer site suportado pelo yt-dlp
+
+Autor: Versão Universal para GitHub Actions
 Data: Janeiro 2026
 """
 
@@ -13,6 +20,7 @@ import json
 import os
 import sys
 from datetime import datetime
+from urllib.parse import urlparse
 
 def log_message(message, log_file='log.txt'):
     """
@@ -32,73 +40,193 @@ def log_message(message, log_file='log.txt'):
     except Exception as e:
         print(f"Erro ao escrever no log: {e}")
 
-def get_video_details(url):
+def detect_url_type(url):
     """
-    Obtém os detalhes dos vídeos de uma URL do Archive.org usando yt-dlp.
+    Detecta o tipo de URL para aplicar o método apropriado de extração.
     
     Args:
-        url (str): URL da coleção do Archive.org
+        url (str): URL a ser analisada
         
     Returns:
-        list: Lista de dicionários contendo detalhes dos vídeos (url, title, thumbnail)
+        str: Tipo da URL ('archive_collection', 'live_stream', 'playlist', 'single_video')
+    """
+    url_lower = url.lower()
+    
+    if 'archive.org/details/' in url_lower:
+        return 'archive_collection'
+    elif any(keyword in url_lower for keyword in ['direto', 'live', 'en-vivo', 'ao-vivo', '/live/', '/directo/']):
+        return 'live_stream'
+    elif any(keyword in url_lower for keyword in ['playlist', 'list=']):
+        return 'playlist'
+    else:
+        return 'single_video'
+
+def extract_with_flat_playlist(url, timeout=120):
+    """
+    Extrai informações usando --flat-playlist (para coleções/playlists).
+    
+    Args:
+        url (str): URL a ser processada
+        timeout (int): Timeout em segundos
+        
+    Returns:
+        list: Lista de dicionários com informações dos vídeos
     """
     try:
-        log_message(f"Executando yt-dlp para: {url}")
+        log_message(f"  Tentando método: --flat-playlist")
         
-        # Usa yt-dlp com --flat-playlist para extrair informações dos vídeos
         result = subprocess.run(
             ['yt-dlp', '-j', '--flat-playlist', url],
             capture_output=True,
             text=True,
             check=True,
-            timeout=120  # Timeout de 2 minutos
+            timeout=timeout
         )
         
-        # Verifica se há saída
         if not result.stdout.strip():
-            log_message(f"⚠ Nenhum dado retornado para a URL: {url}")
             return []
         
-        # Divide a saída em linhas e converte cada linha JSON em um dicionário
         entries = result.stdout.strip().split('\n')
         details = []
-        
-        log_message(f"Processando {len(entries)} entrada(s) JSON...")
         
         for entry in entries:
             try:
                 data = json.loads(entry)
                 details.append(data)
-            except json.JSONDecodeError as e:
-                log_message(f"⚠ Erro ao decodificar JSON: {e}")
-                log_message(f"Linha problemática: {entry[:100]}...")
+            except json.JSONDecodeError:
                 continue
         
-        log_message(f"✓ Extraídos {len(details)} vídeo(s) com sucesso")
         return details
+    
+    except (subprocess.CalledProcessError, subprocess.TimeoutExpired, Exception) as e:
+        log_message(f"  ✗ Método --flat-playlist falhou: {type(e).__name__}")
+        return []
 
-    except subprocess.TimeoutExpired:
-        log_message(f"✗ Timeout ao executar yt-dlp para a URL {url}")
-        return []
+def extract_with_json(url, timeout=120):
+    """
+    Extrai informações usando -j sem --flat-playlist (para vídeos únicos/streams).
     
-    except subprocess.CalledProcessError as e:
-        log_message(f"✗ Erro ao executar yt-dlp para a URL {url}")
-        log_message(f"Código de erro: {e.returncode}")
-        if e.stderr:
-            log_message(f"Stderr: {e.stderr}")
-        return []
+    Args:
+        url (str): URL a ser processada
+        timeout (int): Timeout em segundos
+        
+    Returns:
+        list: Lista com um dicionário contendo informações do vídeo/stream
+    """
+    try:
+        log_message(f"  Tentando método: -j (JSON completo)")
+        
+        result = subprocess.run(
+            ['yt-dlp', '-j', '--no-playlist', url],
+            capture_output=True,
+            text=True,
+            check=True,
+            timeout=timeout
+        )
+        
+        if not result.stdout.strip():
+            return []
+        
+        data = json.loads(result.stdout.strip())
+        return [data]
     
-    except FileNotFoundError:
-        log_message("="*60)
-        log_message("ERRO CRÍTICO: yt-dlp não está instalado no sistema.")
-        log_message("="*60)
-        log_message("Por favor, instale o yt-dlp com: pip install yt-dlp")
-        log_message("="*60)
-        sys.exit(1)
-    
-    except Exception as e:
-        log_message(f"✗ Erro inesperado: {type(e).__name__}: {e}")
+    except (subprocess.CalledProcessError, subprocess.TimeoutExpired, json.JSONDecodeError, Exception) as e:
+        log_message(f"  ✗ Método -j falhou: {type(e).__name__}")
         return []
+
+def extract_with_print_urls(url, timeout=120):
+    """
+    Extrai URL direta usando --print urls (fallback simples).
+    
+    Args:
+        url (str): URL a ser processada
+        timeout (int): Timeout em segundos
+        
+    Returns:
+        list: Lista com um dicionário contendo URL e título básico
+    """
+    try:
+        log_message(f"  Tentando método: --print urls")
+        
+        result = subprocess.run(
+            ['yt-dlp', '--print', 'urls', '--no-playlist', url],
+            capture_output=True,
+            text=True,
+            check=True,
+            timeout=timeout
+        )
+        
+        if not result.stdout.strip():
+            return []
+        
+        stream_url = result.stdout.strip().split('\n')[0]
+        
+        # Extrai nome do domínio para usar como título
+        domain = urlparse(url).netloc.replace('www.', '')
+        title = f"Stream from {domain}"
+        
+        return [{
+            'url': stream_url,
+            'title': title,
+            'thumbnail': 'N/A'
+        }]
+    
+    except (subprocess.CalledProcessError, subprocess.TimeoutExpired, Exception) as e:
+        log_message(f"  ✗ Método --print urls falhou: {type(e).__name__}")
+        return []
+
+def get_video_details(url):
+    """
+    Obtém os detalhes dos vídeos de uma URL usando estratégia multi-método.
+    
+    Args:
+        url (str): URL a ser processada
+        
+    Returns:
+        list: Lista de dicionários contendo detalhes dos vídeos (url, title, thumbnail)
+    """
+    log_message(f"Processando URL: {url}")
+    
+    # Detecta o tipo de URL
+    url_type = detect_url_type(url)
+    log_message(f"  Tipo detectado: {url_type}")
+    
+    details = []
+    
+    # Estratégia baseada no tipo de URL
+    if url_type == 'archive_collection':
+        # Archive.org: tenta --flat-playlist primeiro
+        details = extract_with_flat_playlist(url)
+        if not details:
+            details = extract_with_json(url)
+    
+    elif url_type == 'live_stream':
+        # Streams ao vivo: tenta -j primeiro, depois --print urls
+        details = extract_with_json(url)
+        if not details:
+            details = extract_with_print_urls(url)
+    
+    elif url_type == 'playlist':
+        # Playlists: tenta --flat-playlist primeiro
+        details = extract_with_flat_playlist(url)
+        if not details:
+            details = extract_with_json(url)
+    
+    else:
+        # Vídeos únicos: tenta -j primeiro
+        details = extract_with_json(url)
+        if not details:
+            details = extract_with_flat_playlist(url)
+        if not details:
+            details = extract_with_print_urls(url)
+    
+    # Log do resultado
+    if details:
+        log_message(f"  ✓ Extraídos {len(details)} item(s) com sucesso")
+    else:
+        log_message(f"  ✗ Nenhum item extraído")
+    
+    return details
 
 def write_m3u_file(details, filename):
     """
@@ -118,21 +246,25 @@ def write_m3u_file(details, filename):
             
             if not details:
                 log_message("⚠ Lista de vídeos vazia, criando arquivo M3U vazio")
-                file.write("# Nenhum vídeo encontrado\n")
+                file.write("# Nenhum vídeo/stream encontrado\n")
                 return
             
             # Adiciona os detalhes dos vídeos no formato M3U
             for entry in details:
                 video_url = entry.get('url')
                 thumbnail_url = entry.get('thumbnail', 'N/A')
-                title = entry.get('title', 'No Title')  # Obtém o título do vídeo
-
+                title = entry.get('title', 'No Title')
+                
+                # Se a URL estiver vazia, tenta pegar do campo 'webpage_url' ou 'id'
+                if not video_url:
+                    video_url = entry.get('webpage_url') or entry.get('id')
+                
                 if video_url:
                     # Formata e escreve o título e o URL no formato #EXTINF
                     file.write(f"#EXTINF:-1 tvg-logo=\"{thumbnail_url}\",{title}\n")
                     file.write(f"{video_url}\n")
                 else:
-                    log_message(f"⚠ URL do vídeo não encontrada para: {title}")
+                    log_message(f"  ⚠ URL não encontrada para: {title}")
         
         log_message(f"✓ Arquivo {filename} criado com sucesso")
         
@@ -191,25 +323,36 @@ def process_urls_from_file(input_file, output_file='lista30.M3U'):
     log_message("")
     
     # Processa cada URL
+    success_count = 0
+    fail_count = 0
+    
     for i, url in enumerate(urls, 1):
         log_message(f"[{i}/{len(urls)}] Processando: {url}")
         details = get_video_details(url)
         
         if details:
-            log_message(f"✓ Encontrados {len(details)} vídeo(s)")
-            all_details.extend(details)  # Acumula os detalhes
+            log_message(f"  ✓ Sucesso: {len(details)} item(s)")
+            all_details.extend(details)
+            success_count += 1
         else:
-            log_message(f"✗ Nenhum vídeo encontrado para esta URL")
+            log_message(f"  ✗ Falha: nenhum item extraído")
+            fail_count += 1
         log_message("")
     
     # Escreve o arquivo M3U (mesmo que vazio)
     write_m3u_file(all_details, output_file)
     
     log_message("="*60)
+    log_message(f"RESUMO DO PROCESSAMENTO:")
+    log_message(f"  URLs processadas: {len(urls)}")
+    log_message(f"  Sucessos: {success_count}")
+    log_message(f"  Falhas: {fail_count}")
+    log_message(f"  Total de itens extraídos: {len(all_details)}")
+    
     if all_details:
-        log_message(f"✓ SUCESSO: Arquivo '{output_file}' criado com {len(all_details)} vídeo(s)")
+        log_message(f"✓ SUCESSO: Arquivo '{output_file}' criado com {len(all_details)} item(s)")
     else:
-        log_message(f"⚠ AVISO: Arquivo '{output_file}' criado mas nenhum vídeo foi encontrado")
+        log_message(f"⚠ AVISO: Arquivo '{output_file}' criado mas nenhum item foi encontrado")
     log_message("="*60)
     
     # Verifica se o arquivo foi realmente criado
@@ -222,8 +365,8 @@ def process_urls_from_file(input_file, output_file='lista30.M3U'):
 def main():
     """Função principal do programa."""
     log_message("="*60)
-    log_message("Gerador de Playlist M3U para Archive.org")
-    log_message("Versão com logs para GitHub Actions")
+    log_message("Gerador Universal de Playlist M3U")
+    log_message("Suporta Archive.org, Streams ao vivo, e qualquer site do yt-dlp")
     log_message("="*60)
     log_message("")
     
@@ -244,6 +387,20 @@ def main():
     log_message(f"  - Entrada: {input_file}")
     log_message(f"  - Saída: {output_file}")
     log_message(f"  - Diretório: {os.getcwd()}")
+    log_message("")
+    
+    # Verifica se yt-dlp está instalado
+    try:
+        result = subprocess.run(['yt-dlp', '--version'], capture_output=True, text=True)
+        log_message(f"yt-dlp versão: {result.stdout.strip()}")
+    except FileNotFoundError:
+        log_message("="*60)
+        log_message("ERRO CRÍTICO: yt-dlp não está instalado no sistema.")
+        log_message("="*60)
+        log_message("Por favor, instale o yt-dlp com: pip install yt-dlp")
+        log_message("="*60)
+        sys.exit(1)
+    
     log_message("")
     
     # Processa URLs do arquivo
