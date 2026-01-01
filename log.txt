@@ -1,72 +1,120 @@
-[2026-01-01 07:22:22] ============================================================
-[2026-01-01 07:22:22] Gerador de Playlist M3U para Archive.org
-[2026-01-01 07:22:22] Versão com logs para GitHub Actions
-[2026-01-01 07:22:22] ============================================================
-[2026-01-01 07:22:22] 
-[2026-01-01 07:22:22] Configuração:
-[2026-01-01 07:22:22]   - Entrada: ia.txt
-[2026-01-01 07:22:22]   - Saída: lista30.M3U
-[2026-01-01 07:22:22]   - Diretório: /home/runner/work/1/1
-[2026-01-01 07:22:22] 
-[2026-01-01 07:22:22] ============================================================
-[2026-01-01 07:22:22] INICIANDO PROCESSAMENTO
-[2026-01-01 07:22:22] ============================================================
-[2026-01-01 07:22:22] ✓ Arquivo de entrada encontrado: ia.txt
-[2026-01-01 07:22:22] Total de linhas lidas: 5
-[2026-01-01 07:22:22] Encontradas 5 URL(s) válida(s) para processar
-[2026-01-01 07:22:22] 
-[2026-01-01 07:22:22] [1/5] Processando: https://www.rtp.pt/play/p14263/telejornal
-[2026-01-01 07:22:22] Executando yt-dlp para: https://www.rtp.pt/play/p14263/telejornal
-[2026-01-01 07:22:25] ✗ Erro ao executar yt-dlp para a URL https://www.rtp.pt/play/p14263/telejornal
-[2026-01-01 07:22:25] Código de erro: 1
-[2026-01-01 07:22:25] Stderr: WARNING: [generic] Falling back on generic information extractor
+[2026-01-01 07:24:52] ============================================================
+[2026-01-01 07:24:52] Gerador de Playlist M3U para Archive.org
+[2026-01-01 07:24:52] Versão com logs para GitHub Actions
+[2026-01-01 07:24:52] ============================================================
+[2026-01-01 07:24:52] 
+[2026-01-01 07:24:52] Configuração:
+[2026-01-01 07:24:52]   - Entrada: ia.txt
+[2026-01-01 07:24:52]   - Saída: lista30.M3U
+[2026-01-01 07:24:52]   - Diretório: /home/runner/work/1/1
+[2026-01-01 07:24:52] 
+[2026-01-01 07:24:52] ============================================================
+[2026-01-01 07:24:52] INICIANDO PROCESSAMENTO
+[2026-01-01 07:24:52] ============================================================
+[2026-01-01 07:24:52] ✓ Arquivo de entrada encontrado: ia.txt
+[2026-01-01 07:24:52] Total de linhas lidas: 11
+[2026-01-01 07:24:52] Encontradas 11 URL(s) válida(s) para processar
+[2026-01-01 07:24:52] 
+[2026-01-01 07:24:52] [1/11] Processando: https://www.rtp.pt/play/p14263/telejornal
+[2026-01-01 07:24:52] Executando yt-dlp para: https://www.rtp.pt/play/p14263/telejornal
+[2026-01-01 07:24:54] ✗ Erro ao executar yt-dlp para a URL https://www.rtp.pt/play/p14263/telejornal
+[2026-01-01 07:24:54] Código de erro: 1
+[2026-01-01 07:24:54] Stderr: WARNING: [generic] Falling back on generic information extractor
 ERROR: Unsupported URL: https://www.rtp.pt/play/p14263/telejornal
 
-[2026-01-01 07:22:25] ✗ Nenhum vídeo encontrado para esta URL
-[2026-01-01 07:22:25] 
-[2026-01-01 07:22:25] [2/5] Processando: https://www.rtp.pt/play/direto/rtp1
-[2026-01-01 07:22:25] Executando yt-dlp para: https://www.rtp.pt/play/direto/rtp1
-[2026-01-01 07:22:26] ✗ Erro ao executar yt-dlp para a URL https://www.rtp.pt/play/direto/rtp1
-[2026-01-01 07:22:26] Código de erro: 1
-[2026-01-01 07:22:26] Stderr: WARNING: [generic] Falling back on generic information extractor
+[2026-01-01 07:24:54] ✗ Nenhum vídeo encontrado para esta URL
+[2026-01-01 07:24:54] 
+[2026-01-01 07:24:54] [2/11] Processando: https://www.rtp.pt/play/direto/rtp1
+[2026-01-01 07:24:54] Executando yt-dlp para: https://www.rtp.pt/play/direto/rtp1
+[2026-01-01 07:24:56] ✗ Erro ao executar yt-dlp para a URL https://www.rtp.pt/play/direto/rtp1
+[2026-01-01 07:24:56] Código de erro: 1
+[2026-01-01 07:24:56] Stderr: WARNING: [generic] Falling back on generic information extractor
 ERROR: Unsupported URL: https://www.rtp.pt/play/direto/rtp1
 
-[2026-01-01 07:22:26] ✗ Nenhum vídeo encontrado para esta URL
-[2026-01-01 07:22:26] 
-[2026-01-01 07:22:26] [3/5] Processando: https://www.rtp.pt/play/direto/rtp2
-[2026-01-01 07:22:26] Executando yt-dlp para: https://www.rtp.pt/play/direto/rtp2
-[2026-01-01 07:22:27] ✗ Erro ao executar yt-dlp para a URL https://www.rtp.pt/play/direto/rtp2
-[2026-01-01 07:22:27] Código de erro: 1
-[2026-01-01 07:22:27] Stderr: WARNING: [generic] Falling back on generic information extractor
+[2026-01-01 07:24:56] ✗ Nenhum vídeo encontrado para esta URL
+[2026-01-01 07:24:56] 
+[2026-01-01 07:24:56] [3/11] Processando: https://www.rtp.pt/play/direto/rtp2
+[2026-01-01 07:24:56] Executando yt-dlp para: https://www.rtp.pt/play/direto/rtp2
+[2026-01-01 07:24:57] ✗ Erro ao executar yt-dlp para a URL https://www.rtp.pt/play/direto/rtp2
+[2026-01-01 07:24:57] Código de erro: 1
+[2026-01-01 07:24:57] Stderr: WARNING: [generic] Falling back on generic information extractor
 ERROR: Unsupported URL: https://www.rtp.pt/play/direto/rtp2
 
-[2026-01-01 07:22:27] ✗ Nenhum vídeo encontrado para esta URL
-[2026-01-01 07:22:27] 
-[2026-01-01 07:22:27] [4/5] Processando: https://www.rtp.pt/play/direto/rtp3
-[2026-01-01 07:22:27] Executando yt-dlp para: https://www.rtp.pt/play/direto/rtp3
-[2026-01-01 07:22:29] ✗ Erro ao executar yt-dlp para a URL https://www.rtp.pt/play/direto/rtp3
-[2026-01-01 07:22:29] Código de erro: 1
-[2026-01-01 07:22:29] Stderr: WARNING: [generic] Falling back on generic information extractor
+[2026-01-01 07:24:57] ✗ Nenhum vídeo encontrado para esta URL
+[2026-01-01 07:24:57] 
+[2026-01-01 07:24:57] [4/11] Processando: https://www.rtp.pt/play/direto/rtp3
+[2026-01-01 07:24:57] Executando yt-dlp para: https://www.rtp.pt/play/direto/rtp3
+[2026-01-01 07:24:58] ✗ Erro ao executar yt-dlp para a URL https://www.rtp.pt/play/direto/rtp3
+[2026-01-01 07:24:58] Código de erro: 1
+[2026-01-01 07:24:58] Stderr: WARNING: [generic] Falling back on generic information extractor
 ERROR: Unsupported URL: https://www.rtp.pt/play/direto/rtp3
 
-[2026-01-01 07:22:29] ✗ Nenhum vídeo encontrado para esta URL
-[2026-01-01 07:22:29] 
-[2026-01-01 07:22:29] [5/5] Processando: https://www.rtp.pt/play/direto/rtpmemoria
-[2026-01-01 07:22:29] Executando yt-dlp para: https://www.rtp.pt/play/direto/rtpmemoria
-[2026-01-01 07:22:30] ✗ Erro ao executar yt-dlp para a URL https://www.rtp.pt/play/direto/rtpmemoria
-[2026-01-01 07:22:30] Código de erro: 1
-[2026-01-01 07:22:30] Stderr: WARNING: [generic] Falling back on generic information extractor
+[2026-01-01 07:24:58] ✗ Nenhum vídeo encontrado para esta URL
+[2026-01-01 07:24:58] 
+[2026-01-01 07:24:58] [5/11] Processando: https://www.rtp.pt/play/direto/rtpmemoria
+[2026-01-01 07:24:58] Executando yt-dlp para: https://www.rtp.pt/play/direto/rtpmemoria
+[2026-01-01 07:25:00] ✗ Erro ao executar yt-dlp para a URL https://www.rtp.pt/play/direto/rtpmemoria
+[2026-01-01 07:25:00] Código de erro: 1
+[2026-01-01 07:25:00] Stderr: WARNING: [generic] Falling back on generic information extractor
 ERROR: Unsupported URL: https://www.rtp.pt/play/direto/rtpmemoria
 
-[2026-01-01 07:22:30] ✗ Nenhum vídeo encontrado para esta URL
-[2026-01-01 07:22:30] 
-[2026-01-01 07:22:30] Criando arquivo M3U: lista30.M3U
-[2026-01-01 07:22:30] ⚠ Lista de vídeos vazia, criando arquivo M3U vazio
-[2026-01-01 07:22:30] ============================================================
-[2026-01-01 07:22:30] ⚠ AVISO: Arquivo 'lista30.M3U' criado mas nenhum vídeo foi encontrado
-[2026-01-01 07:22:30] ============================================================
-[2026-01-01 07:22:30] ✓ Arquivo confirmado: lista30.M3U (35 bytes)
-[2026-01-01 07:22:30] 
-[2026-01-01 07:22:30] ============================================================
-[2026-01-01 07:22:30] PROCESSAMENTO FINALIZADO
-[2026-01-01 07:22:30] ============================================================
+[2026-01-01 07:25:00] ✗ Nenhum vídeo encontrado para esta URL
+[2026-01-01 07:25:00] 
+[2026-01-01 07:25:00] [6/11] Processando: https://tviplayer.iol.pt/direto/tvi
+[2026-01-01 07:25:00] Executando yt-dlp para: https://tviplayer.iol.pt/direto/tvi
+[2026-01-01 07:25:01] ✗ Erro ao executar yt-dlp para a URL https://tviplayer.iol.pt/direto/tvi
+[2026-01-01 07:25:01] Código de erro: 1
+[2026-01-01 07:25:01] Stderr: ERROR: [TVIPlayer] tvi: Unable to extract json_data; please report this issue on  https://github.com/yt-dlp/yt-dlp/issues?q= , filling out the appropriate issue template. Confirm you are on the latest version using  yt-dlp -U
+
+[2026-01-01 07:25:01] ✗ Nenhum vídeo encontrado para esta URL
+[2026-01-01 07:25:01] 
+[2026-01-01 07:25:01] [7/11] Processando: https://tviplayer.iol.pt/direto/cnn
+[2026-01-01 07:25:01] Executando yt-dlp para: https://tviplayer.iol.pt/direto/cnn
+[2026-01-01 07:25:02] ✗ Erro ao executar yt-dlp para a URL https://tviplayer.iol.pt/direto/cnn
+[2026-01-01 07:25:02] Código de erro: 1
+[2026-01-01 07:25:02] Stderr: ERROR: [TVIPlayer] cnn: Unable to extract json_data; please report this issue on  https://github.com/yt-dlp/yt-dlp/issues?q= , filling out the appropriate issue template. Confirm you are on the latest version using  yt-dlp -U
+
+[2026-01-01 07:25:02] ✗ Nenhum vídeo encontrado para esta URL
+[2026-01-01 07:25:02] 
+[2026-01-01 07:25:02] [8/11] Processando: https://tviplayer.iol.pt/direto/tvificcao
+[2026-01-01 07:25:02] Executando yt-dlp para: https://tviplayer.iol.pt/direto/tvificcao
+[2026-01-01 07:25:04] ✗ Erro ao executar yt-dlp para a URL https://tviplayer.iol.pt/direto/tvificcao
+[2026-01-01 07:25:04] Código de erro: 1
+[2026-01-01 07:25:04] Stderr: ERROR: [TVIPlayer] tvificcao: Unable to extract json_data; please report this issue on  https://github.com/yt-dlp/yt-dlp/issues?q= , filling out the appropriate issue template. Confirm you are on the latest version using  yt-dlp -U
+
+[2026-01-01 07:25:04] ✗ Nenhum vídeo encontrado para esta URL
+[2026-01-01 07:25:04] 
+[2026-01-01 07:25:04] [9/11] Processando: https://tviplayer.iol.pt/direto/tvireality
+[2026-01-01 07:25:04] Executando yt-dlp para: https://tviplayer.iol.pt/direto/tvireality
+[2026-01-01 07:25:05] ✗ Erro ao executar yt-dlp para a URL https://tviplayer.iol.pt/direto/tvireality
+[2026-01-01 07:25:05] Código de erro: 1
+[2026-01-01 07:25:05] Stderr: ERROR: [TVIPlayer] tvireality: Unable to extract json_data; please report this issue on  https://github.com/yt-dlp/yt-dlp/issues?q= , filling out the appropriate issue template. Confirm you are on the latest version using  yt-dlp -U
+
+[2026-01-01 07:25:05] ✗ Nenhum vídeo encontrado para esta URL
+[2026-01-01 07:25:05] 
+[2026-01-01 07:25:05] [10/11] Processando: https://tviplayer.iol.pt/direto/vmais
+[2026-01-01 07:25:05] Executando yt-dlp para: https://tviplayer.iol.pt/direto/vmais
+[2026-01-01 07:25:07] ✗ Erro ao executar yt-dlp para a URL https://tviplayer.iol.pt/direto/vmais
+[2026-01-01 07:25:07] Código de erro: 1
+[2026-01-01 07:25:07] Stderr: ERROR: [TVIPlayer] vmais: Unable to extract json_data; please report this issue on  https://github.com/yt-dlp/yt-dlp/issues?q= , filling out the appropriate issue template. Confirm you are on the latest version using  yt-dlp -U
+
+[2026-01-01 07:25:07] ✗ Nenhum vídeo encontrado para esta URL
+[2026-01-01 07:25:07] 
+[2026-01-01 07:25:07] [11/11] Processando: https://tviplayer.iol.pt/direto/tviinternacional
+[2026-01-01 07:25:07] Executando yt-dlp para: https://tviplayer.iol.pt/direto/tviinternacional
+[2026-01-01 07:25:08] ✗ Erro ao executar yt-dlp para a URL https://tviplayer.iol.pt/direto/tviinternacional
+[2026-01-01 07:25:08] Código de erro: 1
+[2026-01-01 07:25:08] Stderr: ERROR: [TVIPlayer] tviinternacional: Unable to extract json_data; please report this issue on  https://github.com/yt-dlp/yt-dlp/issues?q= , filling out the appropriate issue template. Confirm you are on the latest version using  yt-dlp -U
+
+[2026-01-01 07:25:08] ✗ Nenhum vídeo encontrado para esta URL
+[2026-01-01 07:25:08] 
+[2026-01-01 07:25:08] Criando arquivo M3U: lista30.M3U
+[2026-01-01 07:25:08] ⚠ Lista de vídeos vazia, criando arquivo M3U vazio
+[2026-01-01 07:25:08] ============================================================
+[2026-01-01 07:25:08] ⚠ AVISO: Arquivo 'lista30.M3U' criado mas nenhum vídeo foi encontrado
+[2026-01-01 07:25:08] ============================================================
+[2026-01-01 07:25:08] ✓ Arquivo confirmado: lista30.M3U (35 bytes)
+[2026-01-01 07:25:08] 
+[2026-01-01 07:25:08] ============================================================
+[2026-01-01 07:25:08] PROCESSAMENTO FINALIZADO
+[2026-01-01 07:25:08] ============================================================
