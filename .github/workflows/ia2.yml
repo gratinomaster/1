@@ -2,7 +2,7 @@ name: Baixando Lista
 
 on:
   schedule:
-    - cron: '*/50 * * * *'  # Schedule to run every 30 minutes
+    - cron: '*/50 * * * *'  # Executa a cada 50 minutos
   pull_request:
     branches:
       - main
@@ -14,44 +14,136 @@ jobs:
 
     steps:
     - name: Checkout Repositório
-      uses: actions/checkout@v4  # Updated to use a newer version
+      uses: actions/checkout@v4
 
     - name: Configurar Git
       run: |
         git config --global user.email "action@github.com"
         git config --global user.name "GitHub Action"
 
-    - name: Deletar Log
+    - name: Deletar Log Antigo
       run: |
-        rm -rf ./log.txt
+        rm -rf ./log.txt || echo "Log não existe, continuando..."
 
     - name: Instalando dependências
       run: |
-        # Install required Python dependencies
+        echo "Instalando dependências Python..."
         python3 -m pip install --upgrade pip
-        python3 -m pip install internetarchive streamlink selenium requests beautifulsoup4 lxml python-dateutil yt-dlp youtube-dl pytz
+        python3 -m pip install yt-dlp
+        echo "✓ Dependências instaladas"
 
-        
-    - name: Verificar versão do Python
+    - name: Verificar versão do Python e yt-dlp
       run: |
+        echo "Versão do Python:"
         python3 --version
+        echo ""
+        echo "Versão do yt-dlp:"
+        yt-dlp --version
+        echo ""
+        echo "Diretório atual:"
+        pwd
+        echo ""
+        echo "Arquivos no diretório:"
+        ls -la
 
-
-    - name: Rodar script YT.py
+    - name: Verificar arquivo ia.txt
       run: |
-        # Navega até a pasta scripts e executa o script YT.py
+        echo "Verificando se ia.txt existe..."
+        if [ -f ia.txt ]; then
+          echo "✓ Arquivo ia.txt encontrado"
+          echo "Conteúdo do ia.txt:"
+          cat ia.txt
+          echo ""
+          echo "Total de linhas: $(wc -l < ia.txt)"
+        else
+          echo "✗ AVISO: Arquivo ia.txt não encontrado!"
+          echo "Criando ia.txt com URLs de exemplo..."
+          cat > ia.txt << 'EOF'
+        # URLs do Archive.org para processar
+        https://archive.org/details/globo-e-record-novelas-e-variados-2005-2006-e-2010-fita-vhs
+        https://archive.org/details/globo-tv-gazeta-sao-paulo-e-redetv-ano-2007-em-fita-vhs
+        EOF
+          echo "✓ Arquivo ia.txt criado"
+        fi
+
+    - name: Verificar lista30.M3U antes da execução
+      run: |
+        echo "Estado do lista30.M3U ANTES da execução:"
+        if [ -f lista30.M3U ]; then
+          echo "✓ Arquivo existe"
+          echo "Tamanho: $(wc -c < lista30.M3U) bytes"
+          echo "Linhas: $(wc -l < lista30.M3U)"
+          echo "Última modificação: $(stat -c %y lista30.M3U)"
+          echo ""
+          echo "Primeiras 10 linhas:"
+          head -10 lista30.M3U
+        else
+          echo "✗ Arquivo não existe ainda"
+        fi
+        echo ""
+
+    - name: Rodar script ia2.py
+      run: |
+        echo "Executando ia2.py..."
         python3 ia2.py
+        echo ""
+        echo "Script finalizado com código: $?"
+
+    - name: Verificar lista30.M3U depois da execução
+      run: |
+        echo "Estado do lista30.M3U DEPOIS da execução:"
+        if [ -f lista30.M3U ]; then
+          echo "✓ Arquivo existe"
+          echo "Tamanho: $(wc -c < lista30.M3U) bytes"
+          echo "Linhas: $(wc -l < lista30.M3U)"
+          echo "Última modificação: $(stat -c %y lista30.M3U)"
+          echo ""
+          echo "Conteúdo completo:"
+          cat lista30.M3U
+        else
+          echo "✗ ERRO: Arquivo não foi criado!"
+          exit 1
+        fi
+        echo ""
+
+    - name: Verificar log.txt
+      run: |
+        echo "Verificando log de execução:"
+        if [ -f log.txt ]; then
+          echo "✓ Log encontrado"
+          echo ""
+          echo "Conteúdo do log.txt:"
+          cat log.txt
+        else
+          echo "✗ AVISO: Log não foi criado"
+        fi
+        echo ""
+
+    - name: Verificar mudanças no Git
+      run: |
+        echo "Verificando mudanças no repositório:"
+        git status
+        echo ""
+        echo "Diferenças:"
+        git diff lista30.M3U || echo "Arquivo é novo ou sem diferenças"
 
     - name: Adicionar Mudanças ao Controle de Versão
       run: |
-        git add -A
+        echo "Adicionando arquivos ao Git..."
+        git add lista30.M3U log.txt ia.txt
         git status
 
     - name: Garantir alterações mais recentes do repositório remoto
       run: |
-        git pull origin main || echo "Erro ao fazer pull, pode ser que já tenha as últimas alterações."
+        echo "Sincronizando com repositório remoto..."
+        git pull origin main --rebase || echo "Erro ao fazer pull, pode ser que já tenha as últimas alterações."
 
     - name: Commit e Push
       run: |
-        git commit -m "FOI FOI FOI" || echo "Nenhuma mudança para commitar."
+        echo "Fazendo commit das mudanças..."
+        git diff --cached --quiet && echo "Nenhuma mudança para commitar." || git commit -m "🤖 Atualização automática da playlist M3U - $(date '+%Y-%m-%d %H:%M:%S')"
+        
+        echo "Enviando para o repositório remoto..."
         git push origin main || echo "Erro ao fazer push. Pode ser necessário revisar conflitos."
+        
+        echo "✓ Processo finalizado"
