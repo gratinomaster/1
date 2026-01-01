@@ -1,127 +1,72 @@
-[2026-01-01 07:19:21] ============================================================
-[2026-01-01 07:19:21] Gerador de Playlist M3U para Archive.org
-[2026-01-01 07:19:21] Versão com logs para GitHub Actions
-[2026-01-01 07:19:21] ============================================================
-[2026-01-01 07:19:21] 
-[2026-01-01 07:19:21] Configuração:
-[2026-01-01 07:19:21]   - Entrada: ia.txt
-[2026-01-01 07:19:21]   - Saída: lista30.M3U
-[2026-01-01 07:19:21]   - Diretório: /home/runner/work/1/1
-[2026-01-01 07:19:21] 
-[2026-01-01 07:19:21] ============================================================
-[2026-01-01 07:19:21] INICIANDO PROCESSAMENTO
-[2026-01-01 07:19:21] ============================================================
-[2026-01-01 07:19:21] ✓ Arquivo de entrada encontrado: ia.txt
-[2026-01-01 07:19:21] Total de linhas lidas: 15
-[2026-01-01 07:19:21] Encontradas 14 URL(s) válida(s) para processar
-[2026-01-01 07:19:21] 
-[2026-01-01 07:19:21] [1/14] Processando: https://www.rtve.es/play/videos/directo/canales-lineales/la-1/
-[2026-01-01 07:19:21] Executando yt-dlp para: https://www.rtve.es/play/videos/directo/canales-lineales/la-1/
-[2026-01-01 07:19:22] ✗ Erro ao executar yt-dlp para a URL https://www.rtve.es/play/videos/directo/canales-lineales/la-1/
-[2026-01-01 07:19:22] Código de erro: 1
-[2026-01-01 07:19:22] Stderr: ERROR: [rtve.es:live] la-1: Unable to extract data_setup; please report this issue on  https://github.com/yt-dlp/yt-dlp/issues?q= , filling out the appropriate issue template. Confirm you are on the latest version using  yt-dlp -U
+[2026-01-01 07:22:22] ============================================================
+[2026-01-01 07:22:22] Gerador de Playlist M3U para Archive.org
+[2026-01-01 07:22:22] Versão com logs para GitHub Actions
+[2026-01-01 07:22:22] ============================================================
+[2026-01-01 07:22:22] 
+[2026-01-01 07:22:22] Configuração:
+[2026-01-01 07:22:22]   - Entrada: ia.txt
+[2026-01-01 07:22:22]   - Saída: lista30.M3U
+[2026-01-01 07:22:22]   - Diretório: /home/runner/work/1/1
+[2026-01-01 07:22:22] 
+[2026-01-01 07:22:22] ============================================================
+[2026-01-01 07:22:22] INICIANDO PROCESSAMENTO
+[2026-01-01 07:22:22] ============================================================
+[2026-01-01 07:22:22] ✓ Arquivo de entrada encontrado: ia.txt
+[2026-01-01 07:22:22] Total de linhas lidas: 5
+[2026-01-01 07:22:22] Encontradas 5 URL(s) válida(s) para processar
+[2026-01-01 07:22:22] 
+[2026-01-01 07:22:22] [1/5] Processando: https://www.rtp.pt/play/p14263/telejornal
+[2026-01-01 07:22:22] Executando yt-dlp para: https://www.rtp.pt/play/p14263/telejornal
+[2026-01-01 07:22:25] ✗ Erro ao executar yt-dlp para a URL https://www.rtp.pt/play/p14263/telejornal
+[2026-01-01 07:22:25] Código de erro: 1
+[2026-01-01 07:22:25] Stderr: WARNING: [generic] Falling back on generic information extractor
+ERROR: Unsupported URL: https://www.rtp.pt/play/p14263/telejornal
 
-[2026-01-01 07:19:22] ✗ Nenhum vídeo encontrado para esta URL
-[2026-01-01 07:19:22] 
-[2026-01-01 07:19:22] [2/14] Processando: https://www.rtve.es/play/videos/directo/canales-lineales/la-2/
-[2026-01-01 07:19:22] Executando yt-dlp para: https://www.rtve.es/play/videos/directo/canales-lineales/la-2/
-[2026-01-01 07:19:23] ✗ Erro ao executar yt-dlp para a URL https://www.rtve.es/play/videos/directo/canales-lineales/la-2/
-[2026-01-01 07:19:23] Código de erro: 1
-[2026-01-01 07:19:23] Stderr: ERROR: [rtve.es:live] la-2: Unable to extract data_setup; please report this issue on  https://github.com/yt-dlp/yt-dlp/issues?q= , filling out the appropriate issue template. Confirm you are on the latest version using  yt-dlp -U
+[2026-01-01 07:22:25] ✗ Nenhum vídeo encontrado para esta URL
+[2026-01-01 07:22:25] 
+[2026-01-01 07:22:25] [2/5] Processando: https://www.rtp.pt/play/direto/rtp1
+[2026-01-01 07:22:25] Executando yt-dlp para: https://www.rtp.pt/play/direto/rtp1
+[2026-01-01 07:22:26] ✗ Erro ao executar yt-dlp para a URL https://www.rtp.pt/play/direto/rtp1
+[2026-01-01 07:22:26] Código de erro: 1
+[2026-01-01 07:22:26] Stderr: WARNING: [generic] Falling back on generic information extractor
+ERROR: Unsupported URL: https://www.rtp.pt/play/direto/rtp1
 
-[2026-01-01 07:19:23] ✗ Nenhum vídeo encontrado para esta URL
-[2026-01-01 07:19:23] 
-[2026-01-01 07:19:23] [3/14] Processando: https://www.rtve.es/play/videos/directo/canales-lineales/la-2-cat/
-[2026-01-01 07:19:23] Executando yt-dlp para: https://www.rtve.es/play/videos/directo/canales-lineales/la-2-cat/
-[2026-01-01 07:19:25] ✗ Erro ao executar yt-dlp para a URL https://www.rtve.es/play/videos/directo/canales-lineales/la-2-cat/
-[2026-01-01 07:19:25] Código de erro: 1
-[2026-01-01 07:19:25] Stderr: ERROR: [rtve.es:live] la-2-cat: Unable to extract data_setup; please report this issue on  https://github.com/yt-dlp/yt-dlp/issues?q= , filling out the appropriate issue template. Confirm you are on the latest version using  yt-dlp -U
+[2026-01-01 07:22:26] ✗ Nenhum vídeo encontrado para esta URL
+[2026-01-01 07:22:26] 
+[2026-01-01 07:22:26] [3/5] Processando: https://www.rtp.pt/play/direto/rtp2
+[2026-01-01 07:22:26] Executando yt-dlp para: https://www.rtp.pt/play/direto/rtp2
+[2026-01-01 07:22:27] ✗ Erro ao executar yt-dlp para a URL https://www.rtp.pt/play/direto/rtp2
+[2026-01-01 07:22:27] Código de erro: 1
+[2026-01-01 07:22:27] Stderr: WARNING: [generic] Falling back on generic information extractor
+ERROR: Unsupported URL: https://www.rtp.pt/play/direto/rtp2
 
-[2026-01-01 07:19:25] ✗ Nenhum vídeo encontrado para esta URL
-[2026-01-01 07:19:25] 
-[2026-01-01 07:19:25] [4/14] Processando: https://www.rtve.es/play/videos/directo/canales-lineales/tdp/
-[2026-01-01 07:19:25] Executando yt-dlp para: https://www.rtve.es/play/videos/directo/canales-lineales/tdp/
-[2026-01-01 07:19:26] ✗ Erro ao executar yt-dlp para a URL https://www.rtve.es/play/videos/directo/canales-lineales/tdp/
-[2026-01-01 07:19:26] Código de erro: 1
-[2026-01-01 07:19:26] Stderr: ERROR: [rtve.es:live] tdp: Unable to extract data_setup; please report this issue on  https://github.com/yt-dlp/yt-dlp/issues?q= , filling out the appropriate issue template. Confirm you are on the latest version using  yt-dlp -U
+[2026-01-01 07:22:27] ✗ Nenhum vídeo encontrado para esta URL
+[2026-01-01 07:22:27] 
+[2026-01-01 07:22:27] [4/5] Processando: https://www.rtp.pt/play/direto/rtp3
+[2026-01-01 07:22:27] Executando yt-dlp para: https://www.rtp.pt/play/direto/rtp3
+[2026-01-01 07:22:29] ✗ Erro ao executar yt-dlp para a URL https://www.rtp.pt/play/direto/rtp3
+[2026-01-01 07:22:29] Código de erro: 1
+[2026-01-01 07:22:29] Stderr: WARNING: [generic] Falling back on generic information extractor
+ERROR: Unsupported URL: https://www.rtp.pt/play/direto/rtp3
 
-[2026-01-01 07:19:26] ✗ Nenhum vídeo encontrado para esta URL
-[2026-01-01 07:19:26] 
-[2026-01-01 07:19:26] [5/14] Processando: https://www.rtve.es/play/videos/directo/canales-lineales/24h/
-[2026-01-01 07:19:26] Executando yt-dlp para: https://www.rtve.es/play/videos/directo/canales-lineales/24h/
-[2026-01-01 07:19:27] ✗ Erro ao executar yt-dlp para a URL https://www.rtve.es/play/videos/directo/canales-lineales/24h/
-[2026-01-01 07:19:27] Código de erro: 1
-[2026-01-01 07:19:27] Stderr: ERROR: [rtve.es:live] 24h: Unable to extract data_setup; please report this issue on  https://github.com/yt-dlp/yt-dlp/issues?q= , filling out the appropriate issue template. Confirm you are on the latest version using  yt-dlp -U
+[2026-01-01 07:22:29] ✗ Nenhum vídeo encontrado para esta URL
+[2026-01-01 07:22:29] 
+[2026-01-01 07:22:29] [5/5] Processando: https://www.rtp.pt/play/direto/rtpmemoria
+[2026-01-01 07:22:29] Executando yt-dlp para: https://www.rtp.pt/play/direto/rtpmemoria
+[2026-01-01 07:22:30] ✗ Erro ao executar yt-dlp para a URL https://www.rtp.pt/play/direto/rtpmemoria
+[2026-01-01 07:22:30] Código de erro: 1
+[2026-01-01 07:22:30] Stderr: WARNING: [generic] Falling back on generic information extractor
+ERROR: Unsupported URL: https://www.rtp.pt/play/direto/rtpmemoria
 
-[2026-01-01 07:19:27] ✗ Nenhum vídeo encontrado para esta URL
-[2026-01-01 07:19:27] 
-[2026-01-01 07:19:27] [6/14] Processando: https://www.rtve.es/play/videos/directo/canales-lineales/rne-para-todos/
-[2026-01-01 07:19:27] Executando yt-dlp para: https://www.rtve.es/play/videos/directo/canales-lineales/rne-para-todos/
-[2026-01-01 07:19:28] ✗ Erro ao executar yt-dlp para a URL https://www.rtve.es/play/videos/directo/canales-lineales/rne-para-todos/
-[2026-01-01 07:19:28] Código de erro: 1
-[2026-01-01 07:19:28] Stderr: ERROR: [rtve.es:live] rne-para-todos: Unable to extract data_setup; please report this issue on  https://github.com/yt-dlp/yt-dlp/issues?q= , filling out the appropriate issue template. Confirm you are on the latest version using  yt-dlp -U
-
-[2026-01-01 07:19:28] ✗ Nenhum vídeo encontrado para esta URL
-[2026-01-01 07:19:28] 
-[2026-01-01 07:19:28] [7/14] Processando: https://www.rtve.es/play/videos/directo/canales-lineales/radio-3-webcam/
-[2026-01-01 07:19:28] Executando yt-dlp para: https://www.rtve.es/play/videos/directo/canales-lineales/radio-3-webcam/
-[2026-01-01 07:19:30] ✗ Erro ao executar yt-dlp para a URL https://www.rtve.es/play/videos/directo/canales-lineales/radio-3-webcam/
-[2026-01-01 07:19:30] Código de erro: 1
-[2026-01-01 07:19:30] Stderr: ERROR: [rtve.es:live] radio-3-webcam: Unable to extract data_setup; please report this issue on  https://github.com/yt-dlp/yt-dlp/issues?q= , filling out the appropriate issue template. Confirm you are on the latest version using  yt-dlp -U
-
-[2026-01-01 07:19:30] ✗ Nenhum vídeo encontrado para esta URL
-[2026-01-01 07:19:30] 
-[2026-01-01 07:19:30] [8/14] Processando: https://archive.org/details/fita-locomotion-2
-[2026-01-01 07:19:30] Executando yt-dlp para: https://archive.org/details/fita-locomotion-2
-[2026-01-01 07:19:30] ✗ Erro ao executar yt-dlp para a URL https://archive.org/details/fita-locomotion-2
-[2026-01-01 07:19:30] Código de erro: 1
-[2026-01-01 07:19:30] Stderr: ERROR: opening play-av tag not found
-
-[2026-01-01 07:19:30] ✗ Nenhum vídeo encontrado para esta URL
-[2026-01-01 07:19:30] 
-[2026-01-01 07:19:30] [9/14] Processando: https://archive.org/details/Filme1984GeorgeOrwellDubladoConhecimentoEhPoderByN1ngGg3n
-[2026-01-01 07:19:30] Executando yt-dlp para: https://archive.org/details/Filme1984GeorgeOrwellDubladoConhecimentoEhPoderByN1ngGg3n
-[2026-01-01 07:19:31] Processando 1 entrada(s) JSON...
-[2026-01-01 07:19:31] ✓ Extraídos 1 vídeo(s) com sucesso
-[2026-01-01 07:19:31] ✓ Encontrados 1 vídeo(s)
-[2026-01-01 07:19:31] 
-[2026-01-01 07:19:31] [10/14] Processando: https://archive.org/details/globo-e-record-novelas-e-variados-2005-2006-e-2010-fita-vhs
-[2026-01-01 07:19:31] Executando yt-dlp para: https://archive.org/details/globo-e-record-novelas-e-variados-2005-2006-e-2010-fita-vhs
-[2026-01-01 07:19:32] Processando 3 entrada(s) JSON...
-[2026-01-01 07:19:32] ✓ Extraídos 3 vídeo(s) com sucesso
-[2026-01-01 07:19:32] ✓ Encontrados 3 vídeo(s)
-[2026-01-01 07:19:32] 
-[2026-01-01 07:19:32] [11/14] Processando: https://archive.org/details/globo-tv-gazeta-sao-paulo-e-redetv-ano-2007-em-fita-vhs
-[2026-01-01 07:19:32] Executando yt-dlp para: https://archive.org/details/globo-tv-gazeta-sao-paulo-e-redetv-ano-2007-em-fita-vhs
-[2026-01-01 07:19:33] Processando 4 entrada(s) JSON...
-[2026-01-01 07:19:33] ✓ Extraídos 4 vídeo(s) com sucesso
-[2026-01-01 07:19:33] ✓ Encontrados 4 vídeo(s)
-[2026-01-01 07:19:33] 
-[2026-01-01 07:19:33] [12/14] Processando: https://archive.org/details/o_aprendiz_2_2o_e_3o_episodio_tv_pampa_30_06_2005
-[2026-01-01 07:19:33] Executando yt-dlp para: https://archive.org/details/o_aprendiz_2_2o_e_3o_episodio_tv_pampa_30_06_2005
-[2026-01-01 07:19:34] Processando 1 entrada(s) JSON...
-[2026-01-01 07:19:34] ✓ Extraídos 1 vídeo(s) com sucesso
-[2026-01-01 07:19:34] ✓ Encontrados 1 vídeo(s)
-[2026-01-01 07:19:34] 
-[2026-01-01 07:19:34] [13/14] Processando: https://archive.org/details/intervalos-bbb-6-globo-16-02-2006
-[2026-01-01 07:19:34] Executando yt-dlp para: https://archive.org/details/intervalos-bbb-6-globo-16-02-2006
-[2026-01-01 07:19:35] Processando 1 entrada(s) JSON...
-[2026-01-01 07:19:35] ✓ Extraídos 1 vídeo(s) com sucesso
-[2026-01-01 07:19:35] ✓ Encontrados 1 vídeo(s)
-[2026-01-01 07:19:35] 
-[2026-01-01 07:19:35] [14/14] Processando: https://archive.org/details/intervalos_o_aprendiz_record_21_e_23_12_2004
-[2026-01-01 07:19:35] Executando yt-dlp para: https://archive.org/details/intervalos_o_aprendiz_record_21_e_23_12_2004
-[2026-01-01 07:19:35] Processando 1 entrada(s) JSON...
-[2026-01-01 07:19:35] ✓ Extraídos 1 vídeo(s) com sucesso
-[2026-01-01 07:19:35] ✓ Encontrados 1 vídeo(s)
-[2026-01-01 07:19:35] 
-[2026-01-01 07:19:35] Criando arquivo M3U: lista30.M3U
-[2026-01-01 07:19:35] ✓ Arquivo lista30.M3U criado com sucesso
-[2026-01-01 07:19:35] ============================================================
-[2026-01-01 07:19:35] ✓ SUCESSO: Arquivo 'lista30.M3U' criado com 11 vídeo(s)
-[2026-01-01 07:19:35] ============================================================
-[2026-01-01 07:19:35] ✓ Arquivo confirmado: lista30.M3U (4085 bytes)
-[2026-01-01 07:19:35] 
-[2026-01-01 07:19:35] ============================================================
-[2026-01-01 07:19:35] PROCESSAMENTO FINALIZADO
-[2026-01-01 07:19:35] ============================================================
+[2026-01-01 07:22:30] ✗ Nenhum vídeo encontrado para esta URL
+[2026-01-01 07:22:30] 
+[2026-01-01 07:22:30] Criando arquivo M3U: lista30.M3U
+[2026-01-01 07:22:30] ⚠ Lista de vídeos vazia, criando arquivo M3U vazio
+[2026-01-01 07:22:30] ============================================================
+[2026-01-01 07:22:30] ⚠ AVISO: Arquivo 'lista30.M3U' criado mas nenhum vídeo foi encontrado
+[2026-01-01 07:22:30] ============================================================
+[2026-01-01 07:22:30] ✓ Arquivo confirmado: lista30.M3U (35 bytes)
+[2026-01-01 07:22:30] 
+[2026-01-01 07:22:30] ============================================================
+[2026-01-01 07:22:30] PROCESSAMENTO FINALIZADO
+[2026-01-01 07:22:30] ============================================================
