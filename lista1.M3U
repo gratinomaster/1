@@ -1,16 +1,16 @@
-#EXTM3U url-tvg="https://timbiriche.me/epg/brazil.xml.gz,https://raw.githubusercontent.com/LITUATUI/Geral/master/EPG/Geral.xml.gz,https://iptv-org.github.io/epg/guides/br/tvaulas.com.br.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_BR1.xml.gz,https://raw.githubusercontent.com/fglance/epg/main/guide.xml.gz"
+#EXTM3U url-tvg="https://timbiriche.me/epg/brazil.xml.gz,https://raw.githubusercontent.com/LITUATUI/Geral/master/EPG/Geral.xml.gz,https://iptv-org.github.io/epg/guides/br/tvaulas.com.br.xml.gz,https://raw.githubusercontent.com/fglance/epg/main/guide.xml.gz,https://raw.githubusercontent.com/dtv-history/epg/main/brazil.xml.gz"
 
-#EXTINF:-1 group-title="NEWS WORLD" tvg-id="CNN Brasil" tvg-name="CNN Brasil (Timbiriche)" tvg-logo="https://i.ibb.co/7kD8t97/cnn-brasil.png", CNN Brasil [Fonte 1]
+#EXTINF:-1 group-title="NEWS WORLD" tvg-id="CNN Brasil" tvg-name="CNN Brasil (Timbiriche)" tvg-logo="https://i.ibb.co/7kD8t97/cnn-brasil.png", CNN Brasil [Fonte: Timbiriche]
 https://d25usgadhphvwi.cloudfront.net/hls/main.m3u8
 
-#EXTINF:-1 group-title="NEWS WORLD" tvg-id="CNN BRASIL" tvg-name="CNN Brasil (Lituatui)" tvg-logo="https://i.ibb.co/7kD8t97/cnn-brasil.png", CNN Brasil [Fonte 2]
+#EXTINF:-1 group-title="NEWS WORLD" tvg-id="CNN BRASIL" tvg-name="CNN Brasil (Lituatui)" tvg-logo="https://i.ibb.co/7kD8t97/cnn-brasil.png", CNN Brasil [Fonte: Lituatui]
 https://d25usgadhphvwi.cloudfront.net/hls/main.m3u8
 
-#EXTINF:-1 group-title="NEWS WORLD" tvg-id="CNNBrasil.br" tvg-name="CNN Brasil (IPTV-org)" tvg-logo="https://i.ibb.co/7kD8t97/cnn-brasil.png", CNN Brasil [Fonte 3]
+#EXTINF:-1 group-title="NEWS WORLD" tvg-id="CNNBrasil.br" tvg-name="CNN Brasil (IPTV-org)" tvg-logo="https://i.ibb.co/7kD8t97/cnn-brasil.png", CNN Brasil [Fonte: IPTV-Org]
 https://d25usgadhphvwi.cloudfront.net/hls/main.m3u8
 
-#EXTINF:-1 group-title="NEWS WORLD" tvg-id="CNN.br" tvg-name="CNN Brasil (EPGShare)" tvg-logo="https://i.ibb.co/7kD8t97/cnn-brasil.png", CNN Brasil [Fonte 4]
+#EXTINF:-1 group-title="NEWS WORLD" tvg-id="CNN BRASIL HD" tvg-name="CNN Brasil (FGlance)" tvg-logo="https://i.ibb.co/7kD8t97/cnn-brasil.png", CNN Brasil [Fonte: FGlance]
 https://d25usgadhphvwi.cloudfront.net/hls/main.m3u8
 
-#EXTINF:-1 group-title="NEWS WORLD" tvg-id="CNN BRASIL HD" tvg-name="CNN Brasil (FGlance)" tvg-logo="https://i.ibb.co/7kD8t97/cnn-brasil.png", CNN Brasil [Fonte 5]
+#EXTINF:-1 group-title="NEWS WORLD" tvg-id="363" tvg-name="CNN Brasil (DTV)" tvg-logo="https://i.ibb.co/7kD8t97/cnn-brasil.png", CNN Brasil [Fonte: DTV History]
 https://d25usgadhphvwi.cloudfront.net/hls/main.m3u8
