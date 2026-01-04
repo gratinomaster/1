@@ -1,77 +1,77 @@
 #EXTM3U
-#EXTM3U url-tvg="https://timbiriche.me/epg/mexico.xml.gz,https://raw.githubusercontent.com/davidmuma/EPG_doble_m/master/guia.xml.gz,https://iptv-org.github.io/epg/guides/mx/directv.com.mx.xml.gz,https://raw.githubusercontent.com/HelmerLous/EPG/main/Guia.xml.gz,https://iptv-org.github.io/epg/guides/mx/mi.tv.xml.gz"
+#EXTM3U url-tvg="https://timbiriche.me/epg/mexico.xml.gz,https://raw.githubusercontent.com/LITUATUI/Geral/master/EPG/Geral.xml.gz,https://raw.githubusercontent.com/davidmuma/EPG_doble_m/master/guia.xml.gz,https://raw.githubusercontent.com/HelmerLous/EPG/main/Guia.xml.gz,https://raw.githubusercontent.com/dtv-history/epg/main/mexico.xml.gz"
 
-# --- TELEVISA TIJUANA ---
+# --- TELEVISA TIJUANA OFICIAL ---
 #EXTINF:-1 group-title="NEWS WORLD" tvg-id="Televisa Tijuana" tvg-logo="https://i.ytimg.com/vi/9YxepNnMge0/maxresdefault.jpg",Televisa Tijuana Oficial
-[LINK_TIJUANA]
+https://manifest.googlevideo.com/api/manifest/hls_playlist/...
 #EXTINF:-1 group-title="NEWS WORLD" tvg-id="XETV" tvg-logo="https://i.ytimg.com/vi/9YxepNnMge0/maxresdefault.jpg",Televisa Tijuana Oficial
-[LINK_TIJUANA]
-#EXTINF:-1 group-title="NEWS WORLD" tvg-id="TelevisaTijuana.mx" tvg-logo="https://i.ytimg.com/vi/9YxepNnMge0/maxresdefault.jpg",Televisa Tijuana Oficial
-[LINK_TIJUANA]
+https://manifest.googlevideo.com/api/manifest/hls_playlist/...
+#EXTINF:-1 group-title="NEWS WORLD" tvg-id="NMas_Tijuana" tvg-logo="https://i.ytimg.com/vi/9YxepNnMge0/maxresdefault.jpg",Televisa Tijuana Oficial
+https://manifest.googlevideo.com/api/manifest/hls_playlist/...
 #EXTINF:-1 group-title="NEWS WORLD" tvg-id="XETV-TDT" tvg-logo="https://i.ytimg.com/vi/9YxepNnMge0/maxresdefault.jpg",Televisa Tijuana Oficial
-[LINK_TIJUANA]
+https://manifest.googlevideo.com/api/manifest/hls_playlist/...
 #EXTINF:-1 group-title="NEWS WORLD" tvg-id="Televisa_Tijuana" tvg-logo="https://i.ytimg.com/vi/9YxepNnMge0/maxresdefault.jpg",Televisa Tijuana Oficial
-[LINK_TIJUANA]
-
-# --- TELEVISA VERACRUZ ---
-#EXTINF:-1 group-title="NEWS WORLD" tvg-id="Televisa Veracruz" tvg-logo="https://i.ytimg.com/vi/DVyt6W8Ak80/maxresdefault.jpg",Televisa Veracruz Oficial
-[LINK_VERACRUZ]
-#EXTINF:-1 group-title="NEWS WORLD" tvg-id="XHAI" tvg-logo="https://i.ytimg.com/vi/DVyt6W8Ak80/maxresdefault.jpg",Televisa Veracruz Oficial
-[LINK_VERACRUZ]
-#EXTINF:-1 group-title="NEWS WORLD" tvg-id="TelevisaVeracruz.mx" tvg-logo="https://i.ytimg.com/vi/DVyt6W8Ak80/maxresdefault.jpg",Televisa Veracruz Oficial
-[LINK_VERACRUZ]
-#EXTINF:-1 group-title="NEWS WORLD" tvg-id="XHAI-TDT" tvg-logo="https://i.ytimg.com/vi/DVyt6W8Ak80/maxresdefault.jpg",Televisa Veracruz Oficial
-[LINK_VERACRUZ]
-#EXTINF:-1 group-title="NEWS WORLD" tvg-id="NMas_Veracruz" tvg-logo="https://i.ytimg.com/vi/DVyt6W8Ak80/maxresdefault.jpg",Televisa Veracruz Oficial
-[LINK_VERACRUZ]
+https://manifest.googlevideo.com/api/manifest/hls_playlist/...
 
 # --- AZTECA NOTICIAS ---
 #EXTINF:-1 group-title="NEWS WORLD" tvg-id="Azteca Noticias" tvg-logo="https://i.ytimg.com/vi/0oFWDh_rqqc/maxresdefault.jpg",Azteca Noticias
-[LINK_AZTECA]
+https://manifest.googlevideo.com/api/manifest/hls_playlist/...
 #EXTINF:-1 group-title="NEWS WORLD" tvg-id="Azteca_Noticias" tvg-logo="https://i.ytimg.com/vi/0oFWDh_rqqc/maxresdefault.jpg",Azteca Noticias
-[LINK_AZTECA]
-#EXTINF:-1 group-title="NEWS WORLD" tvg-id="AztecaNoticias.mx" tvg-logo="https://i.ytimg.com/vi/0oFWDh_rqqc/maxresdefault.jpg",Azteca Noticias
-[LINK_AZTECA]
+https://manifest.googlevideo.com/api/manifest/hls_playlist/...
 #EXTINF:-1 group-title="NEWS WORLD" tvg-id="TV_Azteca_Noticias" tvg-logo="https://i.ytimg.com/vi/0oFWDh_rqqc/maxresdefault.jpg",Azteca Noticias
-[LINK_AZTECA]
-#EXTINF:-1 group-title="NEWS WORLD" tvg-id="Azteca_Noticias_MX" tvg-logo="https://i.ytimg.com/vi/0oFWDh_rqqc/maxresdefault.jpg",Azteca Noticias
-[LINK_AZTECA]
+https://manifest.googlevideo.com/api/manifest/hls_playlist/...
+#EXTINF:-1 group-title="NEWS WORLD" tvg-id="AztecaNoticias.mx" tvg-logo="https://i.ytimg.com/vi/0oFWDh_rqqc/maxresdefault.jpg",Azteca Noticias
+https://manifest.googlevideo.com/api/manifest/hls_playlist/...
+#EXTINF:-1 group-title="NEWS WORLD" tvg-id="725" tvg-logo="https://i.ytimg.com/vi/0oFWDh_rqqc/maxresdefault.jpg",Azteca Noticias
+https://manifest.googlevideo.com/api/manifest/hls_playlist/...
 
-# --- NOTICIAS CARACOL (COLOMBIA) ---
+# --- NOTICIAS CARACOL ---
 #EXTINF:-1 group-title="NEWS WORLD" tvg-id="Noticias Caracol" tvg-logo="https://i.ytimg.com/vi/ZA6YS0CYoTA/maxresdefault.jpg",Noticias Caracol
-[LINK_CARACOL]
+https://manifest.googlevideo.com/api/manifest/hls_playlist/...
 #EXTINF:-1 group-title="NEWS WORLD" tvg-id="Caracol_Noticias" tvg-logo="https://i.ytimg.com/vi/ZA6YS0CYoTA/maxresdefault.jpg",Noticias Caracol
-[LINK_CARACOL]
+https://manifest.googlevideo.com/api/manifest/hls_playlist/...
 #EXTINF:-1 group-title="NEWS WORLD" tvg-id="NoticiasCaracol.co" tvg-logo="https://i.ytimg.com/vi/ZA6YS0CYoTA/maxresdefault.jpg",Noticias Caracol
-[LINK_CARACOL]
-#EXTINF:-1 group-title="NEWS WORLD" tvg-id="Caracol_TV_Noticias" tvg-logo="https://i.ytimg.com/vi/ZA6YS0CYoTA/maxresdefault.jpg",Noticias Caracol
-[LINK_CARACOL]
-#EXTINF:-1 group-title="NEWS WORLD" tvg-id="CaracolNoticias" tvg-logo="https://i.ytimg.com/vi/ZA6YS0CYoTA/maxresdefault.jpg",Noticias Caracol
-[LINK_CARACOL]
+https://manifest.googlevideo.com/api/manifest/hls_playlist/...
+#EXTINF:-1 group-title="NEWS WORLD" tvg-id="Caracol_TV" tvg-logo="https://i.ytimg.com/vi/ZA6YS0CYoTA/maxresdefault.jpg",Noticias Caracol
+https://manifest.googlevideo.com/api/manifest/hls_playlist/...
+#EXTINF:-1 group-title="NEWS WORLD" tvg-id="CARACOL" tvg-logo="https://i.ytimg.com/vi/ZA6YS0CYoTA/maxresdefault.jpg",Noticias Caracol
+https://manifest.googlevideo.com/api/manifest/hls_playlist/...
 
 # --- FRANCE 24 ESPAÑOL ---
 #EXTINF:-1 group-title="NEWS WORLD" tvg-id="France 24" tvg-logo="https://i.ytimg.com/vi/Y-IlMeCCtIg/maxresdefault.jpg",FRANCE 24 Español
-[LINK_FRANCE24]
+https://manifest.googlevideo.com/api/manifest/hls_playlist/...
 #EXTINF:-1 group-title="NEWS WORLD" tvg-id="France24.es" tvg-logo="https://i.ytimg.com/vi/Y-IlMeCCtIg/maxresdefault.jpg",FRANCE 24 Español
-[LINK_FRANCE24]
+https://manifest.googlevideo.com/api/manifest/hls_playlist/...
 #EXTINF:-1 group-title="NEWS WORLD" tvg-id="France_24_Espanol" tvg-logo="https://i.ytimg.com/vi/Y-IlMeCCtIg/maxresdefault.jpg",FRANCE 24 Español
-[LINK_FRANCE24]
-#EXTINF:-1 group-title="NEWS WORLD" tvg-id="FRANCE_24_ES" tvg-logo="https://i.ytimg.com/vi/Y-IlMeCCtIg/maxresdefault.jpg",FRANCE 24 Español
-[LINK_FRANCE24]
+https://manifest.googlevideo.com/api/manifest/hls_playlist/...
+#EXTINF:-1 group-title="NEWS WORLD" tvg-id="FRANCE24_ES" tvg-logo="https://i.ytimg.com/vi/Y-IlMeCCtIg/maxresdefault.jpg",FRANCE 24 Español
+https://manifest.googlevideo.com/api/manifest/hls_playlist/...
 #EXTINF:-1 group-title="NEWS WORLD" tvg-id="France24Espanol" tvg-logo="https://i.ytimg.com/vi/Y-IlMeCCtIg/maxresdefault.jpg",FRANCE 24 Español
-[LINK_FRANCE24]
+https://manifest.googlevideo.com/api/manifest/hls_playlist/...
+
+# --- MULTIMEDIOS ---
+#EXTINF:-1 group-title="NEWS WORLD" tvg-id="Multimedios" tvg-logo="https://i.ytimg.com/vi/dSPw5mMkjCc/maxresdefault.jpg",MULTIMEDIOS
+https://manifest.googlevideo.com/api/manifest/hls_playlist/...
+#EXTINF:-1 group-title="NEWS WORLD" tvg-id="Multimedios_TV" tvg-logo="https://i.ytimg.com/vi/dSPw5mMkjCc/maxresdefault.jpg",MULTIMEDIOS
+https://manifest.googlevideo.com/api/manifest/hls_playlist/...
+#EXTINF:-1 group-title="NEWS WORLD" tvg-id="MULTIMEDIOS" tvg-logo="https://i.ytimg.com/vi/dSPw5mMkjCc/maxresdefault.jpg",MULTIMEDIOS
+https://manifest.googlevideo.com/api/manifest/hls_playlist/...
+#EXTINF:-1 group-title="NEWS WORLD" tvg-id="Canal6_Multimedios" tvg-logo="https://i.ytimg.com/vi/dSPw5mMkjCc/maxresdefault.jpg",MULTIMEDIOS
+https://manifest.googlevideo.com/api/manifest/hls_playlist/...
+#EXTINF:-1 group-title="NEWS WORLD" tvg-id="MultimediosTV.mx" tvg-logo="https://i.ytimg.com/vi/dSPw5mMkjCc/maxresdefault.jpg",MULTIMEDIOS
+https://manifest.googlevideo.com/api/manifest/hls_playlist/...
 
 # --- SBT NEWS ---
 #EXTINF:-1 group-title="NEWS WORLD" tvg-id="SBT News" tvg-logo="https://i.ytimg.com/vi/BjA-2wjguxU/maxresdefault.jpg",SBT News
-[LINK_SBTNEWS]
+https://manifest.googlevideo.com/api/manifest/hls_playlist/...
 #EXTINF:-1 group-title="NEWS WORLD" tvg-id="SBT_News" tvg-logo="https://i.ytimg.com/vi/BjA-2wjguxU/maxresdefault.jpg",SBT News
-[LINK_SBTNEWS]
+https://manifest.googlevideo.com/api/manifest/hls_playlist/...
 #EXTINF:-1 group-title="NEWS WORLD" tvg-id="SBTNews.br" tvg-logo="https://i.ytimg.com/vi/BjA-2wjguxU/maxresdefault.jpg",SBT News
-[LINK_SBTNEWS]
-#EXTINF:-1 group-title="NEWS WORLD" tvg-id="SBT_NOTICIAS" tvg-logo="https://i.ytimg.com/vi/BjA-2wjguxU/maxresdefault.jpg",SBT News
-[LINK_SBTNEWS]
+https://manifest.googlevideo.com/api/manifest/hls_playlist/...
 #EXTINF:-1 group-title="NEWS WORLD" tvg-id="SBT_Online" tvg-logo="https://i.ytimg.com/vi/BjA-2wjguxU/maxresdefault.jpg",SBT News
-[LINK_SBTNEWS]
+https://manifest.googlevideo.com/api/manifest/hls_playlist/...
+#EXTINF:-1 group-title="NEWS WORLD" tvg-id="SBT_NOTICIAS" tvg-logo="https://i.ytimg.com/vi/BjA-2wjguxU/maxresdefault.jpg",SBT News
+https://manifest.googlevideo.com/api/manifest/hls_playlist/...
 #EXTINF:-1 group-title="NEWS WORLD" tvg-id="Undefined" tvg-logo="https://i.ytimg.com/vi/8NWvzdeFCa4/maxresdefault.jpg",SBT Brasília Jornalismo
 https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1767554660/ei/BGpaaYa5KJiX2_gPnZCUyQY/ip/135.119.38.51/id/8NWvzdeFCa4.1/itag/301/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D299/rqh/1/hls_chunk_host/rr4---sn-vgqsknld.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/ss/1/siu/1/bui/AYUSA3CrUmWdJTUYZR3AF3KkRvdl88SqlGCVR1RoVU-ltq9NIVdOjvnGsVo-Y3W4YvifSP55YQ/spc/wH4Qq79PGLhWxllN6MJWZ0MU_n1Vq-Lde-xS9cOSqCpTf3XT9pSUFHhhtk2FRFZvNxU/vprv/1/ns/6UO2ROR8TKK7wkxOaNBky1oR/playlist_type/DVR/cps/0/met/1767533061,/mh/Bf/mm/44/mn/sn-vgqsknld/ms/lva/mv/u/mvi/4/pl/23/rms/lva,lva/dover/11/pacing/0/keepalive/yes/fexp/51355912,51552689,51565115,51565681,51580968,51626154/n/zP4aLkoLCWANDJXiaz/mt/1767532774/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,ss,siu,bui,spc,vprv,ns,playlist_type/sig/AJfQdSswRAIgMR7LsoDhpjx5g2Ed4P1TogK1OqJXAx4uOnSFxJztcN8CIFkoAnK5N1MKZD7N5r5tOgqfGZBF0Xn4-X0AQWSa59Kg/lsparams/hls_chunk_host,cps,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRAIgWl4Wf2c0HDmK-6DnvG_EJq_IO-fpBTzDpVqi9gZO96gCICpKc__rFAuceV_oRofIIHXvkp2W9SUwAc8pOkHLpePf/playlist/index.m3u8
 #EXTINF:-1 group-title="NEWS WORLD" tvg-id="Undefined" tvg-logo="https://i.ytimg.com/vi/9YxepNnMge0/maxresdefault.jpg",Televisa Tijuana Oficial
