@@ -15,3 +15,65 @@ https://amg00527-amg00527c5-amgplt0026.playout.now3.amagi.tv/ts-us-w2-n1/playlis
 
 #EXTINF:-1 group-title="NEWS WORLD" tvg-id="125" tvg-name="SBT News" tvg-logo="https://i.imgur.com/LnApLKd.png",SBT News
 https://amg00527-amg00527c5-amgplt0026.playout.now3.amagi.tv/ts-us-w2-n1/playlist/amg00527-amg00527c5-amgplt0026/playlist.m3u8
+
+#EXTM3U url-tvg="https://timbiriche.me/epg/usa.xml.gz,https://raw.githubusercontent.com/LITUATUI/Geral/master/EPG/Geral.xml.gz,https://raw.githubusercontent.com/davidmuma/EPG_doble_m/master/guia.xml.gz,https://raw.githubusercontent.com/HelmerLous/EPG/main/Guia.xml.gz,https://raw.githubusercontent.com/Tapiosat/EPG/master/guide.xml.gz"
+
+# --- ABC EAST ---
+#EXTINF:-1 group-title="USA" tvg-id="ABC East" tvg-name="ABC_EAST" tvg-logo="https://iili.io/JmoUd6g.png",ABC East
+http://fl1.moveonjoy.com/ABC_EAST/index.m3u8
+#EXTINF:-1 group-title="USA" tvg-id="ABC.us" tvg-name="ABC_EAST" tvg-logo="https://iili.io/JmoUd6g.png",ABC East
+http://fl1.moveonjoy.com/ABC_EAST/index.m3u8
+#EXTINF:-1 group-title="USA" tvg-id="WABC" tvg-name="ABC_EAST" tvg-logo="https://iili.io/JmoUd6g.png",ABC East
+http://fl1.moveonjoy.com/ABC_EAST/index.m3u8
+#EXTINF:-1 group-title="USA" tvg-id="ABC_EAST" tvg-name="ABC_EAST" tvg-logo="https://iili.io/JmoUd6g.png",ABC East
+http://fl1.moveonjoy.com/ABC_EAST/index.m3u8
+#EXTINF:-1 group-title="USA" tvg-id="ABC-E" tvg-name="ABC_EAST" tvg-logo="https://iili.io/JmoUd6g.png",ABC East
+http://fl1.moveonjoy.com/ABC_EAST/index.m3u8
+
+# --- CBS EAST ---
+#EXTINF:-1 group-title="USA" tvg-id="CBS East" tvg-name="CBS_EAST" tvg-logo="https://i.imgur.com/vHqXv2A.png",CBS East
+http://fl1.moveonjoy.com/CBS_EAST/index.m3u8
+#EXTINF:-1 group-title="USA" tvg-id="CBS.us" tvg-name="CBS_EAST" tvg-logo="https://i.imgur.com/vHqXv2A.png",CBS East
+http://fl1.moveonjoy.com/CBS_EAST/index.m3u8
+#EXTINF:-1 group-title="USA" tvg-id="WCBS" tvg-name="CBS_EAST" tvg-logo="https://i.imgur.com/vHqXv2A.png",CBS East
+http://fl1.moveonjoy.com/CBS_EAST/index.m3u8
+#EXTINF:-1 group-title="USA" tvg-id="CBS_EAST" tvg-name="CBS_EAST" tvg-logo="https://i.imgur.com/vHqXv2A.png",CBS East
+http://fl1.moveonjoy.com/CBS_EAST/index.m3u8
+#EXTINF:-1 group-title="USA" tvg-id="CBS-E" tvg-name="CBS_EAST" tvg-logo="https://i.imgur.com/vHqXv2A.png",CBS East
+http://fl1.moveonjoy.com/CBS_EAST/index.m3u8
+
+# --- NBC EAST ---
+#EXTINF:-1 group-title="USA" tvg-id="NBC East" tvg-name="NBC_EAST" tvg-logo="https://i.imgur.com/83p73Wp.png",NBC East
+http://fl1.moveonjoy.com/NBC_EAST/index.m3u8
+#EXTINF:-1 group-title="USA" tvg-id="NBC.us" tvg-name="NBC_EAST" tvg-logo="https://i.imgur.com/83p73Wp.png",NBC East
+http://fl1.moveonjoy.com/NBC_EAST/index.m3u8
+#EXTINF:-1 group-title="USA" tvg-id="WNBC" tvg-name="NBC_EAST" tvg-logo="https://i.imgur.com/83p73Wp.png",NBC East
+http://fl1.moveonjoy.com/NBC_EAST/index.m3u8
+#EXTINF:-1 group-title="USA" tvg-id="NBC_EAST" tvg-name="NBC_EAST" tvg-logo="https://i.imgur.com/83p73Wp.png",NBC East
+http://fl1.moveonjoy.com/NBC_EAST/index.m3u8
+#EXTINF:-1 group-title="USA" tvg-id="NBC-E" tvg-name="NBC_EAST" tvg-logo="https://i.imgur.com/83p73Wp.png",NBC East
+http://fl1.moveonjoy.com/NBC_EAST/index.m3u8
+
+# --- FOX EAST ---
+#EXTINF:-1 group-title="USA" tvg-id="FOX East" tvg-name="FOX_EAST" tvg-logo="https://i.imgur.com/f0m8Vj6.png",FOX East
+http://fl1.moveonjoy.com/FOX_EAST/index.m3u8
+#EXTINF:-1 group-title="USA" tvg-id="FOX.us" tvg-name="FOX_EAST" tvg-logo="https://i.imgur.com/f0m8Vj6.png",FOX East
+http://fl1.moveonjoy.com/FOX_EAST/index.m3u8
+#EXTINF:-1 group-title="USA" tvg-id="WNYW" tvg-name="FOX_EAST" tvg-logo="https://i.imgur.com/f0m8Vj6.png",FOX East
+http://fl1.moveonjoy.com/FOX_EAST/index.m3u8
+#EXTINF:-1 group-title="USA" tvg-id="FOX_EAST" tvg-name="FOX_EAST" tvg-logo="https://i.imgur.com/f0m8Vj6.png",FOX East
+http://fl1.moveonjoy.com/FOX_EAST/index.m3u8
+#EXTINF:-1 group-title="USA" tvg-id="FOX-E" tvg-name="FOX_EAST" tvg-logo="https://i.imgur.com/f0m8Vj6.png",FOX East
+http://fl1.moveonjoy.com/FOX_EAST/index.m3u8
+
+# --- CW EAST ---
+#EXTINF:-1 group-title="USA" tvg-id="CW East" tvg-name="CW_EAST" tvg-logo="https://i.imgur.com/uGzG3nF.png",CW East
+http://fl1.moveonjoy.com/CW_EAST/index.m3u8
+#EXTINF:-1 group-title="USA" tvg-id="CW.us" tvg-name="CW_EAST" tvg-logo="https://i.imgur.com/uGzG3nF.png",CW East
+http://fl1.moveonjoy.com/CW_EAST/index.m3u8
+#EXTINF:-1 group-title="USA" tvg-id="WPIX" tvg-name="CW_EAST" tvg-logo="https://i.imgur.com/uGzG3nF.png",CW East
+http://fl1.moveonjoy.com/CW_EAST/index.m3u8
+#EXTINF:-1 group-title="USA" tvg-id="CW_EAST" tvg-name="CW_EAST" tvg-logo="https://i.imgur.com/uGzG3nF.png",CW East
+http://fl1.moveonjoy.com/CW_EAST/index.m3u8
+#EXTINF:-1 group-title="USA" tvg-id="CW-E" tvg-name="CW_EAST" tvg-logo="https://i.imgur.com/uGzG3nF.png",CW East
+http://fl1.moveonjoy.com/CW_EAST/index.m3u8
