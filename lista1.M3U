@@ -77,3 +77,21 @@ http://fl1.moveonjoy.com/CW_EAST/index.m3u8
 http://fl1.moveonjoy.com/CW_EAST/index.m3u8
 #EXTINF:-1 group-title="USA" tvg-id="CW-E" tvg-name="CW_EAST" tvg-logo="https://i.imgur.com/uGzG3nF.png",CW East
 http://fl1.moveonjoy.com/CW_EAST/index.m3u8
+
+#EXTM3U url-tvg="https://raw.githubusercontent.com/LITUATUI/Geral/master/EPG/Geral.xml.gz,https://raw.githubusercontent.com/davidmuma/EPG_doble_m/master/guia.xml.gz,https://timbiriche.me/epg/portugal.xml.gz,https://raw.githubusercontent.com/HelmerLous/EPG/main/Guia.xml.gz,https://raw.githubusercontent.com/Tapiosat/EPG/master/guide.xml.gz"
+
+# --- TVI REALITY (PORTUGAL) ---
+#EXTINF:-1 group-title="Reality Show's Live" tvg-id="TVI Reality" tvg-name="TVI REALITY",TVI REALITY
+https://video-auth6.iol.pt/live_tvi_reality/live_tvi_reality/edge_servers/tvireality-720_passthrough/chunks.m3u8
+
+#EXTINF:-1 group-title="Reality Show's Live" tvg-id="TVI_Reality" tvg-name="TVI REALITY",TVI REALITY
+https://video-auth6.iol.pt/live_tvi_reality/live_tvi_reality/edge_servers/tvireality-720_passthrough/chunks.m3u8
+
+#EXTINF:-1 group-title="Reality Show's Live" tvg-id="TVI Reality HD" tvg-name="TVI REALITY",TVI REALITY
+https://video-auth6.iol.pt/live_tvi_reality/live_tvi_reality/edge_servers/tvireality-720_passthrough/chunks.m3u8
+
+#EXTINF:-1 group-title="Reality Show's Live" tvg-id="TVI.Reality.pt" tvg-name="TVI REALITY",TVI REALITY
+https://video-auth6.iol.pt/live_tvi_reality/live_tvi_reality/edge_servers/tvireality-720_passthrough/chunks.m3u8
+
+#EXTINF:-1 group-title="Reality Show's Live" tvg-id="TVI Reality.pt" tvg-name="TVI REALITY",TVI REALITY
+https://video-auth6.iol.pt/live_tvi_reality/live_tvi_reality/edge_servers/tvireality-720_passthrough/chunks.m3u8
