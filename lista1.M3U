@@ -15,3 +15,37 @@ https://viamotionhsi.netplus.ch/live/eds/rederecordinternacional/browser-HLS8/re
 
 #EXTINF:-1 group-title="TV" tvg-id="Record_TV_Portugal" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Record-TV.png",RecordTV Europa
 https://viamotionhsi.netplus.ch/live/eds/rederecordinternacional/browser-HLS8/rederecordinternacional.m3u8
+
+#EXTM3U url-tvg="https://timbiriche.me/epg/brazil.xml.gz,https://raw.githubusercontent.com/LITUATUI/Geral/master/EPG/Geral.xml.gz,https://raw.githubusercontent.com/davidmuma/EPG_doble_m/master/guia.xml.gz,https://raw.githubusercontent.com/HelmerLous/EPG/main/Guia.xml.gz,https://raw.githubusercontent.com/Tapiosat/EPG/master/guide.xml.gz"
+
+# --- CNN BRASIL (5 OPÇÕES DE EPG) ---
+#EXTINF:-1 group-title="ABERTOS" tvg-id="CNN Brasil" tvg-logo="https://imgur.com/lNRgeYH.jpg", CNN BRASIL
+https://amg01391-sbtinfast-amg01391c4-lg-br-4597.playouts.now.amagi.tv/playlist/amg01391-addigital-cnnbrasil-lgbr/playlist.m3u8
+
+#EXTINF:-1 group-title="ABERTOS" tvg-id="CNN BRASIL" tvg-logo="https://imgur.com/lNRgeYH.jpg", CNN BRASIL
+https://d25usgadhphvwi.cloudfront.net/hls/stv-plus1920x1080/playlist.m3u8
+
+#EXTINF:-1 group-title="ABERTOS" tvg-id="CNNBrasil.br" tvg-logo="https://imgur.com/lNRgeYH.jpg", CNN BRASIL
+https://ssai-ads.api.leiniao.com/global-adinsertion-api/hls/live/v2/97d678e115854c73b5bfaf87c2d43956/playlist.m3u8
+
+#EXTINF:-1 group-title="ABERTOS" tvg-id="CNN_Brasil" tvg-logo="https://imgur.com/lNRgeYH.jpg", CNN BRASIL
+https://amg01391-sbtinfast-amg01391c4-lg-br-4597.playouts.now.amagi.tv/playlist/amg01391-addigital-cnnbrasil-lgbr/playlist.m3u8
+
+#EXTINF:-1 group-title="ABERTOS" tvg-id="CNN BRASIL HD" tvg-logo="https://imgur.com/lNRgeYH.jpg", CNN BRASIL
+https://d25usgadhphvwi.cloudfront.net/hls/stv-plus1920x1080/playlist.m3u8
+
+# --- CNBC TIMES BRASIL (5 OPÇÕES DE EPG) ---
+#EXTINF:-1 group-title="ABERTOS" tvg-id="CNBC Brasil" tvg-logo="https://imgur.com/c57ZcJU.jpg", CNBC TIMES BRASIL
+https://f593663c.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/TEctYnJfVGltZXNCcmFzaWxsaWNlbmNpYWRvZXhjbHVzaXZvQ05CQ19ITFM/playlist.m3u8
+
+#EXTINF:-1 group-title="ABERTOS" tvg-id="CNBC_Brasil" tvg-logo="https://imgur.com/c57ZcJU.jpg", CNBC TIMES BRASIL
+https://ssai2-ads.api.leiniao.com/global-adinsertion-api/hls/live/v2/21fdb6dd7491406bba86497a24390a25/playlist.m3u8
+
+#EXTINF:-1 group-title="ABERTOS" tvg-id="TIMES EXCLUSIVO CNBC" tvg-logo="https://imgur.com/c57ZcJU.jpg", CNBC TIMES BRASIL
+https://f593663c.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/TEctYnJfVGltZXNCcmFzaWxsaWNlbmNpYWRvZXhjbHVzaXZvQ05CQ19ITFM/playlist.m3u8
+
+#EXTINF:-1 group-title="ABERTOS" tvg-id="CNBCBrasil.br" tvg-logo="https://imgur.com/c57ZcJU.jpg", CNBC TIMES BRASIL
+https://ssai2-ads.api.leiniao.com/global-adinsertion-api/hls/live/v2/21fdb6dd7491406bba86497a24390a25/playlist.m3u8
+
+#EXTINF:-1 group-title="ABERTOS" tvg-id="Times_Brasil" tvg-logo="https://imgur.com/c57ZcJU.jpg", CNBC TIMES BRASIL
+https://f593663c.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/TEctYnJfVGltZXNCcmFzaWxsaWNlbmNpYWRvZXhjbHVzaXZvQ05CQ19ITFM/playlist.m3u8
