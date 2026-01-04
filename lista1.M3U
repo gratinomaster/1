@@ -1,28 +1,28 @@
-#EXTM3U url-tvg="https://i.mjh.nz/Roku/all.xml,https://i.mjh.nz/SamsungTVPlus/all.xml,https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz"
+#EXTM3U url-tvg="https://epgshare01.online/epgshare01/epg_ripper_ALL_SOURCES1.xml.gz"
 
-#EXTINF:-1 tvg-id="noticias-univision-24-7-roku" tvg-logo="https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/Roku/_logos/noticias-univision-24-7-roku.png" group-title="NEWS WORLD",Noticias Univision 24/7
+#EXTINF:-1 tvg-id="Univision247.us" tvg-logo="https://i.imgur.com/B7Y7W6N.png" group-title="NEWS WORLD",Noticias Univision 24/7
 https://aka-live1050.delivery.roku.com/10d99635-efe0-4a99-ab00-54cbc2d95cf6/t2-origin/out/v1/live.m3u8
 
-#EXTINF:-1 tvg-id="noticias-univision-24-7-roku" tvg-logo="https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/Roku/_logos/noticias-univision-24-7-roku.png" group-title="NEWS WORLD",UNIVISION 24/7
+#EXTINF:-1 tvg-id="Univision247.us" tvg-logo="https://i.imgur.com/B7Y7W6N.png" group-title="NEWS WORLD",UNIVISION 24/7
 https://aka-live1050.delivery.roku.com/10d99635-efe0-4a99-ab00-54cbc2d95cf6/t2-origin/out/v1/live.m3u8
 
-#EXTINF:-1 tvg-id="noticias-telemundo-ahora-roku" tvg-logo="https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/Roku/_logos/noticias-telemundo-ahora-roku.png" group-title="NEWS WORLD",Noticias Telemundo Ahora
+#EXTINF:-1 tvg-id="TelemundoAhora.us" tvg-logo="https://i.imgur.com/uGzG3nF.png" group-title="NEWS WORLD",Noticias Telemundo Ahora
 https://aka-live1050.delivery.roku.com/038ffd84-d8cf-4100-8529-d59257abcf78/t2-origin/out/v1/live.m3u8
 
-#EXTINF:-1 tvg-id="fuerza-informativa-azteca-roku" tvg-logo="https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/Roku/_logos/fuerza-informativa-azteca-roku.png" group-title="NEWS WORLD",Fuerza Informativa Azteca
+#EXTINF:-1 tvg-id="TVAztecaNews.mx" tvg-logo="https://i.imgur.com/83p73Wp.png" group-title="NEWS WORLD",Fuerza Informativa Azteca
 https://aka-live1050.delivery.roku.com/0005e38f-fc77-42ad-a187-841bcd6b4637/t2-origin/out/v1/live.m3u8
 
-#EXTINF:-1 tvg-id="vix-noticias-roku" tvg-logo="https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/Roku/_logos/vix-noticias-roku.png" group-title="NEWS WORLD",Vix Noticias
+#EXTINF:-1 tvg-id="VixNoticias.us" tvg-logo="https://i.imgur.com/f0m8Vj6.png" group-title="NEWS WORLD",Vix Noticias
 https://aka-live1050.delivery.roku.com/83214436-1e6a-495c-9774-7067980996f0/t2-origin/out/v1/live.m3u8
 
-#EXTINF:-1 tvg-id="estrellanews-samsungus" tvg-logo="https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/SamsungTVPlus/_logos/estrellanews-samsungus.png" group-title="NEWS WORLD",Estrella News
+#EXTINF:-1 tvg-id="EstrellaNews.us" tvg-logo="https://i.imgur.com/XGfD8q3.png" group-title="NEWS WORLD",Estrella News
 https://estrellanews-samsung.amagi.tv/playlist.m3u8
 
-#EXTINF:-1 tvg-id="milenio-tv-roku" tvg-logo="https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/Roku/_logos/milenio-tv-roku.png" group-title="NEWS WORLD",Milenio TV
+#EXTINF:-1 tvg-id="MilenioTV.mx" tvg-logo="https://i.imgur.com/0v3Bv3G.png" group-title="NEWS WORLD",Milenio TV
 https://aka-live1050.delivery.roku.com/6c201880-60a0-47c2-909d-f21356779435/t2-origin/out/v1/live.m3u8
 
-#EXTINF:-1 tvg-id="ntn24-samsungus" tvg-logo="https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/SamsungTVPlus/_logos/ntn24-samsungus.png" group-title="NEWS WORLD",NTN24 Noticias
+#EXTINF:-1 tvg-id="NTN24.co" tvg-logo="https://i.imgur.com/u7FvX2v.png" group-title="NEWS WORLD",NTN24 Noticias
 https://ntn24-samsungus.amagi.tv/playlist.m3u8
 
-#EXTINF:-1 tvg-id="voa-noticias-roku" tvg-logo="https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/Roku/_logos/voa-noticias-roku.png" group-title="NEWS WORLD",VOA Noticias
+#EXTINF:-1 tvg-id="VOANoticias.us" tvg-logo="https://i.imgur.com/8Qp1X1l.png" group-title="NEWS WORLD",VOA Noticias
 https://aka-live1050.delivery.roku.com/56108154-15f1-460d-8526-97305d2634e5/t2-origin/out/v1/live.m3u8
