@@ -19,3 +19,20 @@ https://d25usgadhphvwi.cloudfront.net/hls/main.m3u8
 
 #EXTINF:-1 group-title="NEWS WORLD" tvg-id="CNN Brasil" tvg-name="CNN Brasil" tvg-logo="https://i.ibb.co/7kD8t97/cnn-brasil.png", CNN Brasil
 https://d25usgadhphvwi.cloudfront.net/hls/main.m3u8
+
+#EXTM3U url-tvg="https://timbiriche.me/epg/brazil.xml.gz,https://raw.githubusercontent.com/LITUATUI/Geral/master/EPG/Geral.xml.gz,https://iptv-org.github.io/epg/guides/br/tvaulas.com.br.xml.gz,https://raw.githubusercontent.com/fglance/epg/main/guide.xml.gz,https://raw.githubusercontent.com/dtv-history/epg/main/brazil.xml.gz,https://raw.githubusercontent.com/davidmuma/EPG_doble_m/master/guia.xml.gz,https://guiatv.iptv-line.com/guia.xml.gz,https://raw.githubusercontent.com/HelmerLous/EPG/main/Guia.xml.gz,https://iptv-org.github.io/epg/guides/br/claro.com.br.xml.gz,https://raw.githubusercontent.com/Tapiosat/EPG/master/guide.xml.gz"
+
+#EXTINF:-1 group-title="NEWS" tvg-id="CNN Brasil" tvg-name="CNN 1" tvg-logo="https://i.ibb.co/7kD8t97/cnn-brasil.png",CNN Brasil (Fonte: DobleM)
+https://d25usgadhphvwi.cloudfront.net/hls/main.m3u8
+
+#EXTINF:-1 group-title="NEWS" tvg-id="CNN BRASIL" tvg-name="CNN 2" tvg-logo="https://i.ibb.co/7kD8t97/cnn-brasil.png",CNN Brasil (Fonte: IPTV-Line)
+https://d25usgadhphvwi.cloudfront.net/hls/main.m3u8
+
+#EXTINF:-1 group-title="NEWS" tvg-id="CNN.br" tvg-name="CNN 3" tvg-logo="https://i.ibb.co/7kD8t97/cnn-brasil.png",CNN Brasil (Fonte: HelmerLous)
+https://d25usgadhphvwi.cloudfront.net/hls/main.m3u8
+
+#EXTINF:-1 group-title="NEWS" tvg-id="CNNBrasil.br" tvg-name="CNN 4" tvg-logo="https://i.ibb.co/7kD8t97/cnn-brasil.png",CNN Brasil (Fonte: ClaroBR)
+https://d25usgadhphvwi.cloudfront.net/hls/main.m3u8
+
+#EXTINF:-1 group-title="NEWS" tvg-id="CNN Brasil HD" tvg-name="CNN 5" tvg-logo="https://i.ibb.co/7kD8t97/cnn-brasil.png",CNN Brasil (Fonte: Tapiosat)
+https://d25usgadhphvwi.cloudfront.net/hls/main.m3u8
