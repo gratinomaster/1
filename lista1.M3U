@@ -1,21 +1,219 @@
-#EXTM3U url-tvg="https://epg.pw/xmltv/br.xml,https://iptv-org.github.io/epg/guides/br/cnn_brasil.xml,https://raw.githubusercontent.com/LITUATUI/M3UPT/main/epg/epg_br.xml,https://raw.githubusercontent.com/guiworldtv2/epg/master/epg.xml,https://raw.githubusercontent.com/limaalef/BrazilTVEPG/main/epg.xml"
-#EXTINF:-1 group-title="NEWS WORLD" tvg-id="CNNBrasil.br" tvg-name="CNN Brasil" tvg-logo="https://i.ibb.co/7kD8t97/cnn-brasil.png",CNN Brasil (CNNBrasil.br)
+#EXTM3U url-tvg="https://epg.pw/xmltv/br.xml"
+#EXTINF:-1 group-title="TESTE 1" tvg-id="CNNBrasil.br" tvg-name="CNN Brasil" tvg-logo="https://i.ibb.co/7kD8t97/cnn-brasil.png",CNN Brasil (CNNBrasil.br)
 https://d25usgadhphvwi.cloudfront.net/hls/main.m3u8
-#EXTINF:-1 group-title="NEWS WORLD" tvg-id="CNN Brasil" tvg-name="CNN Brasil" tvg-logo="https://i.ibb.co/7kD8t97/cnn-brasil.png",CNN Brasil (CNN Brasil)
+#EXTINF:-1 group-title="TESTE 1" tvg-id="CNN Brasil" tvg-name="CNN Brasil" tvg-logo="https://i.ibb.co/7kD8t97/cnn-brasil.png",CNN Brasil (CNN Brasil)
 https://d25usgadhphvwi.cloudfront.net/hls/main.m3u8
-#EXTINF:-1 group-title="NEWS WORLD" tvg-id="CNN Brasil HD" tvg-name="CNN Brasil" tvg-logo="https://i.ibb.co/7kD8t97/cnn-brasil.png",CNN Brasil (CNN Brasil HD)
+#EXTINF:-1 group-title="TESTE 1" tvg-id="CNN Brasil HD" tvg-name="CNN Brasil" tvg-logo="https://i.ibb.co/7kD8t97/cnn-brasil.png",CNN Brasil (CNN Brasil HD)
 https://d25usgadhphvwi.cloudfront.net/hls/main.m3u8
-#EXTINF:-1 group-title="NEWS WORLD" tvg-id="CNNBrasil" tvg-name="CNN Brasil" tvg-logo="https://i.ibb.co/7kD8t97/cnn-brasil.png",CNN Brasil (CNNBrasil)
+#EXTINF:-1 group-title="TESTE 1" tvg-id="CNNBrasil" tvg-name="CNN Brasil" tvg-logo="https://i.ibb.co/7kD8t97/cnn-brasil.png",CNN Brasil (CNNBrasil)
 https://d25usgadhphvwi.cloudfront.net/hls/main.m3u8
-#EXTINF:-1 group-title="NEWS WORLD" tvg-id="CNN BR" tvg-name="CNN Brasil" tvg-logo="https://i.ibb.co/7kD8t97/cnn-brasil.png",CNN Brasil (CNN BR)
+#EXTINF:-1 group-title="TESTE 1" tvg-id="CNN BR" tvg-name="CNN Brasil" tvg-logo="https://i.ibb.co/7kD8t97/cnn-brasil.png",CNN Brasil (CNN BR)
 https://d25usgadhphvwi.cloudfront.net/hls/main.m3u8
-#EXTINF:-1 group-title="NEWS WORLD" tvg-id="CNN.br" tvg-name="CNN Brasil" tvg-logo="https://i.ibb.co/7kD8t97/cnn-brasil.png",CNN Brasil (CNN.br)
+#EXTINF:-1 group-title="TESTE 1" tvg-id="CNN.br" tvg-name="CNN Brasil" tvg-logo="https://i.ibb.co/7kD8t97/cnn-brasil.png",CNN Brasil (CNN.br)
 https://d25usgadhphvwi.cloudfront.net/hls/main.m3u8
-#EXTINF:-1 group-title="NEWS WORLD" tvg-id="CNN.nws" tvg-name="CNN Brasil" tvg-logo="https://i.ibb.co/7kD8t97/cnn-brasil.png",CNN Brasil (CNN.nws)
+#EXTINF:-1 group-title="TESTE 1" tvg-id="CNN.nws" tvg-name="CNN Brasil" tvg-logo="https://i.ibb.co/7kD8t97/cnn-brasil.png",CNN Brasil (CNN.nws)
 https://d25usgadhphvwi.cloudfront.net/hls/main.m3u8
-#EXTINF:-1 group-title="NEWS WORLD" tvg-id="CN9" tvg-name="CNN Brasil" tvg-logo="https://i.ibb.co/7kD8t97/cnn-brasil.png",CNN Brasil (CN9 - MeuGuia)
+#EXTINF:-1 group-title="TESTE 1" tvg-id="CN9" tvg-name="CNN Brasil" tvg-logo="https://i.ibb.co/7kD8t97/cnn-brasil.png",CNN Brasil (CN9)
 https://d25usgadhphvwi.cloudfront.net/hls/main.m3u8
-#EXTINF:-1 group-title="NEWS WORLD" tvg-id="114159" tvg-name="CNN Brasil" tvg-logo="https://i.ibb.co/7kD8t97/cnn-brasil.png",CNN Brasil (114159 - Oi)
+#EXTINF:-1 group-title="TESTE 1" tvg-id="114159" tvg-name="CNN Brasil" tvg-logo="https://i.ibb.co/7kD8t97/cnn-brasil.png",CNN Brasil (114159)
 https://d25usgadhphvwi.cloudfront.net/hls/main.m3u8
-#EXTINF:-1 group-title="NEWS WORLD" tvg-id="cnn-brasil" tvg-name="CNN Brasil" tvg-logo="https://i.ibb.co/7kD8t97/cnn-brasil.png",CNN Brasil (cnn-brasil - Mi.tv)
+#EXTINF:-1 group-title="TESTE 1" tvg-id="cnn-brasil" tvg-name="CNN Brasil" tvg-logo="https://i.ibb.co/7kD8t97/cnn-brasil.png",CNN Brasil (cnn-brasil)
+https://d25usgadhphvwi.cloudfront.net/hls/main.m3u8
+
+#EXTM3U url-tvg="https://iptv-org.github.io/epg/guides/br/mi.tv.xml"
+#EXTINF:-1 group-title="TESTE 2" tvg-id="CNNBrasil.br" tvg-name="CNN Brasil" tvg-logo="https://i.ibb.co/7kD8t97/cnn-brasil.png",CNN Brasil (CNNBrasil.br)
+https://d25usgadhphvwi.cloudfront.net/hls/main.m3u8
+#EXTINF:-1 group-title="TESTE 2" tvg-id="CNN Brasil" tvg-name="CNN Brasil" tvg-logo="https://i.ibb.co/7kD8t97/cnn-brasil.png",CNN Brasil (CNN Brasil)
+https://d25usgadhphvwi.cloudfront.net/hls/main.m3u8
+#EXTINF:-1 group-title="TESTE 2" tvg-id="CNN Brasil HD" tvg-name="CNN Brasil" tvg-logo="https://i.ibb.co/7kD8t97/cnn-brasil.png",CNN Brasil (CNN Brasil HD)
+https://d25usgadhphvwi.cloudfront.net/hls/main.m3u8
+#EXTINF:-1 group-title="TESTE 2" tvg-id="CNNBrasil" tvg-name="CNN Brasil" tvg-logo="https://i.ibb.co/7kD8t97/cnn-brasil.png",CNN Brasil (CNNBrasil)
+https://d25usgadhphvwi.cloudfront.net/hls/main.m3u8
+#EXTINF:-1 group-title="TESTE 2" tvg-id="CNN BR" tvg-name="CNN Brasil" tvg-logo="https://i.ibb.co/7kD8t97/cnn-brasil.png",CNN Brasil (CNN BR)
+https://d25usgadhphvwi.cloudfront.net/hls/main.m3u8
+#EXTINF:-1 group-title="TESTE 2" tvg-id="CNN.br" tvg-name="CNN Brasil" tvg-logo="https://i.ibb.co/7kD8t97/cnn-brasil.png",CNN Brasil (CNN.br)
+https://d25usgadhphvwi.cloudfront.net/hls/main.m3u8
+#EXTINF:-1 group-title="TESTE 2" tvg-id="CNN.nws" tvg-name="CNN Brasil" tvg-logo="https://i.ibb.co/7kD8t97/cnn-brasil.png",CNN Brasil (CNN.nws)
+https://d25usgadhphvwi.cloudfront.net/hls/main.m3u8
+#EXTINF:-1 group-title="TESTE 2" tvg-id="CN9" tvg-name="CNN Brasil" tvg-logo="https://i.ibb.co/7kD8t97/cnn-brasil.png",CNN Brasil (CN9)
+https://d25usgadhphvwi.cloudfront.net/hls/main.m3u8
+#EXTINF:-1 group-title="TESTE 2" tvg-id="114159" tvg-name="CNN Brasil" tvg-logo="https://i.ibb.co/7kD8t97/cnn-brasil.png",CNN Brasil (114159)
+https://d25usgadhphvwi.cloudfront.net/hls/main.m3u8
+#EXTINF:-1 group-title="TESTE 2" tvg-id="cnn-brasil" tvg-name="CNN Brasil" tvg-logo="https://i.ibb.co/7kD8t97/cnn-brasil.png",CNN Brasil (cnn-brasil)
+https://d25usgadhphvwi.cloudfront.net/hls/main.m3u8
+
+#EXTM3U url-tvg="https://iptv-org.github.io/epg/guides/br/meuguia.tv.xml"
+#EXTINF:-1 group-title="TESTE 3" tvg-id="CNNBrasil.br" tvg-name="CNN Brasil" tvg-logo="https://i.ibb.co/7kD8t97/cnn-brasil.png",CNN Brasil (CNNBrasil.br)
+https://d25usgadhphvwi.cloudfront.net/hls/main.m3u8
+#EXTINF:-1 group-title="TESTE 3" tvg-id="CNN Brasil" tvg-name="CNN Brasil" tvg-logo="https://i.ibb.co/7kD8t97/cnn-brasil.png",CNN Brasil (CNN Brasil)
+https://d25usgadhphvwi.cloudfront.net/hls/main.m3u8
+#EXTINF:-1 group-title="TESTE 3" tvg-id="CNN Brasil HD" tvg-name="CNN Brasil" tvg-logo="https://i.ibb.co/7kD8t97/cnn-brasil.png",CNN Brasil (CNN Brasil HD)
+https://d25usgadhphvwi.cloudfront.net/hls/main.m3u8
+#EXTINF:-1 group-title="TESTE 3" tvg-id="CNNBrasil" tvg-name="CNN Brasil" tvg-logo="https://i.ibb.co/7kD8t97/cnn-brasil.png",CNN Brasil (CNNBrasil)
+https://d25usgadhphvwi.cloudfront.net/hls/main.m3u8
+#EXTINF:-1 group-title="TESTE 3" tvg-id="CNN BR" tvg-name="CNN Brasil" tvg-logo="https://i.ibb.co/7kD8t97/cnn-brasil.png",CNN Brasil (CNN BR)
+https://d25usgadhphvwi.cloudfront.net/hls/main.m3u8
+#EXTINF:-1 group-title="TESTE 3" tvg-id="CNN.br" tvg-name="CNN Brasil" tvg-logo="https://i.ibb.co/7kD8t97/cnn-brasil.png",CNN Brasil (CNN.br)
+https://d25usgadhphvwi.cloudfront.net/hls/main.m3u8
+#EXTINF:-1 group-title="TESTE 3" tvg-id="CNN.nws" tvg-name="CNN Brasil" tvg-logo="https://i.ibb.co/7kD8t97/cnn-brasil.png",CNN Brasil (CNN.nws)
+https://d25usgadhphvwi.cloudfront.net/hls/main.m3u8
+#EXTINF:-1 group-title="TESTE 3" tvg-id="CN9" tvg-name="CNN Brasil" tvg-logo="https://i.ibb.co/7kD8t97/cnn-brasil.png",CNN Brasil (CN9)
+https://d25usgadhphvwi.cloudfront.net/hls/main.m3u8
+#EXTINF:-1 group-title="TESTE 3" tvg-id="114159" tvg-name="CNN Brasil" tvg-logo="https://i.ibb.co/7kD8t97/cnn-brasil.png",CNN Brasil (114159)
+https://d25usgadhphvwi.cloudfront.net/hls/main.m3u8
+#EXTINF:-1 group-title="TESTE 3" tvg-id="cnn-brasil" tvg-name="CNN Brasil" tvg-logo="https://i.ibb.co/7kD8t97/cnn-brasil.png",CNN Brasil (cnn-brasil)
+https://d25usgadhphvwi.cloudfront.net/hls/main.m3u8
+
+#EXTM3U url-tvg="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/epg/epg_br.xml"
+#EXTINF:-1 group-title="TESTE 4" tvg-id="CNNBrasil.br" tvg-name="CNN Brasil" tvg-logo="https://i.ibb.co/7kD8t97/cnn-brasil.png",CNN Brasil (CNNBrasil.br)
+https://d25usgadhphvwi.cloudfront.net/hls/main.m3u8
+#EXTINF:-1 group-title="TESTE 4" tvg-id="CNN Brasil" tvg-name="CNN Brasil" tvg-logo="https://i.ibb.co/7kD8t97/cnn-brasil.png",CNN Brasil (CNN Brasil)
+https://d25usgadhphvwi.cloudfront.net/hls/main.m3u8
+#EXTINF:-1 group-title="TESTE 4" tvg-id="CNN Brasil HD" tvg-name="CNN Brasil" tvg-logo="https://i.ibb.co/7kD8t97/cnn-brasil.png",CNN Brasil (CNN Brasil HD)
+https://d25usgadhphvwi.cloudfront.net/hls/main.m3u8
+#EXTINF:-1 group-title="TESTE 4" tvg-id="CNNBrasil" tvg-name="CNN Brasil" tvg-logo="https://i.ibb.co/7kD8t97/cnn-brasil.png",CNN Brasil (CNNBrasil)
+https://d25usgadhphvwi.cloudfront.net/hls/main.m3u8
+#EXTINF:-1 group-title="TESTE 4" tvg-id="CNN BR" tvg-name="CNN Brasil" tvg-logo="https://i.ibb.co/7kD8t97/cnn-brasil.png",CNN Brasil (CNN BR)
+https://d25usgadhphvwi.cloudfront.net/hls/main.m3u8
+#EXTINF:-1 group-title="TESTE 4" tvg-id="CNN.br" tvg-name="CNN Brasil" tvg-logo="https://i.ibb.co/7kD8t97/cnn-brasil.png",CNN Brasil (CNN.br)
+https://d25usgadhphvwi.cloudfront.net/hls/main.m3u8
+#EXTINF:-1 group-title="TESTE 4" tvg-id="CNN.nws" tvg-name="CNN Brasil" tvg-logo="https://i.ibb.co/7kD8t97/cnn-brasil.png",CNN Brasil (CNN.nws)
+https://d25usgadhphvwi.cloudfront.net/hls/main.m3u8
+#EXTINF:-1 group-title="TESTE 4" tvg-id="CN9" tvg-name="CNN Brasil" tvg-logo="https://i.ibb.co/7kD8t97/cnn-brasil.png",CNN Brasil (CN9)
+https://d25usgadhphvwi.cloudfront.net/hls/main.m3u8
+#EXTINF:-1 group-title="TESTE 4" tvg-id="114159" tvg-name="CNN Brasil" tvg-logo="https://i.ibb.co/7kD8t97/cnn-brasil.png",CNN Brasil (114159)
+https://d25usgadhphvwi.cloudfront.net/hls/main.m3u8
+#EXTINF:-1 group-title="TESTE 4" tvg-id="cnn-brasil" tvg-name="CNN Brasil" tvg-logo="https://i.ibb.co/7kD8t97/cnn-brasil.png",CNN Brasil (cnn-brasil)
+https://d25usgadhphvwi.cloudfront.net/hls/main.m3u8
+
+#EXTM3U url-tvg="https://raw.githubusercontent.com/limaalef/BrazilTVEPG/main/epg.xml"
+#EXTINF:-1 group-title="TESTE 5" tvg-id="CNNBrasil.br" tvg-name="CNN Brasil" tvg-logo="https://i.ibb.co/7kD8t97/cnn-brasil.png",CNN Brasil (CNNBrasil.br)
+https://d25usgadhphvwi.cloudfront.net/hls/main.m3u8
+#EXTINF:-1 group-title="TESTE 5" tvg-id="CNN Brasil" tvg-name="CNN Brasil" tvg-logo="https://i.ibb.co/7kD8t97/cnn-brasil.png",CNN Brasil (CNN Brasil)
+https://d25usgadhphvwi.cloudfront.net/hls/main.m3u8
+#EXTINF:-1 group-title="TESTE 5" tvg-id="CNN Brasil HD" tvg-name="CNN Brasil" tvg-logo="https://i.ibb.co/7kD8t97/cnn-brasil.png",CNN Brasil (CNN Brasil HD)
+https://d25usgadhphvwi.cloudfront.net/hls/main.m3u8
+#EXTINF:-1 group-title="TESTE 5" tvg-id="CNNBrasil" tvg-name="CNN Brasil" tvg-logo="https://i.ibb.co/7kD8t97/cnn-brasil.png",CNN Brasil (CNNBrasil)
+https://d25usgadhphvwi.cloudfront.net/hls/main.m3u8
+#EXTINF:-1 group-title="TESTE 5" tvg-id="CNN BR" tvg-name="CNN Brasil" tvg-logo="https://i.ibb.co/7kD8t97/cnn-brasil.png",CNN Brasil (CNN BR)
+https://d25usgadhphvwi.cloudfront.net/hls/main.m3u8
+#EXTINF:-1 group-title="TESTE 5" tvg-id="CNN.br" tvg-name="CNN Brasil" tvg-logo="https://i.ibb.co/7kD8t97/cnn-brasil.png",CNN Brasil (CNN.br)
+https://d25usgadhphvwi.cloudfront.net/hls/main.m3u8
+#EXTINF:-1 group-title="TESTE 5" tvg-id="CNN.nws" tvg-name="CNN Brasil" tvg-logo="https://i.ibb.co/7kD8t97/cnn-brasil.png",CNN Brasil (CNN.nws)
+https://d25usgadhphvwi.cloudfront.net/hls/main.m3u8
+#EXTINF:-1 group-title="TESTE 5" tvg-id="CN9" tvg-name="CNN Brasil" tvg-logo="https://i.ibb.co/7kD8t97/cnn-brasil.png",CNN Brasil (CN9)
+https://d25usgadhphvwi.cloudfront.net/hls/main.m3u8
+#EXTINF:-1 group-title="TESTE 5" tvg-id="114159" tvg-name="CNN Brasil" tvg-logo="https://i.ibb.co/7kD8t97/cnn-brasil.png",CNN Brasil (114159)
+https://d25usgadhphvwi.cloudfront.net/hls/main.m3u8
+#EXTINF:-1 group-title="TESTE 5" tvg-id="cnn-brasil" tvg-name="CNN Brasil" tvg-logo="https://i.ibb.co/7kD8t97/cnn-brasil.png",CNN Brasil (cnn-brasil)
+https://d25usgadhphvwi.cloudfront.net/hls/main.m3u8
+
+#EXTM3U url-tvg="https://raw.githubusercontent.com/guiworldtv2/epg/master/epg.xml"
+#EXTINF:-1 group-title="TESTE 6" tvg-id="CNNBrasil.br" tvg-name="CNN Brasil" tvg-logo="https://i.ibb.co/7kD8t97/cnn-brasil.png",CNN Brasil (CNNBrasil.br)
+https://d25usgadhphvwi.cloudfront.net/hls/main.m3u8
+#EXTINF:-1 group-title="TESTE 6" tvg-id="CNN Brasil" tvg-name="CNN Brasil" tvg-logo="https://i.ibb.co/7kD8t97/cnn-brasil.png",CNN Brasil (CNN Brasil)
+https://d25usgadhphvwi.cloudfront.net/hls/main.m3u8
+#EXTINF:-1 group-title="TESTE 6" tvg-id="CNN Brasil HD" tvg-name="CNN Brasil" tvg-logo="https://i.ibb.co/7kD8t97/cnn-brasil.png",CNN Brasil (CNN Brasil HD)
+https://d25usgadhphvwi.cloudfront.net/hls/main.m3u8
+#EXTINF:-1 group-title="TESTE 6" tvg-id="CNNBrasil" tvg-name="CNN Brasil" tvg-logo="https://i.ibb.co/7kD8t97/cnn-brasil.png",CNN Brasil (CNNBrasil)
+https://d25usgadhphvwi.cloudfront.net/hls/main.m3u8
+#EXTINF:-1 group-title="TESTE 6" tvg-id="CNN BR" tvg-name="CNN Brasil" tvg-logo="https://i.ibb.co/7kD8t97/cnn-brasil.png",CNN Brasil (CNN BR)
+https://d25usgadhphvwi.cloudfront.net/hls/main.m3u8
+#EXTINF:-1 group-title="TESTE 6" tvg-id="CNN.br" tvg-name="CNN Brasil" tvg-logo="https://i.ibb.co/7kD8t97/cnn-brasil.png",CNN Brasil (CNN.br)
+https://d25usgadhphvwi.cloudfront.net/hls/main.m3u8
+#EXTINF:-1 group-title="TESTE 6" tvg-id="CNN.nws" tvg-name="CNN Brasil" tvg-logo="https://i.ibb.co/7kD8t97/cnn-brasil.png",CNN Brasil (CNN.nws)
+https://d25usgadhphvwi.cloudfront.net/hls/main.m3u8
+#EXTINF:-1 group-title="TESTE 6" tvg-id="CN9" tvg-name="CNN Brasil" tvg-logo="https://i.ibb.co/7kD8t97/cnn-brasil.png",CNN Brasil (CN9)
+https://d25usgadhphvwi.cloudfront.net/hls/main.m3u8
+#EXTINF:-1 group-title="TESTE 6" tvg-id="114159" tvg-name="CNN Brasil" tvg-logo="https://i.ibb.co/7kD8t97/cnn-brasil.png",CNN Brasil (114159)
+https://d25usgadhphvwi.cloudfront.net/hls/main.m3u8
+#EXTINF:-1 group-title="TESTE 6" tvg-id="cnn-brasil" tvg-name="CNN Brasil" tvg-logo="https://i.ibb.co/7kD8t97/cnn-brasil.png",CNN Brasil (cnn-brasil)
+https://d25usgadhphvwi.cloudfront.net/hls/main.m3u8
+
+#EXTM3U url-tvg="https://raw.githubusercontent.com/fshv/epg/main/br.xml"
+#EXTINF:-1 group-title="TESTE 7" tvg-id="CNNBrasil.br" tvg-name="CNN Brasil" tvg-logo="https://i.ibb.co/7kD8t97/cnn-brasil.png",CNN Brasil (CNNBrasil.br)
+https://d25usgadhphvwi.cloudfront.net/hls/main.m3u8
+#EXTINF:-1 group-title="TESTE 7" tvg-id="CNN Brasil" tvg-name="CNN Brasil" tvg-logo="https://i.ibb.co/7kD8t97/cnn-brasil.png",CNN Brasil (CNN Brasil)
+https://d25usgadhphvwi.cloudfront.net/hls/main.m3u8
+#EXTINF:-1 group-title="TESTE 7" tvg-id="CNN Brasil HD" tvg-name="CNN Brasil" tvg-logo="https://i.ibb.co/7kD8t97/cnn-brasil.png",CNN Brasil (CNN Brasil HD)
+https://d25usgadhphvwi.cloudfront.net/hls/main.m3u8
+#EXTINF:-1 group-title="TESTE 7" tvg-id="CNNBrasil" tvg-name="CNN Brasil" tvg-logo="https://i.ibb.co/7kD8t97/cnn-brasil.png",CNN Brasil (CNNBrasil)
+https://d25usgadhphvwi.cloudfront.net/hls/main.m3u8
+#EXTINF:-1 group-title="TESTE 7" tvg-id="CNN BR" tvg-name="CNN Brasil" tvg-logo="https://i.ibb.co/7kD8t97/cnn-brasil.png",CNN Brasil (CNN BR)
+https://d25usgadhphvwi.cloudfront.net/hls/main.m3u8
+#EXTINF:-1 group-title="TESTE 7" tvg-id="CNN.br" tvg-name="CNN Brasil" tvg-logo="https://i.ibb.co/7kD8t97/cnn-brasil.png",CNN Brasil (CNN.br)
+https://d25usgadhphvwi.cloudfront.net/hls/main.m3u8
+#EXTINF:-1 group-title="TESTE 7" tvg-id="CNN.nws" tvg-name="CNN Brasil" tvg-logo="https://i.ibb.co/7kD8t97/cnn-brasil.png",CNN Brasil (CNN.nws)
+https://d25usgadhphvwi.cloudfront.net/hls/main.m3u8
+#EXTINF:-1 group-title="TESTE 7" tvg-id="CN9" tvg-name="CNN Brasil" tvg-logo="https://i.ibb.co/7kD8t97/cnn-brasil.png",CNN Brasil (CN9)
+https://d25usgadhphvwi.cloudfront.net/hls/main.m3u8
+#EXTINF:-1 group-title="TESTE 7" tvg-id="114159" tvg-name="CNN Brasil" tvg-logo="https://i.ibb.co/7kD8t97/cnn-brasil.png",CNN Brasil (114159)
+https://d25usgadhphvwi.cloudfront.net/hls/main.m3u8
+#EXTINF:-1 group-title="TESTE 7" tvg-id="cnn-brasil" tvg-name="CNN Brasil" tvg-logo="https://i.ibb.co/7kD8t97/cnn-brasil.png",CNN Brasil (cnn-brasil)
+https://d25usgadhphvwi.cloudfront.net/hls/main.m3u8
+
+#EXTM3U url-tvg="https://raw.githubusercontent.com/K-S-V/EPG/master/guide.xml"
+#EXTINF:-1 group-title="TESTE 8" tvg-id="CNNBrasil.br" tvg-name="CNN Brasil" tvg-logo="https://i.ibb.co/7kD8t97/cnn-brasil.png",CNN Brasil (CNNBrasil.br)
+https://d25usgadhphvwi.cloudfront.net/hls/main.m3u8
+#EXTINF:-1 group-title="TESTE 8" tvg-id="CNN Brasil" tvg-name="CNN Brasil" tvg-logo="https://i.ibb.co/7kD8t97/cnn-brasil.png",CNN Brasil (CNN Brasil)
+https://d25usgadhphvwi.cloudfront.net/hls/main.m3u8
+#EXTINF:-1 group-title="TESTE 8" tvg-id="CNN Brasil HD" tvg-name="CNN Brasil" tvg-logo="https://i.ibb.co/7kD8t97/cnn-brasil.png",CNN Brasil (CNN Brasil HD)
+https://d25usgadhphvwi.cloudfront.net/hls/main.m3u8
+#EXTINF:-1 group-title="TESTE 8" tvg-id="CNNBrasil" tvg-name="CNN Brasil" tvg-logo="https://i.ibb.co/7kD8t97/cnn-brasil.png",CNN Brasil (CNNBrasil)
+https://d25usgadhphvwi.cloudfront.net/hls/main.m3u8
+#EXTINF:-1 group-title="TESTE 8" tvg-id="CNN BR" tvg-name="CNN Brasil" tvg-logo="https://i.ibb.co/7kD8t97/cnn-brasil.png",CNN Brasil (CNN BR)
+https://d25usgadhphvwi.cloudfront.net/hls/main.m3u8
+#EXTINF:-1 group-title="TESTE 8" tvg-id="CNN.br" tvg-name="CNN Brasil" tvg-logo="https://i.ibb.co/7kD8t97/cnn-brasil.png",CNN Brasil (CNN.br)
+https://d25usgadhphvwi.cloudfront.net/hls/main.m3u8
+#EXTINF:-1 group-title="TESTE 8" tvg-id="CNN.nws" tvg-name="CNN Brasil" tvg-logo="https://i.ibb.co/7kD8t97/cnn-brasil.png",CNN Brasil (CNN.nws)
+https://d25usgadhphvwi.cloudfront.net/hls/main.m3u8
+#EXTINF:-1 group-title="TESTE 8" tvg-id="CN9" tvg-name="CNN Brasil" tvg-logo="https://i.ibb.co/7kD8t97/cnn-brasil.png",CNN Brasil (CN9)
+https://d25usgadhphvwi.cloudfront.net/hls/main.m3u8
+#EXTINF:-1 group-title="TESTE 8" tvg-id="114159" tvg-name="CNN Brasil" tvg-logo="https://i.ibb.co/7kD8t97/cnn-brasil.png",CNN Brasil (114159)
+https://d25usgadhphvwi.cloudfront.net/hls/main.m3u8
+#EXTINF:-1 group-title="TESTE 8" tvg-id="cnn-brasil" tvg-name="CNN Brasil" tvg-logo="https://i.ibb.co/7kD8t97/cnn-brasil.png",CNN Brasil (cnn-brasil)
+https://d25usgadhphvwi.cloudfront.net/hls/main.m3u8
+
+#EXTM3U url-tvg="https://raw.githubusercontent.com/TDTChannels/TDTChannels/main/epg/tv.xml"
+#EXTINF:-1 group-title="TESTE 9" tvg-id="CNNBrasil.br" tvg-name="CNN Brasil" tvg-logo="https://i.ibb.co/7kD8t97/cnn-brasil.png",CNN Brasil (CNNBrasil.br)
+https://d25usgadhphvwi.cloudfront.net/hls/main.m3u8
+#EXTINF:-1 group-title="TESTE 9" tvg-id="CNN Brasil" tvg-name="CNN Brasil" tvg-logo="https://i.ibb.co/7kD8t97/cnn-brasil.png",CNN Brasil (CNN Brasil)
+https://d25usgadhphvwi.cloudfront.net/hls/main.m3u8
+#EXTINF:-1 group-title="TESTE 9" tvg-id="CNN Brasil HD" tvg-name="CNN Brasil" tvg-logo="https://i.ibb.co/7kD8t97/cnn-brasil.png",CNN Brasil (CNN Brasil HD)
+https://d25usgadhphvwi.cloudfront.net/hls/main.m3u8
+#EXTINF:-1 group-title="TESTE 9" tvg-id="CNNBrasil" tvg-name="CNN Brasil" tvg-logo="https://i.ibb.co/7kD8t97/cnn-brasil.png",CNN Brasil (CNNBrasil)
+https://d25usgadhphvwi.cloudfront.net/hls/main.m3u8
+#EXTINF:-1 group-title="TESTE 9" tvg-id="CNN BR" tvg-name="CNN Brasil" tvg-logo="https://i.ibb.co/7kD8t97/cnn-brasil.png",CNN Brasil (CNN BR)
+https://d25usgadhphvwi.cloudfront.net/hls/main.m3u8
+#EXTINF:-1 group-title="TESTE 9" tvg-id="CNN.br" tvg-name="CNN Brasil" tvg-logo="https://i.ibb.co/7kD8t97/cnn-brasil.png",CNN Brasil (CNN.br)
+https://d25usgadhphvwi.cloudfront.net/hls/main.m3u8
+#EXTINF:-1 group-title="TESTE 9" tvg-id="CNN.nws" tvg-name="CNN Brasil" tvg-logo="https://i.ibb.co/7kD8t97/cnn-brasil.png",CNN Brasil (CNN.nws)
+https://d25usgadhphvwi.cloudfront.net/hls/main.m3u8
+#EXTINF:-1 group-title="TESTE 9" tvg-id="CN9" tvg-name="CNN Brasil" tvg-logo="https://i.ibb.co/7kD8t97/cnn-brasil.png",CNN Brasil (CN9)
+https://d25usgadhphvwi.cloudfront.net/hls/main.m3u8
+#EXTINF:-1 group-title="TESTE 9" tvg-id="114159" tvg-name="CNN Brasil" tvg-logo="https://i.ibb.co/7kD8t97/cnn-brasil.png",CNN Brasil (114159)
+https://d25usgadhphvwi.cloudfront.net/hls/main.m3u8
+#EXTINF:-1 group-title="TESTE 9" tvg-id="cnn-brasil" tvg-name="CNN Brasil" tvg-logo="https://i.ibb.co/7kD8t97/cnn-brasil.png",CNN Brasil (cnn-brasil)
+https://d25usgadhphvwi.cloudfront.net/hls/main.m3u8
+
+#EXTM3U url-tvg="https://iptv-org.github.io/epg/guides/br/claro.com.br.xml"
+#EXTINF:-1 group-title="TESTE 10" tvg-id="CNNBrasil.br" tvg-name="CNN Brasil" tvg-logo="https://i.ibb.co/7kD8t97/cnn-brasil.png",CNN Brasil (CNNBrasil.br)
+https://d25usgadhphvwi.cloudfront.net/hls/main.m3u8
+#EXTINF:-1 group-title="TESTE 10" tvg-id="CNN Brasil" tvg-name="CNN Brasil" tvg-logo="https://i.ibb.co/7kD8t97/cnn-brasil.png",CNN Brasil (CNN Brasil)
+https://d25usgadhphvwi.cloudfront.net/hls/main.m3u8
+#EXTINF:-1 group-title="TESTE 10" tvg-id="CNN Brasil HD" tvg-name="CNN Brasil" tvg-logo="https://i.ibb.co/7kD8t97/cnn-brasil.png",CNN Brasil (CNN Brasil HD)
+https://d25usgadhphvwi.cloudfront.net/hls/main.m3u8
+#EXTINF:-1 group-title="TESTE 10" tvg-id="CNNBrasil" tvg-name="CNN Brasil" tvg-logo="https://i.ibb.co/7kD8t97/cnn-brasil.png",CNN Brasil (CNNBrasil)
+https://d25usgadhphvwi.cloudfront.net/hls/main.m3u8
+#EXTINF:-1 group-title="TESTE 10" tvg-id="CNN BR" tvg-name="CNN Brasil" tvg-logo="https://i.ibb.co/7kD8t97/cnn-brasil.png",CNN Brasil (CNN BR)
+https://d25usgadhphvwi.cloudfront.net/hls/main.m3u8
+#EXTINF:-1 group-title="TESTE 10" tvg-id="CNN.br" tvg-name="CNN Brasil" tvg-logo="https://i.ibb.co/7kD8t97/cnn-brasil.png",CNN Brasil (CNN.br)
+https://d25usgadhphvwi.cloudfront.net/hls/main.m3u8
+#EXTINF:-1 group-title="TESTE 10" tvg-id="CNN.nws" tvg-name="CNN Brasil" tvg-logo="https://i.ibb.co/7kD8t97/cnn-brasil.png",CNN Brasil (CNN.nws)
+https://d25usgadhphvwi.cloudfront.net/hls/main.m3u8
+#EXTINF:-1 group-title="TESTE 10" tvg-id="CN9" tvg-name="CNN Brasil" tvg-logo="https://i.ibb.co/7kD8t97/cnn-brasil.png",CNN Brasil (CN9)
+https://d25usgadhphvwi.cloudfront.net/hls/main.m3u8
+#EXTINF:-1 group-title="TESTE 10" tvg-id="114159" tvg-name="CNN Brasil" tvg-logo="https://i.ibb.co/7kD8t97/cnn-brasil.png",CNN Brasil (114159)
+https://d25usgadhphvwi.cloudfront.net/hls/main.m3u8
+#EXTINF:-1 group-title="TESTE 10" tvg-id="cnn-brasil" tvg-name="CNN Brasil" tvg-logo="https://i.ibb.co/7kD8t97/cnn-brasil.png",CNN Brasil (cnn-brasil)
 https://d25usgadhphvwi.cloudfront.net/hls/main.m3u8
