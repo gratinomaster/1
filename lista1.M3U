@@ -1,4 +1,4 @@
-#EXTM3U
+#EXTM3U url-tvg="https://epg.pw/xmltv/br.xml,https://iptv-org.github.io/epg/guides/br/cnn_brasil.xml,https://raw.githubusercontent.com/LITUATUI/M3UPT/main/epg/epg_br.xml,https://raw.githubusercontent.com/guiworldtv2/epg/master/epg.xml,https://raw.githubusercontent.com/limaalef/BrazilTVEPG/main/epg.xml"
 #EXTINF:-1 group-title="NEWS WORLD" tvg-id="CNNBrasil.br" tvg-name="CNN Brasil" tvg-logo="https://i.ibb.co/7kD8t97/cnn-brasil.png",CNN Brasil (CNNBrasil.br)
 https://d25usgadhphvwi.cloudfront.net/hls/main.m3u8
 #EXTINF:-1 group-title="NEWS WORLD" tvg-id="CNN Brasil" tvg-name="CNN Brasil" tvg-logo="https://i.ibb.co/7kD8t97/cnn-brasil.png",CNN Brasil (CNN Brasil)
