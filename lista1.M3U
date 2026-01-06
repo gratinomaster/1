@@ -1,55 +1,13 @@
-#EXTM3U url-tvg="https://i.mjh.nz/Roku/all.xml"
+#EXTM3U url-tvg="https://g-epg.com/brazil.xml"
 
-#EXTINF:-1 group-title="NEWS WORLD" tvg-id="Noticias_Univision_24_7" tvg-name="Noticias Univision 24/7" tvg-logo="https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/Roku/_logos/noticias-univision-24-7-roku.png",Noticias Univision 24/7
-https://aka-live1050.delivery.roku.com/10d99635-efe0-4a99-ab00-54cbc2d95cf6/t2-origin/out/v1/live.m3u8
+#EXTINF:-1 group-title="NEWS WORLD" tvg-id="CNN_Money.br" tvg-name="CNN Brasil Money" tvg-logo="https://imgur.com/3rHuAWH.png",CNN BRASIL MONEY
+https://video03.logicahost.com.br/cnnmoney/cnnmoney/chunklist_w296915124.m3u8
 
-#EXTINF:-1 group-title="NEWS WORLD" tvg-id="Noticias_Telemundo_Ahora" tvg-name="Noticias Telemundo Ahora" tvg-logo="https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/Roku/_logos/noticias-telemundo-ahora-roku.png",Noticias Telemundo Ahora
-https://aka-live1050.delivery.roku.com/038ffd84-d8cf-4100-8529-d59257abcf78/t2-origin/out/v1/live.m3u8
+#EXTINF:-1 group-title="NEWS WORLD" tvg-id="CNN_Money.br" tvg-name="CNN Brasil Money" tvg-logo="https://imgur.com/3rHuAWH.png",CNN BRASIL MONEY
+https://fast-channels.b-cdn.net/9978b7063e297d84e1cd5f21af3a88b1/cnnmoney/aovivo_abr/playlist.m3u8
 
-#EXTINF:-1 group-title="NEWS WORLD" tvg-id="Fuerza_Informativa_Azteca" tvg-name="Fuerza Informativa Azteca" tvg-logo="https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/Roku/_logos/fuerza-informativa-azteca-roku.png",Fuerza Informativa Azteca
-https://aka-live1050.delivery.roku.com/0005e38f-fc77-42ad-a187-841bcd6b4637/t2-origin/out/v1/live.m3u8
+#EXTINF:-1 group-title="NEWS WORLD" tvg-id="BMC_News.br" tvg-name="BM&C NEWS" tvg-logo="https://imgur.com/tyW3Ppf.png",BM&C NEWS
+https://video01.logicahost.com.br/bmcnews/bmcnews/playlist.m3u8
 
-#EXTM3U url-tvg="https://iptvirago.com/epg.xml"
-
-#EXTINF:-1 group-title="NEWS WORLD" tvg-id="Noticias_Univision_24_7" tvg-name="Noticias Univision 24/7" tvg-logo="https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/Roku/_logos/noticias-univision-24-7-roku.png",Noticias Univision 24/7
-https://aka-live1050.delivery.roku.com/10d99635-efe0-4a99-ab00-54cbc2d95cf6/t2-origin/out/v1/live.m3u8
-
-#EXTINF:-1 group-title="NEWS WORLD" tvg-id="Noticias_Telemundo_Ahora" tvg-name="Noticias Telemundo Ahora" tvg-logo="https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/Roku/_logos/noticias-telemundo-ahora-roku.png",Noticias Telemundo Ahora
-https://aka-live1050.delivery.roku.com/038ffd84-d8cf-4100-8529-d59257abcf78/t2-origin/out/v1/live.m3u8
-
-#EXTINF:-1 group-title="NEWS WORLD" tvg-id="Fuerza_Informativa_Azteca" tvg-name="Fuerza Informativa Azteca" tvg-logo="https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/Roku/_logos/fuerza-informativa-azteca-roku.png",Fuerza Informativa Azteca
-https://aka-live1050.delivery.roku.com/0005e38f-fc77-42ad-a187-841bcd6b4637/t2-origin/out/v1/live.m3u8
-
-#EXTM3U url-tvg="https://guidatv.online/xmltv.php"
-
-#EXTINF:-1 tvg-id="Univision247.us" tvg-name="Noticias Univision 24/7" group-title="NEWS WORLD" tvg-logo="https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/Roku/_logos/noticias-univision-24-7-roku.png",Noticias Univision 24/7
-https://aka-live1050.delivery.roku.com/10d99635-efe0-4a99-ab00-54cbc2d95cf6/t2-origin/out/v1/live.m3u8
-
-#EXTINF:-1 tvg-id="TelemundoAhora.us" tvg-name="Noticias Telemundo Ahora" group-title="NEWS WORLD" tvg-logo="https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/Roku/_logos/noticias-telemundo-ahora-roku.png",Noticias Telemundo Ahora
-https://aka-live1050.delivery.roku.com/038ffd84-d8cf-4100-8529-d59257abcf78/t2-origin/out/v1/live.m3u8
-
-#EXTINF:-1 tvg-id="FuerzaAzteca.mx" tvg-name="Fuerza Informativa Azteca" group-title="NEWS WORLD" tvg-logo="https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/Roku/_logos/fuerza-informativa-azteca-roku.png",Fuerza Informativa Azteca
-https://aka-live1050.delivery.roku.com/0005e38f-fc77-42ad-a187-841bcd6b4637/t2-origin/out/v1/live.m3u8
-
-
-#EXTM3U url-tvg="https://tvlyzard.com/epg/guide.xml"
-
-#EXTINF:-1 tvg-id="NoticiasUnivision247.us" tvg-name="Noticias Univision 24/7" group-title="NEWS WORLD" tvg-logo="https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/Roku/_logos/noticias-univision-24-7-roku.png",Noticias Univision 24/7
-https://aka-live1050.delivery.roku.com/10d99635-efe0-4a99-ab00-54cbc2d95cf6/t2-origin/out/v1/live.m3u8
-
-#EXTINF:-1 tvg-id="NoticiasTelemundoAhora.us" tvg-name="Noticias Telemundo Ahora" group-title="NEWS WORLD" tvg-logo="https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/Roku/_logos/noticias-telemundo-ahora-roku.png",Noticias Telemundo Ahora
-https://aka-live1050.delivery.roku.com/038ffd84-d8cf-4100-8529-d59257abcf78/t2-origin/out/v1/live.m3u8
-
-#EXTINF:-1 tvg-id="FuerzaInformativaAzteca.us" tvg-name="Fuerza Informativa Azteca" group-title="NEWS WORLD" tvg-logo="https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/Roku/_logos/fuerza-informativa-azteca-roku.png",Fuerza Informativa Azteca
-https://aka-live1050.delivery.roku.com/0005e38f-fc77-42ad-a187-841bcd6b4637/t2-origin/out/v1/live.m3u8
-
-#EXTM3U url-tvg="https://estreams.tv/epg/guide.xml.gz"
-
-#EXTINF:-1 tvg-id="Univision247" tvg-name="Noticias Univision 24/7" group-title="NEWS WORLD" tvg-logo="https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/Roku/_logos/noticias-univision-24-7-roku.png",Noticias Univision 24/7
-https://aka-live1050.delivery.roku.com/10d99635-efe0-4a99-ab00-54cbc2d95cf6/t2-origin/out/v1/live.m3u8
-
-#EXTINF:-1 tvg-id="TelemundoAhora" tvg-name="Noticias Telemundo Ahora" group-title="NEWS WORLD" tvg-logo="https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/Roku/_logos/noticias-telemundo-ahora-roku.png",Noticias Telemundo Ahora
-https://aka-live1050.delivery.roku.com/038ffd84-d8cf-4100-8529-d59257abcf78/t2-origin/out/v1/live.m3u8
-
-#EXTINF:-1 tvg-id="AztecaNoticias" tvg-name="Fuerza Informativa Azteca" group-title="NEWS WORLD" tvg-logo="https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/Roku/_logos/fuerza-informativa-azteca-roku.png",Fuerza Informativa Azteca
-https://aka-live1050.delivery.roku.com/0005e38f-fc77-42ad-a187-841bcd6b4637/t2-origin/out/v1/live.m3u8
+#EXTINF:-1 group-title="NEWS WORLD" tvg-id="CNN_Brasil.br" tvg-name="CNN Brasil" tvg-logo="https://i.ibb.co/7kD8t97/cnn-brasil.png",CNN Brasil
+https://d25usgadhphvwi.cloudfront.net/hls/main.m3u8
