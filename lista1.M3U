@@ -1,4 +1,21 @@
 #EXTM3U url-tvg="https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/Plex/all.xml"
+#EXTM3U url-tvg="https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/SamsungTVPlus/all.xml"
+
+#EXTINF:-1 tvg-id="USBC3500021EY" tvg-name="Noticias Univision 24/7" group-title="NEWS WORLD",Noticias Univision 24/7
+https://aka-live1050.delivery.roku.com/10d99635-efe0-4a99-ab00-54cbc2d95cf6/t2-origin/out/v1/live.m3u8
+
+#EXTINF:-1 tvg-id="USBC3500042AJ" tvg-name="N+ Media" group-title="NEWS WORLD",N+ Media (Televisa)
+https://aka-live1050.delivery.roku.com/6462444e-a185-46b0-8199-a6e5b5830953/t2-origin/out/v1/live.m3u8
+
+#EXTINF:-1 tvg-id="USBC3500025AH" tvg-name="Noticias Telemundo Ahora" group-title="NEWS WORLD",Noticias Telemundo Ahora
+https://aka-live1050.delivery.roku.com/038ffd84-d8cf-4100-8529-d59257abcf78/t2-origin/out/v1/live.m3u8
+
+#EXTINF:-1 tvg-id="BRBD2900002ID" tvg-name="CNN Brasil" group-title="NEWS WORLD",CNN Brasil
+https://d25usgadhphvwi.cloudfront.net/hls/main.m3u8
+
+#EXTINF:-1 tvg-id="GBBD8000016N" tvg-name="CNN" group-title="NEWS WORLD",CNN International
+https://turnerlive.warnermediacdn.com/hls/live/586495/cnngo/cnn_slate/VIDEO_0_3564000.m3u8?DVR
+
 
 #EXTM3U url-tvg="https://beeb.uk/epg/guide.xml.gz"
 
