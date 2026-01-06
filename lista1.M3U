@@ -1,5 +1,22 @@
 #EXTM3U url-tvg="https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/Plex/all.xml"
 
+#EXTM3U url-tvg="https://beeb.uk/epg/guide.xml.gz"
+
+#EXTINF:-1 group-title="USA" tvg-id="ABC.us" tvg-name="ABC East" tvg-logo="https://iili.io/JmoUd6g.png",ABC East
+http://fl1.moveonjoy.com/ABC_EAST/index.m3u8
+
+#EXTINF:-1 group-title="USA" tvg-id="CBS.us" tvg-name="CBS East" tvg-logo="https://i.imgur.com/vHqXv2A.png",CBS East
+http://fl1.moveonjoy.com/CBS_EAST/index.m3u8
+
+#EXTINF:-1 group-title="USA" tvg-id="NBC.us" tvg-name="NBC East" tvg-logo="https://i.imgur.com/83p73Wp.png",NBC East
+http://fl1.moveonjoy.com/NBC_EAST/index.m3u8
+
+#EXTINF:-1 group-title="USA" tvg-id="FOX.us" tvg-name="FOX East" tvg-logo="https://i.imgur.com/f0m8Vj6.png",FOX East
+http://fl1.moveonjoy.com/FOX_EAST/index.m3u8
+
+#EXTINF:-1 group-title="USA" tvg-id="CW.us" tvg-name="CW East" tvg-logo="https://i.imgur.com/uGzG3nF.png",CW East
+http://fl1.moveonjoy.com/CW_EAST/index.m3u8
+
 #EXTINF:-1 group-title="USA" tvg-id="5e20b730f2f75000424a6821" tvg-name="KNOE-TV" tvg-logo="https://i.imgur.com/81NqdwB.png",Arkansas - KNOE SERVIÇO
 https://playlistserver.aws.syncbak.com/playlist/13353644/master.m3u8?access_token=eyJhbGciOiJIUzI1NiIsImtpZCI6IkdyYXkyMDE2MDgyOSIsInN1YiI6IioiLCJ0eXAiOiJKV1QifQ.eyJleHAiOjE3OTA1NDQ4MDgsImlzcyI6IldMUyIsIm1kNSI6ImRiYjE0OGQwMDQxNmE1YzBmMjQyZmY4MTVjNTBiYTlhIiwibWlkIjoiMTMzNTM2NDQifQ.ifqK3SjqEA9zxIzehzOADwGU3hh7l-T-kXpUQSs10sU
 
