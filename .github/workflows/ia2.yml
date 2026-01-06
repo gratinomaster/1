@@ -2,7 +2,7 @@ name: Baixando Lista
 
 on:
   schedule:
-    - cron: '*/50 * * * *'  # Executa a cada 50 minutos
+    - cron: '*/900 * * * *'  # Executa a cada 50 minutos
   pull_request:
     branches:
       - main
