@@ -1,5 +1,18 @@
-[2026-01-07 16:03:49] ============================================================
-[2026-01-07 16:03:49] INICIANDO PROCESSAMENTO
-[2026-01-07 16:03:49] ============================================================
-[2026-01-07 16:03:49] ✗ ERRO: O arquivo 'urls.txt' não foi encontrado.
-[2026-01-07 16:03:49] Criando arquivo M3U: lista30.M3U
+[2026-01-07 16:08:39] ============================================================
+[2026-01-07 16:08:39] INICIANDO PROCESSAMENTO
+[2026-01-07 16:08:39] ============================================================
+[2026-01-07 16:08:39] Processando URL: https://www.1377x.to/torrent/6497285/Rocky-Balboa-2006-WEBRip-1080p-HEVC-AAC-ITA-ENG-SUB-ENG-ITA-Lullozzo/
+[2026-01-07 16:08:39]   Tipo detectado: 1337x_torrent
+[2026-01-07 16:08:39]   Tentando extrair vídeo do 1337x: https://www.1377x.to/torrent/6497285/Rocky-Balboa-2006-WEBRip-1080p-HEVC-AAC-ITA-ENG-SUB-ENG-ITA-Lullozzo/
+[2026-01-07 16:08:39]   ✗ Erro ao acessar página: Status 403
+[2026-01-07 16:08:39]   ✓ ID do IMDb (fallback conhecido): tt0479143
+[2026-01-07 16:08:39]   ✓ Extraídos 1 item(s) com sucesso
+[2026-01-07 16:08:39] Criando arquivo M3U: lista30.M3U
+[2026-01-07 16:08:39] ✓ Arquivo lista30.M3U criado com sucesso
+[2026-01-07 16:08:39] ============================================================
+[2026-01-07 16:08:39] RESUMO DO PROCESSAMENTO:
+[2026-01-07 16:08:39]   URLs processadas: 1
+[2026-01-07 16:08:39]   Sucessos: 1
+[2026-01-07 16:08:39]   Falhas: 0
+[2026-01-07 16:08:39]   Total de itens extraídos: 1
+[2026-01-07 16:08:39] ============================================================
