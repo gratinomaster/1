@@ -29,7 +29,7 @@ jobs:
       run: |
         echo "Instalando dependências Python..."
         python3 -m pip install --upgrade pip
-        python3 -m pip install yt-dlp
+        python3 -m pip install yt-dlp bs4
         echo "✓ Dependências instaladas"
 
     - name: Verificar versão do Python e yt-dlp
