@@ -1,18 +1,22 @@
-[2026-01-07 16:08:39] ============================================================
-[2026-01-07 16:08:39] INICIANDO PROCESSAMENTO
-[2026-01-07 16:08:39] ============================================================
-[2026-01-07 16:08:39] Processando URL: https://www.1377x.to/torrent/6497285/Rocky-Balboa-2006-WEBRip-1080p-HEVC-AAC-ITA-ENG-SUB-ENG-ITA-Lullozzo/
-[2026-01-07 16:08:39]   Tipo detectado: 1337x_torrent
-[2026-01-07 16:08:39]   Tentando extrair vídeo do 1337x: https://www.1377x.to/torrent/6497285/Rocky-Balboa-2006-WEBRip-1080p-HEVC-AAC-ITA-ENG-SUB-ENG-ITA-Lullozzo/
-[2026-01-07 16:08:39]   ✗ Erro ao acessar página: Status 403
-[2026-01-07 16:08:39]   ✓ ID do IMDb (fallback conhecido): tt0479143
-[2026-01-07 16:08:39]   ✓ Extraídos 1 item(s) com sucesso
-[2026-01-07 16:08:39] Criando arquivo M3U: lista30.M3U
-[2026-01-07 16:08:39] ✓ Arquivo lista30.M3U criado com sucesso
-[2026-01-07 16:08:39] ============================================================
-[2026-01-07 16:08:39] RESUMO DO PROCESSAMENTO:
-[2026-01-07 16:08:39]   URLs processadas: 1
-[2026-01-07 16:08:39]   Sucessos: 1
-[2026-01-07 16:08:39]   Falhas: 0
-[2026-01-07 16:08:39]   Total de itens extraídos: 1
-[2026-01-07 16:08:39] ============================================================
+[2026-01-07 16:13:43] ============================================================
+[2026-01-07 16:13:43] INICIANDO PROCESSAMENTO
+[2026-01-07 16:13:43] ============================================================
+[2026-01-07 16:13:43] Processando URL: https://www.1377x.to/torrent/6497285/Rocky-Balboa-2006-WEBRip-1080p-HEVC-AAC-ITA-ENG-SUB-ENG-ITA-Lullozzo/
+[2026-01-07 16:13:43]   Tipo detectado: 1337x_torrent
+[2026-01-07 16:13:43]   Tentando extrair vídeo do 1337x: https://www.1377x.to/torrent/6497285/Rocky-Balboa-2006-WEBRip-1080p-HEVC-AAC-ITA-ENG-SUB-ENG-ITA-Lullozzo/
+[2026-01-07 16:13:43]   ✗ Erro ao acessar página: Status 403
+[2026-01-07 16:13:43]   ✓ ID do IMDb (fallback conhecido): tt0479143
+[2026-01-07 16:13:43]   ✓ Extraídos 1 item(s) com sucesso
+[2026-01-07 16:13:43] Processando URL: https://archive.org/details/globo-e-record-novelas-e-variados-2005-2006-e-2010-fita-vhs
+[2026-01-07 16:13:43]   Tipo detectado: archive_collection
+[2026-01-07 16:13:43]   Tentando método: --flat-playlist
+[2026-01-07 16:13:44]   ✓ Extraídos 3 item(s) com sucesso
+[2026-01-07 16:13:44] Criando arquivo M3U: lista30.M3U
+[2026-01-07 16:13:44] ✓ Arquivo lista30.M3U criado com sucesso
+[2026-01-07 16:13:44] ============================================================
+[2026-01-07 16:13:44] RESUMO DO PROCESSAMENTO:
+[2026-01-07 16:13:44]   URLs processadas: 2
+[2026-01-07 16:13:44]   Sucessos: 2
+[2026-01-07 16:13:44]   Falhas: 0
+[2026-01-07 16:13:44]   Total de itens extraídos: 4
+[2026-01-07 16:13:44] ============================================================
