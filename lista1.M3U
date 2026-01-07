@@ -1,6 +1,45 @@
 #EXTM3U
 #EXTM3U x-tvg-url="https://www.open-epg.com/files/brazil1.xml.gz,https://www.open-epg.com/files/brazil2.xml.gz"
 
+#EXTM3U x-tvg-url="https://www.open-epg.com/files/brazil1.xml.gz,https://www.open-epg.com/files/brazil2.xml.gz"
+
+# --- CANAIS GLOBO / REGIONAIS (Padrão que funcionou) ---
+
+#EXTINF:-1 tvg-id="SporTV 2.br" tvg-logo="https://s02.video.glbimg.com/x720/7690141.jpg" group-title="GLOBO AO VIVO", sportv 2 ao vivo no ge.globo - FIFA Monitoração | Assista ao vivo pelo Globoplay
+https://live-as-08-17.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJVUyIsImRvbWFpbiI6ImxpdmUtYXMtMDgtMTcudmlkZW8uZ2xvYm8uY29tIiwiZXhwIjoxNzY3ODQyMDQyLCJpYXQiOjE3Njc4MjA0NDIsImlzcyI6InBsYXliYWNrLWFwaS1wcm9kLWdjcCIsIm93bmVyIjoiIiwicGF0aCI6Ii9saXZlL2YoaT0yKS9zcG8yMjRoYS9wbGF5bGlzdC5tM3U4In0.M5neaZqjbGw0PCF1ltvii079o7ZSrWP03E9YN_NU6Z1fZym1tKenr_IneylSN_iKKLGijIv1WZ3Mi-reOMnNjJti2iArbAGToWEs1Avy1bL23IwstshEaUQHTh7YC-jladUnnMOQjJ4GEanSLz9j1O-EF18AnUPM9Bi_m2L50FL7eeS_EcF2Zk_EdcyMYHG58Fdb8_OwdV0yC3IqvA3-Dt6lQSd_dNZhe1lZcda7VXKmGdutt86huU0yO4X_yKApHJYzIBST3V6Jnu2YKXC3W0jpLbTnU2XuTs7MTx1GCrLm6Y_dq4sap9pkguCR82tiYP4pnHBJY1CGg8Vu6jYOXg/live/f(i=2)/spo224ha/spo224ha-audio_1=96000-video=2262976.m3u8
+
+#EXTINF:-1 tvg-id="Globo RJ.br" tvg-logo="https://s03.video.glbimg.com/x720/1328766.jpg" group-title="GLOBO AO VIVO", Assistir G1 ao vivo - g1 ao vivo: Transmissão ao vivo online | Globoplay
+https://live-as-03-30.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJVUyIsImRvbWFpbiI6ImxpdmUtYXMtMDMtMzAudmlkZW8uZ2xvYm8uY29tIiwiZXhwIjoxNzY3ODQyMTUzLCJpYXQiOjE3Njc4MjA1NTMsImlzcyI6InBsYXliYWNrLWFwaS1wcm9kLWdjcCIsIm93bmVyIjoiIiwicGF0aCI6Ii9saXZlL2YoaT0yKS9nMXJqMS9wbGF5bGlzdC5tM3U4In0.sceKZQaZZYEWujBRX2ARQMpERBPGZvVQvz9adBrHAGO0fUiCPWgh8IEIsIVIkgWkwO01PXnVyXc-Lm22CSnohkG7RCDWCUyFUt4c0AeEmUfGEWJeUSLvJsWrdE8C7_VdZ_AW41nnbZ7Szom9h4yt1Lp__6YU-KQ59AKEYMON35vN2-PNgHqmiUjYkINPJw6Nrt2HtWFe3nmP-mjFu00O4gYgxvChqfEVbGlkxVuyY3Zr7i4BI36MA4SVGmHJRCFtp1lwz2EA2mIBgbjrbXJartqIumzhhWuGfS7EUfWv41gxp2Qt10fYw4PIdmGrHgc1hKG4-Vd-9E05sqMvcNWIgQ/live/f(i=2)/g1rj1/g1rj1-audio_1=96000-video=3092992.m3u8
+
+#EXTINF:-1 tvg-id="Globo Nordeste.br" tvg-logo="https://s04.video.glbimg.com/x720/5472979.jpg" group-title="GLOBO AO VIVO", Assistir G1 Caruaru - Transmissão ao vivo do ABTV online | Globoplay
+https://live-as-10-28.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJVUyIsImRvbWFpbiI6ImxpdmUtYXMtMTAtMjgudmlkZW8uZ2xvYm8uY29tIiwiZXhwIjoxNzY3ODQyMjIwLCJpYXQiOjE3Njc4MjA2MjAsImlzcyI6InBsYXliYWNrLWFwaS1wcm9kLWdjcCIsIm93bmVyIjoiIiwicGF0aCI6Ii9saXZlL2YoaT0yKS9nMWNhcnVhcnUvcGxheWxpc3QubTN1OCJ9.G9CSFWZYTbDEAxX1HSuyrlzmQGOfN5P4XHs2jz3pO85fMBqKKBCNEp0-65rXxczVziGypJPSS-8miLcAvpf2GPmEvh7tiPdRGhbI8uqCkuhkw7UP5A9WCEzVe2MbwAk-wOV4SlM-dTenQ6C3LmqoYfrD5vQo1M_iitNy35-_FCuUbLaZIvYeFV9kTNJ7JCsNRkZLQt9j50MT8N6udXaFOVZJYmvE3k8id8y7mZPM_0_8F20citb8qCFCVFOy4pMFwbBsVJrEo5DeKeQ7v6tZWRHXomSlAKjjsQMt7F0HxcT7XVEBGlqzlP36hpkRxivoevACl6YKFn7KSg5Rk5q7Ww%2Flive%2Ff(i%3D2)%2Fg1caruaru%2Fplaylist.m3u8
+
+# --- NEWS WORLD (IDs Internacionais e Redes) ---
+
+#EXTINF:-1 tvg-id="CNN Brasil.br" tvg-logo="https://i.ytimg.com/vi/lBHEeMP14vg/maxresdefault.jpg", group-title="NEWS WORLD",CNN Brasil
+[LINK_DA_SUA_LISTA]
+
+#EXTINF:-1 tvg-id="SBT News.br" tvg-logo="https://i.ytimg.com/vi/4Zh0SnLYyGI/maxresdefault.jpg", group-title="NEWS WORLD",SBT News
+[LINK_DA_SUA_LISTA]
+
+#EXTINF:-1 tvg-id="France 24 Spanish.br" tvg-logo="https://i.ytimg.com/vi/Y-IlMeCCtIg/maxresdefault.jpg", group-title="NEWS WORLD",FRANCE 24 Español
+[LINK_DA_SUA_LISTA]
+
+#EXTINF:-1 tvg-id="ABC News.br" tvg-logo="https://i.ytimg.com/vi/IDm0MHc707Q/maxresdefault.jpg", group-title="NEWS WORLD",ABC News
+[LINK_DA_SUA_LISTA]
+
+#EXTINF:-1 tvg-id="CBS News.br" tvg-logo="https://i.ytimg.com/vi/8rD5quyoCo0/maxresdefault.jpg", group-title="NEWS WORLD",CBS News
+[LINK_DA_SUA_LISTA]
+
+#EXTINF:-1 tvg-id="NBC News.br" tvg-logo="https://i.ytimg.com/vi/BeYmJNXQZbs/maxresdefault.jpg", group-title="NEWS WORLD",NBC News
+[LINK_DA_SUA_LISTA]
+
+#EXTINF:-1 tvg-id="Euronews Portuguese.br" tvg-logo="https://i.ytimg.com/vi/XuZAl-ZPEcA/maxresdefault.jpg", group-title="NEWS WORLD",Euronews em Português
+[LINK_DA_SUA_LISTA]
+
+#EXTINF:-1 tvg-id="Azteca Noticias.br" tvg-logo="https://i.ytimg.com/vi/ys7QuChSaLA/maxresdefault.jpg", group-title="NEWS WORLD",Azteca Noticias
+[LINK_DA_SUA_LISTA]
+
 #EXTINF:-1 tvg-id="SporTV 2.br" tvg-logo="https://s02.video.glbimg.com/x720/7690141.jpg" group-title="GLOBO AO VIVO", sportv 2 ao vivo no ge.globo - FIFA Monitoração | Assista ao vivo pelo Globoplay
 https://live-as-08-17.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJVUyIsImRvbWFpbiI6ImxpdmUtYXMtMDgtMTcudmlkZW8uZ2xvYm8uY29tIiwiZXhwIjoxNzY3ODQyMDQyLCJpYXQiOjE3Njc4MjA0NDIsImlzcyI6InBsYXliYWNrLWFwaS1wcm9kLWdjcCIsIm93bmVyIjoiIiwicGF0aCI6Ii9saXZlL2YoaT0yKS9zcG8yMjRoYS9wbGF5bGlzdC5tM3U4In0.M5neaZqjbGw0PCF1ltvii079o7ZSrWP03E9YN_NU6Z1fZym1tKenr_IneylSN_iKKLGijIv1WZ3Mi-reOMnNjJti2iArbAGToWEs1Avy1bL23IwstshEaUQHTh7YC-jladUnnMOQjJ4GEanSLz9j1O-EF18AnUPM9Bi_m2L50FL7eeS_EcF2Zk_EdcyMYHG58Fdb8_OwdV0yC3IqvA3-Dt6lQSd_dNZhe1lZcda7VXKmGdutt86huU0yO4X_yKApHJYzIBST3V6Jnu2YKXC3W0jpLbTnU2XuTs7MTx1GCrLm6Y_dq4sap9pkguCR82tiYP4pnHBJY1CGg8Vu6jYOXg/live/f(i=2)/spo224ha/spo224ha-audio_1=96000-video=2262976.m3u8
 
