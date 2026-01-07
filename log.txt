@@ -1,53 +1,53 @@
-[2026-01-07 16:28:39] ============================================================
-[2026-01-07 16:28:39] INICIANDO PROCESSAMENTO
-[2026-01-07 16:28:39] ============================================================
-[2026-01-07 16:28:39] Processando URL: https://www.1377x.to/torrent/6497285/Rocky-Balboa-2006-WEBRip-1080p-HEVC-AAC-ITA-ENG-SUB-ENG-ITA-Lullozzo/
-[2026-01-07 16:28:39]   Tipo detectado: 1337x_torrent
-[2026-01-07 16:28:39]   Tentando extrair vídeo do 1337x: https://www.1377x.to/torrent/6497285/Rocky-Balboa-2006-WEBRip-1080p-HEVC-AAC-ITA-ENG-SUB-ENG-ITA-Lullozzo/
-[2026-01-07 16:28:39]   ✗ Erro ao acessar página: Status 403
-[2026-01-07 16:28:39]   ✓ ID do IMDb (fallback conhecido): tt0479143
-[2026-01-07 16:28:39]   ✓ Extraídos 1 item(s) com sucesso
-[2026-01-07 16:28:39] Processando URL: https://archive.org/details/globo-e-record-novelas-e-variados-2005-2006-e-2010-fita-vhs
-[2026-01-07 16:28:39]   Tipo detectado: archive_collection
-[2026-01-07 16:28:39]   Tentando método: --flat-playlist
-[2026-01-07 16:28:40]   ✓ Extraídos 3 item(s) com sucesso
-[2026-01-07 16:28:40] Processando URL: https://archive.org/details/fita-locomotion-2
-[2026-01-07 16:28:40]   Tipo detectado: archive_collection
-[2026-01-07 16:28:40]   Tentando método: --flat-playlist
-[2026-01-07 16:28:41]   ✗ Método --flat-playlist falhou: CalledProcessError
-[2026-01-07 16:28:41]   Tentando método: -j (JSON completo)
-[2026-01-07 16:28:42]   ✗ Método -j falhou: CalledProcessError
-[2026-01-07 16:28:42]   ✗ Nenhum item extraído
-[2026-01-07 16:28:42] Processando URL: https://archive.org/details/Filme1984GeorgeOrwellDubladoConhecimentoEhPoderByN1ngGg3n
-[2026-01-07 16:28:42]   Tipo detectado: archive_collection
-[2026-01-07 16:28:42]   Tentando método: --flat-playlist
-[2026-01-07 16:28:42]   ✓ Extraídos 1 item(s) com sucesso
-[2026-01-07 16:28:42] Processando URL: https://archive.org/details/globo-e-record-novelas-e-variados-2005-2006-e-2010-fita-vhs
-[2026-01-07 16:28:42]   Tipo detectado: archive_collection
-[2026-01-07 16:28:42]   Tentando método: --flat-playlist
-[2026-01-07 16:28:44]   ✓ Extraídos 3 item(s) com sucesso
-[2026-01-07 16:28:44] Processando URL: https://archive.org/details/globo-tv-gazeta-sao-paulo-e-redetv-ano-2007-em-fita-vhs
-[2026-01-07 16:28:44]   Tipo detectado: archive_collection
-[2026-01-07 16:28:44]   Tentando método: --flat-playlist
-[2026-01-07 16:28:45]   ✓ Extraídos 4 item(s) com sucesso
-[2026-01-07 16:28:45] Processando URL: https://archive.org/details/o_aprendiz_2_2o_e_3o_episodio_tv_pampa_30_06_2005
-[2026-01-07 16:28:45]   Tipo detectado: archive_collection
-[2026-01-07 16:28:45]   Tentando método: --flat-playlist
-[2026-01-07 16:28:46]   ✓ Extraídos 1 item(s) com sucesso
-[2026-01-07 16:28:46] Processando URL: https://archive.org/details/intervalos-bbb-6-globo-16-02-2006
-[2026-01-07 16:28:46]   Tipo detectado: archive_collection
-[2026-01-07 16:28:46]   Tentando método: --flat-playlist
-[2026-01-07 16:28:47]   ✓ Extraídos 1 item(s) com sucesso
-[2026-01-07 16:28:47] Processando URL: https://archive.org/details/intervalos_o_aprendiz_record_21_e_23_12_2004
-[2026-01-07 16:28:47]   Tipo detectado: archive_collection
-[2026-01-07 16:28:47]   Tentando método: --flat-playlist
-[2026-01-07 16:28:48]   ✓ Extraídos 1 item(s) com sucesso
-[2026-01-07 16:28:48] Criando arquivo M3U: lista30.M3U
-[2026-01-07 16:28:48] ✓ Arquivo lista30.M3U criado com sucesso
-[2026-01-07 16:28:48] ============================================================
-[2026-01-07 16:28:48] RESUMO DO PROCESSAMENTO:
-[2026-01-07 16:28:48]   URLs processadas: 9
-[2026-01-07 16:28:48]   Sucessos: 8
-[2026-01-07 16:28:48]   Falhas: 1
-[2026-01-07 16:28:48]   Total de itens extraídos: 15
-[2026-01-07 16:28:48] ============================================================
+[2026-01-07 16:36:52] ============================================================
+[2026-01-07 16:36:52] INICIANDO PROCESSAMENTO
+[2026-01-07 16:36:52] ============================================================
+[2026-01-07 16:36:52] Processando URL: https://www.1377x.to/torrent/6497285/Rocky-Balboa-2006-WEBRip-1080p-HEVC-AAC-ITA-ENG-SUB-ENG-ITA-Lullozzo/
+[2026-01-07 16:36:52]   Tipo detectado: 1337x_torrent
+[2026-01-07 16:36:52]   Tentando extrair vídeo do 1337x: https://www.1377x.to/torrent/6497285/Rocky-Balboa-2006-WEBRip-1080p-HEVC-AAC-ITA-ENG-SUB-ENG-ITA-Lullozzo/
+[2026-01-07 16:36:52]   ✗ Erro ao acessar página: Status 403
+[2026-01-07 16:36:52]   ✓ ID do IMDb (fallback conhecido): tt0479143
+[2026-01-07 16:36:52]   ✓ Extraídos 1 item(s) com sucesso
+[2026-01-07 16:36:52] Processando URL: https://archive.org/details/globo-e-record-novelas-e-variados-2005-2006-e-2010-fita-vhs
+[2026-01-07 16:36:52]   Tipo detectado: archive_collection
+[2026-01-07 16:36:52]   Tentando método: --flat-playlist
+[2026-01-07 16:36:53]   ✓ Extraídos 3 item(s) com sucesso
+[2026-01-07 16:36:53] Processando URL: https://archive.org/details/fita-locomotion-2
+[2026-01-07 16:36:53]   Tipo detectado: archive_collection
+[2026-01-07 16:36:53]   Tentando método: --flat-playlist
+[2026-01-07 16:36:54]   ✗ Método --flat-playlist falhou: CalledProcessError
+[2026-01-07 16:36:54]   Tentando método: -j (JSON completo)
+[2026-01-07 16:36:55]   ✗ Método -j falhou: CalledProcessError
+[2026-01-07 16:36:55]   ✗ Nenhum item extraído
+[2026-01-07 16:36:55] Processando URL: https://archive.org/details/Filme1984GeorgeOrwellDubladoConhecimentoEhPoderByN1ngGg3n
+[2026-01-07 16:36:55]   Tipo detectado: archive_collection
+[2026-01-07 16:36:55]   Tentando método: --flat-playlist
+[2026-01-07 16:36:56]   ✓ Extraídos 1 item(s) com sucesso
+[2026-01-07 16:36:56] Processando URL: https://archive.org/details/globo-e-record-novelas-e-variados-2005-2006-e-2010-fita-vhs
+[2026-01-07 16:36:56]   Tipo detectado: archive_collection
+[2026-01-07 16:36:56]   Tentando método: --flat-playlist
+[2026-01-07 16:36:56]   ✓ Extraídos 3 item(s) com sucesso
+[2026-01-07 16:36:56] Processando URL: https://archive.org/details/globo-tv-gazeta-sao-paulo-e-redetv-ano-2007-em-fita-vhs
+[2026-01-07 16:36:56]   Tipo detectado: archive_collection
+[2026-01-07 16:36:56]   Tentando método: --flat-playlist
+[2026-01-07 16:36:57]   ✓ Extraídos 4 item(s) com sucesso
+[2026-01-07 16:36:57] Processando URL: https://archive.org/details/o_aprendiz_2_2o_e_3o_episodio_tv_pampa_30_06_2005
+[2026-01-07 16:36:57]   Tipo detectado: archive_collection
+[2026-01-07 16:36:57]   Tentando método: --flat-playlist
+[2026-01-07 16:36:58]   ✓ Extraídos 1 item(s) com sucesso
+[2026-01-07 16:36:58] Processando URL: https://archive.org/details/intervalos-bbb-6-globo-16-02-2006
+[2026-01-07 16:36:58]   Tipo detectado: archive_collection
+[2026-01-07 16:36:58]   Tentando método: --flat-playlist
+[2026-01-07 16:36:59]   ✓ Extraídos 1 item(s) com sucesso
+[2026-01-07 16:36:59] Processando URL: https://archive.org/details/intervalos_o_aprendiz_record_21_e_23_12_2004
+[2026-01-07 16:36:59]   Tipo detectado: archive_collection
+[2026-01-07 16:36:59]   Tentando método: --flat-playlist
+[2026-01-07 16:37:00]   ✓ Extraídos 1 item(s) com sucesso
+[2026-01-07 16:37:00] Criando arquivo M3U: lista30.M3U
+[2026-01-07 16:37:00] ✓ Arquivo lista30.M3U criado com sucesso
+[2026-01-07 16:37:00] ============================================================
+[2026-01-07 16:37:00] RESUMO DO PROCESSAMENTO:
+[2026-01-07 16:37:00]   URLs processadas: 9
+[2026-01-07 16:37:00]   Sucessos: 8
+[2026-01-07 16:37:00]   Falhas: 1
+[2026-01-07 16:37:00]   Total de itens extraídos: 15
+[2026-01-07 16:37:00] ============================================================
