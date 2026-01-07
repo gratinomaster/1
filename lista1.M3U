@@ -1,8 +1,10 @@
 #EXTM3U x-tvg-url="https://www.open-epg.com/files/brazil1.xml.gz,https://www.open-epg.com/files/brazil2.xml.gz"
 
-#EXTINF:-1 tvg-id="SporTV2.br" tvg-logo="https://s02.video.glbimg.com/x720/7690141.jpg" group-title="GLOBO AO VIVO", sportv 2 ao vivo no ge.globo - FIFA Monitoração | Assista ao vivo pelo Globoplay
+
+#EXTINF:-1, DFTV GRAVADO
 https://vod-tvg-df-01.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJCUiIsImRvbWFpbiI6InZvZC10dmctZGYtMDEudmlkZW8uZ2xvYm8uY29tIiwiZXhwIjoxNzY3ODMyMTM1LCJpYXQiOjE3Njc4MjYxMDAsImlzcyI6InBsYXliYWNrLWFwaS1wcm9kLWdjcCIsIm93bmVyIjoiIiwicGF0aCI6Ii9yMzYwXzEwODAvdjAvNDUvZDcvMDEvMTQyMzI0MjhfMDE5MWMwNjcwYTA4MDJhNTM4ZDg2NTQ1ZjdiNjI5MjJiODBhNmIyZi8xNDIzMjQyOC1pMUJqUkpFLW1hbmlmZXN0LmlzbS8xNDIzMjQyOC5tM3U4In0.rLPS2rrAP_4yK5yMl9M1gqxuAI6tAkAgTUvKKDrGDN6ZrAb6Pd--GTGcPlh7OQ6Z-IDXPVWGJPqTfh1L--nXo5xNXwD2KXnC-T3AHpLRVp1Cpix0_zv5gE59qEqWbKng37XWCdjm3rto23m9UHvs8F9akq_IPLi9uetP-7gJl1ig8AlqA_cYYFTnNM0ObP9IY-xGia0dhNYMXMjNhGTyh5ksDKaAkbvrPEtfZvip17dIJIDSHvN1x9VZ1uUkQDLVFnbx_0co_HKTM1kA39SqN5h-Z3WEmoRhgU8ZITYqvNO1pDTB2SlgAuCi7dlnBZu6WKa8hb0JhzUogyA6dIozjA/r360_1080/v0/45/d7/01/14232428_0191c0670a0802a538d86545f7b62922b80a6b2f/14232428-i1BjRJE-manifest.ism/14232428.m3u8
 
+#EXTINF:-1 tvg-id="SporTV2.br" tvg-logo="https://s02.video.glbimg.com/x720/7690141.jpg" group-title="GLOBO AO VIVO", sportv 2 ao vivo no ge.globo - FIFA Monitoração | Assista ao vivo pelo Globoplay
 https://live-as-08-17.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJVUyIsImRvbWFpbiI6ImxpdmUtYXMtMDgtMTcudmlkZW8uZ2xvYm8uY29tIiwiZXhwIjoxNzY3ODQyMDQyLCJpYXQiOjE3Njc4MjA0NDIsImlzcyI6InBsYXliYWNrLWFwaS1wcm9kLWdjcCIsIm93bmVyIjoiIiwicGF0aCI6Ii9saXZlL2YoaT0yKS9zcG8yMjRoYS9wbGF5bGlzdC5tM3U4In0.M5neaZqjbGw0PCF1ltvii079o7ZSrWP03E9YN_NU6Z1fZym1tKenr_IneylSN_iKKLGijIv1WZ3Mi-reOMnNjJti2iArbAGToWEs1Avy1bL23IwstshEaUQHTh7YC-jladUnnMOQjJ4GEanSLz9j1O-EF18AnUPM9Bi_m2L50FL7eeS_EcF2Zk_EdcyMYHG58Fdb8_OwdV0yC3IqvA3-Dt6lQSd_dNZhe1lZcda7VXKmGdutt86huU0yO4X_yKApHJYzIBST3V6Jnu2YKXC3W0jpLbTnU2XuTs7MTx1GCrLm6Y_dq4sap9pkguCR82tiYP4pnHBJY1CGg8Vu6jYOXg/live/f(i=2)/spo224ha/spo224ha-audio_1=96000-video=2262976.m3u8
 
 #EXTINF:-1 tvg-id="GloboRJ.br" tvg-logo="https://s03.video.glbimg.com/x720/1328766.jpg" group-title="GLOBO AO VIVO", Assistir G1 ao vivo - g1 ao vivo: Transmissão ao vivo online | Globoplay
