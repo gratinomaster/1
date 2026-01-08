@@ -193,27 +193,30 @@ https://telefeviacom1.akamaized.net/hls/live/2037987/viacomINT/TOK/master.m3u8
 https://redirector.rudo.video/hls-video/c54ac2799874375c81c1672abb700870537c5223/bravo/bravo.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="Argentinisima.ar" tvg-logo="https://raw.githubusercontent.com/CINECITY2023/cinecity/refs/heads/cinecity.net/logos/buenos-aires/ArgentinisimaSatelital1.png" group-title="🏙️ Buenos Aires",✔️ Argentinisima Satelital
 https://stream1.sersat.com/hls/argentinisima.m3u8
-#EXTINF:-1 tvg-id="Canal2MDP.ar" tvg-logo="https://raw.githubusercontent.com/CINECITY2023/cinecity/refs/heads/cinecity.net/logos/buenos-aires/canal2mardelplata.png" group-title="🏙️ Buenos Aires",✔️ Canal 2 (Mar del Plata)
+#EXTM3U x-tvg-url="https://abrir.link/Gsnoi,https://encurtador.com.br/5dCTS,https://abrir.link/ghPyH"
+
+#EXTINF:-1 tvg-id="Canal 2 Mar del Plata" tvg-logo="https://raw.githubusercontent.com/CINECITY2023/cinecity/refs/heads/cinecity.net/logos/buenos-aires/canal2mardelplata.png" group-title="🏙️ Buenos Aires",✔️ Canal 2 (Mar del Plata)
 https://tv.streamcasthd.com:3641/live/canal2mdplive.m3u8
-#EXTINF:-1 tvg-id="AmericaTV.ar" tvg-logo="https://raw.githubusercontent.com/CINECITY2023/cinecity/refs/heads/cinecity.net/logos/buenos-aires/america.png" group-title="🏙️ Buenos Aires",✔️ America
+
+#EXTINF:-1 tvg-id="America TV" tvg-logo="https://raw.githubusercontent.com/CINECITY2023/cinecity/refs/heads/cinecity.net/logos/buenos-aires/america.png" group-title="🏙️ Buenos Aires",✔️ America
 https://dai.google.com/linear/hls/event/OY2i_lL4SMyXE5Zaj4ULEg/master.m3u8
-#EXTINF:-1 tvg-id="TelpinTV.ar" tvg-logo="https://raw.githubusercontent.com/CINECITY2023/cinecity/refs/heads/cinecity.net/logos/buenos-aires/canal2telpintvpinamar.png" group-title="🏙️ Buenos Aires",✔️ Canal 2 Telpin TV (Pinamar)
+
+#EXTINF:-1 tvg-id="Telpin TV" tvg-logo="https://raw.githubusercontent.com/CINECITY2023/cinecity/refs/heads/cinecity.net/logos/buenos-aires/canal2telpintvpinamar.png" group-title="🏙️ Buenos Aires",✔️ Canal 2 Telpin TV (Pinamar)
 https://wowza.telpin.com.ar:1935/telpintv/smil:ttv.stream.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="Canal11LaCosta.ar" tvg-logo="https://raw.githubusercontent.com/CINECITY2023/cinecity/refs/heads/cinecity.net/logos/buenos-aires/Canal11delaCosta1.png" group-title="🏙️ Buenos Aires",✔️ Canal 11 de la Costa
+
+#EXTINF:-1 tvg-id="Canal 11 de la Costa" tvg-logo="https://raw.githubusercontent.com/CINECITY2023/cinecity/refs/heads/cinecity.net/logos/buenos-aires/Canal11delaCosta1.png" group-title="🏙️ Buenos Aires",✔️ Canal 11 de la Costa
 https://vivo.solumedia.com:19360/dadaproductora/dadaproductora.m3u8
-#EXTINF:-1 tvg-id="Canal79.ar" tvg-logo="https://raw.githubusercontent.com/CINECITY2023/cinecity/refs/heads/cinecity.net/logos/buenos-aires/Canal79MardelPlata.png" group-title="🏙️ Buenos Aires",✔️ Canal 79 (La Costa)
+
+#EXTINF:-1 tvg-id="Canal 79" tvg-logo="https://raw.githubusercontent.com/CINECITY2023/cinecity/refs/heads/cinecity.net/logos/buenos-aires/Canal79MardelPlata.png" group-title="🏙️ Buenos Aires",✔️ Canal 79 (La Costa)
 https://streamconex.com:19360/lacosta/lacosta.m3u8
-#EXTINF:-1 tvg-id="Canal22Web.ar" tvg-logo="https://raw.githubusercontent.com/CINECITY2023/cinecity/refs/heads/cinecity.net/logos/buenos-aires/Canal22WebCABA.png" group-title="🏙️ Buenos Aires",✔️ Canal 22 Web
+
+#EXTINF:-1 tvg-id="Canal 22 Web" tvg-logo="https://raw.githubusercontent.com/CINECITY2023/cinecity/refs/heads/cinecity.net/logos/buenos-aires/Canal22WebCABA.png" group-title="🏙️ Buenos Aires",✔️ Canal 22 Web
 https://5f700d5b2c46f.streamlock.net/canal22/canal22/playlist.m3u8
-#EXTINF:-1 tvg-id="Canal79.ar" tvg-logo="https://raw.githubusercontent.com/CINECITY2023/cinecity/refs/heads/cinecity.net/logos/buenos-aires/Canal79MardelPlata.png" group-title="🏙️ Buenos Aires",✔️ Canal 79 (Santa Clara del Mar)
-https://streamconex.com:19360/santaclara-1/santaclara-1.m3u8
-#EXTINF:-1 tvg-id="Canal79.ar" tvg-logo="https://raw.githubusercontent.com/CINECITY2023/cinecity/refs/heads/cinecity.net/logos/buenos-aires/Canal79MardelPlata.png" group-title="🏙️ Buenos Aires",✔️ Canal 79 (Villa Maza)
-https://streamconex.com:19360/villamaza/villamaza.m3u8
-#EXTINF:-1 tvg-id="CeltaTV.ar" tvg-logo="https://raw.githubusercontent.com/CINECITY2023/cinecity/refs/heads/cinecity.net/logos/buenos-aires/celtatv.png" group-title="🏙️ Buenos Aires",✔️ Celta TV
+
+#EXTINF:-1 tvg-id="Celta TV" tvg-logo="https://raw.githubusercontent.com/CINECITY2023/cinecity/refs/heads/cinecity.net/logos/buenos-aires/celtatv.png" group-title="🏙️ Buenos Aires",✔️ Celta TV
 https://vivo.solumedia.com:19360/celta/celta.m3u8
-#EXTINF:-1 tvg-id="CeltTV.ar" tvg-logo="https://raw.githubusercontent.com/CINECITY2023/cinecity/refs/heads/cinecity.net/logos/buenos-aires/celttvtornquist.png" group-title="🏙️ Buenos Aires",✔️ Celt TV (Tornquist)
-http://190.103.192.6:8080/hls/mystreamkey.m3u8
-#EXTINF:-1 tvg-id="CincoTV.ar" tvg-logo="https://raw.githubusercontent.com/CINECITY2023/cinecity/refs/heads/cinecity.net/logos/buenos-aires/cincotvgeneralpacheco.png" group-title="🏙️ Buenos Aires",✔️ Cinco TV (General Pacheco)
+
+#EXTINF:-1 tvg-id="Cinco TV" tvg-logo="https://raw.githubusercontent.com/CINECITY2023/cinecity/refs/heads/cinecity.net/logos/buenos-aires/cincotvgeneralpacheco.png" group-title="🏙️ Buenos Aires",✔️ Cinco TV (General Pacheco)
 https://videostream.shockmedia.com.ar:19360/cincotv/cincotv.m3u8
 #EXTINF:-1 tvg-id="CiudadMagazine.ar" tvg-logo="https://raw.githubusercontent.com/CINECITY2023/cinecity/refs/heads/cinecity.net/logos/buenos-aires/CiudadMagazine.png" group-title="🏙️ Buenos Aires",✔️ Ciudad Magazine
 https://livetrx01.vodgc.net/live-01-07-ciudad.vodgc.net/tracks-v3a1/mono.m3u8
@@ -2949,23 +2952,37 @@ https://live-uvelirochka.cdnvideo.ru/uvelirochka/uvelirochka_720p3/playlist.m3u8
 #EXTM3U url-tvg="https://epg.pw/xmltv/epg_all.xml"
 #EXTM3U url-tvg="https://epgshare01.online/epgshare01/epg_ripper_PLEX1.xml.gz"
 #EXTM3U url-tvg="https://epg.pw/xmltv/epg_all.xml"
-#EXTINF:-1 group-title="USA" tvg-id="ABC.us" tvg-name="ABC_EAST" tvg-logo="https://iili.io/JmoUd6g.png",ABC East
+#EXTM3U x-tvg-url="https://abrir.link/Gsnoi,https://encurtador.com.br/5dCTS,https://abrir.link/ghPyH"
+
+# --- USA NETWORKS (EAST FEED) ---
+
+#EXTINF:-1 group-title="USA" tvg-id="ABC" tvg-logo="https://iili.io/JmoUd6g.png",ABC East
 http://fl1.moveonjoy.com/ABC_EAST/index.m3u8
-#EXTINF:-1 group-title="USA" tvg-id="CBS.us" tvg-name="CBS_EAST" tvg-logo="https://i.imgur.com/vHqXv2A.png",CBS East
+
+#EXTINF:-1 group-title="USA" tvg-id="CBS" tvg-logo="https://i.imgur.com/vHqXv2A.png",CBS East
 http://fl1.moveonjoy.com/CBS_EAST/index.m3u8
-#EXTINF:-1 group-title="USA" tvg-id="NBC.us" tvg-name="NBC_EAST" tvg-logo="https://i.imgur.com/83p73Wp.png",NBC East
+
+#EXTINF:-1 group-title="USA" tvg-id="NBC" tvg-logo="https://i.imgur.com/83p73Wp.png",NBC East
 http://fl1.moveonjoy.com/NBC_EAST/index.m3u8
-#EXTINF:-1 group-title="USA" tvg-id="FOX.us" tvg-name="FOX_EAST" tvg-logo="https://i.imgur.com/f0m8Vj6.png",FOX East
+
+#EXTINF:-1 group-title="USA" tvg-id="FOX" tvg-logo="https://i.imgur.com/f0m8Vj6.png",FOX East
 http://fl1.moveonjoy.com/FOX_EAST/index.m3u8
-#EXTINF:-1 group-title="USA" tvg-id="CW.us" tvg-name="CW_EAST" tvg-logo="https://i.imgur.com/uGzG3nF.png",CW East
+
+#EXTINF:-1 group-title="USA" tvg-id="CW" tvg-logo="https://i.imgur.com/uGzG3nF.png",CW East
 http://fl1.moveonjoy.com/CW_EAST/index.m3u8
-#EXTINF:-1 group-title="USA" tvg-id="PBS.us" tvg-name="PBS_EAST" tvg-logo="https://i.imgur.com/XGfD8q3.png",PBS East
+
+#EXTINF:-1 group-title="USA" tvg-id="PBS" tvg-logo="https://i.imgur.com/XGfD8q3.png",PBS East
 http://fl1.moveonjoy.com/PBS_EAST/index.m3u8
-#EXTINF:-1 group-title="USA" tvg-id="CBS.(KRCG).Jefferson,.MO.us" tvg-name="CBS - Jefferson",CBS - Jefferson
+
+# --- USA AFFILIATES (LOCAL STATIONS) ---
+
+#EXTINF:-1 group-title="USA" tvg-id="CBS" tvg-logo="https://i.imgur.com/vHqXv2A.png",CBS - Jefferson
 https://cvtv.cvalley.net/hls/KRCGCBS/KRCGCBS.m3u8
-#EXTINF:-1 group-title="USA" tvg-id="CBS.(KCTV).Kansas.City,.MO.us" tvg-name="CBS - Kansas.City",CBS - Kansas.City
+
+#EXTINF:-1 group-title="USA" tvg-id="CBS" tvg-logo="https://i.imgur.com/vHqXv2A.png",CBS - Kansas City
 https://cvtv.cvalley.net/hls/KCTVCBS/KCTVCBS.m3u8
-#EXTINF:-1 group-title="USA" tvg-id="ABC.(KMIZ).Columbia,.MO.us" tvg-name="ABC - Columbia",ABC - Columbia
+
+#EXTINF:-1 group-title="USA" tvg-id="ABC" tvg-logo="https://iili.io/JmoUd6g.png",ABC - Columbia
 https://cvtv.cvalley.net/hls/KMIZABC/KMIZABC.m3u8
 #EXTINF:-1 group-title="USA" tvg-id="ABC.(KMBC).Kansas.City,.MO.us" tvg-name="ABC - Kansas City",ABC - Kansas City
 https://cvtv.cvalley.net/hls/KMBCABC/KMBCABC.m3u8
