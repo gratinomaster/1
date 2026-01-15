@@ -1,10 +1,24 @@
+import requests
+
+url = "https://drive.usercontent.google.com/uc?id=1zFZUuWtu4Vz4zYhcAAFlvTGrq2zdHApm&export=download"
+arquivo_destino = "lista1.M3U"
+
+resposta = requests.get(url)
+resposta.raise_for_status()
+
+with open(arquivo_destino, "wb") as arquivo:
+    arquivo.write(resposta.content)
+
+print("Download concluído com sucesso!")
+
+
+
 import os
 import requests
 
 # URLs dos repositórios que contêm os arquivos M3U
 repo_urls = [
-    "https://drive.usercontent.google.com/uc?id=1zFZUuWtu4Vz4zYhcAAFlvTGrq2zdHApm&export=download",
-    "https://api.github.com/repos/gmtv4/rastaf/contents",
+        "https://api.github.com/repos/gmtv4/rastaf/contents",
     "https://raw.githubusercontent.com/strikeinthehouse/1/refs/heads/main/lista2.M3U",
     "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/uy.m3u",        
     "https://github.com/strikeinthehouse/Navez/raw/main/playlist.m3u",
@@ -94,7 +108,7 @@ def is_simple_extm3u_header(line):
     
     return True
 
-with open(output_file, "w") as f:
+with open(output_file, "a") as f:
     for list_name, list_content in lists:
         print(f"Processando lista: {list_name}")
         lines = list_content.split("\n")
