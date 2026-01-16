@@ -308,9 +308,52 @@ def search_google_images(query):
 
 # Configuração dos arquivos de entrada e saída
 input_file = "lista1.M3U"
-output_file = "lista1.M3U"
+output_file = "lista2.M3U"
 
 # Executa o processamento
 process_m3u_file(input_file, output_file)
 
+
+
+
+import requests
+
+repo_urls = [
+    "https://github.com/strikeinthehouse/1/raw/refs/heads/main/lista_1.M3U",
+    "https://github.com/strikeinthehouse/1/raw/refs/heads/main/lista_1.M3U"
+]
+
+lists = []
+for url in repo_urls:
+    response = requests.get(url)
+
+    if response.status_code == 200:
+        if url.endswith(".m3u"):
+            lists.append((url.split("/")[-1], response.text))
+        else:
+            try:
+                contents = response.json()
+
+                m3u_files = [content for content in contents if content["name"].endswith(".m3u")]
+
+                for m3u_file in m3u_files:
+                    m3u_url = m3u_file["download_url"]
+                    m3u_response = requests.get(m3u_url)
+
+                    if m3u_response.status_code == 200:
+                        lists.append((m3u_file["name"], m3u_response.text))
+            except requests.exceptions.JSONDecodeError:
+                print(f"Error parsing JSON from {url}")
+    else:
+        print(f"Error retrieving contents from {url}")
+
+lists = sorted(lists, key=lambda x: x[0])
+
+line_count = 0
+with open("lista1.M3U", "a") as f:
+    for l in lists:
+        f.write(l[1])
+        line_count += l[1].count("\n")
+        if line_count >= 200:  # Stop writing after 200 lines
+            break
 
