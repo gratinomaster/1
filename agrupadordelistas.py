@@ -358,3 +358,155 @@ with open("lista1.M3U", "a") as f:
             break
 
 
+from selenium import webdriver
+from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.common.by import By
+import time
+import youtube_dl
+import concurrent.futures
+
+# Configure Chrome options
+options = Options()
+options.add_argument("--headless")
+options.add_argument("--no-sandbox")
+options.add_argument("--disable-gpu")
+options.add_argument("--window-size=1280,720")
+options.add_argument("--disable-infobars")
+
+
+# Create the webdriver instance
+driver = webdriver.Chrome(options=options)
+
+# URL of the desired page
+url_archive = "https://archive.org/details/television?query=nightly%20news&sort=date"
+
+# Open the desired page
+driver.get(url_archive)
+
+# Wait for the page to load
+time.sleep(5)
+
+# JavaScript para navegar pelo Shadow DOM e extrair os vídeos
+extract_videos_script = """
+function deepSearch(root, targetTag) {
+    let found = root.querySelector(targetTag);
+    if (found) return found;
+    
+    const elements = root.querySelectorAll('*');
+    for (let el of elements) {
+        if (el.shadowRoot) {
+            found = deepSearch(el.shadowRoot, targetTag);
+            if (found) return found;
+        }
+    }
+    return null;
+}
+
+const appRoot = document.querySelector('app-root');
+if (!appRoot || !appRoot.shadowRoot) {
+    return [];
+}
+
+const tileDispatcher = deepSearch(appRoot.shadowRoot, 'tile-dispatcher');
+if (!tileDispatcher || !tileDispatcher.shadowRoot) {
+    return [];
+}
+
+const videoInfos = [];
+const links = tileDispatcher.shadowRoot.querySelectorAll('a.tile-link');
+
+for (let link of links) {
+    const href = link.getAttribute('href');
+    const ariaLabel = link.getAttribute('aria-label');
+    
+    // Tentar pegar a imagem do item-tile
+    let thumbnailSrc = '';
+    const itemTile = link.querySelector('item-tile');
+    if (itemTile && itemTile.shadowRoot) {
+        const img = itemTile.shadowRoot.querySelector('img');
+        if (img) {
+            thumbnailSrc = img.getAttribute('src');
+            // Garantir URL absoluta
+            if (thumbnailSrc && !thumbnailSrc.startsWith('http')) {
+                thumbnailSrc = 'https://archive.org' + thumbnailSrc;
+            }
+        }
+    }
+    
+    // Garantir URL absoluta para o href
+    const fullHref = href.startsWith('http') ? href : 'https://archive.org' + href;
+    
+    videoInfos.push({
+        url: fullHref,
+        title: ariaLabel || '',
+        thumbnail: thumbnailSrc
+    });
+}
+
+return videoInfos;
+"""
+
+# Executar o script JavaScript para extrair os vídeos
+video_infos = []
+
+# Como o site usa carregamento dinâmico, pode ser necessário rolar a página
+# para carregar mais vídeos
+for scroll_count in range(10):
+    # Executar o script para extrair vídeos
+    videos = driver.execute_script(extract_videos_script)
+    
+    # Adicionar novos vídeos à lista (evitando duplicatas)
+    existing_urls = {v[0] for v in video_infos}
+    for video in videos:
+        if video['url'] not in existing_urls:
+            video_infos.append((video['url'], video['thumbnail']))
+            print("Adicionando URL:", video['url'])
+            print("Thumbnail:", video['thumbnail'])
+    
+    # Rolar para baixo para carregar mais vídeos
+    driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
+    time.sleep(2)
+    
+    # Se não houver novos vídeos após a rolagem, parar
+    if len(videos) == 0:
+        break
+
+print(f"\nTotal de vídeos encontrados: {len(video_infos)}")
+
+# Close the webdriver
+driver.quit()
+
+
+# Function to get the direct stream URL and title with error handling
+def get_stream_info(url):
+    ydl_opts = {
+        'quiet': True,
+        'format': 'best',
+        'noplaylist': True,
+        'outtmpl': '/dev/null',
+        'geturl': True
+    }
+    try:
+        with youtube_dl.YoutubeDL(ydl_opts) as ydl:
+            info_dict = ydl.extract_info(url, download=False)
+            video_title = info_dict.get('title', 'Video Desconhecido')
+            stream_url = info_dict.get('url', '')
+            return video_title, stream_url
+    except Exception as e:
+        print(f"Error fetching info for {url}: {e}")
+        return None, None  # Return None for failed entries
+
+# Generate the EXTINF lines with tvg-logo and URLs
+with concurrent.futures.ThreadPoolExecutor() as executor:
+    results = list(executor.map(lambda info: get_stream_info(info[0]), video_infos))
+
+# Write the EXTINF formatted lines to a file
+with open('lista1.M3U', 'a') as file:
+    file.write('#EXTM3U\n')  # Add the EXT3MU header
+    for (url, thumbnail), (title, stream_url) in zip(video_infos, results):
+        if stream_url:
+            tvg_logo = f'tvg-logo="{thumbnail}"' if thumbnail else ''
+            file.write(f'#EXTINF:-1 group-title="VOD" {tvg_logo},{title}\n{stream_url}\n')
+
+print("A playlist M3U foi gerada com sucesso.")
+
