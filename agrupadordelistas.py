@@ -320,7 +320,7 @@ import requests
 
 repo_urls = [
     "https://github.com/strikeinthehouse/1/raw/refs/heads/main/lista_1.M3U",
-    "https://github.com/otoxp/wepg/raw/df55b2ba14f8ec85bd198f85bd3c8cf35d3fa482/list/lista-globos-mitv.m3u
+    "https://github.com/otoxp/wepg/raw/df55b2ba14f8ec85bd198f85bd3c8cf35d3fa482/list/lista-globos-mitv.m3u"
 ]
 
 lists = []
