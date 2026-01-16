@@ -153,7 +153,7 @@ def search_google_images(query):
     return None
 
 # Configuração dos arquivos de entrada e saída
-input_file = "lista2.M3U"
+input_file = "lista1.M3U"
 output_file = "lista1.M3U"
 
 # Executa o processamento
