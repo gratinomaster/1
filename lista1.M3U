@@ -3353,8 +3353,6 @@ https://tvchannels.worldtvlive.eu/tv/_dtt_kodi/live?channel=senatotv6&group=Sena
 #EXTINF:-1 group-title="Musica" tvg-chno="2243" tvg-id="radionorbatv" tvg-logo="" tvg-name="Radio Norba TV" , Radio Norba TV
 https://tvchannels.worldtvlive.eu/tv/_dtt_kodi/live?channel=radionorbatv&group=Musica
 #EXTM3U x-tvg-url="http://epg.it999.ru/epg.xml.gz"
-#EXTINF:-1 tvg-id="KCTV" tvg-name="KCTV HD" tvg-logo="https://i.imgur.com/p02AEOF.png" group-title="🇰🇵 Coreia do Norte",Korean Central Television (KCTV) (1080i)
-https://tv.intchoson.com/kctv/index.m3u8
 #EXTINF:-1 tvg-id="KCTV" tvg-name="KCTV SD" tvg-logo="https://i.imgur.com/p02AEOF.png" group-title="🇰🇵 Coreia do Norte",Korean Central Television (KCTV) (576p)
 #EXTVLCOPT:http-referrer=https://kcnawatch.org/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.4044.138 Safari/537.36
