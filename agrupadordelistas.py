@@ -546,3 +546,54 @@ else:
     with open(output_file, "a") as f:
         f.write("#EXTM3U\n")
 
+
+#GLOBO
+
+
+from datetime import datetime
+import pytz
+import requests
+
+# Definir o fuso horário do Brasil
+brazil_timezone = pytz.timezone('America/Sao_Paulo')
+
+def is_within_time_range(start_time, end_time):
+    current_time = datetime.now(brazil_timezone)
+    return start_time <= current_time <= end_time
+
+# Verificar o dia da semana (0 = segunda-feira, 6 = domingo)
+current_weekday = datetime.now(brazil_timezone).weekday()
+
+# Horários locais do Brasil para 11h30 e 13h30
+start_time_br_morning = datetime.now(brazil_timezone).replace(hour=11, minute=30, second=0, microsecond=0)
+end_time_br_morning = datetime.now(brazil_timezone).replace(hour=13, minute=30, second=0, microsecond=0)
+
+# Horários locais do Brasil para 19h00 e 19h45
+start_time_br_evening = datetime.now(brazil_timezone).replace(hour=19, minute=0, second=0, microsecond=0)
+end_time_br_evening = datetime.now(brazil_timezone).replace(hour=19, minute=45, second=0, microsecond=0)
+
+# Horários locais do Brasil para 17h30 e 23h00
+start_time_br_night = datetime.now(brazil_timezone).replace(hour=17, minute=30, second=0, microsecond=0)
+end_time_br_night = datetime.now(brazil_timezone).replace(hour=20, minute=0, second=0, microsecond=0)
+
+# Nome do arquivo de saída
+output_file = "lista1.M3U"
+
+# Verificar se o dia é de segunda a sábado (0 a 5)
+if current_weekday < 6:
+    if (is_within_time_range(start_time_br_morning, end_time_br_morning) or 
+        is_within_time_range(start_time_br_evening, end_time_br_evening) or
+        is_within_time_range(start_time_br_night, end_time_br_night)):
+
+        m3upt_url = "https://github.com/strikeinthehouse/1/raw/main/lista2.M3U"
+        m3upt_response = requests.get(m3upt_url)
+
+        if m3upt_response.status_code == 200:
+            m3upt_lines = m3upt_response.text.split('\n')[:422]
+
+            with open(output_file, "a") as f:
+                for line in m3upt_lines:
+                    f.write(line + '\n')
+    else:
+        with open(output_file, "a") as f:
+            f.write("#EXTM3U\n")
