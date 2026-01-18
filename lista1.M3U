@@ -12,6 +12,28 @@ https://live-01.edge-vtal-gyn-go.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6I
 #EXTINF:-1 group-title="Reality Show's Live" tvg-id="Quarto Sonho de Voar" tvg-logo="https://live.video.globo.com/thumbs/bbb03.jpg",Quarto Sonho de Voar
 https://live-01.edge-vtal-gyn-go.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJCUiIsImRvbWFpbiI6ImxpdmUtMDEuZWRnZS12dGFsLWd5bi1nby52aWRlby5nbG9iby5jb20iLCJleHAiOjE3Njg3ODQzMzgsImlhdCI6MTc2ODc2MjczOCwiaXNzIjoicGxheWJhY2stYXBpLXByb2QtZ2NwIiwib3duZXIiOiI0YjkwY2Y3MS0yYmViLTQyZjItYTVlNC05YmZkM2M4OGFhNjMiLCJwYXRoIjoiL2xpdmUvZihpPTIpL2JiYjAzL3BsYXlsaXN0Lm0zdTgifQ.LgQjZBqCStLnAQsvluvK5D1lPsk49qKr7iqL-UEWz_tQuO7u_xL991kc9lGin7eylkjjRWWj86Gl1k9O21qmK2AGV8U8V7w-vRaJfU8daVFHuQjrjlVRRWmLKUlyjM9fnKS2VpqGuAwAUywClgMYeO09cYrciuMxmjh7Qs2KF9shgwKjTJfHANR8budCEt4mowDnp3dOpq6P23zitdAkW6zjjFN9T5136Lq9_K6sCovKjy6iAckTR5pE8DouPx8Fv6Yz3uLtqU2jSh1xVBiIP0T4SvbjzXBO9dWYc9Jjed0UNO2HyzK86yOTz1QmzRUwY6S4Vzvqifsdz5KrC45k1g/live/f(i=2)/bbb03/playlist.m3u8
 #EXTM3U
+
+#EXTINF:-1 tvg-id="Acompanhe a casa" tvg-name="Acompanhe a Casa" tvg-logo="https://live.video.globo.com/thumbs/bbb01.jpg" group-title="Reality Show's Live",Acompanhe a Casa
+https://live-01.edge-vtal-gyn-go.video.globo.com/live/f(i=2)/bbb01/playlist.m3u8
+
+#EXTINF:-1 tvg-id="Acompanhe a Casa 2" tvg-name="Acompanhe a Casa 2" tvg-logo="https://live.video.globo.com/thumbs/bbb11.jpg" group-title="Reality Show's Live",Acompanhe a Casa 2
+https://live-01.edge-vtal-gyn-go.video.globo.com/live/f(i=2)/bbb11/playlist.m3u8
+
+#EXTINF:-1 tvg-id="Segue o Líder" tvg-name="Segue o Líder" tvg-logo="https://live.video.globo.com/thumbs/bbb10.jpg" group-title="Reality Show's Live",Segue o Líder
+https://live-01.edge-vtal-gyn-go.video.globo.com/live/f(i=2)/bbb10/playlist.m3u8
+
+#EXTINF:-1 tvg-id="Quarto Sonho de Eternidade" tvg-name="Quarto Sonho de Eternidade" tvg-logo="https://live.video.globo.com/thumbs/bbb02.jpg" group-title="Reality Show's Live",Quarto Sonho de Eternidade
+https://live-01.edge-vtal-gyn-go.video.globo.com/live/f(i=2)/bbb02/playlist.m3u8
+
+#EXTINF:-1 tvg-id="Quarto Sonho de Voar" tvg-name="Quarto Sonho de Voar" tvg-logo="https://live.video.globo.com/thumbs/bbb03.jpg" group-title="Reality Show's Live",Quarto Sonho de Voar
+https://live-01.edge-vtal-gyn-go.video.globo.com/live/f(i=2)/bbb03/playlist.m3u8
+
+#EXTINF:-1 tvg-id="Sala Sonho de Ser Milionário" tvg-name="Sala Sonho de Ser Milionário" tvg-logo="https://live.video.globo.com/thumbs/bbb04.jpg" group-title="Reality Show's Live",Sala Sonho de Ser Milionário
+https://live-01.edge-vtal-gyn-go.video.globo.com/live/f(i=2)/bbb04/playlist.m3u8
+
+#EXTINF:-1 tvg-id="Banheiro SUPER CIMED" tvg-name="Banheiro SUPER CIMED" tvg-logo="https://live.video.globo.com/thumbs/bbb05.jpg" group-title="Reality Show's Live",Banheiro SUPER CIMED
+https://live-01.edge-vtal-gyn-go.video.globo.com/live/f(i=2)/bbb05/playlist.m3u8
+
 #EXTINF:-1 tvg-logo="https://i.ytimg.com/vi/GFT46vBUwj4/maxresdefault.jpg" group-title="NEWS WORLD",Televisa Tijuana Oficial
 https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1768784970/ei/6i9tafuuFLerlu8Po8qM6Ak/ip/52.161.82.120/id/GFT46vBUwj4.1/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hls_chunk_host/rr8---sn-2onajc-5x.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/ss/1/siu/1/bui/AW-iu_ryQCZ2pxShM0olQs3osj9KK7srpyD4EwqU6bmWSP5bLkVbafxBCqPt_dvpHj28f8qnLA/spc/q5xjPFLTLqV8pY60SsAw79aMOM5EwZ5MgLQNj1PnN8s2ZtjwJSd0Y4adul7ijVEmOyE/vprv/1/ns/SzvfWY7DnwgJaw_rURUT26UR/playlist_type/DVR/met/1768763370,/mh/L0/mm/44/mn/sn-2onajc-5x/ms/lva/mv/u/mvi/8/pl/16/rms/lva,lva/dover/11/pacing/0/keepalive/yes/fexp/51355912,51552689,51565115,51565681,51580968,51626154/n/7LYG9rh7gTHWnr2nVz1/mt/1768762187/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,ss,siu,bui,spc,vprv,ns,playlist_type/sig/AJfQdSswRAIgWKBpsUVz366Sc2Lg0WMhJtUfwOa8dfysx2d-ju4Rk-ECIANMUTjNm86MrJQWz-YRyKmcvg2xbUVEbpOe_fEKiCrf/lsparams/hls_chunk_host,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRQIhAPSCcCrK7fRDx8fXIZC6iyQQ6jftHTKlrUyLgblfku7tAiB7Bm3jfoPSNNhzvyrXE2u5QwfmHs2B-CFjBs7W654V_A%3D%3D/playlist/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.ytimg.com/vi/8NWvzdeFCa4/maxresdefault.jpg" group-title="NEWS WORLD",SBT Brasília Jornalismo
