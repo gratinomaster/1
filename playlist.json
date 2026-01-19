@@ -1,10 +1,26 @@
 [
   {
-    "name": "Acompanhe a casa",
-    "group": "Globoplay",
-    "tvg_id": "Acompanhe a casa",
-    "logo": "https://live.video.globo.com/thumbs/bbb01.jpg",
-    "url": "https://infinity-c34.youboranqs01.com/start",
+    "name": "TV Globo",
+    "group": "GLOBO AO VIVO",
+    "tvg_id": "TV Globo",
+    "logo": "https://s3.glbimg.com/v1/AUTH_c7def7ff66fe4b13beac0810ffbf780f/secure/now-at-globo-share-d5539fc.jpg",
+    "url": "https://live-01.edge-vtal-gyn-go.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJCUiIsImRvbWFpbiI6ImxpdmUtMDEuZWRnZS12dGFsLWd5bi1nby52aWRlby5nbG9iby5jb20iLCJleHAiOjE3Njg4Njk0MDksImlhdCI6MTc2ODg0NzgwOSwiaXNzIjoicGxheWJhY2stYXBpLXByb2QtZ2NwIiwib3duZXIiOiI0YjkwY2Y3MS0yYmViLTQyZjItYTVlNC05YmZkM2M4OGFhNjMiLCJwYXRoIjoiL2xpdmUvZihpPTIpL2dsb2JvLWdvMDEvcGxheWxpc3QubTN1OCJ9.Za2GR_tm9TtzFq8lHvjWKdkR4xWNy-zGFzeZhfA0kzVwxQpDRvYqoMk1TlQ-tu8PBfIgOLDuPVZMTyQM6vAri2fhT0SRH-bXDajxhZVLh_lPE9QHLHeDTc1hKmm1YpjEA8IqlXp9WjNdkYfB-uOJZdsZ0ILSOMVM5Bp49LTZCgwk9psbTnEC7aKZmi6k1MnarOIkCe2JNJAvXPwhVZQUgevlsYX8WYG-ryEkaNfOQz9yynIV62pX7qsalsTSBXT08JzFFoO4MVyxLwLi_254O7xE3_0olUZGyxCEwUv40EvSPHmXey_S3_hsN9nWE2U0SiwJhtiVBe-KkPYmgdXELA/live/f(i=2)/globo-go01/playlist.m3u8",
+    "extra": []
+  },
+  {
+    "name": "Quarto Sonho de Eternidade",
+    "group": "Reality Show's Live",
+    "tvg_id": "Quarto Sonho de Eternidade",
+    "logo": "https://live.video.globo.com/thumbs/bbb02.jpg",
+    "url": "https://live-01.edge-vtal-gyn-go.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJCUiIsImRvbWFpbiI6ImxpdmUtMDEuZWRnZS12dGFsLWd5bi1nby52aWRlby5nbG9iby5jb20iLCJleHAiOjE3Njg4NzA2OTYsImlhdCI6MTc2ODg0OTA5NiwiaXNzIjoicGxheWJhY2stYXBpLXByb2QtZ2NwIiwib3duZXIiOiI0YjkwY2Y3MS0yYmViLTQyZjItYTVlNC05YmZkM2M4OGFhNjMiLCJwYXRoIjoiL2xpdmUvZihpPTIpL2JiYjAyL3BsYXlsaXN0Lm0zdTgifQ.j0vKfp8kPZ4niZxCr9PZeWctncr_ecvLhQZJaPZ4zehZgfSBzWKCjIoyFH9OhBH_8J1RAkUNnkH3iromcLUSIqZKR25veionr3WqCJqcBHDn7PcGm-NTzOse8q8jw534k28Fw8xmCkFiuBmx_S4rEBbrD44eDkVq67Xq7mf01zSo-7k5xUbqR11ODQ9jxSN7SizD-BeR4KmMnSGfSXu3qpIr9vFlq-euaS64eGwiUpz2F6vJNevGca7rqCZjFs7l51z8WRxVqt2YbPmT6pU-CoNanCR4VF6Cm9wTKk3yuBWHr3x3SlHtXlISqm5GS8-Hyo8zcBxOlIOsUO4ATh0sxA/live/f(i=2)/bbb02/playlist.m3u8",
+    "extra": []
+  },
+  {
+    "name": "Quarto Sonho de Voar",
+    "group": "Reality Show's Live",
+    "tvg_id": "Quarto Sonho de Voar",
+    "logo": "https://live.video.globo.com/thumbs/bbb03.jpg",
+    "url": "https://live-01.edge-vtal-gyn-go.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJCUiIsImRvbWFpbiI6ImxpdmUtMDEuZWRnZS12dGFsLWd5bi1nby52aWRlby5nbG9iby5jb20iLCJleHAiOjE3Njg4NzA3ODQsImlhdCI6MTc2ODg0OTE4NCwiaXNzIjoicGxheWJhY2stYXBpLXByb2QtZ2NwIiwib3duZXIiOiI0YjkwY2Y3MS0yYmViLTQyZjItYTVlNC05YmZkM2M4OGFhNjMiLCJwYXRoIjoiL2xpdmUvZihpPTIpL2JiYjAzL3BsYXlsaXN0Lm0zdTgifQ.u4-oGBHC6VDY0SzRLTNNH8jxZeZZ3AUGf6zirOKiMX0kep1L_IIyt5r3W-7i_JhLcbTzXBtkvevx9lSuu6pamKpkjXi9294PQWs7Co1155Onj-Xtd6tEq5srmaoeX08TBaFzDLvYjjgHp0ZTLURmPB0bHLq50FNZI3J5jOiv_hko9Jrn0hu4L8MQTzprpiF76-bCDGaqpDCAR1GpBjDtGKZUMkcPaPTUfmXou1ZixS19O0wL1eimEv3s1cKlpl4vpIX5KPrjCCEMIjN5nXdFktRAFetZeFVhMLIyIeXQ-IgbJBJgoBbpF2NnUYm0NCe9NISALf2Ujt2kO-w4hTO5Tw/live/f(i=2)/bbb03/playlist.m3u8",
     "extra": []
   }
 ]
