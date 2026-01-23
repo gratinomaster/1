@@ -424,6 +424,14 @@
     "extra": []
   },
   {
+    "name": "BET Jams",
+    "group": "Undefined",
+    "tvg_id": "BETJams.us@SD",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFveQqkvHlSpyHdVqggHfhxOmr7CLzdbnpTvFKpjv2oLPRh1FN02aFBJ1O0ec&s",
+    "url": "https://fl1.moveonjoy.com/BET_Jams/index.m3u8",
+    "extra": []
+  },
+  {
     "name": "BET Soul",
     "group": "Undefined",
     "tvg_id": "BETSoul.us@SD",
@@ -680,6 +688,14 @@
     "extra": []
   },
   {
+    "name": "Fox Soul",
+    "group": "Undefined",
+    "tvg_id": "FoxSoul.us@SD",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbW6i86gZX3BeKNjeAdvilThqXnIr-LGUrEdsT_bzbfhvnaTzTkN80wA1O3Bs&s",
+    "url": "https://fl1.moveonjoy.com/FOX_SOUL/index.m3u8",
+    "extra": []
+  },
+  {
     "name": "Fox Sports 1",
     "group": "Undefined",
     "tvg_id": "",
@@ -733,6 +749,14 @@
     "tvg_id": "FYI.us@East",
     "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRG2CybvXvQyziSLlsWnI85yJNAJDJfW1qSyoCSIKMU5TUvM22QqVMYRXi0IQ&s",
     "url": "https://fl1.moveonjoy.com/FYI/index.m3u8",
+    "extra": []
+  },
+  {
+    "name": "GetTV (480p)",
+    "group": "Undefined",
+    "tvg_id": "GetTV.us@SD",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgwkTpqYuTq-WVfl-p2Z5eiiWS8YKME0jaCwTnIOgOs3mtDxfMb6O00swH0qo&s",
+    "url": "https://fl1.moveonjoy.com/GET_TV/index.m3u8",
     "extra": []
   },
   {
