@@ -844,7 +844,7 @@ file_handler.setFormatter(formatter)
 logger.addHandler(file_handler)
 
 # ================== CONFIG ==================
-SOURCE_M3U_URL = "https://github.com/punkstarbr/STR-YT/raw/refs/heads/main/LISTA%20%20ESPANOL.M3U"
+SOURCE_M3U_URL = "https://github.com/punkstarbr/STR-YT/raw/refs/heads/main/REALITY.m3u"
 OUTPUT_FILE = "lista1.M3U"
 
 banner = "#EXTM3U\n"
@@ -981,7 +981,4 @@ def process_m3u_from_url(source_url, output_file):
 # ================== EXECUÇÃO ==================
 process_m3u_from_url(SOURCE_M3U_URL, OUTPUT_FILE)
 
-
-# ================== EXECUÇÃO ==================
-process_m3u_from_url(SOURCE_M3U_URL, OUTPUT_FILE)
 
