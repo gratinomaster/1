@@ -1,13 +1,14 @@
 #EXTM3U
+#EXTM3U url-tvg="https://epgshare01.online/epgshare01/epg_ripper_ES1.xml.gz"
 #EXTINF:-1 group-title="ESPANHA" tvg-id="La.1.es" tvg-logo="https://pbs.twimg.com/profile_images/899385012801470464/akSvNCqE_200x200.jpg",La 1
 https://ztnr.rtve.es/ztnr/1688877.m3u8
 #EXTINF:-1 group-title="ESPANHA" tvg-id="La1.es" tvg-logo="https://github.com/inspirationlinks/inspiration-1/raw/master/TVE-1.png",La 1 - 2
 http://eja.tv/?f637f17a2fdc60ed45df337e150c36fa.m3u8
-#EXTINF:-1 group-title="ESPANHA" tvg-id="Cuatro.es" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTr2egsFl2eSNyz9WSwB8SayemzPmCtgX5fZZASQ0GxGBmOs60VE6A9UEeSOA&s",CUATRO
+#EXTINF:-1 group-title="ESPANHA" tvg-id="Cuatro.es" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_8foFlL0_SZ6UMVaPNBqyD48jpYoBjj9ctJRxOmYI6520o7TxZn-KnObgEQ&s",CUATRO
 http://176.65.146.237:8401/play/a09s/index.m3u8
-#EXTINF:-1 group-title="ESPANHA" tvg-id="Cuatro.es" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTr2egsFl2eSNyz9WSwB8SayemzPmCtgX5fZZASQ0GxGBmOs60VE6A9UEeSOA&s",CUATRO
+#EXTINF:-1 group-title="ESPANHA" tvg-id="Cuatro.es" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_8foFlL0_SZ6UMVaPNBqyD48jpYoBjj9ctJRxOmYI6520o7TxZn-KnObgEQ&s",CUATRO
 https://gitlab.com/movrey/movrel/-/raw/main/cuatro.m3u8
-#EXTINF:-1 group-title="ESPANHA" tvg-id="Cuatro.es" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTr2egsFl2eSNyz9WSwB8SayemzPmCtgX5fZZASQ0GxGBmOs60VE6A9UEeSOA&s",CUATRO
+#EXTINF:-1 group-title="ESPANHA" tvg-id="Cuatro.es" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_8foFlL0_SZ6UMVaPNBqyD48jpYoBjj9ctJRxOmYI6520o7TxZn-KnObgEQ&s",CUATRO
 https://gitlab.com/movrey/movrel/-/raw/main/cuatro.m3u8
 #EXTINF:-1 group-title="ESPANHA" tvg-id="Telecinco.es" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZL9zni39_SylHZiK9yZyIjB8TnxdghkYhwaigEfcK-qD1knGKKcYaclzIkSc&s",TELECINCO
 https://gitlab.com/movrey/movrel/-/raw/main/telecinco.m3u8
