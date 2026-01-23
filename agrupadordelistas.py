@@ -20,7 +20,7 @@ import requests
 repo_urls = [
     "https://api.github.com/repos/gmtv4/rastaf/contents",
     "https://raw.githubusercontent.com/strikeinthehouse/1/refs/heads/main/lista2.M3U",
-    "https://github.com/strikeinthehouse/Navez/raw/main/playlist.m3u",
+    "https://github.com/iptv-org/iptv/raw/6b77242580c3b34d34f984265bfed2937708fce0/streams/us_moveonjoy.m3u",
 ]
 
 lists = []
