@@ -824,7 +824,6 @@ arquivo_saida = 'lista1.M3U'
 # Chama a função para limitar o arquivo
 limitar_arquivo_m3u(arquivo_original, arquivo_saida)
 
-
 import os
 import requests
 import logging
@@ -883,6 +882,8 @@ def parse_extinf_line(line):
 
 
 def search_google_images(query):
+    # SEMPRE adiciona "TV" ao final da pesquisa
+    query = f"{query} TV"
     search_url = f"https://www.google.com/search?hl=pt-BR&q={query}&tbm=isch"
     headers = {
         "User-Agent": "Mozilla/5.0"
@@ -911,10 +912,17 @@ def process_m3u_from_url(source_url, output_file):
     lines = download_m3u(source_url)
 
     channel_data = []
+    preserved_extm3u = []  # guarda TODAS as linhas #EXTM3U encontradas
     i = 0
 
     while i < len(lines):
         line = lines[i].strip()
+
+        # PRESERVA QUALQUER #EXTM3U (mesmo no meio do arquivo)
+        if line.startswith("#EXTM3U"):
+            preserved_extm3u.append(line)
+            i += 1
+            continue
 
         if line.startswith("#EXTINF"):
             ch_name, group, tvg_id, tvg_logo = parse_extinf_line(line)
@@ -924,6 +932,7 @@ def process_m3u_from_url(source_url, output_file):
             while i + 1 < len(lines):
                 i += 1
                 next_line = lines[i].strip()
+
                 if next_line.startswith("#"):
                     extra_lines.append(next_line)
                 else:
@@ -942,12 +951,17 @@ def process_m3u_from_url(source_url, output_file):
                     "url": link,
                     "extra": extra_lines
                 })
-
         i += 1
 
     # ======= SOBRESCREVE COMPLETAMENTE O ARQUIVO =======
     with open(output_file, "w", encoding="utf-8") as f:
-        f.write(banner)
+        # escreve todas as linhas #EXTM3U preservadas
+        if preserved_extm3u:
+            for ext in preserved_extm3u:
+                f.write(ext + "\n")
+        else:
+            f.write(banner)
+
         for ch in channel_data:
             f.write(
                 f'#EXTINF:-1 group-title="{ch["group"]}" '
@@ -962,6 +976,10 @@ def process_m3u_from_url(source_url, output_file):
         json.dump(channel_data, f, indent=2, ensure_ascii=False)
 
     logger.info("Processamento concluído. Total de canais: %d", len(channel_data))
+
+
+# ================== EXECUÇÃO ==================
+process_m3u_from_url(SOURCE_M3U_URL, OUTPUT_FILE)
 
 
 # ================== EXECUÇÃO ==================
