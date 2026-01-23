@@ -825,4 +825,145 @@ arquivo_saida = 'lista1.M3U'
 limitar_arquivo_m3u(arquivo_original, arquivo_saida)
 
 
+import os
+import requests
+import logging
+from logging.handlers import RotatingFileHandler
+import json
+from bs4 import BeautifulSoup
+
+# ================== LOGGER ==================
+logger = logging.getLogger(__name__)
+logger.setLevel(logging.DEBUG)
+
+log_file = "log.txt"
+file_handler = RotatingFileHandler(log_file, maxBytes=1000000, backupCount=5)
+file_handler.setLevel(logging.DEBUG)
+
+formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
+file_handler.setFormatter(formatter)
+logger.addHandler(file_handler)
+
+# ================== CONFIG ==================
+SOURCE_M3U_URL = "https://github.com/punkstarbr/STR-YT/raw/refs/heads/main/LISTA%20%20ESPANOL.M3U"
+OUTPUT_FILE = "lista1.M3U"
+
+banner = "#EXTM3U\n"
+
+# ================== FUNÇÕES ==================
+def check_url(url):
+    headers = {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+    }
+    try:
+        response = requests.get(url, headers=headers, timeout=15, stream=True)
+        if response.status_code == 200:
+            logger.info("URL OK: %s", url)
+            return True
+        logger.warning("URL inválida %s | Status %s", url, response.status_code)
+    except requests.exceptions.RequestException as e:
+        logger.error("Erro ao verificar URL %s: %s", url, e)
+    return False
+
+
+def parse_extinf_line(line):
+    def extract(tag):
+        if f'{tag}="' in line:
+            return line.split(f'{tag}="')[1].split('"')[0]
+        return "Undefined"
+
+    ch_name = line.split(",")[-1].strip() if "," in line else "Undefined"
+
+    return (
+        ch_name,
+        extract("group-title"),
+        extract("tvg-id"),
+        extract("tvg-logo"),
+    )
+
+
+def search_google_images(query):
+    search_url = f"https://www.google.com/search?hl=pt-BR&q={query}&tbm=isch"
+    headers = {
+        "User-Agent": "Mozilla/5.0"
+    }
+
+    try:
+        response = requests.get(search_url, headers=headers, timeout=10)
+        soup = BeautifulSoup(response.text, "html.parser")
+        imgs = soup.find_all("img")
+        if len(imgs) > 1:
+            return imgs[1].get("src")
+    except Exception as e:
+        logger.error("Erro ao buscar logo: %s", e)
+
+    return "NoLogoFound.png"
+
+
+def download_m3u(url):
+    logger.info("Baixando lista M3U da URL")
+    response = requests.get(url, timeout=20)
+    response.raise_for_status()
+    return response.text.splitlines()
+
+
+def process_m3u_from_url(source_url, output_file):
+    lines = download_m3u(source_url)
+
+    channel_data = []
+    i = 0
+
+    while i < len(lines):
+        line = lines[i].strip()
+
+        if line.startswith("#EXTINF"):
+            ch_name, group, tvg_id, tvg_logo = parse_extinf_line(line)
+            extra_lines = []
+            link = None
+
+            while i + 1 < len(lines):
+                i += 1
+                next_line = lines[i].strip()
+                if next_line.startswith("#"):
+                    extra_lines.append(next_line)
+                else:
+                    link = next_line
+                    break
+
+            if link and check_url(link):
+                if tvg_logo in ["", "N/A", "Undefined"]:
+                    tvg_logo = search_google_images(ch_name)
+
+                channel_data.append({
+                    "name": ch_name,
+                    "group": group,
+                    "tvg_id": tvg_id,
+                    "logo": tvg_logo,
+                    "url": link,
+                    "extra": extra_lines
+                })
+
+        i += 1
+
+    # ======= SOBRESCREVE COMPLETAMENTE O ARQUIVO =======
+    with open(output_file, "w", encoding="utf-8") as f:
+        f.write(banner)
+        for ch in channel_data:
+            f.write(
+                f'#EXTINF:-1 group-title="{ch["group"]}" '
+                f'tvg-id="{ch["tvg_id"]}" '
+                f'tvg-logo="{ch["logo"]}",{ch["name"]}\n'
+            )
+            for extra in ch["extra"]:
+                f.write(extra + "\n")
+            f.write(ch["url"] + "\n")
+
+    with open("playlist.json", "w", encoding="utf-8") as f:
+        json.dump(channel_data, f, indent=2, ensure_ascii=False)
+
+    logger.info("Processamento concluído. Total de canais: %d", len(channel_data))
+
+
+# ================== EXECUÇÃO ==================
+process_m3u_from_url(SOURCE_M3U_URL, OUTPUT_FILE)
 
