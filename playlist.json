@@ -1,218 +1,954 @@
 [
   {
-    "name": "Sala Sonho de Ser Milion\u00e1rio",
-    "group": "Globoplay",
-    "tvg_id": "Sala Sonho de Ser Milion\u00e1rio",
-    "logo": "https://live.video.globo.com/thumbs/bbb05.jpg",
-    "url": "https://infinity-c41.youboranqs01.com/start",
+    "name": "La 1",
+    "group": "ESPANHA",
+    "tvg_id": "La.1.es",
+    "logo": "https://pbs.twimg.com/profile_images/899385012801470464/akSvNCqE_200x200.jpg",
+    "url": "https://ztnr.rtve.es/ztnr/1688877.m3u8",
     "extra": []
   },
   {
-    "name": "Acompanhe a Casa 2",
-    "group": "Globoplay",
-    "tvg_id": "Acompanhe a Casa 2",
-    "logo": "https://live.video.globo.com/thumbs/bbb11.jpg",
-    "url": "https://infinity-c33.youboranqs01.com/start",
+    "name": "La 1 - 2",
+    "group": "ESPANHA",
+    "tvg_id": "La1.es",
+    "logo": "https://github.com/inspirationlinks/inspiration-1/raw/master/TVE-1.png",
+    "url": "http://eja.tv/?f637f17a2fdc60ed45df337e150c36fa.m3u8",
     "extra": []
   },
   {
-    "name": "SBT Bras\u00edlia Jornalismo",
-    "group": "NEWS WORLD",
+    "name": "CUATRO",
+    "group": "ESPANHA",
+    "tvg_id": "Cuatro.es",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTr2egsFl2eSNyz9WSwB8SayemzPmCtgX5fZZASQ0GxGBmOs60VE6A9UEeSOA&s",
+    "url": "http://176.65.146.237:8401/play/a09s/index.m3u8",
+    "extra": []
+  },
+  {
+    "name": "CUATRO",
+    "group": "ESPANHA",
+    "tvg_id": "Cuatro.es",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTr2egsFl2eSNyz9WSwB8SayemzPmCtgX5fZZASQ0GxGBmOs60VE6A9UEeSOA&s",
+    "url": "https://gitlab.com/movrey/movrel/-/raw/main/cuatro.m3u8",
+    "extra": []
+  },
+  {
+    "name": "CUATRO",
+    "group": "ESPANHA",
+    "tvg_id": "Cuatro.es",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTr2egsFl2eSNyz9WSwB8SayemzPmCtgX5fZZASQ0GxGBmOs60VE6A9UEeSOA&s",
+    "url": "https://gitlab.com/movrey/movrel/-/raw/main/cuatro.m3u8",
+    "extra": []
+  },
+  {
+    "name": "TELECINCO",
+    "group": "ESPANHA",
+    "tvg_id": "Telecinco.es",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZL9zni39_SylHZiK9yZyIjB8TnxdghkYhwaigEfcK-qD1knGKKcYaclzIkSc&s",
+    "url": "https://gitlab.com/movrey/movrel/-/raw/main/telecinco.m3u8",
+    "extra": []
+  },
+  {
+    "name": "TELECINCO",
+    "group": "ESPANHA",
+    "tvg_id": "Telecinco.es",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZL9zni39_SylHZiK9yZyIjB8TnxdghkYhwaigEfcK-qD1knGKKcYaclzIkSc&s",
+    "url": "https://gitlab.com/movrey/movrel/-/raw/main/telecinco.m3u8",
+    "extra": []
+  },
+  {
+    "name": "TELECINCO",
+    "group": "ESPANHA",
+    "tvg_id": "Telecinco.es",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZL9zni39_SylHZiK9yZyIjB8TnxdghkYhwaigEfcK-qD1knGKKcYaclzIkSc&s",
+    "url": "http://176.65.146.237:8401/play/a09r/index.m3u8",
+    "extra": []
+  },
+  {
+    "name": "LA SEXTA",
+    "group": "ESPANHA",
+    "tvg_id": "lasexta.es",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWe04Qa4u0YXQgeqqb1J5LrRi0DRHOpf7CL_XL2hmuFVFMSDItIZqFqG2wuYw&s",
+    "url": "http://176.65.146.237:8401/play/a0af/index.m3u8",
+    "extra": []
+  },
+  {
+    "name": "LA SEXTA",
+    "group": "ESPANHA",
+    "tvg_id": "lasexta.es",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWe04Qa4u0YXQgeqqb1J5LrRi0DRHOpf7CL_XL2hmuFVFMSDItIZqFqG2wuYw&s",
+    "url": "https://gitlab.com/movrey/movrel/-/raw/main/sexta.m3u8",
+    "extra": []
+  },
+  {
+    "name": "Alcarria TV",
+    "group": "ESPANHA",
     "tvg_id": "Undefined",
-    "logo": "https://i.ytimg.com/vi/j2F6KyMKO-k/maxresdefault.jpg",
-    "url": "https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1769162364/ei/HPJyaYDiJKKh0_wPn6_x8QI/ip/48.211.211.35/id/j2F6KyMKO-k.1/itag/301/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D299/rqh/1/hls_chunk_host/rr1---sn-p5qlsnrr.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/ss/1/siu/1/bui/AW-iu_oaPAHOwxSf25ngnjIITmOasIoBQByB9Llvp8_Ci-xqZ7J4tgcPY8PeD0sq6G6QKT4rIw/spc/q5xjPFxT6TO7HnuzC8qn9J9KD49jG8VKRkVD19vDTlZrlnZuAEJURSUPzbfC-b_PBHq-HA/vprv/1/ns/rCbJliM-ZugrFx1IhB0cXVkS/playlist_type/DVR/met/1769140764,/mh/qC/mm/44/mn/sn-p5qlsnrr/ms/lva/mv/u/mvi/1/pl/16/rms/lva,lva/dover/11/pacing/0/keepalive/yes/fexp/51355912,51552689,51565115,51565681,51580968,51626155/n/ij8d9kwYFQw8w6Rw/mt/1769139844/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,ss,siu,bui,spc,vprv,ns,playlist_type/sig/AJEij0EwRQIgMxcrtknoS22-M_QoHnkSHvsJowfDnieNl2pLjQSq-TUCIQC6jgSiSlKwHJ_Wk6CZw5VbrK3VjCLaTOcbZn8vrCIHYw%3D%3D/lsparams/hls_chunk_host,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRAIgDzHlh6Q5RVp5MHdalT2vn6t3To6dcPgOm8x06kZDRpgCIBrqSVEl1eJZgCCCVPwm-qPs88DVxYnz1R4yx51xZUi6/playlist/index.m3u8",
+    "logo": "https://i.imgur.com/9Xn7ZEZ.jpg",
+    "url": "http://217.182.77.27/live/alcarriatv-livestream.m3u8",
     "extra": []
   },
   {
-    "name": "Televisa Tijuana Oficial",
-    "group": "NEWS WORLD",
-    "tvg_id": "Undefined",
-    "logo": "https://i.ytimg.com/vi/GFT46vBUwj4/maxresdefault.jpg",
-    "url": "https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1769162364/ei/HPJyabmqKquHr9gPnNDE2AM/ip/48.211.211.35/id/GFT46vBUwj4.1/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hls_chunk_host/rr4---sn-p5qlsn7d.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/ss/1/siu/1/bui/AW-iu_rUYHxOsjiS5nKSChB9fHOt0fVu6Kr3l8am32rvWQ3vkFX1bSbMHpDgh-UxqHdwJdk4Vw/spc/q5xjPNobuF5xG2GlY9qlJJCitz0LRXWOUTIxDTLdAfK1RptpwoYrJgQ-sKPG0WHM5pFBiw/vprv/1/ns/oobbXJ-4mZYM3SatGqiwULAS/playlist_type/DVR/met/1769140764,/mh/L0/mm/44/mn/sn-p5qlsn7d/ms/lva/mv/u/mvi/4/pl/16/rms/lva,lva/dover/11/pacing/0/keepalive/yes/fexp/51355912,51552689,51565115,51565681,51580968,51626155/n/eNQ8s1bQLRtSK35U/mt/1769139844/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,ss,siu,bui,spc,vprv,ns,playlist_type/sig/AJEij0EwRQIhAJ6Z8Y1mOgvFQGSAuuKVYROFRt2ofWcuWlJo3lpUPkygAiA-UjzimSC-kSwZK8KjfkDXWc3r5XmCPnENKHZIhruNUw%3D%3D/lsparams/hls_chunk_host,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRAIgRGL3bX7sK9Rbkj5bzfxdlIEF73EMFp8KAcV_8PCAw6YCIBuyRdBWeBm_TAZ_hJezqQEUS7G2NdJN7ss_BUKQTmh2/playlist/index.m3u8",
+    "name": "Canal Málaga",
+    "group": "ESPANHA",
+    "tvg_id": "CanalMalaga.es",
+    "logo": "https://i.imgur.com/BXmmroM.jpg",
+    "url": "http://canalmalaga-tv-live.flumotion.com/playlist.m3u8",
     "extra": []
   },
   {
-    "name": "Televisa Veracruz Oficial",
-    "group": "NEWS WORLD",
-    "tvg_id": "Undefined",
-    "logo": "https://i.ytimg.com/vi/U05QZTy1XEg/maxresdefault.jpg",
-    "url": "https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1769162364/ei/HPJyabueNd6Lr9gPirCCgQc/ip/48.211.211.35/id/U05QZTy1XEg.1~45720747/itag/301/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D299/rqh/1/hls_chunk_host/rr2---sn-p5qlsn7s.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/siu/1/bui/AW-iu_pYdC5anZRGR7kQqrWi8XVULNEiYfNTML959pOrsadagCJzGLpwMBr0sujYzguqtslmZA/spc/q5xjPKyGocJlnRHHra45-GejcbDskzW5CYJ4NyP39Ug4C4nVhwxlJoUtlJG3et4JazyIvA/vprv/1/ns/CZsKALWQqyhAJ_ioGiaG2QUS/playlist_type/DVR/met/1769140765,/mh/Cw/mm/44/mn/sn-p5qlsn7s/ms/lva/mv/u/mvi/2/pl/16/rms/lva,lva/dover/11/pacing/0/keepalive/yes/fexp/51355912,51552689,51565115,51565681,51580968/n/ixB_MQuf4h6_hkoV/mt/1769139844/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,siu,bui,spc,vprv,ns,playlist_type/sig/AJEij0EwRAIgf1rkkPzLigxDm3UguFc7ncr3bS5Z6XUns_M7jezmiRkCID5z8GG46yD_YT-pm1eJ4-Jjyz3AkrTZfTcnjCWb2qaX/lsparams/hls_chunk_host,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRgIhAJq5Oj-7OX-mVUwJo3-DeIpfGEsULYyqd6gfAT6LRIVYAiEAmSv5-0m4lIKbMkjzbjA3WNmBTp9JjaNZWQCNdEjJ3-c%3D/playlist/index.m3u8",
+    "name": "Popular TV Melilla",
+    "group": "ESPANHA",
+    "tvg_id": "PopularTVMelilla.es",
+    "logo": "https://i.imgur.com/hwlTrtF.png",
+    "url": "https://5940924978228.streamlock.net/8009/8009/master.m3u8",
     "extra": []
   },
   {
-    "name": "Azteca Noticias",
-    "group": "NEWS WORLD",
-    "tvg_id": "Undefined",
-    "logo": "https://i.ytimg.com/vi/C_TOPV57W6o/maxresdefault.jpg",
-    "url": "https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1769162365/ei/HfJyaZ-wC4TgkucPmJCrmQ0/ip/48.211.211.35/id/C_TOPV57W6o.1/itag/95/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D136/rqh/1/hls_chunk_host/rr5---sn-p5qlsn7s.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/ss/1/siu/1/bui/AW-iu_rZkwYzmGyxR3b9KMu--_agrk5GIZdHPOjbiszvB90NPr4CaZkg5_DgTPWKLeREt1HcVw/spc/q5xjPBUkDjhoAJ-XOrjOVssB-GSqffEfPE_tvemblI1Q4c4408n4xBZrMVR2oCSsRhaZzA/vprv/1/ns/6WzeGSQHQJcEPcvfa8izBqoS/playlist_type/DVR/met/1769140765,/mh/mb/mm/44/mn/sn-p5qlsn7s/ms/lva/mv/u/mvi/5/pl/16/rms/lva,lva/dover/11/pacing/0/keepalive/yes/fexp/51355912,51552689,51565115,51565681,51580968,51626155/n/kslfUURMToX0Da31/mt/1769139844/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,ss,siu,bui,spc,vprv,ns,playlist_type/sig/AJEij0EwRQIgfgo140wBGT6A_Mw_-UqeGQ8bAYz3LrttEtwUg1q75K4CIQCQItecJ651VMoAq4HqhbjWrcQWDUaZzKnJHa4W-YawSA%3D%3D/lsparams/hls_chunk_host,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRQIgSwAtJzQwAfcp9b2_MpFNwxsiq6v_zYsaS47MJRiiahgCIQC7LZ9jfUx7PVCXo3g6k89eCbsZ0SAOX4eekvBvhHhzTQ%3D%3D/playlist/index.m3u8",
+    "name": "DW English",
+    "group": "ESPANHA",
+    "tvg_id": "DWEnglish.de",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTW5K1pv8MjQYK3XMSyB5OusS8qj4WVFMJKk7lHEegeF-8tbIxeyLHMgrM4Zg&s",
+    "url": "https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/index.m3u8",
     "extra": []
   },
   {
-    "name": "Televisa Mexicali Oficial",
-    "group": "NEWS WORLD",
-    "tvg_id": "Undefined",
-    "logo": "https://i.ytimg.com/vi/qJOJDO144ck/maxresdefault.jpg",
-    "url": "https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1769162365/ei/HfJyaaOwHJiLr9gP1sLTqQw/ip/48.211.211.35/id/qJOJDO144ck.1/itag/95/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D136/rqh/1/hls_chunk_host/rr4---sn-p5qlsn76.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/siu/1/bui/AW-iu_ritE7UL_tnt90jBOQis2MRGZh4SlRvTD-RaOn7NcNNxLciSrywxxR5-ajkjF41QwiKgw/spc/q5xjPKjycquIDtMipy_E_f9DSuXIG9U139yIk93PMSNhgAuHUmbTAvldfyWkl-ZbAuDxzw/vprv/1/ns/B5-NbEfxdCuf4bCYY9Mt9pMS/playlist_type/LIVE/met/1769140765,/mh/-m/mm/44/mn/sn-p5qlsn76/ms/lva/mv/u/mvi/4/pl/16/rms/lva,lva/dover/11/pacing/0/keepalive/yes/fexp/51355912,51552689,51565115,51565681,51580968/n/cg-vZMS2DA7u2U_E/mt/1769139844/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,siu,bui,spc,vprv,ns,playlist_type/sig/AJEij0EwRQIhALUMO8OUe6igZ-hL-w4ZwUEmrYn4lDFSpL3bzL3UeyVzAiA-YgZgcx5SpXj_GFHf3FwMrsSgKU8LKaRreEvpeUSUVQ%3D%3D/lsparams/hls_chunk_host,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRAIgEJ6qXRQ72x_Iflptv16aNhO7tED53dQngtkuubxFfu0CIDPuRiCBOxljPWYUpKhh_66gxtz13AJIop2K13BMyQUu/playlist/index.m3u8",
+    "name": "Alcarria TV",
+    "group": "ESPANHA",
+    "tvg_id": "AlcarriaTV.es",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3-HzoqLDP9NBmcw_bi94Msm8B8nf-IayaYIq2P1PviA4RLG2REP74c5lZDQ&s",
+    "url": "http://cls.alcarria.tv/alcarriatv/livestream/playlist.m3u8",
     "extra": []
   },
   {
-    "name": "Canal 23 Televisa Ensenada",
-    "group": "NEWS WORLD",
-    "tvg_id": "Undefined",
-    "logo": "https://i.ytimg.com/vi/akqaUokPkaA/maxresdefault.jpg",
-    "url": "https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1769162366/ei/HvJyaZ2DCvHDkucPmJuegAg/ip/48.211.211.35/id/akqaUokPkaA.1/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hls_chunk_host/rr1---sn-p5qlsn6z.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/ss/1/siu/1/bui/AW-iu_pNRz9vcWsIl-LdTa9STMLD9iIWpwyO4t9RMQpfjKHoYXfRZc418wuG_sc4GmmGdMoc6w/spc/q5xjPAlJeseOd0NxbrCWqONM6CPMpsCpnatw4tJoCFPVhxj_dAVjVRoYyPQ-v1uEfOGgWA/vprv/1/ns/sl9MpXyC2rARIyQ60h_qYt4S/playlist_type/DVR/met/1769140766,/mh/OV/mm/44/mn/sn-p5qlsn6z/ms/lva/mv/u/mvi/1/pl/16/rms/lva,lva/dover/11/pacing/0/keepalive/yes/fexp/51355912,51552689,51565115,51565681,51580968,51626155/n/ALHUsWeEQ5e4xGUC/mt/1769139844/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,ss,siu,bui,spc,vprv,ns,playlist_type/sig/AJEij0EwRQIhAPytmed_qbmw02Xpc7ggviamARsWTC8KxxFe_HZVEhEWAiBcYCfAIiut-yRaXTwP0pIkfKVGWiyTcdZ86dIsIO-Zxw%3D%3D/lsparams/hls_chunk_host,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRQIgGuN1N94dXKgZrX5QmkOvwgHIr-NJXvtMRrUoEl3R7pYCIQDnPLI2SNnSLTScnNAqbdVR1oXn987XW_UnSR41-zJalA%3D%3D/playlist/index.m3u8",
+    "name": "Activa TV",
+    "group": "ESPANHA",
+    "tvg_id": "ActivaTV.es",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtvqg4tQMeqyDc-xPfJxG-UFSH06AJwpjY7KbGlaCwT1EQcag3DnpmGsmgcSA&s",
+    "url": "https://streamtv.mediasector.es/hls/activatv/index.m3u8",
     "extra": []
   },
   {
-    "name": "Nm\u00e1s Monterrey",
-    "group": "NEWS WORLD",
-    "tvg_id": "Undefined",
-    "logo": "https://i.ytimg.com/vi/q5RMNt4AS68/maxresdefault.jpg",
-    "url": "https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1769162366/ei/HvJyadKDK6Lcj-8PhLSh8Qk/ip/48.211.211.35/id/q5RMNt4AS68.2/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hls_chunk_host/rr5---sn-p5qlsndr.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/ss/1/siu/1/bui/AW-iu_rOfW3zPHuz2exAInc8QhO7RzUD5Ki2wCpA4WAAg7dfI76LbDphC0t2L1ahmhCN4gSLjA/spc/q5xjPNf41e1BiLl-PjYlFJD8hRl_dIGYBpQDRSUpvNDWZXjvkCvNVdUfcTnpUi2zNayo_A/vprv/1/ns/EHmiYRGxAhZFKnQ6R9ubvIoS/playlist_type/DVR/met/1769140767,/mh/Mn/mm/44/mn/sn-p5qlsndr/ms/lva/mv/u/mvi/5/pl/16/rms/lva,lva/dover/11/pacing/0/keepalive/yes/fexp/51355912,51552689,51565115,51565681,51580968/n/GmbUtOO_EET_BWhw/mt/1769139844/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,ss,siu,bui,spc,vprv,ns,playlist_type/sig/AJEij0EwRQIhAIVoYvuukFDmHTQ61uY3t9_uAJE3OkeZusnZz_UeES6yAiByNKee0DVnNBV4RWvAv4fMN37QArqRzOGptanhKMUjQQ%3D%3D/lsparams/hls_chunk_host,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRQIhAMYoO9tvG2Ak1NhXZ_PbNg6oAdvrlt2ZISnuvONHyZtLAiBK4LvkUwzK_acRqszpT0PYH_25V6mu9Ug05_RE9iNOXA%3D%3D/playlist/index.m3u8",
+    "name": "Alacantí TV",
+    "group": "ESPANHA",
+    "tvg_id": "AlacantiTV.es",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-gdf0R_sfkzUDjHbpyowpclkQG-WTSsj4WFS0GnliFzwxVdtPVgnJ3UqFLA&s",
+    "url": "https://streaming01.gestec-video.com/hls/artequatreAlacanti.m3u8",
     "extra": []
   },
   {
-    "name": "MULTIMEDIOS",
-    "group": "NEWS WORLD",
-    "tvg_id": "Undefined",
-    "logo": "https://i.ytimg.com/vi/dSPw5mMkjCc/maxresdefault.jpg",
-    "url": "https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1769162367/ei/H_JyaZvUA5bFkucP05XggAM/ip/48.211.211.35/id/dSPw5mMkjCc.1/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hls_chunk_host/rr1---sn-p5qlsndr.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/ss/1/siu/1/bui/AW-iu_omwq3NobndI_wXtTB7KBeirH1992if9oR0EkMJKi5kCTvhcJR59Y5cWbTTsXpgVWb51A/spc/q5xjPPcnaR1tA41zu0WxRHobmrhVlccPSzjNS9buVllSfkvJgPWGDV6fEWEqj7YFPdxX_Q/vprv/1/ns/IVr3n5_G1CiChdommZsG-HkS/playlist_type/DVR/met/1769140767,/mh/To/mm/44/mn/sn-p5qlsndr/ms/lva/mv/u/mvi/1/pl/16/rms/lva,lva/dover/11/pacing/0/keepalive/yes/fexp/51355912,51552689,51565115,51565681,51580968,51626155/n/iVeZsni_yXFbJJhQ/mt/1769139844/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,ss,siu,bui,spc,vprv,ns,playlist_type/sig/AJEij0EwRQIgcQTzJJpw1aARsbfUWgqRXgLcSndtHBPzU9s4MfFF1mkCIQD-CyBmYT6e_UNwnIJ9-By2qLUrzDgVuZAswpGLgsXgqg%3D%3D/lsparams/hls_chunk_host,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRgIhAM8RlVHbBVOaZBe2RyMzcC6NIFqcNPbMYaD15BS8V1qbAiEAla0__9TVAVNCHpi2RF8uYbgwr9c5i-kQTo-BfUfS_3A%3D/playlist/index.m3u8",
+    "name": "Cadena Elite",
+    "group": "ESPANHA",
+    "tvg_id": "CadenaElite.es",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2HcrrcTzGe2wWS14TJTqreordAQB_4rLu52bJxTjgk33oPcqjAnmM4hDwNNs&s",
+    "url": "https://cloudvideo.servers10.com:8081/8004/index.m3u8",
     "extra": []
   },
   {
-    "name": "Noticias Telemundo",
-    "group": "NEWS WORLD",
-    "tvg_id": "Undefined",
-    "logo": "https://i.ytimg.com/vi/c660thEPeeY/maxresdefault.jpg",
-    "url": "https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1769162367/ei/H_JyaZbJMuGHr9gPoMmuoQY/ip/48.211.211.35/id/c660thEPeeY.1/itag/95/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D136/rqh/1/hls_chunk_host/rr2---sn-p5qlsn7s.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/ctier/SPL/playlist_duration/30/manifest_duration/30/ss/1/siu/1/bui/AW-iu_qczlyKP850XjaFBXhcQ2oTyVacswKj3uGcqEttEdxJNJuuVJtmO8OxRCha_mH_6-6_zQ/spc/q5xjPFIG9otMQ9wNmz_pJp5sgRWZjA22mfy4c8b7S-eXGlh7t6iDNvte8SQoGikbvw2h0Q/vprv/1/ns/OuHjPO_s-ipLjozt6RS4r8MS/playlist_type/DVR/met/1769140768,/mh/VU/mm/44/mn/sn-p5qlsn7s/ms/lva/mv/u/mvi/2/pl/16/rms/lva,lva/dover/11/pacing/0/keepalive/yes/fexp/51355912,51552689,51565115,51565681,51580968/n/jXr8RcjgxcrItjpu/mt/1769139844/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,ctier,playlist_duration,manifest_duration,ss,siu,bui,spc,vprv,ns,playlist_type/sig/AJEij0EwRQIgH_N6U3ILOTXlMbhqrq4IhqJYyvh3WcSlYDwsdZXQ6tUCIQDzCO7r3OqRyw6vjfmOyQ27j-7eQfECz0tpH-lQtCVb7g%3D%3D/lsparams/hls_chunk_host,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRQIhAOvDRIPkqtEocSOmjtytduaQvPLJYbgfTaVWRIR5TYCjAiB2lSuDUhRFSPdo3_Jkipg_Ebe1x1Ftk_-qxhMtAi8dZQ%3D%3D/playlist/index.m3u8",
+    "name": "Trece TV",
+    "group": "ESPANHA",
+    "tvg_id": "Trece.es",
+    "logo": "https://i.imgur.com/3N90uxs.png",
+    "url": "https://play.cdn.enetres.net/091DB7AFBD77442B9BA2F141DCC182F5021/021/playlist.m3u8",
     "extra": []
   },
   {
-    "name": "FRANCE 24 Espa\u00f1ol",
-    "group": "NEWS WORLD",
-    "tvg_id": "Undefined",
-    "logo": "https://i.ytimg.com/vi/Y-IlMeCCtIg/maxresdefault.jpg",
-    "url": "https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1769162368/ei/IPJyaabEKtCGr9gP6uSF0QI/ip/48.211.211.35/id/Y-IlMeCCtIg.2/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hls_chunk_host/rr1---sn-p5qlsn6s.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/siu/1/bui/AW-iu_qtwWOYOWlmZJKMl-iyE8BgO3u8RfcyAy0d9cgc4Dj_IZ_JksfB3SOmks0TTMFhnyeprg/spc/q5xjPNcLPo041cPYNDEU6cYdo_EdNxrxErX_OQoiZ8sn9SPcg4MsAdIfwKM-HMsG58CaLg/vprv/1/ns/gjKVTO1_yf32wcuGEdyBiY4S/playlist_type/DVR/met/1769140768,/mh/2J/mm/44/mn/sn-p5qlsn6s/ms/lva/mv/u/mvi/1/pl/16/rms/lva,lva/dover/11/pacing/0/keepalive/yes/fexp/51355912,51552689,51565115,51565681,51580968,51626155/n/A0Gi9kTUQeZ-KN-W/mt/1769139844/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,siu,bui,spc,vprv,ns,playlist_type/sig/AJEij0EwRgIhALRC5JcUZzDUZGbcluOyHEE8gJ39-TlsdA_mN9GEQtOyAiEA8zbh1ttfR6pCtgFJoWTeLNSJlB3_WDnobvKv2URROr0%3D/lsparams/hls_chunk_host,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRAIgbsON1OWEpGGenhEAmBfeFkNu52pAju0nzWQ3W0_XNVkCIHqQCoqxISyatC3keNXa8BYph5hg3yL56VYMsf3mWeIl/playlist/index.m3u8",
+    "name": "Popular TV Melilla",
+    "group": "ESPANHA",
+    "tvg_id": "PopularTVMelilla.es",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSV9yNZbk67UnNA9wy_HoA-qs2af5iaiEWJ8qR1PFKuCLvo2oAmLS-jLbFToA&s",
+    "url": "http://5940924978228.streamlock.net:1935/8009/8009/playlist.m3u8",
     "extra": []
   },
   {
-    "name": "Televisa Puebla",
-    "group": "NEWS WORLD",
-    "tvg_id": "Undefined",
-    "logo": "https://i.ytimg.com/vi/34MBhb2M_TE/maxresdefault.jpg",
-    "url": "https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1769162369/ei/IfJyaab8AcfKkucP5ePDmAY/ip/48.211.211.35/id/34MBhb2M_TE.1/itag/95/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D136/rqh/1/hls_chunk_host/rr4---sn-p5qs7nsk.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/siu/1/bui/AW-iu_q0987kT2Fd3kwTrTB_0xU1OTsySR45dUbtCRprwX-DWLmlbd-y-ZNQ6px5tEcs7La1Yw/spc/q5xjPOZV7t41OatXChxSvtb9OO05nSseiNPTpiVikN19XibrtBYWKIwtVtZOroPWnsdjcg/vprv/1/ns/XOolUXemtCO0DorNSFEBtAQS/playlist_type/DVR/met/1769140769,/mh/34/mm/44/mn/sn-p5qs7nsk/ms/lva/mv/u/mvi/4/pl/16/rms/lva,lva/dover/11/pacing/0/keepalive/yes/fexp/51355912,51552689,51565115,51565681,51580968/n/nqx7aAMmtRbOwFvA/mt/1769139844/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,siu,bui,spc,vprv,ns,playlist_type/sig/AJEij0EwRAIgKZgaM4omF2t-zcQhGzzwG_c4LIirceZomqW5XQee9vkCICfd4teLU3xxLeJjPx1BeZXo0Q1DWy08drxSCChy54Oq/lsparams/hls_chunk_host,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRQIhAJrFLrzjNwiJjUg9mdFIF_LcgBs8b2DUBAWJP_7xcLEfAiBQkYR6KmdLmP0g6eQKh1pszQUD4hl_a4dWVLL31s5h-w%3D%3D/playlist/index.m3u8",
+    "name": "Canal 56",
+    "group": "ESPANHA",
+    "tvg_id": "Canal56.es",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSffr6Ick0IztJZSW1gxySbNSItqAcYbM_XQDYvO5kUHlR1nU4F8gAfa8Jdk6I&s",
+    "url": "https://videos.canal56.com/directe/stream/index.m3u8",
     "extra": []
   },
   {
-    "name": "euronews (en espa\u00f1ol)",
-    "group": "NEWS WORLD",
-    "tvg_id": "Undefined",
-    "logo": "https://i.ytimg.com/vi/O9mOtdZ-nSk/maxresdefault.jpg",
-    "url": "https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1769162369/ei/IfJyaeajBJrDkucP29q3oQY/ip/48.211.211.35/id/O9mOtdZ-nSk.3/itag/95/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D136/rqh/1/hls_chunk_host/rr3---sn-qjp5q5-55.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/siu/1/bui/AW-iu_r35Q3ObYbKxAlyXiPkLcloKbLq2X2YUaxior_gkju5hSV4iibjFqZ8n-t_Pkoq5Z6kYg/spc/q5xjPMd4cMFUQfG6WVtEAxDte_m1kxhnnKmvIgv-JMdseet747xxncH7jGIgqKYjnf2AgA/vprv/1/ns/-xWi4RXZ7erBLlYFz8ioBm8S/playlist_type/DVR/met/1769140769,/mh/Ly/mm/44/mn/sn-qjp5q5-55/ms/lva/mv/u/mvi/3/pl/16/rms/lva,lva/dover/11/pacing/0/keepalive/yes/fexp/51355912,51552689,51565115,51565681,51580968/n/KLWGRM3OSyaDtpW2/mt/1769139844/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,siu,bui,spc,vprv,ns,playlist_type/sig/AJEij0EwRQIgdYubuDXghiQTzodwXWSF57BhRl6mJxguV0Jlk1yztHwCIQDPr0OIs0pmgnZhonQ5jnCQNM_5A-s71VGX_2s8TJfmfw%3D%3D/lsparams/hls_chunk_host,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRQIgBLofAVW8H5wVJ54fj_Z-B8F1Yl0taoewskDcgGzUZi0CIQCW5u5OKVQYNzrpepgi6crxhh6nPPc018_blYlwfoZh9Q%3D%3D/playlist/index.m3u8",
+    "name": "Noroeste TV",
+    "group": "ESPANHA",
+    "tvg_id": "NoroesteTV.es",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRj_xIHjkrGg78x6QvLVjy-JTV5DgDkngUrV_4p-xwkAJW09kO7paB7WfwBHg&s",
+    "url": "https://cloudvideo.servers10.com:8081/8032/index.m3u8",
     "extra": []
   },
   {
-    "name": "Car Chase Channel ABC",
-    "group": "NEWS WORLD",
-    "tvg_id": "Undefined",
-    "logo": "https://i.ytimg.com/vi/dGpvy6yYifw/maxresdefault.jpg",
-    "url": "https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1769162369/ei/IPJyadKqO8Sm0_wPwM2J-QU/ip/48.211.211.35/id/dGpvy6yYifw.5/itag/300/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D298/rqh/1/hls_chunk_host/rr2---sn-p5qs7n6y.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/ss/1/siu/1/bui/AW-iu_p_BkNU_EK4HX98ySkPuR9htzH7UHa8fRAHDuB3iyuB988T5GWG8pSI9Pl1_RUZYNO2SA/spc/q5xjPP8CdJ4IX2AD6wWROiBVfweEC-ApWUnY5O7rcP802BZmtJ5WpbgUuMTzjeCDw46l1g/vprv/1/ns/PPRmw7yyB0U8xaZyBzQQwEUS/playlist_type/DVR/met/1769140769,/mh/aU/mm/44/mn/sn-p5qs7n6y/ms/lva/mv/u/mvi/2/pl/16/rms/lva,lva/dover/11/pacing/0/keepalive/yes/fexp/51355912,51552689,51565115,51565681,51580968,51626155/n/SC-9J2-BuZplpU73/mt/1769139844/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,ss,siu,bui,spc,vprv,ns,playlist_type/sig/AJEij0EwRQIgRWgVzRZ201NXfUFQtxxRbNQmTPaNrgrHcvuVnBzY-GcCIQCoyt14IGx0YdtXivpWsv_ru56BkvKSHaqXPDwCLERspg%3D%3D/lsparams/hls_chunk_host,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRQIhAJjX_U3blSkNShIlJ1DLApXdqNahHaftjpPll9k0GTCXAiACcyA9cv6IITe59eIsz2duO5Wl9cfkYeX8XAI5VQoYyA%3D%3D/playlist/index.m3u8",
+    "name": "Red Bull TV",
+    "group": "ESPANHA",
+    "tvg_id": "RedBullTV.es",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRntnpkBxMNBpEou3f2pTxIktIizzzqO1bG0HXNvi8w0DeS9nR9St-8PAzKNw&s",
+    "url": "https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master.m3u8",
     "extra": []
   },
   {
-    "name": "Euronews em Portugu\u00eas",
-    "group": "NEWS WORLD",
-    "tvg_id": "Undefined",
-    "logo": "https://i.ytimg.com/vi/XuZAl-ZPEcA/maxresdefault.jpg",
-    "url": "https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1769162369/ei/IfJyabDbCMeUkucP6tuZ6Qg/ip/48.211.211.35/id/XuZAl-ZPEcA.2/itag/95/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D136/rqh/1/hls_chunk_host/rr2---sn-p5qlsn76.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/siu/1/bui/AW-iu_pjrskoxNXLBnQT1y9B7IE8pI_Zf0mzqJsHN3xzQXLoFzkYMTdiuycCQhRod95wsv4WHA/spc/q5xjPOdkhfl5fQM-wOJRB8QfOFvQIuFPkh0Q-eli4TgFzFw357hFetaPiTNpWKPK6ZsfNg/vprv/1/ns/q9MgS5PNWwuAFn3h8VTO96oS/playlist_type/DVR/met/1769140769,/mh/4W/mm/44/mn/sn-p5qlsn76/ms/lva/mv/u/mvi/2/pl/16/rms/lva,lva/dover/11/pacing/0/keepalive/yes/fexp/51355912,51552689,51565115,51565681,51580968,51626155/n/oIJkDsx8notKWttS/mt/1769139844/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,siu,bui,spc,vprv,ns,playlist_type/sig/AJEij0EwRQIhAIVm88syF-AGeT7poBJl_WDc6w5X8J4Eu26z5Nm0fHBpAiBqRaCW3EK6djVxl19Xt4SzDXMEEwHVH_oNEIe4djEn3A%3D%3D/lsparams/hls_chunk_host,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRQIhAPhhlS7W7euGas8CXJHVWxxXELdeLAxtmWVEs2bC2GxGAiBx_Y0n5VqYv550fkLxMht2OKKus_zRqBMT-AybEhq2sg%3D%3D/playlist/index.m3u8",
+    "name": "Trace Sport Stars",
+    "group": "ESPANHA",
+    "tvg_id": "TraceSportStars.fr",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwozMcts84t7dhQxO2vWt-RQoOCdouMeVgIcw__MCql6vNS1ZFQhewjsbEGL8&s",
+    "url": "http://tracesportstars-samsunges.amagi.tv/hls/amagi_hls_data_samsunguk-tracesport-samsungspain/CDN/playlist.m3u8",
     "extra": []
   },
   {
-    "name": "Televisa Guadalajara",
-    "group": "NEWS WORLD",
-    "tvg_id": "Undefined",
-    "logo": "https://i.ytimg.com/vi/Z_rNtH-rkes/maxresdefault.jpg",
-    "url": "https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1769162370/ei/IvJyaYeRG7nCkucPv6HEoQg/ip/48.211.211.35/id/Z_rNtH-rkes.1/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hls_chunk_host/rr3---sn-p5qlsnrl.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/siu/1/bui/AW-iu_rFYm49lCjqIZDFCjSXmdz2bo2uIiq21uMky88KWiO7l-Gw8xx1ABVQP_dUYT_zzyCI-w/spc/q5xjPPuNq-xR9hOFTDn9hhDq00v7TswWuGVVqOGKOlXm-V7jk07ZJMEZENBopbUCjX7D3w/vprv/1/ns/S8RX_DPDWEi4FVh_9Ym0tGIS/playlist_type/DVR/met/1769140770,/mh/uh/mm/44/mn/sn-p5qlsnrl/ms/lva/mv/u/mvi/3/pl/16/rms/lva,lva/dover/11/pacing/0/keepalive/yes/fexp/51355912,51552689,51565115,51565681,51580968,51626155/n/P8iBwUxO0OCYjEek/mt/1769139844/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,siu,bui,spc,vprv,ns,playlist_type/sig/AJEij0EwRQIhAKZUBIDT-Enyev_NWyzi69zLyA0CyZhdPNXTa7G9xqSZAiBebH09tUXwbPN6Hw4IHB9WXgl06jnsWvoRMKFVZIqngg%3D%3D/lsparams/hls_chunk_host,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRgIhAIUElOZLVO-MN6g-kh_OD6VDcL_BiIxXVv6B3NTV-KorAiEAxbHyvsloCm9yuR_lq70DqWidLz2F3wJJt4BISH0DYqw%3D/playlist/index.m3u8",
+    "name": "Logos TV",
+    "group": "ESPANHA",
+    "tvg_id": "LogosTV.es",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSrHyMK8Z5BPiyn73IeEFC3WkL3bMKtznAZWDDbP0_v6SYpUqvhjRtIh4AqQ&s",
+    "url": "http://streamer1.streamhost.org/salive/logosH/playlist.m3u8",
     "extra": []
   },
   {
-    "name": "ABC News",
-    "group": "NEWS WORLD",
-    "tvg_id": "Undefined",
-    "logo": "https://i.ytimg.com/vi/iipR5yUp36o/maxresdefault.jpg",
-    "url": "https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1769162370/ei/IvJyaf-DNpHpy_sPhavGkQU/ip/48.211.211.35/id/iipR5yUp36o.4/itag/95/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D136/rqh/1/hls_chunk_host/rr3---sn-qjp5q5-55.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/ss/1/siu/1/bui/AW-iu_rDYVNSlQcO1VU3MA2Y7piQabnfrUttEVeZTf9vuWkRYa0h8HC1LYhgn018rzWscUhn2A/spc/q5xjPDykZBz_PMGXMdyHxDMzCS3hUUqv7mpwHewIsPL3nrVvVxDWoGgOCSdqpWVZHADC2A/vprv/1/ns/pKGwb7pbIOfk_OROhV6fduUS/playlist_type/DVR/met/1769140771,/mh/S5/mm/44/mn/sn-qjp5q5-55/ms/lva/mv/u/mvi/3/pl/16/rms/lva,lva/dover/11/pacing/0/keepalive/yes/fexp/51355912,51552689,51565115,51565681,51580968,51626155/n/zMPQcAubV_JWfzeP/mt/1769139844/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,ss,siu,bui,spc,vprv,ns,playlist_type/sig/AJEij0EwRgIhAPj5oxKsbA8uqlLAbndwNV9yuIzfUI3bxBiqWlZKUbEwAiEAwpOMWHojacSk_DlsRceajFLyzWhkWJXoFp1VOOOxpOs%3D/lsparams/hls_chunk_host,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRQIhAMglNv_sqHI_n5s5hvJ0-wV6rWeadX0prvTfd32JCGEsAiBDLCfUSppj20fg3Jhg6bedwDFRJ9GtQiCRyAq0df1odQ%3D%3D/playlist/index.m3u8",
+    "name": "Canal 4 Mancha Centro",
+    "group": "ESPANHA",
+    "tvg_id": "Canal4ManchaCentro.es",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7R9blkwuz-WhlQ2v3lmm13Wu4WBJmQTtnv8w6AyG0ARXv6OpojkxVM7tjn6U&s",
+    "url": "https://5924d3ad0efcf.streamlock.net/canal4/canal4live/playlist.m3u8",
     "extra": []
   },
   {
-    "name": "SBT News",
-    "group": "NEWS WORLD",
-    "tvg_id": "Undefined",
-    "logo": "https://i.ytimg.com/vi/75Ej93jiwKY/maxresdefault.jpg",
-    "url": "https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1769162371/ei/I_JyacDCEPmEy_sP2vXTsA0/ip/48.211.211.35/id/75Ej93jiwKY.2/itag/301/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D299/rqh/1/hls_chunk_host/rr1---sn-p5qlsny6.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/ss/1/siu/1/bui/AW-iu_q5J23Cr0fv1MnM6YKoAb-bLarKUvr8GK-HtMqBXD1EdBZu7bqOdq1hrBI00uAWMcHHzw/spc/q5xjPEuhTxqfcqZmeXqG7IulffrmxcqkztfIKX2V4QtsxOCQt9qN5NQF0qy8tiqbEoGozg/vprv/1/ns/N9QSPXHZilVjJG4cIgVIxeYS/playlist_type/DVR/met/1769140771,/mh/MI/mm/44/mn/sn-p5qlsny6/ms/lva/mv/u/mvi/1/pl/16/rms/lva,lva/dover/11/pacing/0/keepalive/yes/fexp/51355912,51552689,51565115,51565681,51580968/n/UNyEnsNq9VGgGmI6/mt/1769139844/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,ss,siu,bui,spc,vprv,ns,playlist_type/sig/AJEij0EwRQIgE61SzaWC2uPCKCoNNEy9-oJzi567nzsmdQU5CbXgknICIQDhdHQj4mfMISjq4GRLMzjrOn5hUTaOR4-meU-KxEoDrg%3D%3D/lsparams/hls_chunk_host,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRQIgDgC7KGI2gvN1h35b4arWHIE8_AXtmURAbkvrHsvr1HMCIQD-XvfC6aBfSExRxffkIQcZZ1ZjUVSjvzo5krdpJc7lcA%3D%3D/playlist/index.m3u8",
+    "name": "M95 Televisión Marbella",
+    "group": "ESPANHA",
+    "tvg_id": "M95Marbella.es",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbEOPFdRKSLzV39FlikDgFPDR3zFYibEl2USxMUMgaSY35oOUD-lMJSGxAwQ&s",
+    "url": "https://limited2.todostreaming.es/live/m95-livestream.m3u8",
     "extra": []
   },
   {
-    "name": "CBS News",
-    "group": "NEWS WORLD",
-    "tvg_id": "Undefined",
-    "logo": "https://i.ytimg.com/vi/calpop7ztTM/maxresdefault.jpg",
-    "url": "https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1769162371/ei/I_JyaYmVILXAkucP04vo8Qs/ip/48.211.211.35/id/calpop7ztTM.1/itag/300/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D298/rqh/1/hls_chunk_host/rr1---sn-p5qlsnd6.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/gcr/us/siu/1/bui/AW-iu_ohbfWaxiYeSJPJxgHnJ-aQZMv-6MLpeDnZ6OfqAJ7wZVGBcaUAfM8Uys5YNVd-4-QzmA/spc/q5xjPCnxQ7SWEdi_DKW1fQD1g5ufaEvrI1uMLBnEVpP1uaLDteXpaWZisCwA6jY3GxFeXg/vprv/1/ns/DrrYIeSym3CaTlDQH8dCZbES/playlist_type/DVR/met/1769140771,/mh/V-/mm/44/mn/sn-p5qlsnd6/ms/lva/mv/u/mvi/1/pl/16/rms/lva,lva/dover/11/pacing/0/keepalive/yes/fexp/51355912,51552689,51565115,51565681,51580968/n/e__dwO4qxW7VIAjK/mt/1769139844/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,gcr,siu,bui,spc,vprv,ns,playlist_type/sig/AJEij0EwRQIhAIKrAXcO0eaind4NMRnJas-zJ2kZ9SquG0fECiu3OmpwAiAtYriIK6s7B-fIZlSm6HY9PQn7pmcpBIKwA_m6J2yVMg%3D%3D/lsparams/hls_chunk_host,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRQIgQn1GJPm6UoSxCbVo5bhrCvSEFZMrolwKKm_5yOfQZwACIQCE0RWrZAPB6E-Cx1d0KgO2k2z5Yojf034MmtStUl7WuQ%3D%3D/playlist/index.m3u8",
+    "name": "Canal 2000 La Solana",
+    "group": "ESPANHA",
+    "tvg_id": "Canal2000LaSolana.es",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8f_5QcokzvuvIPAxM1P__W9SnEF6o3vhmwuGhPmycinTvs4dGRtj2OGSZorQ&s",
+    "url": "http://canal2000.berkano-systems.net/streaming/streams/canal2000.m3u8",
     "extra": []
   },
   {
-    "name": "CNN T\u00dcRK",
-    "group": "NEWS WORLD",
-    "tvg_id": "Undefined",
-    "logo": "https://i.ytimg.com/vi/6N8_r2uwLEc/maxresdefault.jpg",
-    "url": "https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1769162372/ei/JPJyaZ6wCPrLkucP056j0QU/ip/48.211.211.35/id/6N8_r2uwLEc.158/itag/301/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D299/rqh/1/hls_chunk_host/rr5---sn-p5qlsny6.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/ss/1/siu/1/bui/AW-iu_rq2-JwJ_cLHk08CWvP3NDOKNfU8lFen81p6Ld6HZX6BqTjggPV3YY7RnUTg_ZR5CIl5Q/spc/q5xjPGi9MnBgwST8SrjYQcr2fQsFStr092TzxKFafMS7-WVtdMAuFDVqkaKX-yD73rFWEw/vprv/1/ns/8pjfg6prQo2U-svEEY951FQS/playlist_type/DVR/met/1769140772,/mh/Ky/mm/44/mn/sn-p5qlsny6/ms/lva/mv/u/mvi/5/pl/16/rms/lva,lva/dover/11/pacing/0/keepalive/yes/fexp/51355912,51552689,51565115,51565681,51580968/n/2B6iaAMSUqJDM9Jx/mt/1769139844/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,ss,siu,bui,spc,vprv,ns,playlist_type/sig/AJEij0EwRgIhANcwOl3ZqJpcp3ZEF49rN08c5tStoLXaJxuUHWRPpCcCAiEA9bNIqAjMtpPOVDhUXU80tb429cZ20BJfkyAa1_f6Wh0%3D/lsparams/hls_chunk_host,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRQIhAKEJzXgJ2fW2hA_yDS61e4dKUfX9nlIM0jfXtYlmHc6KAiAFYMvc1zzFcaC0npngmkqy5MT6wZ856zXibvO5qztNIw%3D%3D/playlist/index.m3u8",
+    "name": "Sal Televisión",
+    "group": "ESPANHA",
+    "tvg_id": "SalTV.es",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZCllfIdqa2WNWyQ8cKY3FizIUknMrgxr__J8sqIoR46GB-hT3Wz82QYH6Zg&s",
+    "url": "https://www.tdtchannels.com/stream/saltv.m3u8",
     "extra": []
   },
   {
-    "name": "CNN Indonesia",
-    "group": "NEWS WORLD",
-    "tvg_id": "Undefined",
-    "logo": "https://i.ytimg.com/vi/a0vX_Qt0gDQ/maxresdefault.jpg",
-    "url": "https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1769162372/ei/JPJyaajSGbPCy_sPsOin6AI/ip/48.211.211.35/id/a0vX_Qt0gDQ.48/itag/301/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D299/rqh/1/hls_chunk_host/rr4---sn-p5qlsn7l.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/ss/1/siu/1/bui/AW-iu_oupg1LVbF_VgTSMnBVVMD4hnCpYqQUUvamNww8IPiuRE2jrCDRhMlxcWOyS94U-dY26g/spc/q5xjPE4FX8vn7oXvp6w7dxW0zlagy9TVH9cjwMUMntYSRDXm071c1fWfFfiwe0430LvyMQ/vprv/1/ns/Q82Tn909weMX0JLi9dRajRES/playlist_type/DVR/met/1769140772,/mh/sW/mm/44/mn/sn-p5qlsn7l/ms/lva/mv/u/mvi/4/pl/16/rms/lva,lva/dover/11/pacing/0/keepalive/yes/fexp/51355912,51552689,51565115,51565681,51580968,51626155/n/bAWOGrZ2mb-31JO2/mt/1769139844/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,ss,siu,bui,spc,vprv,ns,playlist_type/sig/AJEij0EwRQIhAPO0a-vfsZ_RzgrUPGpIcKze4cPl_VWXfns7ULshSl_gAiBpus2w_du7lyvUQV_kuaHdSoMdp393hrdUObdETJZOeQ%3D%3D/lsparams/hls_chunk_host,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRQIgNV-j956M7O6IZt_Nku1n51tNthOjJB3FGwjCg3luDnQCIQD0e4pfI-OZ0LmvNs9SFMK_1RnGiPXO-4vBXt4ovRyB6g%3D%3D/playlist/index.m3u8",
+    "name": "Pequeradio",
+    "group": "ESPANHA",
+    "tvg_id": "Pequeradio.es",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9gqNPXjg7DJC8cxdn_ZG8I3wMR0F5joKUWjcy4dhPAkRPcU3evBLG13Rq-w&s",
+    "url": "https://canadaremar2.todostreaming.es/live/peque-pequetv.m3u8",
     "extra": []
   },
   {
-    "name": "CNN Brasil",
-    "group": "NEWS WORLD",
-    "tvg_id": "Undefined",
-    "logo": "https://i.ytimg.com/vi/R6pvH6OT23M/maxresdefault.jpg",
-    "url": "https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1769162372/ei/JPJyaZ6PEsPFkucPmJfl8Qc/ip/48.211.211.35/id/R6pvH6OT23M.1/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hls_chunk_host/rr5---sn-p5qlsn7l.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/ss/1/siu/1/bui/AW-iu_rcOJPX-YNYD8SEUGUusRjtXfafxz8zwi1kgqNU_SPJX1GChzj3_1bCm5jn5n-LS1r9Fg/spc/q5xjPN6BeFQSJsl3jhd3aBP-rGVwc27WL2a0ntLy0nbXf6kj672NJ0tjMSAMy-BdGDTNdg/vprv/1/ns/S2Fq6Nxmo354DcLZnNuobfAS/playlist_type/DVR/met/1769140772,/mh/pK/mm/44/mn/sn-p5qlsn7l/ms/lva/mv/u/mvi/5/pl/16/rms/lva,lva/dover/11/pacing/0/keepalive/yes/fexp/51355912,51552689,51565115,51565681,51580968,51626155/n/yy3MM-agMhW9i8Nj/mt/1769139844/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,ss,siu,bui,spc,vprv,ns,playlist_type/sig/AJEij0EwRgIhAPYH5SF80cYSSciHilSQ9y_rry_62K1ZRnuIloOZpBHNAiEAyjCzseqikxjt1KJrsdfM1LrSmXTCo6S-7o0xp6loY5I%3D/lsparams/hls_chunk_host,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRAIgM5M_O7Xg4OmGe09gBkLm5PrSAwmXiA-0K9n9e-kG02sCIFUxlU4sr9_uKgsLMOYkZoHBY3vBDrkAGCY1EzzPqLS2/playlist/index.m3u8",
+    "name": "Diez TV",
+    "group": "ESPANHA",
+    "tvg_id": "DiezTV.es",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnx8xLuUJbaOK9Lv1CKpsfQDSai4F31x8KVzfMf1A5G9TicoYHWCrHFFTEAqI&s",
+    "url": "https://streaming.cloud.innovasur.es/mmj/index.m3u8",
     "extra": []
   },
   {
-    "name": "CNN Brasil Money",
-    "group": "NEWS WORLD",
-    "tvg_id": "Undefined",
-    "logo": "https://i.ytimg.com/vi/bF3694kCE60/maxresdefault.jpg",
-    "url": "https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1769162373/ei/JfJyaf-0F6-jkucP-5S5iQg/ip/48.211.211.35/id/bF3694kCE60.1/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hls_chunk_host/rr4---sn-p5qlsndz.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/siu/1/bui/AW-iu_piHqOZwPn5vFw63vvUcg_QQHUldSI71SYGvGpd8vx76kNgTY8aobC0Xl8pjD36iVtzGQ/spc/q5xjPDS26adhMGsfuHrdJr26IkWzvLEla1aNloVYKN6LY4GIrc3dC6Lq3G9qjG_5E8uUdw/vprv/1/ns/K-9pBumO3fTHPrndVnjbFksS/playlist_type/DVR/met/1769140773,/mh/rs/mm/44/mn/sn-p5qlsndz/ms/lva/mv/u/mvi/4/pl/16/rms/lva,lva/dover/11/pacing/0/keepalive/yes/fexp/51355912,51552689,51565115,51565681,51580968,51626155/n/_PnPKCocM29FK0Az/mt/1769139844/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,siu,bui,spc,vprv,ns,playlist_type/sig/AJEij0EwRgIhAJftWkljbbj6WXciMk0VuPM4zPRvzypTB1X0ILRHG-KxAiEAv9tkeiyCtCZaKyWJ6iEq0x2V2I56BJH509cRyi9gdhg%3D/lsparams/hls_chunk_host,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRgIhAO0mxi4P9y5L3IEuxebTx9FH77yI0-2hDgA9gLjYEW81AiEArL0vQrsIpkQsI-50Ytz9Lm-pQpVlBHvvG47Y06BS2DQ%3D/playlist/index.m3u8",
+    "name": "RTV Vida",
+    "group": "ESPANHA",
+    "tvg_id": "RTVVida.es",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRm00bUNlYPfFdPmZZwbLqopFl1aVcPtdIYA6wdIdNbT5uAz1ur7NtDy37Mtw&s",
+    "url": "https://vidartv2.todostreaming.es/live/radiovida-emisiontvhd.m3u8",
     "extra": []
   },
   {
-    "name": "R\u00c1DIO TV CDL SP",
-    "group": "NEWS WORLD",
-    "tvg_id": "Undefined",
-    "logo": "https://i.ytimg.com/vi/Hv6AQhQqAJ0/maxresdefault.jpg",
-    "url": "https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1769162375/ei/J_JyabHaKeqFy_sP7ajtkQI/ip/48.211.211.35/id/Hv6AQhQqAJ0.1/itag/95/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D136/rqh/1/hls_chunk_host/rr1---sn-p5qlsn76.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/siu/1/bui/AW-iu_pmXUHD3cIKD5YK-6gTfMh22WtgB8BGfxAzYUelD6wSTxEoi_BwSXp6Ie1PVN1AUUvH4Q/spc/q5xjPPL3ly4uSqHp8YTMe4mCoh1QOpVON3Mh6QVJJTaBxDyjmWF3bWBFs-HAX0h5NXraEQ/vprv/1/ns/GaOJsezpIyM4CSf0nNYBNKES/playlist_type/DVR/met/1769140775,/mh/QC/mm/44/mn/sn-p5qlsn76/ms/lva/mv/u/mvi/1/pl/16/rms/lva,lva/dover/11/pacing/0/keepalive/yes/fexp/51355912,51552689,51565115,51565681,51580968/n/2DZk8jZI0USM3suo/mt/1769139844/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,siu,bui,spc,vprv,ns,playlist_type/sig/AJEij0EwRgIhAKiUHApSX5D1aZSuRjx_PyJ8kvZnpjJHXyWR-tX7AOCxAiEAg3xsCb2zJNnVYjjA06yzjqeODBvY0G3kA0JVsXC2Zr4%3D/lsparams/hls_chunk_host,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRQIgZPLd8uTuam4_JuJl4ShVEUiTBoUXaomZQbZJ0qQ8TisCIQD2xBPuehjyXVYyhdmQEtmaNAbz9SfpGpLcpYdsP9mkOA%3D%3D/playlist/index.m3u8",
+    "name": "Punt 3 Vall Uixó",
+    "group": "ESPANHA",
+    "tvg_id": "Punt3VallUixo.es",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_ryi_67tCnGB3hTbnsdTGJUwaJiu3Anf1rQyP-3Ox8xUS5W6W6VnSYWkXgAQ&s",
+    "url": "https://bit.controlstreams.com:5443/LiveApp/streams/punt3.m3u8",
     "extra": []
   },
   {
-    "name": "ABC13 Houston",
-    "group": "NEWS WORLD",
-    "tvg_id": "Undefined",
-    "logo": "https://i.ytimg.com/vi/SDK_m1_BVJ4/maxresdefault.jpg",
-    "url": "https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1769162375/ei/J_JyaauwK9Krj-8PveHV0QI/ip/48.211.211.35/id/SDK_m1_BVJ4.1/itag/300/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D298/rqh/1/hls_chunk_host/rr4---sn-p5qlsndz.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/siu/1/bui/AW-iu_oF-6hFZXr3WA9pgzljwgT6gSMzOsoRCtZXdmYOIJIg8lZg-3-tnrfSXJmgx4H5tirKsg/spc/q5xjPPPeEmygW5dtg1xlxNkJnQ0735_qOPd0ReKycLYQ5kVQAlOh0VdSMX5fwGxEvhfQXA/vprv/1/ns/4XQi5nvUG-tjW4BmUmJtsLoS/playlist_type/DVR/met/1769140775,/mh/hx/mm/44/mn/sn-p5qlsndz/ms/lva/mv/u/mvi/4/pl/16/rms/lva,lva/dover/11/pacing/0/keepalive/yes/fexp/51355912,51552689,51565115,51565681,51580968/n/avPPgRmP-ToWiB0v/mt/1769139844/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,siu,bui,spc,vprv,ns,playlist_type/sig/AJEij0EwRgIhAMzIUGQZiPY9T4XjaeIXi_VvWEhmWAbOZ0AZ8aAoSIBeAiEAsfLqrYES9L0ulig8wYzyYGkC2Untle2vsQsOXWsKSDY%3D/lsparams/hls_chunk_host,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRQIge8zSmpna0u3ZkX2G5fhfVgvH8NSxtUyZY8I4dFLi-5ECIQD89pHlKXVA5NYCjIuPJT-TJhyb6yvk1SMb6c_LnWXkqQ%3D%3D/playlist/index.m3u8",
+    "name": "Solidaria TV",
+    "group": "ESPANHA",
+    "tvg_id": "SolidariaTV.es",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBW6KDXM08x_po6hQZnMpNF9vnO6j3vA8IGu5cAbDJXXkrtffWH8BPUY3XrgI&s",
+    "url": "https://canadaremar2.todostreaming.es/live/solidariatv-webhd.m3u8",
     "extra": []
   },
   {
-    "name": "CBS 42",
-    "group": "NEWS WORLD",
-    "tvg_id": "Undefined",
-    "logo": "https://i.ytimg.com/vi/PzCZoZVGdFg/hqdefault.jpg?v=697248e4",
-    "url": "https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1769162375/ei/J_JyaevWNeXKkucPhrOqqQw/ip/48.211.211.35/id/PzCZoZVGdFg.1/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hls_chunk_host/rr5---sn-p5qs7nsk.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/ss/1/siu/1/bui/AW-iu_rNmeo7TwmyOz6RS-uZC_YC76cE2k_CA4UPU5FS5ns3XEE-LJaJIGwz014bQATaOEd4Rw/spc/q5xjPAugd7rdEKbPwkwR6gdLjnGTFj4xtthhfyi7RyPndlVWrLX_WTJT5y2jqS2MGXlLuw/vprv/1/ns/lg20b8vL-LST6kpBtEg7HrQS/playlist_type/DVR/met/1769140776,/mh/Z5/mm/44/mn/sn-p5qs7nsk/ms/lva/mv/u/mvi/5/pl/16/rms/lva,lva/dover/11/pacing/0/keepalive/yes/fexp/51355912,51552689,51565115,51565681,51580968,51626155/n/_x4Ijb_je6IOTBpp/mt/1769139844/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,ss,siu,bui,spc,vprv,ns,playlist_type/sig/AJEij0EwRQIgXHAQ7aA33wajmjf6HYEI93A_Qdm7XOtC-91iQnkSdEICIQC-0N-RsycpdQg9amu9J80bMaPr3YBsndc8a3k1ochPQw%3D%3D/lsparams/hls_chunk_host,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRQIhAMw_jg-HbhwJZAJnVW5sD6PTVZzWz3wLqO_eYEL-f-yRAiAY7kKQ5ejPcMW7Z21gJbM28GJnAjPEkAJtIb2UXoHRMA%3D%3D/playlist/index.m3u8",
+    "name": "ETB Deportes",
+    "group": "ESPANHA",
+    "tvg_id": "ETBDeportes.es",
+    "logo": "https://graph.facebook.com/deportes.eitb.kirolak/picture?width=200&height=200",
+    "url": "https://multimedia.eitb.eus/live-content/oka3hd-hls/master.m3u8",
+    "extra": []
+  },
+  {
+    "name": "Antena 3",
+    "group": "ESPANHA",
+    "tvg_id": "Antena3.es",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZhXN9Ug4J488Hffs8g2Xsm_ou5-rNPlPm2tOV0fHauG2wW3U4BU5lAeby5g&s",
+    "url": "https://gitlab.com/movrey/movrel/-/raw/main/antena3.m3u8",
+    "extra": []
+  },
+  {
+    "name": "Negocios TV",
+    "group": "ESPANHA",
+    "tvg_id": "NegociosTV.es",
+    "logo": "https://pbs.twimg.com/profile_images/1321367703731523584/bNMmbetI_200x200.jpg",
+    "url": "https://streaming013.gestec-video.com/hls/negociostv.m3u8",
+    "extra": []
+  },
+  {
+    "name": "Canal 56",
+    "group": "ESPANHA",
+    "tvg_id": "Canal56.es",
+    "logo": "https://i.imgur.com/FYIM7SD.png",
+    "url": "https://videos.canal56.com/directe/stream/index.m3u8",
+    "extra": []
+  },
+  {
+    "name": "Canal Sur 2 Andalucía",
+    "group": "ESPANHA",
+    "tvg_id": "CanalSur2.es",
+    "logo": "https://graph.facebook.com/canalsurradioytv/picture?width=200&height=200",
+    "url": "https://cdnlive.codev8.net/rtvalive/smil:channel22.smil/playlist.m3u8",
+    "extra": []
+  },
+  {
+    "name": "Tuya La Janda TV",
+    "group": "ESPANHA",
+    "tvg_id": "TuyaLaJandaTV.es",
+    "logo": "https://graph.facebook.com/tuyalajandatv/picture?width=200&height=200",
+    "url": "https://cloudvideo.servers10.com:8081/8144/index.m3u8",
+    "extra": []
+  },
+  {
+    "name": "M95 Marbella",
+    "group": "ESPANHA",
+    "tvg_id": "M95Marbella.es",
+    "logo": "https://graph.facebook.com/m95tvmarbella/picture?width=200&height=200",
+    "url": "https://limited2.todostreaming.es/live/m95-livestream.m3u8",
+    "extra": []
+  },
+  {
+    "name": "Estepona TV",
+    "group": "ESPANHA",
+    "tvg_id": "EsteponaTV.es",
+    "logo": "https://graph.facebook.com/esteponatelevision/picture?width=200&height=200",
+    "url": "https://cloudvideo.servers10.com:8081/8022/index.m3u8",
+    "extra": []
+  },
+  {
+    "name": "Diez TV",
+    "group": "ESPANHA",
+    "tvg_id": "DiezTV.es",
+    "logo": "https://graph.facebook.com/dieztv/picture?width=200&height=200",
+    "url": "https://streaming.cloud.innovasur.es/mmj/index.m3u8",
+    "extra": []
+  },
+  {
+    "name": "Real Madrid TV",
+    "group": "ESPANHA",
+    "tvg_id": "RealMadridTV.es",
+    "logo": "https://graph.facebook.com/RealMadrid/picture?width=200&height=200",
+    "url": "https://rmtv.akamaized.net/hls/live/2043153/rmtv-es-web/master.m3u8",
+    "extra": []
+  },
+  {
+    "name": "Pequeradio TV",
+    "group": "ESPANHA",
+    "tvg_id": "Pequeradio.es",
+    "logo": "https://graph.facebook.com/Pequeradio/picture?width=200&height=200",
+    "url": "https://canadaremar2.todostreaming.es/live/peque-pequetv.m3u8",
+    "extra": []
+  },
+  {
+    "name": "Este Canal TV",
+    "group": "ESPANHA",
+    "tvg_id": "EsteCanalTV.es",
+    "logo": "https://graph.facebook.com/estecanaltv/picture?width=200&height=200",
+    "url": "http://synclosdragos1.syncsolutions.es:8008/live3/emision/index.m3u8",
+    "extra": []
+  },
+  {
+    "name": "Onda Algeciras TV",
+    "group": "ESPANHA",
+    "tvg_id": "OndaAlgecirasTV.es",
+    "logo": "https://graph.facebook.com/ondaalgecirastv/picture?width=200&height=200",
+    "url": "https://cloudtv.provideo.es/live/algecirastv-livestream.m3u8",
+    "extra": []
+  },
+  {
+    "name": "Canal Parlamento",
+    "group": "ESPANHA",
+    "tvg_id": "CanalParlamento.es",
+    "logo": "https://graph.facebook.com/CongresodelosDiputados/picture?width=200&height=200",
+    "url": "https://congresodirecto.akamaized.net/hls/live/2037973/canalparlamento/master.m3u8",
+    "extra": []
+  },
+  {
+    "name": "Canal 2000",
+    "group": "ESPANHA",
+    "tvg_id": "Canal2000.es",
+    "logo": "https://graph.facebook.com/canal2000/picture?width=200&height=200",
+    "url": "http://canal2000.berkano-systems.net/streaming/streams/canal2000-720p.m3u8",
+    "extra": []
+  },
+  {
+    "name": "Alcarria TV",
+    "group": "ESPANHA",
+    "tvg_id": "AlcarriaTV.es",
+    "logo": "https://graph.facebook.com/AlcarriaTV/picture?width=200&height=200",
+    "url": "http://217.182.77.27/live/alcarriatv-livestream.m3u8",
+    "extra": []
+  },
+  {
+    "name": "8 TV Cádiz",
+    "group": "ESPANHA",
+    "tvg_id": "8TVCadiz.es",
+    "logo": "https://graph.facebook.com/8tvcadiz/picture?width=200&height=200",
+    "url": "https://5940924978228.streamlock.net/8289/smil:8289.smil/master.m3u8",
+    "extra": []
+  },
+  {
+    "name": "Lancelot TV",
+    "group": "ESPANHA",
+    "tvg_id": "LancelotTV.es",
+    "logo": "https://graph.facebook.com/288850935035196/picture?width=200&height=200",
+    "url": "https://5c0956165db0b.streamlock.net:8090/directo/_definst_/lancelot.television/master.m3u8",
+    "extra": []
+  },
+  {
+    "name": "TVM Córdoba",
+    "group": "ESPANHA",
+    "tvg_id": "TVMCordoba.es",
+    "logo": "https://graph.facebook.com/TVM.Cordoba/picture?width=200&height=200",
+    "url": "https://5924d3ad0efcf.streamlock.net/cordoba/cordobalive/playlist.m3u8",
+    "extra": []
+  },
+  {
+    "name": "Canal Málaga",
+    "group": "ESPANHA",
+    "tvg_id": "CanalMalaga.es",
+    "logo": "https://graph.facebook.com/CanalMalagaRTVMunicipal/picture?width=200&height=200",
+    "url": "https://canalmalaga-tv-live.flumotion.com/playlist.m3u8",
+    "extra": []
+  },
+  {
+    "name": "Guada TV Media",
+    "group": "ESPANHA",
+    "tvg_id": "GuadaTV.es",
+    "logo": "https://graph.facebook.com/GuadaTV.TV/picture?width=200&height=200",
+    "url": "https://cloud.streamingconnect.tv/hls/guadatv/guadatv.m3u8",
+    "extra": []
+  },
+  {
+    "name": "TV Aranda",
+    "group": "ESPANHA",
+    "tvg_id": "TVAranda.es",
+    "logo": "https://graph.facebook.com/575943555801687/picture?width=200&height=200",
+    "url": "https://cloud.streamingconnect.tv/hls/telearanda/telearanda.m3u8",
+    "extra": []
+  },
+  {
+    "name": "Intercomarcal TV",
+    "group": "ESPANHA",
+    "tvg_id": "IntercomarcalTV.es",
+    "logo": "https://graph.facebook.com/Intercomarcal.Television/picture?width=200&height=200",
+    "url": "https://streamingtvi.gestec-video.com/hls/tvixa.m3u8",
+    "extra": []
+  },
+  {
+    "name": "Canal 4 Mancha Centro",
+    "group": "ESPANHA",
+    "tvg_id": "Canal4Villarrobledo.es",
+    "logo": "https://graph.facebook.com/canal4villarrobledo/picture?width=200&height=200",
+    "url": "https://5924d3ad0efcf.streamlock.net/canal4/canal4live/playlist.m3u8",
+    "extra": []
+  },
+  {
+    "name": "Alcarria TV",
+    "group": "ESPANHA",
+    "tvg_id": "AlcarriaTV.es",
+    "logo": "https://graph.facebook.com/AlcarriaTV/picture?width=200&height=200",
+    "url": "https://cls.alcarria.tv/live/alcarriatv-livestream.m3u8",
+    "extra": []
+  },
+  {
+    "name": "Elche 7 TV",
+    "group": "ESPANHA",
+    "tvg_id": "Elche7TV.es",
+    "logo": "https://graph.facebook.com/elche7hd/picture?width=200&height=200",
+    "url": "https://elche7tv.gestec-video.com/hls/canal2.m3u8",
+    "extra": []
+  },
+  {
+    "name": "Canal 56",
+    "group": "ESPANHA",
+    "tvg_id": "Canal56.es",
+    "logo": "https://graph.facebook.com/canal56televisio/picture?width=200&height=200",
+    "url": "https://videos.canal56.com/directe/stream/index.m3u8",
+    "extra": []
+  },
+  {
+    "name": "Burriana TV",
+    "group": "ESPANHA",
+    "tvg_id": "BurrianaTV.es",
+    "logo": "https://graph.facebook.com/burrianateve/picture?width=200&height=200",
+    "url": "https://www.burrianateve.com/hls/btv.m3u8",
+    "extra": []
+  },
+  {
+    "name": "Alacantí TV",
+    "group": "ESPANHA",
+    "tvg_id": "AlacantiTV.es",
+    "logo": "https://graph.facebook.com/alacantitv/picture?width=200&height=200",
+    "url": "https://streaming01.gestec-video.com/hls/artequatreAlacanti.m3u8",
+    "extra": []
+  },
+  {
+    "name": "ETB 1",
+    "group": "ESPANHA",
+    "tvg_id": "ETB1.es",
+    "logo": "https://graph.facebook.com/eitb/picture?width=200&height=200",
+    "url": "https://multimedia.eitb.eus/live-content/etb1hd-hls/master.m3u8",
+    "extra": []
+  },
+  {
+    "name": "Ciudades Del Ocio TV",
+    "group": "ESPANHA",
+    "tvg_id": "CiudadesDelOcio.es",
+    "logo": "https://graph.facebook.com/CiudadesDelOcioTV/picture?width=200&height=200",
+    "url": "https://cloudvideo.servers10.com:8081/8024/index.m3u8",
+    "extra": []
+  },
+  {
+    "name": "Onda Valencia",
+    "group": "ESPANHA",
+    "tvg_id": "OndaValencia.es",
+    "logo": "https://graph.facebook.com/ondavalenciatv/picture?width=200&height=200",
+    "url": "https://cloudvideo.servers10.com:8081/8116/index.m3u8",
+    "extra": []
+  },
+  {
+    "name": "Punt 3 Vall Uixó",
+    "group": "ESPANHA",
+    "tvg_id": "Punt3VallUixo.es",
+    "logo": "https://graph.facebook.com/Punt3Television/picture?width=200&height=200",
+    "url": "https://bit.controlstreams.com:5443/LiveApp/streams/punt3.m3u8",
+    "extra": []
+  },
+  {
+    "name": "Popular TV Melilla",
+    "group": "ESPANHA",
+    "tvg_id": "PopularTVMelilla.es",
+    "logo": "https://graph.facebook.com/populartvml/picture?width=200&height=200",
+    "url": "https://5940924978228.streamlock.net/8009/8009/master.m3u8",
+    "extra": []
+  },
+  {
+    "name": "Goiena Eus",
+    "group": "ESPANHA",
+    "tvg_id": "GoienaTV.es",
+    "logo": "https://graph.facebook.com/goiena.eus/picture?width=200&height=200",
+    "url": "https://zuzenean.goienamedia.eus/goiena-telebista.m3u8",
+    "extra": []
+  },
+  {
+    "name": "Int. Europa: Bloomberg Europe EN",
+    "group": "ESPANHA",
+    "tvg_id": "BloombergEurope.us",
+    "logo": "https://pbs.twimg.com/profile_images/991792042094354432/DG1Ruupb_200x200.jpg",
+    "url": "https://www.bloomberg.com/media-manifest/streams/eu.m3u8",
+    "extra": []
+  },
+  {
+    "name": "País Vasco: ETB Eventos 2 GEO",
+    "group": "ESPANHA",
+    "tvg_id": "ETBEventos2.es",
+    "logo": "https://graph.facebook.com/eitb/picture?width=200&height=200",
+    "url": "https://multimedia.eitb.eus/live-content/oka2hd-hls/master.m3u8",
+    "extra": []
+  },
+  {
+    "name": "País Vasco: Hamaika TV",
+    "group": "ESPANHA",
+    "tvg_id": "HamaikaTV.es",
+    "logo": "https://graph.facebook.com/HamaikaTb/picture?width=200&height=200",
+    "url": "https://cdn3.wowza.com/1/RERMR282dnU5eE5Z/OHY0dVFs/hls/live/playlist.m3u8",
+    "extra": []
+  },
+  {
+    "name": "Int. Europa: DW Alemania",
+    "group": "ESPANHA",
+    "tvg_id": "DWEspanol.de",
+    "logo": "https://graph.facebook.com/dw.espanol/picture?width=200&height=200",
+    "url": "https://dwamdstream104.akamaized.net/hls/live/2015530/dwstream104/index.m3u8",
+    "extra": []
+  },
+  {
+    "name": "País Vasco: ETB Eventos 1",
+    "group": "ESPANHA",
+    "tvg_id": "ETBEventos1.es",
+    "logo": "https://graph.facebook.com/eitb/picture?width=200&height=200",
+    "url": "https://multimedia.eitb.eus/live-content/oka1hd-hls/master.m3u8",
+    "extra": []
+  },
+  {
+    "name": "Int. Europa: EITB Basque",
+    "group": "ESPANHA",
+    "tvg_id": "ETBBasque.es",
+    "logo": "https://graph.facebook.com/eitb/picture?width=200&height=200",
+    "url": "https://multimedia.eitb.eus/live-content/eitbbasque-hls/master.m3u8",
+    "extra": []
+  },
+  {
+    "name": "Int. Europa: DW Alemania EN",
+    "group": "ESPANHA",
+    "tvg_id": "DWEnglish.de",
+    "logo": "https://graph.facebook.com/dw.espanol/picture?width=200&height=200",
+    "url": "https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/index.m3u8",
+    "extra": []
+  },
+  {
+    "name": "Int. Europa: WDR Alemanha DE",
+    "group": "ESPANHA",
+    "tvg_id": "WDR.de",
+    "logo": "https://graph.facebook.com/WDR/picture?width=200&height=200",
+    "url": "https://wdrfsww247.akamaized.net/hls/live/2009628/wdr_msl4_fs247ww/master.m3u8",
+    "extra": []
+  },
+  {
+    "name": "País Vasco: Urola TV",
+    "group": "ESPANHA",
+    "tvg_id": "UrolaTV.es",
+    "logo": "https://graph.facebook.com/urolatelebista/picture?width=200&height=200",
+    "url": "https://5940924978228.streamlock.net/j_Directo2/mp4:j_Directo2/playlist.m3u8",
+    "extra": []
+  },
+  {
+    "name": "Int. Europa: San Marino RTV IT",
+    "group": "ESPANHA",
+    "tvg_id": "SanMarinoRTV.sm",
+    "logo": "https://graph.facebook.com/SanMarinoRTV/picture?width=200&height=200",
+    "url": "https://d2hrvno5bw6tg2.cloudfront.net/smrtv-ch01/_definst_/smil:ch-01.smil/master.m3u8",
+    "extra": []
+  },
+  {
+    "name": "Int. Europa: NDR Niedersachsen Alemanha DE",
+    "group": "ESPANHA",
+    "tvg_id": "NDR.de",
+    "logo": "https://graph.facebook.com/ndrniedersachsen/picture?width=200&height=200",
+    "url": "https://ndrint.akamaized.net/hls/live/2020766/ndr_int/master.m3u8",
+    "extra": []
+  },
+  {
+    "name": "Int. Europa: RÚV Islandia",
+    "group": "ESPANHA",
+    "tvg_id": "RUV.is",
+    "logo": "https://graph.facebook.com/RUVohf/picture?width=200&height=200",
+    "url": "https://ruv-web-live.akamaized.net/streymi/ruverl/ruverl.m3u8",
+    "extra": []
+  },
+  {
+    "name": "Int. América: Canal Once Mexico",
+    "group": "ESPANHA",
+    "tvg_id": "CanalOnce.mx",
+    "logo": "https://graph.facebook.com/CANALONCETV/picture?width=200&height=200",
+    "url": "https://vivo.canaloncelive.tv/alivepkgr3/ngrp:cepro_all/playlist.m3u8",
+    "extra": []
+  },
+  {
+    "name": "Int. América: NASA TV Media",
+    "group": "ESPANHA",
+    "tvg_id": "NASATV.us",
+    "logo": "https://graph.facebook.com/NASA/picture?width=200&height=200",
+    "url": "https://ntv2.akamaized.net/hls/live/2013923/NASA-NTV2-HLS/master.m3u8",
+    "extra": []
+  },
+  {
+    "name": "Int. Europa: TRT Haber Turquía",
+    "group": "ESPANHA",
+    "tvg_id": "TRTHaber.tr",
+    "logo": "https://graph.facebook.com/trthaber/picture?width=200&height=200",
+    "url": "https://tv-trthaber.medya.trt.com.tr/master.m3u8",
+    "extra": []
+  },
+  {
+    "name": "Int. América: CourtTV USA EN",
+    "group": "ESPANHA",
+    "tvg_id": "CourtTV.us",
+    "logo": "https://graph.facebook.com/courttv/picture?width=200&height=200",
+    "url": "https://content.uplynk.com/channel/6c0bd0f94b1d4526a98676e9699a10ef.m3u8",
+    "extra": []
+  },
+  {
+    "name": "País Vasco: ETB 2",
+    "group": "ESPANHA",
+    "tvg_id": "ETB2.es",
+    "logo": "https://graph.facebook.com/eitb/picture?width=200&height=200",
+    "url": "https://multimedia.eitb.eus/live-content/etb2hd-hls/master.m3u8",
+    "extra": []
+  },
+  {
+    "name": "Int. América: America's Voice USA EN",
+    "group": "ESPANHA",
+    "tvg_id": "AmericasVoice.us",
+    "logo": "https://graph.facebook.com/RealAmericasVoice/picture?width=200&height=200",
+    "url": "https://content.uplynk.com/channel/26bd482ffe364a1282bc3df28bd3c21f.m3u8",
+    "extra": []
+  },
+  {
+    "name": "Int. América: El Financiero Mexico",
+    "group": "ESPANHA",
+    "tvg_id": "ElFinanciero.mx",
+    "logo": "https://graph.facebook.com/ElFinancieroMx/picture?width=200&height=200",
+    "url": "https://d19vc4shchm9pr.cloudfront.net/out/v1/a67ad47be66f4c3ea4a14c8f22984fa7/index.m3u8",
+    "extra": []
+  },
+  {
+    "name": "Int. África: TVGE 1 Guinea Ecuatorial",
+    "group": "ESPANHA",
+    "tvg_id": "TVGE.gq",
+    "logo": "http://www.tvgelive.gq/images/logo-dark.png",
+    "url": "http://rtmp.ott.mx1.com/tvge1/tvge1multi.smil/master.m3u8",
+    "extra": []
+  },
+  {
+    "name": "Int. América: Newsmax TV USA EN",
+    "group": "ESPANHA",
+    "tvg_id": "Newsmax.us",
+    "logo": "https://graph.facebook.com/newsmax/picture?width=200&height=200",
+    "url": "https://nmxlive.akamaized.net/hls/live/529965/Live_1/master.m3u8",
+    "extra": []
+  },
+  {
+    "name": "Int. Europa: Current Time TV",
+    "group": "ESPANHA",
+    "tvg_id": "CurrentTimeTV.us",
+    "logo": "https://graph.facebook.com/currenttimetv/picture?width=200&height=200",
+    "url": "https://rfe-ingest.akamaized.net/hls/live/2033043/tvmc05/master.m3u8",
+    "extra": []
+  },
+  {
+    "name": "Int. América: WTV Nicaragua",
+    "group": "ESPANHA",
+    "tvg_id": "WTNicaragua.ni",
+    "logo": "https://graph.facebook.com/WtvNuevaGuinea/picture?width=200&height=200",
+    "url": "https://cloudvideo.servers10.com:8081/8130/index.m3u8",
+    "extra": []
+  },
+  {
+    "name": "Int. América: NASA TV Public",
+    "group": "ESPANHA",
+    "tvg_id": "NASATV.us",
+    "logo": "https://graph.facebook.com/NASA/picture?width=200&height=200",
+    "url": "https://ntv1.akamaized.net/hls/live/2014075/NASA-NTV1-HLS/master.m3u8",
+    "extra": []
+  },
+  {
+    "name": "Int. Asia: India Today",
+    "group": "ESPANHA",
+    "tvg_id": "IndiaToday.in",
+    "logo": "https://graph.facebook.com/IndiaToday/picture?width=200&height=200",
+    "url": "https://feeds.intoday.in/aajtak/api/master.m3u8",
+    "extra": []
+  },
+  {
+    "name": "Int. Asia: CGTN Documentary EN",
+    "group": "ESPANHA",
+    "tvg_id": "CGTNDocumentary.cn",
+    "logo": "https://graph.facebook.com/ChinaGlobalTVNetwork/picture?width=200&height=200",
+    "url": "https://news.cgtn.com/resource/live/document/cgtn-doc.m3u8",
+    "extra": []
+  },
+  {
+    "name": "Int. Asia: Al Jazeera Qatar AR",
+    "group": "ESPANHA",
+    "tvg_id": "AlJazeera.qa",
+    "logo": "https://graph.facebook.com/aljazeera/picture?width=200&height=200",
+    "url": "https://live-hls-web-aja.getaj.net/AJA/index.m3u8",
+    "extra": []
+  },
+  {
+    "name": "Int. Asia: CGTN",
+    "group": "ESPANHA",
+    "tvg_id": "CGTNEspanol.cn",
+    "logo": "https://graph.facebook.com/cgtnenespanol/picture?width=200&height=200",
+    "url": "https://news.cgtn.com/resource/live/espanol/cgtn-e.m3u8",
+    "extra": []
+  },
+  {
+    "name": "Int. Asia: Al Arabiya Emiratos Árabes AR",
+    "group": "ESPANHA",
+    "tvg_id": "AlArabiya.ae",
+    "logo": "https://graph.facebook.com/AlArabiya/picture?width=200&height=200",
+    "url": "https://live.alarabiya.net/alarabiapublish/alarabiya.smil/playlist.m3u8",
+    "extra": []
+  },
+  {
+    "name": "Int. Asia: CGTN News EN",
+    "group": "ESPANHA",
+    "tvg_id": "CGTNNews.cn",
+    "logo": "https://graph.facebook.com/ChinaGlobalTVNetwork/picture?width=200&height=200",
+    "url": "https://news.cgtn.com/resource/live/english/cgtn-news.m3u8",
+    "extra": []
+  },
+  {
+    "name": "Int. Otros: Bloomberg Quicktake EN",
+    "group": "ESPANHA",
+    "tvg_id": "BloombergQuicktake.us",
+    "logo": "https://graph.facebook.com/quicktake/picture?width=200&height=200",
+    "url": "https://www.bloomberg.com/media-manifest/streams/qt.m3u8",
+    "extra": []
+  },
+  {
+    "name": "Int. África: RASD TV",
+    "group": "ESPANHA",
+    "tvg_id": "RASDTV.eh",
+    "logo": "https://graph.facebook.com/televisionsaharaui/picture?width=200&height=200",
+    "url": "https://cloud.streamingconnect.tv/hls/rasdtv/rasdtv.m3u8",
+    "extra": []
+  },
+  {
+    "name": "Channel NewsAsia EN",
+    "group": "ESPANHA",
+    "tvg_id": "ChannelNewsAsia.sg",
+    "logo": "https://graph.facebook.com/ChannelNewsAsia/picture?width=200&height=200",
+    "url": "https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index.m3u8",
+    "extra": []
+  },
+  {
+    "name": "India Today EN",
+    "group": "ESPANHA",
+    "tvg_id": "IndiaToday.in",
+    "logo": "https://graph.facebook.com/IndiaToday/picture?width=200&height=200",
+    "url": "https://indiatodaylive.akamaized.net/hls/live/2014320/indiatoday/indiatodaylive/playlist.m3u8",
+    "extra": []
+  },
+  {
+    "name": "Redbull TV EN",
+    "group": "ESPANHA",
+    "tvg_id": "RedBullTV.es",
+    "logo": "https://graph.facebook.com/RedBull/picture?width=200&height=200",
+    "url": "https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master.m3u8",
+    "extra": []
+  },
+  {
+    "name": "Radio Italia TV IT",
+    "group": "ESPANHA",
+    "tvg_id": "RadioItaliaTV.it",
+    "logo": "https://graph.facebook.com/radioitalia/picture?width=200&height=200",
+    "url": "https://radioitaliatv.akamaized.net/hls/live/2093117/RadioitaliaTV/master.m3u8",
+    "extra": []
+  },
+  {
+    "name": "4FUN TV Polonia PL",
+    "group": "ESPANHA",
+    "tvg_id": "4FunTV.pl",
+    "logo": "https://graph.facebook.com/4FUN.TV/picture?width=200&height=200",
+    "url": "https://stream.4fun.tv:8888/hls/4f_high/index.m3u8",
+    "extra": []
+  },
+  {
+    "name": "Ocko Star Chequia CZ",
+    "group": "ESPANHA",
+    "tvg_id": "OckoStar.cz",
+    "logo": "https://graph.facebook.com/ockostar/picture?width=200&height=200",
+    "url": "https://ocko-live.ssl.cdn.cra.cz/channels/ocko_gold/playlist/cze/live_hq.m3u8",
+    "extra": []
+  },
+  {
+    "name": "Ocko Chequia CZ",
+    "group": "ESPANHA",
+    "tvg_id": "Ocko.cz",
+    "logo": "https://graph.facebook.com/tvocko/picture?width=200&height=200",
+    "url": "https://ocko-live.ssl.cdn.cra.cz/channels/ocko/playlist/cze/live_hq.m3u8",
+    "extra": []
+  },
+  {
+    "name": "RTHK 31 Hong Kong",
+    "group": "ESPANHA",
+    "tvg_id": "RTHK31.hk",
+    "logo": "https://graph.facebook.com/RTHK.HK/picture?width=200&height=200",
+    "url": "https://www.rthk.hk/feeds/dtt/rthktv31_https.m3u8",
+    "extra": []
+  },
+  {
+    "name": "Ocko Expres",
+    "group": "ESPANHA",
+    "tvg_id": "OckoExpres.cz",
+    "logo": "https://graph.facebook.com/OckoExpres/picture?width=200&height=200",
+    "url": "https://ocko-live.ssl.cdn.cra.cz/channels/ocko_expres/playlist/cze/live_hq.m3u8",
+    "extra": []
+  },
+  {
+    "name": "Ocko",
+    "group": "ESPANHA",
+    "tvg_id": "Ocko.cz",
+    "logo": "https://graph.facebook.com/tvocko/picture?width=200&height=200",
+    "url": "https://ocko-live.ssl.cdn.cra.cz/channels/ocko/playlist/cze/live_hq.m3u8",
+    "extra": []
+  },
+  {
+    "name": "NDTV 24x7 India",
+    "group": "ESPANHA",
+    "tvg_id": "NDTV24x7.in",
+    "logo": "https://graph.facebook.com/ndtv/picture?width=200&height=200",
+    "url": "https://ndtv24x7elemarchana.akamaized.net/hls/live/2003678/ndtv24x7/ndtv24x7master.m3u8",
+    "extra": []
+  },
+  {
+    "name": "RTHK 32 Hong Kong",
+    "group": "ESPANHA",
+    "tvg_id": "RTHK32.hk",
+    "logo": "https://graph.facebook.com/RTHK.HK/picture?width=200&height=200",
+    "url": "https://www.rthk.hk/feeds/dtt/rthktv32_https.m3u8",
+    "extra": []
+  },
+  {
+    "name": "Retro Music TV",
+    "group": "ESPANHA",
+    "tvg_id": "RetroMusicTV.cz",
+    "logo": "https://graph.facebook.com/retromusic/picture?width=200&height=200",
+    "url": "http://stream.mediawork.cz/retrotv/retrotvHQ1/playlist.m3u8",
+    "extra": []
+  },
+  {
+    "name": "EWTN España",
+    "group": "ESPANHA",
+    "tvg_id": "EWTN.es",
+    "logo": "https://graph.facebook.com/ewtnespanol/picture?width=200&height=200",
+    "url": "https://cdn3.wowza.com/1/SmVrQmZCUXZhVDgz/b3J3MFJv/hls/live/playlist.m3u8",
+    "extra": []
+  },
+  {
+    "name": "Arirang TV",
+    "group": "ESPANHA",
+    "tvg_id": "ArirangTV.kr",
+    "logo": "https://graph.facebook.com/arirangtv/picture?width=200&height=200",
+    "url": "https://amdlive-ch01-ctnd-com.akamaized.net/arirang_1ch/smil:arirang_1ch.smil/playlist.m3u8",
+    "extra": []
+  },
+  {
+    "name": "Solidaria TV",
+    "group": "ESPANHA",
+    "tvg_id": "SolidariaTV.es",
+    "logo": "https://graph.facebook.com/solidariatv/picture?width=200&height=200",
+    "url": "https://canadaremar2.todostreaming.es/live/solidariatv-webhd.m3u8",
+    "extra": []
+  },
+  {
+    "name": "RTV Vida",
+    "group": "ESPANHA",
+    "tvg_id": "RTVVida.es",
+    "logo": "https://pbs.twimg.com/profile_images/1359486927406321664/WZXLfd2h_200x200.jpg",
+    "url": "https://vidartv2.todostreaming.es/live/radiovida-emisiontvhd.m3u8",
+    "extra": []
+  },
+  {
+    "name": "TBN España",
+    "group": "ESPANHA",
+    "tvg_id": "TBN.es",
+    "logo": "https://graph.facebook.com/TBNEspana/picture?width=200&height=200",
+    "url": "https://edge.xn--tbnespaa-j3a.es/LiveApp/streams/tbnlive.m3u8",
     "extra": []
   }
 ]
