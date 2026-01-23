@@ -1,18 +1,106 @@
 [
   {
-    "name": "Sala Sonho de Ser Milion\u00e1rio",
-    "group": "Globoplay",
-    "tvg_id": "Sala Sonho de Ser Milion\u00e1rio",
-    "logo": "https://live.video.globo.com/thumbs/bbb05.jpg",
-    "url": "https://infinity-c41.youboranqs01.com/start",
+    "name": "Globo Internacional",
+    "group": "GLOBO AO VIVO",
+    "tvg_id": "Globo Internacional",
+    "logo": "https://s04.video.glbimg.com/x216/7832875.jpg",
+    "url": "https://live-01.edge-vtal-gyn-go.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJCUiIsImRvbWFpbiI6ImxpdmUtMDEuZWRnZS12dGFsLWd5bi1nby52aWRlby5nbG9iby5jb20iLCJleHAiOjE3NjkxNzk2NzYsImlhdCI6MTc2OTE1ODA3NiwiaXNzIjoicGxheWJhY2stYXBpLXByb2QtZ2NwIiwib3duZXIiOiI0YjkwY2Y3MS0yYmViLTQyZjItYTVlNC05YmZkM2M4OGFhNjMiLCJwYXRoIjoiL2xpdmUvZihpPTIpL2dsYmV1YS9wbGF5bGlzdC5tM3U4In0.RHgrnHr5rTOwEy2-5W5CES_mRvOINdgw9RTvp0Zh21g87-WbsjH6jubBTTPvWUgRzctjHspeir8yT7r7yw67RUEBH8WttQ5V4Nb3h81Jt8DxyhWV6W5BBk6D05YhX-PzD208WAuSCE4qjQGEiva14N9DtbVxvYADwGoP1uYo5x_r8e0mLJznCrIVK956y86yFtX-sZ2TMSHfg3mLdSN-8XpLENbOv_ACDq-yYnG21LBfcl2fTK8KG-jaFOZ5cgGy8AMnR_nJgND-3Hyd2g5HkHOdRAkA6NjVHqQGWULaYc-zXXEjoHk25Hlm-hF050pHwRcXp9xM-KwKKkqZ5Ay23g/live/f(i=2)/glbeua/playlist.m3u8",
+    "extra": []
+  },
+  {
+    "name": "TV Globo",
+    "group": "GLOBO AO VIVO",
+    "tvg_id": "TV Globo",
+    "logo": "https://s3.glbimg.com/v1/AUTH_c7def7ff66fe4b13beac0810ffbf780f/secure/now-at-globo-share-d5539fc.jpg",
+    "url": "https://live-01.edge-vtal-gyn-go.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJCUiIsImRvbWFpbiI6ImxpdmUtMDEuZWRnZS12dGFsLWd5bi1nby52aWRlby5nbG9iby5jb20iLCJleHAiOjE3NjkxNzk2OTksImlhdCI6MTc2OTE1ODA5OSwiaXNzIjoicGxheWJhY2stYXBpLXByb2QtZ2NwIiwib3duZXIiOiI0YjkwY2Y3MS0yYmViLTQyZjItYTVlNC05YmZkM2M4OGFhNjMiLCJwYXRoIjoiL2xpdmUvZihpPTIpL2dsb2JvLWdvMDEvcGxheWxpc3QubTN1OCJ9.0ecViRcYb2r4GMyB3d6_N19qvzFWuvAHo08BcSca1mkILV59bsVnWucR6KkJLbbe1WtJdo6oI0mSyIChgGhAQ7j8fX4MsVRtRaRJuJ_Sql_Zp0T9w83xImIlqdAZh7pqSuxKdA6-Z1QsC5Emfl6Uog6iVXj8GQiBrUDQtUvO0Nmqmc45B3af8yjHlU0c1VvaaxegYjMi8Kf6QQPcCenjqn4Wf14Y2xHK6wg22vhepoG5NGcW5ve4BoN3tvteqy1ojq-D50zMSFFeRh2MextBDQWC_UPXrRYouWBveFKuFybdx3_4Y2umtJxXqXxZMLea2RjcHGz5w__UJ-LKlUr3Aw/live/f(i=2)/globo-go01/playlist.m3u8",
+    "extra": []
+  },
+  {
+    "name": "Assista",
+    "group": "Reality Show's Live",
+    "tvg_id": "Assista",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSX-9UjASxuXvRYc7s6qZO8-_v9xG3pOXyOYJvAtRiCwCVH57EH3dz6wkx33MY&s",
+    "url": "https://live-01.edge-vtal-gyn-go.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJCUiIsImRvbWFpbiI6ImxpdmUtMDEuZWRnZS12dGFsLWd5bi1nby52aWRlby5nbG9iby5jb20iLCJleHAiOjE3NjkxNzk3MzUsImlhdCI6MTc2OTE1ODEzNSwiaXNzIjoicGxheWJhY2stYXBpLXByb2QtZ2NwIiwib3duZXIiOiI0YjkwY2Y3MS0yYmViLTQyZjItYTVlNC05YmZkM2M4OGFhNjMiLCJwYXRoIjoiL2xpdmUvZihpPTIpL2JiYjAxL3BsYXlsaXN0Lm0zdTgifQ.n9ZPALgNVecqXtF9FT3RYqUr9Y1QxdfDoAGahSs_vfqRqfBUzo2i9BfTw4GEph8SfqSRwfZCInQsQs2_cc2jXHoQNBRxGf9PiisDuYGIX_50uu8bS2qz__Z7cqci4Y0coUBpugBvGa-XBELmVomD6zZdDp2lzPX449m2rfqR1iy1TSfq4SLMb6tocy2FOTIxB3TofS33G66ZUdt2dXavBeGSQgUONaskpzWBlZbUJMySQC0AEFhFQycWRc6UH5BjV2PqsZXleq1j_MIINXnIJF0i9onhSj70W3L53g7v1oGWaYoYO-cpO_FaNgG4Lb8Lrgaf2PNEnGJh3HO700zCHg/live/f(i=2)/bbb01/playlist.m3u8",
     "extra": []
   },
   {
     "name": "Acompanhe a Casa 2",
-    "group": "Globoplay",
+    "group": "Reality Show's Live",
     "tvg_id": "Acompanhe a Casa 2",
     "logo": "https://live.video.globo.com/thumbs/bbb11.jpg",
-    "url": "https://infinity-c33.youboranqs01.com/start",
+    "url": "https://live-01.edge-vtal-gyn-go.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJCUiIsImRvbWFpbiI6ImxpdmUtMDEuZWRnZS12dGFsLWd5bi1nby52aWRlby5nbG9iby5jb20iLCJleHAiOjE3NjkxNzk3NTksImlhdCI6MTc2OTE1ODE1OSwiaXNzIjoicGxheWJhY2stYXBpLXByb2QtZ2NwIiwib3duZXIiOiI0YjkwY2Y3MS0yYmViLTQyZjItYTVlNC05YmZkM2M4OGFhNjMiLCJwYXRoIjoiL2xpdmUvZihpPTIpL2JiYjExL3BsYXlsaXN0Lm0zdTgifQ.IVidoZNSHT8hpgPggKyle8ixsjNIUtMata5l4nikwM1gfPt_-YN-pACTwKBMx7j3xYG5Ej8qUzi8Jar6aT4hdQGWMHChFY70vOLjS8Cpet0gckdlyIgrW0deyiBjqWpMxi0buEYFYLCQDG7Kw_bCOkrgRsM8r8LGQhS0S4-a0EGXpXtoUxevXSDcoU9DlQncii_ZmLXvjsCjBuWkIFrEQ1TMBx6pdjNbFjOQ5P9R7TorwE8EdLjKpRr92S5yrr4gyCjjVnIY18jiAAf-ySJU3BTmVf0zcrdOO0olFDSBfduep1g0qKYyDSFTCLTE5GFw5_kjNq9Y51De_KXKHIvl0w/live/f(i=2)/bbb11/playlist.m3u8",
+    "extra": []
+  },
+  {
+    "name": "Mosaico",
+    "group": "Reality Show's Live",
+    "tvg_id": "Mosaico",
+    "logo": "https://live.video.globo.com/thumbs/bbb12.jpg",
+    "url": "https://live-01.edge-vtal-gyn-go.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJCUiIsImRvbWFpbiI6ImxpdmUtMDEuZWRnZS12dGFsLWd5bi1nby52aWRlby5nbG9iby5jb20iLCJleHAiOjE3NjkxNzk3ODUsImlhdCI6MTc2OTE1ODE4NSwiaXNzIjoicGxheWJhY2stYXBpLXByb2QtZ2NwIiwib3duZXIiOiI0YjkwY2Y3MS0yYmViLTQyZjItYTVlNC05YmZkM2M4OGFhNjMiLCJwYXRoIjoiL2xpdmUvZihpPTIpL2JiYjEyL3BsYXlsaXN0Lm0zdTgifQ.mBJ_o30j4OANCk3Y5KQrm79DGqIKgSErIYZrR7uHYQDavT25hienejbjudANNM164Jsf1lGqh3XFMpfBkm0vU2MoakNWltZv-PL53E2aHrC7JS-0X-mbo9JvG8VTB623hi6Zi5yvhj9Nsd1cnD9VcMd7eZv21pLhDvTe9Y4QFl4m54FwMTjTeXlB7NjP5ahZU1GxFx9PkxP7mUL44XG0n1U9MzjhZmvvVh2MpBZ-mTFoe9m82L26lQOlJDKTaiz_3wiwnkssvOtjcAMlWWrXEE3uBZcLubKM6EpJW8K53tfLObrZJ3_bF_iGss-2MZ2SAOJ9hBKhRHz5guKcewRLMA/live/f(i=2)/bbb12/playlist.m3u8",
+    "extra": []
+  },
+  {
+    "name": "Segue o L\u00edder",
+    "group": "Reality Show's Live",
+    "tvg_id": "Segue o L\u00edder",
+    "logo": "https://live.video.globo.com/thumbs/bbb10.jpg",
+    "url": "https://live-01.edge-vtal-gyn-go.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJCUiIsImRvbWFpbiI6ImxpdmUtMDEuZWRnZS12dGFsLWd5bi1nby52aWRlby5nbG9iby5jb20iLCJleHAiOjE3NjkxNzk4MDgsImlhdCI6MTc2OTE1ODIwOCwiaXNzIjoicGxheWJhY2stYXBpLXByb2QtZ2NwIiwib3duZXIiOiI0YjkwY2Y3MS0yYmViLTQyZjItYTVlNC05YmZkM2M4OGFhNjMiLCJwYXRoIjoiL2xpdmUvZihpPTIpL2JiYjEwL3BsYXlsaXN0Lm0zdTgifQ.TJF9QGlBjQc_qrESVvX-z7CJqq99kSromjqEIVYaSzDirdliIPqcG6K_l3bd0J27Ah5QNrRAO-0zju8Rck0JnNFiLCFjrXZzdKV_vSIWNlcucBi_-_t2I7n5-wE5eL_N78qjUc8woui6A6rev_bWIxuZcH4FdGbd0nlX-q9CkxlcSGR4WW9Fd-U7o7hCvHe7I5PVM51sVQXlkn9-ms6HGKslOgzfdh9TzFsy3__NIU8EVllkjyh6Ew1Z8-s_i4mF_t7FQBaU_0dbEUNSo7_18D3S5ywUChy0J2cU4loREaLetzg-RSaW5baknMjFns06lu_-eKRxZajUXLcjpPGinw/live/f(i=2)/bbb10/playlist.m3u8",
+    "extra": []
+  },
+  {
+    "name": "Quarto Sonho de Eternidade",
+    "group": "Reality Show's Live",
+    "tvg_id": "Quarto Sonho de Eternidade",
+    "logo": "https://live.video.globo.com/thumbs/bbb02.jpg",
+    "url": "https://live-01.edge-vtal-gyn-go.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJCUiIsImRvbWFpbiI6ImxpdmUtMDEuZWRnZS12dGFsLWd5bi1nby52aWRlby5nbG9iby5jb20iLCJleHAiOjE3NjkxNzk4MzMsImlhdCI6MTc2OTE1ODIzMywiaXNzIjoicGxheWJhY2stYXBpLXByb2QtZ2NwIiwib3duZXIiOiI0YjkwY2Y3MS0yYmViLTQyZjItYTVlNC05YmZkM2M4OGFhNjMiLCJwYXRoIjoiL2xpdmUvZihpPTIpL2JiYjAyL3BsYXlsaXN0Lm0zdTgifQ.0XPJSy09fgcnjYpWrdIzU6RF2I-wJiI8GJcCNUnyTARUfHKgtcj_d2qbGf4DFncEtkAU9fi7rI6XH717f32tdP4RGU8UsrEULOZSzKd055MiJFV6ia1R6X6GeXa0qWwUFX1yPpnPRXCTqBUM5BUwSclAxHxm745PX-TMJ65IImeU3q3aNeqyby-du6gcrWfMr2gr8jLEFCG7Lhxpf4mdyVAgBx1fn19R5MxJIsqJC-gBRwxq-1AhuJDfv42goJvMQxfMESXM0DzKnIQgpu5pfiZoywI-wq3cd3RVgTryceZdXPx2uSBftde7IDy28tAvSemzZWDT4q76_Yc14dTf-g/live/f(i=2)/bbb02/playlist.m3u8",
+    "extra": []
+  },
+  {
+    "name": "Quarto Sonho de Voar",
+    "group": "Reality Show's Live",
+    "tvg_id": "Quarto Sonho de Voar",
+    "logo": "https://live.video.globo.com/thumbs/bbb03.jpg",
+    "url": "https://live-01.edge-vtal-gyn-go.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJCUiIsImRvbWFpbiI6ImxpdmUtMDEuZWRnZS12dGFsLWd5bi1nby52aWRlby5nbG9iby5jb20iLCJleHAiOjE3NjkxNzk4NzYsImlhdCI6MTc2OTE1ODI3NiwiaXNzIjoicGxheWJhY2stYXBpLXByb2QtZ2NwIiwib3duZXIiOiI0YjkwY2Y3MS0yYmViLTQyZjItYTVlNC05YmZkM2M4OGFhNjMiLCJwYXRoIjoiL2xpdmUvZihpPTIpL2JiYjAzL3BsYXlsaXN0Lm0zdTgifQ.FoTfVWKI4ICgQzIlmtLHF843xnyVbh4Gx1FYiMHECVGfcrrd6F8zrsGcxWyjnIC-Dnu5N7BwiJYQTGWJ2Bg_BcLkew39jo4v-2SLXRhXTqziZhDoVPFIUPZ0SmKjUdKoLNhie8zVTCxAMao_GBCq6I6Q5f4n9E0l3mDxzVIdUMbTzbLXTtd62ZSmHnJAYdjKlkOS2KdD2-wWScdu9U77F7qrXtsGY40bFxGT_IWWuSGgxJFHB7M6uwa5Cq2phr4Fmn9hV09gn8nOexIm6dtyjyxosdXn8S_xIaTqZdCzgqxo-qUUTVN8QZyJJ77paXU8yw4dQFYMybHm3saHPzMYCw/live/f(i=2)/bbb03/playlist.m3u8",
+    "extra": []
+  },
+  {
+    "name": "Quarto Sonho do Grande Amor",
+    "group": "Reality Show's Live",
+    "tvg_id": "Quarto Sonho do Grande Amor",
+    "logo": "https://live.video.globo.com/thumbs/bbb04.jpg",
+    "url": "https://live-01.edge-vtal-gyn-go.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJCUiIsImRvbWFpbiI6ImxpdmUtMDEuZWRnZS12dGFsLWd5bi1nby52aWRlby5nbG9iby5jb20iLCJleHAiOjE3NjkxNzk5MjIsImlhdCI6MTc2OTE1ODMyMiwiaXNzIjoicGxheWJhY2stYXBpLXByb2QtZ2NwIiwib3duZXIiOiI0YjkwY2Y3MS0yYmViLTQyZjItYTVlNC05YmZkM2M4OGFhNjMiLCJwYXRoIjoiL2xpdmUvZihpPTIpL2JiYjA0L3BsYXlsaXN0Lm0zdTgifQ.Ckk4PP8q5DueAEp7DK17gE_uEy5-IhEebmimrrhkjxQnr0o60WyRCjLaEn5yRf4Qo9GXuGWDmkf8Ce7PqRlKLoxVocnnhmIX6efsPTPj1uBTWCsnz3Pc500sySyvwVSqkQanRVf91qKY3ls85f6CLDvnqeH_RnFzkZHpPZJvwd-Gn4VALsgKLfUSBZPtiHnJSyPD408-wS-S3MP29Cv6rhvm5JC4llZ9AMGyOoYUSxmOkBPARImoNYdNmHn0iiRLh5xxW4J5PjSZhtut8UDt3rn9889GvmeJUXk8wzi7iBS21Hgvrc9SBSiC635qLPlKJ-vfpklwUN-p1jCO5wzqlQ/live/f(i=2)/bbb04/playlist.m3u8",
+    "extra": []
+  },
+  {
+    "name": "Cozinha",
+    "group": "Reality Show's Live",
+    "tvg_id": "Cozinha",
+    "logo": "https://live.video.globo.com/thumbs/bbb07.jpg",
+    "url": "https://live-01.edge-vtal-gyn-go.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJCUiIsImRvbWFpbiI6ImxpdmUtMDEuZWRnZS12dGFsLWd5bi1nby52aWRlby5nbG9iby5jb20iLCJleHAiOjE3NjkxNzk5NTAsImlhdCI6MTc2OTE1ODM1MCwiaXNzIjoicGxheWJhY2stYXBpLXByb2QtZ2NwIiwib3duZXIiOiI0YjkwY2Y3MS0yYmViLTQyZjItYTVlNC05YmZkM2M4OGFhNjMiLCJwYXRoIjoiL2xpdmUvZihpPTIpL2JiYjA3L3BsYXlsaXN0Lm0zdTgifQ.q9GLzoz49a8aVXGoh9tPT_xgwxlDlK-oR--keF1Z3cMycnxgEHViV7Ot7Rg9LS4ElRFXmvGQaV2B5UwlvToPbemVUbMZWyBgkDQRCBPmP3ODxnxA8At3EErEPyT4FU4_hkuB_8o49uPwK36o4LDjem2ik3Qfi_Kl4ca-1Zz7NyfwlSeP3WgtrqKF3hWTrSNQK4iLGZLPWahYjm2UrBiSbIKPat4BaUwRiKVPZ3m7eZdUXD3p8UWowKYWoQCUL_14WyHEunoMyCFepITCT-HtOQxa-hqRPHKr25PbmaoSRZnxvm4-HhzYdW7SfyfpFS1MQUWrHttJ64PLeQWV8FuQYA/live/f(i=2)/bbb07/playlist.m3u8",
+    "extra": []
+  },
+  {
+    "name": "Banheiro SUPER CIMED",
+    "group": "Reality Show's Live",
+    "tvg_id": "Banheiro SUPER CIMED",
+    "logo": "https://live.video.globo.com/thumbs/bbb08.jpg",
+    "url": "https://live-01.edge-vtal-gyn-go.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJCUiIsImRvbWFpbiI6ImxpdmUtMDEuZWRnZS12dGFsLWd5bi1nby52aWRlby5nbG9iby5jb20iLCJleHAiOjE3NjkxNzk5NzUsImlhdCI6MTc2OTE1ODM3NSwiaXNzIjoicGxheWJhY2stYXBpLXByb2QtZ2NwIiwib3duZXIiOiI0YjkwY2Y3MS0yYmViLTQyZjItYTVlNC05YmZkM2M4OGFhNjMiLCJwYXRoIjoiL2xpdmUvZihpPTIpL2JiYjA4L3BsYXlsaXN0Lm0zdTgifQ.Kxeufqn3KtG2ovU6y_3nwLF2SPBCWfLesi9fWoXYR0rbWCdNa1LMh8dJLzGr0sOon9q03_SzpB5sytHSyKCbFtf3XVRJio5XSfwVKXjmjJeodYwD5kiG76pfbFm7L2OEPX3PjHG2kddovvpKfcUpSe0jrH8SYkGUI_hN1jA5Zc6U1CjPqXpCMwHvokGNH3w9o_zpXp4mWaymxBjY8WeyJ9jVTe3mNiLs_IGgR99_nMuJDG4ndZ76pSQfPSbO8B4MA6lvNoc40xauruae37vWoeKlybzIqqS5LpZu8TLVNgqZL6_Cb6aWwqKHpwyMG8IVDM5dMWIgjmpEAspd60T-Xg/live/f(i=2)/bbb08/playlist.m3u8",
+    "extra": []
+  },
+  {
+    "name": "Sala Sonho de Ser Milion\u00e1rio",
+    "group": "Reality Show's Live",
+    "tvg_id": "Sala Sonho de Ser Milion\u00e1rio",
+    "logo": "https://live.video.globo.com/thumbs/bbb05.jpg",
+    "url": "https://live-01.edge-vtal-gyn-go.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJCUiIsImRvbWFpbiI6ImxpdmUtMDEuZWRnZS12dGFsLWd5bi1nby52aWRlby5nbG9iby5jb20iLCJleHAiOjE3NjkxNzk5OTcsImlhdCI6MTc2OTE1ODM5NywiaXNzIjoicGxheWJhY2stYXBpLXByb2QtZ2NwIiwib3duZXIiOiI0YjkwY2Y3MS0yYmViLTQyZjItYTVlNC05YmZkM2M4OGFhNjMiLCJwYXRoIjoiL2xpdmUvZihpPTIpL2JiYjA1L3BsYXlsaXN0Lm0zdTgifQ.VDi6wFvtBFTOmDAfEFsJ9uW1qQNEdR-ixyU3qVwiAzKIRIrNn_vcQbTThxeemmp3tAdueQzdzMZxViyGATyKV3xYDVYiWWTHoR_x3qjvpr7mfDbOhLbG1d5D0OfUcsWU6GXs54E5eGnTLPBAL7Pwh1MQVgsnK-tcZm9m2Qtd5at2pVHHJ0CXtMIojqvalACNGuoI3t7NP31jspIHd2cLjn1IjQx3FPdc6kZJxiY91HRqACmMa1_Lm7fXuI7Tx5eD3dQlYvzOyZUy806KQOG8x16LyH87RCBddsSGuxAIH5FXSEouLfUojsV2cRtfjJn8HIPqfEmeGEFmnvG62u7mcg/live/f(i=2)/bbb05/playlist.m3u8",
+    "extra": []
+  },
+  {
+    "name": "Piscina",
+    "group": "Reality Show's Live",
+    "tvg_id": "Piscina",
+    "logo": "https://live.video.globo.com/thumbs/bbb06.jpg",
+    "url": "https://live-01.edge-vtal-gyn-go.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJCUiIsImRvbWFpbiI6ImxpdmUtMDEuZWRnZS12dGFsLWd5bi1nby52aWRlby5nbG9iby5jb20iLCJleHAiOjE3NjkxODAwMjMsImlhdCI6MTc2OTE1ODQyMywiaXNzIjoicGxheWJhY2stYXBpLXByb2QtZ2NwIiwib3duZXIiOiI0YjkwY2Y3MS0yYmViLTQyZjItYTVlNC05YmZkM2M4OGFhNjMiLCJwYXRoIjoiL2xpdmUvZihpPTIpL2JiYjA2L3BsYXlsaXN0Lm0zdTgifQ.emx576xfyig6B5RHLd_iMDqjibenpLwXDEelanskW8UNGSqq_VFp99LxIbDHdvc-4onzYwv_KSjpdF9XuozxEdz-TUxGkZbqFW2_q3cLs9_SMRx2WwPHsCPDzPL6jS6UFqH5kL-fD6uvp21AAWWgKhHFmJWAaQ2ptJVMTt3T8O6Hjn7WWpWGWKWIcwqMR2EnB43B5jk-vWRACoqkrayqUMg__7dRblkmYrVN22BRyXYkg0xthSX-VS7DBrmyyKaenVXKDMmEkyYw0efxCIEhTEhZGlidvHltUIv6Ek175ppbx3UXtp1E0raQG1C1RVrMFkMxse3ciY7dCPd0Z7mzdA/live/f(i=2)/bbb06/playlist.m3u8",
     "extra": []
   },
   {
