@@ -243,7 +243,7 @@
     "name": "ABC Chicago WLS-DT1",
     "group": "Undefined",
     "tvg_id": "WLSDT1.us@SD",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmU3EIPd2QDD29xjDIiBxSpiJWx5OYvNGa3_82DvowRw_kloXrfGuaQzcOBtI&s",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYChR3urmj30MCN3A6D1zKh6wYHum4BnkMWmwTnE4Jk3Io22lHTso0EJlw3Q&s",
     "url": "https://fl1.moveonjoy.com/IL_CHICAGO_ABC/index.m3u8",
     "extra": []
   },
@@ -267,7 +267,7 @@
     "name": "Antenna TV",
     "group": "Undefined",
     "tvg_id": "AntennaTV.us@SD",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLIfSIu8ovYjFCi0lduPnZB257hSC5DCt_4bRYL_QVopC4AxjyY5FQ-_-Tg-k&s",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJ_h8L8dZuiZLnpFZF6MlenDioRXQeOahFCH6AsjtJSfr5nBNc9BKK9ZG-2dY&s",
     "url": "https://fl1.moveonjoy.com/Antenna_TV/index.m3u8",
     "extra": []
   },
@@ -584,6 +584,14 @@
     "extra": []
   },
   {
+    "name": "Free form East",
+    "group": "Undefined",
+    "tvg_id": "Freeform.us@East",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsf7iR83tuBofgccIqbQ0AHRwcw2qWbB8kkzQi28-frTad9sZrEKAWqVP7hC8&s",
+    "url": "https://fl1.moveonjoy.com/FREE_FORM/index.m3u8",
+    "extra": []
+  },
+  {
     "name": "Fuse East (720p)",
     "group": "Undefined",
     "tvg_id": "Fuse.us@East",
@@ -701,6 +709,14 @@
     "tvg_id": "Lifetime.us@East",
     "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQinVK0qa0eC42VY0zdqKU3nUJXVbvoxtAfoaqMH-6j6gCvg_nrhGwqcQIgVQ&s",
     "url": "https://fl1.moveonjoy.com/LIFETIME/index.m3u8",
+    "extra": []
+  },
+  {
+    "name": "Lifetime Movies East",
+    "group": "Undefined",
+    "tvg_id": "LifetimeMovies.us@East",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcwrjoTMpq-OvlBBjTJJJv8-Lp4l_aJiqfoEbJ8e04kaarqJiaVtL07J7tkQ&s",
+    "url": "https://fl1.moveonjoy.com/LIFETIME_MOVIE_NETWORK/index.m3u8",
     "extra": []
   },
   {
