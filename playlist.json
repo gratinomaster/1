@@ -227,7 +227,7 @@
     "name": "ABC Chicago WLS-DT1",
     "group": "Undefined",
     "tvg_id": "WLSDT1.us@SD",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYChR3urmj30MCN3A6D1zKh6wYHum4BnkMWmwTnE4Jk3Io22lHTso0EJlw3Q&s",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmU3EIPd2QDD29xjDIiBxSpiJWx5OYvNGa3_82DvowRw_kloXrfGuaQzcOBtI&s",
     "url": "https://fl1.moveonjoy.com/IL_CHICAGO_ABC/index.m3u8",
     "extra": []
   },
@@ -597,6 +597,14 @@
     "tvg_id": "FXM.us@East",
     "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSi9KsnTstuOsOV45flo_bh28-hbnYlF3Do0hU-FC48X9RwKfeER7RH9eVwbPg&s",
     "url": "https://fl1.moveonjoy.com/FX_MOVIE/index.m3u8",
+    "extra": []
+  },
+  {
+    "name": "FXX East",
+    "group": "Undefined",
+    "tvg_id": "FXX.us@East",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYR3m1MiYfa6KrRWlM85Rt2AQzlW35iO-ehMZQ5HxYgM-jMC43MXacOeGfHA&s",
+    "url": "https://fl1.moveonjoy.com/FXX/index.m3u8",
     "extra": []
   },
   {
