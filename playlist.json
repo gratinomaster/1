@@ -16,6 +16,270 @@
     "extra": []
   },
   {
+    "name": "Canal TV Globo",
+    "group": "Globoplay",
+    "tvg_id": "Canal TV Globo",
+    "logo": "https://live.video.globo.com/thumbs/globo-go01.jpg",
+    "url": "https://live-01.edge-vtal-gyn-go.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJCUiIsImRvbWFpbiI6ImxpdmUtMDEuZWRnZS12dGFsLWd5bi1nby52aWRlby5nbG9iby5jb20iLCJleHAiOjE3NjkzNTM0OTgsImlhdCI6MTc2OTMzMTg5OCwiaXNzIjoicGxheWJhY2stYXBpLXByb2QtZ2NwIiwib3duZXIiOiI0YjkwY2Y3MS0yYmViLTQyZjItYTVlNC05YmZkM2M4OGFhNjMiLCJwYXRoIjoiL2xpdmUvZihpPTIpL2dsb2JvLWdvMDEvcGxheWxpc3QubTN1OCJ9.DIR3dQLFu69osy8QTRBCWfifCz3vLb3BMNrcY8gRIWENtbMMrA-xFA_NEBhE5c5ymOhGlfQvEaAUIVDYbGLMPQhPggTKbR0Afkkpl5SdPREBql6TKr9ZW8527YOiOkHaQRiZhMzb0-2VsKWdsbnyAsm7cwS-IR93I_Mg6-ZQGHCzFJ7p6VTtyJIXYPSsiiEdb0G82TFBRvT_FlF1LO_WXusn7TwOzUnDejr_K33ms5FeBXJakYeyDWlVkIPzEg1ANRJMgad9DXzwB61KLkb50NEgz9Xsp7cXKBEnGkUg8lG9yCJoDI8K411C6PZwPM5Becf_qr5iD9gbCtkYdUUdjA/live/f(i=2)/globo-go01/playlist.m3u8",
+    "extra": []
+  },
+  {
+    "name": "Canal sportv",
+    "group": "Globoplay",
+    "tvg_id": "Canal sportv",
+    "logo": "https://live.video.globo.com/thumbs/spo124ha.jpg",
+    "url": "https://live-01.edge-vtal-gyn-go.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJCUiIsImRvbWFpbiI6ImxpdmUtMDEuZWRnZS12dGFsLWd5bi1nby52aWRlby5nbG9iby5jb20iLCJleHAiOjE3NjkzNTM1ODQsImlhdCI6MTc2OTMzMTk4NCwiaXNzIjoicGxheWJhY2stYXBpLXByb2QtZ2NwIiwib3duZXIiOiI0YjkwY2Y3MS0yYmViLTQyZjItYTVlNC05YmZkM2M4OGFhNjMiLCJwYXRoIjoiL2xpdmUvZihpPTIpL3NwbzEyNGhhL3BsYXlsaXN0Lm0zdTgifQ.TeOgBeEKprM1QhHQWNZX6VfalDr9aERuxmLoVfurtOJeJ0UbGhC37K0g1_yiISPmr7sGaSCFp5UqBEgnia5LLyImKRNHxCoCU5YEOsmhVEUnqe4GpDXXZVt_6CjJIAD2sxtz1hqzt8NDXsItWLVWjPPeJJ99T8VhdYRTaACMx3pXkPRZXhgFm_KawPP5qBQUv9cK7NMaFAljik2B3PKjRaZHYnk7x3E4m8do99c-gw830xzQ0C-_Ni7wkEqKPrMhwaIIkcZRe1FPntsDzbRx9NqQAEdHctBI94tEeW4TDBshtIqHQYPd4EMleJT-jj8bQGT5EdSZZpBZMLWzcvsVDQ/live/f(i=2)/spo124ha/playlist.m3u8",
+    "extra": []
+  },
+  {
+    "name": "Canal sportv 2",
+    "group": "Globoplay",
+    "tvg_id": "Canal sportv 2",
+    "logo": "https://live.video.globo.com/thumbs/spo224ha.jpg",
+    "url": "https://live-01.edge-vtal-gyn-go.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJCUiIsImRvbWFpbiI6ImxpdmUtMDEuZWRnZS12dGFsLWd5bi1nby52aWRlby5nbG9iby5jb20iLCJleHAiOjE3NjkzNTM2MjQsImlhdCI6MTc2OTMzMjAyNCwiaXNzIjoicGxheWJhY2stYXBpLXByb2QtZ2NwIiwib3duZXIiOiI0YjkwY2Y3MS0yYmViLTQyZjItYTVlNC05YmZkM2M4OGFhNjMiLCJwYXRoIjoiL2xpdmUvZihpPTIpL3NwbzIyNGhhL3BsYXlsaXN0Lm0zdTgifQ.kgv7kptGAyJmlL07PQUf45T0M4qBBMgAJN0fKoEekmJ-dLdzYvojTGTvy6sqSR_Yij9ERN1h6SLCM1yAzMkpZixIR2GJCsQaPL8td1o_-0pdpmP44zRdYgiSsycVPu0JRjoUL4bEsk0szn2oYcZZPmqyL5fLELAee7k9e4KbktHVt67aOEKZ93fEZaXjp3nWNJUc4Z-xjrE0FoyJ766yEI6F0n6J8iBvjLZIOA1RL7qkrNjVx4GCT6fYxRdYnX2UxyDYB263KmN5VZc7uwETbdAXJnm6Yd2ZI_a3M_qc2OKA6Amz2olME3F6roD9dNlzZPMw0QxEIev4dgUMNNCjdg/live/f(i=2)/spo224ha/playlist.m3u8",
+    "extra": []
+  },
+  {
+    "name": "Canal sportv 3",
+    "group": "Globoplay",
+    "tvg_id": "Canal sportv 3",
+    "logo": "https://live.video.globo.com/thumbs/spo324ha.jpg",
+    "url": "https://live-01.edge-vtal-gyn-go.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJCUiIsImRvbWFpbiI6ImxpdmUtMDEuZWRnZS12dGFsLWd5bi1nby52aWRlby5nbG9iby5jb20iLCJleHAiOjE3NjkzNTM2NjUsImlhdCI6MTc2OTMzMjA2NSwiaXNzIjoicGxheWJhY2stYXBpLXByb2QtZ2NwIiwib3duZXIiOiI0YjkwY2Y3MS0yYmViLTQyZjItYTVlNC05YmZkM2M4OGFhNjMiLCJwYXRoIjoiL2xpdmUvZihpPTIpL3NwbzMyNGhhL3BsYXlsaXN0Lm0zdTgifQ.YkMzsVDjWRu1syq7Guzd91WLAl2zy-ysTuaqx5ia-H7D2yilu5gYuVrghJfS-3OqPK_sGPpXI1wjprOxg9RhAFp6EEPXatgkZFI2nJK2s4BPRUQ8O4WT9uD-LALREtZ8NcqYES0qB8NKKv3yIgfXrtkjHINiuBqNB3zYokFcxGNVW7aCgDw4NMuwxGNSKYNWdIojKQ61FmY7ICOxm503PfDIfvaGDuFJ0zm3Q7fFXJZnvcqm2Lp_YRSt4qzc6zPHgMgpgpEGeajB8DWM3_MKa6yTk0xHUnlMJV18pmo3TSntf73nJ7S2bus2CeQvBWkOUq9bnOw_RzWcile6bNHoLQ/live/f(i=2)/spo324ha/spo324ha-audio_1=96000-video=952960.m3u8",
+    "extra": []
+  },
+  {
+    "name": "Canal Mosaico sportv",
+    "group": "Globoplay",
+    "tvg_id": "Canal Mosaico sportv",
+    "logo": "https://live.video.globo.com/thumbs/mosaicoaudios.jpg",
+    "url": "https://live-01.edge-vtal-gyn-go.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJCUiIsImRvbWFpbiI6ImxpdmUtMDEuZWRnZS12dGFsLWd5bi1nby52aWRlby5nbG9iby5jb20iLCJleHAiOjE3NjkzNTM3MjcsImlhdCI6MTc2OTMzMjEyNywiaXNzIjoicGxheWJhY2stYXBpLXByb2QtZ2NwIiwib3duZXIiOiI0YjkwY2Y3MS0yYmViLTQyZjItYTVlNC05YmZkM2M4OGFhNjMiLCJwYXRoIjoiL2xpdmUvZihkdnI9MTIwLGk9MikvbW9zYWljb2F1ZGlvcy9wbGF5bGlzdC5tM3U4In0.qBWmrMTDHsd5_-9OxrGiI2tKBSKybjlzzkX1L44T-KyJT8EKn2vZobx9cuKPLPDn2z5qbkfF8ozFLm0LTN0_iEQnLH_9YbyEpWbWHl7cIzelFKVmvLUYrQ6OowWXoS4I7ivMPJFjCFOdiLsDKow6JRqwuTwLz9tOl338VxQBbhVXzgJknzPYW4Aqlk8QDmZh1hZK5jD5X1KcxejrvPWm83wiPEOUFVoTbGr9CzCW0QYQSAWc9W3WvCXzKT00w9X6JDtbP47VaMy-MddiWvMb_LI9ngklmtFhwlauOnvnXp9lsFNfTD4dNYOEZ7LbrNwqZ2XdP-GqH0WmFZXw9nI5hg/live/f(dvr=120,i=2)/mosaicoaudios/playlist.m3u8",
+    "extra": []
+  },
+  {
+    "name": "Canal ge tv",
+    "group": "Globoplay",
+    "tvg_id": "Canal ge tv",
+    "logo": "https://live.video.globo.com/thumbs/spofast24ha.jpg",
+    "url": "https://live-01.edge-vtal-gyn-go.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJCUiIsImRvbWFpbiI6ImxpdmUtMDEuZWRnZS12dGFsLWd5bi1nby52aWRlby5nbG9iby5jb20iLCJleHAiOjE3NjkzNTM3NzMsImlhdCI6MTc2OTMzMjE3MywiaXNzIjoicGxheWJhY2stYXBpLXByb2QtZ2NwIiwib3duZXIiOiI0YjkwY2Y3MS0yYmViLTQyZjItYTVlNC05YmZkM2M4OGFhNjMiLCJwYXRoIjoiL2xpdmUvZihpPTIpL3Nwb2Zhc3QyNGhhL3BsYXlsaXN0Lm0zdTgifQ.vMDd1lK67rpDnQSeoye7EARSFuqbAQZOJ2voKL3A-g_YBQfnF0NauxE7vKQ-X4tYL2gKu766JaPRy9tEw0OdPTQzOxOI4ME6LH5cJZBozuG2tQAnvg_YuqrhJ4vBLH92Jkdm6g9zR6iqJ0wNXQf26m_jcS9OY-LIALOWAleyQzhbnOe7vM6__pCSUkr_JrtJnIOv5P02mpc8wtzWhJkj_K5731bq2l7PtbYYHqFkqEafqSmkQuRIZCXTP53PaDF_4wQJn9hp7Rms_s2wkMZr-_eFuWhRWnseqKZwBo0dzL9tc2Sxwhy8sfJitmUehw0WAegHXXotVZp-AB97SO4vKg/live/f(i=2)/spofast24ha/playlist.m3u8",
+    "extra": []
+  },
+  {
+    "name": "Canal GloboNews",
+    "group": "Globoplay",
+    "tvg_id": "Canal GloboNews",
+    "logo": "https://live.video.globo.com/thumbs/gnews24ha.jpg",
+    "url": "https://live-01.edge-vtal-gyn-go.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJCUiIsImRvbWFpbiI6ImxpdmUtMDEuZWRnZS12dGFsLWd5bi1nby52aWRlby5nbG9iby5jb20iLCJleHAiOjE3NjkzNTM4NDAsImlhdCI6MTc2OTMzMjI0MCwiaXNzIjoicGxheWJhY2stYXBpLXByb2QtZ2NwIiwib3duZXIiOiI0YjkwY2Y3MS0yYmViLTQyZjItYTVlNC05YmZkM2M4OGFhNjMiLCJwYXRoIjoiL2xpdmUvZihpPTIpL2duZXdzMjRoYS9wbGF5bGlzdC5tM3U4In0.aaG5a2PDxBCHzjLWZblTJALcZBMVxIYxcCknSWjNJpJmSDlshwdB_mxhA34xa8xZCM07ESAztQZXrR_48rNPPCRzn-uBHjMLW4Z39nZgg9asQPCfcJZb9grd5h2rdP6gAe_30MRl8S_Byq0IL8W8wFcVz4xbCcBA-Z3-y35phvjSp0xMeHQqGGSZ5FuGK_3AmSW9-K5Pc-IchJny6n7eNiUkDsGPwckyL_di88_uy6S7IM7ziCOPQy2z8gjLC2Cwgm084tFBIloVBmMKwM5xI_3i_2Pusyd9fnzN-k5n3I1K25uSja4-7PppmMRKjRRjHiy7JgYXmzVqm1ALgDuJvw/live/f(i=2)/gnews24ha/playlist.m3u8",
+    "extra": []
+  },
+  {
+    "name": "Canal Multishow",
+    "group": "Globoplay",
+    "tvg_id": "Canal Multishow",
+    "logo": "https://live.video.globo.com/thumbs/msw24ha.jpg",
+    "url": "https://live-01.edge-vtal-gyn-go.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJCUiIsImRvbWFpbiI6ImxpdmUtMDEuZWRnZS12dGFsLWd5bi1nby52aWRlby5nbG9iby5jb20iLCJleHAiOjE3NjkzNTM5MDYsImlhdCI6MTc2OTMzMjMwNiwiaXNzIjoicGxheWJhY2stYXBpLXByb2QtZ2NwIiwib3duZXIiOiI0YjkwY2Y3MS0yYmViLTQyZjItYTVlNC05YmZkM2M4OGFhNjMiLCJwYXRoIjoiL2xpdmUvZihpPTIpL21zdzI0aGEvcGxheWxpc3QubTN1OCJ9.bomhkQZEcS2NbPxZLagpvJZ5QZ8r2RJ3vO3Sp3zRGSo-VMd45Lu7IsVXC0jm9h-rZ8Ip0jnq4Hl8MvcCWVtYVYzCPb1dwpXgXHBWcFZS0ZstmSGQcqfAeezC5c8mjB_LkAIYV3yuWylrt-FafmJtRYiYyt116XPr2QYF5vBiUPxwG8uJU5L_jlCQYJ7GBDtegGZSF6zvCsSKP1Xy4IoP4NA3STZBdLymmpkOk9PX6VSqR3w7omnSCssY1rWsv-GzBrTr2pQNG7pPxtIuXRxRC_6fGJxMWIph9RUEeUkmG-H3-TrSs42axFJo0C_zHzVuLLvJc-zMBbd8wVfjDsEY1w/live/f(i=2)/msw24ha/playlist.m3u8",
+    "extra": []
+  },
+  {
+    "name": "Canal GNT",
+    "group": "Globoplay",
+    "tvg_id": "Canal GNT",
+    "logo": "https://live.video.globo.com/thumbs/gnt24ha.jpg",
+    "url": "https://live-01.edge-vtal-gyn-go.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJCUiIsImRvbWFpbiI6ImxpdmUtMDEuZWRnZS12dGFsLWd5bi1nby52aWRlby5nbG9iby5jb20iLCJleHAiOjE3NjkzNTM5NDQsImlhdCI6MTc2OTMzMjM0NCwiaXNzIjoicGxheWJhY2stYXBpLXByb2QtZ2NwIiwib3duZXIiOiI0YjkwY2Y3MS0yYmViLTQyZjItYTVlNC05YmZkM2M4OGFhNjMiLCJwYXRoIjoiL2xpdmUvZihpPTIpL2dudDI0aGEvcGxheWxpc3QubTN1OCJ9.mXVHdcxWGH7UMI6YWSsfD3qLEVAM4FiVYNorxPpHtQIO9Dry5162mXUB4SwOghDqrbT6e0EMZwtHkUi3JG65jqCORSYOFy9qNOHMioEk96O0QEgNb-KzCmenF10CL3UOWico60m1bA-wvWV5KrX1BFBf3v-mFbpTWtrt-lUiKIjsDmw2r1u2WPjNE3zDr7AJ8I6ZapRLgRSGItVNuzVTLTVXjQA-badQrC0Fc_HjTFWfLPkys4sC7k7XqNV6czo0-vfuyGJADnMldsgg_dHH5EGvUx2Ug5UDFBDv9DChdIQNm1PVhC-EYhVIlP3OzYmjEtZfvcgowKUb1bmBoWvpIQ/live/f(i=2)/gnt24ha/gnt24ha-audio_1=96000-video=2262976.m3u8",
+    "extra": []
+  },
+  {
+    "name": "Canal Globoplay Novelas",
+    "group": "Globoplay",
+    "tvg_id": "Canal Globoplay Novelas",
+    "logo": "https://live.video.globo.com/thumbs/viva24ha.jpg",
+    "url": "https://live-01.edge-vtal-gyn-go.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJCUiIsImRvbWFpbiI6ImxpdmUtMDEuZWRnZS12dGFsLWd5bi1nby52aWRlby5nbG9iby5jb20iLCJleHAiOjE3NjkzNTQwMDcsImlhdCI6MTc2OTMzMjQwNywiaXNzIjoicGxheWJhY2stYXBpLXByb2QtZ2NwIiwib3duZXIiOiI0YjkwY2Y3MS0yYmViLTQyZjItYTVlNC05YmZkM2M4OGFhNjMiLCJwYXRoIjoiL2xpdmUvZihpPTIpL3ZpdmEyNGhhL3BsYXlsaXN0Lm0zdTgifQ.kQ-8wVMqUW4oMcg-afcVrINdK1moGoI_g3pcFMlW0cH0cFyDtTWhtswK80zSuae_V2vAtmDk9FAlnMElRVcthU_G81HfcHbJy0-oQAKacuLCiHFaWYgFfB2xWrBF4Oru4mdDz_9KCVTX1Pyyr1-0zkkjn_uQKgI2eVtjOTquRkSsZHNuaqMSbwNpJgt8PT-4Q2tJkka66wCjX6GB5FWZ8p7FX9LvrdLjLZm3rVv62qvHg_Z2HbenfkMxsltCvFEXLcppDBq5rKEfJraGGqGvWsN38Vq2rFlFsZ5VY1qUOIxxwyyYKBbqr0LF0IuCDR256HM4P0nd14mxQc-OoLTvIg/live/f(i=2)/viva24ha/playlist.m3u8",
+    "extra": []
+  },
+  {
+    "name": "Canal Gloobinho",
+    "group": "Globoplay",
+    "tvg_id": "Canal Gloobinho",
+    "logo": "https://s2-globo-play.glbimg.com/lnVcNQkNW1t6YFEZRvrwqm7ZSrQ=/0x1080/filters:quality(100)/https://s2-globo-play.glbimg.com/aFVYC1jBNj9ZxJkNLBlTL7WZ5WM=/https://i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2020/i/Y/ISVFsGTPiaLAA8XxAscw/gloobinho.jpg",
+    "url": "https://live-01.edge-vtal-gyn-go.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJCUiIsImRvbWFpbiI6ImxpdmUtMDEuZWRnZS12dGFsLWd5bi1nby52aWRlby5nbG9iby5jb20iLCJleHAiOjE3NjkzNTQyNjgsImlhdCI6MTc2OTMzMjY2OCwiaXNzIjoicGxheWJhY2stYXBpLXByb2QtZ2NwIiwib3duZXIiOiI0YjkwY2Y3MS0yYmViLTQyZjItYTVlNC05YmZkM2M4OGFhNjMiLCJwYXRoIjoiL2xpdmUvZihpPTIpL2dsb29iaW5obzI0aGEvcGxheWxpc3QubTN1OCJ9.AipU4Wt2w62wijgwb802HS6aLP3QTJAm9rkw_Sd-x3L543o2bpqhvSHW2XBoqv7TjHJ3RMTi3KswR6mippT87mJrwpEIyVWx46_P1TiifhQEXtNlOTo18ekz9CsjUvIIt014xSsByO48Xf0wk9LT8tpHcXMKXEmPb8glVF7s037Illo37eQiJPdVMFyiza4cgonzDip0UMy82zTrCtqYuTkhUOFq-YGDu07XWAPT8awJvs43z2EwNBWxtpFeBCE6ICpHQdldhaLjr1IBR3--KyddFv9wclHJAjW8i6ctJEH_Y9FXSuc1UsLmrQQcJuzdMDmP1SbbUEPztdTiH4PB_A/live/f(i=2)/gloobinho24ha/playlist.m3u8",
+    "extra": []
+  },
+  {
+    "name": "Canal Canal Brasil",
+    "group": "Globoplay",
+    "tvg_id": "Canal Canal Brasil",
+    "logo": "https://s2-globo-play.glbimg.com/RhvaPmYIzBGd27d0iHdmD3Ll0OY=/0x1080/filters:quality(100)/https://s2-globo-play.glbimg.com/WYOsdTK7v_6iLVwXRvplPIym46Q=/https://i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2020/H/i/5sL8SnRVuSYuwgIF5NpA/tapume-03-1-.jpg",
+    "url": "https://live-01.edge-vtal-gyn-go.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJCUiIsImRvbWFpbiI6ImxpdmUtMDEuZWRnZS12dGFsLWd5bi1nby52aWRlby5nbG9iby5jb20iLCJleHAiOjE3NjkzNTUyMzksImlhdCI6MTc2OTMzMzYzOSwiaXNzIjoicGxheWJhY2stYXBpLXByb2QtZ2NwIiwib3duZXIiOiI0YjkwY2Y3MS0yYmViLTQyZjItYTVlNC05YmZkM2M4OGFhNjMiLCJwYXRoIjoiL2xpdmUvZihpPTIpL2JyYTI0aGEvcGxheWxpc3QubTN1OCJ9.KjKYH3ge4xix8csXrGPYi7TzjbQ5mtI9FiKhH_Tudk1I9SU5rpwFORyEUmGWvM4xVoKN9CnEFiytpq6h0UhFBdPmLdcNWUzJHe81FrSrXm3w0YkafeEOViEsLNZylOG8PIo_03mdfNa_6V5lHLeXpuFXQ4P0NFIZCLN0dZZRZQS20dPJs3y1YgEnnnpP8VEFiscFLxFwrPF-Fq-HLizgp8xLnNxEeIQxCKQXJPQZXXHu37FUDN7A7YlX_46-2Jn56fvIimQJ_zQEKb2QXrvAYIyB5EFJJl7lukrZXe0l3MDOKdwJPH6Xcm8_0ImzMeM3eu0i5b78yo1QfJ5lOoJKYw/live/f(i=2)/bra24ha/playlist.m3u8",
+    "extra": []
+  },
+  {
+    "name": "Canal Canal Off",
+    "group": "Globoplay",
+    "tvg_id": "Canal Canal Off",
+    "logo": "https://s2-globo-play.glbimg.com/SXPvlIIp4uJX09JNnK1_HEBNErs=/0x1080/filters:quality(100)/https://s2-globo-play.glbimg.com/jCc0NWWoz-W7vcu1-dDyoMEDrgM=/https://i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2020/U/B/lm0FMFTsaClhqy6icT7w/canal-off.jpg",
+    "url": "https://live-01.edge-vtal-gyn-go.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJCUiIsImRvbWFpbiI6ImxpdmUtMDEuZWRnZS12dGFsLWd5bi1nby52aWRlby5nbG9iby5jb20iLCJleHAiOjE3NjkzNTUyODAsImlhdCI6MTc2OTMzMzY4MCwiaXNzIjoicGxheWJhY2stYXBpLXByb2QtZ2NwIiwib3duZXIiOiI0YjkwY2Y3MS0yYmViLTQyZjItYTVlNC05YmZkM2M4OGFhNjMiLCJwYXRoIjoiL2xpdmUvZihpPTIpL29mZjI0aGEvcGxheWxpc3QubTN1OCJ9.PF9N76ubykViaSveykqrF3mH7AMsQjpOexXDxKi3PWjGxj4PbqSXBAM8Zg5mRejabsWFP5q3oY07QUViVCGFa3JkCTlLjdt0QSmrL_4SOx-zMvRj-qjWXqAwu0HdAEcZM4L8oO-rMSJuzJrUrmJHKVVPxqPbAOM3Trcynhc4RBEoQSHla-UVoA9mi52uDx8i-aNexa07PwyHfKKuYpxiIpA5DD3QkRfWehEwTnF4AxPFPGQzhcjr-IPo3sQasgT9uy9ONxTn69KEB_J_ZuQz6xL7f8sl4F2x1cgdK664ghYjFpF5clfDkzsiEl_pX3XZm-sDrDsl-RDx_mfEFhImhQ/live/f(i=2)/off24ha/off24ha-audio_1=96000-video=558976.m3u8",
+    "extra": []
+  },
+  {
+    "name": "Canal Bis",
+    "group": "Globoplay",
+    "tvg_id": "Canal Bis",
+    "logo": "https://live.video.globo.com/thumbs/bis24ha.jpg",
+    "url": "https://live-01.edge-vtal-gyn-go.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJCUiIsImRvbWFpbiI6ImxpdmUtMDEuZWRnZS12dGFsLWd5bi1nby52aWRlby5nbG9iby5jb20iLCJleHAiOjE3NjkzNTUzMjgsImlhdCI6MTc2OTMzMzcyOCwiaXNzIjoicGxheWJhY2stYXBpLXByb2QtZ2NwIiwib3duZXIiOiI0YjkwY2Y3MS0yYmViLTQyZjItYTVlNC05YmZkM2M4OGFhNjMiLCJwYXRoIjoiL2xpdmUvZihpPTIpL2JpczI0aGEvcGxheWxpc3QubTN1OCJ9.x9RmpRJqAo7XayslCO9jW1P-lDU9RvGTvLFYKE8oFMVA6tjdtXCAHayHflBKcR4CZP4Eh6bjhOJQFJxFI9lgtB-6lB2nI4ZuC-eHSuby27PlNSsMMQkTIqiAxaOAPl1UJzexGrFsk_6isz9B-XNdjKk7skEPV-ErbBtbs4jpQq-3HE77rmR2z3GEZ0KUzvG3yxUtGmUw_mGWk-FLxnLvKLl_KUYdgRNpyNsvErY38cFeVbH94bp03LqL3NfwClCtkOktKluQ-i965T3Cle_iwxxSo5WJ6WggktYEAKUuj8wUyWHG0NplBX-btkVIv-RZh1S2HdXfwp1su6FZUOMPRQ/live/f(i=2)/bis24ha/bis24ha-audio_1=128000-video=1552960.m3u8",
+    "extra": []
+  },
+  {
+    "name": "Canal Modo Viagem",
+    "group": "Globoplay",
+    "tvg_id": "Canal Modo Viagem",
+    "logo": "https://s2-globo-play.glbimg.com/bkVlilqIC3rCcUcJAGp5RDnvU2U=/1166x0/https://s2-globo-play.glbimg.com/_PrgCCCZJppg7C-naOf9zgjTZMc=/https://s2.glbimg.com/deY9ymQfSrF7ukqQZ6yscXY8AjM=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2024/F/y/wY9ESiTxSyHExGegCX7w/2024-paisagens-aereas-t4-background.jpg",
+    "url": "https://live-01.edge-vtal-gyn-go.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJCUiIsImRvbWFpbiI6ImxpdmUtMDEuZWRnZS12dGFsLWd5bi1nby52aWRlby5nbG9iby5jb20iLCJleHAiOjE3NjkzNTUzODgsImlhdCI6MTc2OTMzMzc4OCwiaXNzIjoicGxheWJhY2stYXBpLXByb2QtZ2NwIiwib3duZXIiOiI0YjkwY2Y3MS0yYmViLTQyZjItYTVlNC05YmZkM2M4OGFhNjMiLCJwYXRoIjoiL2xpdmUvZihpPTIpL21haXNnc2F0MjRoYS9wbGF5bGlzdC5tM3U4In0.uoegIU2qG53nCkJwjhUpgIlFTANugVWlb5UOyovUeXC1WRmbOMXjfEDQesG8rvZ4DIjMruWI2lfmTTGxJYxQfnoZaTTmSfVwq1vEvLQ4qkzq-bmwqAqgT08cSNTZiO0SKrfRSBjA8dcLeSpN5kzxkTFFfxS1CaR2axxjUJpQAEEjNwcEXG7SUCTU2apHJaQohjnqGXa2pQuBcNCsQ8mfAJ8hZcoWyXyUwUo54Jn5gqpTn-hZM0DQQXESromUobkiMCLQX5HLuylyAufzz4sCmUKrwea7_tHp1Oa9esBaGEzRHacX0sgEI4mdVOwoP5_AUiTpO95Q38wfjgEW9HYM3A/live/f(i=2)/maisgsat24ha/maisgsat24ha-audio_1=96000-video=3442944.m3u8",
+    "extra": []
+  },
+  {
+    "name": "Canal Futura",
+    "group": "Globoplay",
+    "tvg_id": "Canal Futura",
+    "logo": "https://s2-globo-play.glbimg.com/HHmcLzi-YtoBo9-nNQcyxxJOwRY=/1166x0/https://s2-globo-play.glbimg.com/NolKEUiO54EKiRXnPnQ08R-iktQ=/https://s2.glbimg.com/WNmvgSGaVu_KQ_6YeER-NH_kA4U=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2025/u/p/H7CD3AQo6UP45stYATSg/2025-planeta-menos-um-lixo-background.jpg",
+    "url": "https://live-01.edge-vtal-gyn-go.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJCUiIsImRvbWFpbiI6ImxpdmUtMDEuZWRnZS12dGFsLWd5bi1nby52aWRlby5nbG9iby5jb20iLCJleHAiOjE3NjkzNTU0NzgsImlhdCI6MTc2OTMzMzg3OCwiaXNzIjoicGxheWJhY2stYXBpLXByb2QtZ2NwIiwib3duZXIiOiI0YjkwY2Y3MS0yYmViLTQyZjItYTVlNC05YmZkM2M4OGFhNjMiLCJwYXRoIjoiL2xpdmUvZihpPTIpL2Z1dHVyYTI0aGEvcGxheWxpc3QubTN1OCJ9.opupH9z9xuVL1BXq3grL3Ed3dq6EVR_07WlarM4oQ-FzXSC7J4w7UiZKM7ROYnV2NRynLgJ8FC_LpB43OwAW6_WoZwogkwARHt9pw43mShM17wMDM6YiFZWxi6vtab_U13oEEmDLmk9oYB49iHSWTK7gxPqiVZOc5ii8W-VHRjCQ7FkITlXoqOQsdes7maW-8tP0oxSDdMh23aC7UgCOANLFX_V7NCs_a9xw91iIQVerq0t2ff8CEj0QIkikTweXCg1w69bW_MzJluMrT9VtaK22t-W1hHtt-Ua-HAUlK75lZSvbJrmfk6nsqzUDG-9F8AhAMeh4pgUHNujIOu3Ikg/live/f(i=2)/futura24ha/playlist.m3u8",
+    "extra": []
+  },
+  {
+    "name": "Canal Malha\u00e7\u00e3o Fast",
+    "group": "Globoplay",
+    "tvg_id": "Canal Malha\u00e7\u00e3o Fast",
+    "logo": "https://s2-globo-play.glbimg.com/Ma0UO9f5QkmObw3QlWYi1gY6YUI=/0x1080/filters:quality(100)/https://s2-globo-play.glbimg.com/_eTtOW7NHN9R-k8mGebyPqsuWBY=/https://i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2023/B/J/sE2nqASlaQpgKYGeFCsg/2023-4043-malhacao-fast-alternativa-onair.jpg",
+    "url": "https://live-01.edge-vtal-gyn-go.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJCUiIsImRvbWFpbiI6ImxpdmUtMDEuZWRnZS12dGFsLWd5bi1nby52aWRlby5nbG9iby5jb20iLCJleHAiOjE3NjkzNTU1MTIsImlhdCI6MTc2OTMzMzkxMiwiaXNzIjoicGxheWJhY2stYXBpLXByb2QtZ2NwIiwib3duZXIiOiI0YjkwY2Y3MS0yYmViLTQyZjItYTVlNC05YmZkM2M4OGFhNjMiLCJwYXRoIjoiL2xpdmUvZihpPTIpL21hbGhhZmFzdDI0aGEvcGxheWxpc3QubTN1OCJ9.pOamow838RiZP5W7Avu_sYYKmleLCpSE-iDUr8HIcURQ4MBapltOrJD9v87OtjJNrzk3noBg_FcUsPSOP_u4d0W27hOr0ECnvqRCgy4gdDsLIHw3hhqVZTJS_Mao3EF38imSxE3paU2t6UciHXrp-433nmHS91GwXzdqgAlsrfsBrv94ik3pn4KqPMmtbLrJkvUml6rzDOblJo7Xzn9V8ywZ4NVdWKGCtnycSbCffmXGkIr56P2B1GPmQCd2BYoH7xaYAKTo4JSkMjaS9JY7mPuJqcfWRz_EiMxEKbVPI9hJqZ8NLIe1efCFRGTcskrf7LW0D13PfGYnNsV7jT3ICw/live/f(i=2)/malhafast24ha/playlist.m3u8",
+    "extra": []
+  },
+  {
+    "name": "Canal Receitas Fast",
+    "group": "Globoplay",
+    "tvg_id": "Canal Receitas Fast",
+    "logo": "https://live.video.globo.com/thumbs/gntfast24ha.jpg",
+    "url": "https://live-01.edge-vtal-gyn-go.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJCUiIsImRvbWFpbiI6ImxpdmUtMDEuZWRnZS12dGFsLWd5bi1nby52aWRlby5nbG9iby5jb20iLCJleHAiOjE3NjkzNTU4MDksImlhdCI6MTc2OTMzNDIwOSwiaXNzIjoicGxheWJhY2stYXBpLXByb2QtZ2NwIiwib3duZXIiOiI0YjkwY2Y3MS0yYmViLTQyZjItYTVlNC05YmZkM2M4OGFhNjMiLCJwYXRoIjoiL2xpdmUvZihpPTIpL2dudGZhc3QyNGhhL3BsYXlsaXN0Lm0zdTgifQ.g4VSUB-yx29VvKvXU7cxnWs3cm_GmEXZyM0RPHFG4ourP25AyuWJHRE84bHGO8hyl0zhIEaguBriUqZzw5v9xNDiy09tIEUeuD1A4F9SOHdsDN-U8FMcQqLpOTdIU-HiDMPRugEZJA0pR1IGmIONlch37jW_El_-3sg3s_SBuNgbRCIMapk2wTZYI1OJA-1XwqLmC_t5EsEVfFZAN1POBC0xto0OtJj_2bzswnoB_yKqK2UT5aiPUq1HNIG64QAAfXxJQQ609j6ClQ2-YFOnsuycpdfA6R831GoM_4O7eaKMqqDsRhSOQ13MGVTd91-LhO0K53LtLivpvtVkR5ykwg/live/f(i=2)/gntfast24ha/gntfast24ha-audio_0=96000-video=558976.m3u8",
+    "extra": []
+  },
+  {
+    "name": "Canal CBN SP",
+    "group": "Globoplay",
+    "tvg_id": "Canal CBN SP",
+    "logo": "https://s2-globo-play.glbimg.com/epi7XXcOPOtjl2QrgUulp1nmGfc=/0x1080/filters:quality(100)/https://s2-globo-play.glbimg.com/xY8sycmv_x3wbORdP1_KNC_689o=/https://i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2021/A/O/fylbdRRTCNoVYqYStujQ/cbn-1920x1080-02.png",
+    "url": "https://live-01.edge-vtal-gyn-go.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJCUiIsImRvbWFpbiI6ImxpdmUtMDEuZWRnZS12dGFsLWd5bi1nby52aWRlby5nbG9iby5jb20iLCJleHAiOjE3NjkzNTc2OTIsImlhdCI6MTc2OTMzNjA5MiwiaXNzIjoicGxheWJhY2stYXBpLXByb2QtZ2NwIiwib3duZXIiOiI0YjkwY2Y3MS0yYmViLTQyZjItYTVlNC05YmZkM2M4OGFhNjMiLCJwYXRoIjoiL2xpdmUvZihiTWluPTMxMzk4NCxkdnI9MTIwKS9jYm5zcDI0aGEvcGxheWxpc3QubTN1OCJ9.w2QfVklZRPqLy_HmRf9v_e3rl7pYjh9QiIGiPY2iV06BPvZG4zPa4yiyk8kvZMhpkXMcoVyU3314MMEeW3kz9c_gh2BlIuDp9Rh8WQFrf8_KHerWdzGydYPZULqoMRyVFM_9pXqyxk6K7i2v_VpNVa-6sfE016yIHjJLbMAqRlbc7Cd7aiJMSR_j2y9-6SmHPGm1ox4m4F-DhNSLmuehBwH0imd8RGhw9e6rL3dSlRLP--cxj0AAGOLNU4E1RPSEa6v5R8OLLA1D_L7do2yJonCjMUS5uz1kE4FIT6th6tBh38sWS2MuWlKLj2CbVxRWz3HbZLDC9RX0nhCtDKN8yw/live/f(bMin=313984,dvr=120)/cbnsp24ha/playlist.m3u8",
+    "extra": []
+  },
+  {
+    "name": "Canal CBN RJ",
+    "group": "Globoplay",
+    "tvg_id": "Canal CBN RJ",
+    "logo": "https://s2-globo-play.glbimg.com/epi7XXcOPOtjl2QrgUulp1nmGfc=/0x1080/filters:quality(100)/https://s2-globo-play.glbimg.com/xY8sycmv_x3wbORdP1_KNC_689o=/https://i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2021/A/O/fylbdRRTCNoVYqYStujQ/cbn-1920x1080-02.png",
+    "url": "https://live-01.edge-vtal-gyn-go.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJCUiIsImRvbWFpbiI6ImxpdmUtMDEuZWRnZS12dGFsLWd5bi1nby52aWRlby5nbG9iby5jb20iLCJleHAiOjE3NjkzNTc3MzUsImlhdCI6MTc2OTMzNjEzNSwiaXNzIjoicGxheWJhY2stYXBpLXByb2QtZ2NwIiwib3duZXIiOiI0YjkwY2Y3MS0yYmViLTQyZjItYTVlNC05YmZkM2M4OGFhNjMiLCJwYXRoIjoiL2xpdmUvZihiTWluPTMxMzk4NCxkdnI9MTIwKS9jYm5yajI0aGEvcGxheWxpc3QubTN1OCJ9.OlNN0S_Y0gBF6HcsG6ijCqnRv6AcoX4cbXkseyBFszS1hENwD-0HNtizig5ILOecnuFLNrsVF7BtAm1ZGhQVHfIVThb1z0ke8MIjkCj7YSTiuuyhOrKz_ulw8FkETivjO4sBikTpq561LzbNdhbsasaV_hPEZyANd3zRVFCMQfOLzUCfbt09KlXxiSLlPB2UtHAsUGoAPs18Xj1hFVAgIB9DROB_SJu3FIT4TGiVaYrSDGPNubZdHvzLa9iCY31FeBaqM5jeH-P5qckkcnO_Rbv49-LLYmOj-8rYXfNVk1SJsOZQROoIdb4fWqiEEa771b23W2BmqCPP5LiXnrZYHQ/live/f(bMin=313984,dvr=120)/cbnrj24ha/playlist.m3u8",
+    "extra": []
+  },
+  {
+    "name": "Acompanhe a casa",
+    "group": "Reality Show's Live",
+    "tvg_id": "Acompanhe a casa",
+    "logo": "https://live.video.globo.com/thumbs/bbb01.jpg",
+    "url": "https://live-01.edge-vtal-gyn-go.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJCUiIsImRvbWFpbiI6ImxpdmUtMDEuZWRnZS12dGFsLWd5bi1nby52aWRlby5nbG9iby5jb20iLCJleHAiOjE3NjkzNTc3OTgsImlhdCI6MTc2OTMzNjE5OCwiaXNzIjoicGxheWJhY2stYXBpLXByb2QtZ2NwIiwib3duZXIiOiI0YjkwY2Y3MS0yYmViLTQyZjItYTVlNC05YmZkM2M4OGFhNjMiLCJwYXRoIjoiL2xpdmUvZihpPTIpL2JiYjAxL3BsYXlsaXN0Lm0zdTgifQ.FcBa8mFL-qugFjVgwcApWzIpvxl4YwKT5TawIdYE-D_yKUbyqc25HjmSXFWf7BhpmXwQOeQg3cn4hFSqF4fEus-WaUNvaY2WVsh-bnB-tHpvZhc_xEwjyvEEOF2PnH0Q1zcXYlARydILCcFInn6n2hPREkPkucLuWA0bwQg-ZENuqPTXUovUdl-b57nOq98UooTTJFDpV4vyNUcQ1vkgGxpvIic6-WpCINMvWGO6twXFblpTFvy3S3LLG7CJ17QFgq0O3TbfWW5vemP7qJONnjHrwzkSmRB2CV-OLoL-6T5JcgfYgFYF-3bTnw3FgwWZ84fMWOZag0jd2HYvc0xWfw/live/f(i=2)/bbb01/playlist.m3u8",
+    "extra": []
+  },
+  {
+    "name": "Acompanhe a Casa 2",
+    "group": "Reality Show's Live",
+    "tvg_id": "Acompanhe a Casa 2",
+    "logo": "https://live.video.globo.com/thumbs/bbb11.jpg",
+    "url": "https://live-01.edge-vtal-gyn-go.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJCUiIsImRvbWFpbiI6ImxpdmUtMDEuZWRnZS12dGFsLWd5bi1nby52aWRlby5nbG9iby5jb20iLCJleHAiOjE3NjkzNTc4MzgsImlhdCI6MTc2OTMzNjIzOCwiaXNzIjoicGxheWJhY2stYXBpLXByb2QtZ2NwIiwib3duZXIiOiI0YjkwY2Y3MS0yYmViLTQyZjItYTVlNC05YmZkM2M4OGFhNjMiLCJwYXRoIjoiL2xpdmUvZihpPTIpL2JiYjExL3BsYXlsaXN0Lm0zdTgifQ.mlQydWYH3XNerug_eKFHypAru_LJwHXhOSg0lL2ywXSAQ2-3J84P8WNZtR3_pSI3XtaS5pLSHpc3-61qy_6df7rCrUW1aWtczGAHUiKKbpuAXQc3PR9Q2h8814xvdXH16lWvcboGRXacG_EZGyNcKfJClmeilDcXVn2VjVSxEKa6BCd4rZsGQujfbiub7H-drZLDRuOP4mjQUg508w0v0H9jTQs-HSTWp9zZNRD76qkrukOhmTGSF0s769cGioo37j_8oSRxyKxEzLQZWv9sZPjz1CRkTdvtX7lpJhXz0wriGVbLwrNkWolzOz_HMXQPYLmZikBx44K67xDQ0Pg_aQ/live/f(i=2)/bbb11/bbb11-audio_1=96000-video=1476992.m3u8",
+    "extra": []
+  },
+  {
+    "name": "Mosaico",
+    "group": "Reality Show's Live",
+    "tvg_id": "Mosaico",
+    "logo": "https://live.video.globo.com/thumbs/bbb12.jpg",
+    "url": "https://live-01.edge-vtal-gyn-go.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJCUiIsImRvbWFpbiI6ImxpdmUtMDEuZWRnZS12dGFsLWd5bi1nby52aWRlby5nbG9iby5jb20iLCJleHAiOjE3NjkzNTc5MDIsImlhdCI6MTc2OTMzNjMwMiwiaXNzIjoicGxheWJhY2stYXBpLXByb2QtZ2NwIiwib3duZXIiOiI0YjkwY2Y3MS0yYmViLTQyZjItYTVlNC05YmZkM2M4OGFhNjMiLCJwYXRoIjoiL2xpdmUvZihpPTIpL2JiYjEyL3BsYXlsaXN0Lm0zdTgifQ.TxS0r8UIBr0re9I1mHshdxUQAJQHzf7rQvHHmk-oywA5bqWJPACBgU33bbzISM_d6gGnWjLwmZa5Zen-kHsImkq-3xB1x5LkLDdG64sLhe64_Akg4rc6eyfk78WNEhq1qG6zqHDHuj3G79PAJ50ixi66oZ6X4s17nY0rw_t7VSkUZP4WkE0aWdlngCtvFi71nW2VtcHnWqXbxT1jqt-Uf5vC84fSilL44fO-TibWjIyJWbXYKGRw8N7x82VlomDp8_4M1QDUejyNAqxnQ-9jMlXptTXvB6Lp0p2HQGm_fzQXGLWy0Sy4TE99ObboBU1JxpMlYg1ZotO0P1iua4Zwug/live/f(i=2)/bbb12/bbb12-video=558976.m3u8",
+    "extra": []
+  },
+  {
+    "name": "Segue o L\u00edder",
+    "group": "Reality Show's Live",
+    "tvg_id": "Segue o L\u00edder",
+    "logo": "https://live.video.globo.com/thumbs/bbb10.jpg",
+    "url": "https://live-01.edge-vtal-gyn-go.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJCUiIsImRvbWFpbiI6ImxpdmUtMDEuZWRnZS12dGFsLWd5bi1nby52aWRlby5nbG9iby5jb20iLCJleHAiOjE3NjkzNTc5NDUsImlhdCI6MTc2OTMzNjM0NSwiaXNzIjoicGxheWJhY2stYXBpLXByb2QtZ2NwIiwib3duZXIiOiI0YjkwY2Y3MS0yYmViLTQyZjItYTVlNC05YmZkM2M4OGFhNjMiLCJwYXRoIjoiL2xpdmUvZihpPTIpL2JiYjEwL3BsYXlsaXN0Lm0zdTgifQ.Zi_7a4vfdAiObELsCNJ3uXf_TzHsyffbjLxLUQJKqRJAUg6CR9GpkRJ-2jlfqVcaXmMjBZv5kdwd1iodgJZRa7tOhW98waWtMJrOjIVB7tnBjna11qTRb5BsDe942Z37yIsiQL4axl0Egccweh-rdfI0pQ_1ye7sNXTU2WXr9XYJ7xuNDlreIp33gdxtnyG5Z16zp8GMGGoyHyQtpHjv2w9qpf---zDA90hg3KI-ym8vLmVDxw_nVH8llsIhWJFAUvMuyBZfwikTVGvLQo1B-rduoR-dfjRmT5O7UsKYo6i_c1WtZESGEYogoF1KGlRs0MoMuo-lTF3KI7Fqzbfd9Q/live/f(i=2)/bbb10/bbb10-audio_1=96000-video=1476992.m3u8",
+    "extra": []
+  },
+  {
+    "name": "Quarto Sonho de Eternidade",
+    "group": "Reality Show's Live",
+    "tvg_id": "Quarto Sonho de Eternidade",
+    "logo": "https://live.video.globo.com/thumbs/bbb02.jpg",
+    "url": "https://live-01.edge-vtal-gyn-go.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJCUiIsImRvbWFpbiI6ImxpdmUtMDEuZWRnZS12dGFsLWd5bi1nby52aWRlby5nbG9iby5jb20iLCJleHAiOjE3NjkzNTgwMDksImlhdCI6MTc2OTMzNjQwOSwiaXNzIjoicGxheWJhY2stYXBpLXByb2QtZ2NwIiwib3duZXIiOiI0YjkwY2Y3MS0yYmViLTQyZjItYTVlNC05YmZkM2M4OGFhNjMiLCJwYXRoIjoiL2xpdmUvZihpPTIpL2JiYjAyL3BsYXlsaXN0Lm0zdTgifQ.uR_DoD35KocEvW9v0TpG-7yUfDEaucQoUvHUsYoeZTkIw421vddN5kxN1bk7dJYjKP0acr09uylL6ermWLG9OINTf-nutKq-vngBLzlCnB3ZMMxhIQhBYoMIpowBro08zBIjTm1Rt15QyCzjKHdfGI23m4EUvpFvJhpd-eM7mI7e_1NP86ahI0iNB6wvamIFnBqL9GdA0a5uJzaJM3IoD3SG41Et6Y5JCm47uUW2V1qg_frBRjHejS1kuQ3KDcGkJT4ZPQVELQeZ_7hrdpN-gZyJEzck09EghLdxAhWh7xrfTm2lcF4glwinSYiXhyzCl-mAR5FIQLD9MHKxHEaeIA/live/f(i=2)/bbb02/bbb02-audio_1=96000-video=1476992.m3u8",
+    "extra": []
+  },
+  {
+    "name": "Quarto Sonho de Voar",
+    "group": "Reality Show's Live",
+    "tvg_id": "Quarto Sonho de Voar",
+    "logo": "https://live.video.globo.com/thumbs/bbb03.jpg",
+    "url": "https://live-01.edge-vtal-gyn-go.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJCUiIsImRvbWFpbiI6ImxpdmUtMDEuZWRnZS12dGFsLWd5bi1nby52aWRlby5nbG9iby5jb20iLCJleHAiOjE3NjkzNTgwNTgsImlhdCI6MTc2OTMzNjQ1OCwiaXNzIjoicGxheWJhY2stYXBpLXByb2QtZ2NwIiwib3duZXIiOiI0YjkwY2Y3MS0yYmViLTQyZjItYTVlNC05YmZkM2M4OGFhNjMiLCJwYXRoIjoiL2xpdmUvZihpPTIpL2JiYjAzL3BsYXlsaXN0Lm0zdTgifQ.gv4nKsaJttbvWETAlOU2wBkQ_sMzNeNQDUxg5KY0CQY9sgznYuFvpo5d5CgPxzSyKVDxjwlHqWe06q4EJCZIGAAInfx9veEmYBBycGqHSx0uM7TrSnjxB3P7nXvSewiuvK6ZryXEdqYM8j4b1Dzy91B34nJC6iietM_m8qs8xdKYKlqdOuYRAKQpPGhyOkc6ACS8STpzhU_OypIrX54BpsaiaIg5IQha0S9yqs_QrVpmfjpyTrepzX-A_3rJ33J1F1oiL-7ucbB3jRxLl5UqPsb4JYdVa1O0qp_-Vof6_DYk-h3PnUK7BVz9D5H-9crrkupR9y0T7rHnplnJaFu0nw/live/f(i=2)/bbb03/playlist.m3u8",
+    "extra": []
+  },
+  {
+    "name": "Quarto Sonho do Grande Amor",
+    "group": "Reality Show's Live",
+    "tvg_id": "Quarto Sonho do Grande Amor",
+    "logo": "https://live.video.globo.com/thumbs/bbb04.jpg",
+    "url": "https://live-01.edge-vtal-gyn-go.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJCUiIsImRvbWFpbiI6ImxpdmUtMDEuZWRnZS12dGFsLWd5bi1nby52aWRlby5nbG9iby5jb20iLCJleHAiOjE3NjkzNTgwOTYsImlhdCI6MTc2OTMzNjQ5NiwiaXNzIjoicGxheWJhY2stYXBpLXByb2QtZ2NwIiwib3duZXIiOiI0YjkwY2Y3MS0yYmViLTQyZjItYTVlNC05YmZkM2M4OGFhNjMiLCJwYXRoIjoiL2xpdmUvZihpPTIpL2JiYjA0L3BsYXlsaXN0Lm0zdTgifQ.AmNgo3HyZ2l4K1u0MBE_9woMeSPfUckIHfQ7m-IE-1_F3bimuWcype-Zf-uh_7HOlS0M5Jc8HbBk2QgQ7kbOwFNO3Jke_hYVaxooD37PYLm3WQPO4MK1lplfVJqu5rf9rg6ejC-AMx99-NuIybNwIYJ0zFWZTyer6zIbqq7ulV-0ErkIHUESnqGgyWRxz1S4nbPm0HN3xC9Gr6Xo2PGg_cpcygvKKv9ETJo7_J-zc8t-S39XS4GgJ0v2VzBxro52Ab-RLJb-pFsykDj0Fn-4PcEidQeR10Tkc15Ri5Zes0EoRJODj4jZ9NFAMZkOxVGCSeTyjbE4Wv0WL0UJmnkmbA/live/f(i=2)/bbb04/playlist.m3u8",
+    "extra": []
+  },
+  {
+    "name": "Cozinha",
+    "group": "Reality Show's Live",
+    "tvg_id": "Cozinha",
+    "logo": "https://live.video.globo.com/thumbs/bbb07.jpg",
+    "url": "https://live-01.edge-vtal-gyn-go.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJCUiIsImRvbWFpbiI6ImxpdmUtMDEuZWRnZS12dGFsLWd5bi1nby52aWRlby5nbG9iby5jb20iLCJleHAiOjE3NjkzNTgxMzMsImlhdCI6MTc2OTMzNjUzMywiaXNzIjoicGxheWJhY2stYXBpLXByb2QtZ2NwIiwib3duZXIiOiI0YjkwY2Y3MS0yYmViLTQyZjItYTVlNC05YmZkM2M4OGFhNjMiLCJwYXRoIjoiL2xpdmUvZihpPTIpL2JiYjA3L3BsYXlsaXN0Lm0zdTgifQ.O7k64YgrHAXKASrcL09gwu5mzxR08cQ_uuZMoHFTSswAuqdrX5s-wcjzZ6Q0OFCdVW-qrY2KbWnSrPYPCzB9iwSXsvtfNiCSOdhZLiGg9ufompfjE0xqnD6YqYPyFy20i8KV7EqafzqHX61fljOVy2Wt7rRkJ6CBqbET5w9iiUFnqYAV1yWbm9wJHAq8b1cszAaPWFYvIYy0jxaxSL7HP0bDMIbu3N88FYA2sXjdueAgUxsvbIlf0zA_FFu0Au-34FepPR4jRs4iRzfpGZWH9EqD0SPflUHDCZazhg2eSCy0_aibFGfX1MwfnVk3fklchtba4ytL2Z9AYafTNWFfNA/live/f(i=2)/bbb07/playlist.m3u8",
+    "extra": []
+  },
+  {
+    "name": "Banheiro SUPER CIMED",
+    "group": "Reality Show's Live",
+    "tvg_id": "Banheiro SUPER CIMED",
+    "logo": "https://live.video.globo.com/thumbs/bbb08.jpg",
+    "url": "https://live-01.edge-vtal-gyn-go.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJCUiIsImRvbWFpbiI6ImxpdmUtMDEuZWRnZS12dGFsLWd5bi1nby52aWRlby5nbG9iby5jb20iLCJleHAiOjE3NjkzNTgxNjUsImlhdCI6MTc2OTMzNjU2NSwiaXNzIjoicGxheWJhY2stYXBpLXByb2QtZ2NwIiwib3duZXIiOiI0YjkwY2Y3MS0yYmViLTQyZjItYTVlNC05YmZkM2M4OGFhNjMiLCJwYXRoIjoiL2xpdmUvZihpPTIpL2JiYjA4L3BsYXlsaXN0Lm0zdTgifQ.VN2-HhnexRvzmJqMWyFCMt9gbCYsbPw5XT5AvJGNxCQ_aAR8gl2S-uqFg93qRo1OcxFk6U-usNMeFMSpnWzJo2_21YNUFP7o-tKIayAGbh1LIQe0eQ4vEvPI9yuN8DW1bPq1oMKfQ1gJVNhdZ3vfDp4N4rGP6iOfDhzeEXs9ssjdYQmAufXcAJsx2hh1tGP7qF3OA1s70H7MK3n-rsf8XwU30eCEU7suoGOWUbRhfNlHUjQmB6Q-N5-1KGA7VoG9yed2QGPiOWLzrQnBqW-MK8ka5eFji2f0xW38aAR90h951U2E8uaYKXBImuUPfiwMD-OnHpE0tjQbAbdAaHtgXw/live/f(i=2)/bbb08/playlist.m3u8",
+    "extra": []
+  },
+  {
+    "name": "Sala Sonho de Ser Milion\u00e1rio",
+    "group": "Globoplay",
+    "tvg_id": "Sala Sonho de Ser Milion\u00e1rio",
+    "logo": "https://live.video.globo.com/thumbs/bbb05.jpg",
+    "url": "https://infinity-c36.youboranqs01.com/start",
+    "extra": []
+  },
+  {
+    "name": "Piscina",
+    "group": "Reality Show's Live",
+    "tvg_id": "Piscina",
+    "logo": "https://live.video.globo.com/thumbs/bbb06.jpg",
+    "url": "https://live-01.edge-vtal-gyn-go.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJCUiIsImRvbWFpbiI6ImxpdmUtMDEuZWRnZS12dGFsLWd5bi1nby52aWRlby5nbG9iby5jb20iLCJleHAiOjE3NjkzNTgyNTAsImlhdCI6MTc2OTMzNjY1MCwiaXNzIjoicGxheWJhY2stYXBpLXByb2QtZ2NwIiwib3duZXIiOiI0YjkwY2Y3MS0yYmViLTQyZjItYTVlNC05YmZkM2M4OGFhNjMiLCJwYXRoIjoiL2xpdmUvZihpPTIpL2JiYjA2L3BsYXlsaXN0Lm0zdTgifQ.xSz_5l-_zF4K0x8zPETsFm7m2BeFuVJhsipnVh89Mifo4QvZjQlbER18-yTWm1MFxjdcI_8ysdP3lfHeQGeQsJzZmPcm0W9jZBkYN3wIm4ZvRfnh_v5oJmKnCl9FZ3ZnOYY7Fqlom8cspa9DKnIJrD8o6WiN7POk9VoGrKju9oLsEoUC_dOkK7uuQr9h6YMoJoaswVUGjy55K0DKcECE05DWgqkZle7pBKclrW3MFKOL9aUKFhLLxsb-xGZlIWLEbdtiVyaPftiTo01bkTPGingschahpXWw6ZWXxQEwNd8JAXfXBV9UBQlYacciQm8Y5_nHAh4Eso6a799GceXFBw/live/f(i=2)/bbb06/bbb06-audio_1=96000-video=1476992.m3u8",
+    "extra": []
+  },
+  {
+    "name": "Academia NIVEA",
+    "group": "Reality Show's Live",
+    "tvg_id": "Academia NIVEA",
+    "logo": "https://live.video.globo.com/thumbs/bbb09.jpg",
+    "url": "https://live-01.edge-vtal-gyn-go.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJCUiIsImRvbWFpbiI6ImxpdmUtMDEuZWRnZS12dGFsLWd5bi1nby52aWRlby5nbG9iby5jb20iLCJleHAiOjE3NjkzNTgyOTMsImlhdCI6MTc2OTMzNjY5MywiaXNzIjoicGxheWJhY2stYXBpLXByb2QtZ2NwIiwib3duZXIiOiI0YjkwY2Y3MS0yYmViLTQyZjItYTVlNC05YmZkM2M4OGFhNjMiLCJwYXRoIjoiL2xpdmUvZihpPTIpL2JiYjA5L3BsYXlsaXN0Lm0zdTgifQ.EIZ0qULRywTLbPwDUOVS_-JLm-4IJMyWtM12XJ5z61ACJb9tYVaDW2o5TXNvXR5Dkl6eoKCTDxD6Ob7xuO3KaNmKNzbuKUi14MzYzzJ910-IB4Kqx4mgfsuHqppScHE_pAAZ-sHYyZwiFitzb5VChhINc8wsQ1FU5fFzzJin6exd-e20AQCbJVbKHU0yg11vvoojZUFx6IrxDjKoOAzwiO2wZBNTGIQoreg6Qhh8mut0ipNiczifHxTawYFr9VTveL9YHtEyxtnbP2QU7S95fDXwd4UkyFD_8vnGcK6oKyPaO6UTo5GeJ1i9UjZtNwzsjqB166OkiKmaXBRPjZ-2Tg/live/f(i=2)/bbb09/playlist.m3u8",
+    "extra": []
+  },
+  {
+    "name": "Globo Internacional",
+    "group": "GLOBO AO VIVO",
+    "tvg_id": "Globo Internacional",
+    "logo": "https://s3.glbimg.com/v1/AUTH_c7def7ff66fe4b13beac0810ffbf780f/secure/now-at-globo-share-d5539fc.jpg",
+    "url": "https://live-01.edge-vtal-gyn-go.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJCUiIsImRvbWFpbiI6ImxpdmUtMDEuZWRnZS12dGFsLWd5bi1nby52aWRlby5nbG9iby5jb20iLCJleHAiOjE3NjkzNTgzMjcsImlhdCI6MTc2OTMzNjcyNywiaXNzIjoicGxheWJhY2stYXBpLXByb2QtZ2NwIiwib3duZXIiOiI0YjkwY2Y3MS0yYmViLTQyZjItYTVlNC05YmZkM2M4OGFhNjMiLCJwYXRoIjoiL2xpdmUvZihpPTIpL2dsb2JvLWdvMDEvcGxheWxpc3QubTN1OCJ9.RHAbORok5nt90qfmktwzkjXu7-YRs-sfQkFkmrCslXVLBbfrqDCIb7T_7I6KUjQhIaD3gS41fM8e_z67XycmNhQSvqXwrnwLPONBqNpppzCRg0-dc3Fq9UzKbPnVJToD29tswApaf-Ts-9Ma_PMEdjLE9cEJ7kfPR_HHCbVYHP9LJF4jpuyEpZbCH05AkwSfa_7VaU2r2hKDkDRV17gIPrlf4afvtL6-_FEiUytuGxf4uLw-4jJPe5QQuhchoRy8p1v3WmaUi75XsZQlejJTB5Ui7W9OTb-RAllYYIx4gvYjtkLGfoUBr4BEBR8AyOnZE87W0UN6o0Rq3WcdioQNWA/live/f(i=2)/globo-go01/globo-go01-audio_1=96000-video=3442944.m3u8",
+    "extra": []
+  },
+  {
     "name": "Televisa Tijuana Oficial",
     "group": "NEWS WORLD",
     "tvg_id": "Undefined",
@@ -443,7 +707,7 @@
     "name": "Crave 2",
     "group": "Undefined",
     "tvg_id": "Crave2.ca@SD",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThougeq73q2lw6pBaznZfw-TQkry3XLVTN_f9CsnL7v2wtjg5dD4lJKel-si4&s",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoDb9N9Ih3SlBJm-RcUvrqPvoBV2xNwoPq7Wx1MC4Krmxk4wHwn2N9wCtJm8M&s",
     "url": "https://fl1.moveonjoy.com/CRAVE_2/index.m3u8",
     "extra": []
   },
@@ -504,11 +768,35 @@
     "extra": []
   },
   {
+    "name": "ESPN U (720p)",
+    "group": "Undefined",
+    "tvg_id": "ESPNU.us@SD",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbC70OO5qf5ap9LmaF4cPf2xpOFjsEap7fkR0vL_co-KExdJGFAHo1IR_Zn8g&s",
+    "url": "https://fl1.moveonjoy.com/ESPN_U/index.m3u8",
+    "extra": []
+  },
+  {
+    "name": "ESPNews (720p)",
+    "group": "Undefined",
+    "tvg_id": "ESPNews.us@SD",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSB8UpBWCyNaizu1rBEDk5_-cOtgfylQo1MK9bWGypH8UrD23p9s4QHFHtZIKs&s",
+    "url": "https://fl1.moveonjoy.com/ESPN_NEWS/index.m3u8",
+    "extra": []
+  },
+  {
     "name": "FanDuel Sports Network",
     "group": "Undefined",
     "tvg_id": "FanDuelSportsNetwork.us@HD",
     "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVi4-dF63ND1A_60jaEC-dBts0-M7UtqkTnnwMAslhYMAdxd0PSgEHy0KJkw&s",
     "url": "https://fl1.moveonjoy.com/PAC_12/index.m3u8",
+    "extra": []
+  },
+  {
+    "name": "FanDuel TV",
+    "group": "Undefined",
+    "tvg_id": "FanDuelTV.us@SD",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTvyYGfYRIVt7AeH7VAfK2Zye2DVmkBIIh5yaDcVW3s8KE-pz3Uh8auMz3uHI&s",
+    "url": "https://fl1.moveonjoy.com/TVG/index.m3u8",
     "extra": []
   },
   {
@@ -555,7 +843,7 @@
     "name": "Fuse East (720p)",
     "group": "Undefined",
     "tvg_id": "Fuse.us@East",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVgsOqDdK799H2aBxBE_0DrDYxpaj0hYJBjdWL4UuWQayWuNARAsmQZfipNn4&s",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1K_S0O2BM7TaTbP8hxX0T7fveKagt2apV0Q9XlfvsLdvqTX0zSoN6YZ8w9A&s",
     "url": "https://fl1.moveonjoy.com/FUSE/index.m3u8",
     "extra": []
   },
@@ -603,7 +891,7 @@
     "name": "Golf Channel",
     "group": "Undefined",
     "tvg_id": "GolfChannel.us@SD",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPd8idRnfYBsKDoUqrybhZsjeQaeWI75JU7RO1-x-9GujUR9hOdPp974FdzA&s",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaw38hb9J3mSKe1zh_CCId_JYXeqnn0MQtYm-XfvyeqSJeHxj-9kHGj807bg&s",
     "url": "https://fl1.moveonjoy.com/GOLF/index.m3u8",
     "extra": []
   },
@@ -640,11 +928,27 @@
     "extra": []
   },
   {
+    "name": "HSN",
+    "group": "Undefined",
+    "tvg_id": "HSN.us@East",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGXVfz6W0QNrgZRw-bdJZGnDSFmUwzOnWpTceRnAc3XQVjhwA1jPnZlQe0UA&s",
+    "url": "https://fl1.moveonjoy.com/HSN/index.m3u8",
+    "extra": []
+  },
+  {
     "name": "INSP",
     "group": "Undefined",
     "tvg_id": "INSP.us@SD",
     "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-Q-XuVs3ii14-RP_Q-L2Z3D-saYeupsejDT2n0fY040o34_essylr_BMp_Cs&s",
     "url": "https://fl1.moveonjoy.com/INSP/index.m3u8",
+    "extra": []
+  },
+  {
+    "name": "ION Plus East (720p)",
+    "group": "Undefined",
+    "tvg_id": "IONPlus.us@East",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8BXKDAFU823ScJXlaTYI0WRuNkX8u6CTtx1ymFK8hswnFM6sepaWLoIYu-g&s",
+    "url": "https://fl1.moveonjoy.com/ION_Plus/index.m3u8",
     "extra": []
   },
   {
