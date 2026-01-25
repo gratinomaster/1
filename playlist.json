@@ -848,6 +848,14 @@
     "extra": []
   },
   {
+    "name": "FXX East",
+    "group": "Undefined",
+    "tvg_id": "FXX.us@East",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYR3m1MiYfa6KrRWlM85Rt2AQzlW35iO-ehMZQ5HxYgM-jMC43MXacOeGfHA&s",
+    "url": "https://fl1.moveonjoy.com/FXX/index.m3u8",
+    "extra": []
+  },
+  {
     "name": "FYI East",
     "group": "Undefined",
     "tvg_id": "FYI.us@East",
@@ -941,14 +949,6 @@
     "tvg_id": "Lifetime.us@East",
     "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQinVK0qa0eC42VY0zdqKU3nUJXVbvoxtAfoaqMH-6j6gCvg_nrhGwqcQIgVQ&s",
     "url": "https://fl1.moveonjoy.com/LIFETIME/index.m3u8",
-    "extra": []
-  },
-  {
-    "name": "Lifetime Movies East",
-    "group": "Undefined",
-    "tvg_id": "LifetimeMovies.us@East",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcwrjoTMpq-OvlBBjTJJJv8-Lp4l_aJiqfoEbJ8e04kaarqJiaVtL07J7tkQ&s",
-    "url": "https://fl1.moveonjoy.com/LIFETIME_MOVIE_NETWORK/index.m3u8",
     "extra": []
   },
   {
