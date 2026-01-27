@@ -539,7 +539,7 @@
     "name": "Fox Business Network (720p)",
     "group": "Undefined",
     "tvg_id": "FoxBusinessNetwork.us@SD",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSgottJU2xUAtoAaMDB8n1XWXSPNXltfAMrJ3QMEiSo5f77mOx1jeoUHx73bk&s",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNlGPzyIJ27bZFwPPcG5Y7XXg7rUaMj_tokkyaBg76qW6Twz9X47BpA1577Q&s",
     "url": "https://fl1.moveonjoy.com/FOX_Business_Network/index.m3u8",
     "extra": []
   },
@@ -600,6 +600,14 @@
     "extra": []
   },
   {
+    "name": "FXX East",
+    "group": "Undefined",
+    "tvg_id": "FXX.us@East",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYR3m1MiYfa6KrRWlM85Rt2AQzlW35iO-ehMZQ5HxYgM-jMC43MXacOeGfHA&s",
+    "url": "https://fl1.moveonjoy.com/FXX/index.m3u8",
+    "extra": []
+  },
+  {
     "name": "FYI East",
     "group": "Undefined",
     "tvg_id": "FYI.us@East",
@@ -643,7 +651,7 @@
     "name": "Hallmark Movies Mysteries East",
     "group": "Undefined",
     "tvg_id": "HallmarkMoviesMysteries.us@East",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWKlRy5WDeuMmb2e8qe4hwB5TkBFQBlL2nPEI0knrker_7VSFK4Ij4Mm6ojg&s",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpG_Iza73bvcm2zbOhwM3LgG9I_zDByamFSK26BUDvz_08CGzSt_S3qGFynn8&s",
     "url": "https://fl1.moveonjoy.com/HALLMARK_MOVIES_MYSTERIES/index.m3u8",
     "extra": []
   },
