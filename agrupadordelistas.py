@@ -18,7 +18,6 @@ import requests
 
 # URLs dos repositórios que contêm os arquivos M3U
 repo_urls = [
-    "https://github.com/punkstarbr/STR-YT/raw/refs/heads/main/REALITY.m3u",
     "https://api.github.com/repos/gmtv4/rastaf/contents",
     "https://raw.githubusercontent.com/strikeinthehouse/1/refs/heads/main/lista2.M3U",
     "https://github.com/iptv-org/iptv/raw/6b77242580c3b34d34f984265bfed2937708fce0/streams/us_moveonjoy.m3u",
