@@ -440,6 +440,14 @@
     "extra": []
   },
   {
+    "name": "Comet",
+    "group": "Undefined",
+    "tvg_id": "Comet.us@SD",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQW6i_jEqPi-1YmUFljlsRcJux3LnB49ZjUBKSZ-g8Tb_rCEXCEsLYT3DfhxA&s",
+    "url": "https://fl1.moveonjoy.com/COMET/index.m3u8",
+    "extra": []
+  },
+  {
     "name": "Court TV",
     "group": "Undefined",
     "tvg_id": "CourtTV.us@SD",
@@ -464,6 +472,14 @@
     "extra": []
   },
   {
+    "name": "Crave 2",
+    "group": "Undefined",
+    "tvg_id": "Crave2.ca@SD",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThougeq73q2lw6pBaznZfw-TQkry3XLVTN_f9CsnL7v2wtjg5dD4lJKel-si4&s",
+    "url": "https://fl1.moveonjoy.com/CRAVE_2/index.m3u8",
+    "extra": []
+  },
+  {
     "name": "Crave 3",
     "group": "Undefined",
     "tvg_id": "Crave3.ca@SD",
@@ -477,6 +493,14 @@
     "tvg_id": "Crave4.ca@SD",
     "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAhV7WMyk77PVQm3xGEBq5PnWxtifisGIeBh4TDYoCcwb4M_SsF-63cpXGeYc&s",
     "url": "https://fl1.moveonjoy.com/CRAVE_4/index.m3u8",
+    "extra": []
+  },
+  {
+    "name": "Crime + Investigation",
+    "group": "Undefined",
+    "tvg_id": "CrimePlusInvestigation.us@SD",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyXo4Fr7G8mxo62NsEGp_g-C0E1YaSxnP6dzZAduDg72MX8cCIYvrkJLycnFU&s",
+    "url": "https://fl1.moveonjoy.com/Crime_and_Investigation_Network/index.m3u8",
     "extra": []
   },
   {

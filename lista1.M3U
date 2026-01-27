@@ -109,16 +109,22 @@ https://fl1.moveonjoy.com/CNBC/index.m3u8
 https://fl1.moveonjoy.com/CNBC_World/index.m3u8
 #EXTINF:-1 group-title="Undefined" tvg-id="ComedyTV.us@SD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRL7MPgfdJcglEuw8imSTBlBvr-yOzNjWTb6J7C_KpTD2DghIcJeQD0pS4lrA&s",Comedy TV
 https://fl1.moveonjoy.com/Comedy_TV/index.m3u8
+#EXTINF:-1 group-title="Undefined" tvg-id="Comet.us@SD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQW6i_jEqPi-1YmUFljlsRcJux3LnB49ZjUBKSZ-g8Tb_rCEXCEsLYT3DfhxA&s",Comet
+https://fl1.moveonjoy.com/COMET/index.m3u8
 #EXTINF:-1 group-title="Undefined" tvg-id="CourtTV.us@SD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKg3Pn1vX-PAc-XOitsUvvISu6ckNy3RA0qG3N7ggemxijoXjitgUal14kKD0&s",Court TV
 https://fl1.moveonjoy.com/COURT_TV/index.m3u8
 #EXTINF:-1 group-title="Undefined" tvg-id="CoziTV.us@SD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_K8Xnc0fmMDg7XLzhzTAN-n_r2G_wRipG4zd6CIvvzpqY2kfyFCXrwgCUbAQ&s",Cozi TV
 https://fl1.moveonjoy.com/COZI_TV/index.m3u8
 #EXTINF:-1 group-title="Undefined" tvg-id="Crave1.ca@SD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlC6ylSCcWPYWYIjvxPNf2UAFPWDLvFZGnakmPpYX6s4zf49LHHUlA3Y76Fg&s",Crave 1
 https://fl1.moveonjoy.com/CRAVE_1/index.m3u8
+#EXTINF:-1 group-title="Undefined" tvg-id="Crave2.ca@SD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThougeq73q2lw6pBaznZfw-TQkry3XLVTN_f9CsnL7v2wtjg5dD4lJKel-si4&s",Crave 2
+https://fl1.moveonjoy.com/CRAVE_2/index.m3u8
 #EXTINF:-1 group-title="Undefined" tvg-id="Crave3.ca@SD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSDEhe4CDE3qW_pl7yYhzESeELxsl_YUaR_njjS5e_ySzAfY1iNSmyuPFd7kg&s",Crave 3
 https://fl1.moveonjoy.com/CRAVE_3/index.m3u8
 #EXTINF:-1 group-title="Undefined" tvg-id="Crave4.ca@SD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAhV7WMyk77PVQm3xGEBq5PnWxtifisGIeBh4TDYoCcwb4M_SsF-63cpXGeYc&s",Crave 4
 https://fl1.moveonjoy.com/CRAVE_4/index.m3u8
+#EXTINF:-1 group-title="Undefined" tvg-id="CrimePlusInvestigation.us@SD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyXo4Fr7G8mxo62NsEGp_g-C0E1YaSxnP6dzZAduDg72MX8cCIYvrkJLycnFU&s",Crime + Investigation
+https://fl1.moveonjoy.com/Crime_and_Investigation_Network/index.m3u8
 #EXTINF:-1 group-title="Undefined" tvg-id="DisneyChannel.us@East" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTrKYbWh0QYqyD7xx8R8rpwH5RMT7SwgID40Z77YHNS38YRYLtda-WU1g2vn4&s",Disney Channel East
 https://fl1.moveonjoy.com/DISNEY/index.m3u8
 #EXTINF:-1 group-title="Undefined" tvg-id="DisneyJunior.us@East" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1WLXZCPurFdD_EGQcf61uRwTTWbj8bAQzUDTdk0RGSf2nrtni3et3FQLPLro&s",Disney Junior East
@@ -938,12 +944,33 @@ http://play.dnsrot.vip/live/ramagi777/e4ifqhgjpqf/61976.m3u8
 #EXTINF:-1 tvg-id="tv.vitoria.br" tvg-name="TV Vitória ES FHD" tvg-logo="https://i.imgur.com/v3JuPi6.png" group-title="Canais | Globo",TV Vitória ES FHD
 http://play.dnsrot.vip/live/ramagi777/e4ifqhgjpqf/91584.m3u8
 #EXTM3U
+#EXTINF:-1 group-title="VOD" ,NBC Nightly News August 3, 1970
+https://archive.org/download/nbc-19700803/NBC%E6%99%9A%E9%97%B4%E6%96%B0%E9%97%BB%2019700803.ia.mp4
 #EXTINF:-1 group-title="VOD" ,Redskins Report : WRC : September 13, 2001 7:30pm-7:59pm EDT
 https://archive.org/download/WRC_20010913_233000_Redskins_Report/WRC_20010913_233000_Redskins_Report.mp4?exact=1&start=0&end=300
 #EXTINF:-1 group-title="VOD" ,NBC Nightly News : WCAU : October 2, 2014 6:30pm-7:01pm EDT
 https://archive.org/download/WCAU_20141002_223000_NBC_Nightly_News/WCAU_20141002_223000_NBC_Nightly_News.mp4?exact=1&start=0&end=300
-#EXTM3U
-#EXTM3U
+#EXTINF:-1 group-title="VOD" ,NBC Nightly News : WCAU : October 23, 2014 6:30pm-7:01pm EDT
+https://archive.org/download/WCAU_20141023_223000_NBC_Nightly_News/WCAU_20141023_223000_NBC_Nightly_News.mp4?exact=1&start=0&end=300
+#EXTM3U url-tvg="https://github.com/LITUATUI/M3UPT/raw/main/EPG/epg-m3upt.xml.xz"
+# M3UPT.com - IPTV playlist in M3U format with TV and radio stations in Portuguese. Public and official streams only.
+# 📺 TV
+#EXTINF:-1 group-title="TV" tvg-id="RTP1.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP1.png",RTP 1
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:144.0) Gecko/20100101 Firefox/144.0
+#EXTVLCOPT:http-origin=https://www.rtp.pt
+#EXTVLCOPT:http-referrer=https://www.rtp.pt/play/direto/rtp1
+https://streaming-live.rtp.pt/liverepeater/smil:rtp1HD.smil/playlist.m3u8
+#EXTINF:-1 group-title="TV" tvg-id="RTP2.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP2.png",RTP 2
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:144.0) Gecko/20100101 Firefox/144.0
+#EXTVLCOPT:http-origin=https://www.rtp.pt
+#EXTVLCOPT:http-referrer=https://www.rtp.pt/play/direto/rtp2
+https://streaming-live.rtp.pt/liverepeater/rtp2HD.smil/playlist.m3u8
+#EXTINF:-1 group-title="TV" tvg-id="SIC.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/SIC.png",SIC
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:144.0) Gecko/20100101 Firefox/144.0
+#EXTVLCOPT:http-origin=https://sic.pt
+#EXTVLCOPT:http-referrer=https://sic.pt/
+https://d1zx6l1dn8vaj5.cloudfront.net/out/v1/b89cc37caa6d418eb423cf092a2ef970/index.m3u8
+#EXTINF:-1 group-title="TV" tvg-id="TVI.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/TVI.png",TVI
 #EXTM3U
 #EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_CH1.xml.gz"
 #EXTINF:-1 group-title="CHILE" tvg-chno="1223" tvg-id="UCVTV.cl" tvg-logo="https://pbs.twimg.com/profile_images/1283856690648096770/L-vGlyO4_400x400.png" , UCV HD
