@@ -395,7 +395,7 @@
     "name": "CBS Sports Network USA",
     "group": "Undefined",
     "tvg_id": "CBSSportsNetworkUSA.us@SD",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfcX4d8MurOb3Le1yVXLns8VcNxyMS7WiZMVzUS2iXXsgsqFLeGoy5MAG2RA&s",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFziAr9kYTal5H_tUDVJ5yxVxsZrHWjySjhoKv1xW7ANHCZNX8L0MUCko7pHw&s",
     "url": "https://fl1.moveonjoy.com/CBS_SPORTS_NETWORK/index.m3u8",
     "extra": []
   },
@@ -555,7 +555,7 @@
     "name": "FanDuel Sports Network",
     "group": "Undefined",
     "tvg_id": "FanDuelSportsNetwork.us@HD",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5b--PigAZ440_DaJcRF4x7mPHHHq7VeVCpo2vFcODeJlb2DV49g29zobswg&s",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVi4-dF63ND1A_60jaEC-dBts0-M7UtqkTnnwMAslhYMAdxd0PSgEHy0KJkw&s",
     "url": "https://fl1.moveonjoy.com/PAC_12/index.m3u8",
     "extra": []
   },
@@ -595,7 +595,7 @@
     "name": "Fox Sports 1",
     "group": "Undefined",
     "tvg_id": "",
-    "logo": "NoLogoFound.png",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkfzCT-U3Hgkq5ocSlGJ2lwByjPafuojMOgqlR6GOI2tiKlkri4KdlVX46qLQ&s",
     "url": "https://fl1.moveonjoy.com/FOX_Sports_1/index.m3u8",
     "extra": []
   },
@@ -683,7 +683,7 @@
     "name": "History",
     "group": "Undefined",
     "tvg_id": "History.us@East",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKEgNWkBRVf93IHkXZyZXUyn9kUAWf8NpDCbg8UWIr-szg_szrgNtgm2YyOQ&s",
+    "logo": "NoLogoFound.png",
     "url": "https://fl1.moveonjoy.com/history_channel/index.m3u8",
     "extra": []
   },
@@ -728,6 +728,14 @@
     "extra": []
   },
   {
+    "name": "Lifetime Movies East",
+    "group": "Undefined",
+    "tvg_id": "LifetimeMovies.us@East",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcwrjoTMpq-OvlBBjTJJJv8-Lp4l_aJiqfoEbJ8e04kaarqJiaVtL07J7tkQ&s",
+    "url": "https://fl1.moveonjoy.com/LIFETIME_MOVIE_NETWORK/index.m3u8",
+    "extra": []
+  },
+  {
     "name": "Love Nature",
     "group": "Undefined",
     "tvg_id": "LoveNature.ca@SD",
@@ -763,7 +771,7 @@
     "name": "MLB Network",
     "group": "Undefined",
     "tvg_id": "MLBNetwork.us@SD",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxY9skHz9CW6VAwqApuOn6mIKQXTPGN4sK6lDm6l90XCp7uCievsQJOuHljQ&s",
+    "logo": "NoLogoFound.png",
     "url": "https://fl1.moveonjoy.com/MLB_NETWORK/index.m3u8",
     "extra": []
   }
