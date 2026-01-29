@@ -240,6 +240,14 @@
     "extra": []
   },
   {
+    "name": "AXS TV",
+    "group": "Undefined",
+    "tvg_id": "AXSTV.us@SD",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUrKBXCoYZwrVVx76OJTFEB9QjevSaXJoeoMk_icrOQk0BRCrQyr57zdIftA&s",
+    "url": "https://fl1.moveonjoy.com/Axs_TV/index.m3u8",
+    "extra": []
+  },
+  {
     "name": "BBC America East",
     "group": "Undefined",
     "tvg_id": "BBCAmerica.us@East",
@@ -363,7 +371,7 @@
     "name": "CNBC World",
     "group": "Undefined",
     "tvg_id": "CNBCWorld.us@SD",
-    "logo": "NoLogoFound.png",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR02c5S1BWClr8_pkh8gtH-2gA00ZqmjRVd49laZsU7-hqmxJZl7DnqoC427Q&s",
     "url": "https://fl1.moveonjoy.com/CNBC_World/index.m3u8",
     "extra": []
   },
@@ -456,10 +464,18 @@
     "extra": []
   },
   {
+    "name": "Disney XD (720p)",
+    "group": "Undefined",
+    "tvg_id": "DisneyXD.us@East",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyfVLgCWCjyp2n-JnA4dnMpMS2qAmYtUJFm10eECLm1I7revKkOQfi9pcEOec&s",
+    "url": "http://fl1.moveonjoy.com/DISNEY_XD/index.m3u8",
+    "extra": []
+  },
+  {
     "name": "E! East",
     "group": "Undefined",
     "tvg_id": "E.us@East",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDCtz4bRYDnrAOs4wW9L6RkRgBESKYLyXXC-Kaammtz2g4dqFThck03DqlboY&s",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRM18eZsZGEUy9b1d3Ap2akORThJu5zerbFTfM5iv1tkGwS7nohhEt33UhLwzQ&s",
     "url": "https://fl1.moveonjoy.com/E_ENTERTAINMENT_TELEVISION/index.m3u8",
     "extra": []
   },
@@ -547,7 +563,7 @@
     "name": "FX East",
     "group": "Undefined",
     "tvg_id": "FX.us@East",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvDhI5SFtHle-kxUVLKzpZ9kB1PRbiYfN0lbM26ikuVSV28dB7zgtciLxesOg&s",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuvD65J-hBiT6kIRZugMLTnE16kJq8T6G_v9TXFPAwzYtWkuSJ_1xA2K9u0g&s",
     "url": "https://fl1.moveonjoy.com/FX/index.m3u8",
     "extra": []
   },
