@@ -35,7 +35,7 @@
     "name": "ACCN (720p)",
     "group": "Undefined",
     "tvg_id": "ACCNetwork.us@SD",
-    "logo": "NoLogoFound.png",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSzeZRNdxeWZGvXZ0BDt9hmie0UrCUheTUg5Gi3FXOQxJrlM71DBX8CV70Ng&s",
     "url": "https://fl1.moveonjoy.com/ACC_NETWORK/index.m3u8",
     "extra": []
   },
@@ -51,7 +51,7 @@
     "name": "Antenna TV",
     "group": "Undefined",
     "tvg_id": "AntennaTV.us@SD",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLIfSIu8ovYjFCi0lduPnZB257hSC5DCt_4bRYL_QVopC4AxjyY5FQ-_-Tg-k&s",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJ_h8L8dZuiZLnpFZF6MlenDioRXQeOahFCH6AsjtJSfr5nBNc9BKK9ZG-2dY&s",
     "url": "https://fl1.moveonjoy.com/Antenna_TV/index.m3u8",
     "extra": []
   },
@@ -155,7 +155,7 @@
     "name": "CBS Chicago WBBM-DT1",
     "group": "Undefined",
     "tvg_id": "WBBMDT1.us@SD",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKcsVtnP6Fr04_4l1-RpzlKdk8OsfI-OrP5-l7v4qw2H5nPo8NVeE1_XFPVQ&s",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBAoenfdE7ekxzSx_fYtOPVOBNLD8lcmoTtmB3dNdqj4Ssu7sMa_znxYWgOR0&s",
     "url": "https://fl1.moveonjoy.com/IL_Chicago_CBS/index.m3u8",
     "extra": []
   },
@@ -307,7 +307,7 @@
     "name": "ESPN U (720p)",
     "group": "Undefined",
     "tvg_id": "ESPNU.us@SD",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBCZdEHjaPfo9iuR-VWzLEw62W8_A3GACCgHs1z5wJF-ZAsd_YHA7TTRET-A&s",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbC70OO5qf5ap9LmaF4cPf2xpOFjsEap7fkR0vL_co-KExdJGFAHo1IR_Zn8g&s",
     "url": "https://fl1.moveonjoy.com/ESPN_U/index.m3u8",
     "extra": []
   },
@@ -491,7 +491,7 @@
     "name": "Lifetime East",
     "group": "Undefined",
     "tvg_id": "Lifetime.us@East",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQinVK0qa0eC42VY0zdqKU3nUJXVbvoxtAfoaqMH-6j6gCvg_nrhGwqcQIgVQ&s",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXvh34fQzOmUGwpzNqsRtxh2VtM85nUZTh9_6egSLsEvN5VZe0Kc6zP-bWLI4&s",
     "url": "https://fl1.moveonjoy.com/LIFETIME/index.m3u8",
     "extra": []
   },
@@ -571,7 +571,7 @@
     "name": "MTV East",
     "group": "Undefined",
     "tvg_id": "MTV.us@East",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnMP-gAs-fCBE5ajLVnjf2HSUHHQvhl6vY1ry3neyEu_U_0qeCag2YLow9ieA&s",
+    "logo": "NoLogoFound.png",
     "url": "https://fl1.moveonjoy.com/MTV/index.m3u8",
     "extra": []
   },
@@ -643,7 +643,7 @@
     "name": "Nickelodeon East",
     "group": "Undefined",
     "tvg_id": "Nickelodeon.us@East",
-    "logo": "NoLogoFound.png",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJhG-iTKa6uAXxZHYxuxUsx_akndAsMSVNLtvbeBm2NJksaLdt7FtH9cJYXg&s",
     "url": "https://fl1.moveonjoy.com/NICKELODEON/index.m3u8",
     "extra": []
   },
