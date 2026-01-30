@@ -224,6 +224,14 @@
     "extra": []
   },
   {
+    "name": "Cozi TV",
+    "group": "Undefined",
+    "tvg_id": "CoziTV.us@SD",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_K8Xnc0fmMDg7XLzhzTAN-n_r2G_wRipG4zd6CIvvzpqY2kfyFCXrwgCUbAQ&s",
+    "url": "https://fl1.moveonjoy.com/COZI_TV/index.m3u8",
+    "extra": []
+  },
+  {
     "name": "Crave 1",
     "group": "Undefined",
     "tvg_id": "Crave1.ca@SD",
@@ -267,7 +275,7 @@
     "name": "Disney Channel East",
     "group": "Undefined",
     "tvg_id": "DisneyChannel.us@East",
-    "logo": "NoLogoFound.png",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTrKYbWh0QYqyD7xx8R8rpwH5RMT7SwgID40Z77YHNS38YRYLtda-WU1g2vn4&s",
     "url": "https://fl1.moveonjoy.com/DISNEY/index.m3u8",
     "extra": []
   },
@@ -315,7 +323,7 @@
     "name": "FanDuel Sports Network",
     "group": "Undefined",
     "tvg_id": "FanDuelSportsNetwork.us@HD",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVi4-dF63ND1A_60jaEC-dBts0-M7UtqkTnnwMAslhYMAdxd0PSgEHy0KJkw&s",
+    "logo": "NoLogoFound.png",
     "url": "https://fl1.moveonjoy.com/PAC_12/index.m3u8",
     "extra": []
   },
@@ -387,7 +395,7 @@
     "name": "FXM East",
     "group": "Undefined",
     "tvg_id": "FXM.us@East",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSi9KsnTstuOsOV45flo_bh28-hbnYlF3Do0hU-FC48X9RwKfeER7RH9eVwbPg&s",
+    "logo": "NoLogoFound.png",
     "url": "https://fl1.moveonjoy.com/FX_MOVIE/index.m3u8",
     "extra": []
   },
@@ -443,7 +451,7 @@
     "name": "History",
     "group": "Undefined",
     "tvg_id": "History.us@East",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKEgNWkBRVf93IHkXZyZXUyn9kUAWf8NpDCbg8UWIr-szg_szrgNtgm2YyOQ&s",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfTbEMeYr9mNxSwfS_6BOjEO2hD9eQiZ3w6Y6Aovf8UiYLJXr1mPtdRdVZAQ&s",
     "url": "https://fl1.moveonjoy.com/history_channel/index.m3u8",
     "extra": []
   },
@@ -467,7 +475,7 @@
     "name": "ION Plus East (720p)",
     "group": "Undefined",
     "tvg_id": "IONPlus.us@East",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQu-nTvp6wHyow-Nu891yRnIbtFdTrRgyl7reRbAyWt0C7uql7YrwLKRaqV7g&s",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbJxa1lHl0MRr1W4i10r1rzXrUUE_QUnRv1qQgsOLcxrrPzVYeAx79cweS0w&s",
     "url": "https://fl1.moveonjoy.com/ION_Plus/index.m3u8",
     "extra": []
   },
@@ -483,7 +491,7 @@
     "name": "Lifetime East",
     "group": "Undefined",
     "tvg_id": "Lifetime.us@East",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpgMV-fk0qBj8klYOExpm_RuJMj-2Cu-kMn33JkvqY30Sj5B-CG16argvF0w&s",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQinVK0qa0eC42VY0zdqKU3nUJXVbvoxtAfoaqMH-6j6gCvg_nrhGwqcQIgVQ&s",
     "url": "https://fl1.moveonjoy.com/LIFETIME/index.m3u8",
     "extra": []
   },
@@ -619,7 +627,7 @@
     "name": "News Nation (720p)",
     "group": "Undefined",
     "tvg_id": "NewsNation.us@East",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQa6Zst4Ss0yefmbeJr94cCd9iVP3DGPG_BveiFJxwbn4KGTzEbK-rXrVUeEg&s",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbzkeaySV6qc2T4XlB5BlWHhmSGVMR1poR2tN68xS2TXg04IXO5kwLfN4dnA&s",
     "url": "https://fl1.moveonjoy.com/NEWS_NATION/index.m3u8",
     "extra": []
   },
@@ -685,6 +693,14 @@
     "tvg_id": "ParamountNetwork.us@East",
     "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSW981-bmma_Pp0zuOMJ-0KddHF0oOIK3hjH5tkZo2uZVrJOpRWxSrpN1xgLjM&s",
     "url": "https://fl1.moveonjoy.com/PARAMOUNT_NETWORK/index.m3u8",
+    "extra": []
+  },
+  {
+    "name": "Pop TV",
+    "group": "Undefined",
+    "tvg_id": "PopTV.us@SD",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1T5VLNbI0mezODDU-z4ZUvaA7Jf_XYrJnJKXzYl_TOATKMt29w34HKe7KVA&s",
+    "url": "https://fl1.moveonjoy.com/Pop_TV/index.m3u8",
     "extra": []
   },
   {
