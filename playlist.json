@@ -187,7 +187,7 @@
     "name": "CNBC",
     "group": "Undefined",
     "tvg_id": "CNBC.us@SD",
-    "logo": "NoLogoFound.png",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTAx13g0Onm_07qrEj5BgYGgz1-molcLYQWvxxJ-GyRBG2YIHt0zelYIpGoyg&s",
     "url": "https://fl1.moveonjoy.com/CNBC/index.m3u8",
     "extra": []
   },
@@ -221,6 +221,14 @@
     "tvg_id": "CourtTV.us@SD",
     "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEtxNrOFK3HZORn5ezGOb02J_zaZZoxkXYo-SubKG-RoYR9dP-AC6Gx5KTIQ&s",
     "url": "https://fl1.moveonjoy.com/COURT_TV/index.m3u8",
+    "extra": []
+  },
+  {
+    "name": "Cozi TV",
+    "group": "Undefined",
+    "tvg_id": "CoziTV.us@SD",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_K8Xnc0fmMDg7XLzhzTAN-n_r2G_wRipG4zd6CIvvzpqY2kfyFCXrwgCUbAQ&s",
+    "url": "https://fl1.moveonjoy.com/COZI_TV/index.m3u8",
     "extra": []
   },
   {
@@ -307,7 +315,7 @@
     "name": "ESPNews (720p)",
     "group": "Undefined",
     "tvg_id": "ESPNews.us@SD",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGZDJ6roGWoCQ6T-2UWvb83QABqe0vqYQ_Abh-Ms5d3vMKF47ijGM3y0VgCw&s",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDyPFWDJrcQ0fZHGJXQURNa8YCuxLG0tgGQ9D4njDx1GniuCNB6kT1NLorAw&s",
     "url": "https://fl1.moveonjoy.com/ESPN_NEWS/index.m3u8",
     "extra": []
   },
@@ -323,7 +331,7 @@
     "name": "FanDuel TV",
     "group": "Undefined",
     "tvg_id": "FanDuelTV.us@SD",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTvyYGfYRIVt7AeH7VAfK2Zye2DVmkBIIh5yaDcVW3s8KE-pz3Uh8auMz3uHI&s",
+    "logo": "NoLogoFound.png",
     "url": "https://fl1.moveonjoy.com/TVG/index.m3u8",
     "extra": []
   },
@@ -339,7 +347,7 @@
     "name": "FOX Chicago WFLD-DT1",
     "group": "Undefined",
     "tvg_id": "WFLDDT1.us@SD",
-    "logo": "NoLogoFound.png",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSO6GA8WWp0A3qTAfjHpqu0vxDYfE4rFW1Vk54_q3J2g6yJyEY3nbw76hiCFhI&s",
     "url": "https://fl1.moveonjoy.com/IL_Chicago_FOX/index.m3u8",
     "extra": []
   },
@@ -416,14 +424,6 @@
     "extra": []
   },
   {
-    "name": "Hallmark Channel East (720p)",
-    "group": "Undefined",
-    "tvg_id": "HallmarkChannel.us@East",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrYXAltDuQRCfH5hiEtyAqE3nCSozQjcuA7tiVJzXOLmI8EnOowpyH4lQEU64&s",
-    "url": "https://fl1.moveonjoy.com/HALLMARK_CHANNEL/index.m3u8",
-    "extra": []
-  },
-  {
     "name": "Hallmark Drama (720p)",
     "group": "Undefined",
     "tvg_id": "HallmarkDrama.us@SD",
@@ -443,7 +443,7 @@
     "name": "History",
     "group": "Undefined",
     "tvg_id": "History.us@East",
-    "logo": "NoLogoFound.png",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSccP_oJNOoYUjfRcZDjDQfD21OMr4FF51FJjAuWGPsSL_uSi4XATFzvNWuVQ&s",
     "url": "https://fl1.moveonjoy.com/history_channel/index.m3u8",
     "extra": []
   },
@@ -571,7 +571,7 @@
     "name": "MTV Live (720p)",
     "group": "Undefined",
     "tvg_id": "MTVLive.us@SD",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9f1e5bjDZbXKqBaZqb3t79XypXfE98t0jAi-RXAXTebE6K7MzD1hPYmav6g&s",
+    "logo": "NoLogoFound.png",
     "url": "https://fl1.moveonjoy.com/MTV_LIVE/index.m3u8",
     "extra": []
   },
@@ -635,7 +635,7 @@
     "name": "Nickelodeon East",
     "group": "Undefined",
     "tvg_id": "Nickelodeon.us@East",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJhG-iTKa6uAXxZHYxuxUsx_akndAsMSVNLtvbeBm2NJksaLdt7FtH9cJYXg&s",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTR06F-c2lbNu1PRgS5mNiyCeypF7GfgAlNbz4B1-vv7Cs7dcZYnHd1Trm0x7M&s",
     "url": "https://fl1.moveonjoy.com/NICKELODEON/index.m3u8",
     "extra": []
   },
@@ -677,6 +677,14 @@
     "tvg_id": "Oxygen.us@East",
     "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsllYpBegEuyfOo0wekWlBh3gT1VzJJOqv35LdKJ8e5XkMnMQMwxWkMfCBrg&s",
     "url": "https://fl1.moveonjoy.com/OXYGEN/index.m3u8",
+    "extra": []
+  },
+  {
+    "name": "Paramount Network East",
+    "group": "Undefined",
+    "tvg_id": "ParamountNetwork.us@East",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSW981-bmma_Pp0zuOMJ-0KddHF0oOIK3hjH5tkZo2uZVrJOpRWxSrpN1xgLjM&s",
+    "url": "https://fl1.moveonjoy.com/PARAMOUNT_NETWORK/index.m3u8",
     "extra": []
   },
   {
