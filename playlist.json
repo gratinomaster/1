@@ -315,7 +315,7 @@
     "name": "ESPNews (720p)",
     "group": "Undefined",
     "tvg_id": "ESPNews.us@SD",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDyPFWDJrcQ0fZHGJXQURNa8YCuxLG0tgGQ9D4njDx1GniuCNB6kT1NLorAw&s",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTioutmn-2uz8yWlBzBLQIakxl9CjlfpH977lEUKfBgYtc_u3DBe6jXOcqEjw&s",
     "url": "https://fl1.moveonjoy.com/ESPN_NEWS/index.m3u8",
     "extra": []
   },
@@ -363,7 +363,7 @@
     "name": "Fox Sports 1",
     "group": "Undefined",
     "tvg_id": "",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkfzCT-U3Hgkq5ocSlGJ2lwByjPafuojMOgqlR6GOI2tiKlkri4KdlVX46qLQ&s",
+    "logo": "NoLogoFound.png",
     "url": "https://fl1.moveonjoy.com/FOX_Sports_1/index.m3u8",
     "extra": []
   },
@@ -443,7 +443,7 @@
     "name": "Hallmark Movies Mysteries East",
     "group": "Undefined",
     "tvg_id": "HallmarkMoviesMysteries.us@East",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWI7Z1JB2Cc6CdQwsOGuVC0yPbLd8Sz87n04k_eWKgB0HLgsh_aAlyeXlIXg&s",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfKSmjFw0oTcP3TAwGnTOWWFPUScE73H7TffFJZjGBbti2HO6yeFU3RVg0Jg&s",
     "url": "https://fl1.moveonjoy.com/HALLMARK_MOVIES_MYSTERIES/index.m3u8",
     "extra": []
   },
@@ -451,7 +451,7 @@
     "name": "History",
     "group": "Undefined",
     "tvg_id": "History.us@East",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfTbEMeYr9mNxSwfS_6BOjEO2hD9eQiZ3w6Y6Aovf8UiYLJXr1mPtdRdVZAQ&s",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKEgNWkBRVf93IHkXZyZXUyn9kUAWf8NpDCbg8UWIr-szg_szrgNtgm2YyOQ&s",
     "url": "https://fl1.moveonjoy.com/history_channel/index.m3u8",
     "extra": []
   },
@@ -491,7 +491,7 @@
     "name": "Lifetime East",
     "group": "Undefined",
     "tvg_id": "Lifetime.us@East",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXvh34fQzOmUGwpzNqsRtxh2VtM85nUZTh9_6egSLsEvN5VZe0Kc6zP-bWLI4&s",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQinVK0qa0eC42VY0zdqKU3nUJXVbvoxtAfoaqMH-6j6gCvg_nrhGwqcQIgVQ&s",
     "url": "https://fl1.moveonjoy.com/LIFETIME/index.m3u8",
     "extra": []
   },
@@ -571,7 +571,7 @@
     "name": "MTV East",
     "group": "Undefined",
     "tvg_id": "MTV.us@East",
-    "logo": "NoLogoFound.png",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnMP-gAs-fCBE5ajLVnjf2HSUHHQvhl6vY1ry3neyEu_U_0qeCag2YLow9ieA&s",
     "url": "https://fl1.moveonjoy.com/MTV/index.m3u8",
     "extra": []
   },
@@ -643,7 +643,7 @@
     "name": "Nickelodeon East",
     "group": "Undefined",
     "tvg_id": "Nickelodeon.us@East",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJhG-iTKa6uAXxZHYxuxUsx_akndAsMSVNLtvbeBm2NJksaLdt7FtH9cJYXg&s",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTR06F-c2lbNu1PRgS5mNiyCeypF7GfgAlNbz4B1-vv7Cs7dcZYnHd1Trm0x7M&s",
     "url": "https://fl1.moveonjoy.com/NICKELODEON/index.m3u8",
     "extra": []
   },
@@ -661,14 +661,6 @@
     "tvg_id": "OutdoorChannel.us@SD",
     "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQShv5ju4_2FlUfsYxp1hB7DOEoG0OwgmZm-RpJTTJkXsuUjGIfeFAOsr-fnw&s",
     "url": "https://fl1.moveonjoy.com/OUTDOOR_CHANNEL/index.m3u8",
-    "extra": []
-  },
-  {
-    "name": "Outside TV",
-    "group": "Undefined",
-    "tvg_id": "OutsideTV.us@SD",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRu-ACmJrN9NIAB9xz3AjOfUMY0xl8D-wxYSIu-BD6nW6Y3FQFJjtfHYq6mhuc&s",
-    "url": "https://fl1.moveonjoy.com/OUTSIDE_TV/index.m3u8",
     "extra": []
   },
   {
