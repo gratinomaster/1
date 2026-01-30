@@ -155,7 +155,7 @@
     "name": "CBS Chicago WBBM-DT1",
     "group": "Undefined",
     "tvg_id": "WBBMDT1.us@SD",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKcsVtnP6Fr04_4l1-RpzlKdk8OsfI-OrP5-l7v4qw2H5nPo8NVeE1_XFPVQ&s",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBAoenfdE7ekxzSx_fYtOPVOBNLD8lcmoTtmB3dNdqj4Ssu7sMa_znxYWgOR0&s",
     "url": "https://fl1.moveonjoy.com/IL_Chicago_CBS/index.m3u8",
     "extra": []
   },
@@ -187,7 +187,7 @@
     "name": "CNBC",
     "group": "Undefined",
     "tvg_id": "CNBC.us@SD",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTAx13g0Onm_07qrEj5BgYGgz1-molcLYQWvxxJ-GyRBG2YIHt0zelYIpGoyg&s",
+    "logo": "NoLogoFound.png",
     "url": "https://fl1.moveonjoy.com/CNBC/index.m3u8",
     "extra": []
   },
@@ -221,14 +221,6 @@
     "tvg_id": "CourtTV.us@SD",
     "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEtxNrOFK3HZORn5ezGOb02J_zaZZoxkXYo-SubKG-RoYR9dP-AC6Gx5KTIQ&s",
     "url": "https://fl1.moveonjoy.com/COURT_TV/index.m3u8",
-    "extra": []
-  },
-  {
-    "name": "Cozi TV",
-    "group": "Undefined",
-    "tvg_id": "CoziTV.us@SD",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_K8Xnc0fmMDg7XLzhzTAN-n_r2G_wRipG4zd6CIvvzpqY2kfyFCXrwgCUbAQ&s",
-    "url": "https://fl1.moveonjoy.com/COZI_TV/index.m3u8",
     "extra": []
   },
   {
@@ -315,7 +307,7 @@
     "name": "ESPNews (720p)",
     "group": "Undefined",
     "tvg_id": "ESPNews.us@SD",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDyPFWDJrcQ0fZHGJXQURNa8YCuxLG0tgGQ9D4njDx1GniuCNB6kT1NLorAw&s",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGZDJ6roGWoCQ6T-2UWvb83QABqe0vqYQ_Abh-Ms5d3vMKF47ijGM3y0VgCw&s",
     "url": "https://fl1.moveonjoy.com/ESPN_NEWS/index.m3u8",
     "extra": []
   },
@@ -347,7 +339,7 @@
     "name": "FOX Chicago WFLD-DT1",
     "group": "Undefined",
     "tvg_id": "WFLDDT1.us@SD",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSO6GA8WWp0A3qTAfjHpqu0vxDYfE4rFW1Vk54_q3J2g6yJyEY3nbw76hiCFhI&s",
+    "logo": "NoLogoFound.png",
     "url": "https://fl1.moveonjoy.com/IL_Chicago_FOX/index.m3u8",
     "extra": []
   },
@@ -451,7 +443,7 @@
     "name": "History",
     "group": "Undefined",
     "tvg_id": "History.us@East",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSccP_oJNOoYUjfRcZDjDQfD21OMr4FF51FJjAuWGPsSL_uSi4XATFzvNWuVQ&s",
+    "logo": "NoLogoFound.png",
     "url": "https://fl1.moveonjoy.com/history_channel/index.m3u8",
     "extra": []
   },
@@ -685,14 +677,6 @@
     "tvg_id": "Oxygen.us@East",
     "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsllYpBegEuyfOo0wekWlBh3gT1VzJJOqv35LdKJ8e5XkMnMQMwxWkMfCBrg&s",
     "url": "https://fl1.moveonjoy.com/OXYGEN/index.m3u8",
-    "extra": []
-  },
-  {
-    "name": "Paramount Network East",
-    "group": "Undefined",
-    "tvg_id": "ParamountNetwork.us@East",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSW981-bmma_Pp0zuOMJ-0KddHF0oOIK3hjH5tkZo2uZVrJOpRWxSrpN1xgLjM&s",
-    "url": "https://fl1.moveonjoy.com/PARAMOUNT_NETWORK/index.m3u8",
     "extra": []
   },
   {
