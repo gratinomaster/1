@@ -139,7 +139,7 @@
     "name": "Bravo East",
     "group": "Undefined",
     "tvg_id": "Bravo.us@East",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMR_xuPMi1UUK9orXDyZIPzcs07vws6D4CKenub8eRDtXcmYHbQDSxoLaBHok&s",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlxql5ecbVHW_O86PKzWovdpMonasYjIbyMHf-7mJF-7m5waxeR970KlpCjA&s",
     "url": "https://fl1.moveonjoy.com/BRAVO/index.m3u8",
     "extra": []
   },
@@ -251,7 +251,7 @@
     "name": "Crave 3",
     "group": "Undefined",
     "tvg_id": "Crave3.ca@SD",
-    "logo": "NoLogoFound.png",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSDEhe4CDE3qW_pl7yYhzESeELxsl_YUaR_njjS5e_ySzAfY1iNSmyuPFd7kg&s",
     "url": "https://fl1.moveonjoy.com/CRAVE_3/index.m3u8",
     "extra": []
   },
@@ -291,7 +291,7 @@
     "name": "E! East",
     "group": "Undefined",
     "tvg_id": "E.us@East",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDCtz4bRYDnrAOs4wW9L6RkRgBESKYLyXXC-Kaammtz2g4dqFThck03DqlboY&s",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRM18eZsZGEUy9b1d3Ap2akORThJu5zerbFTfM5iv1tkGwS7nohhEt33UhLwzQ&s",
     "url": "https://fl1.moveonjoy.com/E_ENTERTAINMENT_TELEVISION/index.m3u8",
     "extra": []
   },
@@ -299,7 +299,7 @@
     "name": "ESPN U (720p)",
     "group": "Undefined",
     "tvg_id": "ESPNU.us@SD",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBCZdEHjaPfo9iuR-VWzLEw62W8_A3GACCgHs1z5wJF-ZAsd_YHA7TTRET-A&s",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbC70OO5qf5ap9LmaF4cPf2xpOFjsEap7fkR0vL_co-KExdJGFAHo1IR_Zn8g&s",
     "url": "https://fl1.moveonjoy.com/ESPN_U/index.m3u8",
     "extra": []
   },
@@ -307,7 +307,7 @@
     "name": "ESPNews (720p)",
     "group": "Undefined",
     "tvg_id": "ESPNews.us@SD",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGZDJ6roGWoCQ6T-2UWvb83QABqe0vqYQ_Abh-Ms5d3vMKF47ijGM3y0VgCw&s",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSs3vFtCVExAfv5zIt7OZtvXKHfXlaGg2VHQt3KCgfhsAxiWrOPSf2B4hRrq0w&s",
     "url": "https://fl1.moveonjoy.com/ESPN_NEWS/index.m3u8",
     "extra": []
   },
@@ -371,7 +371,7 @@
     "name": "Fuse East (720p)",
     "group": "Undefined",
     "tvg_id": "Fuse.us@East",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1K_S0O2BM7TaTbP8hxX0T7fveKagt2apV0Q9XlfvsLdvqTX0zSoN6YZ8w9A&s",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQS2QhpUeLmFPKiTZQEaELRLP27i8VdCBstj-hE45_XRjg7_ykJoP66G5iNSWs&s",
     "url": "https://fl1.moveonjoy.com/FUSE/index.m3u8",
     "extra": []
   },
@@ -493,6 +493,14 @@
     "tvg_id": "Lifetime.us@East",
     "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpgMV-fk0qBj8klYOExpm_RuJMj-2Cu-kMn33JkvqY30Sj5B-CG16argvF0w&s",
     "url": "https://fl1.moveonjoy.com/LIFETIME/index.m3u8",
+    "extra": []
+  },
+  {
+    "name": "Lifetime Movies East",
+    "group": "Undefined",
+    "tvg_id": "LifetimeMovies.us@East",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcwrjoTMpq-OvlBBjTJJJv8-Lp4l_aJiqfoEbJ8e04kaarqJiaVtL07J7tkQ&s",
+    "url": "https://fl1.moveonjoy.com/LIFETIME_MOVIE_NETWORK/index.m3u8",
     "extra": []
   },
   {
@@ -619,7 +627,7 @@
     "name": "News Nation (720p)",
     "group": "Undefined",
     "tvg_id": "NewsNation.us@East",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQa6Zst4Ss0yefmbeJr94cCd9iVP3DGPG_BveiFJxwbn4KGTzEbK-rXrVUeEg&s",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpfdsRzCvxm5KARlPAFL37rp5jn2QGNfCv9R8lIIfgHVPEK8cH8stXGsv2oeU&s",
     "url": "https://fl1.moveonjoy.com/NEWS_NATION/index.m3u8",
     "extra": []
   },
@@ -715,7 +723,7 @@
     "name": "Revolt",
     "group": "Undefined",
     "tvg_id": "Revolt.us@SD",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-04PIfHtxAuWkhRTwKSPdtjNmSVEy52j-6KR3p7t6Iah_tx0gt06-zDl_kqk&s",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1yccHJMD0AtOtFAdRheOr_-WEyow2XUWBQstTqWXY7swR_ttIwkY6lRwo1xQ&s",
     "url": "https://fl1.moveonjoy.com/REVOLT/index.m3u8",
     "extra": []
   },
