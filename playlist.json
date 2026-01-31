@@ -307,7 +307,7 @@
     "name": "ESPNews (720p)",
     "group": "Undefined",
     "tvg_id": "ESPNews.us@SD",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGZDJ6roGWoCQ6T-2UWvb83QABqe0vqYQ_Abh-Ms5d3vMKF47ijGM3y0VgCw&s",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDyPFWDJrcQ0fZHGJXQURNa8YCuxLG0tgGQ9D4njDx1GniuCNB6kT1NLorAw&s",
     "url": "https://fl1.moveonjoy.com/ESPN_NEWS/index.m3u8",
     "extra": []
   },
@@ -323,7 +323,7 @@
     "name": "FanDuel TV",
     "group": "Undefined",
     "tvg_id": "FanDuelTV.us@SD",
-    "logo": "NoLogoFound.png",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTvyYGfYRIVt7AeH7VAfK2Zye2DVmkBIIh5yaDcVW3s8KE-pz3Uh8auMz3uHI&s",
     "url": "https://fl1.moveonjoy.com/TVG/index.m3u8",
     "extra": []
   },
@@ -451,7 +451,7 @@
     "name": "History",
     "group": "Undefined",
     "tvg_id": "History.us@East",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSccP_oJNOoYUjfRcZDjDQfD21OMr4FF51FJjAuWGPsSL_uSi4XATFzvNWuVQ&s",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKEgNWkBRVf93IHkXZyZXUyn9kUAWf8NpDCbg8UWIr-szg_szrgNtgm2YyOQ&s",
     "url": "https://fl1.moveonjoy.com/history_channel/index.m3u8",
     "extra": []
   },
@@ -507,7 +507,7 @@
     "name": "Love Nature",
     "group": "Undefined",
     "tvg_id": "LoveNature.ca@SD",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwXs7vfWfHXuRLeqmA1MMlv3L3YLHum4BvpnqOILLXu_H5VhcY2HUAwwZ6aA&s",
+    "logo": "NoLogoFound.png",
     "url": "https://fl1.moveonjoy.com/LOVE_NATURE/index.m3u8",
     "extra": []
   },
@@ -693,6 +693,14 @@
     "tvg_id": "ParamountNetwork.us@East",
     "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSW981-bmma_Pp0zuOMJ-0KddHF0oOIK3hjH5tkZo2uZVrJOpRWxSrpN1xgLjM&s",
     "url": "https://fl1.moveonjoy.com/PARAMOUNT_NETWORK/index.m3u8",
+    "extra": []
+  },
+  {
+    "name": "Pop TV",
+    "group": "Undefined",
+    "tvg_id": "PopTV.us@SD",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1T5VLNbI0mezODDU-z4ZUvaA7Jf_XYrJnJKXzYl_TOATKMt29w34HKe7KVA&s",
+    "url": "https://fl1.moveonjoy.com/Pop_TV/index.m3u8",
     "extra": []
   },
   {
