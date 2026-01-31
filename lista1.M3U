@@ -19,15 +19,17 @@ https://fl1.moveonjoy.com/Aspire/index.m3u8
 https://fl1.moveonjoy.com/Axs_TV/index.m3u8
 #EXTINF:-1 group-title="Undefined" tvg-id="BBCAmerica.us@East" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZ-LpQGIbHexq0oMuiE1lrY6VQgSiegN9mXiyjU7xMlkQKfJ0pesEYrqOc9oI&s",BBC America East
 https://fl1.moveonjoy.com/BBC_AMERICA/index.m3u8
+#EXTINF:-1 group-title="Undefined" tvg-id="BBCNews.uk@NorthAmerica" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRn8gzlroVbWWDRXRQr4P1s_Zipr8h8Uc10WtEaNxxepLbC297FCukLREvaHw&s",BBC News North America
+https://fl1.moveonjoy.com/BBC_WORLD_NEWS/index.m3u8
 #EXTINF:-1 group-title="Undefined" tvg-id="BETHer.us@East" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5wKpbbrOzzQ4lWRiMZMAZ07y4g1bvYDO-T2rCDrDs9P9xh3rQXOD9MuxCmA&s",BET Her East
 https://fl1.moveonjoy.com/BET_HER/index.m3u8
-#EXTINF:-1 group-title="Undefined" tvg-id="BETJams.us@SD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFveQqkvHlSpyHdVqggHfhxOmr7CLzdbnpTvFKpjv2oLPRh1FN02aFBJ1O0ec&s",BET Jams
+#EXTINF:-1 group-title="Undefined" tvg-id="BETJams.us@SD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZwvGUHpJRJFgcwDg_Jd4i3-RV6GYyAUerN2WRAh-EnmgYG1DM9N289sydb4Y&s",BET Jams
 https://fl1.moveonjoy.com/BET_Jams/index.m3u8
 #EXTINF:-1 group-title="Undefined" tvg-id="BETSoul.us@SD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRRu7AxLEyYS2AjfSeCDh30rJkiIXJ9HLIFou0IM85rpIpJia45tEBngVshQ&s",BET Soul
 https://fl1.moveonjoy.com/BET_SOUL/index.m3u8
 #EXTINF:-1 group-title="Undefined" tvg-id="BigTenNetwork.us@SD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRK0Y7u09OVvuVliUfEzZkeQIYjKOxuMOWR0NAII3JCYMYjzLW3F6spanRjv5s&s",Big Ten Network
 https://fl1.moveonjoy.com/BIG_TEN_NETWORK/index.m3u8
-#EXTINF:-1 group-title="Undefined" tvg-id="BloombergTV.us@US" tvg-logo="NoLogoFound.png",Bloomberg TV
+#EXTINF:-1 group-title="Undefined" tvg-id="BloombergTV.us@US" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSS0LB7xdYa24wX71IU5-8_Ao6swBZV59PSug6be5q5WWs2jzlYKlcbVJA0Bg&s",Bloomberg TV
 https://fl1.moveonjoy.com/BLOOMBERG/index.m3u8
 #EXTINF:-1 group-title="Undefined" tvg-id="Bounce.us@SD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYMDYo4y88WuC9pOMhB8FVjtoCPK3fEtZMH_Fw2kcDkQDFjj-AWXsyOwhEFA&s",Bounce
 https://fl1.moveonjoy.com/BOUNCE_TV/index.m3u8
@@ -37,7 +39,7 @@ https://fl1.moveonjoy.com/BRAVO/index.m3u8
 https://fl1.moveonjoy.com/Buzzr/index.m3u8
 #EXTINF:-1 group-title="Undefined" tvg-id="CSPAN.us@SD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGj9IUn1A-8IvoK-Xf47hiBAhlyDauQHJxXdQMBIc2iHjOzbLixZ__H651kw&s",C-SPAN
 https://fl1.moveonjoy.com/C-SPAN/index.m3u8
-#EXTINF:-1 group-title="Undefined" tvg-id="WBBMDT1.us@SD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBAoenfdE7ekxzSx_fYtOPVOBNLD8lcmoTtmB3dNdqj4Ssu7sMa_znxYWgOR0&s",CBS Chicago WBBM-DT1
+#EXTINF:-1 group-title="Undefined" tvg-id="WBBMDT1.us@SD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2LorKLpNqH54nrteV65VFvOzJWI2SkQ3inkMNY8JdGpydumjHqux_0JfEGZg&s",CBS Chicago WBBM-DT1
 https://fl1.moveonjoy.com/IL_Chicago_CBS/index.m3u8
 #EXTINF:-1 group-title="Undefined" tvg-id="CBSSportsNetworkUSA.us@SD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfcX4d8MurOb3Le1yVXLns8VcNxyMS7WiZMVzUS2iXXsgsqFLeGoy5MAG2RA&s",CBS Sports Network USA
 https://fl1.moveonjoy.com/CBS_SPORTS_NETWORK/index.m3u8
@@ -67,7 +69,9 @@ https://fl1.moveonjoy.com/Crime_and_Investigation_Network/index.m3u8
 https://fl1.moveonjoy.com/DISNEY/index.m3u8
 #EXTINF:-1 group-title="Undefined" tvg-id="DisneyJunior.us@East" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1WLXZCPurFdD_EGQcf61uRwTTWbj8bAQzUDTdk0RGSf2nrtni3et3FQLPLro&s",Disney Junior East
 https://fl1.moveonjoy.com/DISNEY_JR/index.m3u8
-#EXTINF:-1 group-title="Undefined" tvg-id="E.us@East" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRM18eZsZGEUy9b1d3Ap2akORThJu5zerbFTfM5iv1tkGwS7nohhEt33UhLwzQ&s",E! East
+#EXTINF:-1 group-title="Undefined" tvg-id="DisneyXD.us@East" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyfVLgCWCjyp2n-JnA4dnMpMS2qAmYtUJFm10eECLm1I7revKkOQfi9pcEOec&s",Disney XD (720p)
+http://fl1.moveonjoy.com/DISNEY_XD/index.m3u8
+#EXTINF:-1 group-title="Undefined" tvg-id="E.us@East" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDCtz4bRYDnrAOs4wW9L6RkRgBESKYLyXXC-Kaammtz2g4dqFThck03DqlboY&s",E! East
 https://fl1.moveonjoy.com/E_ENTERTAINMENT_TELEVISION/index.m3u8
 #EXTINF:-1 group-title="Undefined" tvg-id="ESPNU.us@SD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBCZdEHjaPfo9iuR-VWzLEw62W8_A3GACCgHs1z5wJF-ZAsd_YHA7TTRET-A&s",ESPN U (720p)
 https://fl1.moveonjoy.com/ESPN_U/index.m3u8
@@ -87,7 +91,7 @@ https://fl1.moveonjoy.com/FOX_SOUL/index.m3u8
 https://fl1.moveonjoy.com/FOX_Sports_1/index.m3u8
 #EXTINF:-1 group-title="Undefined" tvg-id="Freeform.us@East" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT57YZytBzqINQNrLXMxqILVLcA8SYOUCflXztLirL7JUmgP_tet5FDOTqCHg&s",Free form East
 https://fl1.moveonjoy.com/FREE_FORM/index.m3u8
-#EXTINF:-1 group-title="Undefined" tvg-id="Fuse.us@East" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQS2QhpUeLmFPKiTZQEaELRLP27i8VdCBstj-hE45_XRjg7_ykJoP66G5iNSWs&s",Fuse East (720p)
+#EXTINF:-1 group-title="Undefined" tvg-id="Fuse.us@East" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1K_S0O2BM7TaTbP8hxX0T7fveKagt2apV0Q9XlfvsLdvqTX0zSoN6YZ8w9A&s",Fuse East (720p)
 https://fl1.moveonjoy.com/FUSE/index.m3u8
 #EXTINF:-1 group-title="Undefined" tvg-id="FX.us@East" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuvD65J-hBiT6kIRZugMLTnE16kJq8T6G_v9TXFPAwzYtWkuSJ_1xA2K9u0g&s",FX East
 https://fl1.moveonjoy.com/FX/index.m3u8
@@ -99,7 +103,7 @@ https://fl1.moveonjoy.com/FXX/index.m3u8
 https://fl1.moveonjoy.com/FYI/index.m3u8
 #EXTINF:-1 group-title="Undefined" tvg-id="GetTV.us@SD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgwkTpqYuTq-WVfl-p2Z5eiiWS8YKME0jaCwTnIOgOs3mtDxfMb6O00swH0qo&s",GetTV (480p)
 https://fl1.moveonjoy.com/GET_TV/index.m3u8
-#EXTINF:-1 group-title="Undefined" tvg-id="GolfChannel.us@SD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4-H9ZlYqr_xR41ZCz7qH9dBvQO7gNE3j97jIneEa1wTJivEKYgOarRJRonA&s",Golf Channel
+#EXTINF:-1 group-title="Undefined" tvg-id="GolfChannel.us@SD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPd8idRnfYBsKDoUqrybhZsjeQaeWI75JU7RO1-x-9GujUR9hOdPp974FdzA&s",Golf Channel
 https://fl1.moveonjoy.com/GOLF/index.m3u8
 #EXTINF:-1 group-title="Undefined" tvg-id="HallmarkChannel.us@East" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrYXAltDuQRCfH5hiEtyAqE3nCSozQjcuA7tiVJzXOLmI8EnOowpyH4lQEU64&s",Hallmark Channel East (720p)
 https://fl1.moveonjoy.com/HALLMARK_CHANNEL/index.m3u8
@@ -127,7 +131,7 @@ https://fl1.moveonjoy.com/LOVE_NATURE/index.m3u8
 https://fl1.moveonjoy.com/ME_TV/index.m3u8
 #EXTINF:-1 group-title="Undefined" tvg-id="MGMPlus.us@East" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMg2mXNwqWFNLAVLXnNXzevcmvFx8pUmF3cDdJ0mx24OquFs7LJ2Ux-wGp3A0&s",MGM+ East
 https://fl1.moveonjoy.com/EPIX/index.m3u8
-#EXTINF:-1 group-title="Undefined" tvg-id="MilitaryHistory.us@SD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2UdnV6MRGZu6i5Ekfa361ih1b8MevER4cg28E2Cwk9Xaz02Smy50pQ_KddFk&s",Military History
+#EXTINF:-1 group-title="Undefined" tvg-id="MilitaryHistory.us@SD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTh0QzCzRFMAygmCb-UdmJGljJR_VIFuAIrfkMAh2wu4aH-rCYA_2OWoTqldg&s",Military History
 https://fl1.moveonjoy.com/Military_History/index.m3u8
 #EXTINF:-1 group-title="Undefined" tvg-id="MLBNetwork.us@SD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxY9skHz9CW6VAwqApuOn6mIKQXTPGN4sK6lDm6l90XCp7uCievsQJOuHljQ&s",MLB Network
 https://fl1.moveonjoy.com/MLB_NETWORK/index.m3u8
@@ -936,25 +940,9 @@ https://archive.org/download/WRC_20010913_233000_Redskins_Report/WRC_20010913_23
 https://archive.org/download/WCAU_20141002_223000_NBC_Nightly_News/WCAU_20141002_223000_NBC_Nightly_News.mp4?exact=1&start=0&end=300
 #EXTINF:-1 group-title="VOD" ,NBC Nightly News : WCAU : October 23, 2014 6:30pm-7:01pm EDT
 https://archive.org/download/WCAU_20141023_223000_NBC_Nightly_News/WCAU_20141023_223000_NBC_Nightly_News.mp4?exact=1&start=0&end=300
-#EXTM3U url-tvg="https://github.com/LITUATUI/M3UPT/raw/main/EPG/epg-m3upt.xml.xz"
-# M3UPT.com - IPTV playlist in M3U format with TV and radio stations in Portuguese. Public and official streams only.
-# 📺 TV
-#EXTINF:-1 group-title="TV" tvg-id="RTP1.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP1.png",RTP 1
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:144.0) Gecko/20100101 Firefox/144.0
-#EXTVLCOPT:http-origin=https://www.rtp.pt
-#EXTVLCOPT:http-referrer=https://www.rtp.pt/play/direto/rtp1
-https://streaming-live.rtp.pt/liverepeater/smil:rtp1HD.smil/playlist.m3u8
-#EXTINF:-1 group-title="TV" tvg-id="RTP2.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP2.png",RTP 2
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:144.0) Gecko/20100101 Firefox/144.0
-#EXTVLCOPT:http-origin=https://www.rtp.pt
-#EXTVLCOPT:http-referrer=https://www.rtp.pt/play/direto/rtp2
-https://streaming-live.rtp.pt/liverepeater/rtp2HD.smil/playlist.m3u8
-#EXTINF:-1 group-title="TV" tvg-id="SIC.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/SIC.png",SIC
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:144.0) Gecko/20100101 Firefox/144.0
-#EXTVLCOPT:http-origin=https://sic.pt
-#EXTVLCOPT:http-referrer=https://sic.pt/
-https://d1zx6l1dn8vaj5.cloudfront.net/out/v1/b89cc37caa6d418eb423cf092a2ef970/index.m3u8
-#EXTINF:-1 group-title="TV" tvg-id="TVI.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/TVI.png",TVI
+#EXTM3U
+#EXTM3U
+#EXTM3U
 #EXTM3U
 #EXTM3U
 #EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_CH1.xml.gz"
