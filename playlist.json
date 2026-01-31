@@ -195,7 +195,7 @@
     "name": "CNBC",
     "group": "Undefined",
     "tvg_id": "CNBC.us@SD",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTAx13g0Onm_07qrEj5BgYGgz1-molcLYQWvxxJ-GyRBG2YIHt0zelYIpGoyg&s",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMjGhicyxe3VSZUVWP_RiZupH4S3X50YhToGiu_WQvPnhwl8BOYEoXC-hEJSk&s",
     "url": "https://fl1.moveonjoy.com/CNBC/index.m3u8",
     "extra": []
   },
@@ -307,7 +307,7 @@
     "name": "ESPNews (720p)",
     "group": "Undefined",
     "tvg_id": "ESPNews.us@SD",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGZDJ6roGWoCQ6T-2UWvb83QABqe0vqYQ_Abh-Ms5d3vMKF47ijGM3y0VgCw&s",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDyPFWDJrcQ0fZHGJXQURNa8YCuxLG0tgGQ9D4njDx1GniuCNB6kT1NLorAw&s",
     "url": "https://fl1.moveonjoy.com/ESPN_NEWS/index.m3u8",
     "extra": []
   },
@@ -496,14 +496,6 @@
     "extra": []
   },
   {
-    "name": "Lifetime Movies East",
-    "group": "Undefined",
-    "tvg_id": "LifetimeMovies.us@East",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcwrjoTMpq-OvlBBjTJJJv8-Lp4l_aJiqfoEbJ8e04kaarqJiaVtL07J7tkQ&s",
-    "url": "https://fl1.moveonjoy.com/LIFETIME_MOVIE_NETWORK/index.m3u8",
-    "extra": []
-  },
-  {
     "name": "Love Nature",
     "group": "Undefined",
     "tvg_id": "LoveNature.ca@SD",
@@ -539,7 +531,7 @@
     "name": "MLB Network",
     "group": "Undefined",
     "tvg_id": "MLBNetwork.us@SD",
-    "logo": "NoLogoFound.png",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxY9skHz9CW6VAwqApuOn6mIKQXTPGN4sK6lDm6l90XCp7uCievsQJOuHljQ&s",
     "url": "https://fl1.moveonjoy.com/MLB_NETWORK/index.m3u8",
     "extra": []
   },
