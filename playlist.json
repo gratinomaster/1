@@ -280,14 +280,6 @@
     "extra": []
   },
   {
-    "name": "Disney XD (720p)",
-    "group": "Undefined",
-    "tvg_id": "DisneyXD.us@East",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyfVLgCWCjyp2n-JnA4dnMpMS2qAmYtUJFm10eECLm1I7revKkOQfi9pcEOec&s",
-    "url": "http://fl1.moveonjoy.com/DISNEY_XD/index.m3u8",
-    "extra": []
-  },
-  {
     "name": "E! East",
     "group": "Undefined",
     "tvg_id": "E.us@East",
@@ -531,7 +523,7 @@
     "name": "Military History",
     "group": "Undefined",
     "tvg_id": "MilitaryHistory.us@SD",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfStH_XqKNDqcPX36DmWMxMUYhlW-UIbBhYj1n9Y1JXEbRDuWCotvGyfox5QQ&s",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTh0QzCzRFMAygmCb-UdmJGljJR_VIFuAIrfkMAh2wu4aH-rCYA_2OWoTqldg&s",
     "url": "https://fl1.moveonjoy.com/Military_History/index.m3u8",
     "extra": []
   },
@@ -651,7 +643,7 @@
     "name": "Nicktoons East",
     "group": "Undefined",
     "tvg_id": "Nicktoons.us@East",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVWvW8l8cC-7KfgCk8mHfSK5mwnAlg3znwUst4TjhgNYnfIo4RKjt6423fUfY&s",
+    "logo": "NoLogoFound.png",
     "url": "https://fl1.moveonjoy.com/NICKTOONS/index.m3u8",
     "extra": []
   },
