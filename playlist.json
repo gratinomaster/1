@@ -35,7 +35,7 @@
     "name": "ACCN (720p)",
     "group": "Undefined",
     "tvg_id": "ACCNetwork.us@SD",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSzeZRNdxeWZGvXZ0BDt9hmie0UrCUheTUg5Gi3FXOQxJrlM71DBX8CV70Ng&s",
+    "logo": "NoLogoFound.png",
     "url": "https://fl1.moveonjoy.com/ACC_NETWORK/index.m3u8",
     "extra": []
   },
@@ -272,6 +272,22 @@
     "extra": []
   },
   {
+    "name": "Disney Junior East",
+    "group": "Undefined",
+    "tvg_id": "DisneyJunior.us@East",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1WLXZCPurFdD_EGQcf61uRwTTWbj8bAQzUDTdk0RGSf2nrtni3et3FQLPLro&s",
+    "url": "https://fl1.moveonjoy.com/DISNEY_JR/index.m3u8",
+    "extra": []
+  },
+  {
+    "name": "Disney XD (720p)",
+    "group": "Undefined",
+    "tvg_id": "DisneyXD.us@East",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyfVLgCWCjyp2n-JnA4dnMpMS2qAmYtUJFm10eECLm1I7revKkOQfi9pcEOec&s",
+    "url": "http://fl1.moveonjoy.com/DISNEY_XD/index.m3u8",
+    "extra": []
+  },
+  {
     "name": "E! East",
     "group": "Undefined",
     "tvg_id": "E.us@East",
@@ -307,7 +323,7 @@
     "name": "FanDuel TV",
     "group": "Undefined",
     "tvg_id": "FanDuelTV.us@SD",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTvyYGfYRIVt7AeH7VAfK2Zye2DVmkBIIh5yaDcVW3s8KE-pz3Uh8auMz3uHI&s",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHvBcifkT5SUEufVKuMR9tRDphQ5b9ODLUgWVw9ld7zWINQknAvAh4Do5uZg&s",
     "url": "https://fl1.moveonjoy.com/TVG/index.m3u8",
     "extra": []
   },
@@ -499,7 +515,7 @@
     "name": "MeTV",
     "group": "Undefined",
     "tvg_id": "MeTV.us@SD",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKMiJqmUygTKptCim_DuDxQbtt_w4ArfoXU9HVVgtUPgvPXj9sG_vb1fSptw&s",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLvgm96yoJ-u4SX9pzx-Mch8aBHkg0CZOXNTMOP8mtCFbWwlzS_R2Z2hOrCA&s",
     "url": "https://fl1.moveonjoy.com/ME_TV/index.m3u8",
     "extra": []
   },
