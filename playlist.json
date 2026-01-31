@@ -331,7 +331,7 @@
     "name": "FanDuel TV",
     "group": "Undefined",
     "tvg_id": "FanDuelTV.us@SD",
-    "logo": "NoLogoFound.png",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTvyYGfYRIVt7AeH7VAfK2Zye2DVmkBIIh5yaDcVW3s8KE-pz3Uh8auMz3uHI&s",
     "url": "https://fl1.moveonjoy.com/TVG/index.m3u8",
     "extra": []
   },
@@ -421,6 +421,14 @@
     "tvg_id": "GolfChannel.us@SD",
     "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4-H9ZlYqr_xR41ZCz7qH9dBvQO7gNE3j97jIneEa1wTJivEKYgOarRJRonA&s",
     "url": "https://fl1.moveonjoy.com/GOLF/index.m3u8",
+    "extra": []
+  },
+  {
+    "name": "Hallmark Channel East (720p)",
+    "group": "Undefined",
+    "tvg_id": "HallmarkChannel.us@East",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrYXAltDuQRCfH5hiEtyAqE3nCSozQjcuA7tiVJzXOLmI8EnOowpyH4lQEU64&s",
+    "url": "https://fl1.moveonjoy.com/HALLMARK_CHANNEL/index.m3u8",
     "extra": []
   },
   {
@@ -515,7 +523,7 @@
     "name": "MGM+ East",
     "group": "Undefined",
     "tvg_id": "MGMPlus.us@East",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMg2mXNwqWFNLAVLXnNXzevcmvFx8pUmF3cDdJ0mx24OquFs7LJ2Ux-wGp3A0&s",
+    "logo": "NoLogoFound.png",
     "url": "https://fl1.moveonjoy.com/EPIX/index.m3u8",
     "extra": []
   },
@@ -539,7 +547,7 @@
     "name": "MSG",
     "group": "Undefined",
     "tvg_id": "MSG.us@SD",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTprZw6nTyp8SaEMgFPFaUdkA1TF564JrRgvaUp4pMmtG9spGp8E5ZHAPZ1_A&s",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqx5l4FPq_36mz13zxaR4Rodgf9qqcPURGC4QOWOd-nxF_fiaWVBcKRHuOwA&s",
     "url": "https://fl1.moveonjoy.com/MSG/index.m3u8",
     "extra": []
   },
@@ -571,7 +579,7 @@
     "name": "MTV Live (720p)",
     "group": "Undefined",
     "tvg_id": "MTVLive.us@SD",
-    "logo": "NoLogoFound.png",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9f1e5bjDZbXKqBaZqb3t79XypXfE98t0jAi-RXAXTebE6K7MzD1hPYmav6g&s",
     "url": "https://fl1.moveonjoy.com/MTV_LIVE/index.m3u8",
     "extra": []
   },
@@ -635,7 +643,7 @@
     "name": "Nickelodeon East",
     "group": "Undefined",
     "tvg_id": "Nickelodeon.us@East",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTR06F-c2lbNu1PRgS5mNiyCeypF7GfgAlNbz4B1-vv7Cs7dcZYnHd1Trm0x7M&s",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJhG-iTKa6uAXxZHYxuxUsx_akndAsMSVNLtvbeBm2NJksaLdt7FtH9cJYXg&s",
     "url": "https://fl1.moveonjoy.com/NICKELODEON/index.m3u8",
     "extra": []
   },
