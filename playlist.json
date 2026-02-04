@@ -243,7 +243,7 @@
     "name": "Crave 1",
     "group": "Undefined",
     "tvg_id": "Crave1.ca@SD",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHEt_FYzKWLRWzXdJ7omldMAkWsR23ctT7_XsoB12QlaDxiy24vZ6uwYjRNg&s",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlC6ylSCcWPYWYIjvxPNf2UAFPWDLvFZGnakmPpYX6s4zf49LHHUlA3Y76Fg&s",
     "url": "https://fl1.moveonjoy.com/CRAVE_1/index.m3u8",
     "extra": []
   },
@@ -275,7 +275,7 @@
     "name": "Disney Junior East",
     "group": "Undefined",
     "tvg_id": "DisneyJunior.us@East",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1WLXZCPurFdD_EGQcf61uRwTTWbj8bAQzUDTdk0RGSf2nrtni3et3FQLPLro&s",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRv3Lu1wZ1IsytXhv4CVq85izAJV6f9seYqmS3BHnUSqP1YZ9B585lJJGYN8A&s",
     "url": "https://fl1.moveonjoy.com/DISNEY_JR/index.m3u8",
     "extra": []
   },
@@ -291,7 +291,7 @@
     "name": "E! East",
     "group": "Undefined",
     "tvg_id": "E.us@East",
-    "logo": "NoLogoFound.png",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcg4PsKsEnbmA6Q93eqk6CKgor_Jv7LXbkwhfYnPPbZ8gV8G1fM8gwXueihw&s",
     "url": "https://fl1.moveonjoy.com/E_ENTERTAINMENT_TELEVISION/index.m3u8",
     "extra": []
   },
@@ -299,7 +299,7 @@
     "name": "ESPN U (720p)",
     "group": "Undefined",
     "tvg_id": "ESPNU.us@SD",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBCZdEHjaPfo9iuR-VWzLEw62W8_A3GACCgHs1z5wJF-ZAsd_YHA7TTRET-A&s",
+    "logo": "NoLogoFound.png",
     "url": "https://fl1.moveonjoy.com/ESPN_U/index.m3u8",
     "extra": []
   },
@@ -419,7 +419,7 @@
     "name": "Golf Channel",
     "group": "Undefined",
     "tvg_id": "GolfChannel.us@SD",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpNZ8ecdrpbXu6FMlXHwn80QWf72EvFqoDighuqVtwr36IyB59YdtSSPHNAA&s",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTe4PoMNMTB5QtcbEjeLxEnqDLUYKr4JATM-rtf6xb26B5vl5gOphqZagInFw&s",
     "url": "https://fl1.moveonjoy.com/GOLF/index.m3u8",
     "extra": []
   },
@@ -493,14 +493,6 @@
     "tvg_id": "Lifetime.us@East",
     "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpgMV-fk0qBj8klYOExpm_RuJMj-2Cu-kMn33JkvqY30Sj5B-CG16argvF0w&s",
     "url": "https://fl1.moveonjoy.com/LIFETIME/index.m3u8",
-    "extra": []
-  },
-  {
-    "name": "Lifetime Movies East",
-    "group": "Undefined",
-    "tvg_id": "LifetimeMovies.us@East",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcwrjoTMpq-OvlBBjTJJJv8-Lp4l_aJiqfoEbJ8e04kaarqJiaVtL07J7tkQ&s",
-    "url": "https://fl1.moveonjoy.com/LIFETIME_MOVIE_NETWORK/index.m3u8",
     "extra": []
   },
   {
@@ -699,7 +691,7 @@
     "name": "QVC (720p)",
     "group": "Undefined",
     "tvg_id": "QVC.us@SD",
-    "logo": "NoLogoFound.png",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6XAxEl633njNibVe-JlkXx8IQGmk4S9cjPdBYr_voyGnbvMNn6DCCUFXQyjk&s",
     "url": "https://fl1.moveonjoy.com/QVC/index.m3u8",
     "extra": []
   },
@@ -707,7 +699,7 @@
     "name": "Reelz (720p)",
     "group": "Undefined",
     "tvg_id": "Reelz.us@SD",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpdAajduhiFaFY7FS4VsVYouaCDHagQH15XWYLwPj2_Mwfwaz9oP3gDxSygw&s",
+    "logo": "NoLogoFound.png",
     "url": "https://fl1.moveonjoy.com/REELZ/index.m3u8",
     "extra": []
   },
