@@ -115,7 +115,7 @@
     "name": "Big Ten Network",
     "group": "Undefined",
     "tvg_id": "BigTenNetwork.us@SD",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRK0Y7u09OVvuVliUfEzZkeQIYjKOxuMOWR0NAII3JCYMYjzLW3F6spanRjv5s&s",
+    "logo": "NoLogoFound.png",
     "url": "https://fl1.moveonjoy.com/BIG_TEN_NETWORK/index.m3u8",
     "extra": []
   },
@@ -275,7 +275,7 @@
     "name": "Disney Junior East",
     "group": "Undefined",
     "tvg_id": "DisneyJunior.us@East",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRv3Lu1wZ1IsytXhv4CVq85izAJV6f9seYqmS3BHnUSqP1YZ9B585lJJGYN8A&s",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1WLXZCPurFdD_EGQcf61uRwTTWbj8bAQzUDTdk0RGSf2nrtni3et3FQLPLro&s",
     "url": "https://fl1.moveonjoy.com/DISNEY_JR/index.m3u8",
     "extra": []
   },
@@ -299,7 +299,7 @@
     "name": "ESPN U (720p)",
     "group": "Undefined",
     "tvg_id": "ESPNU.us@SD",
-    "logo": "NoLogoFound.png",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBCZdEHjaPfo9iuR-VWzLEw62W8_A3GACCgHs1z5wJF-ZAsd_YHA7TTRET-A&s",
     "url": "https://fl1.moveonjoy.com/ESPN_U/index.m3u8",
     "extra": []
   },
@@ -459,7 +459,7 @@
     "name": "HSN",
     "group": "Undefined",
     "tvg_id": "HSN.us@East",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGXVfz6W0QNrgZRw-bdJZGnDSFmUwzOnWpTceRnAc3XQVjhwA1jPnZlQe0UA&s",
+    "logo": "NoLogoFound.png",
     "url": "https://fl1.moveonjoy.com/HSN/index.m3u8",
     "extra": []
   },
@@ -493,6 +493,14 @@
     "tvg_id": "Lifetime.us@East",
     "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpgMV-fk0qBj8klYOExpm_RuJMj-2Cu-kMn33JkvqY30Sj5B-CG16argvF0w&s",
     "url": "https://fl1.moveonjoy.com/LIFETIME/index.m3u8",
+    "extra": []
+  },
+  {
+    "name": "Lifetime Movies East",
+    "group": "Undefined",
+    "tvg_id": "LifetimeMovies.us@East",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcwrjoTMpq-OvlBBjTJJJv8-Lp4l_aJiqfoEbJ8e04kaarqJiaVtL07J7tkQ&s",
+    "url": "https://fl1.moveonjoy.com/LIFETIME_MOVIE_NETWORK/index.m3u8",
     "extra": []
   },
   {
@@ -619,7 +627,7 @@
     "name": "Nick Jr. East (720p)",
     "group": "Undefined",
     "tvg_id": "NickJr.us@East",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyJSw3Dl6Ruitgnp0cee34EGK8_sB61UYz4-bmvJCpNNWdaPg3UPEbfh6czw&s",
+    "logo": "NoLogoFound.png",
     "url": "https://fl1.moveonjoy.com/NICK_JR/index.m3u8",
     "extra": []
   },
@@ -683,7 +691,7 @@
     "name": "Pop TV",
     "group": "Undefined",
     "tvg_id": "PopTV.us@SD",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1T5VLNbI0mezODDU-z4ZUvaA7Jf_XYrJnJKXzYl_TOATKMt29w34HKe7KVA&s",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROsHfPmt-LOUTdT7snhGXRF-Pj73V18QKCnTJD0Z_4yozfqXeMWnYLSJ-Vzg&s",
     "url": "https://fl1.moveonjoy.com/Pop_TV/index.m3u8",
     "extra": []
   },
@@ -699,7 +707,7 @@
     "name": "Reelz (720p)",
     "group": "Undefined",
     "tvg_id": "Reelz.us@SD",
-    "logo": "NoLogoFound.png",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpdAajduhiFaFY7FS4VsVYouaCDHagQH15XWYLwPj2_Mwfwaz9oP3gDxSygw&s",
     "url": "https://fl1.moveonjoy.com/REELZ/index.m3u8",
     "extra": []
   },
