@@ -27,7 +27,7 @@
     "name": "ABC Chicago WLS-DT1",
     "group": "Undefined",
     "tvg_id": "WLSDT1.us@SD",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYChR3urmj30MCN3A6D1zKh6wYHum4BnkMWmwTnE4Jk3Io22lHTso0EJlw3Q&s",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmU3EIPd2QDD29xjDIiBxSpiJWx5OYvNGa3_82DvowRw_kloXrfGuaQzcOBtI&s",
     "url": "https://fl1.moveonjoy.com/IL_CHICAGO_ABC/index.m3u8",
     "extra": []
   },
@@ -243,7 +243,7 @@
     "name": "Crave 1",
     "group": "Undefined",
     "tvg_id": "Crave1.ca@SD",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHEt_FYzKWLRWzXdJ7omldMAkWsR23ctT7_XsoB12QlaDxiy24vZ6uwYjRNg&s",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlC6ylSCcWPYWYIjvxPNf2UAFPWDLvFZGnakmPpYX6s4zf49LHHUlA3Y76Fg&s",
     "url": "https://fl1.moveonjoy.com/CRAVE_1/index.m3u8",
     "extra": []
   },
@@ -272,6 +272,14 @@
     "extra": []
   },
   {
+    "name": "Disney Junior East",
+    "group": "Undefined",
+    "tvg_id": "DisneyJunior.us@East",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1WLXZCPurFdD_EGQcf61uRwTTWbj8bAQzUDTdk0RGSf2nrtni3et3FQLPLro&s",
+    "url": "https://fl1.moveonjoy.com/DISNEY_JR/index.m3u8",
+    "extra": []
+  },
+  {
     "name": "Disney XD (720p)",
     "group": "Undefined",
     "tvg_id": "DisneyXD.us@East",
@@ -285,6 +293,22 @@
     "tvg_id": "E.us@East",
     "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcg4PsKsEnbmA6Q93eqk6CKgor_Jv7LXbkwhfYnPPbZ8gV8G1fM8gwXueihw&s",
     "url": "https://fl1.moveonjoy.com/E_ENTERTAINMENT_TELEVISION/index.m3u8",
+    "extra": []
+  },
+  {
+    "name": "ESPN U (720p)",
+    "group": "Undefined",
+    "tvg_id": "ESPNU.us@SD",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBCZdEHjaPfo9iuR-VWzLEw62W8_A3GACCgHs1z5wJF-ZAsd_YHA7TTRET-A&s",
+    "url": "https://fl1.moveonjoy.com/ESPN_U/index.m3u8",
+    "extra": []
+  },
+  {
+    "name": "ESPNews (720p)",
+    "group": "Undefined",
+    "tvg_id": "ESPNews.us@SD",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoLmawdNhtBBthoyh5k1uYX9RV14siV4bMHx8-bzSUBN1O0CGOmxZNTFDS8A&s",
+    "url": "https://fl1.moveonjoy.com/ESPN_NEWS/index.m3u8",
     "extra": []
   },
   {
@@ -355,7 +379,7 @@
     "name": "FX East",
     "group": "Undefined",
     "tvg_id": "FX.us@East",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuvD65J-hBiT6kIRZugMLTnE16kJq8T6G_v9TXFPAwzYtWkuSJ_1xA2K9u0g&s",
+    "logo": "NoLogoFound.png",
     "url": "https://fl1.moveonjoy.com/FX/index.m3u8",
     "extra": []
   },
@@ -445,6 +469,14 @@
     "tvg_id": "INSP.us@SD",
     "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-Q-XuVs3ii14-RP_Q-L2Z3D-saYeupsejDT2n0fY040o34_essylr_BMp_Cs&s",
     "url": "https://fl1.moveonjoy.com/INSP/index.m3u8",
+    "extra": []
+  },
+  {
+    "name": "ION Plus East (720p)",
+    "group": "Undefined",
+    "tvg_id": "IONPlus.us@East",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQu-nTvp6wHyow-Nu891yRnIbtFdTrRgyl7reRbAyWt0C7uql7YrwLKRaqV7g&s",
+    "url": "https://fl1.moveonjoy.com/ION_Plus/index.m3u8",
     "extra": []
   },
   {
@@ -603,7 +635,7 @@
     "name": "Outdoor Channel",
     "group": "Undefined",
     "tvg_id": "OutdoorChannel.us@SD",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQShv5ju4_2FlUfsYxp1hB7DOEoG0OwgmZm-RpJTTJkXsuUjGIfeFAOsr-fnw&s",
+    "logo": "NoLogoFound.png",
     "url": "https://fl1.moveonjoy.com/OUTDOOR_CHANNEL/index.m3u8",
     "extra": []
   },
@@ -659,7 +691,7 @@
     "name": "Reelz (720p)",
     "group": "Undefined",
     "tvg_id": "Reelz.us@SD",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpdAajduhiFaFY7FS4VsVYouaCDHagQH15XWYLwPj2_Mwfwaz9oP3gDxSygw&s",
+    "logo": "NoLogoFound.png",
     "url": "https://fl1.moveonjoy.com/REELZ/index.m3u8",
     "extra": []
   },
@@ -683,7 +715,7 @@
     "name": "Showtime East",
     "group": "Undefined",
     "tvg_id": "Showtime.us@East",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpJMZOoInEKEiueehbUTNtLiF1xBZkeOvamXf4agfjYRvhLrJUG9DNmnfNwg&s",
+    "logo": "NoLogoFound.png",
     "url": "https://fl1.moveonjoy.com/SHOWTIME/index.m3u8",
     "extra": []
   }
