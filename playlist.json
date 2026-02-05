@@ -96,6 +96,14 @@
     "extra": []
   },
   {
+    "name": "BET Jams",
+    "group": "Undefined",
+    "tvg_id": "BETJams.us@SD",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFveQqkvHlSpyHdVqggHfhxOmr7CLzdbnpTvFKpjv2oLPRh1FN02aFBJ1O0ec&s",
+    "url": "https://fl1.moveonjoy.com/BET_Jams/index.m3u8",
+    "extra": []
+  },
+  {
     "name": "BET Soul",
     "group": "Undefined",
     "tvg_id": "BETSoul.us@SD",
@@ -131,7 +139,7 @@
     "name": "Bravo East",
     "group": "Undefined",
     "tvg_id": "Bravo.us@East",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlxql5ecbVHW_O86PKzWovdpMonasYjIbyMHf-7mJF-7m5waxeR970KlpCjA&s",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMR_xuPMi1UUK9orXDyZIPzcs07vws6D4CKenub8eRDtXcmYHbQDSxoLaBHok&s",
     "url": "https://fl1.moveonjoy.com/BRAVO/index.m3u8",
     "extra": []
   },
@@ -147,7 +155,7 @@
     "name": "C-SPAN",
     "group": "Undefined",
     "tvg_id": "CSPAN.us@SD",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGj9IUn1A-8IvoK-Xf47hiBAhlyDauQHJxXdQMBIc2iHjOzbLixZ__H651kw&s",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvcVBV2Vo5T3QXeWfZPrYJ5uq2XByrfZxC7MXQP87gMM5dHnU0XKH-A6cbulE&s",
     "url": "https://fl1.moveonjoy.com/C-SPAN/index.m3u8",
     "extra": []
   },
@@ -331,7 +339,7 @@
     "name": "FOX Chicago WFLD-DT1",
     "group": "Undefined",
     "tvg_id": "WFLDDT1.us@SD",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSO6GA8WWp0A3qTAfjHpqu0vxDYfE4rFW1Vk54_q3J2g6yJyEY3nbw76hiCFhI&s",
+    "logo": "NoLogoFound.png",
     "url": "https://fl1.moveonjoy.com/IL_Chicago_FOX/index.m3u8",
     "extra": []
   },
@@ -403,7 +411,7 @@
     "name": "GetTV (480p)",
     "group": "Undefined",
     "tvg_id": "GetTV.us@SD",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFKUxDfgAWlyZKwmANuFaALOuSYNrh5RyrVR6s3OzTJ_kU1NuXXu1y0IjV688&s",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgwkTpqYuTq-WVfl-p2Z5eiiWS8YKME0jaCwTnIOgOs3mtDxfMb6O00swH0qo&s",
     "url": "https://fl1.moveonjoy.com/GET_TV/index.m3u8",
     "extra": []
   },
@@ -488,14 +496,6 @@
     "extra": []
   },
   {
-    "name": "Lifetime Movies East",
-    "group": "Undefined",
-    "tvg_id": "LifetimeMovies.us@East",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcwrjoTMpq-OvlBBjTJJJv8-Lp4l_aJiqfoEbJ8e04kaarqJiaVtL07J7tkQ&s",
-    "url": "https://fl1.moveonjoy.com/LIFETIME_MOVIE_NETWORK/index.m3u8",
-    "extra": []
-  },
-  {
     "name": "MeTV",
     "group": "Undefined",
     "tvg_id": "MeTV.us@SD",
@@ -539,7 +539,7 @@
     "name": "MTV2 (720p)",
     "group": "Undefined",
     "tvg_id": "MTV2.us@East",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1nyW7qeURcmnFqOfsITA3ffCL1vfjK95hgEKmCOx-nd26T87KOnS9xSrrgQ&s",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1T47jCzkhuKVzFtfZfK52TrELxhf4YZ_11iP_fxrcXE2mfvYQdWu87XssGQ&s",
     "url": "https://fl1.moveonjoy.com/MTV_2/index.m3u8",
     "extra": []
   },
@@ -611,7 +611,7 @@
     "name": "News Nation (720p)",
     "group": "Undefined",
     "tvg_id": "NewsNation.us@East",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpfdsRzCvxm5KARlPAFL37rp5jn2QGNfCv9R8lIIfgHVPEK8cH8stXGsv2oeU&s",
+    "logo": "NoLogoFound.png",
     "url": "https://fl1.moveonjoy.com/NEWS_NATION/index.m3u8",
     "extra": []
   },
@@ -619,7 +619,7 @@
     "name": "Nick Jr. East (720p)",
     "group": "Undefined",
     "tvg_id": "NickJr.us@East",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyJSw3Dl6Ruitgnp0cee34EGK8_sB61UYz4-bmvJCpNNWdaPg3UPEbfh6czw&s",
+    "logo": "NoLogoFound.png",
     "url": "https://fl1.moveonjoy.com/NICK_JR/index.m3u8",
     "extra": []
   },
@@ -667,7 +667,7 @@
     "name": "Oxygen East",
     "group": "Undefined",
     "tvg_id": "Oxygen.us@East",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNDLzaflk4VSf7rgCFajf43wHtBvj3TYWzyXdHQ1sSqH_EtP9SYWE-IMSwEZo&s",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsllYpBegEuyfOo0wekWlBh3gT1VzJJOqv35LdKJ8e5XkMnMQMwxWkMfCBrg&s",
     "url": "https://fl1.moveonjoy.com/OXYGEN/index.m3u8",
     "extra": []
   },
