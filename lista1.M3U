@@ -23,7 +23,7 @@ https://fl1.moveonjoy.com/BBC_AMERICA/index.m3u8
 https://fl1.moveonjoy.com/BBC_WORLD_NEWS/index.m3u8
 #EXTINF:-1 group-title="Undefined" tvg-id="BETGospel.us@SD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzOYNEL4_YxJIUvId9yCVRPfR-gOziSdl81byTMUXbiNgQkMgW02qABtv4og&s",BET Gospel
 https://fl1.moveonjoy.com/BET_GOSPEL/index.m3u8
-#EXTINF:-1 group-title="Undefined" tvg-id="BETHer.us@East" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtZE8f0rfYuGUIgiIaMk_EUJS8ildEZNIDNSZl6quDVgF7ecbe6KGg6Iqs9Q&s",BET Her East
+#EXTINF:-1 group-title="Undefined" tvg-id="BETHer.us@East" tvg-logo="NoLogoFound.png",BET Her East
 https://fl1.moveonjoy.com/BET_HER/index.m3u8
 #EXTINF:-1 group-title="Undefined" tvg-id="BETJams.us@SD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFveQqkvHlSpyHdVqggHfhxOmr7CLzdbnpTvFKpjv2oLPRh1FN02aFBJ1O0ec&s",BET Jams
 https://fl1.moveonjoy.com/BET_Jams/index.m3u8
@@ -41,9 +41,9 @@ https://fl1.moveonjoy.com/BRAVO/index.m3u8
 https://fl1.moveonjoy.com/Buzzr/index.m3u8
 #EXTINF:-1 group-title="Undefined" tvg-id="CSPAN.us@SD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvcVBV2Vo5T3QXeWfZPrYJ5uq2XByrfZxC7MXQP87gMM5dHnU0XKH-A6cbulE&s",C-SPAN
 https://fl1.moveonjoy.com/C-SPAN/index.m3u8
-#EXTINF:-1 group-title="Undefined" tvg-id="WBBMDT1.us@SD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKcsVtnP6Fr04_4l1-RpzlKdk8OsfI-OrP5-l7v4qw2H5nPo8NVeE1_XFPVQ&s",CBS Chicago WBBM-DT1
+#EXTINF:-1 group-title="Undefined" tvg-id="WBBMDT1.us@SD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBAoenfdE7ekxzSx_fYtOPVOBNLD8lcmoTtmB3dNdqj4Ssu7sMa_znxYWgOR0&s",CBS Chicago WBBM-DT1
 https://fl1.moveonjoy.com/IL_Chicago_CBS/index.m3u8
-#EXTINF:-1 group-title="Undefined" tvg-id="CBSSportsNetworkUSA.us@SD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFziAr9kYTal5H_tUDVJ5yxVxsZrHWjySjhoKv1xW7ANHCZNX8L0MUCko7pHw&s",CBS Sports Network USA
+#EXTINF:-1 group-title="Undefined" tvg-id="CBSSportsNetworkUSA.us@SD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfcX4d8MurOb3Le1yVXLns8VcNxyMS7WiZMVzUS2iXXsgsqFLeGoy5MAG2RA&s",CBS Sports Network USA
 https://fl1.moveonjoy.com/CBS_SPORTS_NETWORK/index.m3u8
 #EXTINF:-1 group-title="Undefined" tvg-id="CleoTV.us@SD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToYgUVg-Oc6ekdlp0AvjZq1OJmY6ghTrSH3qGFq_5YvBwHHIECKLh98pS6d3o&s",Cleo TV (720p)
 https://fl1.moveonjoy.com/Cleo_TV/index.m3u8
@@ -51,13 +51,13 @@ https://fl1.moveonjoy.com/Cleo_TV/index.m3u8
 https://fl1.moveonjoy.com/CMT/index.m3u8
 #EXTINF:-1 group-title="Undefined" tvg-id="CNBC.us@SD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZ5hHeRydn2jwZarquIwk8a00zMk5aIxTyAXymep5u3Mb-DQazVyCLyZseig&s",CNBC
 https://fl1.moveonjoy.com/CNBC/index.m3u8
-#EXTINF:-1 group-title="Undefined" tvg-id="CNBCWorld.us@SD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR02c5S1BWClr8_pkh8gtH-2gA00ZqmjRVd49laZsU7-hqmxJZl7DnqoC427Q&s",CNBC World
+#EXTINF:-1 group-title="Undefined" tvg-id="CNBCWorld.us@SD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzkHpuJcd8FrulURe_o-vk02t-RudizWVhQB7cjyUCieG2iTl8tTR4pnBGHg&s",CNBC World
 https://fl1.moveonjoy.com/CNBC_World/index.m3u8
 #EXTINF:-1 group-title="Undefined" tvg-id="ComedyTV.us@SD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRL7MPgfdJcglEuw8imSTBlBvr-yOzNjWTb6J7C_KpTD2DghIcJeQD0pS4lrA&s",Comedy TV
 https://fl1.moveonjoy.com/Comedy_TV/index.m3u8
 #EXTINF:-1 group-title="Undefined" tvg-id="Comet.us@SD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQW6i_jEqPi-1YmUFljlsRcJux3LnB49ZjUBKSZ-g8Tb_rCEXCEsLYT3DfhxA&s",Comet
 https://fl1.moveonjoy.com/COMET/index.m3u8
-#EXTINF:-1 group-title="Undefined" tvg-id="CourtTV.us@SD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEtxNrOFK3HZORn5ezGOb02J_zaZZoxkXYo-SubKG-RoYR9dP-AC6Gx5KTIQ&s",Court TV
+#EXTINF:-1 group-title="Undefined" tvg-id="CourtTV.us@SD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKg3Pn1vX-PAc-XOitsUvvISu6ckNy3RA0qG3N7ggemxijoXjitgUal14kKD0&s",Court TV
 https://fl1.moveonjoy.com/COURT_TV/index.m3u8
 #EXTINF:-1 group-title="Undefined" tvg-id="CoziTV.us@SD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_K8Xnc0fmMDg7XLzhzTAN-n_r2G_wRipG4zd6CIvvzpqY2kfyFCXrwgCUbAQ&s",Cozi TV
 https://fl1.moveonjoy.com/COZI_TV/index.m3u8
@@ -119,7 +119,7 @@ https://fl1.moveonjoy.com/HSN/index.m3u8
 https://fl1.moveonjoy.com/INSP/index.m3u8
 #EXTINF:-1 group-title="Undefined" tvg-id="IONPlus.us@East" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8BXKDAFU823ScJXlaTYI0WRuNkX8u6CTtx1ymFK8hswnFM6sepaWLoIYu-g&s",ION Plus East (720p)
 https://fl1.moveonjoy.com/ION_Plus/index.m3u8
-#EXTINF:-1 group-title="Undefined" tvg-id="IONTV.us@East" tvg-logo="NoLogoFound.png",ION TV East
+#EXTINF:-1 group-title="Undefined" tvg-id="IONTV.us@East" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWYtvqq7ZIrLypDDhElKJOSZ1rNFkYDt8NlRSLu8Uj56hwz9u1TEqFnd0whg&s",ION TV East
 https://fl1.moveonjoy.com/ION_TV/index.m3u8
 #EXTINF:-1 group-title="Undefined" tvg-id="Lifetime.us@East" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpgMV-fk0qBj8klYOExpm_RuJMj-2Cu-kMn33JkvqY30Sj5B-CG16argvF0w&s",Lifetime East
 https://fl1.moveonjoy.com/LIFETIME/index.m3u8
@@ -161,7 +161,7 @@ https://fl1.moveonjoy.com/NEWS_NATION/index.m3u8
 https://fl1.moveonjoy.com/NICK_JR/index.m3u8
 #EXTINF:-1 group-title="Undefined" tvg-id="Nickelodeon.us@East" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJhG-iTKa6uAXxZHYxuxUsx_akndAsMSVNLtvbeBm2NJksaLdt7FtH9cJYXg&s",Nickelodeon East
 https://fl1.moveonjoy.com/NICKELODEON/index.m3u8
-#EXTINF:-1 group-title="Undefined" tvg-id="Nicktoons.us@East" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVWvW8l8cC-7KfgCk8mHfSK5mwnAlg3znwUst4TjhgNYnfIo4RKjt6423fUfY&s",Nicktoons East
+#EXTINF:-1 group-title="Undefined" tvg-id="Nicktoons.us@East" tvg-logo="NoLogoFound.png",Nicktoons East
 https://fl1.moveonjoy.com/NICKTOONS/index.m3u8
 #EXTINF:-1 group-title="Undefined" tvg-id="OutdoorChannel.us@SD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQShv5ju4_2FlUfsYxp1hB7DOEoG0OwgmZm-RpJTTJkXsuUjGIfeFAOsr-fnw&s",Outdoor Channel
 https://fl1.moveonjoy.com/OUTDOOR_CHANNEL/index.m3u8
@@ -171,6 +171,8 @@ https://fl1.moveonjoy.com/OUTSIDE_TV/index.m3u8
 https://fl1.moveonjoy.com/Ovation/index.m3u8
 #EXTINF:-1 group-title="Undefined" tvg-id="Oxygen.us@East" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNDLzaflk4VSf7rgCFajf43wHtBvj3TYWzyXdHQ1sSqH_EtP9SYWE-IMSwEZo&s",Oxygen East
 https://fl1.moveonjoy.com/OXYGEN/index.m3u8
+#EXTINF:-1 group-title="Undefined" tvg-id="ParamountNetwork.us@East" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSW981-bmma_Pp0zuOMJ-0KddHF0oOIK3hjH5tkZo2uZVrJOpRWxSrpN1xgLjM&s",Paramount Network East
+https://fl1.moveonjoy.com/PARAMOUNT_NETWORK/index.m3u8
 #EXTINF:-1 group-title="Undefined" tvg-id="PopTV.us@SD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1T5VLNbI0mezODDU-z4ZUvaA7Jf_XYrJnJKXzYl_TOATKMt29w34HKe7KVA&s",Pop TV
 https://fl1.moveonjoy.com/Pop_TV/index.m3u8
 #EXTINF:-1 group-title="Undefined" tvg-id="QVC.us@SD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6XAxEl633njNibVe-JlkXx8IQGmk4S9cjPdBYr_voyGnbvMNn6DCCUFXQyjk&s",QVC (720p)
@@ -940,8 +942,25 @@ https://archive.org/download/WRC_20010913_233000_Redskins_Report/WRC_20010913_23
 https://archive.org/download/WCAU_20141002_223000_NBC_Nightly_News/WCAU_20141002_223000_NBC_Nightly_News.mp4?exact=1&start=0&end=300
 #EXTINF:-1 group-title="VOD" ,Speaker Nancy Pelosi Calls Trump’s Warnings About Investigations A ‘Threat' | Hardball | MSNBC
 https://archive.org/download/youtube-XH_WM0I-ra4/XH_WM0I-ra4.mp4
-#EXTM3U
-#EXTM3U
+#EXTM3U url-tvg="https://github.com/LITUATUI/M3UPT/raw/main/EPG/epg-m3upt.xml.xz"
+# M3UPT.com - IPTV playlist in M3U format with TV and radio stations in Portuguese. Public and official streams only.
+# 📺 TV
+#EXTINF:-1 group-title="TV" tvg-id="RTP1.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP1.png",RTP 1
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:144.0) Gecko/20100101 Firefox/144.0
+#EXTVLCOPT:http-origin=https://www.rtp.pt
+#EXTVLCOPT:http-referrer=https://www.rtp.pt/play/direto/rtp1
+https://streaming-live.rtp.pt/liverepeater/smil:rtp1HD.smil/playlist.m3u8
+#EXTINF:-1 group-title="TV" tvg-id="RTP2.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP2.png",RTP 2
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:144.0) Gecko/20100101 Firefox/144.0
+#EXTVLCOPT:http-origin=https://www.rtp.pt
+#EXTVLCOPT:http-referrer=https://www.rtp.pt/play/direto/rtp2
+https://streaming-live.rtp.pt/liverepeater/rtp2HD.smil/playlist.m3u8
+#EXTINF:-1 group-title="TV" tvg-id="SIC.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/SIC.png",SIC
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:144.0) Gecko/20100101 Firefox/144.0
+#EXTVLCOPT:http-origin=https://sic.pt
+#EXTVLCOPT:http-referrer=https://sic.pt/
+https://d1zx6l1dn8vaj5.cloudfront.net/out/v1/b89cc37caa6d418eb423cf092a2ef970/index.m3u8
+#EXTINF:-1 group-title="TV" tvg-id="TVI.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/TVI.png",TVI
 #EXTM3U
 #EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_CH1.xml.gz"
 #EXTINF:-1 group-title="CHILE" tvg-chno="1223" tvg-id="UCVTV.cl" tvg-logo="https://pbs.twimg.com/profile_images/1283856690648096770/L-vGlyO4_400x400.png" , UCV HD
