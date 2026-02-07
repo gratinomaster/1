@@ -1,16 +1,25 @@
-[2026-02-07 15:30:42] ============================================================
-[2026-02-07 15:30:42] INICIANDO PROCESSAMENTO
-[2026-02-07 15:30:42] ============================================================
-[2026-02-07 15:30:42] Processando URL: https://archive.org/details/sic-archives/1992.sic.+SiC+Abertura.mp4
-[2026-02-07 15:30:42]   Tipo detectado: archive_collection
-[2026-02-07 15:30:42]   Tentando método: --flat-playlist
-[2026-02-07 15:30:43]   ✓ Extraídos 1 item(s) com sucesso
-[2026-02-07 15:30:43] Criando arquivo M3U: lista30.M3U
-[2026-02-07 15:30:43] ✓ Arquivo lista30.M3U criado com sucesso
-[2026-02-07 15:30:43] ============================================================
-[2026-02-07 15:30:43] RESUMO DO PROCESSAMENTO:
-[2026-02-07 15:30:43]   URLs processadas: 1
-[2026-02-07 15:30:43]   Sucessos: 1
-[2026-02-07 15:30:43]   Falhas: 0
-[2026-02-07 15:30:43]   Total de itens extraídos: 1
-[2026-02-07 15:30:43] ============================================================
+[2026-02-07 15:34:39] ============================================================
+[2026-02-07 15:34:39] INICIANDO PROCESSAMENTO
+[2026-02-07 15:34:39] ============================================================
+[2026-02-07 15:34:39] Processando URL: https://archive.org/search?query=subject%3A"SIC"
+[2026-02-07 15:34:39]   Tipo detectado: single_video
+[2026-02-07 15:34:39]   Tentando método: -j (JSON completo)
+[2026-02-07 15:34:40]   ✗ Método -j falhou: CalledProcessError
+[2026-02-07 15:34:40]   Tentando método: --flat-playlist
+[2026-02-07 15:34:42]   ✗ Método --flat-playlist falhou: CalledProcessError
+[2026-02-07 15:34:42]   Tentando método: --print urls
+[2026-02-07 15:34:43]   ✗ Método --print urls falhou: CalledProcessError
+[2026-02-07 15:34:43]   ✗ Nenhum item extraído
+[2026-02-07 15:34:43] Processando URL: https://archive.org/details/sic-archives/
+[2026-02-07 15:34:43]   Tipo detectado: archive_collection
+[2026-02-07 15:34:43]   Tentando método: --flat-playlist
+[2026-02-07 15:34:45]   ✓ Extraídos 194 item(s) com sucesso
+[2026-02-07 15:34:45] Criando arquivo M3U: lista30.M3U
+[2026-02-07 15:34:45] ✓ Arquivo lista30.M3U criado com sucesso
+[2026-02-07 15:34:45] ============================================================
+[2026-02-07 15:34:45] RESUMO DO PROCESSAMENTO:
+[2026-02-07 15:34:45]   URLs processadas: 2
+[2026-02-07 15:34:45]   Sucessos: 1
+[2026-02-07 15:34:45]   Falhas: 1
+[2026-02-07 15:34:45]   Total de itens extraídos: 194
+[2026-02-07 15:34:45] ============================================================
