@@ -27,7 +27,7 @@
     "name": "ABC Chicago WLS-DT1",
     "group": "Undefined",
     "tvg_id": "WLSDT1.us@SD",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjfx0-M6G7GuLG5oHnpeL1ejTIyUIckNk7M-9oy1k0EAfdCglPr4RfjSXp7Rs&s",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYChR3urmj30MCN3A6D1zKh6wYHum4BnkMWmwTnE4Jk3Io22lHTso0EJlw3Q&s",
     "url": "https://fl1.moveonjoy.com/IL_CHICAGO_ABC/index.m3u8",
     "extra": []
   },
@@ -195,7 +195,7 @@
     "name": "CNBC",
     "group": "Undefined",
     "tvg_id": "CNBC.us@SD",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhlTwG6Toi_4uPWq72GgraOYAqU-eJ6y38VP7jAvJB5ezrNECCdvzbwhi1Ug&s",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZ5hHeRydn2jwZarquIwk8a00zMk5aIxTyAXymep5u3Mb-DQazVyCLyZseig&s",
     "url": "https://fl1.moveonjoy.com/CNBC/index.m3u8",
     "extra": []
   },
@@ -251,7 +251,7 @@
     "name": "Crave 3",
     "group": "Undefined",
     "tvg_id": "Crave3.ca@SD",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSDEhe4CDE3qW_pl7yYhzESeELxsl_YUaR_njjS5e_ySzAfY1iNSmyuPFd7kg&s",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTjb19sKXfNMCiN2NeTR1i9j3ulqllvwb-DvmWoaXNfd81DIunAru9G6nrk8w&s",
     "url": "https://fl1.moveonjoy.com/CRAVE_3/index.m3u8",
     "extra": []
   },
@@ -280,14 +280,6 @@
     "extra": []
   },
   {
-    "name": "Disney XD (720p)",
-    "group": "Undefined",
-    "tvg_id": "DisneyXD.us@East",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyfVLgCWCjyp2n-JnA4dnMpMS2qAmYtUJFm10eECLm1I7revKkOQfi9pcEOec&s",
-    "url": "http://fl1.moveonjoy.com/DISNEY_XD/index.m3u8",
-    "extra": []
-  },
-  {
     "name": "E! East",
     "group": "Undefined",
     "tvg_id": "E.us@East",
@@ -307,7 +299,7 @@
     "name": "ESPNews (720p)",
     "group": "Undefined",
     "tvg_id": "ESPNews.us@SD",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1JicY_dclNHcBenx62YKn880XjNLwSfJ8G4NaAQj-cJt-NXQ_a3ta7FaFnrE&s",
+    "logo": "NoLogoFound.png",
     "url": "https://fl1.moveonjoy.com/ESPN_NEWS/index.m3u8",
     "extra": []
   },
@@ -467,7 +459,7 @@
     "name": "ION Plus East (720p)",
     "group": "Undefined",
     "tvg_id": "IONPlus.us@East",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQu-nTvp6wHyow-Nu891yRnIbtFdTrRgyl7reRbAyWt0C7uql7YrwLKRaqV7g&s",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbJxa1lHl0MRr1W4i10r1rzXrUUE_QUnRv1qQgsOLcxrrPzVYeAx79cweS0w&s",
     "url": "https://fl1.moveonjoy.com/ION_Plus/index.m3u8",
     "extra": []
   },
@@ -488,18 +480,10 @@
     "extra": []
   },
   {
-    "name": "Lifetime Movies East",
-    "group": "Undefined",
-    "tvg_id": "LifetimeMovies.us@East",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcwrjoTMpq-OvlBBjTJJJv8-Lp4l_aJiqfoEbJ8e04kaarqJiaVtL07J7tkQ&s",
-    "url": "https://fl1.moveonjoy.com/LIFETIME_MOVIE_NETWORK/index.m3u8",
-    "extra": []
-  },
-  {
     "name": "MeTV",
     "group": "Undefined",
     "tvg_id": "MeTV.us@SD",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLvgm96yoJ-u4SX9pzx-Mch8aBHkg0CZOXNTMOP8mtCFbWwlzS_R2Z2hOrCA&s",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKMiJqmUygTKptCim_DuDxQbtt_w4ArfoXU9HVVgtUPgvPXj9sG_vb1fSptw&s",
     "url": "https://fl1.moveonjoy.com/ME_TV/index.m3u8",
     "extra": []
   },
@@ -587,7 +571,7 @@
     "name": "National Geographic Wild East",
     "group": "Undefined",
     "tvg_id": "NationalGeographicWild.us@East",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT81KBzVYQphs-jKCII5lUg1rY_CSZ6RmKKR4UZz0He4YTOKGg_FpO0R8Bxya0&s",
+    "logo": "NoLogoFound.png",
     "url": "https://fl1.moveonjoy.com/Nat_Geo_Wild/index.m3u8",
     "extra": []
   },
