@@ -39,9 +39,9 @@ https://fl1.moveonjoy.com/BOUNCE_TV/index.m3u8
 https://fl1.moveonjoy.com/BRAVO/index.m3u8
 #EXTINF:-1 group-title="Undefined" tvg-id="Buzzr.us@SD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoJ1JQ9_ZbEsHDhbPhTsuBz-EmbwHUL8mPQdGz9vmMkdsqLgVV7aYJeboPCQ&s",Buzzr
 https://fl1.moveonjoy.com/Buzzr/index.m3u8
-#EXTINF:-1 group-title="Undefined" tvg-id="CSPAN.us@SD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvcVBV2Vo5T3QXeWfZPrYJ5uq2XByrfZxC7MXQP87gMM5dHnU0XKH-A6cbulE&s",C-SPAN
+#EXTINF:-1 group-title="Undefined" tvg-id="CSPAN.us@SD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlI53nw-m25ewook5CuxRaAZC1Y30IocBcAZg2pmiWXJxVgIiNlIYEbQPSzg&s",C-SPAN
 https://fl1.moveonjoy.com/C-SPAN/index.m3u8
-#EXTINF:-1 group-title="Undefined" tvg-id="WBBMDT1.us@SD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKcsVtnP6Fr04_4l1-RpzlKdk8OsfI-OrP5-l7v4qw2H5nPo8NVeE1_XFPVQ&s",CBS Chicago WBBM-DT1
+#EXTINF:-1 group-title="Undefined" tvg-id="WBBMDT1.us@SD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBAoenfdE7ekxzSx_fYtOPVOBNLD8lcmoTtmB3dNdqj4Ssu7sMa_znxYWgOR0&s",CBS Chicago WBBM-DT1
 https://fl1.moveonjoy.com/IL_Chicago_CBS/index.m3u8
 #EXTINF:-1 group-title="Undefined" tvg-id="CBSSportsNetworkUSA.us@SD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFziAr9kYTal5H_tUDVJ5yxVxsZrHWjySjhoKv1xW7ANHCZNX8L0MUCko7pHw&s",CBS Sports Network USA
 https://fl1.moveonjoy.com/CBS_SPORTS_NETWORK/index.m3u8
@@ -65,7 +65,7 @@ https://fl1.moveonjoy.com/COZI_TV/index.m3u8
 https://fl1.moveonjoy.com/CRAVE_1/index.m3u8
 #EXTINF:-1 group-title="Undefined" tvg-id="Crave3.ca@SD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSDEhe4CDE3qW_pl7yYhzESeELxsl_YUaR_njjS5e_ySzAfY1iNSmyuPFd7kg&s",Crave 3
 https://fl1.moveonjoy.com/CRAVE_3/index.m3u8
-#EXTINF:-1 group-title="Undefined" tvg-id="CrimePlusInvestigation.us@SD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9pqWzlk6Az71v0EgG2AY_QpkNozycciiDNF1oxY42vZRqqTERNcwxbRgsFQ&s",Crime + Investigation
+#EXTINF:-1 group-title="Undefined" tvg-id="CrimePlusInvestigation.us@SD" tvg-logo="NoLogoFound.png",Crime + Investigation
 https://fl1.moveonjoy.com/Crime_and_Investigation_Network/index.m3u8
 #EXTINF:-1 group-title="Undefined" tvg-id="DisneyChannel.us@East" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTrKYbWh0QYqyD7xx8R8rpwH5RMT7SwgID40Z77YHNS38YRYLtda-WU1g2vn4&s",Disney Channel East
 https://fl1.moveonjoy.com/DISNEY/index.m3u8
@@ -77,7 +77,7 @@ http://fl1.moveonjoy.com/DISNEY_XD/index.m3u8
 https://fl1.moveonjoy.com/E_ENTERTAINMENT_TELEVISION/index.m3u8
 #EXTINF:-1 group-title="Undefined" tvg-id="ESPNU.us@SD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbC70OO5qf5ap9LmaF4cPf2xpOFjsEap7fkR0vL_co-KExdJGFAHo1IR_Zn8g&s",ESPN U (720p)
 https://fl1.moveonjoy.com/ESPN_U/index.m3u8
-#EXTINF:-1 group-title="Undefined" tvg-id="ESPNews.us@SD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoLmawdNhtBBthoyh5k1uYX9RV14siV4bMHx8-bzSUBN1O0CGOmxZNTFDS8A&s",ESPNews (720p)
+#EXTINF:-1 group-title="Undefined" tvg-id="ESPNews.us@SD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1JicY_dclNHcBenx62YKn880XjNLwSfJ8G4NaAQj-cJt-NXQ_a3ta7FaFnrE&s",ESPNews (720p)
 https://fl1.moveonjoy.com/ESPN_NEWS/index.m3u8
 #EXTINF:-1 group-title="Undefined" tvg-id="FanDuelSportsNetwork.us@HD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5b--PigAZ440_DaJcRF4x7mPHHHq7VeVCpo2vFcODeJlb2DV49g29zobswg&s",FanDuel Sports Network
 https://fl1.moveonjoy.com/PAC_12/index.m3u8
@@ -85,7 +85,7 @@ https://fl1.moveonjoy.com/PAC_12/index.m3u8
 https://fl1.moveonjoy.com/TVG/index.m3u8
 #EXTINF:-1 group-title="Undefined" tvg-id="FoxBusinessNetwork.us@SD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSgottJU2xUAtoAaMDB8n1XWXSPNXltfAMrJ3QMEiSo5f77mOx1jeoUHx73bk&s",Fox Business Network (720p)
 https://fl1.moveonjoy.com/FOX_Business_Network/index.m3u8
-#EXTINF:-1 group-title="Undefined" tvg-id="WFLDDT1.us@SD" tvg-logo="NoLogoFound.png",FOX Chicago WFLD-DT1
+#EXTINF:-1 group-title="Undefined" tvg-id="WFLDDT1.us@SD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSO6GA8WWp0A3qTAfjHpqu0vxDYfE4rFW1Vk54_q3J2g6yJyEY3nbw76hiCFhI&s",FOX Chicago WFLD-DT1
 https://fl1.moveonjoy.com/IL_Chicago_FOX/index.m3u8
 #EXTINF:-1 group-title="Undefined" tvg-id="FoxSoul.us@SD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbW6i86gZX3BeKNjeAdvilThqXnIr-LGUrEdsT_bzbfhvnaTzTkN80wA1O3Bs&s",Fox Soul
 https://fl1.moveonjoy.com/FOX_SOUL/index.m3u8
@@ -173,13 +173,13 @@ https://fl1.moveonjoy.com/Ovation/index.m3u8
 https://fl1.moveonjoy.com/OXYGEN/index.m3u8
 #EXTINF:-1 group-title="Undefined" tvg-id="ParamountNetwork.us@East" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSW981-bmma_Pp0zuOMJ-0KddHF0oOIK3hjH5tkZo2uZVrJOpRWxSrpN1xgLjM&s",Paramount Network East
 https://fl1.moveonjoy.com/PARAMOUNT_NETWORK/index.m3u8
-#EXTINF:-1 group-title="Undefined" tvg-id="PopTV.us@SD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1T5VLNbI0mezODDU-z4ZUvaA7Jf_XYrJnJKXzYl_TOATKMt29w34HKe7KVA&s",Pop TV
+#EXTINF:-1 group-title="Undefined" tvg-id="PopTV.us@SD" tvg-logo="NoLogoFound.png",Pop TV
 https://fl1.moveonjoy.com/Pop_TV/index.m3u8
-#EXTINF:-1 group-title="Undefined" tvg-id="QVC.us@SD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnSe2IRWVgDfFoUKjfutb486ogoNeQNdyoQrOFgr-vShlRqWW8lYiFzIRs8w&s",QVC (720p)
+#EXTINF:-1 group-title="Undefined" tvg-id="QVC.us@SD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvHJur-VXi7F-moEq6WDkR8Ltvg0IgSdSax0DeV_RGJMB2UYiifSDaQfOjHjE&s",QVC (720p)
 https://fl1.moveonjoy.com/QVC/index.m3u8
 #EXTINF:-1 group-title="Undefined" tvg-id="Reelz.us@SD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpdAajduhiFaFY7FS4VsVYouaCDHagQH15XWYLwPj2_Mwfwaz9oP3gDxSygw&s",Reelz (720p)
 https://fl1.moveonjoy.com/REELZ/index.m3u8
-#EXTINF:-1 group-title="Undefined" tvg-id="Revolt.us@SD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1yccHJMD0AtOtFAdRheOr_-WEyow2XUWBQstTqWXY7swR_ttIwkY6lRwo1xQ&s",Revolt
+#EXTINF:-1 group-title="Undefined" tvg-id="Revolt.us@SD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtI7wY7hCY8hDUQJFIMHK7Fz80SvDaxycIxATvAMSXNwGTe2Q9eoi8tTdGag&s",Revolt
 https://fl1.moveonjoy.com/REVOLT/index.m3u8
 #EXTINF:-1 group-title="Undefined" tvg-id="Showtime2.us@East" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtASb3alHeDiT3Q4Xjx0H2nCqF9r-4d95xAnR2MEy2qKIyA8B4L2xkpZ-Ucg&s",Showtime 2 East
 https://fl1.moveonjoy.com/SHOWTIME_2/index.m3u8
@@ -938,8 +938,8 @@ http://play.dnsrot.vip/live/ramagi777/e4ifqhgjpqf/91584.m3u8
 https://archive.org/download/nbc-19700803/NBC%E6%99%9A%E9%97%B4%E6%96%B0%E9%97%BB%2019700803.ia.mp4
 #EXTINF:-1 group-title="VOD" ,Redskins Report : WRC : September 13, 2001 7:30pm-7:59pm EDT
 https://archive.org/download/WRC_20010913_233000_Redskins_Report/WRC_20010913_233000_Redskins_Report.mp4?exact=1&start=0&end=300
-#EXTINF:-1 group-title="VOD" ,2014 Political Ad by Tom Wolf for Governor
-https://archive.org/download/PolAd_TomWolf_puk6z/PolAd_TomWolf_puk6z.webm
+#EXTINF:-1 group-title="VOD" ,NBC Nightly News : WCAU : October 2, 2014 6:30pm-7:01pm EDT
+https://archive.org/download/WCAU_20141002_223000_NBC_Nightly_News/WCAU_20141002_223000_NBC_Nightly_News.mp4?exact=1&start=0&end=300
 #EXTINF:-1 group-title="VOD" ,Speaker Nancy Pelosi Calls Trump’s Warnings About Investigations A ‘Threat' | Hardball | MSNBC
 https://archive.org/download/youtube-XH_WM0I-ra4/XH_WM0I-ra4.mp4
 #EXTM3U
