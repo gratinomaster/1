@@ -15,6 +15,8 @@ https://fl1.moveonjoy.com/AMC_NETWORK/index.m3u8
 https://fl1.moveonjoy.com/Antenna_TV/index.m3u8
 #EXTINF:-1 group-title="Undefined" tvg-id="Aspire.us@SD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ55k73LdAdITSqlOCMQN7rBc7WTlRKNoxmZfniBGCVfu-3lzSCZy4K3H0hzMY&s",Aspire
 https://fl1.moveonjoy.com/Aspire/index.m3u8
+#EXTINF:-1 group-title="Undefined" tvg-id="AXSTV.us@SD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUrKBXCoYZwrVVx76OJTFEB9QjevSaXJoeoMk_icrOQk0BRCrQyr57zdIftA&s",AXS TV
+https://fl1.moveonjoy.com/Axs_TV/index.m3u8
 #EXTINF:-1 group-title="Undefined" tvg-id="BBCAmerica.us@East" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZ-LpQGIbHexq0oMuiE1lrY6VQgSiegN9mXiyjU7xMlkQKfJ0pesEYrqOc9oI&s",BBC America East
 https://fl1.moveonjoy.com/BBC_AMERICA/index.m3u8
 #EXTINF:-1 group-title="Undefined" tvg-id="BBCNews.uk@NorthAmerica" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRn8gzlroVbWWDRXRQr4P1s_Zipr8h8Uc10WtEaNxxepLbC297FCukLREvaHw&s",BBC News North America
@@ -23,6 +25,8 @@ https://fl1.moveonjoy.com/BBC_WORLD_NEWS/index.m3u8
 https://fl1.moveonjoy.com/BET_GOSPEL/index.m3u8
 #EXTINF:-1 group-title="Undefined" tvg-id="BETHer.us@East" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtZE8f0rfYuGUIgiIaMk_EUJS8ildEZNIDNSZl6quDVgF7ecbe6KGg6Iqs9Q&s",BET Her East
 https://fl1.moveonjoy.com/BET_HER/index.m3u8
+#EXTINF:-1 group-title="Undefined" tvg-id="BETJams.us@SD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFveQqkvHlSpyHdVqggHfhxOmr7CLzdbnpTvFKpjv2oLPRh1FN02aFBJ1O0ec&s",BET Jams
+https://fl1.moveonjoy.com/BET_Jams/index.m3u8
 #EXTINF:-1 group-title="Undefined" tvg-id="BETSoul.us@SD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRRu7AxLEyYS2AjfSeCDh30rJkiIXJ9HLIFou0IM85rpIpJia45tEBngVshQ&s",BET Soul
 https://fl1.moveonjoy.com/BET_SOUL/index.m3u8
 #EXTINF:-1 group-title="Undefined" tvg-id="BigTenNetwork.us@SD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRK0Y7u09OVvuVliUfEzZkeQIYjKOxuMOWR0NAII3JCYMYjzLW3F6spanRjv5s&s",Big Ten Network
@@ -31,13 +35,13 @@ https://fl1.moveonjoy.com/BIG_TEN_NETWORK/index.m3u8
 https://fl1.moveonjoy.com/BLOOMBERG/index.m3u8
 #EXTINF:-1 group-title="Undefined" tvg-id="Bounce.us@SD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2QKkOeGw9oy_Zq2E9DDa9hXaV_Sh0l6odu7NvR_3OJtcbQTdL2dzdAtg_BQ8&s",Bounce
 https://fl1.moveonjoy.com/BOUNCE_TV/index.m3u8
-#EXTINF:-1 group-title="Undefined" tvg-id="Bravo.us@East" tvg-logo="NoLogoFound.png",Bravo East
+#EXTINF:-1 group-title="Undefined" tvg-id="Bravo.us@East" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlxql5ecbVHW_O86PKzWovdpMonasYjIbyMHf-7mJF-7m5waxeR970KlpCjA&s",Bravo East
 https://fl1.moveonjoy.com/BRAVO/index.m3u8
 #EXTINF:-1 group-title="Undefined" tvg-id="Buzzr.us@SD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoJ1JQ9_ZbEsHDhbPhTsuBz-EmbwHUL8mPQdGz9vmMkdsqLgVV7aYJeboPCQ&s",Buzzr
 https://fl1.moveonjoy.com/Buzzr/index.m3u8
 #EXTINF:-1 group-title="Undefined" tvg-id="CSPAN.us@SD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvcVBV2Vo5T3QXeWfZPrYJ5uq2XByrfZxC7MXQP87gMM5dHnU0XKH-A6cbulE&s",C-SPAN
 https://fl1.moveonjoy.com/C-SPAN/index.m3u8
-#EXTINF:-1 group-title="Undefined" tvg-id="WBBMDT1.us@SD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2LorKLpNqH54nrteV65VFvOzJWI2SkQ3inkMNY8JdGpydumjHqux_0JfEGZg&s",CBS Chicago WBBM-DT1
+#EXTINF:-1 group-title="Undefined" tvg-id="WBBMDT1.us@SD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBAoenfdE7ekxzSx_fYtOPVOBNLD8lcmoTtmB3dNdqj4Ssu7sMa_znxYWgOR0&s",CBS Chicago WBBM-DT1
 https://fl1.moveonjoy.com/IL_Chicago_CBS/index.m3u8
 #EXTINF:-1 group-title="Undefined" tvg-id="CBSSportsNetworkUSA.us@SD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfcX4d8MurOb3Le1yVXLns8VcNxyMS7WiZMVzUS2iXXsgsqFLeGoy5MAG2RA&s",CBS Sports Network USA
 https://fl1.moveonjoy.com/CBS_SPORTS_NETWORK/index.m3u8
@@ -55,7 +59,7 @@ https://fl1.moveonjoy.com/Comedy_TV/index.m3u8
 https://fl1.moveonjoy.com/COMET/index.m3u8
 #EXTINF:-1 group-title="Undefined" tvg-id="CourtTV.us@SD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEtxNrOFK3HZORn5ezGOb02J_zaZZoxkXYo-SubKG-RoYR9dP-AC6Gx5KTIQ&s",Court TV
 https://fl1.moveonjoy.com/COURT_TV/index.m3u8
-#EXTINF:-1 group-title="Undefined" tvg-id="CoziTV.us@SD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_K8Xnc0fmMDg7XLzhzTAN-n_r2G_wRipG4zd6CIvvzpqY2kfyFCXrwgCUbAQ&s",Cozi TV
+#EXTINF:-1 group-title="Undefined" tvg-id="CoziTV.us@SD" tvg-logo="NoLogoFound.png",Cozi TV
 https://fl1.moveonjoy.com/COZI_TV/index.m3u8
 #EXTINF:-1 group-title="Undefined" tvg-id="Crave1.ca@SD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlC6ylSCcWPYWYIjvxPNf2UAFPWDLvFZGnakmPpYX6s4zf49LHHUlA3Y76Fg&s",Crave 1
 https://fl1.moveonjoy.com/CRAVE_1/index.m3u8
@@ -91,7 +95,7 @@ https://fl1.moveonjoy.com/FOX_Sports_1/index.m3u8
 https://fl1.moveonjoy.com/FREE_FORM/index.m3u8
 #EXTINF:-1 group-title="Undefined" tvg-id="Fuse.us@East" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3xvJxOR3ZeXVX3vi9ncATInvLYjXJpMxkOZOF49pEZKI-EV1NSme17VntHw&s",Fuse East (720p)
 https://fl1.moveonjoy.com/FUSE/index.m3u8
-#EXTINF:-1 group-title="Undefined" tvg-id="FX.us@East" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuvD65J-hBiT6kIRZugMLTnE16kJq8T6G_v9TXFPAwzYtWkuSJ_1xA2K9u0g&s",FX East
+#EXTINF:-1 group-title="Undefined" tvg-id="FX.us@East" tvg-logo="NoLogoFound.png",FX East
 https://fl1.moveonjoy.com/FX/index.m3u8
 #EXTINF:-1 group-title="Undefined" tvg-id="FXM.us@East" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSi9KsnTstuOsOV45flo_bh28-hbnYlF3Do0hU-FC48X9RwKfeER7RH9eVwbPg&s",FXM East
 https://fl1.moveonjoy.com/FX_MOVIE/index.m3u8
