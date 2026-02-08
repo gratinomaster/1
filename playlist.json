@@ -171,7 +171,7 @@
     "name": "CBS Chicago WBBM-DT1",
     "group": "Undefined",
     "tvg_id": "WBBMDT1.us@SD",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBAoenfdE7ekxzSx_fYtOPVOBNLD8lcmoTtmB3dNdqj4Ssu7sMa_znxYWgOR0&s",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2LorKLpNqH54nrteV65VFvOzJWI2SkQ3inkMNY8JdGpydumjHqux_0JfEGZg&s",
     "url": "https://fl1.moveonjoy.com/IL_Chicago_CBS/index.m3u8",
     "extra": []
   },
@@ -187,7 +187,7 @@
     "name": "Cleo TV (720p)",
     "group": "Undefined",
     "tvg_id": "CleoTV.us@SD",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXfNIqOgyrzbSIps5_LWNaDK-Ku2nyo_Q1IW0Y6fYnULnBjcTDLofwl-c-ZoQ&s",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToYgUVg-Oc6ekdlp0AvjZq1OJmY6ghTrSH3qGFq_5YvBwHHIECKLh98pS6d3o&s",
     "url": "https://fl1.moveonjoy.com/Cleo_TV/index.m3u8",
     "extra": []
   },
@@ -379,7 +379,7 @@
     "name": "Fuse East (720p)",
     "group": "Undefined",
     "tvg_id": "Fuse.us@East",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9UDRIKzT0X2q03JNnvTulx4EtHfuNrYgY6UyuwQ_5DH57QitZ1saYgHRz9w&s",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3xvJxOR3ZeXVX3vi9ncATInvLYjXJpMxkOZOF49pEZKI-EV1NSme17VntHw&s",
     "url": "https://fl1.moveonjoy.com/FUSE/index.m3u8",
     "extra": []
   },
@@ -475,7 +475,7 @@
     "name": "ION Plus East (720p)",
     "group": "Undefined",
     "tvg_id": "IONPlus.us@East",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbJxa1lHl0MRr1W4i10r1rzXrUUE_QUnRv1qQgsOLcxrrPzVYeAx79cweS0w&s",
+    "logo": "NoLogoFound.png",
     "url": "https://fl1.moveonjoy.com/ION_Plus/index.m3u8",
     "extra": []
   },
@@ -493,14 +493,6 @@
     "tvg_id": "Lifetime.us@East",
     "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpgMV-fk0qBj8klYOExpm_RuJMj-2Cu-kMn33JkvqY30Sj5B-CG16argvF0w&s",
     "url": "https://fl1.moveonjoy.com/LIFETIME/index.m3u8",
-    "extra": []
-  },
-  {
-    "name": "Lifetime Movies East",
-    "group": "Undefined",
-    "tvg_id": "LifetimeMovies.us@East",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcwrjoTMpq-OvlBBjTJJJv8-Lp4l_aJiqfoEbJ8e04kaarqJiaVtL07J7tkQ&s",
-    "url": "https://fl1.moveonjoy.com/LIFETIME_MOVIE_NETWORK/index.m3u8",
     "extra": []
   },
   {
@@ -699,7 +691,7 @@
     "name": "Pop TV",
     "group": "Undefined",
     "tvg_id": "PopTV.us@SD",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROsHfPmt-LOUTdT7snhGXRF-Pj73V18QKCnTJD0Z_4yozfqXeMWnYLSJ-Vzg&s",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1T5VLNbI0mezODDU-z4ZUvaA7Jf_XYrJnJKXzYl_TOATKMt29w34HKe7KVA&s",
     "url": "https://fl1.moveonjoy.com/Pop_TV/index.m3u8",
     "extra": []
   },
@@ -723,7 +715,7 @@
     "name": "Revolt",
     "group": "Undefined",
     "tvg_id": "Revolt.us@SD",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLq_taWp7gEuCJGO6-EK6USnFvxZvH1K7mSZjjiRDpAH-7RJM729Ed6sxu-w&s",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUyWdo651UMwhpyIhC6xY_az9fuzk4nwMIArjQuJPyj5TT2ofvoRzSEgR4Hz0&s",
     "url": "https://fl1.moveonjoy.com/REVOLT/index.m3u8",
     "extra": []
   },
@@ -739,7 +731,7 @@
     "name": "Showtime East",
     "group": "Undefined",
     "tvg_id": "Showtime.us@East",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpJMZOoInEKEiueehbUTNtLiF1xBZkeOvamXf4agfjYRvhLrJUG9DNmnfNwg&s",
+    "logo": "NoLogoFound.png",
     "url": "https://fl1.moveonjoy.com/SHOWTIME/index.m3u8",
     "extra": []
   }
