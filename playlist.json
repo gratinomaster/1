@@ -56,35 +56,11 @@
     "extra": []
   },
   {
-    "name": "Aspire",
-    "group": "Undefined",
-    "tvg_id": "Aspire.us@SD",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVulnz8bUPos59_ogcvACQT87mQfupb3LXsA_QxeS2weU2JZVcbzf22Vyhvwg&s",
-    "url": "https://fl1.moveonjoy.com/Aspire/index.m3u8",
-    "extra": []
-  },
-  {
     "name": "AXS TV",
     "group": "Undefined",
     "tvg_id": "AXSTV.us@SD",
     "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUrKBXCoYZwrVVx76OJTFEB9QjevSaXJoeoMk_icrOQk0BRCrQyr57zdIftA&s",
     "url": "https://fl1.moveonjoy.com/Axs_TV/index.m3u8",
-    "extra": []
-  },
-  {
-    "name": "BBC America East",
-    "group": "Undefined",
-    "tvg_id": "BBCAmerica.us@East",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZ-LpQGIbHexq0oMuiE1lrY6VQgSiegN9mXiyjU7xMlkQKfJ0pesEYrqOc9oI&s",
-    "url": "https://fl1.moveonjoy.com/BBC_AMERICA/index.m3u8",
-    "extra": []
-  },
-  {
-    "name": "BBC News North America",
-    "group": "Undefined",
-    "tvg_id": "BBCNews.uk@NorthAmerica",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRn8gzlroVbWWDRXRQr4P1s_Zipr8h8Uc10WtEaNxxepLbC297FCukLREvaHw&s",
-    "url": "https://fl1.moveonjoy.com/BBC_WORLD_NEWS/index.m3u8",
     "extra": []
   },
   {
@@ -107,7 +83,7 @@
     "name": "BET Jams",
     "group": "Undefined",
     "tvg_id": "BETJams.us@SD",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFveQqkvHlSpyHdVqggHfhxOmr7CLzdbnpTvFKpjv2oLPRh1FN02aFBJ1O0ec&s",
+    "logo": "NoLogoFound.png",
     "url": "https://fl1.moveonjoy.com/BET_Jams/index.m3u8",
     "extra": []
   },
@@ -171,16 +147,8 @@
     "name": "CBS Chicago WBBM-DT1",
     "group": "Undefined",
     "tvg_id": "WBBMDT1.us@SD",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBAoenfdE7ekxzSx_fYtOPVOBNLD8lcmoTtmB3dNdqj4Ssu7sMa_znxYWgOR0&s",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKcsVtnP6Fr04_4l1-RpzlKdk8OsfI-OrP5-l7v4qw2H5nPo8NVeE1_XFPVQ&s",
     "url": "https://fl1.moveonjoy.com/IL_Chicago_CBS/index.m3u8",
-    "extra": []
-  },
-  {
-    "name": "CBS Sports Network USA",
-    "group": "Undefined",
-    "tvg_id": "CBSSportsNetworkUSA.us@SD",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfcX4d8MurOb3Le1yVXLns8VcNxyMS7WiZMVzUS2iXXsgsqFLeGoy5MAG2RA&s",
-    "url": "https://fl1.moveonjoy.com/CBS_SPORTS_NETWORK/index.m3u8",
     "extra": []
   },
   {
@@ -232,22 +200,6 @@
     "extra": []
   },
   {
-    "name": "Court TV",
-    "group": "Undefined",
-    "tvg_id": "CourtTV.us@SD",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEtxNrOFK3HZORn5ezGOb02J_zaZZoxkXYo-SubKG-RoYR9dP-AC6Gx5KTIQ&s",
-    "url": "https://fl1.moveonjoy.com/COURT_TV/index.m3u8",
-    "extra": []
-  },
-  {
-    "name": "Cozi TV",
-    "group": "Undefined",
-    "tvg_id": "CoziTV.us@SD",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_K8Xnc0fmMDg7XLzhzTAN-n_r2G_wRipG4zd6CIvvzpqY2kfyFCXrwgCUbAQ&s",
-    "url": "https://fl1.moveonjoy.com/COZI_TV/index.m3u8",
-    "extra": []
-  },
-  {
     "name": "Crave 1",
     "group": "Undefined",
     "tvg_id": "Crave1.ca@SD",
@@ -280,14 +232,6 @@
     "extra": []
   },
   {
-    "name": "Disney Junior East",
-    "group": "Undefined",
-    "tvg_id": "DisneyJunior.us@East",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1WLXZCPurFdD_EGQcf61uRwTTWbj8bAQzUDTdk0RGSf2nrtni3et3FQLPLro&s",
-    "url": "https://fl1.moveonjoy.com/DISNEY_JR/index.m3u8",
-    "extra": []
-  },
-  {
     "name": "Disney XD (720p)",
     "group": "Undefined",
     "tvg_id": "DisneyXD.us@East",
@@ -309,14 +253,6 @@
     "tvg_id": "ESPNU.us@SD",
     "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbC70OO5qf5ap9LmaF4cPf2xpOFjsEap7fkR0vL_co-KExdJGFAHo1IR_Zn8g&s",
     "url": "https://fl1.moveonjoy.com/ESPN_U/index.m3u8",
-    "extra": []
-  },
-  {
-    "name": "ESPNews (720p)",
-    "group": "Undefined",
-    "tvg_id": "ESPNews.us@SD",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1JicY_dclNHcBenx62YKn880XjNLwSfJ8G4NaAQj-cJt-NXQ_a3ta7FaFnrE&s",
-    "url": "https://fl1.moveonjoy.com/ESPN_NEWS/index.m3u8",
     "extra": []
   },
   {
@@ -384,22 +320,6 @@
     "extra": []
   },
   {
-    "name": "FX East",
-    "group": "Undefined",
-    "tvg_id": "FX.us@East",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuvD65J-hBiT6kIRZugMLTnE16kJq8T6G_v9TXFPAwzYtWkuSJ_1xA2K9u0g&s",
-    "url": "https://fl1.moveonjoy.com/FX/index.m3u8",
-    "extra": []
-  },
-  {
-    "name": "FXM East",
-    "group": "Undefined",
-    "tvg_id": "FXM.us@East",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSi9KsnTstuOsOV45flo_bh28-hbnYlF3Do0hU-FC48X9RwKfeER7RH9eVwbPg&s",
-    "url": "https://fl1.moveonjoy.com/FX_MOVIE/index.m3u8",
-    "extra": []
-  },
-  {
     "name": "FYI East",
     "group": "Undefined",
     "tvg_id": "FYI.us@East",
@@ -456,30 +376,6 @@
     "extra": []
   },
   {
-    "name": "HSN",
-    "group": "Undefined",
-    "tvg_id": "HSN.us@East",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGXVfz6W0QNrgZRw-bdJZGnDSFmUwzOnWpTceRnAc3XQVjhwA1jPnZlQe0UA&s",
-    "url": "https://fl1.moveonjoy.com/HSN/index.m3u8",
-    "extra": []
-  },
-  {
-    "name": "INSP",
-    "group": "Undefined",
-    "tvg_id": "INSP.us@SD",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-Q-XuVs3ii14-RP_Q-L2Z3D-saYeupsejDT2n0fY040o34_essylr_BMp_Cs&s",
-    "url": "https://fl1.moveonjoy.com/INSP/index.m3u8",
-    "extra": []
-  },
-  {
-    "name": "ION Plus East (720p)",
-    "group": "Undefined",
-    "tvg_id": "IONPlus.us@East",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQu-nTvp6wHyow-Nu891yRnIbtFdTrRgyl7reRbAyWt0C7uql7YrwLKRaqV7g&s",
-    "url": "https://fl1.moveonjoy.com/ION_Plus/index.m3u8",
-    "extra": []
-  },
-  {
     "name": "ION TV East",
     "group": "Undefined",
     "tvg_id": "IONTV.us@East",
@@ -515,7 +411,7 @@
     "name": "MeTV",
     "group": "Undefined",
     "tvg_id": "MeTV.us@SD",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxpiT0n5KPtZGVsKDfZMMcIZ6c5zdgewPbEGb_DX2xM1EzXD_1rsYM3Ik0YKI&s",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKMiJqmUygTKptCim_DuDxQbtt_w4ArfoXU9HVVgtUPgvPXj9sG_vb1fSptw&s",
     "url": "https://fl1.moveonjoy.com/ME_TV/index.m3u8",
     "extra": []
   },
@@ -523,7 +419,7 @@
     "name": "MGM+ East",
     "group": "Undefined",
     "tvg_id": "MGMPlus.us@East",
-    "logo": "NoLogoFound.png",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMg2mXNwqWFNLAVLXnNXzevcmvFx8pUmF3cDdJ0mx24OquFs7LJ2Ux-wGp3A0&s",
     "url": "https://fl1.moveonjoy.com/EPIX/index.m3u8",
     "extra": []
   },
@@ -552,14 +448,6 @@
     "extra": []
   },
   {
-    "name": "MTV2 (720p)",
-    "group": "Undefined",
-    "tvg_id": "MTV2.us@East",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1T47jCzkhuKVzFtfZfK52TrELxhf4YZ_11iP_fxrcXE2mfvYQdWu87XssGQ&s",
-    "url": "https://fl1.moveonjoy.com/MTV_2/index.m3u8",
-    "extra": []
-  },
-  {
     "name": "MTV Classic (360p)",
     "group": "Undefined",
     "tvg_id": "MTVClassic.us@East",
@@ -576,18 +464,10 @@
     "extra": []
   },
   {
-    "name": "MTV Live (720p)",
-    "group": "Undefined",
-    "tvg_id": "MTVLive.us@SD",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9f1e5bjDZbXKqBaZqb3t79XypXfE98t0jAi-RXAXTebE6K7MzD1hPYmav6g&s",
-    "url": "https://fl1.moveonjoy.com/MTV_LIVE/index.m3u8",
-    "extra": []
-  },
-  {
     "name": "Much (720p)",
     "group": "Undefined",
     "tvg_id": "Much.ca@SD",
-    "logo": "NoLogoFound.png",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLBqdwc7Y6fZ6gQuaw9Gkk0ua9xFA0atRnL9XKbK-ndlyUQkT1jLaIpENN8h8&s",
     "url": "https://fl1.moveonjoy.com/MUCH/index.m3u8",
     "extra": []
   },
@@ -635,7 +515,7 @@
     "name": "Nick Jr. East (720p)",
     "group": "Undefined",
     "tvg_id": "NickJr.us@East",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyJSw3Dl6Ruitgnp0cee34EGK8_sB61UYz4-bmvJCpNNWdaPg3UPEbfh6czw&s",
+    "logo": "NoLogoFound.png",
     "url": "https://fl1.moveonjoy.com/NICK_JR/index.m3u8",
     "extra": []
   },
@@ -688,14 +568,6 @@
     "extra": []
   },
   {
-    "name": "Paramount Network East",
-    "group": "Undefined",
-    "tvg_id": "ParamountNetwork.us@East",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSW981-bmma_Pp0zuOMJ-0KddHF0oOIK3hjH5tkZo2uZVrJOpRWxSrpN1xgLjM&s",
-    "url": "https://fl1.moveonjoy.com/PARAMOUNT_NETWORK/index.m3u8",
-    "extra": []
-  },
-  {
     "name": "Pop TV",
     "group": "Undefined",
     "tvg_id": "PopTV.us@SD",
@@ -715,7 +587,7 @@
     "name": "Reelz (720p)",
     "group": "Undefined",
     "tvg_id": "Reelz.us@SD",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1lku_cCyrqylHIxGKXDGa0rC5BL7LWe3NTEghF1UE6_ZkNonPiUtL18C__0I&s",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsHrGzMvC7H_vZMekCo8j4KQmXGHGGYlet_bepb6kmaB3ufprs6G5Gpwx9to8&s",
     "url": "https://fl1.moveonjoy.com/REELZ/index.m3u8",
     "extra": []
   },
