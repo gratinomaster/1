@@ -64,6 +64,14 @@
     "extra": []
   },
   {
+    "name": "AXS TV",
+    "group": "Undefined",
+    "tvg_id": "AXSTV.us@SD",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUrKBXCoYZwrVVx76OJTFEB9QjevSaXJoeoMk_icrOQk0BRCrQyr57zdIftA&s",
+    "url": "https://fl1.moveonjoy.com/Axs_TV/index.m3u8",
+    "extra": []
+  },
+  {
     "name": "BBC America East",
     "group": "Undefined",
     "tvg_id": "BBCAmerica.us@East",
@@ -75,7 +83,7 @@
     "name": "BBC News North America",
     "group": "Undefined",
     "tvg_id": "BBCNews.uk@NorthAmerica",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRn8gzlroVbWWDRXRQr4P1s_Zipr8h8Uc10WtEaNxxepLbC297FCukLREvaHw&s",
+    "logo": "NoLogoFound.png",
     "url": "https://fl1.moveonjoy.com/BBC_WORLD_NEWS/index.m3u8",
     "extra": []
   },
@@ -291,7 +299,7 @@
     "name": "E! East",
     "group": "Undefined",
     "tvg_id": "E.us@East",
-    "logo": "NoLogoFound.png",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcg4PsKsEnbmA6Q93eqk6CKgor_Jv7LXbkwhfYnPPbZ8gV8G1fM8gwXueihw&s",
     "url": "https://fl1.moveonjoy.com/E_ENTERTAINMENT_TELEVISION/index.m3u8",
     "extra": []
   },
@@ -355,7 +363,7 @@
     "name": "Fox Sports 1",
     "group": "Undefined",
     "tvg_id": "",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4jjKixClCQ0H-qHkqS8c3p7sMSzCyNbh53odIKQQ2qfTI1luvWyRNNmf8j-c&s",
+    "logo": "NoLogoFound.png",
     "url": "https://fl1.moveonjoy.com/FOX_Sports_1/index.m3u8",
     "extra": []
   },
@@ -363,7 +371,7 @@
     "name": "Free form East",
     "group": "Undefined",
     "tvg_id": "Freeform.us@East",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPtzG6tlTahKmdo6w1Z6PY0MQyyndUv8DxeAxlc7a6kVMRbYEZwyWOrwHeZg&s",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT57YZytBzqINQNrLXMxqILVLcA8SYOUCflXztLirL7JUmgP_tet5FDOTqCHg&s",
     "url": "https://fl1.moveonjoy.com/FREE_FORM/index.m3u8",
     "extra": []
   },
@@ -371,7 +379,7 @@
     "name": "Fuse East (720p)",
     "group": "Undefined",
     "tvg_id": "Fuse.us@East",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9UDRIKzT0X2q03JNnvTulx4EtHfuNrYgY6UyuwQ_5DH57QitZ1saYgHRz9w&s",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3xvJxOR3ZeXVX3vi9ncATInvLYjXJpMxkOZOF49pEZKI-EV1NSme17VntHw&s",
     "url": "https://fl1.moveonjoy.com/FUSE/index.m3u8",
     "extra": []
   },
