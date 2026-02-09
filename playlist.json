@@ -27,7 +27,7 @@
     "name": "ABC Chicago WLS-DT1",
     "group": "Undefined",
     "tvg_id": "WLSDT1.us@SD",
-    "logo": "NoLogoFound.png",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYChR3urmj30MCN3A6D1zKh6wYHum4BnkMWmwTnE4Jk3Io22lHTso0EJlw3Q&s",
     "url": "https://fl1.moveonjoy.com/IL_CHICAGO_ABC/index.m3u8",
     "extra": []
   },
@@ -43,7 +43,7 @@
     "name": "AMC East (1080p)",
     "group": "Undefined",
     "tvg_id": "AMC.us@East",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTglcoZlDgFK3LzA4xXzVkoj38Ltsw3swNWcoRduk442NE2WnTO8SkomAslGQ&s",
+    "logo": "NoLogoFound.png",
     "url": "https://fl1.moveonjoy.com/AMC_NETWORK/index.m3u8",
     "extra": []
   },
@@ -187,7 +187,7 @@
     "name": "Cleo TV (720p)",
     "group": "Undefined",
     "tvg_id": "CleoTV.us@SD",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYMbizKsW2vp0w39VVemdW4m55TMTD3Pr3N1tqlWmGRuDaVDjuBktaLH3VKlM&s",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToYgUVg-Oc6ekdlp0AvjZq1OJmY6ghTrSH3qGFq_5YvBwHHIECKLh98pS6d3o&s",
     "url": "https://fl1.moveonjoy.com/Cleo_TV/index.m3u8",
     "extra": []
   },
@@ -211,7 +211,7 @@
     "name": "CNBC World",
     "group": "Undefined",
     "tvg_id": "CNBCWorld.us@SD",
-    "logo": "NoLogoFound.png",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR02c5S1BWClr8_pkh8gtH-2gA00ZqmjRVd49laZsU7-hqmxJZl7DnqoC427Q&s",
     "url": "https://fl1.moveonjoy.com/CNBC_World/index.m3u8",
     "extra": []
   },
@@ -315,7 +315,7 @@
     "name": "ESPNews (720p)",
     "group": "Undefined",
     "tvg_id": "ESPNews.us@SD",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRapgX9Nwyj4Wx2mlHqhn-H1UiZplvltFzcmxlCtnFO2S50YXkXMUPWysieMcA&s",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgkm70HucyYW6QmgmOS7XVj8JM_B19ch_ufQnmDezOHNuSsbH9sNDnQIsS9p8&s",
     "url": "https://fl1.moveonjoy.com/ESPN_NEWS/index.m3u8",
     "extra": []
   },
@@ -475,7 +475,7 @@
     "name": "ION Plus East (720p)",
     "group": "Undefined",
     "tvg_id": "IONPlus.us@East",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbJxa1lHl0MRr1W4i10r1rzXrUUE_QUnRv1qQgsOLcxrrPzVYeAx79cweS0w&s",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLvCgY4o029k9u-Nu3wAhPQPz73gfgiPUmFGl7lpKGB1_WbnBCpzPVAiAD1EE&s",
     "url": "https://fl1.moveonjoy.com/ION_Plus/index.m3u8",
     "extra": []
   },
@@ -627,7 +627,7 @@
     "name": "Nick Jr. East (720p)",
     "group": "Undefined",
     "tvg_id": "NickJr.us@East",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTytUoFCIAFBH54aPX4mJoANoeamqhoHZNeS1jqgNBL6UWls4u6GVtHHuJgdcs&s",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxX0j49wxDGWX55zwRmpXONA44Ice4cekhug_I4gGgBLR0ry2Hay4HegLCWw&s",
     "url": "https://fl1.moveonjoy.com/NICK_JR/index.m3u8",
     "extra": []
   },
