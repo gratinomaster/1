@@ -782,6 +782,7 @@ https://streaming-live.rtp.pt/liverepeater/rtp2HD.smil/playlist.m3u8
 https://d1zx6l1dn8vaj5.cloudfront.net/out/v1/b89cc37caa6d418eb423cf092a2ef970/index.m3u8
 #EXTINF:-1 group-title="TV" tvg-id="TVI.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/TVI.png",TVI
 #EXTM3U
+#EXTM3U
 #EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_CH1.xml.gz"
 #EXTINF:-1 group-title="CHILE" tvg-chno="1223" tvg-id="UCVTV.cl" tvg-logo="https://pbs.twimg.com/profile_images/1283856690648096770/L-vGlyO4_400x400.png" , UCV HD
 https://unlimited2-cl-isp.dps.live/ucvtv2/ucvtv2.smil/playlist.m3u8
@@ -2854,7 +2855,7 @@ https://live-cm-ah-10-22.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0e
 https://live-as-08-16.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJVUyIsImRvbWFpbiI6ImxpdmUtYXMtMDgtMTYudmlkZW8uZ2xvYm8uY29tIiwiZXhwIjoxNzcxMTE1MzIzLCJpYXQiOjE3NzEwOTM3MjMsImlzcyI6InBsYXliYWNrLWFwaS1wcm9kLWdjcCIsIm93bmVyIjoiIiwicGF0aCI6Ii9saXZlL2YoYk1pbj01NTg5NzYsZHZyPTEyMCkvY2JucmoyNGhhL3BsYXlsaXN0Lm0zdTgifQ.OJmf-xA-yZYlU4v4oTC7sb2nGiltXp_26eEcWPaJpbkb5D6mXrcRzCg43KDgzTc_R8R00DtppVprzxQLeLasrHOESXQZ8ju8q9zaukSCUVCuQgD6p9PbssU8MVpr9zReb2sz1vqIH94-3P4Q5ht1quqYPxJRDKynbKCJa3t226-tbAEK6FAQ-SZ-PnRt4Uf7lTTLpo15kZq687AzXXsl88fYH2zunJeaj5-1QC0sG5rtsZsMzIVwfhek89wbms8O1L7yo9uFFGNMpg0xA8l6aG8uxDTPhFuA3OcJjtsuJuwaFteGlkcQEdjEUltHgpBtfCF7BjYeDDzapWtkpS6uUA/live/f(bMin=558976,dvr=120)/cbnrj24ha/playlist.m3u8
 #EXTM3U
 #EXTINF:-1 group-title="GLOBO AO VIVO" tvg-logo="https://s02.video.glbimg.com/x720/8427197.jpg",AO VIVO: Acompanhe a Praça Sete por 96 horas
-https://live-as-11-11.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJVUyIsImRvbWFpbiI6ImxpdmUtYXMtMTEtMTEudmlkZW8uZ2xvYm8uY29tIiwiZXhwIjoxNzcxMTI4Mzk0LCJpYXQiOjE3NzExMDY3OTQsImlzcyI6InBsYXliYWNrLWFwaS1wcm9kLWdjcCIsIm93bmVyIjoiIiwicGF0aCI6Ii9saXZlL2YoaT0yKS9nMWlvbmJyL3BsYXlsaXN0Lm0zdTgifQ.EY5xrFjrqLhKNkf8Aq1QOVg0ibWGq0LP9UH0OFrJR6DvJ_fRa50J6tZfebcEJ-iEVTEfmcMuaGCcVUWstDa4Y-5zlaNwpzrreHs6FKmhmJdFZKojZCFCnbFdv5MrICls4YhoBbXsOQdinibCpHG0UWCIfWTS1U9kL801vYfM3cmduM7Ou4dl9F-ecPdh8dzWkm1TJi5IzmP-HPhINwh3zDKNY1pqDMhudrnzQqVw62dKQ6QlBwfgyJhXTF4Sms-SULxSx4rPZZmwKpYP8otkkyqS1k66Iwu-DazWFiQLXLe1O-sb3bqm9kG5JYL30KQrX9sp_4pXLKmcUHszwZYP0w/live/f(i=2)/g1ionbr/playlist.m3u8
+https://live-as-11-11.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJVUyIsImRvbWFpbiI6ImxpdmUtYXMtMTEtMTEudmlkZW8uZ2xvYm8uY29tIiwiZXhwIjoxNzcxMTMyMDQ5LCJpYXQiOjE3NzExMTA0NDksImlzcyI6InBsYXliYWNrLWFwaS1wcm9kLWdjcCIsIm93bmVyIjoiIiwicGF0aCI6Ii9saXZlL2YoaT0yKS9nMWlvbmJyL3BsYXlsaXN0Lm0zdTgifQ.k96MhfBq-LsX7Ip9LRWwuU57glVpyNF-HKOYtj9S7H2OiTUtyo-ae9_GbsIS1lG-J6mwRBfxk69lZnX94emvCxvFyJXVbx-yVdcTph5hA_aSxuF_0_OLJ64SzIYlFukBbwBCjkmoIxeWMYuW6niNigWZOGDIpwMDozSjfgyK-SDlfwqykFOGJtkW6J31rvKd30gBmZh0I1Kol6Dj0Pi4KT-fRw8kNhzK6hNwqo2lEUcUImP20SY6kbBIAe6-FG_SnuBdRoFF4QSFbJgCk_wvSvIcbugozFGoTKvpvqqEZfqtijbzFdSYCUQOUhI1uNPjQgwIFERNQBBZ1yuKd4qbKA/live/f(i=2)/g1ionbr/playlist.m3u8
 #EXTM3U
 #EXTINF:-1 group-title="Mundo" tvg-chno="1176" tvg-id="Telesur.ve" tvg-logo="https://github.com/masterentertainment/listas/blob/main/logos/TLSUR.png?raw=true" , TeleSUR
 https://cdnesmain.telesur.ultrabase.net/mbliveMain/hd/chunklist.m3u8
