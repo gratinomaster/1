@@ -758,29 +758,8 @@ http://play.dnsrot.vip/live/ramagi777/e4ifqhgjpqf/91584.m3u8
 https://archive.org/download/nbc-19700803/NBC%E6%99%9A%E9%97%B4%E6%96%B0%E9%97%BB%2019700803.ia.mp4
 #EXTINF:-1 group-title="VOD" ,Redskins Report : WRC : September 13, 2001 7:30pm-7:59pm EDT
 https://archive.org/download/WRC_20010913_233000_Redskins_Report/WRC_20010913_233000_Redskins_Report.mp4?exact=1&start=0&end=300
-#EXTINF:-1 group-title="VOD" ,NBC Nightly News : WCAU : October 2, 2014 6:30pm-7:01pm EDT
-https://archive.org/download/WCAU_20141002_223000_NBC_Nightly_News/WCAU_20141002_223000_NBC_Nightly_News.mp4?exact=1&start=0&end=300
-#EXTINF:-1 group-title="VOD" ,Speaker Nancy Pelosi Calls Trump’s Warnings About Investigations A ‘Threat' | Hardball | MSNBC
-https://archive.org/download/youtube-XH_WM0I-ra4/XH_WM0I-ra4.mp4
-#EXTM3U url-tvg="https://github.com/LITUATUI/M3UPT/raw/main/EPG/epg-m3upt.xml.xz"
-# M3UPT.com - IPTV playlist in M3U format with TV and radio stations in Portuguese. Public and official streams only.
-# 📺 TV
-#EXTINF:-1 group-title="TV" tvg-id="RTP1.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP1.png",RTP 1
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:144.0) Gecko/20100101 Firefox/144.0
-#EXTVLCOPT:http-origin=https://www.rtp.pt
-#EXTVLCOPT:http-referrer=https://www.rtp.pt/play/direto/rtp1
-https://streaming-live.rtp.pt/liverepeater/smil:rtp1HD.smil/playlist.m3u8
-#EXTINF:-1 group-title="TV" tvg-id="RTP2.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP2.png",RTP 2
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:144.0) Gecko/20100101 Firefox/144.0
-#EXTVLCOPT:http-origin=https://www.rtp.pt
-#EXTVLCOPT:http-referrer=https://www.rtp.pt/play/direto/rtp2
-https://streaming-live.rtp.pt/liverepeater/rtp2HD.smil/playlist.m3u8
-#EXTINF:-1 group-title="TV" tvg-id="SIC.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/SIC.png",SIC
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:144.0) Gecko/20100101 Firefox/144.0
-#EXTVLCOPT:http-origin=https://sic.pt
-#EXTVLCOPT:http-referrer=https://sic.pt/
-https://d1zx6l1dn8vaj5.cloudfront.net/out/v1/b89cc37caa6d418eb423cf092a2ef970/index.m3u8
-#EXTINF:-1 group-title="TV" tvg-id="TVI.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/TVI.png",TVI
+#EXTM3U
+#EXTM3U
 #EXTM3U
 #EXTM3U
 #EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_CH1.xml.gz"
@@ -2857,7 +2836,7 @@ https://live-cm-ah-10-22.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0e
 https://live-as-08-16.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJVUyIsImRvbWFpbiI6ImxpdmUtYXMtMDgtMTYudmlkZW8uZ2xvYm8uY29tIiwiZXhwIjoxNzcxMTM5OTY3LCJpYXQiOjE3NzExMTgzNjcsImlzcyI6InBsYXliYWNrLWFwaS1wcm9kLWdjcCIsIm93bmVyIjoiIiwicGF0aCI6Ii9saXZlL2YoYk1pbj01NTg5NzYsZHZyPTEyMCkvY2JucmoyNGhhL3BsYXlsaXN0Lm0zdTgifQ.INJOuk53ZNzzJJer7D7kwRcJ2OW-qJ4nPEnGQ_bRAHSmQJotP10RxvwiXkSWDp9nNcRhspdGjqOpsnxb1WBKQD69KFugXQYKAESdTL0qKBUrOag63PLx72epSTHi77-tgfiX7LtXvItWg1jHiL_jwR15Gz3qLuJI6S1sheRmw0Cm7xL7AfTsjx72RRrhHuFhAOhim4XuP4JOTrdiO40ad3zWRvEyaJy9YZtfXhRD1M6q00kvrP-UKMr4nFjlpr-58rL_MgdHK9s1imdr8DzmBOVZdeqWTf8gKzGourPGSL2rKRv8IvpYW0SvwYRqIxxvX_X47JTijV89smWcvXL9hA/live/f(bMin=558976,dvr=120)/cbnrj24ha/playlist.m3u8
 #EXTM3U
 #EXTINF:-1 group-title="GLOBO AO VIVO" tvg-logo="https://s02.video.glbimg.com/x720/8427197.jpg",AO VIVO: Acompanhe a Praça Sete por 96 horas
-https://live-as-10-03.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJVUyIsImRvbWFpbiI6ImxpdmUtYXMtMTAtMDMudmlkZW8uZ2xvYm8uY29tIiwiZXhwIjoxNzcxMTM1NjU3LCJpYXQiOjE3NzExMTQwNTcsImlzcyI6InBsYXliYWNrLWFwaS1wcm9kLWdjcCIsIm93bmVyIjoiIiwicGF0aCI6Ii9saXZlL2YoaT0yKS9nMWlvbmJyL3BsYXlsaXN0Lm0zdTgifQ.F9YeNi_cFMupXTZtaWWJcTe7l6d_irHDuR5xWhhmLyI69-yXLoSR7zb36yq08R3W2iepbrHeLxtoZ9ynpbbiWt6V2uYXj5W1p-Z9POHiY8Etqh-JjNP2UBOT7Bix4h45889P9Kx94c60HQVZIzbimB_v7AeJYmo7W87QyE44VicpToahKa3l67ce7TDX4LOEqcTwI_kbs3f54NxzC-9PjHKWJCLAqkxhwIzCk-pmIqTRUtTp4woN1V6mmK4YNOnxgrIzbuGbWVCqh6o2p8bBbUUJqvDIeH4jZNJB1wvqbfq3TBFvYiddryMKwAAmeJcsfhpWxBn8xysYidZwuQe_lw/live/f(i=2)/g1ionbr/playlist.m3u8
+https://live-as-11-11.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJVUyIsImRvbWFpbiI6ImxpdmUtYXMtMTEtMTEudmlkZW8uZ2xvYm8uY29tIiwiZXhwIjoxNzcxMTQ3NTA2LCJpYXQiOjE3NzExMjU5MDYsImlzcyI6InBsYXliYWNrLWFwaS1wcm9kLWdjcCIsIm93bmVyIjoiIiwicGF0aCI6Ii9saXZlL2YoaT0yKS9nMWlvbmJyL3BsYXlsaXN0Lm0zdTgifQ.LmVbOYRf9jgYdJd9h9Z_jndh66z1vp1VAbdB2GzrbWJuS_dH6lZiciwpY2J_2hJapMOnutxajFn-VcP_GrBf77PRQ-M_AafLXE36MAbyC9qSU_lz2oopRHJS8xr0M-yrY8tYlxyY7wJIqjGo-PE7dszKuoLkp7cP29JvcGyuTaa-_1Asc8wwBl64O1YjK7LVMS-TNd8nj1bqQ_NWpYS0A1ntURb81t3Lhl-BJw_zRLFJLzzj-8webAATfucbmQ7MYuVcNqljqmjZG5IK-45K2kl2vwI5_tXZ3qoed0sNm3cHB8cchhBxriMjQp224bJSlA6a3p1SyVk8pJecPLuH3Q/live/f(i=2)/g1ionbr/playlist.m3u8
 #EXTM3U
 #EXTINF:-1 group-title="Mundo" tvg-chno="1176" tvg-id="Telesur.ve" tvg-logo="https://github.com/masterentertainment/listas/blob/main/logos/TLSUR.png?raw=true" , TeleSUR
 https://cdnesmain.telesur.ultrabase.net/mbliveMain/hd/chunklist.m3u8
