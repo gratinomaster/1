@@ -928,7 +928,7 @@ def is_simple_extm3u_header(line):
 
 
 # Agora sem limite de linhas
-with open(output_file, "w", encoding="utf-8") as f:
+with open(output_file, "a", encoding="utf-8") as f:
     for list_name, list_content in lists:
         print(f"Processando lista: {list_name}")
         lines = list_content.split("\n")
