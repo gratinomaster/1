@@ -762,8 +762,25 @@ https://archive.org/download/WRC_20010913_233000_Redskins_Report/WRC_20010913_23
 https://archive.org/download/WCAU_20141002_223000_NBC_Nightly_News/WCAU_20141002_223000_NBC_Nightly_News.mp4?exact=1&start=0&end=300
 #EXTINF:-1 group-title="VOD" ,Speaker Nancy Pelosi Calls Trump’s Warnings About Investigations A ‘Threat' | Hardball | MSNBC
 https://archive.org/download/youtube-XH_WM0I-ra4/XH_WM0I-ra4.mp4
-#EXTM3U
-#EXTM3U
+#EXTM3U url-tvg="https://github.com/LITUATUI/M3UPT/raw/main/EPG/epg-m3upt.xml.xz"
+# M3UPT.com - IPTV playlist in M3U format with TV and radio stations in Portuguese. Public and official streams only.
+# 📺 TV
+#EXTINF:-1 group-title="TV" tvg-id="RTP1.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP1.png",RTP 1
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:144.0) Gecko/20100101 Firefox/144.0
+#EXTVLCOPT:http-origin=https://www.rtp.pt
+#EXTVLCOPT:http-referrer=https://www.rtp.pt/play/direto/rtp1
+https://streaming-live.rtp.pt/liverepeater/smil:rtp1HD.smil/playlist.m3u8
+#EXTINF:-1 group-title="TV" tvg-id="RTP2.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP2.png",RTP 2
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:144.0) Gecko/20100101 Firefox/144.0
+#EXTVLCOPT:http-origin=https://www.rtp.pt
+#EXTVLCOPT:http-referrer=https://www.rtp.pt/play/direto/rtp2
+https://streaming-live.rtp.pt/liverepeater/rtp2HD.smil/playlist.m3u8
+#EXTINF:-1 group-title="TV" tvg-id="SIC.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/SIC.png",SIC
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:144.0) Gecko/20100101 Firefox/144.0
+#EXTVLCOPT:http-origin=https://sic.pt
+#EXTVLCOPT:http-referrer=https://sic.pt/
+https://d1zx6l1dn8vaj5.cloudfront.net/out/v1/b89cc37caa6d418eb423cf092a2ef970/index.m3u8
+#EXTINF:-1 group-title="TV" tvg-id="TVI.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/TVI.png",TVI
 #EXTM3U
 #EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_CH1.xml.gz"
 #EXTINF:-1 group-title="CHILE" tvg-chno="1223" tvg-id="UCVTV.cl" tvg-logo="https://pbs.twimg.com/profile_images/1283856690648096770/L-vGlyO4_400x400.png" , UCV HD
@@ -2643,9 +2660,9 @@ https://live-cm-ah-17-33.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0e
 https://live-as-08-16.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJVUyIsImRvbWFpbiI6ImxpdmUtYXMtMDgtMTYudmlkZW8uZ2xvYm8uY29tIiwiZXhwIjoxNzcxMzc1OTI4LCJpYXQiOjE3NzEzNTQzMjgsImlzcyI6InBsYXliYWNrLWFwaS1wcm9kLWdjcCIsIm93bmVyIjoiIiwicGF0aCI6Ii9saXZlL2YoYk1pbj01NTg5NzYsZHZyPTEyMCkvY2JucmoyNGhhL3BsYXlsaXN0Lm0zdTgifQ.CU3BjsSngsHctAiyw2QrWopSiZ0fNxe4xNnWoCv10lZr7Z-i4rKTByq2yPhzwY0B-DIWFaPFvoPzujSy_FdDx8q9hhGMuH8FDWeKZJY9c5PqcZETdFg3wg26z8paImqXxzcnUs6yJHS511laFGtV7tmv9t0tDQsxVYp73ec8sZg_40S7mTXdJVosqGQ9uv1ueKBAzkEn3RBERun6CPdXLC0ejFEN97zCTTliJVp3lXAkQ1Vr3YhSe3nP8Q498GSUJTWmO236V8qrMRZ7gtn_YGCm77zTQG3iJomEa0yf_RXyGyelJ8TsMS00YExI9y5naqzGguz2IvxPHJ5feNgIRw/live/f(bMin=558976,dvr=120)/cbnrj24ha/playlist.m3u8
 #EXTM3U
 #EXTINF:-1 group-title="GLOBO AO VIVO" tvg-logo="https://s02.video.glbimg.com/x720/11364926.jpg",AO VIVO: 'Carnaval nas Olinda' mostra folia ao vivo e de pertinho
-https://live-as-02-16.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJVUyIsImRvbWFpbiI6ImxpdmUtYXMtMDItMTYudmlkZW8uZ2xvYm8uY29tIiwiZXhwIjoxNzcxMzc1ODIwLCJpYXQiOjE3NzEzNTQyMjAsImlzcyI6InBsYXliYWNrLWFwaS1wcm9kLWdjcCIsIm93bmVyIjoiIiwicGF0aCI6Ii9saXZlL2YoaT0yKS9nbG9iby1wZTEvcGxheWxpc3QubTN1OCJ9.oyEzPQoCfUDBbz6nSMokProSX4Ts-drWgDpxBaEvqJvEBEdgbmsjIl8tY1idsdEO2sZgdupQnkcHmJstZ61ANBy-oAfAcWLg8YysHDWJwyQI7NnczXplb4C5KALgYe6WHXJ_MCgYqEbgvOBAKKy__eLo5qjfKQds8GHD23JGcJA9zgEZSO6Ta_6EavIXOlZSQaiOpRMyMCp4Xwwk1Al66Y3cSwfsN2nUW5F-bD8DKAgsi71HDV0YljUZjGlUEcRgBD3L1twLQkVGBkz6oyiKusKT4OH2DqGJrxKtzgyOU5GhQ6fMpoe8qdxHHgVguYjXQpTHun0pTn75_8-BHoFk1w/live/f(i=2)/globo-pe1/playlist.m3u8
-#EXTINF:-1 group-title="GLOBO AO VIVO" tvg-logo="https://s02.video.glbimg.com/x720/14295880.jpg",AO VIVO: Apuração do Grupo Especial do carnaval de São Paulo acontece daqui a pouco; veja no g1 a transmissão da Globo
-https://vod-as-03-33.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJVUyIsImRvbWFpbiI6InZvZC1hcy0wMy0zMy52aWRlby5nbG9iby5jb20iLCJleHAiOjE3NzEzNTQ0NzAsImlhdCI6MTc3MTM1NDI1OCwiaXNzIjoicGxheWJhY2stYXBpLXByb2QtZ2NwIiwib3duZXIiOiIiLCJwYXRoIjoiL3IzNjBfMTA4MC92MS80NC83OS81OC8xNDM1NTIxMF81OGM0MGRhNGU0YTFkZTg3YTgyOWM5MDEwZWRhMWYzODNiNDg1OGJhLzE0MzU1MjEwLXVNd2d1MHgtbWFuaWZlc3QuaXNtLzE0MzU1MjEwLm0zdTgifQ.0XUXn5cFSOkbLQTRH_5chANqVR6MqpPAcjHc5gE7gdMkkQcSBHKSCLqbLMS6m_yoRBTtswSUXmc5Tq37SAlAu0UMGtqbCBZb7vMrseNPIRiAtJkU1PKPLCreYNwPxYxY4Qv7GjOlMlo6tEQXNHZ5l3x3qZsZzRBxWzG4Ny8K6ckW6awkL5ISdTycH1u6QFvVjKd1iLIyrAqog3CdOA4jr3WuNi_jNVDEumJfldumU8ACse1REtSo9sb0khyTksPTWQclMu-RMoYWaR_xmXm6iYBUw_xVyr9lOWTL9LZx7Qe64JXYzM4qcYAQeEYKDjhWxtcx3fORBbuaK3Kq3AGcYw/r360_1080/v1/44/79/58/14355210_58c40da4e4a1de87a829c9010eda1f383b4858ba/14355210-uMwgu0x-manifest.ism/14355210.m3u8
+https://live-as-10-03.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJVUyIsImRvbWFpbiI6ImxpdmUtYXMtMTAtMDMudmlkZW8uZ2xvYm8uY29tIiwiZXhwIjoxNzcxMzc5MzU1LCJpYXQiOjE3NzEzNTc3NTUsImlzcyI6InBsYXliYWNrLWFwaS1wcm9kLWdjcCIsIm93bmVyIjoiIiwicGF0aCI6Ii9saXZlL2YoaT0yKS9nbG9iby1wZTEvcGxheWxpc3QubTN1OCJ9.Ddpa_s4M8gdnTPt-qvqVek4UE3gIBUTGrcTOb_k39qVM-1Jv2iqEZlCvSER7RtEKVeN4XBtzdK4WNCRdoeybcyIXDMIAoskWlm_mrLcJsGmP-QXm4qxrtuHAyMQHu2BhkS_YGCYlAfIes0OeJiUpdnVPvIyjEfU5k4Q0FrDHJC_DFzPNPzstmavTk-VgPwS2gaXiy8rxczMGfCqLfiq-im2hsw2tc5NMC060Gym0xZ8LaSyfUq1etsazCtucsveQb_PJNZg4jCxuAg6VvX5XdpLgeLTziA5s2Vs-ik39ZQMK9bcDVoGasp-NKb6YnHLthg5JfwwLcP10gpfMdAF5YA/live/f(i=2)/globo-pe1/playlist.m3u8
+#EXTINF:-1 group-title="GLOBO AO VIVO" tvg-logo="https://s02.video.glbimg.com/x720/14295880.jpg",AO VIVO: Acompanhe a apuração do Grupo Especial do carnaval de SP; veja no g1 a transmissão da Globo
+https://live-as-10-03.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJVUyIsImRvbWFpbiI6ImxpdmUtYXMtMTAtMDMudmlkZW8uZ2xvYm8uY29tIiwiZXhwIjoxNzcxMzc5MzU1LCJpYXQiOjE3NzEzNTc3NTUsImlzcyI6InBsYXliYWNrLWFwaS1wcm9kLWdjcCIsIm93bmVyIjoiIiwicGF0aCI6Ii9saXZlL2YoaT0yKS9nbG9iby1wZTEvcGxheWxpc3QubTN1OCJ9.Ddpa_s4M8gdnTPt-qvqVek4UE3gIBUTGrcTOb_k39qVM-1Jv2iqEZlCvSER7RtEKVeN4XBtzdK4WNCRdoeybcyIXDMIAoskWlm_mrLcJsGmP-QXm4qxrtuHAyMQHu2BhkS_YGCYlAfIes0OeJiUpdnVPvIyjEfU5k4Q0FrDHJC_DFzPNPzstmavTk-VgPwS2gaXiy8rxczMGfCqLfiq-im2hsw2tc5NMC060Gym0xZ8LaSyfUq1etsazCtucsveQb_PJNZg4jCxuAg6VvX5XdpLgeLTziA5s2Vs-ik39ZQMK9bcDVoGasp-NKb6YnHLthg5JfwwLcP10gpfMdAF5YA/live/f(i=2)/globo-pe1/globo-pe1-audio_1=128000-video=915968.m3u8
 #EXTM3U
 #EXTINF:-1 group-title="Mundo" tvg-chno="1176" tvg-id="Telesur.ve" tvg-logo="https://github.com/masterentertainment/listas/blob/main/logos/TLSUR.png?raw=true" , TeleSUR
 https://cdnesmain.telesur.ultrabase.net/mbliveMain/hd/chunklist.m3u8
