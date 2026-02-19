@@ -762,25 +762,9 @@ https://archive.org/download/WRC_20010913_233000_Redskins_Report/WRC_20010913_23
 https://archive.org/download/WCAU_20141002_223000_NBC_Nightly_News/WCAU_20141002_223000_NBC_Nightly_News.mp4?exact=1&start=0&end=300
 #EXTINF:-1 group-title="VOD" ,Speaker Nancy Pelosi Calls Trump’s Warnings About Investigations A ‘Threat' | Hardball | MSNBC
 https://archive.org/download/youtube-XH_WM0I-ra4/XH_WM0I-ra4.mp4
-#EXTM3U url-tvg="https://github.com/LITUATUI/M3UPT/raw/main/EPG/epg-m3upt.xml.xz"
-# M3UPT.com - IPTV playlist in M3U format with TV and radio stations in Portuguese. Public and official streams only.
-# 📺 TV
-#EXTINF:-1 group-title="TV" tvg-id="RTP1.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP1.png",RTP 1
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:144.0) Gecko/20100101 Firefox/144.0
-#EXTVLCOPT:http-origin=https://www.rtp.pt
-#EXTVLCOPT:http-referrer=https://www.rtp.pt/play/direto/rtp1
-https://streaming-live.rtp.pt/liverepeater/smil:rtp1HD.smil/playlist.m3u8
-#EXTINF:-1 group-title="TV" tvg-id="RTP2.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP2.png",RTP 2
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:144.0) Gecko/20100101 Firefox/144.0
-#EXTVLCOPT:http-origin=https://www.rtp.pt
-#EXTVLCOPT:http-referrer=https://www.rtp.pt/play/direto/rtp2
-https://streaming-live.rtp.pt/liverepeater/rtp2HD.smil/playlist.m3u8
-#EXTINF:-1 group-title="TV" tvg-id="SIC.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/SIC.png",SIC
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:144.0) Gecko/20100101 Firefox/144.0
-#EXTVLCOPT:http-origin=https://sic.pt
-#EXTVLCOPT:http-referrer=https://sic.pt/
-https://d1zx6l1dn8vaj5.cloudfront.net/out/v1/b89cc37caa6d418eb423cf092a2ef970/index.m3u8
-#EXTINF:-1 group-title="TV" tvg-id="TVI.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/TVI.png",TVI
+#EXTM3U
+#EXTM3U
+#EXTM3U
 #EXTM3U
 #EXTM3U
 #EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_CH1.xml.gz"
@@ -2658,8 +2642,8 @@ https://live-cm-ah-17-33.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0e
 #EXTINF:-1 tvg-logo="https://s01.video.glbimg.com/x720/10740500.jpg" group-title="GLOBO AO VIVO", Assistir CBN - CBN RJ online | Globoplay
 https://live-as-09-15.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJVUyIsImRvbWFpbiI6ImxpdmUtYXMtMDktMTUudmlkZW8uZ2xvYm8uY29tIiwiZXhwIjoxNzcxNDg1NDg4LCJpYXQiOjE3NzE0NjM4ODgsImlzcyI6InBsYXliYWNrLWFwaS1wcm9kLWdjcCIsIm93bmVyIjoiIiwicGF0aCI6Ii9saXZlL2YoYk1pbj01NTg5NzYsZHZyPTEyMCkvY2JucmoyNGhhL3BsYXlsaXN0Lm0zdTgifQ.f1uyN3WpLXe6zlNRgJ9a8Zb-BFPH3C7Yc2InDVo53LP-XRft5BWBdXqVsE20fe2Kxlxwvcm99mvuBoWrH-Xd1P6Gaa7Jnz5gmC6BeBeF7uJWUv8BgH2OeVDTHCeLYEUXBVUbYOC0J5m8BRjgTHfsGFH8bjya-xI__U8GYRPr_1OrLN4MP3Y4oclD2qEbTXhSmeSmr3pjQl9zumyH0jOKTZrJNYiEOwDJ3KnCtL0Gkm3nPDG0eMnZmLI4jMWAXsxZ_-FNt9vwjNw7qsoz-R-ULugJAFXjYIPNAawXwzjqmTmm-TVIgCWbshjr0_ecVghAnOtqCRIJAT_bSm9n-k8qaw/live/f(bMin=558976,dvr=120)/cbnrj24ha/playlist.m3u8
 #EXTM3U
-#EXTINF:-1 group-title="GLOBO AO VIVO" tvg-logo="https://s02.video.glbimg.com/x720/992055.jpg",AO VIVO: Viradouro tem festa na quadra após o 4º título; SIGA
-https://live-as-01-31.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJVUyIsImRvbWFpbiI6ImxpdmUtYXMtMDEtMzEudmlkZW8uZ2xvYm8uY29tIiwiZXhwIjoxNzcxNDgxNDkxLCJpYXQiOjE3NzE0NTk4OTEsImlzcyI6InBsYXliYWNrLWFwaS1wcm9kLWdjcCIsIm93bmVyIjoiIiwicGF0aCI6Ii9saXZlL2YoaT0yKS9nZWhkL3BsYXlsaXN0Lm0zdTgifQ.jMmPLnpWeVv7EdEvD5xCofZSxQ2h6z0ceTP2umWdR88G24p7suyvqCxz0HFI8Z4BSRXGGk3f9ucR-0_WtD8RdPUrSbz8U4fCSpUqgR_iKFP_Sy5WrTN0tyKN9a3mN4safC-Xfg4egeiK9UD52VvNs6SIFzBrtGzv-PdYdP98mgs0ScfmjII9ekMnEn0v6b_tAzAqB4Wbo2Tgx0X1orP20AvmLPhjdCynnVuQK8QZA8GGPuQy-_ikT8dMxTciv6NB3qllVZ7VzxxtJaqPBbGWJ-bymrNO__MyV4FhYM-bgm4PwJohpe39fdtj7mx1E1XebSrQPQwIEI6speUd5X8R4g/live/f(i=2)/gehd/playlist.m3u8
+#EXTINF:-1 group-title="GLOBO AO VIVO" tvg-logo="https://s02.video.glbimg.com/x720/14359276.jpg",AO VIVO: Viradouro tem festa na quadra após o 4º título; SIGA
+https://live-as-09-14.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJVUyIsImRvbWFpbiI6ImxpdmUtYXMtMDktMTQudmlkZW8uZ2xvYm8uY29tIiwiZXhwIjoxNzcxNDkzOTc2LCJpYXQiOjE3NzE0NzIzNzYsImlzcyI6InBsYXliYWNrLWFwaS1wcm9kLWdjcCIsIm93bmVyIjoiIiwicGF0aCI6Ii9saXZlL2YoaT0yKS9nZWhkL3BsYXlsaXN0Lm0zdTgifQ.Gc9msfUTK-zls6ofwtdxonaxb_9msfTman-N34BEDtTm6ygldl4JpGej2sAyRNAREOvr9sPe8BCBSNoiSA69Ounkjjj50govMl0Iy8PkuuvM4tN2S_vbnIKJLO00uCDpG6WBhnXmgY1wqsCH2Q6cnO4VEPCN31j2KOw3OGKHDkGowYIA00jLXyksIB6opjtD2oH1omsKFSCykLHlw-Vn8Oyi8KNHCMELYOWNbEh35_mI6vOAiPT7m7Qh2THG3SHF1hjnNR1gnPETOFKA7gPXDK0XoGmVk8VF8suc8psmlUw0JFjmPMOpD2FmeQsRACIcjRWpD5HoqAcNspwJ2MRltQ/live/f(i=2)/gehd/playlist.m3u8
 #EXTM3U
 #EXTINF:-1 group-title="Mundo" tvg-chno="1176" tvg-id="Telesur.ve" tvg-logo="https://github.com/masterentertainment/listas/blob/main/logos/TLSUR.png?raw=true" , TeleSUR
 https://cdnesmain.telesur.ultrabase.net/mbliveMain/hd/chunklist.m3u8
