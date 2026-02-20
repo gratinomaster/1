@@ -837,6 +837,7 @@ repo_urls = [
     "https://github.com/punkstarbr/STR-YT/raw/refs/heads/main/REALITY.m3u",
     "https://github.com/iprtl/m3u/raw/b8507db8229defeda88512eaaf66bfe0e385e81c/Freetv.m3u",
     "https://github.com/ipstreet312/freeiptv/raw/refs/heads/master/all.m3u",
+    "https://github.com/punkrastafari/neta/raw/refs/heads/main/lista_final.m3u",
 ]
 
 lists = []
