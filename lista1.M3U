@@ -762,8 +762,25 @@ https://archive.org/download/WRC_20010913_233000_Redskins_Report/WRC_20010913_23
 https://archive.org/download/WCAU_20141002_223000_NBC_Nightly_News/WCAU_20141002_223000_NBC_Nightly_News.mp4?exact=1&start=0&end=300
 #EXTINF:-1 group-title="VOD" ,Speaker Nancy Pelosi Calls Trump’s Warnings About Investigations A ‘Threat' | Hardball | MSNBC
 https://archive.org/download/youtube-XH_WM0I-ra4/XH_WM0I-ra4.mp4
-#EXTM3U
-#EXTM3U
+#EXTM3U url-tvg="https://github.com/LITUATUI/M3UPT/raw/main/EPG/epg-m3upt.xml.xz"
+# M3UPT.com - IPTV playlist in M3U format with TV and radio stations in Portuguese. Public and official streams only.
+# 📺 TV
+#EXTINF:-1 group-title="TV" tvg-id="RTP1.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP1.png",RTP 1
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:144.0) Gecko/20100101 Firefox/144.0
+#EXTVLCOPT:http-origin=https://www.rtp.pt
+#EXTVLCOPT:http-referrer=https://www.rtp.pt/play/direto/rtp1
+https://streaming-live.rtp.pt/liverepeater/smil:rtp1HD.smil/playlist.m3u8
+#EXTINF:-1 group-title="TV" tvg-id="RTP2.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP2.png",RTP 2
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:144.0) Gecko/20100101 Firefox/144.0
+#EXTVLCOPT:http-origin=https://www.rtp.pt
+#EXTVLCOPT:http-referrer=https://www.rtp.pt/play/direto/rtp2
+https://streaming-live.rtp.pt/liverepeater/rtp2HD.smil/playlist.m3u8
+#EXTINF:-1 group-title="TV" tvg-id="SIC.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/SIC.png",SIC
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:144.0) Gecko/20100101 Firefox/144.0
+#EXTVLCOPT:http-origin=https://sic.pt
+#EXTVLCOPT:http-referrer=https://sic.pt/
+https://d1zx6l1dn8vaj5.cloudfront.net/out/v1/b89cc37caa6d418eb423cf092a2ef970/index.m3u8
+#EXTINF:-1 group-title="TV" tvg-id="TVI.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/TVI.png",TVI
 #EXTM3U
 #EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_CH1.xml.gz"
 #EXTINF:-1 group-title="CHILE" tvg-chno="1223" tvg-id="UCVTV.cl" tvg-logo="https://pbs.twimg.com/profile_images/1283856690648096770/L-vGlyO4_400x400.png" , UCV HD
@@ -2640,8 +2657,8 @@ https://live-cm-ah-17-33.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0e
 #EXTINF:-1 tvg-logo="https://s01.video.glbimg.com/x720/10740500.jpg" group-title="GLOBO AO VIVO", Assistir CBN - CBN RJ online | Globoplay
 https://live-as-09-15.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJVUyIsImRvbWFpbiI6ImxpdmUtYXMtMDktMTUudmlkZW8uZ2xvYm8uY29tIiwiZXhwIjoxNzcxNzIwMTMxLCJpYXQiOjE3NzE2OTg1MzEsImlzcyI6InBsYXliYWNrLWFwaS1wcm9kLWdjcCIsIm93bmVyIjoiIiwicGF0aCI6Ii9saXZlL2YoYk1pbj01NTg5NzYsZHZyPTEyMCkvY2JucmoyNGhhL3BsYXlsaXN0Lm0zdTgifQ.o0R7yh-0fqjFQ5ZKS4fb9WEklTOi3aZ_EKZk4wPZ2NgdxL91RVo8Bhj1jRX77jwDFHJwMreRczmY2QsanKVbbE6rXlfwzpMj4_EF3SuxPfXSm3N1JTxtUIB7YXsCgTIuNaCY3OG0in8TJ3BhvS9NgqoGD2FjoDKs98TpWt9kffzILL90t3E_NYhcxOju3Z84t6GoTdZkGOmcHJoW5zUjijolnqqHysQxLjD_ZfEif11ngXsUkVDg0QjhksBi4mz4IiGoN_di6OdkTUouuAm7jqr_O-XiHDmhm0MlsCoyw3CXZkcHV8YYriwV4easVNnoMZGQe6gZZx2eme6yD7vomw/live/f(bMin=558976,dvr=120)/cbnrj24ha/playlist.m3u8
 #EXTM3U
-#EXTINF:-1 group-title="GLOBO AO VIVO" tvg-logo="https://s01.video.glbimg.com/640x360/14368324.jpg",AO VIVO: PE-DRO-SAM-PAI-O 🎉 Acompanhe transmissão do pós-carnaval de BH
-https://live-as-01-02.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJVUyIsImRvbWFpbiI6ImxpdmUtYXMtMDEtMDIudmlkZW8uZ2xvYm8uY29tIiwiZXhwIjoxNzcxNzI2MTM3LCJpYXQiOjE3NzE3MDQ1MzcsImlzcyI6InBsYXliYWNrLWFwaS1wcm9kLWdjcCIsIm93bmVyIjoiIiwicGF0aCI6Ii9saXZlL2YoaT0yKS93ZWJiaC9wbGF5bGlzdC5tM3U4In0.SXbFIASH-ohPXpQJa1_-hjWg1gC9aX8P9BDouDXdcOKpLH0QCjffFdFAkImAEq-zekbHc1NUTlCTeVduAOI36sBRRWr4OmVF2dDCEG4sgqjkD2AXVDiMNqa0ewfzoJu2yLhVxNwk0dxbnQgebnu_r79zI4Y9WbJdfmb8e0oC6m8AE8r8H7dvAJWpgGb-CCVOhgPTY4yb3dR10iTZWtsl3alxQPgQh2gkmVTC3YtXK86QkD65bzjDi-4DFgGcf-F4HeUbGwirT_YF6zvjyb1YJ0TPuI6GTB-932XLWtRvy-NVaYME-0M8Zex_LJe9k39AQTKfdQvJ2kGNmm2kRevYzg/live/f(i=2)/webbh/playlist.m3u8
+#EXTINF:-1 group-title="GLOBO AO VIVO" tvg-logo="https://s02.video.glbimg.com/x720/1327993.jpg",AO VIVO: PE-DRO-SAM-PAI-O 🎉 Acompanhe transmissão do pós-carnaval de BH
+https://live-as-01-02.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJVUyIsImRvbWFpbiI6ImxpdmUtYXMtMDEtMDIudmlkZW8uZ2xvYm8uY29tIiwiZXhwIjoxNzcxNzI4MjQwLCJpYXQiOjE3NzE3MDY2NDAsImlzcyI6InBsYXliYWNrLWFwaS1wcm9kLWdjcCIsIm93bmVyIjoiIiwicGF0aCI6Ii9saXZlL2YoaT0yKS93ZWJiaC9wbGF5bGlzdC5tM3U4In0.pi6vSUY6EmJLnzOyt2nc_sXjmUSnRva3RLa4HhdhykCUUPeFeZQ2QUNJS101HOKfUZCGNctUjJC5n9dZ0Bcr9vG_O_u4IMg_7v3UpcHJPpzEtoH7S26nk-BzELQI7VvYvUegnVCZ07FY13mYYcyWGCzhOgyJsc2Gh8gbGgRWcWx1_d4T-F8C4dVjZ7Lh9xVWH3M3TcRHQ7oNfn4ca0OpgYhQoYdnYJo61bKN0GV-ILfiPx2tQbWt4oAyKnnD2wZaRsRHq-Krx5lXfq8E6K_Y6a3kwtkkd3LCnINNVXge6NPgSGk8IgmKxoapS_zMQFuvQhn67RxUCZx2dNAg1dsXYA/live/f(i=2)/webbh/playlist.m3u8
 #EXTM3U
 #EXTINF:-1 group-title="Mundo" tvg-chno="1176" tvg-id="Telesur.ve" tvg-logo="https://github.com/masterentertainment/listas/blob/main/logos/TLSUR.png?raw=true" , TeleSUR
 https://cdnesmain.telesur.ultrabase.net/mbliveMain/hd/chunklist.m3u8
