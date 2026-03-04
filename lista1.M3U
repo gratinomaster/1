@@ -776,6 +776,7 @@ https://streaming-live.rtp.pt/liverepeater/rtp2HD.smil/playlist.m3u8
 https://d1zx6l1dn8vaj5.cloudfront.net/out/v1/b89cc37caa6d418eb423cf092a2ef970/index.m3u8
 #EXTINF:-1 group-title="TV" tvg-id="TVI.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/TVI.png",TVI
 #EXTM3U
+#EXTM3U
 #EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_CH1.xml.gz"
 #EXTINF:-1 group-title="CHILE" tvg-chno="1223" tvg-id="UCVTV.cl" tvg-logo="https://pbs.twimg.com/profile_images/1283856690648096770/L-vGlyO4_400x400.png" , UCV HD
 https://unlimited2-cl-isp.dps.live/ucvtv2/ucvtv2.smil/playlist.m3u8
@@ -2649,8 +2650,8 @@ https://live-cm-ah-17-33.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0e
 #EXTINF:-1 tvg-logo="https://s01.video.glbimg.com/x720/10740500.jpg" group-title="GLOBO AO VIVO", Assistir CBN - CBN RJ online | Globoplay
 https://live-as-09-15.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJVUyIsImRvbWFpbiI6ImxpdmUtYXMtMDktMTUudmlkZW8uZ2xvYm8uY29tIiwiZXhwIjoxNzcyNjcxMzc3LCJpYXQiOjE3NzI2NDk3NzcsImlzcyI6InBsYXliYWNrLWFwaS1wcm9kLWdjcCIsIm93bmVyIjoiIiwicGF0aCI6Ii9saXZlL2YoYk1pbj01NTg5NzYsZHZyPTEyMCkvY2JucmoyNGhhL3BsYXlsaXN0Lm0zdTgifQ.WyocvjnfSsiSlYP5FyG0e30weeLTT1V66KuSZ47KWIXfqdaJr4wavNEhoanoTuF6orQbuROk_5q0_kKmwgkHa8efpzlG-LuWyNlGob0udn-JddcAvRVPN8woEE7sEqDbqGPE3h5Afa3Q4LKif4YNo28c7_bG1bMs2ULsRhq0Lsv1WHeMMUJWRb1nXKFmcZSf-bGb_GDCpI24pvRH6W5qZiWgZDB4SrCBRFf8HIQmw0r1uF30768krjeL6wrxsS0raYWWWy7w4uytnrh_O6CBqHCGTF8LSSedII4fP-DgtHUwiW8p3KSRVrblGTeQIZMUtaZZ-OhBPok5Gz_C4AcZCA/live/f(bMin=558976,dvr=120)/cbnrj24ha/playlist.m3u8
 #EXTM3U
-#EXTINF:-1 group-title="GLOBO AO VIVO" tvg-logo="https://s02.video.glbimg.com/x720/2126580.jpg",AO VIVO: Assista ao lançamento do projeto Amazônia Que Eu Quero 2026 ao vivo
-https://live-as-09-19.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJVUyIsImRvbWFpbiI6ImxpdmUtYXMtMDktMTkudmlkZW8uZ2xvYm8uY29tIiwiZXhwIjoxNzcyNjc1MDU4LCJpYXQiOjE3NzI2NTM0NTgsImlzcyI6InBsYXliYWNrLWFwaS1wcm9kLWdjcCIsIm93bmVyIjoiIiwicGF0aCI6Ii9saXZlL2YoaT0yKS9yZWRlYW0vcGxheWxpc3QubTN1OCJ9.SJ_R7vc_pQdvzR7CN2slUYx8SLuiTIbDTqmbZdsX4b6V5jY8g0PAgi90Bu_-1SFZCJzwfkXIog5aSAMrI3rBkf37_26oImJw_XjYHd1xwJnmBvxMzxQFKz-VzeKiO5P8CBQayfvU4NP4N4esl1L-NTWuqlqZReYBeb0olUnEv6kdimG88zTLsDXlDtFHrct4XrjsUe8yC_bJ6fsZoq6zts5Ofnm8AfaE4xP3TxXkDEie2ONyv9zgDGv9gjQB1rKf7OS-XkdIS5glWbzrT_reDIajYGHNAAuZODQ-6ZNcvEoK7TUef6EiL3xd2ECt4IKeHjxZXFm9BLM4LKGzgicp0g/live/f(i=2)/redeam/playlist.m3u8
+#EXTINF:-1 group-title="GLOBO AO VIVO" tvg-logo="https://s02.video.glbimg.com/x720/2168377.jpg",AO VIVO: Assista aos telejornais da TV Liberal
+https://live-as-02-22.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJVUyIsImRvbWFpbiI6ImxpdmUtYXMtMDItMjIudmlkZW8uZ2xvYm8uY29tIiwiZXhwIjoxNzcyNjg4MDY1LCJpYXQiOjE3NzI2NjY0NjUsImlzcyI6InBsYXliYWNrLWFwaS1wcm9kLWdjcCIsIm93bmVyIjoiIiwicGF0aCI6Ii9saXZlL2YoYk1pbj0zMTM5ODQpL3R2bGliZXJhbC9wbGF5bGlzdC5tM3U4In0.z7udbcoOs6YTEJtmis9nRwMcqYDA1eBo8tc14cQFScKrzIy4Gpqud7tgqVKlH1KrLP3JCbXdSUGD6Kqd7ga5-TIjYBQTVYWM_nzBWeB0yvti4vwQj8BlYa0j0zkDkKnuMGKYR535kPOSPZJV44GenQl8vxbe683t7X_iSgZPbKiW32YovyFjZwzQC75loNCdhizXYjZDnZnpRuQGVim02EuFzVhcwGE0beg4Gi3sBCzpuk28ugM7mguZauwBre8QtnNUSWv0kWDTObeaaSx0dw34fXBndvVLJQuXNANS0iKxhf0-nqPlQrZrA52x-kDL2qWCUrBZ6Io84SfpMSPluA/live/f(bMin=313984)/tvliberal/playlist.m3u8
 #EXTM3U
 #EXTINF:-1 group-title="Mundo" tvg-chno="1176" tvg-id="Telesur.ve" tvg-logo="https://github.com/masterentertainment/listas/blob/main/logos/TLSUR.png?raw=true" , TeleSUR
 https://cdnesmain.telesur.ultrabase.net/mbliveMain/hd/chunklist.m3u8
