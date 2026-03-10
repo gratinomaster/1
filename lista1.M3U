@@ -776,6 +776,7 @@ https://streaming-live.rtp.pt/liverepeater/rtp2HD.smil/playlist.m3u8
 https://d1zx6l1dn8vaj5.cloudfront.net/out/v1/b89cc37caa6d418eb423cf092a2ef970/index.m3u8
 #EXTINF:-1 group-title="TV" tvg-id="TVI.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/TVI.png",TVI
 #EXTM3U
+#EXTM3U
 #EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_CH1.xml.gz"
 #EXTINF:-1 group-title="CHILE" tvg-chno="1223" tvg-id="UCVTV.cl" tvg-logo="https://pbs.twimg.com/profile_images/1283856690648096770/L-vGlyO4_400x400.png" , UCV HD
 https://unlimited2-cl-isp.dps.live/ucvtv2/ucvtv2.smil/playlist.m3u8
@@ -2602,17 +2603,8 @@ https://viamotionhsi.netplus.ch/live/eds/m6hd/browser-dash/m6hd.mpd
 #EXTINF:-1 tvg-id="France24.fr" tvg-logo="https://iptv-epg.org/logos/France/France24.fr.png" group-title="FRANÇA",France 24 Français
 https://static.france24.com/live/F24_FR_LO_HLS/live_ios.m3u8
 #EXTM3U
-# Frases Famosas do Marcos Mion
-"Deus é bom o tempo todo!"
-"Mudanças são sempre boas, mesmo que não pareçam num primeiro momento. Você perde uma certeza, mas ganha um mundo de novas opções"
-"As vezes a gente tenta racionalizar demais as coisas, planejar demais as coisas e Deus separa para você o que é seu. Você pode tentar fugir, mas não vai conseguir"
-"Conforme envelhecemos, amamos de forma diferente, porque devido a fatores como experiência memória e autopreservação pensamos, agimos e vivemos de forma diferente"
-"O homem tem três mulheres em sua vida. Sua mãe, sua esposa e sua filha. Te garanto que as duas primeiras não têm expectativas tão altas sobre você quanto a terceira"
-"O amor entre pai e filha é único. Não existe nenhum outro igual"
-"Tempo não cura, a gente aprende a conviver com a dor"
-"Toda criança tem que ver seu pai ajoelhar perante Deus"
-"A gente tem que ser feliz hoje, porque Amanhã não existe"
-"A vida é uma só, aproveite cada momento"
+#EXTINF:-1 group-title="GLOBO AO VIVO" tvg-logo="https://s02.video.glbimg.com/x720/992055.jpg",AO VIVO: TSE tem 2 votos a 0 para cassar e tornar Cláudio Castro inelegível; ASSISTA
+https://live-as-09-09.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJVUyIsImRvbWFpbiI6ImxpdmUtYXMtMDktMDkudmlkZW8uZ2xvYm8uY29tIiwiZXhwIjoxNzczMjA2NDMwLCJpYXQiOjE3NzMxODQ4MzAsImlzcyI6InBsYXliYWNrLWFwaS1wcm9kLWdjcCIsIm93bmVyIjoiIiwicGF0aCI6Ii9saXZlL2YoaT0yKS9nZWhkL3BsYXlsaXN0Lm0zdTgifQ.OsUMuR30BAJo9nvBc8NDDvDVHpfwsun09msBb8sKbPHHaAc9bzLJOEEKlUTURTFYMLdm-etcO0TrMEH4-FnCW1uaZzGsjy0psRVTTccR6bIEbFQArtXzACZuYzw-HOCf5LQfk9Qx_ef0ZrueA7rHn1lSEtuLS-leAoN0c3clNIf9lw65GSoVTCr72X9aOu-i7WwOboJmiRmRDbBcIL2svuz24Nd9WbKrsgFbzHjLu_p0or_n-T8rxjkD2BAkUM3k1w5qFz1XA7TVXL41DuJbLKZL7tFoOsdzU3pM1_dFzZY6RMrA3h8AqgepzqyX_C5sa2A7AyLNc2e5GhitnqbaCQ/live/f(i=2)/gehd/playlist.m3u8
 #EXTM3U
 #EXTM3U
 #EXTINF:-1 group-title="Mundo" tvg-chno="10" tvg-id="AlJazeera" tvg-logo="https://raw.githubusercontent.com/guigo85/lista-m3u-gratuita/main/logos/aljazeera.png" , Al Jazeera Español
