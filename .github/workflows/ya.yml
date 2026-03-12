@@ -36,7 +36,7 @@ jobs:
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
-
-          git add IRIB.m3u || true
-          git commit -m "Arquivo IRIB.m3u gerado pelo OpenCode" || echo "Nada para commit"
+      
+          git add -A
+          git commit -m "Limpeza automática dos arquivos lista*.m3u pelo OpenCode" || echo "Nada para commit"
           git push
