@@ -1,0 +1,42 @@
+name: Run OpenCode
+
+on:
+  workflow_dispatch:
+  push:
+
+jobs:
+  opencode:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Install OpenCode
+        run: |
+          curl -fsSL https://opencode.ai/install | bash
+          echo "$HOME/.opencode/bin" >> $GITHUB_PATH
+
+      - name: Ask OpenCode
+        run: |
+          PERGUNTA=$(cat << 'EOF'
+          exclua todos os arquivos que começam com lista, menos o lista1 lista2 lista3 e lista30 e lista4 e listac1
+          EOF
+          )
+
+          echo "Pergunta: $PERGUNTA"
+          echo ""
+          echo "Resposta do OpenCode:"
+          opencode run "$PERGUNTA"
+
+      - name: Commit changes
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "github-actions@github.com"
+
+          git add IRIB.m3u || true
+          git commit -m "Arquivo IRIB.m3u gerado pelo OpenCode" || echo "Nada para commit"
+          git push
