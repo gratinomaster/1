@@ -23,7 +23,7 @@ jobs:
       - name: Ask OpenCode
         run: |
           PERGUNTA=$(cat << 'EOF'
-          exclua todos os arquivos que começam com lista, menos o lista1 lista2 lista3 e lista30 e lista4 e listac1
+          exclua todos os arquivos que começam com lista, menos o lista1 lista2 lista3 e lista30 e lista4 e listac1, estou falando dos .M3U
           EOF
           )
 
