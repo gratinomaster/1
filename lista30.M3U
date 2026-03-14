@@ -1,2 +1,7 @@
-#EXTINF:-1 tvg-id="" tvg-name="UY | Canal 10" tvg-logo="https://images.zetatv.com.uy/getimageurl/800x1200/center/zpapi.zetatv.com.uy/media/images/saeta_NsDTfHp.png" group-title="Reality Show's Live",UY | Canal 10
-http://live.detodotvplay.com:8080/Risario8/Pineda13/20895
+#EXTM3U
+#EXTINF:-1 tvg-logo="https://archive.org/download/m2a4___calcinha_tradicional_720p__720p_/m2a4___calcinha_tradicional_720p__720p_.thumbs/m2a4___calcinha_tradicional_720p__720p__000828.jpg",m2a4___calcinha_tradicional_720p__720p_
+https://archive.org/download/m2a4___calcinha_tradicional_720p__720p_/m2a4___calcinha_tradicional_720p__720p_.mp4
+#EXTINF:-1 tvg-logo="https://archive.org/download/modulo3_10_cortininha__1080p___720p_/modulo3_10_cortininha__1080p___720p_.thumbs/modulo3_10_cortininha__1080p___720p__000472.jpg",modulo3_10_cortininha__1080p___720p_
+https://archive.org/download/modulo3_10_cortininha__1080p___720p_/modulo3_10_cortininha__1080p___720p_.mp4
+#EXTINF:-1 tvg-logo="https://archive.org/download/m2a7___biqui_ni_3d_720p__720p_/m2a7___biqui_ni_3d_720p__720p_.thumbs/m2a7___biqui_ni_3d_720p__720p__000537.jpg",m2a7___biqui_ni_3d_720p__720p_
+https://archive.org/download/m2a7___biqui_ni_3d_720p__720p_/m2a7___biqui_ni_3d_720p__720p_.mp4
