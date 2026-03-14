@@ -23,7 +23,7 @@ jobs:
       - name: Ask OpenCode
         run: |
           PERGUNTA=$(cat << 'EOF'
-          como usar o openclaw de forma totalmente gratuita, sem instalar ia localmente
+          melhor big tech para comprar hoje na B3, dê bons motivos
           EOF
           )
 
