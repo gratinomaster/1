@@ -23,7 +23,7 @@ jobs:
       - name: Ask OpenCode
         run: |
           PERGUNTA=$(cat << 'EOF'
-          https://github.com/punkstarbr/STR-YT/raw/refs/heads/main/HOMESHOPPING.m3u APENAS, SÓ COM ESSE, faça a versão dessa lista corrigida, alguns canais estão sem epg, encontre epg para 99 por cento e teste para ver se o epg ainda é valido ou é antigo, só pode ter virgula na linha que começa com # quando estiver antes do nome do canal, veja os padrões de #extinf para entender, adcione logo aos canais que não tiverem, sempre logos em .jpg, se preciso for, pesquise na internet epgs dos canais que não tiveram nenhum epg, não adcione tvg-id ficticio, que não esteja presente em nenhum epg, que já existia na lista ou que voce encontrou, com base na lista, adcione no começo da lista, canais do mesmo estilo, que voce sentiu falta, e eles tem que estar funcionando, não offline, NÃO REMOVA NENHUM CANAL, adcione os tvg-id corretos e novos xml ou xml.gz que precisam ser adcionados, eles devem funcionar, teste antes de colocar no m3u, abra os novos epgs para ver o que tem no arquivo, porque as vezes não tem nada, estão vazios então não vão gerar os guias de programação, os novos canais devem ser testados e apenas se funcionarem serem inseridos no começo da lista,Verifique se os arquivos .xml ou .xml.gz: possuem dados reais não estão vazios possuem programação atualizada,não inventar tvg-id, procurar logos reais na internet,não use imgur.com, pare de acrescentar novos canais que contem links invalidos, nem funcionam, só adcione os que funcionarem, teste com ffmpeg, não mude o nome dos canais, veja se o epg está atualizado com a data atual
+          diga quem foi o primeiro presidente da china
           EOF
           )
 
