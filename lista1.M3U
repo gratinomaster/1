@@ -756,8 +756,25 @@ https://archive.org/download/WRC_20010913_233000_Redskins_Report/WRC_20010913_23
 https://archive.org/download/WCAU_20141002_223000_NBC_Nightly_News/WCAU_20141002_223000_NBC_Nightly_News.mp4?exact=1&start=0&end=300
 #EXTINF:-1 group-title="VOD" ,How President Donald Trump’s Tariff Threats Affect Your Wallet | Velshi & Ruhle | MSNBC
 https://archive.org/download/youtube-4phlO88cJw8/4phlO88cJw8.mp4
-#EXTM3U
-#EXTM3U
+#EXTM3U url-tvg="https://github.com/LITUATUI/M3UPT/raw/main/EPG/epg-m3upt.xml.xz"
+# M3UPT.com - IPTV playlist in M3U format with TV and radio stations in Portuguese. Public and official streams only.
+# 📺 TV
+#EXTINF:-1 group-title="TV" tvg-id="RTP1.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP1.png",RTP 1
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:144.0) Gecko/20100101 Firefox/144.0
+#EXTVLCOPT:http-origin=https://www.rtp.pt
+#EXTVLCOPT:http-referrer=https://www.rtp.pt/play/direto/rtp1
+https://streaming-live.rtp.pt/liverepeater/smil:rtp1HD.smil/playlist.m3u8
+#EXTINF:-1 group-title="TV" tvg-id="RTP2.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP2.png",RTP 2
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:144.0) Gecko/20100101 Firefox/144.0
+#EXTVLCOPT:http-origin=https://www.rtp.pt
+#EXTVLCOPT:http-referrer=https://www.rtp.pt/play/direto/rtp2
+https://streaming-live.rtp.pt/liverepeater/rtp2HD.smil/playlist.m3u8
+#EXTINF:-1 group-title="TV" tvg-id="SIC.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/SIC.png",SIC
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:144.0) Gecko/20100101 Firefox/144.0
+#EXTVLCOPT:http-origin=https://sic.pt
+#EXTVLCOPT:http-referrer=https://sic.pt/
+https://d1zx6l1dn8vaj5.cloudfront.net/out/v1/b89cc37caa6d418eb423cf092a2ef970/index.m3u8
+#EXTINF:-1 group-title="TV" tvg-id="TVI.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/TVI.png",TVI
 #EXTM3U
 #EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_CH1.xml.gz"
 #EXTINF:-1 group-title="CHILE" tvg-chno="1223" tvg-id="UCVTV.cl" tvg-logo="https://pbs.twimg.com/profile_images/1283856690648096770/L-vGlyO4_400x400.png" , UCV HD
@@ -5749,50 +5766,50 @@ https://video01.logicahost.com.br/viamorena01/viamorena01/chunklist_w38565330.m3
 https://sistemavrt2023.vrtchannel.tv.br:3626/hybrid/play.m3u8
 #EXTINF:-1 group-title="VARIEDADES" tvg-id="Like.br" tvg-logo="https://www.panorama.tv.br/wp-content/uploads/sites/15/2021/11/open-graph.jpg",TVC PANORAMA
 https://tv02.zas.media:1936/panorama/panorama/chunklist_w1485483103.m3u8
-#EXTM3U x-tvg-url="https://raw.githubusercontent.com/acidjesuz/EPGTalk/master/guide.xml,https://raw.githubusercontent.com/acidjesuz/EPGTalk/master/US_guide.xml.gz"
-#EXTINF:-1 tvg-id="nbc.ca.losangeles.knbc" group-title="USA" tvg-name="KNBC" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/NBC_logo_2022_%28vertical%29.svg/120px-NBC_logo_2022_%28vertical%29.svg.png",NBC 4 Los Angeles (KNBC)
+#EXTM3U x-tvg-url="https://raw.githubusercontent.com/acidjesuz/EPGTalk/master/guide.xml,https://raw.githubusercontent.com/acidjesuz/EPGTalk/master/US_guide.xml.gz,https://iptv-epg.org/files/epg-us.xml.gz"
+#EXTINF:-1 tvg-id="nbc.ca.losangeles.knbc" group-title="USA" tvg-name="KNBC" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/7a/NBC_logo_2022_%28vertical%29.svg.png",NBC 4 Los Angeles (KNBC)
 https://nbculocallive.akamaized.net/hls/live/2037084/losangeles/stream1/master.m3u8
-#EXTINF:-1 tvg-id="fox.ca.losangeles.kttv" group-title="USA" tvg-name="KTTV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Fox_Television_Stations_logo.svg/120px-Fox_Television_Stations_logo.svg.png",FOX 11 Los Angeles (KTTV)
+#EXTINF:-1 tvg-id="fox.ca.losangeles.kttv" group-title="USA" tvg-name="KTTV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/0d/Fox_Television_Stations_logo.svg.png",FOX 11 Los Angeles (KTTV)
 https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00488-foxdigital-fox11losangeleskttv-vizious/playlist.m3u8
-#EXTINF:-1 tvg-id="fox.ca.sanfrancisco.ktvu" group-title="USA" tvg-name="KTVU" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Fox_Television_Stations_logo.svg/120px-Fox_Television_Stations_logo.svg.png",FOX 2 San Francisco (KTVU)
+#EXTINF:-1 tvg-id="fox.ca.sanfrancisco.ktvu" group-title="USA" tvg-name="KTVU" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/0d/Fox_Television_Stations_logo.svg.png",FOX 2 San Francisco (KTVU)
 https://aegis-cloudfront-1.tubi.video/8d9284ec-c451-4e51-a1d4-d16e5c8972af/index.m3u8
-#EXTINF:-1 tvg-id="abc.ca.sandiego.kgtv" group-title="USA" tvg-name="KGTV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/ABC-2021-LOGO.svg/120px-ABC-2021-LOGO.svg.png",ABC 10 San Diego (KGTV)
+#EXTINF:-1 tvg-id="abc.ca.sandiego.kgtv" group-title="USA" tvg-name="KGTV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/2f/ABC-2021-LOGO.svg.png",ABC 10 San Diego (KGTV)
 https://aegis-cloudfront-1.tubi.video/1a352414-3a30-4f42-b14b-c091d02a5e45/playlist.m3u8
-#EXTINF:-1 tvg-id="nbc.ca.sacramento.kcra" group-title="USA" tvg-name="KCRA" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/NBC_logo_2022_%28vertical%29.svg/120px-NBC_logo_2022_%28vertical%29.svg.png",NBC 3 Sacramento (KCRA)
+#EXTINF:-1 tvg-id="nbc.ca.sacramento.kcra" group-title="USA" tvg-name="KCRA" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/7a/NBC_logo_2022_%28vertical%29.svg.png",NBC 3 Sacramento (KCRA)
 https://aegis-cloudfront-1.tubi.video/5e3aff30-070f-4951-aa59-5ca415acb3c1/playlist.m3u8
-#EXTINF:-1 group-title="USA" tvg-name="ABC" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/ABC-2021-LOGO.svg/120px-ABC-2021-LOGO.svg.png",ABC EAST
+#EXTINF:-1 tvg-id="abc.east.us" group-title="USA" tvg-name="ABC" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/2f/ABC-2021-LOGO.svg.png",ABC EAST
 http://173.225.32.123/KSFY-2363/index.m3u8
-#EXTINF:-1 tvg-id="I152.10098.schedulesdirect.org" group-title="USA" tvg-name="CBS" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/CBS_logo_%282020%29.svg/120px-CBS_logo_%282020%29.svg.png",CBS EAST
+#EXTINF:-1 tvg-id="I152.10098.schedulesdirect.org" group-title="USA" tvg-name="CBS" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/ee/CBS_logo_%282020%29.svg.png",CBS EAST
 http://tkosportz.live:25461/folalawal@/4044225438/10374
-#EXTINF:-1 group-title="USA" tvg-name="NBC" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/NBC_logo_2022_%28vertical%29.svg/120px-NBC_logo_2022_%28vertical%29.svg.png",NBC EAST
+#EXTINF:-1 tvg-id="nbc.east.us" group-title="USA" tvg-name="NBC" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/7a/NBC_logo_2022_%28vertical%29.svg.png",NBC EAST
 http://4.59.210.197:8815/udp/127.0.0.1:6009
-#EXTINF:-1 tvg-id="KMIZDT1.us" group-title="USA" tvg-name="ABC Tampa FL" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/ABC-2021-LOGO.svg/120px-ABC-2021-LOGO.svg.png",ABC Tampa FL
+#EXTINF:-1 tvg-id="KMIZDT1.us" group-title="USA" tvg-name="ABC Tampa FL" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/2f/ABC-2021-LOGO.svg.png",ABC Tampa FL
 https://fl1.moveonjoy.com/FL_Tampa_ABC/index.m3u8
-#EXTINF:-1 group-title="USA" tvg-name="KABC-TV ABC 7" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/ABC-2021-LOGO.svg/120px-ABC-2021-LOGO.svg.png",KABC-TV ABC 7 (Los Angeles CA)
+#EXTINF:-1 tvg-id="abc.ca.losangeles.kabc" group-title="USA" tvg-name="KABC-TV ABC 7" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/2f/ABC-2021-LOGO.svg.png",KABC-TV ABC 7 (Los Angeles CA)
 https://fl1.moveonjoy.com/CA_LOS_ANGELES_ABC/index.m3u8
-#EXTINF:-1 tvg-id="ABC.(KMIZ).Columbia,.MO.us" group-title="USA" tvg-name="ABC (KMIZ)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/ABC-2021-LOGO.svg/120px-ABC-2021-LOGO.svg.png",ABC (KMIZ)
+#EXTINF:-1 tvg-id="ABC.(KMIZ).Columbia,.MO.us" group-title="USA" tvg-name="ABC (KMIZ)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/2f/ABC-2021-LOGO.svg.png",ABC (KMIZ)
 https://cvtv.cvalley.net/hls/KMIZABC/KMIZABC.m3u8
-#EXTINF:-1 group-title="USA" tvg-name="CBS West Palm Beach FL" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/CBS_logo_%282020%29.svg/120px-CBS_logo_%282020%29.svg.png",CBS West Palm Beach FL
+#EXTINF:-1 tvg-id="cbs.ca.westpalmbeach.wpbf" group-title="USA" tvg-name="CBS West Palm Beach FL" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/ee/CBS_logo_%282020%29.svg.png",CBS West Palm Beach FL
 https://fl1.moveonjoy.com/FL_West_Palm_Beach_CBS/index.m3u8
-#EXTINF:-1 tvg-id="I152.10098.schedulesdirect.org" group-title="USA" tvg-name="CBS" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/CBS_logo_%282020%29.svg/120px-CBS_logo_%282020%29.svg.png",CBS West Palm Beach FL (Duplicate Signal)
+#EXTINF:-1 tvg-id="I152.10098.schedulesdirect.org" group-title="USA" tvg-name="CBS" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/ee/CBS_logo_%282020%29.svg.png",CBS West Palm Beach FL (Duplicate Signal)
 https://fl1.moveonjoy.com/FL_West_Palm_Beach_CBS/index.m3u8
-#EXTINF:-1 tvg-id="CBS.(KRCG).Jefferson,.MO.us" group-title="USA" tvg-name="CBS - Jefferson" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/CBS_logo_%282020%29.svg/120px-CBS_logo_%282020%29.svg.png",CBS - Jefferson
+#EXTINF:-1 tvg-id="CBS.(KRCG).Jefferson,.MO.us" group-title="USA" tvg-name="CBS - Jefferson" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/ee/CBS_logo_%282020%29.svg.png",CBS - Jefferson
 https://cvtv.cvalley.net/hls/KRCGCBS/KRCGCBS.m3u8
-#EXTINF:-1 tvg-id="KYOUDT2.us" group-title="USA" tvg-name="NBC Tampa FL" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/NBC_logo_2022_%28vertical%29.svg/120px-NBC_logo_2022_%28vertical%29.svg.png",NBC Tampa FL
+#EXTINF:-1 tvg-id="KYOUDT2.us" group-title="USA" tvg-name="NBC Tampa FL" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/7a/NBC_logo_2022_%28vertical%29.svg.png",NBC Tampa FL
 https://fl1.moveonjoy.com/FL_Tampa_NBC/index.m3u8
-#EXTINF:-1 tvg-id="KYOUDT2.us" group-title="USA" tvg-name="NBC Tampa FL (Alt)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/NBC_logo_2022_%28vertical%29.svg/120px-NBC_logo_2022_%28vertical%29.svg.png",NBC Tampa FL (Alt)
+#EXTINF:-1 tvg-id="KYOUDT2.us" group-title="USA" tvg-name="NBC Tampa FL (Alt)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/7a/NBC_logo_2022_%28vertical%29.svg.png",NBC Tampa FL (Alt)
 https://fl1.moveonjoy.com/FL_Tampa_NBC/index.m3u8
-#EXTINF:-1 group-title="USA" tvg-name="WNBC" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/WNBC_4_NY.svg/120px-WNBC_4_NY.svg.png",WNBC 4 (New York NY)
+#EXTINF:-1 tvg-id="nbc.ca.newyork.wnbc" group-title="USA" tvg-name="WNBC" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/43/WNBC_4_NY.svg.png",WNBC 4 (New York NY)
 https://fl61.moveonjoy.com/NY_New_York_NBC/tracks-v1a1/mono.ts.m3u8
-#EXTINF:-1 group-title="USA" tvg-name="KNBC-TV NBC 4" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/NBC_logo_2022_%28vertical%29.svg/120px-NBC_logo_2022_%28vertical%29.svg.png",KNBC-TV NBC 4 (Los Angeles CA)
+#EXTINF:-1 tvg-id="nbc.ca.losangeles.knbc" group-title="USA" tvg-name="KNBC-TV NBC 4" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/7a/NBC_logo_2022_%28vertical%29.svg.png",KNBC-TV NBC 4 (Los Angeles CA)
 https://fl1.moveonjoy.com/CA_Los_Angeles_NBC/index.m3u8
-#EXTINF:-1 tvg-id="KQFXLD1.us" group-title="USA" tvg-name="FOX West Palm Beach FL" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Fox_Television_Stations_logo.svg/120px-Fox_Television_Stations_logo.svg.png",FOX West Palm Beach FL
+#EXTINF:-1 tvg-id="KQFXLD1.us" group-title="USA" tvg-name="FOX West Palm Beach FL" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/0d/Fox_Television_Stations_logo.svg.png",FOX West Palm Beach FL
 https://fl1.moveonjoy.com/FL_West_Palm_Beach_FOX/index.m3u8
-#EXTINF:-1 group-title="USA" tvg-name="PBS" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/PBS_logo.svg/120px-PBS_logo.svg.png",PBS
+#EXTINF:-1 tvg-id="pbs.org.kmos" group-title="USA" tvg-name="PBS" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/0d/PBS_logo.svg.png",PBS
 https://cvtv.cvalley.net/hls/KMOSPBS/KMOSPBS.m3u8
-#EXTINF:-1 group-title="USA" tvg-name="KTLA-TV CW 5" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/The_CW_%282006%E2%80%932024%29.svg/120px-The_CW_%282006%E2%80%932024%29.svg.png",KTLA-TV CW 5 (Los Angeles CA)
+#EXTINF:-1 tvg-id="cw.ca.losangeles.ktla" group-title="USA" tvg-name="KTLA-TV CW 5" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/f9/The_CW_%282006%E2%80%932024%29.svg.png",KTLA-TV CW 5 (Los Angeles CA)
 http://restream-live.realiptv.to:8080/live/19742329/27604387/90546.ts
-#EXTINF:-1 tvg-id="I44.1.30617.zap2it.com" group-title="USA" tvg-name="CW USA" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/The_CW_2024.svg/120px-The_CW_2024.svg.png",CW USA
+#EXTINF:-1 tvg-id="I44.1.30617.zap2it.com" group-title="USA" tvg-name="CW USA" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/b1/The_CW_2024.svg.png",CW USA
 https://cvtv.cvalley.net/hls/KOMUCW/KOMUCW.m3u8
 #EXTINF:-1 tvg-id="I80.78851.schedulesdirect.org" group-title="USA" tvg-name="Cozi" tvg-logo="https://www.cozitv.com/wp-content/themes/cozi/static/images/cozilogo.png",Cozi
 https://cvtv.cvalley.net/hls/KSHBCozi/KSHBCozi.m3u8
@@ -8966,6 +8983,7 @@ http://xxip25.top:8080/Alan/Alan1234/164943
 http://xxip25.top:8080/Alan/Alan1234/164945
 #EXTINF:-1 group-title="ESPORTES" tvg-id="ESPN" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRckHLTMWklqrYAWkCoFt-kuadcqKsbcihwYRiiRlDvX4E0IDddyt0Yj6QSji4&s",HBO HD
 http://xxip25.top:8080/Alan/Alan1234/164950
+#EXTM3U
 #EXTINF:-1 group-title="RADIOS BRASIL" tvg-id="Undefined" tvg-logo="https://files.cercomp.ufg.br/weby/up/120/m/ASSINATURA_RADIO_UFG_BRANCA.png" radio="true",Rádio Universitária UFG
 http://200.137.217.155:8010/radiouniversitaria
 #EXTINF:-1 group-title="RADIOS BRASIL" tvg-id="Undefined" tvg-logo="https://www.cbngoiania.com.br/img/cbngoiania/logo_cbn_rodape.png" radio="true",CBN GOIANIA
@@ -8980,77 +8998,77 @@ https://www.grupoliberalmedia.com.br/radiolive/_definst_/liveradio/chunklist_w75
 https://www.grupoliberalmedia.com.br/rdcastanhal/liveradio/playlist.m3u8
 #EXTINF:-1 group-title="RADIOS BRASIL" tvg-id="Undefined" tvg-logo="http://am.radioliberal.com.br/logo_liberal_fm.png" radio="true",LIBERAL RÁDIO - CASTANHAL 2
 https://www.grupoliberalmedia.com.br/rdcastanhal/liveradio/chunklist_w317712096.m3u8
-#EXTINF:-1 group-title="RADIOS BRASIL" tvg-id="Undefined" tvg-logo="https://i.imgur.com/pdM5uH7.png" radio="true",EXECUTIVA FM
+#EXTINF:-1 group-title="RADIOS BRASIL" tvg-id="Undefined" tvg-logo="https://i.imgur.com/pdM5uH7.jpg" radio="true",EXECUTIVA FM
 https://live.ojc.com.br/c2f4/myStream.m3u8
-#EXTINF:-1 group-title="RADIOS BRASIL" tvg-id="Undefined" tvg-logo="https://i.imgur.com/td9XjvR.png" radio="true",GAUCHA FM
+#EXTINF:-1 group-title="RADIOS BRASIL" tvg-id="Undefined" tvg-logo="https://i.imgur.com/td9XjvR.jpg" radio="true",GAUCHA FM
 https://liverdgaupoa.rbsdirect.com.br/primary/gaucha_rbs.sdp/playlist.m3u8
-#EXTINF:-1 group-title="RADIOS BRASIL" tvg-id="Undefined" tvg-logo="N/A" radio="true",radio vinha
+#EXTINF:-1 group-title="RADIOS BRASIL" tvg-id="Undefined" tvg-logo="https://i.imgur.com/JTNF4Rs.jpg" radio="true",RÁDIO VINHA
 https://streaming.vinhafm.com.br/stream
-#EXTINF:-1 group-title="RADIOS INTERNACIONAIS" tvg-id="Undefined" tvg-logo="https://i.imgur.com/LaG8trk.png",Rock FM | Rumania
+#EXTINF:-1 group-title="RADIOS INTERNACIONAIS" tvg-id="Undefined" tvg-logo="https://i.imgur.com/LaG8trk.png" radio="true",Rock FM | Rumania
 https://live.rockfm.ro/rockfm.aacp
-#EXTINF:-1 group-title="REGIONAL" tvg-id="Media Group Radio" tvg-logo="https://i.imgur.com/JTNF4Rs.png",MIC: Media Group Radio
+#EXTINF:-1 group-title="REGIONAL" tvg-id="Media Group Radio" tvg-logo="https://i.imgur.com/JTNF4Rs.png" radio="true",MIC: Media Group Radio
 https://5ca3e84a76d30.streamlock.net/canal6mich/videocanal6mich/playlist.m3u8
-#EXTINF:-1 group-title="REGIONAL" tvg-id="Media Group Radio" tvg-logo="https://i.imgur.com/JTNF4Rs.png",MIC: Media Group Radio
+#EXTINF:-1 group-title="REGIONAL" tvg-id="Media Group Radio" tvg-logo="https://i.imgur.com/JTNF4Rs.png" radio="true",MIC: Media Group Radio
 https://5ca3e84a76d30.streamlock.net/canal6mich/videocanal6mich/chunklist_w157206410.m3u8
-#EXTINF:-1 group-title="RADIOS MÉXICO" tvg-id="Undefined" tvg-logo="http://www.mediagroup.mx/senal-en-vivo/wp-content/uploads/2017/12/AcustikMusica.jpg",Radio Acustik Michoacan
+#EXTINF:-1 group-title="RADIOS MÉXICO" tvg-id="Undefined" tvg-logo="https://i.imgur.com/JTNF4Rs.jpg" radio="true",Radio Acustik Michoacan
 http://streamingcws20.com:1935/canal6mich/videocanal6mich/playlist.m3u8?DVR
-#EXTINF:-1 group-title="RADIOS MÉXICO" tvg-id="Undefined" tvg-logo="Radio.png",Radio La Grupera 93.1 Morelia
+#EXTINF:-1 group-title="RADIOS MÉXICO" tvg-id="Undefined" tvg-logo="https://i.imgur.com/JTNF4Rs.jpg" radio="true",Radio La Grupera 93.1 Morelia
 http://www.tuasesorweb.com:8000/;stream/1
-#EXTINF:-1 group-title="RADIOS MÉXICO" tvg-id="Undefined" tvg-logo="Radio.png",Radio La Z Morelia
+#EXTINF:-1 group-title="RADIOS MÉXICO" tvg-id="Undefined" tvg-logo="https://i.imgur.com/JTNF4Rs.jpg" radio="true",Radio La Z Morelia
 http://srmx.ddns.net:8100/;
-#EXTINF:-1 group-title="RADIOS MÉXICO" tvg-id="Undefined" tvg-logo="Radio.png",Radio Tormenta 100.1 Morelia
+#EXTINF:-1 group-title="RADIOS MÉXICO" tvg-id="Undefined" tvg-logo="https://i.imgur.com/JTNF4Rs.jpg" radio="true",Radio Tormenta 100.1 Morelia
 https://cdn-embed.tunein.com/resources/media/blank.mp3
-#EXTINF:-1 group-title="RADIOS MÉXICO" tvg-id="Undefined" tvg-logo="Radio.png",Radio 40 Principales Morelia
+#EXTINF:-1 group-title="RADIOS MÉXICO" tvg-id="Undefined" tvg-logo="https://i.imgur.com/JTNF4Rs.jpg" radio="true",Radio 40 Principales Morelia
 http://s4.mexside.net:7040/;
-#EXTINF:-1 group-title="RADIOS MÉXICO" tvg-id="Undefined" tvg-logo="Radio.png",Radio Candela 91.1 Uruapan
+#EXTINF:-1 group-title="RADIOS MÉXICO" tvg-id="Undefined" tvg-logo="https://i.imgur.com/JTNF4Rs.jpg" radio="true",Radio Candela 91.1 Uruapan
 http://167.114.116.223:3334/stream/1/streams.mp3
-#EXTINF:-1 group-title="RADIOS MÉXICO" tvg-id="Undefined" tvg-logo="Radio.png",Radio La Candela 97.7 Zacapu
+#EXTINF:-1 group-title="RADIOS MÉXICO" tvg-id="Undefined" tvg-logo="https://i.imgur.com/JTNF4Rs.jpg" radio="true",Radio La Candela 97.7 Zacapu
 http://s4.mexside.net:2094/;stream.nsv
-#EXTINF:-1 group-title="RADIOS MÉXICO" tvg-id="Undefined" tvg-logo="Radio.png",Radio Azul Lazaro Cardenas
+#EXTINF:-1 group-title="RADIOS MÉXICO" tvg-id="Undefined" tvg-logo="https://i.imgur.com/JTNF4Rs.jpg" radio="true",Radio Azul Lazaro Cardenas
 https://s2.mexside.net/8010/stream
-#EXTINF:-1 group-title="RADIOS MÉXICO" tvg-id="Undefined" tvg-logo="Radio.png",Radio Fantasia Zitacuaro
+#EXTINF:-1 group-title="RADIOS MÉXICO" tvg-id="Undefined" tvg-logo="https://i.imgur.com/JTNF4Rs.jpg" radio="true",Radio Fantasia Zitacuaro
 http://162.212.56.146:8344/stream.mp3
-#EXTINF:-1 group-title="RADIOS MÉXICO" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTl9zof2eRQtGt_SnISX5xFORkIWmh9BfWJn7QRs1YMgEBo9Fv_nvgUoo6RHA&s",Radio Mexiquense 91.7 fm Amecameca
+#EXTINF:-1 group-title="RADIOS MÉXICO" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTl9zof2eRQtGt_SnISX5xFORkIWmh9BfWJn7QRs1YMgEBo9Fv_nvgUoo6RHA&s" radio="true",Radio Mexiquense 91.7 fm Amecameca
 https://streamingcwsradio30.com:7047/;
-#EXTINF:-1 group-title="RADIOS MÉXICO" tvg-id="Undefined" tvg-logo="Radio.png",Radio Opus-94 94.5 fm
+#EXTINF:-1 group-title="RADIOS MÉXICO" tvg-id="Undefined" tvg-logo="https://i.imgur.com/JTNF4Rs.jpg" radio="true",Radio Opus-94 94.5 fm
 https://s2.mexside.net/8016/stream
-#EXTINF:-1 group-title="RADIOS MÉXICO" tvg-id="Undefined" tvg-logo="Radio.png",Radio Tropicalisima 1350 am
+#EXTINF:-1 group-title="RADIOS MÉXICO" tvg-id="Undefined" tvg-logo="https://i.imgur.com/JTNF4Rs.jpg" radio="true",Radio Tropicalisima 1350 am
 https://s2.mexside.net/8030/stream
-#EXTINF:-1 group-title="RADIOS MÉXICO" tvg-id="Undefined" tvg-logo="Radio.png",Radio XEB La B grande Cd. México
+#EXTINF:-1 group-title="RADIOS MÉXICO" tvg-id="Undefined" tvg-logo="https://i.imgur.com/JTNF4Rs.jpg" radio="true",Radio XEB La B grande Cd. México
 https://s2.mexside.net/8024/stream
-#EXTINF:-1 group-title="RADIOS MÉXICO" tvg-id="Undefined" tvg-logo="Radio.png",Radio México Internacional
+#EXTINF:-1 group-title="RADIOS MÉXICO" tvg-id="Undefined" tvg-logo="https://i.imgur.com/JTNF4Rs.jpg" radio="true",Radio México Internacional
 https://s2.mexside.net/8020/stream
-#EXTINF:-1 group-title="RADIOS MÉXICO" tvg-id="Undefined" tvg-logo="Radio.png",Radio Ranchito Guadalajara
+#EXTINF:-1 group-title="RADIOS MÉXICO" tvg-id="Undefined" tvg-logo="https://i.imgur.com/JTNF4Rs.jpg" radio="true",Radio Ranchito Guadalajara
 http://192.99.16.17:9870/;stream/1
-#EXTINF:-1 group-title="RADIOS MÉXICO" tvg-id="Undefined" tvg-logo="Radio.png",Radio La Ranchera de Monterrey
+#EXTINF:-1 group-title="RADIOS MÉXICO" tvg-id="Undefined" tvg-logo="https://i.imgur.com/JTNF4Rs.jpg" radio="true",Radio La Ranchera de Monterrey
 http://streamingcwsradio20.com:9410/stream
-#EXTINF:-1 group-title="RADIOS INTERNACIONAIS" tvg-id="Undefined" tvg-logo="Radio.png",Radio Infinita fm Radio
+#EXTINF:-1 group-title="RADIOS INTERNACIONAIS" tvg-id="Undefined" tvg-logo="https://i.imgur.com/JTNF4Rs.jpg" radio="true",Radio Infinita fm Radio
 https://cloudstream2032.conectarhosting.com/9586/;
-#EXTINF:-1 group-title="RADIOS INTERNACIONAIS" tvg-id="Undefined" tvg-logo="Radio.png",Radio Colombia Bachata
+#EXTINF:-1 group-title="RADIOS INTERNACIONAIS" tvg-id="Undefined" tvg-logo="https://i.imgur.com/JTNF4Rs.jpg" radio="true",Radio Colombia Bachata
 http://perseus.shoutca.st:8312/;stream/1
-#EXTINF:-1 group-title="RADIOS INTERNACIONAIS" tvg-id="Undefined" tvg-logo="Radio.png",Radio Colombia Crossover
+#EXTINF:-1 group-title="RADIOS INTERNACIONAIS" tvg-id="Undefined" tvg-logo="https://i.imgur.com/JTNF4Rs.jpg" radio="true",Radio Colombia Crossover
 http://64.37.50.226:8006/stream
-#EXTINF:-1 group-title="RADIOS INTERNACIONAIS" tvg-id="Undefined" tvg-logo="Radio.png",Radio Cumbias Inmortales
+#EXTINF:-1 group-title="RADIOS INTERNACIONAIS" tvg-id="Undefined" tvg-logo="https://i.imgur.com/JTNF4Rs.jpg" radio="true",Radio Cumbias Inmortales
 https://panel.retrolandigital.com/radio/8120/listen
-#EXTINF:-1 group-title="RADIOS INTERNACIONAIS" tvg-id="Undefined" tvg-logo="Radio.png",Radio Banda Tropical 100 Regional Mexicana
+#EXTINF:-1 group-title="RADIOS INTERNACIONAIS" tvg-id="Undefined" tvg-logo="https://i.imgur.com/JTNF4Rs.jpg" radio="true",Radio Banda Tropical 100 Regional Mexicana
 http://tropical100.net:8026/;
-#EXTINF:-1 group-title="RADIOS INTERNACIONAIS" tvg-id="Undefined" tvg-logo="Radio.png",Radio Merengue Tropical 100
+#EXTINF:-1 group-title="RADIOS INTERNACIONAIS" tvg-id="Undefined" tvg-logo="https://i.imgur.com/JTNF4Rs.jpg" radio="true",Radio Merengue Tropical 100
 http://tropical100.net:8012/;
-#EXTINF:-1 group-title="RADIOS INTERNACIONAIS" tvg-id="Undefined" tvg-logo="Radio.png",Radio Merengue Tropicalisima
+#EXTINF:-1 group-title="RADIOS INTERNACIONAIS" tvg-id="Undefined" tvg-logo="https://i.imgur.com/JTNF4Rs.jpg" radio="true",Radio Merengue Tropicalisima
 http://23.237.150.178:8004/;?icy=http
-#EXTINF:-1 group-title="RADIOS INTERNACIONAIS" tvg-id="Undefined" tvg-logo="Radio.png",Radio Reggae Mix Station
+#EXTINF:-1 group-title="RADIOS INTERNACIONAIS" tvg-id="Undefined" tvg-logo="https://i.imgur.com/JTNF4Rs.jpg" radio="true",Radio Reggae Mix Station
 http://france1.coollabel-productions.com:8142/;
-#EXTINF:-1 group-title="RADIOS INTERNACIONAIS" tvg-id="Undefined" tvg-logo="Radio.png",Radio Rock Antenne Classic Perlen
+#EXTINF:-1 group-title="RADIOS INTERNACIONAIS" tvg-id="Undefined" tvg-logo="https://i.imgur.com/JTNF4Rs.jpg" radio="true",Radio Rock Antenne Classic Perlen
 http://194.97.151.139/classic-perlen
-#EXTINF:-1 group-title="RADIOS INTERNACIONAIS" tvg-id="Undefined" tvg-logo="Radio.png",Radio Atlantida FM 89.9
+#EXTINF:-1 group-title="RADIOS INTERNACIONAIS" tvg-id="Undefined" tvg-logo="https://i.imgur.com/JTNF4Rs.jpg" radio="true",Radio Atlantida FM 89.9
 https://server-usa2.radioseninternet.net/8034/stream
-#EXTINF:-1 group-title="RADIOS INTERNACIONAIS" tvg-id="Undefined" tvg-logo="Radio.png",Radio Instrumental hits
+#EXTINF:-1 group-title="RADIOS INTERNACIONAIS" tvg-id="Undefined" tvg-logo="https://i.imgur.com/JTNF4Rs.jpg" radio="true",Radio Instrumental hits
 https://panel.retrolandigital.com/radio/8130/listen
-#EXTINF:-1 group-title="RADIOS INTERNACIONAIS" tvg-id="Undefined" tvg-logo="Radio.png",Radio Electronica
+#EXTINF:-1 group-title="RADIOS INTERNACIONAIS" tvg-id="Undefined" tvg-logo="https://i.imgur.com/JTNF4Rs.jpg" radio="true",Radio Electronica
 https://strm112.1.fm/electronica_mobile_mp3
-#EXTINF:-1 group-title="RADIOS INTERNACIONAIS" tvg-id="Undefined" tvg-logo="Radio.png",Radio Electronica CircuitPride
+#EXTINF:-1 group-title="RADIOS INTERNACIONAIS" tvg-id="Undefined" tvg-logo="https://i.imgur.com/JTNF4Rs.jpg" radio="true",Radio Electronica CircuitPride
 http://185.33.21.112/circuitpride_128?icy=http
-#EXTINF:-1 group-title="RADIOS INTERNACIONAIS" tvg-id="Undefined" tvg-logo="http://wmeb.ajolsenportfolio.com/wp-content/themes/wmeb919/img/logo.png",Radio Hotmixradio 80S
+#EXTINF:-1 group-title="RADIOS INTERNACIONAIS" tvg-id="Undefined" tvg-logo="https://i.imgur.com/JTNF4Rs.jpg" radio="true",Radio Hotmixradio 80S
 http://streaming.hotmix-radio.net/hotmixradio-80-128.mp3
 #EXTM3U url-tvg="https://epgshare01.online/epgshare01/epg_ripper_ALL_SOURCES1.xml.gz"
 #EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_MX1.xml.gz"
