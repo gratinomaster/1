@@ -23,7 +23,7 @@ jobs:
       - name: Ask OpenCode
         run: |
           PERGUNTA=$(cat << 'EOF'
-          exclua a pasta venv
+          como usar o openclaw de forma totalmente gratuita, sem instalar ia localmente
           EOF
           )
 
