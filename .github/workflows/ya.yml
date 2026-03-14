@@ -23,7 +23,7 @@ jobs:
       - name: Ask OpenCode
         run: |
           PERGUNTA=$(cat << 'EOF'
-          melhor big tech para comprar hoje na B3, dê bons motivos
+          melhor etf para comprar hoje na B3, dê bons motivos
           EOF
           )
 
