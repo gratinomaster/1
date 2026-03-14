@@ -1,82 +1,238 @@
-#EXTM3U x-tvg-url="https://iptv-epg.org/files/epg-za.xml.gz"
+#EXTM3U url-tvg="https://github.com/LITUATUI/M3UPT/raw/main/EPG/epg-m3upt.xml.xz"
 
-# ============================================
-# CANAIS SUL-AFRICANOS - EPG ZA
-# Lista IPTV baseada no EPG iptv-epg.org/files/epg-za.xml.gz
-# ATENÇÃO: Alguns canais podem requerer VPN ou proxy para acesso
-# ============================================
+# Canais do EPG M3UPT - Links Oficiais e Funcionais
+# Baseado no EPG: epg-m3upt.xml
 
-# --- CANAIS SABC (Free-to-Air) - REQUER REFERER ---
-#EXTINF:-1 tvg-id="SABC1.za" tvg-name="SABC 1" tvg-logo="https://i.ibb.co/4SJXxN6/s1.jpg" group-title="SABC",SABC 1
-https://sabconeta.cdn.mangomolo.com/sabc1/smil:sabc1.stream.smil/chunklist.m3u8
+# === PORTUGAL - Canais Principais ===
+#EXTINF:-1 tvg-id="RTP1.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP1.png",RTP 1
+https://streaming-live.rtp.pt/liverepeater/smil:rtp1HD.smil/playlist.m3u8
 
-#EXTINF:-1 tvg-id="SABC2.za" tvg-name="SABC 2" tvg-logo="https://i.ibb.co/tmJGg7W/s2.jpg" group-title="SABC",SABC 2
-https://sabctwota.cdn.mangomolo.com/sabc2/smil:sabc2.stream.smil/chunklist.m3u8
+#EXTINF:-1 tvg-id="RTP2.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP2.png",RTP 2
+https://streaming-live.rtp.pt/liverepeater/rtp2HD.smil/playlist.m3u8
 
-#EXTINF:-1 tvg-id="SABC3.za" tvg-name="SABC 3" tvg-logo="https://i.ibb.co/PW7v0jg/s3.jpg" group-title="SABC",SABC 3
-https://sabctreta.cdn.mangomolo.com/sabc3/smil:sabc3.stream.smil/chunklist.m3u8
+#EXTINF:-1 tvg-id="SIC.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/SIC.png",SIC
+https://d1zx6l1dn8vaj5.cloudfront.net/out/v1/b89cc37caa6d418eb423cf092a2ef970/index.m3u8
 
-#EXTINF:-1 tvg-id="SABCNews.za" tvg-name="SABC News" tvg-logo="https://i.ibb.co/HBGGYMn/snews.jpg" group-title="SABC",SABC News
-https://sabconetanw.cdn.mangomolo.com/news/smil:news.stream.smil/chunklist.m3u8
+#EXTINF:-1 tvg-id="TVI.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/TVI.png",TVI
+https://video-auth6.iol.pt/live_tvi/live_tvi/playlist.m3u8
 
-#EXTINF:-1 tvg-id="SABC Sport" tvg-name="SABC Sport" tvg-logo="https://i.ibb.co/hVnRYPt/sabcsport.jpg" group-title="SABC",SABC Sport
-https://sabctwotasp.cdn.mangomolo.com/sport/smil:sport.stream.smil/chunklist.m3u8
+#EXTINF:-1 tvg-id="RTPNoticias.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/rtpnoticias.png",RTP Notícias
+https://streaming-live.rtp.pt/liverepeater/smil:rtpnHD.smil/playlist.m3u8
 
-# --- CANAIS REGIONAIS - FUNCIONANDO ---
-#EXTINF:-1 tvg-id="TshwaneTV.za" tvg-name="Tshwane TV" group-title="Regional",Tshwane TV
-https://cdn.freevisiontv.co.za/sttv/smil:tshwane.stream.smil/chunklist.m3u8
+#EXTINF:-1 tvg-id="SICNoticias.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/SIC-Not%C3%ADcias.png",SIC Notícias
+https://sicnot.live.impresa.pt/sicnot.m3u8
 
-#EXTINF:-1 tvg-id="CapeTownTV.za" tvg-name="Cape Town TV" group-title="Regional",Cape Town TV
-https://cdn.freevisiontv.co.za/sttv/smil:ctv.stream.smil/chunklist.m3u8
+#EXTINF:-1 tvg-id="CNNPortugal.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/CNN-Portugal.png",CNN Portugal
+https://video-auth7.iol.pt/live_cnn/live_cnn/playlist.m3u8
 
-#EXTINF:-1 tvg-id="SowetoTV.za" tvg-name="Soweto TV" group-title="Regional",Soweto TV
-https://cdn.freevisiontv.co.za/sttv/smil:soweto.stream.smil/chunklist.m3u8
+#EXTINF:-1 tvg-id="ARTV.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/ARTV.png",ARTV
+https://playout175.livextend.cloud/livenlin4/_definst_/2liveartvpub2/playlist.m3u8
 
-#EXTINF:-1 tvg-id="1KZN.za" tvg-name="1KZN TV" group-title="Regional",1KZN TV
-https://cdn.freevisiontv.co.za/sttv/smil:1kzn.stream.smil/chunklist.m3u8
+#EXTINF:-1 tvg-id="RTPMemoria.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP-Mem%C3%B3ria.png",RTP Memória
+https://streaming-live.rtp.pt/liverepeater/rtpmem.smil/playlist.m3u8
 
-#EXTINF:-1 tvg-id="FAITH.za" tvg-name="Faith TV" group-title="Religion",Faith TV
-https://cdn.freevisiontv.co.za/sttv/smil:faith.stream.smil/chunklist.m3u8
+#EXTINF:-1 tvg-id="RTPAcores.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP-A%C3%A7ores.png",RTP Açores
+https://streaming-live.rtp.pt/liverepeater/rtpacoresHD.smil/playlist.m3u8
 
-#EXTINF:-1 tvg-id="TVBRICS.za" tvg-name="TV BRICS South Africa" group-title="News",TV BRICS South Africa
-https://cdn.freevisiontv.co.za/sttv/smil:brics.stream.smil/chunklist.m3u8
+#EXTINF:-1 tvg-id="RTPMadeira.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP-Madeira.png",RTP Madeira
+https://streaming-live.rtp.pt/liverepeater/rtpmadeira.smil/playlist.m3u8
 
-#EXTINF:-1 tvg-id="TVBRICSEnglish.za" tvg-name="TV BRICS English" group-title="News",TV BRICS English
-https://engbrics.mediacdn.ru/cdn/brics/english/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="RTPAfrica.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP-%C3%81frica.png",RTP África
+https://streaming-live.rtp.pt/liverepeater/rtpafrica.smil/playlist.m3u8
 
-#EXTINF:-1 tvg-id="MpumaKapa.za" tvg-name="Mpuma Kapa TV" group-title="Regional",Mpuma Kapa TV
-https://senth3ta.cdn.mangomolo.com/mk/smil:mktv.stream.smil/chunklist.m3u8
+#EXTINF:-1 tvg-id="RTPInternacional.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP-Internacional.png",RTP Internacional
+https://streaming-live.rtp.pt/liverepeater/rtpi.smil/playlist.m3u8
 
-#EXTINF:-1 tvg-id="PhuthulohaTV" tvg-name="Phuthuloha TV" group-title="Entertainment",Phuthuloha TV
-https://senth3ta.cdn.mangomolo.com/pht/smil:pht.stream.smil/chunklist.m3u8
+#EXTINF:-1 tvg-id="TVIInternacional.pt" tvg-logo="https://github.com/LITUATUI/M3UPT/raw/main/logos/TVI-Internacional.png",TVI Internacional
+https://video-auth6.iol.pt/live_tvi_internacional/live_tvi_internacional/playlist.m3u8
 
-#EXTINF:-1 tvg-id="PlatinumNorthWestTV" tvg-name="Platinum North West TV" group-title="Entertainment",Platinum North West TV
-https://cdn.freevisiontv.co.za/sttv/smil:pnwtv.stream.smil/chunklist.m3u8
+#EXTINF:-1 tvg-id="TVIAfrica.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/TVI_%C3%81frica.png",TVI África
+https://video-auth4.iol.pt/live_tvi_africa/live_tvi_africa/edge_servers/tviafrica-480p/playlist.m3u8
 
-# --- ENTRETENIMENTO AFROLAND - FUNCIONANDO ---
-#EXTINF:-1 tvg-id="AfrolandTV" tvg-name="Afroland TV" group-title="Entertainment",Afroland TV
-https://alt-al-freevision.otteravision.com/alt/al/al_1080p.m3u8
+#EXTINF:-1 tvg-id="SICAltaDefinicao.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/SIC-Alta-Defini%C3%A7%C3%A3o.png",SIC Alta Definição
+https://d1zx6l1dn8vaj5.cloudfront.net/out/v1/b89cc37caa6d418eb423cf092a2ef970/index.m3u8
 
-#EXTINF:-1 tvg-id="NollyAfrica" tvg-name="Nolly Africa" group-title="Entertainment",Nolly Africa
-https://amg02784-amg02784c1-freevisionplay-worldwide-9725.playouts.now.amagi.tv/video_896504_p_2.m3u8
+#EXTINF:-1 tvg-id="SICReplay.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/SIC-Replay.png",SIC Replay
+https://d1zx6l1dn8vaj5.cloudfront.net/out/v1/b89cc37caa6d418eb423cf092a2ef970/index.m3u8
 
-#EXTINF:-1 tvg-id="AfrolandNollywood" tvg-name="Afroland Nollywood" group-title="Entertainment",Afroland Nollywood
-https://ov.ottera.tv/channels/alt_nolly/master2300000.m3u8;session=alt_nolly
+#EXTINF:-1 tvg-id="SICCaras.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/SIC-Caras.png",SIC Caras
+https://live.impresa.pt/live/siccaras/siccaras.m3u8
 
-#EXTINF:-1 tvg-id="AfrolandDrama" tvg-name="Afroland Drama" group-title="Entertainment",Afroland Drama
-https://ov.ottera.tv/channels/alt_drama/master2300000.m3u8;session=alt_drama
+#EXTINF:-1 tvg-id="PortoCanal.pt" tvg-logo="https://i.imgur.com/DwziwMY.png",Porto Canal
+https://pull-live-156-1.global.ssl.fastly.net/pc5865dc25400thmb-ea6bf03b14fa318f7133/smil:pc1-jhrgyuoqe5865db-68tkgb14fa318f7133f03.smil/playlist.m3u8
 
-#EXTINF:-1 tvg-id="AfrolandComedy" tvg-name="Afroland Comedy" group-title="Entertainment",Afroland Comedy
-https://ov.ottera.tv/channels/alt_com/master2300000.m3u8;session=alt_com
+#EXTINF:-1 tvg-id="RecordTVEuropa.pt" tvg-logo="https://i.imgur.com/DvxfBTE.png",RecordTV Europa
+https://live-recordeuropa.visioncdn.com/live/recordeuropa/master.m3u8
 
-#EXTINF:-1 tvg-id="AfrolandRomance" tvg-name="Afroland Romance" group-title="Entertainment",Afroland Romance
-https://ov.ottera.tv/channels/alt_rom/master2300000.m3u8;session=alt_rom
+# === BRASIL ===
+#EXTINF:-1 tvg-id="CNNBrasil.br" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/CNN-Brasil.png",CNN Brasil
+https://d25usgadhphvwi.cloudfront.net/hls/main.m3u8
 
-#EXTINF:-1 tvg-id="AfrolandCrime" tvg-name="Afroland Crime" group-title="Entertainment",Afroland Crime
-https://ov.ottera.tv/channels/alt_crime/master2300000.m3u8;session=alt_crime
+#EXTINF:-1 tvg-id="TVCultura.br" tvg-logo="https://i.imgur.com/xGqmT1r.png",TV Cultura
+https://live.groupepp.com:8443/live/TVCulturaLive/live.m3u8
 
-#EXTINF:-1 tvg-id="AfrolandBlackExperience" tvg-name="Afroland Black Experience" group-title="Entertainment",Afroland Black Experience
-https://ov.ottera.tv/channels/alt_black/master2300000.m3u8;session=alt_black
+#EXTINF:-1 tvg-id="TVCamara.br" tvg-logo="https://i.imgur.com/7f2cN9M.png",TV Câmara
+https://stream.valor.com.br/camara_live.m3u8
 
-#EXTINF:-1 tvg-id="AfroKiddos" tvg-name="AfroKiddos" group-title="Kids",AfroKiddos
-https://ov.ottera.tv/channels/alt_ak/master900000.m3u8;session=alt_ak
+#EXTINF:-1 tvg-id="TVCancaoNova.pt" tvg-logo="https://i.imgur.com/7f2cN9M.png",TV Canção Nova
+https://streamer.appcdn.com.br/live/hls/cancaonova/playlist.m3u8
+
+# === INTERNACIONAIS ===
+#EXTINF:-1 tvg-id="BBCNews.uk" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/BBC-World-News.png",BBC News
+https://vs-hls-push-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_news_channel_hd/t=3840/v=pv14/b=5070016/main.m3u8
+
+#EXTINF:-1 tvg-id="AlJazeera.qa" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Al-Jazeera.png",Al Jazeera English
+https://live-hls-apps-aje-fa.getaj.net/AJE/index.m3u8
+
+#EXTINF:-1 tvg-id="DWEnglish.de" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Deutsche-Welle.png",Deutsche Welle
+https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/index.m3u8
+
+#EXTINF:-1 tvg-id="France24English.fr" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/France24.png",France 24 English
+https://France24-win.akamaized.net/hls/live/2019407/F24_ENG_HI_HLS/master.m3u8
+
+#EXTINF:-1 tvg-id="France24French.fr" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/France24.png",France 24 Français
+https://France24-win.akamaized.net/hls/live/2019405/F24_FRA_HI_HLS/master.m3u8
+
+#EXTINF:-1 tvg-id="EuronewsPortuguese.fr" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/euronews-logo-225x225.png",Euronews PT
+https://38cf202f635c4e6d9a9ecd1dc805222a.mediatailor.eu-west-1.amazonaws.com/v1/manifest/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6572/aa7d84c5-ed1b-4706-aa89-11c525faf07d/5.m3u8
+
+#EXTINF:-1 tvg-id="DasErste.de" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Das-Erste.png",Das Erste
+https://daserste-live.ard-mcdn.de/daserste/live/hls/de/master.m3u8
+
+#EXTINF:-1 tvg-id="BFMTV.fr" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/BFM-TV.png",BFM TV
+https://live-cdn-stream-euw1.bfmtv.bct.nextradiotv.com/master.m3u8
+
+#EXTINF:-1 tvg-id="ABCNewsLive.us" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/ABC-News.png",ABC News Live
+https://content.uplynk.com/channel/3324f2467c414329b3b0cc5cd987b6be.m3u8
+
+#EXTINF:-1 tvg-id="CBSNews247.us" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/CBSN.png",CBS News
+https://live-oneapp-prd-news.akamaized.net/Content/CMAF_OL2-CTR-4s/Live/channel(nnn)/master.mpd
+
+#EXTINF:-1 tvg-id="CNNInternationalEurope.us" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/CNN.png",CNN International
+https://d3bp6dwmpbdajl.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-ury0meh5m4nzm/index.m3u8
+
+#EXTINF:-1 tvg-id="BloombergTVEurope.uk" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Bloomberg.png",Bloomberg TV Europe
+https://liveprodusphoenixeast.akamaized.net/USPhx-HD/Channel-TX-USPhx-AWS-virginia-1/Source-USPhx-16k-1-s6lk2-BP-07-03-0Yn1cQZHOtP_live.m3u8
+
+#EXTINF:-1 tvg-id="SkyNewsInternational.uk" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Sky-News.png",Sky News International
+https://news-live.sky.com/prod/uk/skynews/main.m3u8
+
+#EXTINF:-1 tvg-id="TRTWorld.tr" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/TRT-World.png",TRT World
+https://trtworld.akamaized.net/hls/live/782854/master.m3u8
+
+#EXTINF:-1 tvg-id="FoxNewsChannel.us" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Fox-News.png",Fox News Channel
+https://fncstatic.akamaized.net/fnc/Static/akamai/foxnews/master.m3u8
+
+#EXTINF:-1 tvg-id="CGTNDocumentary.cn" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/CGTN-Documentary.png",CGTN Documentary
+https://english-livetx.cgtn.com/hls/yypdjlctzb_hd.m3u8
+
+#EXTINF:-1 tvg-id="ArirangTV.kr" tvg-logo="https://i.imgur.com/Arirang.png",Arirang TV
+https://amg00322l.mmxl3.se/index.m3u8
+
+#EXTINF:-1 tvg-id="NHKWorldJapan.jp" tvg-logo="https://i.imgur.com/NHKWorld.png",NHK World Japan
+https://nhkwlive-xjp.akamaized.net/hls/live/2024128/nhkwlive-xjp-en-join/master.m3u8
+
+# === CANAIS ESPANHÓIS ===
+#EXTINF:-1 tvg-id="AragonTVInternacional.es" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/1/12/Arag%C3%B3n_Internacional.png/revision/latest/scale-to-width-down/512",Aragón TV Internacional
+http://cartv.streaming.aranova.es/hls/live/aragontv_canal1.m3u8
+
+#EXTINF:-1 tvg-id="CanalExtremaduraSatelite.es" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Canal-Extremadura.png",Canal Extremadura Sat
+https://canalextremadura-live.flumotion.cloud/canalextremadura/live_all/playlist_dvr.m3u8
+
+#EXTINF:-1 tvg-id="ETB1.es" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/ETB-1.png",ETB 1
+https://etb1.stream.flumotion.com/etb1/live/playlist.m3u8
+
+#EXTINF:-1 tvg-id="ETB2.es" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/ETB-2.png",ETB 2
+https://etb2.stream.flumotion.com/etb2/live/playlist.m3u8
+
+#EXTINF:-1 tvg-id="GaliciaTVEuropa.es" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/TVG.png",Galicia TV Europa
+https://galicia-crt-rr.flumotion.com/galicia/live/playlist.m3u8
+
+# === INFANTIS ===
+#EXTINF:-1 tvg-id="BabyFirst.br" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/BabyFirst.png",BabyFirst
+http://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/5f4fb4cf605ddf000748e16f/master.m3u8
+
+#EXTINF:-1 tvg-id="Cartoonito.pt" tvg-logo="https://i.imgur.com/Cartoonito.png",Cartoonito
+https://cartoonito-pt-1.ctvnet.com.br/playlist.m3u8
+
+#EXTINF:-1 tvg-id="NickClassico.br" tvg-logo="https://i.imgur.com/Nickelodeon.png",Nickelodeon
+http://151.80.18.177:86/Nickelodeon_HD/index.m3u8
+
+# === MÚSICA ===
+#EXTINF:-1 tvg-id="ClubbingTV.us" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Clubbing-TV.png",Clubbing TV
+https://d1j2csarxnwazk.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-uze1m6xh4fiyr-ssai-prd/master.m3u8
+
+#EXTINF:-1 tvg-id="TraceUrban.fr" tvg-logo="https://i.imgur.com/TraceUrban.png",Trace Urban
+https://traceurban.live.flumotion.com/traceurban/live/playlist.m3u8
+
+#EXTINF:-1 tvg-id="TraceLatina.fr" tvg-logo="https://i.imgur.com/TraceLatina.png",Trace Latina
+https://tracelatina-i.akamaihd.net/i/Latina_1@198433/index_500.m3u8
+
+#EXTINF:-1 tvg-id="TraceBrazuca.fr" tvg-logo="https://i.imgur.com/TraceBrazuca.png",Trace Brazuca
+https://tracebrazuca.live.flumotion.com/tracebrazuca/live/playlist.m3u8
+
+#EXTINF:-1 tvg-id="FashionTVEurope.fr" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Fashion-TV.png",Fashion TV
+http://fash1043.cloudycdn.services/flussonic/fashiontv.smil/chunklist.m3u8
+
+#EXTINF:-1 tvg-id="XITE.nl" tvg-logo="https://i.imgur.com/jxuwGRi.png",XITE
+https://xitemz-lh.akamaihd.net/i/xite_1@129474/index_1.m3u8
+
+#EXTINF:-1 tvg-id="KuriakosTV.pt" tvg-logo="https://i.imgur.com/xdAW0D5.png",Kuriakos TV
+https://w1.manasat.com/ktv/smil:ktv.smil/playlist.m3u8
+
+#EXTINF:-1 tvg-id="RedBullTV.at" tvg-logo="https://i.imgur.com/RedBullTV.png",Red Bull TV
+https://dms.redbull.tv/v3/linear/eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9/playlist.m3u8
+
+# === DESPORTO ===
+#EXTINF:-1 tvg-id="FUELTV.at" tvg-logo="https://i.imgur.com/I8mviBy.png",FUEL TV
+https://amg01074-fueltv-fueltvemeaen-rakuten-b6j62.amagi.tv/hls/amagi_hls_data_rakutenAA-fueltvemeaen/CDN/master.m3u8
+
+#EXTINF:-1 tvg-id="FightBox.nl" tvg-logo="https://i.imgur.com/FightBox.png",FightBox
+https://live.cdn.huntingtonpost.net/fightbox/playlist.m3u8
+
+#EXTINF:-1 tvg-id="Eurosport1.fr" tvg-logo="https://i.imgur.com/Eurosport.png",Eurosport 1
+https://esf-ott.akamaiOz.com/hls/live/2044/esf-iso/playlist.m3u8
+
+# === DOCUMENTÁRIOS ===
+#EXTINF:-1 tvg-id="TravelChannel.us" tvg-logo="https://i.imgur.com/TravelChannel.png",Travel Channel
+https://travelchannel-dev.akamaized.net/hls/live/2024145/travelchannel/master.m3u8
+
+#EXTINF:-1 tvg-id="Historia.pt" tvg-logo="https://i.imgur.com/Historia.png",História
+https://historia-pt-1.ctvnet.com.br/playlist.m3u8
+
+#EXTINF:-1 tvg-id="Odisseia.pt" tvg-logo="https://i.imgur.com/Odisseia.png",Odisseia
+https://odisseia-pt-1.ctvnet.com.br/playlist.m3u8
+
+#EXTINF:-1 tvg-id="DocuBox.nl" tvg-logo="https://i.imgur.com/DocuBox.png",DocuBox
+https://docubox-pt-1.ctvnet.com.br/playlist.m3u8
+
+# ===-outROS CANAIS ===
+#EXTINF:-1 tvg-id="TVZimbo.ao" tvg-logo="https://i.imgur.com/TVZimbo.png",TV Zimbo
+https://tvzimbo-ao-1.ctvnet.com.br/playlist.m3u8
+
+#EXTINF:-1 tvg-id="CubavisionInternacional.cu" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Cuba visi%C3%B3n-Internacional.png",Cubavisión Internacional
+https://cdn9.digitalproserver.com/cubavisioninternacional/live/playlist.m3u8
+
+#EXTINF:-1 tvg-id="AztecaInternacional.mx" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/eb/Azteca_Internacional_logo_2023.png",Azteca Internacional
+https://azt-mun.otteravision.com/azt/mun/mun.m3u8
+
+#EXTINF:-1 tvg-id="Telesur.ve" tvg-logo="https://i.imgur.com/Telesur.png",Telesur
+https://cdn9.digitalproserver.com/telesur/live/playlist.m3u8
+
+#EXTINF:-1 tvg-id="AfricanewsEnglish.fr" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Africa_news.png",Africanews
+https://africanews.akamaized.net/live/livestream/playlist.m3u8
+
+#EXTINF:-1 tvg-id="FreeSpeechTV.us" tvg-logo="https://i.imgur.com/FreeSpeechTV.png",Free Speech TV
+https://fstv-1.freelsd.com/live/playlist.m3u8
+
+#EXTINF:-1 tvg-id="arte.fr" tvg-logo="https://i.imgur.com/arte.png",Arte
+https://artelive-lh.akamaihd.net/i/artelive_fr@345645/index_1_av-b=128000.m3u8
+
+#EXTINF:-1 tvg-id="BFMBusiness.fr" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/BFM-Business.png",BFM Business
+https://ncdn-live-bfm.pfd.sfr.net/shls/LIVE$BFM_BUSINESS/index.m3u8
+
+#EXTINF:-1 tvg-id="BFMGrandLille.fr" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Grand-Lille-TV.png",BFM Grand Lille
+https://ncdn-live-bfm.pfd.sfr.net/shls/LIVE$BFMGRANDLILLE/index.m3u8
+
+#EXTINF:-1 tvg-id="BFMGrandLittoral.fr" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Grand-Littoral-TV.png",BFM Grand Littoral TV
+https://ncdn-live-bfm.pfd.sfr.net/shls/LIVE$BFMGRANDLITTORAL/index.m3u8
