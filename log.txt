@@ -1,24 +1,24 @@
-[2026-03-14 18:46:48] ============================================================
-[2026-03-14 18:46:48] INICIANDO PROCESSAMENTO
-[2026-03-14 18:46:48] ============================================================
-[2026-03-14 18:46:48] Processando URL: https://archive.org/details/m2a5___cortininha_1080p__720p_
-[2026-03-14 18:46:48]   Tipo detectado: archive_collection
-[2026-03-14 18:46:48]   Tentando método: --flat-playlist
-[2026-03-14 18:46:49]   ✓ Extraídos 1 item(s) com sucesso
-[2026-03-14 18:46:49] Processando URL: https://archive.org/details/bikini_3d_baixo_720p__720p_
-[2026-03-14 18:46:49]   Tipo detectado: archive_collection
-[2026-03-14 18:46:49]   Tentando método: --flat-playlist
-[2026-03-14 18:46:50]   ✓ Extraídos 1 item(s) com sucesso
-[2026-03-14 18:46:50] Processando URL: https://archive.org/details/Blueprint_Decoded_-_DVD_01
-[2026-03-14 18:46:50]   Tipo detectado: archive_collection
-[2026-03-14 18:46:50]   Tentando método: --flat-playlist
-[2026-03-14 18:46:51]   ✓ Extraídos 1 item(s) com sucesso
-[2026-03-14 18:46:51] Criando arquivo M3U: lista30.M3U
-[2026-03-14 18:46:51] ✓ Arquivo lista30.M3U criado com sucesso
-[2026-03-14 18:46:51] ============================================================
-[2026-03-14 18:46:51] RESUMO DO PROCESSAMENTO:
-[2026-03-14 18:46:51]   URLs processadas: 3
-[2026-03-14 18:46:51]   Sucessos: 3
-[2026-03-14 18:46:51]   Falhas: 0
-[2026-03-14 18:46:51]   Total de itens extraídos: 3
-[2026-03-14 18:46:51] ============================================================
+[2026-03-14 18:50:23] ============================================================
+[2026-03-14 18:50:23] INICIANDO PROCESSAMENTO
+[2026-03-14 18:50:23] ============================================================
+[2026-03-14 18:50:23] Processando URL: https://archive.org/details/m2a4___calcinha_tradicional_720p__720p_
+[2026-03-14 18:50:23]   Tipo detectado: archive_collection
+[2026-03-14 18:50:23]   Tentando método: --flat-playlist
+[2026-03-14 18:50:33]   ✓ Extraídos 1 item(s) com sucesso
+[2026-03-14 18:50:33] Processando URL: https://archive.org/details/modulo3_10_cortininha__1080p___720p_
+[2026-03-14 18:50:33]   Tipo detectado: archive_collection
+[2026-03-14 18:50:33]   Tentando método: --flat-playlist
+[2026-03-14 18:50:35]   ✓ Extraídos 1 item(s) com sucesso
+[2026-03-14 18:50:35] Processando URL: https://archive.org/details/m2a7___biqui_ni_3d_720p__720p_
+[2026-03-14 18:50:35]   Tipo detectado: archive_collection
+[2026-03-14 18:50:35]   Tentando método: --flat-playlist
+[2026-03-14 18:50:37]   ✓ Extraídos 1 item(s) com sucesso
+[2026-03-14 18:50:37] Criando arquivo M3U: lista30.M3U
+[2026-03-14 18:50:37] ✓ Arquivo lista30.M3U criado com sucesso
+[2026-03-14 18:50:37] ============================================================
+[2026-03-14 18:50:37] RESUMO DO PROCESSAMENTO:
+[2026-03-14 18:50:37]   URLs processadas: 3
+[2026-03-14 18:50:37]   Sucessos: 3
+[2026-03-14 18:50:37]   Falhas: 0
+[2026-03-14 18:50:37]   Total de itens extraídos: 3
+[2026-03-14 18:50:37] ============================================================
