@@ -23,7 +23,7 @@ jobs:
       - name: Ask OpenCode
         run: |
           PERGUNTA=$(cat << 'EOF'
-          diga quem foi o primeiro presidente da china
+          diga em quais paises o big brother está no ar atualmente, atualizado
           EOF
           )
 
