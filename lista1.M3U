@@ -754,8 +754,8 @@ https://archive.org/download/nbc-19700803/NBC%E6%99%9A%E9%97%B4%E6%96%B0%E9%97%B
 https://archive.org/download/WRC_20010913_233000_Redskins_Report/WRC_20010913_233000_Redskins_Report.mp4?exact=1&start=0&end=300
 #EXTINF:-1 group-title="VOD" ,NBC Nightly News : WCAU : October 2, 2014 6:30pm-7:01pm EDT
 https://archive.org/download/WCAU_20141002_223000_NBC_Nightly_News/WCAU_20141002_223000_NBC_Nightly_News.mp4?exact=1&start=0&end=300
-#EXTINF:-1 group-title="VOD" ,How President Donald Trump’s Tariff Threats Affect Your Wallet | Velshi & Ruhle | MSNBC
-https://archive.org/download/youtube-4phlO88cJw8/4phlO88cJw8.mp4
+#EXTINF:-1 group-title="VOD" ,NBC Nightly News : WCAU : October 19, 2014 6:30pm-7:01pm EDT
+https://archive.org/download/WCAU_20141019_223000_NBC_Nightly_News/WCAU_20141019_223000_NBC_Nightly_News.mp4?exact=1&start=0&end=300
 #EXTM3U
 #EXTM3U
 #EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_CH1.xml.gz"
@@ -4766,17 +4766,17 @@ https://live-cm-ah-13-37.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0e
 https://vod-as-09-07.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJVUyIsImRvbWFpbiI6InZvZC1hcy0wOS0wNy52aWRlby5nbG9iby5jb20iLCJleHAiOjE3NzM1MjkyNjIsImlhdCI6MTc3MzUyOTE0MiwiaXNzIjoicGxheWJhY2stYXBpLXByb2QtZ2NwIiwib3duZXIiOiIiLCJwYXRoIjoiL3IzNjBfMTA4MC92MC80NS80Yi9mMy8xMzY4NjE4OV9mMzVlNDZkMGExODI1Yzc2YTExNjA2MGNiMzM0MDU4M2JjOWY2OGY1LzEzNjg2MTg5LURzWVF2bzItbWFuaWZlc3QuaXNtLzEzNjg2MTg5Lm0zdTgifQ.uAzf98oH3DCp17gH3oP88UadNvV7ty00xnPVdutBBrVE4z8W3KukF3in2qyXHVyEAu-W-YYw1w9B-dDiweDK9651CuNZmnW2PL0cOU8fQIoLHoVKfkUgmSymI2sdrm3XYFgt9iFUJ0BkaAzPYsz-jcnhPmODbYZLAwXLZ0DdHv0bsQlXxPzm9ZIEatI4zhqCwR5HiZM5l1-_dvYtuSWIbZuOj-Ryqqj5W4KTwUaRR9lRCj7YnD0UPUopoALGQhJXbx6bKC_lLg947nzQU-QtRi_Yt1MLz0XwFYGjxLzbHM6Nvl6QUFV1QYNDUHhkOBRKUlZy-mEjwFRO8X5e0hpMkQ/r360_1080/v0/45/4b/f3/13686189_f35e46d0a1825c76a116060cb3340583bc9f68f5/13686189-DsYQvo2-manifest.ism/13686189.m3u8
 #EXTM3U
 #EXTM3U
-#EXTINF:-1 tvg-logo="https://a57.foxnews.com/cf-images.us-east-1.prod.boltdns.net/v1/static/694940094001/15de0523-3be4-4a9a-8159-7020114e7036/b6ff623a-26d6-4fd9-8bb8-0856adbf38ce/1280x720/match/676/380/image.jpg?ve=1&tl=1" group-title="NEWS WORLD",Watch Fox News Channel Online | Stream Fox News
+#EXTINF:-1 tvg-id="foxnews.us" tvg-name="Fox News" tvg-logo="https://a57.foxnews.com/cf-images.us-east-1.prod.boltdns.net/v1/static/694940094001/15de0523-3be4-4a9a-8159-7020114e7036/b6ff623a-26d6-4fd9-8bb8-0856adbf38ce/1280x720/match/676/380/image.jpg?ve=1&tl=1" group-title="NEWS WORLD",Fox News
 https://247.foxnews.com/hls/live/2003586/FNCHLSv3/master.m3u8?hdnea=exp=1773606568~acl=/*~hmac=51ebf27027e037f6e2e670939bf650d4479025681a9f57ac3fef4c04f1688199
-#EXTINF:-1 tvg-logo="https://a57.foxnews.com/cf-images.us-east-1.prod.boltdns.net/v1/static/694940094001/15de0523-3be4-4a9a-8159-7020114e7036/b6ff623a-26d6-4fd9-8bb8-0856adbf38ce/1280x720/match/676/380/image.jpg?ve=1&tl=1" group-title="NEWS WORLD",Watch Fox News Channel Online | Stream Fox News
+#EXTINF:-1 tvg-id="foxnews.us" tvg-name="Fox News" tvg-logo="https://a57.foxnews.com/cf-images.us-east-1.prod.boltdns.net/v1/static/694940094001/15de0523-3be4-4a9a-8159-7020114e7036/b6ff623a-26d6-4fd9-8bb8-0856adbf38ce/1280x720/match/676/380/image.jpg?ve=1&tl=1" group-title="NEWS WORLD",Fox News
 https://247.foxnews.com/hls/live/2003586/FNCHLSv3/primary_792.m3u8
-#EXTINF:-1 tvg-logo="https://a57.foxnews.com/cf-images.us-east-1.prod.boltdns.net/v1/static/694940094001/15de0523-3be4-4a9a-8159-7020114e7036/b6ff623a-26d6-4fd9-8bb8-0856adbf38ce/1280x720/match/676/380/image.jpg?ve=1&tl=1" group-title="NEWS WORLD",Watch Fox News Channel Online | Stream Fox News
+#EXTINF:-1 tvg-id="foxnews.us" tvg-name="Fox News" tvg-logo="https://a57.foxnews.com/cf-images.us-east-1.prod.boltdns.net/v1/static/694940094001/15de0523-3be4-4a9a-8159-7020114e7036/b6ff623a-26d6-4fd9-8bb8-0856adbf38ce/1280x720/match/676/380/image.jpg?ve=1&tl=1" group-title="NEWS WORLD",Fox News
 https://247.foxnews.com/hls/live/2003586/FNCHLSv3/primary_2692.m3u8
-#EXTINF:-1 tvg-logo="https://a57.foxnews.com/cf-images.us-east-1.prod.boltdns.net/v1/static/694940094001/15de0523-3be4-4a9a-8159-7020114e7036/b6ff623a-26d6-4fd9-8bb8-0856adbf38ce/1280x720/match/676/380/image.jpg?ve=1&tl=1" group-title="NEWS WORLD",Watch Fox News Channel Online | Stream Fox News
+#EXTINF:-1 tvg-id="foxnews.us" tvg-name="Fox News" tvg-logo="https://a57.foxnews.com/cf-images.us-east-1.prod.boltdns.net/v1/static/694940094001/15de0523-3be4-4a9a-8159-7020114e7036/b6ff623a-26d6-4fd9-8bb8-0856adbf38ce/1280x720/match/676/380/image.jpg?ve=1&tl=1" group-title="NEWS WORLD",Fox News
 https://247.foxnews.com/hls/live/2003586/FNCHLSv3/primary_2692.m3u8
-#EXTINF:-1 tvg-logo="https://a57.foxnews.com/cf-images.us-east-1.prod.boltdns.net/v1/static/694940094001/15de0523-3be4-4a9a-8159-7020114e7036/b6ff623a-26d6-4fd9-8bb8-0856adbf38ce/1280x720/match/676/380/image.jpg?ve=1&tl=1" group-title="NEWS WORLD",Watch Fox News Channel Online | Stream Fox News
+#EXTINF:-1 tvg-id="foxnews.us" tvg-name="Fox News" tvg-logo="https://a57.foxnews.com/cf-images.us-east-1.prod.boltdns.net/v1/static/694940094001/15de0523-3be4-4a9a-8159-7020114e7036/b6ff623a-26d6-4fd9-8bb8-0856adbf38ce/1280x720/match/676/380/image.jpg?ve=1&tl=1" group-title="NEWS WORLD",Fox News
 https://247.foxnews.com/hls/live/2003586/FNCHLSv3/primary_2692.m3u8
-#EXTINF:-1 tvg-logo="https://a57.foxnews.com/cf-images.us-east-1.prod.boltdns.net/v1/static/694940094001/15de0523-3be4-4a9a-8159-7020114e7036/b6ff623a-26d6-4fd9-8bb8-0856adbf38ce/1280x720/match/676/380/image.jpg?ve=1&tl=1" group-title="NEWS WORLD",Watch Fox News Channel Online | Stream Fox News
+#EXTINF:-1 tvg-id="foxnews.us" tvg-name="Fox News" tvg-logo="https://a57.foxnews.com/cf-images.us-east-1.prod.boltdns.net/v1/static/694940094001/15de0523-3be4-4a9a-8159-7020114e7036/b6ff623a-26d6-4fd9-8bb8-0856adbf38ce/1280x720/match/676/380/image.jpg?ve=1&tl=1" group-title="NEWS WORLD",Fox News
 https://247.foxnews.com/hls/live/2003586/FNCHLSv3/primary_2692.m3u8
 #EXTM3U
 #EXTINF:-1 group-title="Mundo" tvg-chno="10" tvg-id="AlJazeera" tvg-logo="https://raw.githubusercontent.com/guigo85/lista-m3u-gratuita/main/logos/aljazeera.png" , Al Jazeera Español
