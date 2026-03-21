@@ -4721,6 +4721,8 @@ https://viamotionhsi.netplus.ch/live/eds/france5hd/browser-dash/france5hd.mpd
 https://viamotionhsi.netplus.ch/live/eds/m6hd/browser-dash/m6hd.mpd
 #EXTINF:-1 tvg-id="France24.fr" tvg-logo="https://iptv-epg.org/logos/France/France24.fr.png" group-title="FRANÇA",France 24 Français
 https://static.france24.com/live/F24_FR_LO_HLS/live_ios.m3u8
+#EXTINF:-1 tvg-name="Real Time" tvg-logo="https://i.imgur.com/9dcTYg1.png" tvg-id="RealTimeItaly.it" group-title="Italy", Real Time
+https://d3562mgijzx0zq.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-kizqtzpvvl3i8/Realtime_IT.m3u8
 #EXTM3U url-tvg="https://github.com/limaalef/BrazilTVEPG/raw/refs/heads/main/globo.xml,https://github.com/limaalef/BrazilTVEPG/raw/refs/heads/main/claro.xml,https://github.com/limaalef/BrazilTVEPG/raw/refs/heads/main/vivoplay.xml"
 #EXTINF:-1 tvg-id="globo.br" tvg-logo="https://s02.video.glbimg.com/x720/7813173.jpg" group-title="GLOBO AO VIVO",Teste Live CDN Google | Assista ao vivo pelo Globoplay
 https://live-as-09-15.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJVUyIsImRvbWFpbiI6ImxpdmUtYXMtMDktMTUudmlkZW8uZ2xvYm8uY29tIiwiZXhwIjoxNzc0MTUwMjM2LCJpYXQiOjE3NzQxMjg2MzYsImlzcyI6InBsYXliYWNrLWFwaS1wcm9kLWdjcCIsIm93bmVyIjoiIiwicGF0aCI6Ii9saXZlL2YoaT0yKS9nbGIvcGxheWxpc3QubTN1OCJ9.V-e06-WZ7JnCf8AddWMaCNEYwPz87YwFaBBf8qC_dHRQVlDiWHrCW2FA5Qea4WlpwWVcQJ1ZShUC3UKjQSz6JH2CQuT4AXOemm2hUvnEAWYv5CjwThbJXwyQ1qK98ZDhz39WVsJWJdduVfx4creG8zNhPvfHBHAa46ZPNawrcIu0nUAmSAf8hiY1_Fx995F4VWb8QpJw22V8Kxt8OFx0Y9pq7fkS8mu0TOe-yXW19RQCdSFhfxJYLa-DE3l-VHwH5EKFrgPp6psCHKLW1Oq2d0G6lGt9mKUpmaA7R72ifvMNgRJdbcBkumwA9myAvCt_EhgI4A9ha9-gD9amzzybrw/live/f(i=2)/glb/playlist.m3u8
