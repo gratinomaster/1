@@ -758,25 +758,7 @@ https://archive.org/download/WRC_20010914_230000_NBC_Nightly_News/WRC_20010914_2
 https://archive.org/download/WCAU_20141007_223000_NBC_Nightly_News/WCAU_20141007_223000_NBC_Nightly_News.mp4?exact=1&start=0&end=300
 #EXTINF:-1 group-title="VOD" ,Wisenberg: Nothing To Be Made Of Whitaker Saying Mueller Probe Close To Complete | NBC Nightly News
 https://archive.org/download/youtube-AXpi76Z_syY/AXpi76Z_syY.mp4
-#EXTM3U url-tvg="https://github.com/LITUATUI/M3UPT/raw/main/EPG/epg-m3upt.xml.xz"
-# M3UPT.com - IPTV playlist in M3U format with TV and radio stations in Portuguese. Public and official streams only.
-# 📺 TV
-#EXTINF:-1 group-title="TV" tvg-id="RTP1.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP1.png",RTP 1
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:149.0) Gecko/20100101 Firefox/149.0
-#EXTVLCOPT:http-origin=https://www.rtp.pt
-#EXTVLCOPT:http-referrer=https://www.rtp.pt/play/direto/rtp1
-https://streaming-live.rtp.pt/liverepeater/smil:rtp1HD.smil/playlist.m3u8
-#EXTINF:-1 group-title="TV" tvg-id="RTP2.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP2.png",RTP 2
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:149.0) Gecko/20100101 Firefox/149.0
-#EXTVLCOPT:http-origin=https://www.rtp.pt
-#EXTVLCOPT:http-referrer=https://www.rtp.pt/play/direto/rtp2
-https://streaming-live.rtp.pt/liverepeater/rtp2HD.smil/playlist.m3u8
-#EXTINF:-1 group-title="TV" tvg-id="SIC.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/SIC.png",SIC
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:149.0) Gecko/20100101 Firefox/149.0
-#EXTVLCOPT:http-origin=https://sic.pt
-#EXTVLCOPT:http-referrer=https://sic.pt/
-https://d1zx6l1dn8vaj5.cloudfront.net/out/v1/b89cc37caa6d418eb423cf092a2ef970/index.m3u8
-#EXTINF:-1 group-title="TV" tvg-id="TVI.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/TVI.png",TVI
+#EXTM3U
 #EXTM3U
 #EXTM3U x-tvg-url="https://iptv-epg.org/files/epg-cl.xml.gz"
 #EXTINF:-1 group-title="CHILE" tvg-chno="1" tvg-id="Canal13.cl" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/0/01/Canal_13_2018.png/revision/latest/scale-to-width-down/512/",Canal 13
@@ -4724,7 +4706,7 @@ https://qrg.akamaized.net/hls/live/2017383/lsqvc1it/master.m3u8
 https://radioitaliatv.akamaized.net/hls/live/2093117/RadioitaliaTV/master.m3u8
 #EXTINF:-1 tvg-id="padre-pio-tv" tvg-name="Padre Pio TV" tvg-logo="https://api.superguidatv.it/v1/channels/2003/logo?width=120&theme=dark" group-title="Italy",Padre Pio TV
 https://600f07e114306.streamlock.net/PadrePioTV/livestream/playlist.m3u8
-#EXTM3U url-tvg="https://github.com/limaalef/BrazilTVEPG/raw/refs/heads/main/globo.xml https://github.com/limaalef/BrazilTVEPG/raw/refs/heads/main/claro.xml https://github.com/limaalef/BrazilTVEPG/raw/refs/heads/main/vivoplay.xml"
+#EXTM3U url-tvg="https://github.com/limaalef/BrazilTVEPG/raw/refs/heads/main/globo.xml,https://github.com/limaalef/BrazilTVEPG/raw/refs/heads/main/claro.xml,https://github.com/limaalef/BrazilTVEPG/raw/refs/heads/main/vivoplay.xml"
 #EXTINF:-1 tvg-id="SporTV" tvg-logo="https://s03.video.glbimg.com/x720/7689934.jpg" group-title="GLOBO AO VIVO",sportv ao vivo no ge.globo | Assista ao vivo pelo Globoplay
 https://live-as-08-05.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJVUyIsImRvbWFpbiI6ImxpdmUtYXMtMDgtMDUudmlkZW8uZ2xvYm8uY29tIiwiZXhwIjoxNzc2MDAwMDgwLCJpYXQiOjE3NzU5Nzg0ODAsImlzcyI6InBsYXliYWNrLWFwaS1wcm9kLWdjcCIsIm93bmVyIjoiIiwicGF0aCI6Ii9saXZlL2YoaT0yKS9zcG8xMjRoYS9wbGF5bGlzdC5tM3U4In0.KWAS9ysML95JafAyacPMZ---_Si3GR3j58sL_y9NKPgmQ3evDMmOE8BNUWbUMdB7-RSLafCnppnN4mTwFKyqWdmG9iJ47pg3-V2f53Hfen7UCq_FPNvAxr0h7UHoB8d7ynNjTZBGlhhE54qVZ8wV4LWUE2Hq9czw-tJZhU6X15L7e9egBqftV2YNkUlemhBSDw2CRoalryHtw45Wh3ub3rTraHHT067PfhOMW4jrzPMGT0TqR6YsZ8qfnqT-Gg34j5Jon7mifUc14VGsFLxZjfcNDbI8rwF8H-njtZlRzq_0d4SfTaMSACuEHkL7vNMQrmHvKw3IlsiOBa6wcejHNw/live/f(i=2)/spo124ha/playlist.m3u8
 #EXTINF:-1 tvg-id="Globo" tvg-logo="https://s01.video.glbimg.com/x720/14164032.jpg" group-title="GLOBO AO VIVO",Transmissão Ao Vivo ABTV - Alagoas | Assista ao vivo pelo Globoplay
@@ -4775,8 +4757,6 @@ https://vodstreaming01.video.globo.com/h/050248505647602137341608485056488041750
 #EXTINF:-1 group-title="GLOBO AO VIVO",Assista aos telejornais da TV Bahia
 https://csi.gstatic.com/csi?v=2&s=ima&dmc=8&puid=c~mnujerfz&c=619766099916&slotId=309883049958&qqid=CLPTkI6Z5pMDFWvw0gQdwSQGFA&fb=web_video-lima&gpm_i=2&gpm_c=2&gpm_a=2&smb=Infinity&br=5060&mt=application%2Fx-mpegurl&vs=1920x1080&dm=30000&event_name=unmeasurable_asset&resource_name=https%253A%252F%252Fvodstreaming01.video.globo.com%252Fh%252F05024850564760213734160848505648804175004381ADfJVkG1gPIRKMiPDNrkXA%252Fk%252Fads%252Fr240_1080%252Fl%252Fv0%252F28%252Fbc%252F9b%252F11876269_9b0100218a6183c6c73f986dd36065127c4595e2%252F11876269-oeslws-manifest.ism%252F11876269-oeslws-manifest-audio_por%253D128039-video_por%253D358000.m3u8&encoded_body_size=0&transfer_size=0
 #EXTM3U
-#EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/4/49/CBN.png" group-title="NEWS WORLD",CBN SP
-https://live-cm-ah-10-22.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJVUyIsImRvbWFpbiI6ImxpdmUtY20tYWgtMTAtMjIudmlkZW8uZ2xvYm8uY29tIiwiZXhwIjoxNzc2MDQ3MTA0LCJpYXQiOjE3NzYwMjU1MDQsImlzcyI6InBsYXliYWNrLWFwaS1wcm9kLWdjcCIsIm93bmVyIjoiIiwicGF0aCI6Ii9saXZlL2YoYk1pbj0zMTM5ODQsZHZyPTEyMCkvY2Juc3AyNGhhL3BsYXlsaXN0Lm0zdTgifQ.Fs4Zrszl2nHwfpvfpEZ1OtS_ZHunzxKxZyuWa0yJDvjmgVzD1X6uxsAFByIad_oOkLYs0DY4apJ3VB7tFhFMTj3IwZ7tgxeXDfca7NrcXp0WbKXRXnFWVBZFZ1Fu0_Dvf74iyO4a5OZJxNFU7Gr-AuXjxFE1OAEJGQmMI5GiyaThjCmstkMWyq1Jak5QWCKXGyowIMmNpL9ZG3nfAEKF_2tCn9fbwpZPFEQhW9n9ebCvrXeNXtleG4Kh6RZRtWuFjwHTRsQ3nwLCgJaW0IfE0i8FBB3a81bEXhacUhDprsajrPWSL4jv8sBWLF9zIuQ7qZ3MCvpqLfbIQ00eGS3uqA/live/f(bMin=313984,dvr=120)/cbnsp24ha/playlist.m3u8
 #EXTM3U
 #EXTINF:-1 tvg-logo="https://keyframe-cdn.abcnews.com/streamprovider11.jpg" group-title="NEWS WORLD",ABC News Live - ABC News
 https://linear-abcnews-ftc-na-east-1.media.dssott.com/dvt2=exp=1776123898~url=%2Fclt1%2Fva02%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1773288443221%2F~psid=3d64ada5-4a44-4ecd-bded-7ef3e49f2275~did=fcf7ca4a-f1e9-4331-9214-50967641b7f5~country=US~kid=k02~hmac=6f59c3628e73294720bd78e3f2b7bbf3221f98aa4ad6833c08522fef01af5e1d/clt1/va02/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1773288443221/ctr-all-hdri-sliding.m3u8?r=1080&v=1&hash=6c5dec870ee1f02d60a0ceca893470b81b8622a3
