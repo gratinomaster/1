@@ -758,8 +758,25 @@ https://archive.org/download/WRC_20010914_230000_NBC_Nightly_News/WRC_20010914_2
 https://archive.org/download/WCAU_20141007_223000_NBC_Nightly_News/WCAU_20141007_223000_NBC_Nightly_News.mp4?exact=1&start=0&end=300
 #EXTINF:-1 group-title="VOD" ,Wisenberg: Nothing To Be Made Of Whitaker Saying Mueller Probe Close To Complete | NBC Nightly News
 https://archive.org/download/youtube-AXpi76Z_syY/AXpi76Z_syY.mp4
-#EXTM3U
-#EXTM3U
+#EXTM3U url-tvg="https://github.com/LITUATUI/M3UPT/raw/main/EPG/epg-m3upt.xml.xz"
+# M3UPT.com - IPTV playlist in M3U format with TV and radio stations in Portuguese. Public and official streams only.
+# 📺 TV
+#EXTINF:-1 group-title="TV" tvg-id="RTP1.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP1.png",RTP 1
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:149.0) Gecko/20100101 Firefox/149.0
+#EXTVLCOPT:http-origin=https://www.rtp.pt
+#EXTVLCOPT:http-referrer=https://www.rtp.pt/play/direto/rtp1
+https://streaming-live.rtp.pt/liverepeater/smil:rtp1HD.smil/playlist.m3u8
+#EXTINF:-1 group-title="TV" tvg-id="RTP2.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP2.png",RTP 2
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:149.0) Gecko/20100101 Firefox/149.0
+#EXTVLCOPT:http-origin=https://www.rtp.pt
+#EXTVLCOPT:http-referrer=https://www.rtp.pt/play/direto/rtp2
+https://streaming-live.rtp.pt/liverepeater/rtp2HD.smil/playlist.m3u8
+#EXTINF:-1 group-title="TV" tvg-id="SIC.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/SIC.png",SIC
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:149.0) Gecko/20100101 Firefox/149.0
+#EXTVLCOPT:http-origin=https://sic.pt
+#EXTVLCOPT:http-referrer=https://sic.pt/
+https://d1zx6l1dn8vaj5.cloudfront.net/out/v1/b89cc37caa6d418eb423cf092a2ef970/index.m3u8
+#EXTINF:-1 group-title="TV" tvg-id="TVI.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/TVI.png",TVI
 #EXTM3U
 #EXTM3U x-tvg-url="https://iptv-epg.org/files/epg-cl.xml.gz"
 #EXTINF:-1 group-title="CHILE" tvg-chno="1" tvg-id="Canal13.cl" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/0/01/Canal_13_2018.png/revision/latest/scale-to-width-down/512/",Canal 13
@@ -4756,6 +4773,8 @@ https://live-as-08-16.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAi
 #EXTINF:-1 group-title="GLOBO AO VIVO" tvg-logo="https://s02.video.glbimg.com/x720/2145544.jpg",AO VIVO: AO VIVO: assista a programação da NSC TV
 https://live-as-08-15.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJVUyIsImRvbWFpbiI6ImxpdmUtYXMtMDgtMTUudmlkZW8uZ2xvYm8uY29tIiwiZXhwIjoxNzc2MjA1MzkyLCJpYXQiOjE3NzYxODM3OTIsImlzcyI6InBsYXliYWNrLWFwaS1wcm9kLWdjcCIsIm93bmVyIjoiIiwicGF0aCI6Ii9saXZlL2YoYk1pbj0zMTM5ODQpL25zY3NjYXRhcmluYS9wbGF5bGlzdC5tM3U4In0.MEwhjPogz4zbvKFixPuSb-3PCPsalrDtlQfUI6Naz4MVtYdnnjKtJbDnPpdr6dwwFWR-i0xphfTLxH-H_RQQYzTqk5cd9sm7I3b9pcPRtSgXDMcDDrXIV1GtN_dUuYkZivbBhnlZdQ9pwr4PLlwvSWZxfCY31Q0P8euEdFD8XGpsz-szr2Oc6t-QTiVKKZrw0snoNrJmkxq2CS0JqMc4drWX8SJZxVv8t26TO0OfaDgdA2QpnRbf-UgyPrTZq2XRnAF9ek55QQi7XRHPT4U2JKt4KkR2ZR1I5o-tGYUlJ_rlEwfMqWOZVa14wdM0_5Y_63BoDEwobHALZC1xjIeDaQ/live/f(bMin=313984)/nscscatarina/playlist.m3u8
 #EXTM3U
+#EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/4/49/CBN.png" group-title="NEWS WORLD",CBN SP
+https://live-cm-ah-17-33.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJVUyIsImRvbWFpbiI6ImxpdmUtY20tYWgtMTctMzMudmlkZW8uZ2xvYm8uY29tIiwiZXhwIjoxNzc2MjIwOTk2LCJpYXQiOjE3NzYxOTkzOTYsImlzcyI6InBsYXliYWNrLWFwaS1wcm9kLWdjcCIsIm93bmVyIjoiIiwicGF0aCI6Ii9saXZlL2YoYk1pbj0zMTM5ODQsZHZyPTEyMCkvY2Juc3AyNGhhL3BsYXlsaXN0Lm0zdTgifQ.zEhcElFN-0l97z-lgUsZ6QGHeJEPGgMGDS_n6wI6gWwxf9u2r91Je_NjUUcYP69azykeUfAFompeF6llypCl97MEex40Qxp2wC8lVMGnTU0FMYFDtmBC_5p86SHZGXyqMROa9Vn6Xyf-YP2ZFD5aM0GscRy7p84PcF2bWuK-BBkG0lxwKdxL5JOzKoLFaVuUS9ARizBwZ6crBMeIeODE6pXo4g06E9V3096VuAIiOrVFk-aIZe-2iDYSJ8a9gszmVms91hhGDl9zsqaHVMTurYQeceshWLHjtZQbIpEC-H8R8Q0xKFavxBxVVIJkdS-vL0MIAn2mkrg905Gc6UQ23A/live/f(bMin=313984,dvr=120)/cbnsp24ha/playlist.m3u8
 #EXTM3U
 #EXTINF:-1 tvg-logo="https://s.abcnews.com/images/Live/abc_news_live-abc-ml-250210_1739199021469_hpMain_16x9_608.jpg" group-title="NEWS WORLD",ABC News Live Reports | Watch Live News on ABCNL
 https://linear-abcnews-akc-na-central-1.media.dssott.com/dvt2=exp=1776283892~url=%2Flas1%2Fva01%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1775639633089%2F~psid=420c07e5-3356-4795-a0c2-5f10c6add6f3~did=51b00773-8fd2-4680-a1b7-4d0fcd3237f2~country=US~kid=k02~hmac=c5bd78573fbf57c5985e33b8fd7afbc714a69dd1a0867793483761cfaf5e41e6/las1/va01/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1775639633089/ctr-all-hdri-sliding.m3u8?r=1080&v=1&hash=9ca647818e22dde83ed486302c56eddd41af150d
