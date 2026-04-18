@@ -760,6 +760,7 @@ https://archive.org/download/WCAU_20141006_223000_NBC_Nightly_News/WCAU_20141006
 https://archive.org/download/dvd-transfer-148/VTS_01_1.ia.mp4
 #EXTM3U
 #EXTM3U
+#EXTM3U
 #EXTM3U x-tvg-url="https://iptv-epg.org/files/epg-cl.xml.gz"
 #EXTINF:-1 group-title="CHILE" tvg-chno="1" tvg-id="Canal13.cl" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/0/01/Canal_13_2018.png/revision/latest/scale-to-width-down/512/",Canal 13
 http://38.250.127.17:9800/play/a067/index.m3u8
@@ -6864,13 +6865,15 @@ https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/fb23b67
 https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/fb23b674-1517-4a63-a8bf-c29f7e166af9:TUL/variant/bbe09487996e4026304507dc92286621/bandwidth/4231000.m3u8
 #EXTINF:-1 tvg-logo="https://www.cbsnews.com/bundles/cbsnewsvideo/images/cbsn--main-bg.jpg" group-title="NEWS WORLD",Watch CBS News 24/7, our free live news stream
 https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/fb23b674-1517-4a63-a8bf-c29f7e166af9:TUL/variant/bbe09487996e4026304507dc92286621/bandwidth/4231000.m3u8
-#EXTM3U url-tvg="https://raw.githubusercontent.com/SEU_USUARIO/JCTV/main/lista5_epg_custom.xml"
-#EXTINF:-1 tvg-id="ABCWBMA.us" tvg-logo="https://keyframe-cdn.abcnews.com/streamprovider11.jpg" group-title="NEWS WORLD",ABC News Live
-https://abcnews-livestreams.akamaized.net/out/v1/6a597119dbd5428a82dc11a2f514a1a2/abcn-live-10-cmaf-manifest/abcn-live-10-index.m3u8
-#EXTINF:-1 tvg-id="FoxNewsChannel.us" tvg-logo="https://a57.foxnews.com/cf-images.us-east-1.prod.boltdns.net/v1/static/694940094001/15de0523-3be4-4a9a-8159-7020114e7036/b6ff623a-26d6-4fd9-8bb8-0856adbf38ce/1280x720/match/676/380/image.jpg" group-title="NEWS WORLD",Fox News
-https://247preview.foxnews.com/hls/live/2020027/fncv3preview/primary.m3u8
-#EXTINF:-1 tvg-id="CBSNews247.us" tvg-logo="https://assets2.cbsnewsstatic.com/hub/i/r/2024/04/16/0fb75ad2-a909-44bb-87dc-86b9d51cbeb2/thumbnail/1280x720/949f3d3fef16f9c113e3048c6aef229f/247-key-channelthumbnail-1920x1080.jpg" group-title="NEWS WORLD",CBS News 24/7
-https://cbsn-us.cbsnstream.cbsnews.com/out/v1/55a8648e8f134e82a470f83d562deeca/master.m3u8
+#EXTM3U url-tvg="https://iptv-epg.org/files/epg-us.xml.gz"
+#EXTINF:-1 tvg-logo="https://pbs.twimg.com/profile_images/506771501949218816/x3cY4Z0S_normal.jpeg" group-title="NEWS WORLD" tvg-id="ABCWBMA.us",ABC News Live - ABC News
+https://linear-abcnews-akc-na-east-1.media.dssott.com/dvt2=exp=1776613622~url=%2Fclt1%2Fva02%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1776498800636%2F~psid=6f528a16-5c63-4f1e-a46b-afab250508ff~did=6bd5928c-5aae-460a-a7d0-332e95a3d060~country=US~kid=k02~hmac=0d7fd07a3cd23c7a36126ca4e7a12b8152f1d7ecfad1b4bd3eeea6a7b12e28b4/clt1/va02/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1776498800636/ctr-all-hdri-sliding.m3u8?r=1080&v=1&hash=71f3e26f3e0f7896c16e16a8a321ba96b894c95c
+#EXTINF:-1 tvg-logo="https://pbs.twimg.com/profile_images/871939640722137088/_pMxMJOd_normal.jpg" group-title="NEWS WORLD" tvg-id="FoxBusiness.us",Fox Business Go | Fox News Video
+https://247.foxbusiness.com/hls/live/2003756/FBNHLSv3/master.m3u8?hdnea=exp=1776530820~acl=/*~hmac=1a932c3ac51cfc1bc340d895f27000327189edee72a0f1b7d8c89b5aa14c0e20
+#EXTINF:-1 tvg-logo="https://pbs.twimg.com/profile_images/871939640722137088/_pMxMJOd_normal.jpg" group-title="NEWS WORLD" tvg-id="FoxNewsChannel.us",Watch Fox News Channel Online | Stream Fox News
+https://247.foxnews.com/hls/live/2003586/FNCHLSv3/master.m3u8?hdnea=exp=1776530820~acl=/*~hmac=1a932c3ac51cfc1bc340d895f27000327189edee72a0f1b7d8c89b5aa14c0e20
+#EXTINF:-1 tvg-logo="https://pbs.twimg.com/profile_images/1456632014592237569/wzq8cNds_normal.jpg" group-title="NEWS WORLD" tvg-id="CBSNews.us",our free live news stream
+https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/c9f52ff4-4025-4bf0-84de-e63ebdd4f20e:CHS/master.m3u8
 #EXTM3U
 #EXTINF:-1 tvg-name="EPG USA News" tvg-id="EPG_USA" tvg-logo="https://raw.githubusercontent.com/Theitfixer85/myepg/master/Logos/abc-us.png" group-title="EPG",EPG USA News
 #URL:https://epgshare01.online/epgshare01/epg_ripper_US_LOCALS1.xml.gz
