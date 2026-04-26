@@ -748,16 +748,6 @@ http://play.dnsrot.vip/live/ramagi777/e4ifqhgjpqf/61976.m3u8
 #EXTINF:-1 tvg-id="tv.vitoria.br" tvg-name="TV Vitória ES FHD" tvg-logo="https://i.imgur.com/v3JuPi6.png" group-title="Canais | Globo",TV Vitória ES FHD
 http://play.dnsrot.vip/live/ramagi777/e4ifqhgjpqf/91584.m3u8
 #EXTM3U
-#EXTINF:-1 group-title="VOD" ,NBC Nightly News August 3, 1970
-https://archive.org/download/nbc-19700803/NBC%E6%99%9A%E9%97%B4%E6%96%B0%E9%97%BB%2019700803.ia.mp4
-#EXTINF:-1 group-title="VOD" ,NBC February 1985 Commercial Collection
-https://archive.org/download/yt-5s.com-80s-commercials-nbc-february-1985-1080p/yt5s.com-80%27s%20Commercials%20-%20NBC%20February%201985-%281080p%29.ia.mp4
-#EXTINF:-1 group-title="VOD" ,News 4 at 6 : WRC : September 13, 2001 6:00pm-7:00pm EDT
-https://archive.org/download/WRC_20010913_220000_News_4_at_6/WRC_20010913_220000_News_4_at_6.mp4?exact=1&start=0&end=300
-#EXTINF:-1 group-title="VOD" ,NBC Nightly News : WCAU : October 3, 2014 6:30pm-7:01pm EDT
-https://archive.org/download/WCAU_20141003_223000_NBC_Nightly_News/WCAU_20141003_223000_NBC_Nightly_News.mp4?exact=1&start=0&end=300
-#EXTINF:-1 group-title="VOD" ,Governor addresses protests in Richmond
-https://archive.org/download/youtube-GithOw3_zug/GithOw3_zug.mp4
 #EXTM3U
 #EXTM3U
 #EXTM3U x-tvg-url="https://iptv-epg.org/files/epg-cl.xml.gz"
@@ -1775,14 +1765,34 @@ http://172.93.102.112:8989/158753_.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/CINECITY2023/cinecity/refs/heads/cinecity.net/logos/canales-internacionales/VibeTVMexico.png" group-title="🌍 Canales Internacionales",✔️ Vibe TV (Mexico)
 https://5ca9af4645e15.streamlock.net/vibetv/videovibetv/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9My8yMS8yMDI1IDg6NTk6MjQgQU0maGFzaF92YWx1ZT1qMmRGZWNzTHIyZGttY3dJdXRYMXF3PT0mdmFsaWRtaW51dGVzPTEwJmlkPQ==
 #EXTM3U x-tvg-url="https://epg.pw/xmltv/epg_US.xml"
-#EXTINF:-1 tvg-name="CBS News 24/7" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/cbs-news-us.png" group-title="NEWS WORLD",CBS News 24/7
+#EXTINF:-1 tvg-id="France24English.fr" tvg-name="France 24 English" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/6c/France_24.png" group-title="NEWS WORLD",France 24 English
+https://live.france24.com/hls/live/2037218-b/F24_EN_HI_HLS/master_5000.m3u8
+#EXTINF:-1 tvg-id="ABCNewsLive8.us" tvg-name="ABC News Live" tvg-logo="https://upload.wikimedia.org/wikipedia/en/c/c3/ABC_News_Live_Logo.png" group-title="NEWS WORLD",ABC News Live
+https://abcnews-streams.akamaized.net/hls/live/2023567/abcnewshudson8/master_4000.m3u8
+#EXTINF:-1 tvg-id="CBSNews247.us" tvg-name="CBS News 24/7" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/cbs-news-us.png" group-title="NEWS WORLD",CBS News 24/7
 https://news20e7hhcb.airspace-cdn.cbsivideo.com/index.m3u8
-#EXTINF:-1 tvg-name="NBC News NOW" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/nbc-news-now-uk.png" group-title="NEWS WORLD",NBC News Now
+#EXTINF:-1 tvg-id="NBCNewsNow.us" tvg-name="NBC News NOW" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/nbc-news-now-uk.png" group-title="NEWS WORLD",NBC News Now
 https://xumo-drct-nbcnn-ir8ze.fast.nbcuni.com/live/master.m3u8
 #EXTINF:-1 tvg-id="BloombergTV.us" tvg-name="Bloomberg TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Bloomberg_logo.svg/1200px-Bloomberg_logo.svg.png" group-title="NEWS WORLD",Bloomberg TV
 https://www.bloomberg.com/media-manifest/streams/eu.m3u8
 #EXTINF:-1 tvg-id="AlJazeera.qa@English" tvg-name="Al Jazeera English" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Al_Jazeera_English_Logo.svg/512px-Al_Jazeera_English_Logo.svg.png" group-title="NEWS WORLD",Al Jazeera English
 https://live-hls-apps-aje-fa.getaj.net/AJE/index.m3u8
+#EXTINF:-1 tvg-id="Newsmax.us" tvg-name="Newsmax" tvg-logo="https://www.lyngsat.com/logo/tv/nn/newsmax-2-us-ug.png" group-title="NEWS WORLD",Newsmax
+https://nmxlive.akamaized.net/hls/live/529965/Live_1/index.m3u8
+#EXTINF:-1 tvg-name="Meganoticias" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/be/Meganoticias2019.png" group-title="NEWS WORLD", Meganoticias [CL]
+https://pantera1-100gb-cl-movistar.dps.live/mega/mega.smil/playlist.m3u8
+#EXTINF:-1 tvg-name="T13 - Teletrece" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/09/Logotipo_de_Teletrece.svg" group-title="NEWS WORLD", T13 - Teletrece (1) [CL]
+https://redirector.rudo.video/hls-video/10b92cafdf3646cbc1e727f3dc76863621a327fd/t13/t13.smil/playlist.m3u8
+#EXTINF:-1 tvg-name="T13 - Teletrece" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/09/Logotipo_de_Teletrece.svg" group-title="NEWS WORLD", T13 - Teletrece (2) [CL]
+https://jireh-4-hls-video-cl-isp.dps.live/hls-video/10b92cafdf3646cbc1e727f3dc76863621a327fd/t13/t13.smil/playlist_900.m3u8
+#EXTINF:-1 tvg-name="CNN Chile" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/04/Logo_cnnchile.png" group-title="NEWS WORLD", CNN Chile (1) [CL]
+https://redirector.rudo.video/hls-video/lvcl5/cnn/cnn.smil/playlist.m3u8?DVR
+#EXTINF:-1 tvg-name="CNN Chile" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/04/Logo_cnnchile.png" group-title="NEWS WORLD", CNN Chile (2) [CL]
+https://jireh-2-hls-video-cl-vtr.dps.live/hls-video/lvcl5/cnn/cnn.smil/cnn/livestream1/chunks.m3u8
+#EXTINF:-1 tvg-name="CNN Chile" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/04/Logo_cnnchile.png" group-title="NEWS WORLD", CNN Chile (3) [CL]
+https://jireh-4-hls-video-cl-isp.dps.live/hls-video/lvcl5/cnn/cnn.smil/playlist.m3u8
+#EXTINF:-1 tvg-name="CHV Noticias" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/c7/CHV_Noticias_2018.png" group-title="NEWS WORLD", CHV Noticias [CL]
+https://mdstrm.com/live-stream-playlist/6491ced935a5833c47dd7f41.m3u8
 #EXTM3U url-epg="https://raw.githubusercontent.com/dp247/Freeview-EPG/master/epg.xml"
 #EXTINF:-1 group-title="UK" tvg-id="BBCOneLondonHD.uk" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/bbc-one-uk.png",BBC One
 https://streamer.nexyl.uk/5c858268-a93b-45f8-9e82-41d66b526d6c.m3u8
@@ -3428,7 +3438,7 @@ https://qrg.akamaized.net/hls/live/2017383/lsqvc1it/master.m3u8
 https://radioitaliatv.akamaized.net/hls/live/2093117/RadioitaliaTV/master.m3u8
 #EXTINF:-1 tvg-id="padre-pio-tv" tvg-name="Padre Pio TV" tvg-logo="https://api.superguidatv.it/v1/channels/2003/logo?width=120&theme=dark" group-title="Italy",Padre Pio TV
 https://600f07e114306.streamlock.net/PadrePioTV/livestream/playlist.m3u8
-#EXTM3U url-tvg="https://github.com/limaalef/BrazilTVEPG/raw/refs/heads/main/globo.xml https://github.com/limaalef/BrazilTVEPG/raw/refs/heads/main/claro.xml https://github.com/limaalef/BrazilTVEPG/raw/refs/heads/main/vivoplay.xml"
+#EXTM3U url-tvg="https://github.com/limaalef/BrazilTVEPG/raw/refs/heads/main/globo.xml,https://github.com/limaalef/BrazilTVEPG/raw/refs/heads/main/claro.xml,https://github.com/limaalef/BrazilTVEPG/raw/refs/heads/main/vivoplay.xml"
 #EXTINF:-1 tvg-id="sportv" tvg-logo="https://s03.video.glbimg.com/x720/7689934.jpg" group-title="GLOBO AO VIVO",sportv ao vivo no ge.globo | Assista ao vivo pelo Globoplay
 https://live-as-11-33.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJVUyIsImRvbWFpbiI6ImxpdmUtYXMtMTEtMzMudmlkZW8uZ2xvYm8uY29tIiwiZXhwIjoxNzc3MTQ0NDQ4LCJpYXQiOjE3NzcxMjI4NDgsImlzcyI6InBsYXliYWNrLWFwaS1wcm9kLWdjcCIsIm93bmVyIjoiIiwicGF0aCI6Ii9saXZlL2YoaT0yKS9zcG8xMjRoYS9wbGF5bGlzdC5tM3U4In0.cN4JcungvytoExQdN71tJqjOAybPqS0O8q5P1HC7wYcEYW_PEuD_2JjrtDa7bf9y6_Klbnfg5zFEdtZuGC_MvljRXjBMFI0cgrdM78qjgls6X3WAta_pEpvgI8pizYX717OdFpbKe-L7TaWFbJ0_s_pRwpHyiJAW0L6pHnLlJ8_0oFMKYPqMVtmop4waRrMPhOQki88TUwXZ2bn1hp_AD96ZBiVHLftMN2SLLC8DIUKmlMrGYKrby2FzNNx6U8sqamHKgOTpHz4MR5p9v8yKliU5x954Ai-meX0-Hu-APhOBf91bcwMMUm03ZyR8VRD_jAupe2DZknuDxRnRp3O4nw/live/f(i=2)/spo124ha/playlist.m3u8
 #EXTINF:-1 tvg-id="tv-globo" tvg-logo="https://s02.video.glbimg.com/x720/7813173.jpg" group-title="GLOBO AO VIVO",Teste Live CDN Google | Assista ao vivo pelo Globoplay
@@ -3477,15 +3487,13 @@ https://live-as-03-33.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAi
 #EXTM3U
 #EXTM3U
 #EXTINF:-1 tvg-logo="https://keyframe-cdn.abcnews.com/streamprovider11.jpg" group-title="NEWS WORLD",ABC News Live - ABC News
-https://linear-abcnews-ftc-na-east-1.media.dssott.com/dvt2=exp=1777296206~url=%2Fclt1%2Fva02%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1776583682323%2F~psid=ed98f691-d5f9-4ef5-83fd-a7142ff3ab26~did=df2b8544-7ea6-4e49-902e-24c5893cdadc~country=US~kid=k02~hmac=19e17986135f556e17bee7ac56c69a0de183d9d6f1dde1cffe40373b93d16fd0/clt1/va02/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1776583682323/ctr-all-hdri-sliding.m3u8
-#EXTINF:-1 tvg-logo="https://keyframe-cdn.abcnews.com/streamprovider10.jpg" group-title="NEWS WORLD",Video Multiple days of severe weather; extreme drought conditions in the Southeast fueling ongoing wildfires | Watch Live News on ABCNL
+https://linear-abcnews-akc-na-west-1.media.dssott.com/dvt2=exp=1777303644~url=%2Flas1%2Fva01%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1776861675071%2F~psid=040e81e1-26a0-45d7-aa53-bdc1b7c05c82~did=d09c9b31-1318-43a1-bc65-bc9004e7ef00~country=US~kid=k02~hmac=1793784609f512cc3564cee480cfba5a89240faf73f9e3c77487e4165fa7a4f7/las1/va01/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1776861675071/ctr-all-hdri-sliding.m3u8?r=1080&v=1&hash=ab84398225d4a583cf5479db7842af5fa60665cc
+#EXTINF:-1 tvg-logo="https://keyframe-cdn.abcnews.com/streamprovider11.jpg" group-title="NEWS WORLD",ABC News Live - ABC News
 https://abcnews-livestreams.akamaized.net/out/v1/6a597119dbd5428a82dc11a2f514a1a2/abcn-live-10-cmaf-manifest/abcn-live-10-index.m3u8
-#EXTINF:-1 tvg-logo="https://a57.foxnews.com/cf-images.us-east-1.prod.boltdns.net/v1/static/694940094001/c9b2e2eb-7b87-435c-9510-eab2650ff944/8b584585-acf2-4c37-aa07-aaf2d077bb20/1280x720/match/676/380/image.jpg?ve=1&tl=1" group-title="NEWS WORLD",Fox Business Go | Fox News Video
-https://247.foxbusiness.com/hls/live/2003756/FBNHLSv3/master.m3u8?hdnea=exp=1777213404~acl=/*~hmac=21a092473817963fc898a48a2ef6f79b7a28d3de150182b9de983b0c4b30692f
 #EXTINF:-1 tvg-logo="https://a57.foxnews.com/cf-images.us-east-1.prod.boltdns.net/v1/static/694940094001/15de0523-3be4-4a9a-8159-7020114e7036/b6ff623a-26d6-4fd9-8bb8-0856adbf38ce/1280x720/match/676/380/image.jpg?ve=1&tl=1" group-title="NEWS WORLD",Watch Fox News Channel Online | Stream Fox News
-https://247.foxnews.com/hls/live/2003586/FNCHLSv3/master.m3u8?hdnea=exp=1777213405~acl=/*~hmac=b96adc3bf4ffa0d0a4adce33a2ede54100c21abf32b3ffed676635302146290c
-#EXTINF:-1 tvg-logo="https://www.cbsnews.com/bundles/cbsnewsvideo/images/cbsn--main-bg.jpg" group-title="NEWS WORLD",Watch CBS News 24/7, our free live news stream
-https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/6466eeee-67a1-4e15-b1bc-6d5f048a6476:CBF2/master.m3u8
+https://247.foxnews.com/hls/live/2003586/FNCHLSv3/master.m3u8?hdnea=exp=1777220844~acl=/*~hmac=0c4e2e569eb520fdba6fd7a61f912f9b8b689c1fb0b5ec6eaf573b02e30c982e
+#EXTINF:-1 tvg-logo="https://a57.foxnews.com/cf-images.us-east-1.prod.boltdns.net/v1/static/694940094001/c9b2e2eb-7b87-435c-9510-eab2650ff944/8b584585-acf2-4c37-aa07-aaf2d077bb20/1280x720/match/676/380/image.jpg?ve=1&tl=1" group-title="NEWS WORLD",Fox Business Go | Fox News Video
+https://247.foxbusiness.com/hls/live/2003756/FBNHLSv3/master.m3u8?hdnea=exp=1777220844~acl=/*~hmac=0c4e2e569eb520fdba6fd7a61f912f9b8b689c1fb0b5ec6eaf573b02e30c982e
 #EXTM3U x-tvg-url="https://iptv-epg.org/files/epg-us.xml"
 #EXTINF:-1 tvg-id="ABCNewsLive.us" tvg-logo="https://keyframe-cdn.abcnews.com/streamprovider11.jpg" group-title="NEWS WORLD",ABC News Live
 https://abcnews-livestreams.akamaized.net/out/v1/173a6e46d5c5423d9611bc7fb7899c73/abcn-live-05-cmaf-manifest/abcn-live-05-index.m3u8
