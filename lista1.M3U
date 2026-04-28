@@ -761,6 +761,8 @@ https://archive.org/download/youtube-GithOw3_zug/GithOw3_zug.mp4
 #EXTM3U
 #EXTM3U
 #EXTM3U
+#EXTM3U
+#EXTM3U
 #EXTM3U x-tvg-url="https://iptv-epg.org/files/epg-cl.xml.gz"
 #EXTINF:-1 group-title="CHILE" tvg-chno="1" tvg-id="Canal13.cl" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/0/01/Canal_13_2018.png/revision/latest/scale-to-width-down/512/",Canal 13
 http://38.250.127.17:9800/play/a067/index.m3u8
@@ -1804,6 +1806,8 @@ https://pantera1-100gb-cl-movistar.dps.live/mega/mega.smil/playlist.m3u8
 https://redirector.rudo.video/hls-video/10b92cafdf3646cbc1e727f3dc76863621a327fd/t13/t13.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="CHVNoticias.cl" tvg-name="CHV Noticias" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/c7/CHV_Noticias_2018.png" group-title="NEWS WORLD",CHV Noticias [CL]
 https://mdstrm.com/live-stream-playlist/6491ced935a5833c47dd7f41.m3u8
+#EXTINF:-1 tvg-id="EuronewsEnglish.fr" tvg-name="Euronews English" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/a/aa/Euronews_2022.svg" group-title="NEWS WORLD",Euronews English
+https://aegis-cloudfront-1.tubi.video/b1c4d439-03a5-4c40-ae9d-90a183e010c9/euronews-en.m3u8
 #EXTM3U url-epg="https://raw.githubusercontent.com/dp247/Freeview-EPG/master/epg.xml"
 #EXTINF:-1 group-title="UK" tvg-id="BBCOneLondonHD.uk" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/bbc-one-uk.png",BBC One
 https://streamer.nexyl.uk/5c858268-a93b-45f8-9e82-41d66b526d6c.m3u8
@@ -3490,15 +3494,15 @@ https://live-as-02-22.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAi
 #EXTINF:-1 group-title="GLOBO AO VIVO" tvg-logo="https://s02.video.glbimg.com/x720/2923545.jpg",AO VIVO: AO VIVO: Assista aos telejornais da Rede Amazônica Roraima
 https://live-as-02-22.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJVUyIsImRvbWFpbiI6ImxpdmUtYXMtMDItMjIudmlkZW8uZ2xvYm8uY29tIiwiZXhwIjoxNzc3MzUxNjc3LCJpYXQiOjE3NzczMzAwNzcsImlzcyI6InBsYXliYWNrLWFwaS1wcm9kLWdjcCIsIm93bmVyIjoiIiwicGF0aCI6Ii9saXZlL2YoYk1pbj0zMTM5ODQpL3R2bGliZXJhbC9wbGF5bGlzdC5tM3U4In0.OhuqAYFBrfNcamhx0oE2bSzScWZh3DrMDeT_Qn20ZFdHMcG8wsjR84GhbMrRH0azjBB4R1aRv5UM4Ow3VnNBmp8KD0Mbpt0Ev1hqMprt2iZXeXhJmiAdWItpCD7jyy2KzBcGQ-ExUol7fpBOFzfaV0dGV1SGJtubvFTXm9GKsu1ewxJUWwRTCIfUad3vdDuKaLM9zTX91pERq9K5chDUz3ao783iyHoOS6aqu-EIpcLMIp62Bv_otG2v5_ed_R6O4zgM02omeWFIx7bxS5yrs69TZn6kQ0yYpcBfCofC4kFxOKV_vrcuyGzd3fByOEAanS__upEQnbbvsrKqcRR8tA/live/f(bMin=313984)/tvliberal/tvliberal-audio_1=96000-video=2262976.m3u8
 #EXTM3U
-#EXTM3U tvg-url="https://epg.pw/xmltv/epg_US.xml"
-#EXTINF:-1 tvg-logo="https://keyframe-cdn.abcnews.com/streamprovider10.jpg" group-title="NEWS WORLD",ABC News Live
+#EXTM3U
+#EXTINF:-1 tvg-logo="https://keyframe-cdn.abcnews.com/streamprovider11.jpg" group-title="NEWS WORLD",ABC News Live - ABC News
+https://linear-abcnews-akc-na-west-1.media.dssott.com/dvt2=exp=1777438969~url=%2Flas1%2Fva01%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1776861675071%2F~psid=8569b6af-b451-44d4-9cd0-e2a310738259~did=abab5f42-8da0-45a6-892c-bc8d35110cb6~country=US~kid=k02~hmac=5262cbfadba89a93715e48a702e8d367df7b05f01621b18c14d3a5b8ed3b4669/las1/va01/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1776861675071/ctr-all-hdri-sliding.m3u8?r=1080&v=1&hash=ab84398225d4a583cf5479db7842af5fa60665cc
+#EXTINF:-1 tvg-logo="https://keyframe-cdn.abcnews.com/streamprovider11.jpg" group-title="NEWS WORLD",ABC News Live - ABC News
 https://abcnews-livestreams.akamaized.net/out/v1/6a597119dbd5428a82dc11a2f514a1a2/abcn-live-10-cmaf-manifest/abcn-live-10-index.m3u8
-#EXTINF:-1 tvg-logo="https://a57.foxnews.com/cf-images.us-east-1.prod.boltdns.net/v1/static/694940094001/861ff393-8e9b-45ae-9616-9015994e26ce/3f72d4c4-760b-4bfd-9a33-4b966b9ac4db/1280x720/match/400/225/image.jpg" group-title="NEWS WORLD",Fox News
-https://247.foxnews.com/hls/live/2003586/FNCHLSv3/master.m3u8?hdnea=exp=1777342853~acl=/*~hmac=0b29c1b6fb15ccf3bae357330f48aec98441a2950cb257a109dc2cb813687f1d
-#EXTINF:-1 tvg-logo="https://a57.foxnews.com/cf-images.us-east-1.prod.boltdns.net/v1/static/694940094001/861ff393-8e9b-45ae-9616-9015994e26ce/3f72d4c4-760b-4bfd-9a33-4b966b9ac4db/1280x720/match/400/225/image.jpg" group-title="NEWS WORLD",Fox Business
-https://247.foxbusiness.com/hls/live/2003756/FBNHLSv3/master.m3u8?hdnea=exp=1777342853~acl=/*~hmac=0b29c1b6fb15ccf3bae357330f48aec98441a2950cb257a109dc2cb813687f1d
-#EXTINF:-1 tvg-logo="https://assets2.cbsnewsstatic.com/hub/i/r/2024/04/16/0fb75ad2-a909-44bb-87dc-86b9d51cbeb2/thumbnail/1280x720/949f3d3fef16f9c113e3048c6aef229f/247-key-channelthumbnail-1920x1080.jpg" group-title="NEWS WORLD",CBS News 24/7
-https://cbsn-us.cbsnstream.cbsnews.com/out/v1/55a8648e8f134e82a470f83d562deeca/master.m3u8
+#EXTINF:-1 tvg-logo="https://a57.foxnews.com/cf-images.us-east-1.prod.boltdns.net/v1/static/694940094001/15de0523-3be4-4a9a-8159-7020114e7036/b6ff623a-26d6-4fd9-8bb8-0856adbf38ce/1280x720/match/676/380/image.jpg?ve=1&tl=1" group-title="NEWS WORLD",Watch Fox News Channel Online | Stream Fox News
+https://247.foxnews.com/hls/live/2003586/FNCHLSv3/master.m3u8?hdnea=exp=1777356168~acl=/*~hmac=f7f3ee54722305ee6e935b8e8247e5f70b4be3143939c4fd53dd84cdafd0913a
+#EXTINF:-1 tvg-logo="https://a57.foxnews.com/cf-images.us-east-1.prod.boltdns.net/v1/static/694940094001/861ff393-8e9b-45ae-9616-9015994e26ce/3f72d4c4-760b-4bfd-9a33-4b966b9ac4db/1280x720/match/400/225/image.jpg" group-title="NEWS WORLD",Fox Business Go | Fox News Video
+https://247.foxbusiness.com/hls/live/2003756/FBNHLSv3/master.m3u8?hdnea=exp=1777356169~acl=/*~hmac=46d4af549e63781c193e589001d06878a06d52d0c83fa3fbbe02c374c42dd5b8
 #EXTM3U x-tvg-url="https://iptv-epg.org/files/epg-us.xml"
 #EXTINF:-1 tvg-id="ABCNewsLive.us" tvg-logo="https://keyframe-cdn.abcnews.com/streamprovider11.jpg" group-title="NEWS WORLD",ABC News Live
 https://abcnews-livestreams.akamaized.net/out/v1/173a6e46d5c5423d9611bc7fb7899c73/abcn-live-05-cmaf-manifest/abcn-live-05-index.m3u8
