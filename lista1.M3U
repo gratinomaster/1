@@ -752,6 +752,12 @@ http://play.dnsrot.vip/live/ramagi777/e4ifqhgjpqf/91584.m3u8
 https://archive.org/download/nbc-19700803/NBC%E6%99%9A%E9%97%B4%E6%96%B0%E9%97%BB%2019700803.ia.mp4
 #EXTINF:-1 group-title="VOD" ,NBC February 1985 Commercial Collection
 https://archive.org/download/yt-5s.com-80s-commercials-nbc-february-1985-1080p/yt5s.com-80%27s%20Commercials%20-%20NBC%20February%201985-%281080p%29.ia.mp4
+#EXTINF:-1 group-title="VOD" ,News 4 at 6 : WRC : September 13, 2001 6:00pm-7:00pm EDT
+https://archive.org/download/WRC_20010913_220000_News_4_at_6/WRC_20010913_220000_News_4_at_6.mp4?exact=1&start=0&end=300
+#EXTINF:-1 group-title="VOD" ,NBC Nightly News : WCAU : October 3, 2014 6:30pm-7:01pm EDT
+https://archive.org/download/WCAU_20141003_223000_NBC_Nightly_News/WCAU_20141003_223000_NBC_Nightly_News.mp4?exact=1&start=0&end=300
+#EXTINF:-1 group-title="VOD" ,Governor addresses protests in Richmond
+https://archive.org/download/youtube-GithOw3_zug/GithOw3_zug.mp4
 #EXTM3U
 #EXTM3U
 #EXTM3U
@@ -809,22 +815,20 @@ https://tls-cl.cdnz.cl/umag2/live/playlist.m3u8
 #EXTM3U x-tvg-url="https://raw.githubusercontent.com/acidjesuz/EPGTalk/master/guide.xml.gz"
 #EXTINF:-1 tvg-id="I265.51529.schedulesdirect.org" tvg-name="A&E US Eastern Feed SD" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s51529_dark_360w_270h.png",A&E US Eastern Feed SD
 https://tvpass.org/live/AEEast/sd
-#EXTINF:-1 tvg-id="I265.51529.schedulesdirect.org" tvg-name="A&E US Eastern Feed HD" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s51529_dark_360w_270h.png",A&E US Eastern Feed HD
-https://tvpass.org/live/AEEast/hd
-#EXTINF:-1 tvg-id="I10007.9751.schedulesdirect.org" tvg-name="ABC (KABC) Los Angeles SD" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s9751_dark_360w_270h.png",ABC (KABC) Los Angeles SD
-https://tvpass.org/live/abc-kabc-los-angeles-ca/sd
 #EXTINF:-1 tvg-id="I10007.9751.schedulesdirect.org" tvg-name="ABC (KABC) Los Angeles HD" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s9751_dark_360w_270h.png",ABC (KABC) Los Angeles HD
 https://tvpass.org/live/abc-kabc-los-angeles-ca/hd
-#EXTINF:-1 tvg-id="I10007.11496.schedulesdirect.org" tvg-name="ABC (WABC) New York, NY SD" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s11496_dark_360w_270h.png",ABC (WABC) New York, NY SD
-https://tvpass.org/live/WABCDT1/sd
-#EXTINF:-1 tvg-id="I10007.11496.schedulesdirect.org" tvg-name="ABC (WABC) New York, NY HD" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s11496_dark_360w_270h.png",ABC (WABC) New York, NY HD
-https://tvpass.org/live/WABCDT1/hd
+#EXTINF:-1 tvg-id="I10007.9751.schedulesdirect.org" tvg-name="ABC (KABC) Los Angeles SD" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s9751_dark_360w_270h.png",ABC (KABC) Los Angeles SD
+https://tvpass.org/live/abc-kabc-los-angeles-ca/sd
+#EXTINF:-1 tvg-id="I265.51529.schedulesdirect.org" tvg-name="A&E US Eastern Feed HD" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s51529_dark_360w_270h.png",A&E US Eastern Feed HD
+https://tvpass.org/live/AEEast/hd
 #EXTINF:-1 tvg-id="I612.111905.schedulesdirect.org" tvg-name="ACC Network SD" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s111905_dark_360w_270h.png",ACC Network SD
 https://tvpass.org/live/ACCNetwork/sd
-#EXTINF:-1 tvg-id="I612.111905.schedulesdirect.org" tvg-name="ACC Network HD" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s111905_dark_360w_270h.png",ACC Network HD
-https://tvpass.org/live/ACCNetwork/hd
+#EXTINF:-1 tvg-id="I10007.11496.schedulesdirect.org" tvg-name="ABC (WABC) New York, NY HD" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s11496_dark_360w_270h.png",ABC (WABC) New York, NY HD
+https://tvpass.org/live/WABCDT1/hd
 #EXTINF:-1 tvg-id="I413.65596.gracenote.com" tvg-name="Altitude Sports Denver SD" tvg-logo="https://zpmc.tmsimg.com/h3/NowShowing/65596/s44263_ll_h15_ab.png",Altitude Sports Denver SD
 https://tvpass.org/live/altitude-sports-denver/sd
+#EXTINF:-1 tvg-id="I612.111905.schedulesdirect.org" tvg-name="ACC Network HD" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s111905_dark_360w_270h.png",ACC Network HD
+https://tvpass.org/live/ACCNetwork/hd
 #EXTINF:-1 tvg-id="I413.65596.gracenote.com" tvg-name="Altitude Sports Denver HD" tvg-logo="https://zpmc.tmsimg.com/h3/NowShowing/65596/s44263_ll_h15_ab.png",Altitude Sports Denver HD
 https://tvpass.org/live/altitude-sports-denver/hd
 #EXTINF:-1 tvg-id="I254.58574.schedulesdirect.org" tvg-name="AMC Eastern Feed SD" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s58574_dark_360w_270h.png",AMC Eastern Feed SD
@@ -915,10 +919,10 @@ https://tvpass.org/live/CNBC/hd
 https://tvpass.org/live/CNN/sd
 #EXTINF:-1 tvg-id="I202.58646.schedulesdirect.org" tvg-name="CNN US HD" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s58646_dark_360w_270h.png",CNN US HD
 https://tvpass.org/live/CNN/hd
-#EXTINF:-1 tvg-id="I249.62420.schedulesdirect.org" tvg-name="Comedy Central (US) Eastern Feed SD" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s62420_dark_360w_270h.png",Comedy Central (US) Eastern Feed SD
-https://tvpass.org/live/ComedyCentralEast/sd
 #EXTINF:-1 tvg-id="I249.62420.schedulesdirect.org" tvg-name="Comedy Central (US) Eastern Feed HD" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s62420_dark_360w_270h.png",Comedy Central (US) Eastern Feed HD
 https://tvpass.org/live/ComedyCentralEast/hd
+#EXTINF:-1 tvg-id="I249.62420.schedulesdirect.org" tvg-name="Comedy Central (US) Eastern Feed SD" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s62420_dark_360w_270h.png",Comedy Central (US) Eastern Feed SD
+https://tvpass.org/live/ComedyCentralEast/sd
 #EXTINF:-1 tvg-id="I284.57390.schedulesdirect.org" tvg-name="Crime & Investigation Network USA HD SD" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s57390_dark_360w_270h.png",Crime & Investigation Network USA HD SD
 https://tvpass.org/live/CrimePlusInvestigation/sd
 #EXTINF:-1 tvg-id="I284.57390.schedulesdirect.org" tvg-name="Crime & Investigation Network USA HD HD" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s57390_dark_360w_270h.png",Crime & Investigation Network USA HD HD
@@ -937,26 +941,24 @@ https://tvpass.org/live/DestinationAmerica/sd
 https://tvpass.org/live/DestinationAmerica/hd
 #EXTINF:-1 tvg-id="I278.56905.schedulesdirect.org" tvg-name="Discovery Channel (US) Eastern Feed SD" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s56905_dark_360w_270h.png",Discovery Channel (US) Eastern Feed SD
 https://tvpass.org/live/DiscoveryChannelEast/sd
-#EXTINF:-1 tvg-id="I278.56905.schedulesdirect.org" tvg-name="Discovery Channel (US) Eastern Feed HD" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s56905_dark_360w_270h.png",Discovery Channel (US) Eastern Feed HD
-https://tvpass.org/live/DiscoveryChannelEast/hd
 #EXTINF:-1 tvg-id="I294.67749.schedulesdirect.org" tvg-name="Discovery Family Channel SD" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s67749_dark_360w_270h.png",Discovery Family Channel SD
 https://tvpass.org/live/DiscoveryFamily/sd
+#EXTINF:-1 tvg-id="I278.56905.schedulesdirect.org" tvg-name="Discovery Channel (US) Eastern Feed HD" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s56905_dark_360w_270h.png",Discovery Channel (US) Eastern Feed HD
+https://tvpass.org/live/DiscoveryChannelEast/hd
 #EXTINF:-1 tvg-id="I294.67749.schedulesdirect.org" tvg-name="Discovery Family Channel HD" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s67749_dark_360w_270h.png",Discovery Family Channel HD
 https://tvpass.org/live/DiscoveryFamily/hd
 #EXTINF:-1 tvg-id="I261.16125.schedulesdirect.org" tvg-name="Discovery Life Channel SD" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s16125_dark_360w_270h.png",Discovery Life Channel SD
 https://tvpass.org/live/DiscoveryLife/sd
-#EXTINF:-1 tvg-id="I261.16125.schedulesdirect.org" tvg-name="Discovery Life Channel HD" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s16125_dark_360w_270h.png",Discovery Life Channel HD
-https://tvpass.org/live/DiscoveryLife/hd
-#EXTINF:-1 tvg-id="I290.59684.schedulesdirect.org" tvg-name="Disney Eastern Feed SD" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s59684_dark_360w_270h.png",Disney Eastern Feed SD
-https://tvpass.org/live/DisneyChannelEast/sd
 #EXTINF:-1 tvg-id="I290.59684.schedulesdirect.org" tvg-name="Disney Eastern Feed HD" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s59684_dark_360w_270h.png",Disney Eastern Feed HD
 https://tvpass.org/live/DisneyChannelEast/hd
+#EXTINF:-1 tvg-id="I290.59684.schedulesdirect.org" tvg-name="Disney Eastern Feed SD" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s59684_dark_360w_270h.png",Disney Eastern Feed SD
+https://tvpass.org/live/DisneyChannelEast/sd
+#EXTINF:-1 tvg-id="I261.16125.schedulesdirect.org" tvg-name="Discovery Life Channel HD" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s16125_dark_360w_270h.png",Discovery Life Channel HD
+https://tvpass.org/live/DiscoveryLife/hd
 #EXTINF:-1 tvg-id="I289.74885.schedulesdirect.org" tvg-name="Disney Junior USA East SD" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s74885_dark_360w_270h.png",Disney Junior USA East SD
 https://tvpass.org/live/DisneyJuniorEast/sd
 #EXTINF:-1 tvg-id="I289.74885.schedulesdirect.org" tvg-name="Disney Junior USA East HD" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s74885_dark_360w_270h.png",Disney Junior USA East HD
 https://tvpass.org/live/DisneyJuniorEast/hd
-#EXTINF:-1 tvg-id="I292.60006.schedulesdirect.org" tvg-name="Disney XD USA Eastern Feed SD" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s60006_dark_360w_270h.png",Disney XD USA Eastern Feed SD
-https://tvpass.org/live/DisneyXDEast/sd
 #EXTINF:-1 tvg-id="I292.60006.schedulesdirect.org" tvg-name="Disney XD USA Eastern Feed HD" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s60006_dark_360w_270h.png",Disney XD USA Eastern Feed HD
 https://tvpass.org/live/DisneyXDEast/hd
 #EXTINF:-1 tvg-id="I236.61812.schedulesdirect.org" tvg-name="E! Entertainment USA Eastern Feed SD" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s61812_dark_360w_270h.png",E! Entertainment USA Eastern Feed SD
@@ -977,52 +979,40 @@ https://tvpass.org/live/ESPNews/sd
 https://tvpass.org/live/ESPNews/hd
 #EXTINF:-1 tvg-id="I208.45654.schedulesdirect.org" tvg-name="ESPN U SD" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s45654_dark_360w_270h.png",ESPN U SD
 https://tvpass.org/live/ESPNU/sd
-#EXTINF:-1 tvg-id="I208.45654.schedulesdirect.org" tvg-name="ESPN U HD" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s45654_dark_360w_270h.png",ESPN U HD
-https://tvpass.org/live/ESPNU/hd
 #EXTINF:-1 tvg-id="I209.12444.schedulesdirect.org" tvg-name="ESPN2 SD" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s12444_dark_360w_270h.png",ESPN2 SD
 https://tvpass.org/live/ESPN2/sd
+#EXTINF:-1 tvg-id="I208.45654.schedulesdirect.org" tvg-name="ESPN U HD" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s45654_dark_360w_270h.png",ESPN U HD
+https://tvpass.org/live/ESPNU/hd
 #EXTINF:-1 tvg-id="I209.12444.schedulesdirect.org" tvg-name="ESPN2 HD" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s12444_dark_360w_270h.png",ESPN2 HD
 https://tvpass.org/live/ESPN2/hd
-#EXTINF:-1 tvg-id="I1748.50728.gracenote.com" tvg-name="Fanduel Sports Indiana SD" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s50728_dark_360w_270h.png",Fanduel Sports Indiana SD
-https://tvpass.org/live/fanduel-sports-indiana/sd
 #EXTINF:-1 tvg-id="I1748.50728.gracenote.com" tvg-name="Fanduel Sports Indiana HD" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s50728_dark_360w_270h.png",Fanduel Sports Indiana HD
 https://tvpass.org/live/fanduel-sports-indiana/hd
-#EXTINF:-1 tvg-id="I1748.50728.gracenote.com" tvg-name="Fanduel Sports Network Detroit SD" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s50728_dark_360w_270h.png",Fanduel Sports Network Detroit SD
-https://tvpass.org/live/fanduel-sports-network-detroit-hd/sd
 #EXTINF:-1 tvg-id="I1748.50728.gracenote.com" tvg-name="Fanduel Sports Network Detroit HD" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s50728_dark_360w_270h.png",Fanduel Sports Network Detroit HD
 https://tvpass.org/live/fanduel-sports-network-detroit-hd/hd
+#EXTINF:-1 tvg-id="I1748.50728.gracenote.com" tvg-name="Fanduel Sports Network Detroit SD" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s50728_dark_360w_270h.png",Fanduel Sports Network Detroit SD
+https://tvpass.org/live/fanduel-sports-network-detroit-hd/sd
 #EXTINF:-1 tvg-id="I1720.50728.gracenote.com" tvg-name="Fanduel Sports Network Florida SD" tvg-logo="https://zpmc.tmsimg.com/h3/NowShowing/50728/s50728_ll_h15_ac.png",Fanduel Sports Network Florida SD
 https://tvpass.org/live/fanduel-sports-network-florida/sd
-#EXTINF:-1 tvg-id="I1720.50728.gracenote.com" tvg-name="Fanduel Sports Network Florida HD" tvg-logo="https://zpmc.tmsimg.com/h3/NowShowing/50728/s50728_ll_h15_ac.png",Fanduel Sports Network Florida HD
-https://tvpass.org/live/fanduel-sports-network-florida/hd
 #EXTINF:-1 tvg-id="I1748.50728.gracenote.com" tvg-name="Fanduel Sports Network Great Lakes SD" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s50728_dark_360w_270h.png",Fanduel Sports Network Great Lakes SD
 https://tvpass.org/live/fanduel-sports-network-great-lakes/sd
-#EXTINF:-1 tvg-id="I1748.50728.gracenote.com" tvg-name="Fanduel Sports Network Great Lakes HD" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s50728_dark_360w_270h.png",Fanduel Sports Network Great Lakes HD
-https://tvpass.org/live/fanduel-sports-network-great-lakes/hd
 #EXTINF:-1 tvg-id="I1748.50728.gracenote.com" tvg-name="Fanduel Sports Network North SD" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s50728_dark_360w_270h.png",Fanduel Sports Network North SD
 https://tvpass.org/live/fanduel-sports-network-north/sd
+#EXTINF:-1 tvg-id="I1748.50728.gracenote.com" tvg-name="Fanduel Sports Network Great Lakes HD" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s50728_dark_360w_270h.png",Fanduel Sports Network Great Lakes HD
+https://tvpass.org/live/fanduel-sports-network-great-lakes/hd
 #EXTINF:-1 tvg-id="I1748.50728.gracenote.com" tvg-name="Fanduel Sports Network North HD" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s50728_dark_360w_270h.png",Fanduel Sports Network North HD
 https://tvpass.org/live/fanduel-sports-network-north/hd
 #EXTINF:-1 tvg-id="I1748.50728.gracenote.com" tvg-name="Fanduel Sports Network Ohio Cleveland SD" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s50728_dark_360w_270h.png",Fanduel Sports Network Ohio Cleveland SD
 https://tvpass.org/live/fanduel-sports-network-ohio-cleveland/sd
-#EXTINF:-1 tvg-id="I1748.50728.gracenote.com" tvg-name="Fanduel Sports Network Ohio Cleveland HD" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s50728_dark_360w_270h.png",Fanduel Sports Network Ohio Cleveland HD
-https://tvpass.org/live/fanduel-sports-network-ohio-cleveland/hd
 #EXTINF:-1 tvg-id="I1753.35295.gracenote.com" tvg-name="Fanduel Sports Network Oklahoma SD" tvg-logo="https://zpmc.tmsimg.com/h3/NowShowing/35295/s59629_ll_h15_ac.png",Fanduel Sports Network Oklahoma SD
 https://tvpass.org/live/fanduel-sports-network-oklahoma/sd
+#EXTINF:-1 tvg-id="I1748.50728.gracenote.com" tvg-name="Fanduel Sports Network Ohio Cleveland HD" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s50728_dark_360w_270h.png",Fanduel Sports Network Ohio Cleveland HD
+https://tvpass.org/live/fanduel-sports-network-ohio-cleveland/hd
 #EXTINF:-1 tvg-id="I1753.35295.gracenote.com" tvg-name="Fanduel Sports Network Oklahoma HD" tvg-logo="https://zpmc.tmsimg.com/h3/NowShowing/35295/s59629_ll_h15_ac.png",Fanduel Sports Network Oklahoma HD
 https://tvpass.org/live/fanduel-sports-network-oklahoma/hd
-#EXTINF:-1 tvg-id="I1774.59625.gracenote.com" tvg-name="Fanduel Sports Network San Diego SD" tvg-logo="https://zpmc.tmsimg.com/h3/NowShowing/59625/s59625_ll_h15_ac.png",Fanduel Sports Network San Diego SD
-https://tvpass.org/live/fanduel-sports-network-san-diego/sd
-#EXTINF:-1 tvg-id="I1774.59625.gracenote.com" tvg-name="Fanduel Sports Network San Diego HD" tvg-logo="https://zpmc.tmsimg.com/h3/NowShowing/59625/s59625_ll_h15_ac.png",Fanduel Sports Network San Diego HD
-https://tvpass.org/live/fanduel-sports-network-san-diego/hd
 #EXTINF:-1 tvg-id="I1774.59625.gracenote.com" tvg-name="Fanduel Sports Network Socal SD" tvg-logo="https://zpmc.tmsimg.com/h3/NowShowing/59625/s59625_ll_h15_ac.png",Fanduel Sports Network Socal SD
 https://tvpass.org/live/fanduel-sports-network-socal/sd
 #EXTINF:-1 tvg-id="I1774.59625.gracenote.com" tvg-name="Fanduel Sports Network Socal HD" tvg-logo="https://zpmc.tmsimg.com/h3/NowShowing/59625/s59625_ll_h15_ac.png",Fanduel Sports Network Socal HD
 https://tvpass.org/live/fanduel-sports-network-socal/hd
-#EXTINF:-1 tvg-id="I1724.75970.gracenote.com" tvg-name="Fanduel Sports Network South Carolinas SD" tvg-logo="https://zpmc.tmsimg.com/h3/NowShowing/75970/s12410_ll_h15_ac.png",Fanduel Sports Network South Carolinas SD
-https://tvpass.org/live/fanduel-sports-network-south-carolinas/sd
-#EXTINF:-1 tvg-id="I1724.75970.gracenote.com" tvg-name="Fanduel Sports Network South Carolinas HD" tvg-logo="https://zpmc.tmsimg.com/h3/NowShowing/75970/s12410_ll_h15_ac.png",Fanduel Sports Network South Carolinas HD
-https://tvpass.org/live/fanduel-sports-network-south-carolinas/hd
 #EXTINF:-1 tvg-id="I1724.75970.gracenote.com" tvg-name="Fanduel Sports Network South Tennessee SD" tvg-logo="https://zpmc.tmsimg.com/h3/NowShowing/75970/s12410_ll_h15_ac.png",Fanduel Sports Network South Tennessee SD
 https://tvpass.org/live/fanduel-sports-network-south-tennessee-usa/sd
 #EXTINF:-1 tvg-id="I1724.75970.gracenote.com" tvg-name="Fanduel Sports Network South Tennessee HD" tvg-logo="https://zpmc.tmsimg.com/h3/NowShowing/75970/s12410_ll_h15_ac.png",Fanduel Sports Network South Tennessee HD
@@ -1059,8 +1049,6 @@ https://tvpass.org/live/fanduel-sports-sun/hd
 https://tvpass.org/live/fanduel-sports-tennessee-east/sd
 #EXTINF:-1 tvg-id="I1724.75970.gracenote.com" tvg-name="Fanduel Sports Tennessee East HD" tvg-logo="https://zpmc.tmsimg.com/h3/NowShowing/75970/s12410_ll_h15_ac.png",Fanduel Sports Tennessee East HD
 https://tvpass.org/live/fanduel-sports-tennessee-east/hd
-#EXTINF:-1 tvg-id="I232.68065.schedulesdirect.org" tvg-name="Food Network USA Eastern Feed SD" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s68065_dark_360w_270h.png",Food Network USA Eastern Feed SD
-https://tvpass.org/live/FoodNetworkEast/sd
 #EXTINF:-1 tvg-id="I232.68065.schedulesdirect.org" tvg-name="Food Network USA Eastern Feed HD" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s68065_dark_360w_270h.png",Food Network USA Eastern Feed HD
 https://tvpass.org/live/FoodNetworkEast/hd
 #EXTINF:-1 tvg-id="I10007.32552.schedulesdirect.org" tvg-name="FOX (KTTV) Los Angeles SD" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s32552_dark_360w_270h.png",FOX (KTTV) Los Angeles SD
@@ -1077,10 +1065,10 @@ https://tvpass.org/live/FoxBusiness/sd
 https://tvpass.org/live/FoxBusiness/hd
 #EXTINF:-1 tvg-id="I360.60179.schedulesdirect.org" tvg-name="Fox News SD" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s60179_dark_360w_270h.png",Fox News SD
 https://tvpass.org/live/FoxNewsChannel/sd
-#EXTINF:-1 tvg-id="I360.60179.schedulesdirect.org" tvg-name="Fox News HD" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s60179_dark_360w_270h.png",Fox News HD
-https://tvpass.org/live/FoxNewsChannel/hd
 #EXTINF:-1 tvg-id="I219.82547.schedulesdirect.org" tvg-name="Fox Sports 1 SD" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s82547_dark_360w_270h.png",Fox Sports 1 SD
 https://tvpass.org/live/FoxSports1/sd
+#EXTINF:-1 tvg-id="I360.60179.schedulesdirect.org" tvg-name="Fox News HD" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s60179_dark_360w_270h.png",Fox News HD
+https://tvpass.org/live/FoxNewsChannel/hd
 #EXTINF:-1 tvg-id="I219.82547.schedulesdirect.org" tvg-name="Fox Sports 1 HD" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s82547_dark_360w_270h.png",Fox Sports 1 HD
 https://tvpass.org/live/FoxSports1/hd
 #EXTINF:-1 tvg-id="I618.59305.schedulesdirect.org" tvg-name="Fox Sports 2 SD" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s59305_dark_360w_270h.png",Fox Sports 2 SD
@@ -1097,10 +1085,10 @@ https://tvpass.org/live/FuseEast/sd
 https://tvpass.org/live/FuseEast/hd
 #EXTINF:-1 tvg-id="I258.70253.schedulesdirect.org" tvg-name="FX Movie Channel SD" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s70253_dark_360w_270h.png",FX Movie Channel SD
 https://tvpass.org/live/FXMovieChannel/sd
-#EXTINF:-1 tvg-id="I258.70253.schedulesdirect.org" tvg-name="FX Movie Channel HD" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s70253_dark_360w_270h.png",FX Movie Channel HD
-https://tvpass.org/live/FXMovieChannel/hd
 #EXTINF:-1 tvg-id="I248.58574.schedulesdirect.org" tvg-name="FX Networks East Coast SD" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s58574_dark_360w_270h.png",FX Networks East Coast SD
 https://tvpass.org/live/FXEast/sd
+#EXTINF:-1 tvg-id="I258.70253.schedulesdirect.org" tvg-name="FX Movie Channel HD" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s70253_dark_360w_270h.png",FX Movie Channel HD
+https://tvpass.org/live/FXMovieChannel/hd
 #EXTINF:-1 tvg-id="I248.58574.schedulesdirect.org" tvg-name="FX Networks East Coast HD" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s58574_dark_360w_270h.png",FX Networks East Coast HD
 https://tvpass.org/live/FXEast/hd
 #EXTINF:-1 tvg-id="I259.66379.schedulesdirect.org" tvg-name="FXX USA Eastern SD" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s66379_dark_360w_270h.png",FXX USA Eastern SD
@@ -1119,8 +1107,6 @@ https://tvpass.org/live/game-show-network-east/hd
 https://tvpass.org/live/GolfChannel/sd
 #EXTINF:-1 tvg-id="I218.61854.schedulesdirect.org" tvg-name="Golf Channel USA HD" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/GNLZZGG002RFQ5S.png_dark_360w_270h.png",Golf Channel USA HD
 https://tvpass.org/live/GolfChannel/hd
-#EXTINF:-1 tvg-id="I312.66268.schedulesdirect.org" tvg-name="Hallmark Eastern Feed SD" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s66268_dark_360w_270h.png",Hallmark Eastern Feed SD
-https://tvpass.org/live/HallmarkChannelEast/sd
 #EXTINF:-1 tvg-id="I312.66268.schedulesdirect.org" tvg-name="Hallmark Eastern Feed HD" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s66268_dark_360w_270h.png",Hallmark Eastern Feed HD
 https://tvpass.org/live/HallmarkChannelEast/hd
 #EXTINF:-1 tvg-id="I564.105723.schedulesdirect.org" tvg-name="Hallmark Family HD SD" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s105723_dark_360w_270h.png",Hallmark Family HD SD
@@ -1129,10 +1115,10 @@ https://tvpass.org/live/HallmarkDrama/sd
 https://tvpass.org/live/HallmarkDrama/hd
 #EXTINF:-1 tvg-id="I565.46710.schedulesdirect.org" tvg-name="Hallmark Mystery Eastern HD SD" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s46710_dark_360w_270h.png",Hallmark Mystery Eastern HD SD
 https://tvpass.org/live/HallmarkMoviesMysteriesEast/sd
-#EXTINF:-1 tvg-id="I565.46710.schedulesdirect.org" tvg-name="Hallmark Mystery Eastern HD HD" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s46710_dark_360w_270h.png",Hallmark Mystery Eastern HD HD
-https://tvpass.org/live/HallmarkMoviesMysteriesEast/hd
 #EXTINF:-1 tvg-id="I501.19548.schedulesdirect.org" tvg-name="HBO Eastern Feed SD" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s19548_dark_360w_270h.png",HBO Eastern Feed SD
 https://tvpass.org/live/HBOEast/sd
+#EXTINF:-1 tvg-id="I565.46710.schedulesdirect.org" tvg-name="Hallmark Mystery Eastern HD HD" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s46710_dark_360w_270h.png",Hallmark Mystery Eastern HD HD
+https://tvpass.org/live/HallmarkMoviesMysteriesEast/hd
 #EXTINF:-1 tvg-id="I501.19548.schedulesdirect.org" tvg-name="HBO Eastern Feed HD" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s19548_dark_360w_270h.png",HBO Eastern Feed HD
 https://tvpass.org/live/HBOEast/hd
 #EXTINF:-1 tvg-id="I547.58533.schedulesdirect.org" tvg-name="HBO 2 Eastern Feed SD" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s58533_dark_360w_270h.png",HBO 2 Eastern Feed SD
@@ -1157,32 +1143,30 @@ https://tvpass.org/live/HBOZoneEast/sd
 https://tvpass.org/live/HBOZoneEast/hd
 #EXTINF:-1 tvg-id="I229.49788.schedulesdirect.org" tvg-name="HGTV USA Eastern Feed SD" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s49788_dark_360w_270h.png",HGTV USA Eastern Feed SD
 https://tvpass.org/live/HGTVEast/sd
-#EXTINF:-1 tvg-id="I229.49788.schedulesdirect.org" tvg-name="HGTV USA Eastern Feed HD" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s49788_dark_360w_270h.png",HGTV USA Eastern Feed HD
-https://tvpass.org/live/HGTVEast/hd
-#EXTINF:-1 tvg-id="I269.57708.schedulesdirect.org" tvg-name="History Channel US Eastern Feed SD" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s57708_dark_360w_270h.png",History Channel US Eastern Feed SD
-https://tvpass.org/live/HistoryEast/sd
 #EXTINF:-1 tvg-id="I269.57708.schedulesdirect.org" tvg-name="History Channel US Eastern Feed HD" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s57708_dark_360w_270h.png",History Channel US Eastern Feed HD
 https://tvpass.org/live/HistoryEast/hd
+#EXTINF:-1 tvg-id="I229.49788.schedulesdirect.org" tvg-name="HGTV USA Eastern Feed HD" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s49788_dark_360w_270h.png",HGTV USA Eastern Feed HD
+https://tvpass.org/live/HGTVEast/hd
 #EXTINF:-1 tvg-id="I204.64549.schedulesdirect.org" tvg-name="HLN SD" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s64549_dark_360w_270h.png",HLN SD
 https://tvpass.org/live/HLN/sd
-#EXTINF:-1 tvg-id="I204.64549.schedulesdirect.org" tvg-name="HLN HD" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s64549_dark_360w_270h.png",HLN HD
-https://tvpass.org/live/HLN/hd
-#EXTINF:-1 tvg-id="I333.59444.schedulesdirect.org" tvg-name="Independent Film Channel US SD" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s59444_dark_360w_270h.png",Independent Film Channel US SD
-https://tvpass.org/live/IFCEast/sd
-#EXTINF:-1 tvg-id="I333.59444.schedulesdirect.org" tvg-name="Independent Film Channel US HD" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s59444_dark_360w_270h.png",Independent Film Channel US HD
-https://tvpass.org/live/IFCEast/hd
 #EXTINF:-1 tvg-id="I285.65342.schedulesdirect.org" tvg-name="Investigation Discovery USA Eastern SD" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s65342_dark_360w_270h.png",Investigation Discovery USA Eastern SD
 https://tvpass.org/live/InvestigationDiscoveryEast/sd
+#EXTINF:-1 tvg-id="I333.59444.schedulesdirect.org" tvg-name="Independent Film Channel US SD" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s59444_dark_360w_270h.png",Independent Film Channel US SD
+https://tvpass.org/live/IFCEast/sd
+#EXTINF:-1 tvg-id="I204.64549.schedulesdirect.org" tvg-name="HLN HD" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s64549_dark_360w_270h.png",HLN HD
+https://tvpass.org/live/HLN/hd
+#EXTINF:-1 tvg-id="I333.59444.schedulesdirect.org" tvg-name="Independent Film Channel US HD" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s59444_dark_360w_270h.png",Independent Film Channel US HD
+https://tvpass.org/live/IFCEast/hd
 #EXTINF:-1 tvg-id="I285.65342.schedulesdirect.org" tvg-name="Investigation Discovery USA Eastern HD" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s65342_dark_360w_270h.png",Investigation Discovery USA Eastern HD
 https://tvpass.org/live/InvestigationDiscoveryEast/hd
 #EXTINF:-1 tvg-id="I305.76894.schedulesdirect.org" tvg-name="ION Eastern Feed SD" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s18633_dark_360w_270h.png",ION Eastern Feed SD
 https://tvpass.org/live/IONTVEast/sd
 #EXTINF:-1 tvg-id="I305.76894.schedulesdirect.org" tvg-name="ION Eastern Feed HD" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s18633_dark_360w_270h.png",ION Eastern Feed HD
 https://tvpass.org/live/IONTVEast/hd
-#EXTINF:-1 tvg-id="I253.55887.schedulesdirect.org" tvg-name="Lifetime Movies East SD" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s55887_dark_360w_270h.png",Lifetime Movies East SD
-https://tvpass.org/live/LifetimeMoviesEast/sd
 #EXTINF:-1 tvg-id="I253.55887.schedulesdirect.org" tvg-name="Lifetime Movies East HD" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s55887_dark_360w_270h.png",Lifetime Movies East HD
 https://tvpass.org/live/LifetimeMoviesEast/hd
+#EXTINF:-1 tvg-id="I253.55887.schedulesdirect.org" tvg-name="Lifetime Movies East SD" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s55887_dark_360w_270h.png",Lifetime Movies East SD
+https://tvpass.org/live/LifetimeMoviesEast/sd
 #EXTINF:-1 tvg-id="I252.60150.schedulesdirect.org" tvg-name="Lifetime Network US Eastern Feed SD" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s60150_dark_360w_270h.png",Lifetime Network US Eastern Feed SD
 https://tvpass.org/live/LifetimeEast/sd
 #EXTINF:-1 tvg-id="I252.60150.schedulesdirect.org" tvg-name="Lifetime Network US Eastern Feed HD" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s60150_dark_360w_270h.png",Lifetime Network US Eastern Feed HD
@@ -1201,10 +1185,10 @@ https://tvpass.org/live/metv-toons/sd
 https://tvpass.org/live/metv-toons/hd
 #EXTINF:-1 tvg-id="I430.25399.gracenote.com" tvg-name="MeTV Wjlp New Jerseynew York SD" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s25399_dark_360w_270h.png",MeTV Wjlp New Jerseynew York SD
 https://tvpass.org/live/metv-wjlp-new-jerseynew-york/sd
-#EXTINF:-1 tvg-id="I430.25399.gracenote.com" tvg-name="MeTV Wjlp New Jerseynew York HD" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s25399_dark_360w_270h.png",MeTV Wjlp New Jerseynew York HD
-https://tvpass.org/live/metv-wjlp-new-jerseynew-york/hd
 #EXTINF:-1 tvg-id="I433.35039.gracenote.com" tvg-name="Midatlantic Sports Network SD" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s35039_dark_360w_270h.png",Midatlantic Sports Network SD
 https://tvpass.org/live/midatlantic-sports-network/sd
+#EXTINF:-1 tvg-id="I430.25399.gracenote.com" tvg-name="MeTV Wjlp New Jerseynew York HD" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s25399_dark_360w_270h.png",MeTV Wjlp New Jerseynew York HD
+https://tvpass.org/live/metv-wjlp-new-jerseynew-york/hd
 #EXTINF:-1 tvg-id="I433.35039.gracenote.com" tvg-name="Midatlantic Sports Network HD" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s35039_dark_360w_270h.png",Midatlantic Sports Network HD
 https://tvpass.org/live/midatlantic-sports-network/hd
 #EXTINF:-1 tvg-id="I213.62081.schedulesdirect.org" tvg-name="MLB Network SD" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s62081_dark_360w_270h.png",MLB Network SD
@@ -1219,10 +1203,10 @@ https://tvpass.org/live/monumental-sports-network/hd
 https://tvpass.org/live/MoreMaxEast/sd
 #EXTINF:-1 tvg-id="I517.59373.schedulesdirect.org" tvg-name="MoreMax Eastern HD" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/GNLZZGG0029CKC8.png_dark_360w_270h.png",MoreMax Eastern HD
 https://tvpass.org/live/MoreMaxEast/hd
-#EXTINF:-1 tvg-id="I281.31046.schedulesdirect.org" tvg-name="Motor Trend HD SD" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/GNLZZGG002RMTEG.png_dark_360w_270h.png",Motor Trend HD SD
-https://tvpass.org/live/Motortrend/sd
 #EXTINF:-1 tvg-id="I281.31046.schedulesdirect.org" tvg-name="Motor Trend HD HD" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/GNLZZGG002RMTEG.png_dark_360w_270h.png",Motor Trend HD HD
 https://tvpass.org/live/Motortrend/hd
+#EXTINF:-1 tvg-id="I281.31046.schedulesdirect.org" tvg-name="Motor Trend HD SD" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/GNLZZGG002RMTEG.png_dark_360w_270h.png",Motor Trend HD SD
+https://tvpass.org/live/Motortrend/sd
 #EXTINF:-1 tvg-id="I535.36225.schedulesdirect.org" tvg-name="MovieMax (Max 6) East SD" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s36225_dark_360w_270h.png",MovieMax (Max 6) East SD
 https://tvpass.org/live/MovieMaxEast/sd
 #EXTINF:-1 tvg-id="I535.36225.schedulesdirect.org" tvg-name="MovieMax (Max 6) East HD" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s36225_dark_360w_270h.png",MovieMax (Max 6) East HD
@@ -1231,10 +1215,6 @@ https://tvpass.org/live/MovieMaxEast/hd
 https://tvpass.org/live/msg-madison-square-gardens/sd
 #EXTINF:-1 tvg-id="I433.34999.gracenote.com" tvg-name="MSG Madison Square Gardens HD" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s34999_dark_360w_270h.png",MSG Madison Square Gardens HD
 https://tvpass.org/live/msg-madison-square-gardens/hd
-#EXTINF:-1 tvg-id="I433.34999.gracenote.com" tvg-name="MSG Plus SD" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s34999_dark_360w_270h.png",MSG Plus SD
-https://tvpass.org/live/msg-plus/sd
-#EXTINF:-1 tvg-id="I433.34999.gracenote.com" tvg-name="MSG Plus HD" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s34999_dark_360w_270h.png",MSG Plus HD
-https://tvpass.org/live/msg-plus/hd
 #EXTINF:-1 tvg-id="I356.58639.schedulesdirect.org" tvg-name="MSNBC USA SD" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s58639_dark_360w_270h.png",MSNBC USA SD
 https://tvpass.org/live/MSNBC/sd
 #EXTINF:-1 tvg-id="I356.58639.schedulesdirect.org" tvg-name="MSNBC USA HD" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s58639_dark_360w_270h.png",MSNBC USA HD
@@ -1321,28 +1301,28 @@ https://tvpass.org/live/OWNEast/sd
 https://tvpass.org/live/OWNEast/hd
 #EXTINF:-1 tvg-id="I606.14776.schedulesdirect.org" tvg-name="Outdoor Channel US SD" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s14776_dark_360w_270h.png",Outdoor Channel US SD
 https://tvpass.org/live/OutdoorChannel/sd
-#EXTINF:-1 tvg-id="I606.14776.schedulesdirect.org" tvg-name="Outdoor Channel US HD" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s14776_dark_360w_270h.png",Outdoor Channel US HD
-https://tvpass.org/live/OutdoorChannel/hd
 #EXTINF:-1 tvg-id="I251.70522.schedulesdirect.org" tvg-name="Oxygen Eastern Feed SD" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s70522_dark_360w_270h.png",Oxygen Eastern Feed SD
 https://tvpass.org/live/OxygenEast/sd
+#EXTINF:-1 tvg-id="I606.14776.schedulesdirect.org" tvg-name="Outdoor Channel US HD" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s14776_dark_360w_270h.png",Outdoor Channel US HD
+https://tvpass.org/live/OutdoorChannel/hd
 #EXTINF:-1 tvg-id="I251.70522.schedulesdirect.org" tvg-name="Oxygen Eastern Feed HD" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s70522_dark_360w_270h.png",Oxygen Eastern Feed HD
 https://tvpass.org/live/OxygenEast/hd
 #EXTINF:-1 tvg-id="I10007.11478.schedulesdirect.org" tvg-name="PBS (WNET) New York, NY SD" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s11478_dark_360w_270h.png",PBS (WNET) New York, NY SD
 https://tvpass.org/live/WNET/sd
 #EXTINF:-1 tvg-id="I10007.11478.schedulesdirect.org" tvg-name="PBS (WNET) New York, NY HD" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s11478_dark_360w_270h.png",PBS (WNET) New York, NY HD
 https://tvpass.org/live/WNET/hd
-#EXTINF:-1 tvg-id="I238.68385.schedulesdirect.org" tvg-name="ReelzChannel SD" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/GNLZZGG002HWGQ0.png_dark_360w_270h.png",ReelzChannel SD
-https://tvpass.org/live/Reelz/sd
 #EXTINF:-1 tvg-id="I238.68385.schedulesdirect.org" tvg-name="ReelzChannel HD" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/GNLZZGG002HWGQ0.png_dark_360w_270h.png",ReelzChannel HD
 https://tvpass.org/live/Reelz/hd
+#EXTINF:-1 tvg-id="I238.68385.schedulesdirect.org" tvg-name="ReelzChannel SD" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/GNLZZGG002HWGQ0.png_dark_360w_270h.png",ReelzChannel SD
+https://tvpass.org/live/Reelz/sd
 #EXTINF:-1 tvg-id="I284.57390.schedulesdirect.org" tvg-name="Science SD" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s57390_dark_360w_270h.png",Science SD
 https://tvpass.org/live/Science/sd
 #EXTINF:-1 tvg-id="I284.57390.schedulesdirect.org" tvg-name="Science HD" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s57390_dark_360w_270h.png",Science HD
 https://tvpass.org/live/Science/hd
-#EXTINF:-1 tvg-id="I611.89535.schedulesdirect.org" tvg-name="SEC Network SD" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s89535_dark_360w_270h.png",SEC Network SD
-https://tvpass.org/live/SECN/sd
 #EXTINF:-1 tvg-id="I611.89535.schedulesdirect.org" tvg-name="SEC Network HD" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s89535_dark_360w_270h.png",SEC Network HD
 https://tvpass.org/live/SECN/hd
+#EXTINF:-1 tvg-id="I611.89535.schedulesdirect.org" tvg-name="SEC Network SD" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s89535_dark_360w_270h.png",SEC Network SD
+https://tvpass.org/live/SECN/sd
 #EXTINF:-1 tvg-id="I545.21868.schedulesdirect.org" tvg-name="Showtime Eastern Feed SD" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s21868_dark_360w_270h.png",Showtime Eastern Feed SD
 https://tvpass.org/live/ShowtimeEast/sd
 #EXTINF:-1 tvg-id="I545.21868.schedulesdirect.org" tvg-name="Showtime Eastern Feed HD" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s21868_dark_360w_270h.png",Showtime Eastern Feed HD
@@ -1371,8 +1351,6 @@ https://tvpass.org/live/spectrum-sportsnet/hd
 https://tvpass.org/live/sportsnet-east/sd
 #EXTINF:-1 tvg-id="I406.18798.schedulesdirect.org" tvg-name="Sportsnet (East) HD" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s18798_dark_360w_270h.png",Sportsnet (East) HD
 https://tvpass.org/live/sportsnet-east/hd
-#EXTINF:-1 tvg-id="I410.49952.schedulesdirect.org" tvg-name="Sportsnet 360 SD" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s49952_dark_360w_270h.png",Sportsnet 360 SD
-https://tvpass.org/live/sportsnet-360/sd
 #EXTINF:-1 tvg-id="I410.49952.schedulesdirect.org" tvg-name="Sportsnet 360 HD" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s49952_dark_360w_270h.png",Sportsnet 360 HD
 https://tvpass.org/live/sportsnet-360/hd
 #EXTINF:-1 tvg-id="I409.68858.schedulesdirect.org" tvg-name="Sportsnet One SD" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s68858_dark_360w_270h.png",Sportsnet One SD
@@ -1381,16 +1359,10 @@ https://tvpass.org/live/sportsnet-one/sd
 https://tvpass.org/live/sportsnet-one/hd
 #EXTINF:-1 tvg-id="I405.62111.schedulesdirect.org" tvg-name="Sportsnet Ontario SD" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s62111_dark_360w_270h.png",Sportsnet Ontario SD
 https://tvpass.org/live/sportsnet-ontario/sd
-#EXTINF:-1 tvg-id="I405.62111.schedulesdirect.org" tvg-name="Sportsnet Ontario HD" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s62111_dark_360w_270h.png",Sportsnet Ontario HD
-https://tvpass.org/live/sportsnet-ontario/hd
 #EXTINF:-1 tvg-id="I407.18801.schedulesdirect.org" tvg-name="Sportsnet Pacific SD" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s18801_dark_360w_270h.png",Sportsnet Pacific SD
 https://tvpass.org/live/sportsnet-pacific/sd
-#EXTINF:-1 tvg-id="I407.18801.schedulesdirect.org" tvg-name="Sportsnet Pacific HD" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s18801_dark_360w_270h.png",Sportsnet Pacific HD
-https://tvpass.org/live/sportsnet-pacific/hd
 #EXTINF:-1 tvg-id="I428.49882.gracenote.com" tvg-name="Sportsnet Pittsburgh SD" tvg-logo="https://zpmc.tmsimg.com/h3/NowShowing/49882/s26028_ll_h15_ac.png",Sportsnet Pittsburgh SD
 https://tvpass.org/live/sportsnet-pittsburgh/sd
-#EXTINF:-1 tvg-id="I428.49882.gracenote.com" tvg-name="Sportsnet Pittsburgh HD" tvg-logo="https://zpmc.tmsimg.com/h3/NowShowing/49882/s26028_ll_h15_ac.png",Sportsnet Pittsburgh HD
-https://tvpass.org/live/sportsnet-pittsburgh/hd
 #EXTINF:-1 tvg-id="I408.18800.schedulesdirect.org" tvg-name="Sportsnet West SD" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s18800_dark_360w_270h.png",Sportsnet West SD
 https://tvpass.org/live/sportsnet-west/sd
 #EXTINF:-1 tvg-id="I408.18800.schedulesdirect.org" tvg-name="Sportsnet West HD" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s18800_dark_360w_270h.png",Sportsnet West HD
@@ -1401,34 +1373,34 @@ https://tvpass.org/live/StarzEast/sd
 https://tvpass.org/live/StarzEast/hd
 #EXTINF:-1 tvg-id="I239.71280.schedulesdirect.org" tvg-name="SundanceTV USA East SD" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s71280_dark_360w_270h.png",SundanceTV USA East SD
 https://tvpass.org/live/SundanceTVEast/sd
-#EXTINF:-1 tvg-id="I239.71280.schedulesdirect.org" tvg-name="SundanceTV USA East HD" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s71280_dark_360w_270h.png",SundanceTV USA East HD
-https://tvpass.org/live/SundanceTVEast/hd
 #EXTINF:-1 tvg-id="I244.58623.schedulesdirect.org" tvg-name="Syfy Eastern Feed SD" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s58623_dark_360w_270h.png",Syfy Eastern Feed SD
 https://tvpass.org/live/SyfyEast/sd
 #EXTINF:-1 tvg-id="I244.58623.schedulesdirect.org" tvg-name="Syfy Eastern Feed HD" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s58623_dark_360w_270h.png",Syfy Eastern Feed HD
 https://tvpass.org/live/SyfyEast/hd
+#EXTINF:-1 tvg-id="I239.71280.schedulesdirect.org" tvg-name="SundanceTV USA East HD" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s71280_dark_360w_270h.png",SundanceTV USA East HD
+https://tvpass.org/live/SundanceTVEast/hd
 #EXTINF:-1 tvg-id="I247.58515.schedulesdirect.org" tvg-name="TBS East SD" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s58515_dark_360w_270h.png",TBS East SD
 https://tvpass.org/live/TBSEast/sd
 #EXTINF:-1 tvg-id="I247.58515.schedulesdirect.org" tvg-name="TBS East HD" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s58515_dark_360w_270h.png",TBS East HD
 https://tvpass.org/live/TBSEast/hd
+#EXTINF:-1 tvg-id="I402.68049.schedulesdirect.org" tvg-name="Telemundo Eastern Feed SD" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s11118_dark_360w_270h.png",Telemundo Eastern Feed SD
+https://tvpass.org/live/TelemundoEast/sd
 #EXTINF:-1 tvg-id="I682.72294.schedulesdirect.org" tvg-name="TeenNick Eastern SD" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s72294_dark_360w_270h.png",TeenNick Eastern SD
 https://tvpass.org/live/TeenNickEast/sd
 #EXTINF:-1 tvg-id="I682.72294.schedulesdirect.org" tvg-name="TeenNick Eastern HD" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s72294_dark_360w_270h.png",TeenNick Eastern HD
 https://tvpass.org/live/TeenNickEast/hd
-#EXTINF:-1 tvg-id="I402.68049.schedulesdirect.org" tvg-name="Telemundo Eastern Feed SD" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s11118_dark_360w_270h.png",Telemundo Eastern Feed SD
-https://tvpass.org/live/TelemundoEast/sd
 #EXTINF:-1 tvg-id="I402.68049.schedulesdirect.org" tvg-name="Telemundo Eastern Feed HD" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s11118_dark_360w_270h.png",Telemundo Eastern Feed HD
 https://tvpass.org/live/TelemundoEast/hd
-#EXTINF:-1 tvg-id="I232.68065.schedulesdirect.org" tvg-name="The Cooking Channel SD" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s68065_dark_360w_270h.png",The Cooking Channel SD
+#EXTINF:-1 tvg-id="I232.30156.schedulesdirect.org" tvg-name="The Cooking Channel SD" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s30156_dark_360w_270h.png",The Cooking Channel SD
 https://tvpass.org/live/CookingChannel/sd
-#EXTINF:-1 tvg-id="I232.68065.schedulesdirect.org" tvg-name="The Cooking Channel HD" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s68065_dark_360w_270h.png",The Cooking Channel HD
-https://tvpass.org/live/CookingChannel/hd
-#EXTINF:-1 tvg-id="I217.60316.schedulesdirect.org" tvg-name="The Tennis Channel SD" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s60316_dark_360w_270h.png",The Tennis Channel SD
-https://tvpass.org/live/TennisChannel/sd
 #EXTINF:-1 tvg-id="I217.60316.schedulesdirect.org" tvg-name="The Tennis Channel HD" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s60316_dark_360w_270h.png",The Tennis Channel HD
 https://tvpass.org/live/TennisChannel/hd
 #EXTINF:-1 tvg-id="I362.11187.schedulesdirect.org" tvg-name="The Weather Channel SD" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s11187_dark_360w_270h.png",The Weather Channel SD
 https://tvpass.org/live/TheWeatherChannel/sd
+#EXTINF:-1 tvg-id="I232.30156.schedulesdirect.org" tvg-name="The Cooking Channel HD" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s30156_dark_360w_270h.png",The Cooking Channel HD
+https://tvpass.org/live/CookingChannel/hd
+#EXTINF:-1 tvg-id="I217.60316.schedulesdirect.org" tvg-name="The Tennis Channel SD" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s60316_dark_360w_270h.png",The Tennis Channel SD
+https://tvpass.org/live/TennisChannel/sd
 #EXTINF:-1 tvg-id="I362.11187.schedulesdirect.org" tvg-name="The Weather Channel HD" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s11187_dark_360w_270h.png",The Weather Channel HD
 https://tvpass.org/live/TheWeatherChannel/hd
 #EXTINF:-1 tvg-id="I697.107373.schedulesdirect.org" tvg-name="TLC USA Eastern SD" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s73822_dark_360w_270h.png",TLC USA Eastern SD
@@ -1443,10 +1415,10 @@ https://tvpass.org/live/TheMovieChannelEast/hd
 https://tvpass.org/live/TNTEast/sd
 #EXTINF:-1 tvg-id="I245.42642.schedulesdirect.org" tvg-name="TNT Eastern Feed HD" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s42642_dark_360w_270h.png",TNT Eastern Feed HD
 https://tvpass.org/live/TNTEast/hd
-#EXTINF:-1 tvg-id="I277.11180.schedulesdirect.org" tvg-name="Travel US East SD" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s11180_dark_360w_270h.png",Travel US East SD
-https://tvpass.org/live/TravelChannelEast/sd
 #EXTINF:-1 tvg-id="I277.11180.schedulesdirect.org" tvg-name="Travel US East HD" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s11180_dark_360w_270h.png",Travel US East HD
 https://tvpass.org/live/TravelChannelEast/hd
+#EXTINF:-1 tvg-id="I277.11180.schedulesdirect.org" tvg-name="Travel US East SD" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s11180_dark_360w_270h.png",Travel US East SD
+https://tvpass.org/live/TravelChannelEast/sd
 #EXTINF:-1 tvg-id="I246.64490.schedulesdirect.org" tvg-name="truTV USA Eastern SD" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s64490_dark_360w_270h.png",truTV USA Eastern SD
 https://tvpass.org/live/truTVEast/sd
 #EXTINF:-1 tvg-id="I246.64490.schedulesdirect.org" tvg-name="truTV USA Eastern HD" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s64490_dark_360w_270h.png",truTV USA Eastern HD
@@ -1455,8 +1427,6 @@ https://tvpass.org/live/truTVEast/hd
 https://tvpass.org/live/tsn1/sd
 #EXTINF:-1 tvg-id="I400.11182.schedulesdirect.org" tvg-name="TSN1 HD" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s11182_dark_360w_270h.png",TSN1 HD
 https://tvpass.org/live/tsn1/hd
-#EXTINF:-1 tvg-id="I401.18990.schedulesdirect.org" tvg-name="TSN2 SD" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s18990_dark_360w_270h.png",TSN2 SD
-https://tvpass.org/live/tsn2/sd
 #EXTINF:-1 tvg-id="I401.18990.schedulesdirect.org" tvg-name="TSN2 HD" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s18990_dark_360w_270h.png",TSN2 HD
 https://tvpass.org/live/tsn2/hd
 #EXTINF:-1 tvg-id="I402.90118.schedulesdirect.org" tvg-name="TSN3 SD" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s90118_dark_360w_270h.png",TSN3 SD
@@ -1475,18 +1445,14 @@ https://tvpass.org/live/tsn5/hd
 https://tvpass.org/live/TCMEast/sd
 #EXTINF:-1 tvg-id="I256.64312.schedulesdirect.org" tvg-name="Turner Classic Movies USA HD" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s64312_dark_360w_270h.png",Turner Classic Movies USA HD
 https://tvpass.org/live/TCMEast/hd
-#EXTINF:-1 tvg-id="I304.73541.schedulesdirect.org" tvg-name="TV Land Eastern SD" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s73541_dark_360w_270h.png",TV Land Eastern SD
-https://tvpass.org/live/tv-land-eastern/sd
 #EXTINF:-1 tvg-id="I304.73541.schedulesdirect.org" tvg-name="TV Land Eastern HD" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s73541_dark_360w_270h.png",TV Land Eastern HD
 https://tvpass.org/live/tv-land-eastern/hd
+#EXTINF:-1 tvg-id="I304.73541.schedulesdirect.org" tvg-name="TV Land Eastern SD" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s73541_dark_360w_270h.png",TV Land Eastern SD
+https://tvpass.org/live/tv-land-eastern/sd
 #EXTINF:-1 tvg-id="I328.61960.schedulesdirect.org" tvg-name="TV One SD" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s61960_dark_360w_270h.png",TV One SD
 https://tvpass.org/live/TVOne/sd
 #EXTINF:-1 tvg-id="I328.61960.schedulesdirect.org" tvg-name="TV One HD" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s61960_dark_360w_270h.png",TV One HD
 https://tvpass.org/live/TVOne/hd
-#EXTINF:-1 tvg-id="I292.60006.schedulesdirect.org" tvg-name="Universal Kids SD" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s60006_dark_360w_270h.png",Universal Kids SD
-https://tvpass.org/live/UniversalKidsEast/sd
-#EXTINF:-1 tvg-id="I292.60006.schedulesdirect.org" tvg-name="Universal Kids HD" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s60006_dark_360w_270h.png",Universal Kids HD
-https://tvpass.org/live/UniversalKidsEast/hd
 #EXTINF:-1 tvg-id="I402.68049.schedulesdirect.org" tvg-name="Univision Eastern Feed SD" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s11118_dark_360w_270h.png",Univision Eastern Feed SD
 https://tvpass.org/live/UnivisionEast/sd
 #EXTINF:-1 tvg-id="I402.68049.schedulesdirect.org" tvg-name="Univision Eastern Feed HD" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s11118_dark_360w_270h.png",Univision Eastern Feed HD
@@ -1515,20 +1481,6 @@ https://tvpass.org/live/WPIX/hd
 https://tvpass.org/live/yes-network/sd
 #EXTINF:-1 tvg-id="I1702.46275.gracenote.com" tvg-name="Yes Network HD" tvg-logo="https://zpmc.tmsimg.com/h3/NowShowing/46275/s46275_ll_h15_aa.png",Yes Network HD
 https://tvpass.org/live/yes-network/hd
-#EXTINF:-1 tvg-id="I241.59186.schedulesdirect.org" tvg-name="Paramount Network SD" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s59186_dark_360w_270h.png",Paramount Network SD
-https://tvpass.org/live/paramount-network-us/sd
-#EXTINF:-1 tvg-id="I241.59186.schedulesdirect.org" tvg-name="Paramount Network HD" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s59186_dark_360w_270h.png",Paramount Network HD
-https://tvpass.org/live/paramount-network-us/hd
-#EXTINF:-1 tvg-id="I570.58532.schedulesdirect.org" tvg-name="Smithsonian Channel SD" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s58532_dark_360w_270h.png",Smithsonian Channel SD
-https://tvpass.org/live/Smithsonian/sd
-#EXTINF:-1 tvg-id="I570.58532.schedulesdirect.org" tvg-name="Smithsonian Channel HD" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s58532_dark_360w_270h.png",Smithsonian Channel HD
-https://tvpass.org/live/Smithsonian/hd
-#EXTINF:-1 tvg-id="I468.43099.schedulesdirect.org" tvg-name="MegaNoticias" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s43099_dark_360w_270h.png",MegaNoticias
-https://tvpass.org/live/meganoticias/hd
-#EXTINF:-1 tvg-id="" tvg-name="NewsNation SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/NewsNation_logo.svg/320px-NewsNation_logo.svg.png",NewsNation SD
-https://tvpass.org/live/NewsNation/sd
-#EXTINF:-1 tvg-id="" tvg-name="NewsNation HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/NewsNation_logo.svg/320px-NewsNation_logo.svg.png",NewsNation HD
-https://tvpass.org/live/NewsNation/hd
 #EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_MX1.xml.gz"
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/CINECITY2023/cinecity/refs/heads/cinecity.net/logos/canales-internacionales/adn40.png" group-title="🌍 Canales Internacionales",✔️ ADN40 (Mexico)
 https://mdstrm.com/live-stream-playlist/60b578b060947317de7b57ac.m3u8
@@ -3348,7 +3300,7 @@ https://qrg.akamaized.net/hls/live/2017383/lsqvc1it/master.m3u8
 https://radioitaliatv.akamaized.net/hls/live/2093117/RadioitaliaTV/master.m3u8
 #EXTINF:-1 tvg-id="padre-pio-tv" tvg-name="Padre Pio TV" tvg-logo="https://api.superguidatv.it/v1/channels/2003/logo?width=120&theme=dark" group-title="Italy",Padre Pio TV
 https://600f07e114306.streamlock.net/PadrePioTV/livestream/playlist.m3u8
-#EXTM3U url-tvg="https://github.com/limaalef/BrazilTVEPG/raw/refs/heads/main/globo.xml, https://github.com/limaalef/BrazilTVEPG/raw/refs/heads/main/claro.xml, https://github.com/limaalef/BrazilTVEPG/raw/refs/heads/main/vivoplay.xml"
+#EXTM3U url-tvg="https://github.com/limaalef/BrazilTVEPG/raw/refs/heads/main/globo.xml,https://github.com/limaalef/BrazilTVEPG/raw/refs/heads/main/claro.xml,https://github.com/limaalef/BrazilTVEPG/raw/refs/heads/main/vivoplay.xml"
 #EXTINF:-1 tvg-id="sportv" tvg-logo="https://s03.video.glbimg.com/x720/7689934.jpg" group-title="GLOBO AO VIVO",sportv ao vivo no ge.globo | Assista ao vivo pelo Globoplay
 https://live-as-02-16.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJVUyIsImRvbWFpbiI6ImxpdmUtYXMtMDItMTYudmlkZW8uZ2xvYm8uY29tIiwiZXhwIjoxNzc3ODg3NDAyLCJpYXQiOjE3Nzc4NjU4MDIsImlzcyI6InBsYXliYWNrLWFwaS1wcm9kLWdjcCIsIm93bmVyIjoiIiwicGF0aCI6Ii9saXZlL2YoaT0yKS9zcG8xMjRoYS9wbGF5bGlzdC5tM3U4In0.QX8eFPOPnfsTgnvH_0MTWvP2IMYqpFb8BcZ0AyLBSuoP2o6liux8Iae7q0xz1H0l64WRq1Ko5uKHxHagfsoIFCjv4gvBqpqAJdomOMFbcpoQEKkur7b7L-ykpf3SIu1wVb9We5wCHdSg_u456GM6oDRsCayjpKaoP4NrmWOL26UL7yeXsald1apVrbpXS8SPSGBA_6gZ0GXmuSEoIsrEPwnqwDaI1FdP3UqocoQ0NcVFkqUltBRzuTjNE32dwIWajyu-vurjSnCq5yofw3XGyD2Y56UK23UFfMfgPnQ7lxpw6MFHcD2Aq1PPfOKqgFG3ot2IrkVrbedZiHWnTx91ww/live/f(i=2)/spo124ha/playlist.m3u8
 #EXTINF:-1 tvg-id="tv-globo" tvg-logo="https://s02.video.glbimg.com/x720/7813173.jpg" group-title="GLOBO AO VIVO",Teste Live CDN Google | Assista ao vivo pelo Globoplay
@@ -3397,85 +3349,53 @@ https://live-as-08-16.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAi
 #EXTINF:-1 group-title="GLOBO AO VIVO" tvg-logo="https://s03.video.glbimg.com/640x360/14578130.jpg",AO VIVO: DJ Maz agita o público que aguarda Shakira na Praia de Copacabana; veja em tempo real
 https://vod-as-09-07.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJVUyIsImRvbWFpbiI6InZvZC1hcy0wOS0wNy52aWRlby5nbG9iby5jb20iLCJleHAiOjE3Nzc3NjY1MDYsImlhdCI6MTc3Nzc2NTAwNiwiaXNzIjoicGxheWJhY2stYXBpLXByb2QtZ2NwIiwib3duZXIiOiIiLCJwYXRoIjoiL3IzNjBfMTA4MC92MC80NS83ZC81MC8xNDU3OTE3OF81MDYwMzQ5MGQyYTIxZjc1ZDAwZGExMWMwZTVhZjZjYzZkYjNmYjc4LzE0NTc5MTc4LUxCVDZBOFYtbWFuaWZlc3QuaXNtLzE0NTc5MTc4Lm0zdTgifQ.X9hFlPXfj6AtUrA-3spJjJEo9x4QlvBT5P4TIJIRuPXh2h_VrvIyGAGLBCPDxFlFyG5w8W7tVsr-8PeBD03hOeL896JpPTf0hJAiLgv19sPEPsomNgNAzVljx0h21KcOqZAHLdRE4K9rf9H7CziwoDZS21ZxVb_HlvTQMckl8_RC7jBNy7sbXjmbzlSMrEw692VGNytn87Ox5-cTHz6dFvLxKUAWX8WFsu11sMEuTEQbDY5p3P6d9fzRzw56OAAHqihAh2qV4C1xgCWD5enSiaRIYi9ASiLCaMnKM25fyhXYkgzxNWMkJ4ofpgULhpr5y53tecxGIXF4IvvCbxdGyg/r360_1080/v0/45/7d/50/14579178_50603490d2a21f75d00da11c0e5af6cc6db3fb78/14579178-LBT6A8V-manifest.ism/14579178.m3u8
 #EXTM3U
-#EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/4/49/CBN.png" group-title="NEWS WORLD",CBN SP
-https://live-cm-ah-22-27.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJVUyIsImRvbWFpbiI6ImxpdmUtY20tYWgtMjItMjcudmlkZW8uZ2xvYm8uY29tIiwiZXhwIjoxNzc3ODg1MDAzLCJpYXQiOjE3Nzc4NjM0MDMsImlzcyI6InBsYXliYWNrLWFwaS1wcm9kLWdjcCIsIm93bmVyIjoiIiwicGF0aCI6Ii9saXZlL2YoYk1pbj0zMTM5ODQsZHZyPTEyMCkvY2Juc3AyNGhhL3BsYXlsaXN0Lm0zdTgifQ.KlS9Yku_DzKM_HWcG8IFR8koT5ANuZ8RjPJHU6wXl6lyPfsE_kAxBsp1_FhnYbU4eSDaS0ZdutlcDqgMl2IyT7VaJ1bmGLr-SkWoV90NFw4f-_gNtdeApYZfmwoRSZVPFC2s90U_sRi-cu41yRQTr3rpU8ApZ0WBOoWMgvT-yT4LQr4Xme630kvRt3q07Opot7xUbyO-MGGTPj07ixawCmASVBu39HzHOQeCBsNvwYlvC80yfETYklRhCS1xe-bXXgyqU3S1RF-8AySli6YltfWH4tBNNu-8MIu4jTtIR_Ls5e0zRtpL6cb6ZySU8E4XOjuuMbMnVnRsivuAPI3W8g/live/f(bMin=313984,dvr=120)/cbnsp24ha/playlist.m3u8
 #EXTM3U
 #EXTINF:-1 tvg-logo="https://keyframe-cdn.abcnews.com/streamprovider11.jpg" group-title="NEWS WORLD",ABC News Live - ABC News
-https://linear-abcnews-ftc-na-west-1.media.dssott.com/dvt2=exp=1777955333~url=%2Flas1%2Fva01%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1776861675071%2F~psid=5e228dbf-4b71-4ad2-a5c6-68337dc603df~did=0a473d1b-fcfa-4015-966f-6c55b4934696~country=US~kid=k02~hmac=73650f6ef0cf9174d9954b404f8d806eab706ed086e3de555a5910aa6cf39363/las1/va01/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1776861675071/ctr-all-hdri-sliding.m3u8?r=1080&v=1&hash=ab84398225d4a583cf5479db7842af5fa60665cc
+https://linear-abcnews-ftc-na-west-1.media.dssott.com/dvt2=exp=1777966588~url=%2Flas1%2Fva01%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1776861675071%2F~psid=98461827-83af-4107-8d90-b585327f91cd~did=da804602-145d-4279-9104-c703cd855ef1~country=US~kid=k02~hmac=803a064b8ebd853c2dc9804aadc1abf5a50a0199681f36aa2638294c768ff237/las1/va01/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1776861675071/ctr-all-hdri-sliding.m3u8?r=1080&v=1&hash=ab84398225d4a583cf5479db7842af5fa60665cc
 #EXTINF:-1 tvg-logo="https://keyframe-cdn.abcnews.com/streamprovider11.jpg" group-title="NEWS WORLD",ABC News Live - ABC News
-https://linear-abcnews-ftc-na-west-1.media.dssott.com/dvt2=exp=1777955333~url=%2Flas1%2Fva01%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1776861675071%2F~psid=5e228dbf-4b71-4ad2-a5c6-68337dc603df~did=0a473d1b-fcfa-4015-966f-6c55b4934696~country=US~kid=k02~hmac=73650f6ef0cf9174d9954b404f8d806eab706ed086e3de555a5910aa6cf39363/las1/va01/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1776861675071/audio-aac-1-64K/64_slide.m3u8
+https://linear-abcnews-ftc-na-west-1.media.dssott.com/dvt2=exp=1777966588~url=%2Flas1%2Fva01%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1776861675071%2F~psid=98461827-83af-4107-8d90-b585327f91cd~did=da804602-145d-4279-9104-c703cd855ef1~country=US~kid=k02~hmac=803a064b8ebd853c2dc9804aadc1abf5a50a0199681f36aa2638294c768ff237/las1/va01/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1776861675071/cmaf-cenc-ctr-1700K/1700_hdri_slide.m3u8
 #EXTINF:-1 tvg-logo="https://keyframe-cdn.abcnews.com/streamprovider11.jpg" group-title="NEWS WORLD",ABC News Live - ABC News
-https://linear-abcnews-ftc-na-west-1.media.dssott.com/dvt2=exp=1777955333~url=%2Flas1%2Fva01%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1776861675071%2F~psid=5e228dbf-4b71-4ad2-a5c6-68337dc603df~did=0a473d1b-fcfa-4015-966f-6c55b4934696~country=US~kid=k02~hmac=73650f6ef0cf9174d9954b404f8d806eab706ed086e3de555a5910aa6cf39363/las1/va01/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1776861675071/cmaf-cenc-ctr-1700K/1700_hdri_slide.m3u8
+https://linear-abcnews-ftc-na-west-1.media.dssott.com/dvt2=exp=1777966588~url=%2Flas1%2Fva01%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1776861675071%2F~psid=98461827-83af-4107-8d90-b585327f91cd~did=da804602-145d-4279-9104-c703cd855ef1~country=US~kid=k02~hmac=803a064b8ebd853c2dc9804aadc1abf5a50a0199681f36aa2638294c768ff237/las1/va01/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1776861675071/audio-aac-1-64K/64_slide.m3u8
 #EXTINF:-1 tvg-logo="https://keyframe-cdn.abcnews.com/streamprovider11.jpg" group-title="NEWS WORLD",ABC News Live - ABC News
-https://linear-abcnews-ftc-na-west-1.media.dssott.com/dvt2=exp=1777955333~url=%2Flas1%2Fva01%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1776861675071%2F~psid=5e228dbf-4b71-4ad2-a5c6-68337dc603df~did=0a473d1b-fcfa-4015-966f-6c55b4934696~country=US~kid=k02~hmac=73650f6ef0cf9174d9954b404f8d806eab706ed086e3de555a5910aa6cf39363/las1/va01/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1776861675071/cmaf-cenc-ctr-2400K/2400_hdri_slide.m3u8
+https://linear-abcnews-ftc-na-west-1.media.dssott.com/dvt2=exp=1777966588~url=%2Flas1%2Fva01%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1776861675071%2F~psid=98461827-83af-4107-8d90-b585327f91cd~did=da804602-145d-4279-9104-c703cd855ef1~country=US~kid=k02~hmac=803a064b8ebd853c2dc9804aadc1abf5a50a0199681f36aa2638294c768ff237/las1/va01/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1776861675071/audio-aac-1-64K/64_slide.m3u8
 #EXTINF:-1 tvg-logo="https://keyframe-cdn.abcnews.com/streamprovider11.jpg" group-title="NEWS WORLD",ABC News Live - ABC News
-https://linear-abcnews-ftc-na-west-1.media.dssott.com/dvt2=exp=1777955333~url=%2Flas1%2Fva01%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1776861675071%2F~psid=5e228dbf-4b71-4ad2-a5c6-68337dc603df~did=0a473d1b-fcfa-4015-966f-6c55b4934696~country=US~kid=k02~hmac=73650f6ef0cf9174d9954b404f8d806eab706ed086e3de555a5910aa6cf39363/las1/va01/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1776861675071/audio-aac-1-128K/128_slide.m3u8
+https://linear-abcnews-ftc-na-west-1.media.dssott.com/dvt2=exp=1777966588~url=%2Flas1%2Fva01%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1776861675071%2F~psid=98461827-83af-4107-8d90-b585327f91cd~did=da804602-145d-4279-9104-c703cd855ef1~country=US~kid=k02~hmac=803a064b8ebd853c2dc9804aadc1abf5a50a0199681f36aa2638294c768ff237/las1/va01/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1776861675071/cmaf-cenc-ctr-2400K/2400_hdri_slide.m3u8
 #EXTINF:-1 tvg-logo="https://keyframe-cdn.abcnews.com/streamprovider11.jpg" group-title="NEWS WORLD",ABC News Live - ABC News
-https://linear-abcnews-ftc-na-west-1.media.dssott.com/dvt2=exp=1777955333~url=%2Flas1%2Fva01%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1776861675071%2F~psid=5e228dbf-4b71-4ad2-a5c6-68337dc603df~did=0a473d1b-fcfa-4015-966f-6c55b4934696~country=US~kid=k02~hmac=73650f6ef0cf9174d9954b404f8d806eab706ed086e3de555a5910aa6cf39363/las1/va01/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1776861675071/cmaf-cenc-ctr-2400K/2400_hdri_slide.m3u8
+https://linear-abcnews-ftc-na-west-1.media.dssott.com/dvt2=exp=1777966588~url=%2Flas1%2Fva01%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1776861675071%2F~psid=98461827-83af-4107-8d90-b585327f91cd~did=da804602-145d-4279-9104-c703cd855ef1~country=US~kid=k02~hmac=803a064b8ebd853c2dc9804aadc1abf5a50a0199681f36aa2638294c768ff237/las1/va01/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1776861675071/audio-aac-1-128K/128_slide.m3u8
 #EXTINF:-1 tvg-logo="https://keyframe-cdn.abcnews.com/streamprovider11.jpg" group-title="NEWS WORLD",ABC News Live - ABC News
-https://linear-abcnews-ftc-na-west-1.media.dssott.com/dvt2=exp=1777955333~url=%2Flas1%2Fva01%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1776861675071%2F~psid=5e228dbf-4b71-4ad2-a5c6-68337dc603df~did=0a473d1b-fcfa-4015-966f-6c55b4934696~country=US~kid=k02~hmac=73650f6ef0cf9174d9954b404f8d806eab706ed086e3de555a5910aa6cf39363/las1/va01/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1776861675071/audio-aac-1-128K/128_slide.m3u8
+https://linear-abcnews-ftc-na-west-1.media.dssott.com/dvt2=exp=1777966588~url=%2Flas1%2Fva01%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1776861675071%2F~psid=98461827-83af-4107-8d90-b585327f91cd~did=da804602-145d-4279-9104-c703cd855ef1~country=US~kid=k02~hmac=803a064b8ebd853c2dc9804aadc1abf5a50a0199681f36aa2638294c768ff237/las1/va01/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1776861675071/cmaf-cenc-ctr-2400K/2400_hdri_slide.m3u8
 #EXTINF:-1 tvg-logo="https://keyframe-cdn.abcnews.com/streamprovider11.jpg" group-title="NEWS WORLD",ABC News Live - ABC News
-https://linear-abcnews-akc-na-west-1.media.dssott.com/dvt2=exp=1777955350~url=%2Flas1%2Fva01%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1776861675071%2F~psid=a729d193-e734-4cf2-9730-3c375987807b~did=74232ace-b7ff-4b52-aed9-d11400839907~country=US~kid=k02~hmac=9c5706f43b63700419270c3d3e33654cd3cd367eb27111ee3720305751349474/las1/va01/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1776861675071/ctr-all-hdri-sliding.m3u8?r=1080&v=1&hash=ab84398225d4a583cf5479db7842af5fa60665cc
+https://linear-abcnews-ftc-na-west-1.media.dssott.com/dvt2=exp=1777966588~url=%2Flas1%2Fva01%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1776861675071%2F~psid=98461827-83af-4107-8d90-b585327f91cd~did=da804602-145d-4279-9104-c703cd855ef1~country=US~kid=k02~hmac=803a064b8ebd853c2dc9804aadc1abf5a50a0199681f36aa2638294c768ff237/las1/va01/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1776861675071/audio-aac-1-128K/128_slide.m3u8
 #EXTINF:-1 tvg-logo="https://keyframe-cdn.abcnews.com/streamprovider11.jpg" group-title="NEWS WORLD",ABC News Live - ABC News
-https://linear-abcnews-akc-na-west-1.media.dssott.com/dvt2=exp=1777955350~url=%2Flas1%2Fva01%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1776861675071%2F~psid=a729d193-e734-4cf2-9730-3c375987807b~did=74232ace-b7ff-4b52-aed9-d11400839907~country=US~kid=k02~hmac=9c5706f43b63700419270c3d3e33654cd3cd367eb27111ee3720305751349474/las1/va01/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1776861675071/audio-aac-1-64K/64_slide.m3u8
+https://linear-abcnews-akc-na-west-1.media.dssott.com/dvt2=exp=1777966604~url=%2Flas1%2Fva01%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1776861675071%2F~psid=65131d70-b7d1-4bf3-b950-07ffd078015a~did=1a97e194-37aa-465e-bd72-48f1c8e35a8b~country=US~kid=k02~hmac=59cf202afa7d7c3306c788df2d98b5d784b7f8a2230ec751c453d1df39982a51/las1/va01/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1776861675071/ctr-all-hdri-sliding.m3u8?r=1080&v=1&hash=ab84398225d4a583cf5479db7842af5fa60665cc
 #EXTINF:-1 tvg-logo="https://keyframe-cdn.abcnews.com/streamprovider11.jpg" group-title="NEWS WORLD",ABC News Live - ABC News
-https://linear-abcnews-akc-na-west-1.media.dssott.com/dvt2=exp=1777955350~url=%2Flas1%2Fva01%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1776861675071%2F~psid=a729d193-e734-4cf2-9730-3c375987807b~did=74232ace-b7ff-4b52-aed9-d11400839907~country=US~kid=k02~hmac=9c5706f43b63700419270c3d3e33654cd3cd367eb27111ee3720305751349474/las1/va01/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1776861675071/cmaf-cenc-ctr-1700K/1700_hdri_slide.m3u8
+https://linear-abcnews-akc-na-west-1.media.dssott.com/dvt2=exp=1777966604~url=%2Flas1%2Fva01%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1776861675071%2F~psid=65131d70-b7d1-4bf3-b950-07ffd078015a~did=1a97e194-37aa-465e-bd72-48f1c8e35a8b~country=US~kid=k02~hmac=59cf202afa7d7c3306c788df2d98b5d784b7f8a2230ec751c453d1df39982a51/las1/va01/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1776861675071/audio-aac-1-64K/64_slide.m3u8
 #EXTINF:-1 tvg-logo="https://keyframe-cdn.abcnews.com/streamprovider11.jpg" group-title="NEWS WORLD",ABC News Live - ABC News
-https://linear-abcnews-akc-na-west-1.media.dssott.com/dvt2=exp=1777955350~url=%2Flas1%2Fva01%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1776861675071%2F~psid=a729d193-e734-4cf2-9730-3c375987807b~did=74232ace-b7ff-4b52-aed9-d11400839907~country=US~kid=k02~hmac=9c5706f43b63700419270c3d3e33654cd3cd367eb27111ee3720305751349474/las1/va01/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1776861675071/cmaf-cenc-ctr-2400K/2400_hdri_slide.m3u8
+https://linear-abcnews-akc-na-west-1.media.dssott.com/dvt2=exp=1777966604~url=%2Flas1%2Fva01%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1776861675071%2F~psid=65131d70-b7d1-4bf3-b950-07ffd078015a~did=1a97e194-37aa-465e-bd72-48f1c8e35a8b~country=US~kid=k02~hmac=59cf202afa7d7c3306c788df2d98b5d784b7f8a2230ec751c453d1df39982a51/las1/va01/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1776861675071/cmaf-cenc-ctr-1700K/1700_hdri_slide.m3u8
 #EXTINF:-1 tvg-logo="https://keyframe-cdn.abcnews.com/streamprovider11.jpg" group-title="NEWS WORLD",ABC News Live - ABC News
-https://linear-abcnews-akc-na-west-1.media.dssott.com/dvt2=exp=1777955350~url=%2Flas1%2Fva01%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1776861675071%2F~psid=a729d193-e734-4cf2-9730-3c375987807b~did=74232ace-b7ff-4b52-aed9-d11400839907~country=US~kid=k02~hmac=9c5706f43b63700419270c3d3e33654cd3cd367eb27111ee3720305751349474/las1/va01/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1776861675071/audio-aac-1-128K/128_slide.m3u8
+https://linear-abcnews-akc-na-west-1.media.dssott.com/dvt2=exp=1777966604~url=%2Flas1%2Fva01%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1776861675071%2F~psid=65131d70-b7d1-4bf3-b950-07ffd078015a~did=1a97e194-37aa-465e-bd72-48f1c8e35a8b~country=US~kid=k02~hmac=59cf202afa7d7c3306c788df2d98b5d784b7f8a2230ec751c453d1df39982a51/las1/va01/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1776861675071/cmaf-cenc-ctr-2400K/2400_hdri_slide.m3u8
 #EXTINF:-1 tvg-logo="https://keyframe-cdn.abcnews.com/streamprovider11.jpg" group-title="NEWS WORLD",ABC News Live - ABC News
-https://linear-abcnews-akc-na-west-1.media.dssott.com/dvt2=exp=1777955350~url=%2Flas1%2Fva01%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1776861675071%2F~psid=a729d193-e734-4cf2-9730-3c375987807b~did=74232ace-b7ff-4b52-aed9-d11400839907~country=US~kid=k02~hmac=9c5706f43b63700419270c3d3e33654cd3cd367eb27111ee3720305751349474/las1/va01/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1776861675071/cmaf-cenc-ctr-2400K/2400_hdri_slide.m3u8
+https://linear-abcnews-akc-na-west-1.media.dssott.com/dvt2=exp=1777966604~url=%2Flas1%2Fva01%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1776861675071%2F~psid=65131d70-b7d1-4bf3-b950-07ffd078015a~did=1a97e194-37aa-465e-bd72-48f1c8e35a8b~country=US~kid=k02~hmac=59cf202afa7d7c3306c788df2d98b5d784b7f8a2230ec751c453d1df39982a51/las1/va01/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1776861675071/audio-aac-1-128K/128_slide.m3u8
 #EXTINF:-1 tvg-logo="https://keyframe-cdn.abcnews.com/streamprovider11.jpg" group-title="NEWS WORLD",ABC News Live - ABC News
-https://linear-abcnews-akc-na-west-1.media.dssott.com/dvt2=exp=1777955350~url=%2Flas1%2Fva01%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1776861675071%2F~psid=a729d193-e734-4cf2-9730-3c375987807b~did=74232ace-b7ff-4b52-aed9-d11400839907~country=US~kid=k02~hmac=9c5706f43b63700419270c3d3e33654cd3cd367eb27111ee3720305751349474/las1/va01/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1776861675071/audio-aac-1-128K/128_slide.m3u8
-#EXTINF:-1 tvg-logo="https://keyframe-cdn.abcnews.com/streamprovider10.jpg" group-title="NEWS WORLD",Video Temperatures roller coaster across US this week; soggy weather for Eastern half of country into middle of the week | Watch Live News on ABCNL
+https://linear-abcnews-akc-na-west-1.media.dssott.com/dvt2=exp=1777966604~url=%2Flas1%2Fva01%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1776861675071%2F~psid=65131d70-b7d1-4bf3-b950-07ffd078015a~did=1a97e194-37aa-465e-bd72-48f1c8e35a8b~country=US~kid=k02~hmac=59cf202afa7d7c3306c788df2d98b5d784b7f8a2230ec751c453d1df39982a51/las1/va01/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1776861675071/cmaf-cenc-ctr-2400K/2400_hdri_slide.m3u8
+#EXTINF:-1 tvg-logo="https://keyframe-cdn.abcnews.com/streamprovider11.jpg" group-title="NEWS WORLD",ABC News Live - ABC News
+https://linear-abcnews-akc-na-west-1.media.dssott.com/dvt2=exp=1777966604~url=%2Flas1%2Fva01%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1776861675071%2F~psid=65131d70-b7d1-4bf3-b950-07ffd078015a~did=1a97e194-37aa-465e-bd72-48f1c8e35a8b~country=US~kid=k02~hmac=59cf202afa7d7c3306c788df2d98b5d784b7f8a2230ec751c453d1df39982a51/las1/va01/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1776861675071/audio-aac-1-128K/128_slide.m3u8
+#EXTINF:-1 tvg-logo="https://keyframe-cdn.abcnews.com/streamprovider11.jpg" group-title="NEWS WORLD",ABC News Live - ABC News
+https://linear-abcnews-akc-na-west-1.media.dssott.com/dvt2=exp=1777966604~url=%2Flas1%2Fva01%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1776861675071%2F~psid=65131d70-b7d1-4bf3-b950-07ffd078015a~did=1a97e194-37aa-465e-bd72-48f1c8e35a8b~country=US~kid=k02~hmac=59cf202afa7d7c3306c788df2d98b5d784b7f8a2230ec751c453d1df39982a51/las1/va01/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1776861675071/cmaf-cenc-ctr-2400K/2400_hdri_slide.m3u8
+#EXTINF:-1 tvg-logo="https://keyframe-cdn.abcnews.com/streamprovider11.jpg" group-title="NEWS WORLD",ABC News Live - ABC News
 https://abcnews-livestreams.akamaized.net/out/v1/6a597119dbd5428a82dc11a2f514a1a2/abcn-live-10-cmaf-manifest/abcn-live-10-index.m3u8
-#EXTINF:-1 tvg-logo="https://keyframe-cdn.abcnews.com/streamprovider10.jpg" group-title="NEWS WORLD",Video Temperatures roller coaster across US this week; soggy weather for Eastern half of country into middle of the week | Watch Live News on ABCNL
+#EXTINF:-1 tvg-logo="https://keyframe-cdn.abcnews.com/streamprovider11.jpg" group-title="NEWS WORLD",ABC News Live - ABC News
+https://abcnews-livestreams.akamaized.net/out/v1/6a597119dbd5428a82dc11a2f514a1a2/abcn-live-10-cmaf-manifest/abcn-live-10-index_4_0.m3u8
+#EXTINF:-1 tvg-logo="https://keyframe-cdn.abcnews.com/streamprovider11.jpg" group-title="NEWS WORLD",ABC News Live - ABC News
 https://abcnews-livestreams.akamaized.net/out/v1/6a597119dbd5428a82dc11a2f514a1a2/abcn-live-10-cmaf-manifest/abcn-live-10-index_3.m3u8
-#EXTINF:-1 tvg-logo="https://keyframe-cdn.abcnews.com/streamprovider10.jpg" group-title="NEWS WORLD",Video Temperatures roller coaster across US this week; soggy weather for Eastern half of country into middle of the week | Watch Live News on ABCNL
+#EXTINF:-1 tvg-logo="https://keyframe-cdn.abcnews.com/streamprovider11.jpg" group-title="NEWS WORLD",ABC News Live - ABC News
 https://abcnews-livestreams.akamaized.net/out/v1/6a597119dbd5428a82dc11a2f514a1a2/abcn-live-10-cmaf-manifest/abcn-live-10-index_4_0.m3u8
-#EXTINF:-1 tvg-logo="https://keyframe-cdn.abcnews.com/streamprovider10.jpg" group-title="NEWS WORLD",Video Temperatures roller coaster across US this week; soggy weather for Eastern half of country into middle of the week | Watch Live News on ABCNL
-https://abcnews-livestreams.akamaized.net/out/v1/6a597119dbd5428a82dc11a2f514a1a2/abcn-live-10-cmaf-manifest/abcn-live-10-index_4_0.m3u8
-#EXTINF:-1 tvg-logo="https://keyframe-cdn.abcnews.com/streamprovider10.jpg" group-title="NEWS WORLD",Video Temperatures roller coaster across US this week; soggy weather for Eastern half of country into middle of the week | Watch Live News on ABCNL
+#EXTINF:-1 tvg-logo="https://keyframe-cdn.abcnews.com/streamprovider11.jpg" group-title="NEWS WORLD",ABC News Live - ABC News
 https://abcnews-livestreams.akamaized.net/out/v1/6a597119dbd5428a82dc11a2f514a1a2/abcn-live-10-cmaf-manifest/abcn-live-10-index_3.m3u8
-#EXTINF:-1 tvg-logo="https://keyframe-cdn.abcnews.com/streamprovider10.jpg" group-title="NEWS WORLD",Video Temperatures roller coaster across US this week; soggy weather for Eastern half of country into middle of the week | Watch Live News on ABCNL
-https://abcnews-livestreams.akamaized.net/out/v1/6a597119dbd5428a82dc11a2f514a1a2/abcn-live-10-cmaf-manifest/abcn-live-10-index_4_0.m3u8
-#EXTINF:-1 tvg-logo="https://a57.foxnews.com/cf-images.us-east-1.prod.boltdns.net/v1/static/694940094001/01b8677d-31c1-4e55-a40a-71c1724a8e4e/3f311f6b-627e-42f6-b45e-498ba624f28a/1280x720/match/896/504/image.jpg" group-title="NEWS WORLD",Watch Fox News Channel Online | Stream Fox News
-https://247.foxnews.com/hls/live/2003586/FNCHLSv3/master.m3u8?hdnea=exp=1777872532~acl=/*~hmac=08c429dd86504b55777cbf341d33d2b67ebd1f318d2c0103e7db778d4f96bdfe
-#EXTINF:-1 tvg-logo="https://a57.foxnews.com/cf-images.us-east-1.prod.boltdns.net/v1/static/694940094001/01b8677d-31c1-4e55-a40a-71c1724a8e4e/3f311f6b-627e-42f6-b45e-498ba624f28a/1280x720/match/896/504/image.jpg" group-title="NEWS WORLD",Fox Business Go | Fox News Video
-https://247.foxbusiness.com/hls/live/2003756/FBNHLSv3/master.m3u8?hdnea=exp=1777872532~acl=/*~hmac=08c429dd86504b55777cbf341d33d2b67ebd1f318d2c0103e7db778d4f96bdfe
-#EXTINF:-1 tvg-logo="https://www.cbsnews.com/bundles/cbsnewsvideo/images/cbsn--main-bg.jpg" group-title="NEWS WORLD",Watch CBS News 24/7, our free live news stream
-https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/830e6541-31b2-41c2-9235-e2fb3fd3023c:CHS/master.m3u8
-#EXTINF:-1 tvg-logo="https://www.cbsnews.com/bundles/cbsnewsvideo/images/cbsn--main-bg.jpg" group-title="NEWS WORLD",Watch CBS News 24/7, our free live news stream
-https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/830e6541-31b2-41c2-9235-e2fb3fd3023c:CHS/variant/93c2acc6479504ccd49e3f4d21db1bec/bandwidth/441000.m3u8
-#EXTINF:-1 tvg-logo="https://www.cbsnews.com/bundles/cbsnewsvideo/images/cbsn--main-bg.jpg" group-title="NEWS WORLD",Watch CBS News 24/7, our free live news stream
-https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/830e6541-31b2-41c2-9235-e2fb3fd3023c:CHS/variant/746103095c4cba0bf336a095edd0798c/bandwidth/733000.m3u8
-#EXTINF:-1 tvg-logo="https://www.cbsnews.com/bundles/cbsnewsvideo/images/cbsn--main-bg.jpg" group-title="NEWS WORLD",Watch CBS News 24/7, our free live news stream
-https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/830e6541-31b2-41c2-9235-e2fb3fd3023c:CHS/variant/9b9c3d2ac5aa8733095eb4ff47cef5d8/bandwidth/2249000.m3u8
-#EXTINF:-1 tvg-logo="https://www.cbsnews.com/bundles/cbsnewsvideo/images/cbsn--main-bg.jpg" group-title="NEWS WORLD",Watch CBS News 24/7, our free live news stream
-https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/830e6541-31b2-41c2-9235-e2fb3fd3023c:CHS/variant/bbe09487996e4026304507dc92286621/bandwidth/4231000.m3u8
-#EXTINF:-1 tvg-logo="https://www.cbsnews.com/bundles/cbsnewsvideo/images/cbsn--main-bg.jpg" group-title="NEWS WORLD",Watch CBS News 24/7, our free live news stream
-https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/830e6541-31b2-41c2-9235-e2fb3fd3023c:CHS/variant/bbe09487996e4026304507dc92286621/bandwidth/4231000.m3u8
-#EXTINF:-1 tvg-logo="https://www.cbsnews.com/bundles/cbsnewsvideo/images/cbsn--main-bg.jpg" group-title="NEWS WORLD",Watch CBS News 24/7, our free live news stream
-https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/830e6541-31b2-41c2-9235-e2fb3fd3023c:CHS/variant/bbe09487996e4026304507dc92286621/bandwidth/4231000.m3u8
-#EXTINF:-1 tvg-logo="https://www.cbsnews.com/bundles/cbsnewsvideo/images/cbsn--main-bg.jpg" group-title="NEWS WORLD",Watch CBS News 24/7, our free live news stream
-https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/830e6541-31b2-41c2-9235-e2fb3fd3023c:CHS/variant/bbe09487996e4026304507dc92286621/bandwidth/4231000.m3u8
-#EXTINF:-1 tvg-logo="https://www.cbsnews.com/bundles/cbsnewsvideo/images/cbsn--main-bg.jpg" group-title="NEWS WORLD",Watch CBS News 24/7, our free live news stream
-https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/830e6541-31b2-41c2-9235-e2fb3fd3023c:CHS/variant/bbe09487996e4026304507dc92286621/bandwidth/4231000.m3u8
-#EXTINF:-1 tvg-logo="https://www.cbsnews.com/bundles/cbsnewsvideo/images/cbsn--main-bg.jpg" group-title="NEWS WORLD",Watch CBS News 24/7, our free live news stream
-https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/830e6541-31b2-41c2-9235-e2fb3fd3023c:CHS/variant/bbe09487996e4026304507dc92286621/bandwidth/4231000.m3u8
-#EXTINF:-1 tvg-logo="https://www.cbsnews.com/bundles/cbsnewsvideo/images/cbsn--main-bg.jpg" group-title="NEWS WORLD",Watch CBS News 24/7, our free live news stream
-https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/830e6541-31b2-41c2-9235-e2fb3fd3023c:CHS/variant/bbe09487996e4026304507dc92286621/bandwidth/4231000.m3u8
-#EXTINF:-1 tvg-logo="https://www.cbsnews.com/bundles/cbsnewsvideo/images/cbsn--main-bg.jpg" group-title="NEWS WORLD",Watch CBS News 24/7, our free live news stream
-https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/830e6541-31b2-41c2-9235-e2fb3fd3023c:CHS/variant/bbe09487996e4026304507dc92286621/bandwidth/4231000.m3u8
-#EXTINF:-1 tvg-logo="https://www.cbsnews.com/bundles/cbsnewsvideo/images/cbsn--main-bg.jpg" group-title="NEWS WORLD",Watch CBS News 24/7, our free live news stream
-https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/830e6541-31b2-41c2-9235-e2fb3fd3023c:CHS/variant/bbe09487996e4026304507dc92286621/bandwidth/4231000.m3u8
-#EXTINF:-1 tvg-logo="https://www.cbsnews.com/bundles/cbsnewsvideo/images/cbsn--main-bg.jpg" group-title="NEWS WORLD",Watch CBS News 24/7, our free live news stream
-https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/830e6541-31b2-41c2-9235-e2fb3fd3023c:CHS/variant/bbe09487996e4026304507dc92286621/bandwidth/4231000.m3u8
-#EXTINF:-1 tvg-logo="https://www.cbsnews.com/bundles/cbsnewsvideo/images/cbsn--main-bg.jpg" group-title="NEWS WORLD",Watch CBS News 24/7, our free live news stream
-https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/830e6541-31b2-41c2-9235-e2fb3fd3023c:CHS/variant/bbe09487996e4026304507dc92286621/bandwidth/4231000.m3u8
-#EXTINF:-1 tvg-logo="https://www.cbsnews.com/bundles/cbsnewsvideo/images/cbsn--main-bg.jpg" group-title="NEWS WORLD",Watch CBS News 24/7, our free live news stream
-https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/830e6541-31b2-41c2-9235-e2fb3fd3023c:CHS/variant/bbe09487996e4026304507dc92286621/bandwidth/4231000.m3u8
+#EXTINF:-1 tvg-logo="https://a57.foxnews.com/cf-images.us-east-1.prod.boltdns.net/v1/static/694940094001/01b8677d-31c1-4e55-a40a-71c1724a8e4e/3f311f6b-627e-42f6-b45e-498ba624f28a/1280x720/match/400/225/image.jpg" group-title="NEWS WORLD",Watch Fox News Channel Online | Stream Fox News
+https://247.foxnews.com/hls/live/2003586/FNCHLSv3/master.m3u8?hdnea=exp=1777883786~acl=/*~hmac=1e5497ad4dc63fc6e35f171184f334431ccd5ed441ee80c21d6b58ddb3fd63a2
+#EXTINF:-1 tvg-logo="https://a57.foxnews.com/cf-images.us-east-1.prod.boltdns.net/v1/static/694940094001/c9b2e2eb-7b87-435c-9510-eab2650ff944/8b584585-acf2-4c37-aa07-aaf2d077bb20/1280x720/match/676/380/image.jpg?ve=1&tl=1" group-title="NEWS WORLD",Fox Business Go | Fox News Video
+https://247.foxbusiness.com/hls/live/2003756/FBNHLSv3/master.m3u8?hdnea=exp=1777883786~acl=/*~hmac=1e5497ad4dc63fc6e35f171184f334431ccd5ed441ee80c21d6b58ddb3fd63a2
 #EXTM3U x-tvg-url="https://iptv-epg.org/files/epg-es.xml.gz,https://iptv-epg.org/files/epg-fr.xml.gz,https://iptv-epg.org/files/epg-us.xml.gz,https://iptv-epg.org/files/epg-de.xml.gz"
 #EXTINF:-1 tvg-id="AlJazeeraEnglish.es" tvg-logo="https://raw.githubusercontent.com/guigo85/lista-m3u-gratuita/main/logos/aljazeera.png" group-title="Mundo" x-tvg-url="https://iptv-epg.org/files/epg-es.xml.gz",Al Jazeera Español
 https://live-hls-web-aja.getaj.net/AJA/index.m3u8
@@ -4236,16 +4156,12 @@ http://play.dnsrot.vip/live/ramagi777/e4ifqhgjpqf/215399.m3u8
 http://play.dnsrot.vip/live/ramagi777/e4ifqhgjpqf/38970.m3u8
 #EXTM3U
 #EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_IL1.xml.gz"
-#EXTINF:-1 group-title="NEWS WORLD" tvg-chno="1302" tvg-id="כאן.11.il" tvg-logo="https://i.imgur.com/LG4FkYF.jpeg" , ערוץ כאן 11 לצפייה ישירה
-https://kan11w.media.kan.org.il/hls/live/2105694/2105694/source1_4k/chunklist.m3u8
-#EXTINF:0 tvg-id="קשת.il" tvg-logo="http://epg.one/img2/2670.png" group-title="NEWS WORLD",קשת 12
-plugin://plugin.video.vod/?handler=Play&livetv=keshet
-#EXTINF:-1 group-title="NEWS WORLD" tvg-chno="1303" tvg-id="רשת.il" tvg-logo="https://gurutv.online/wp-content/uploads/ch13.jpg" , ערוץ רשת 13 לצפייה ישירה
+#EXTINF:-1 group-title="NEWS WORLD" tvg-chno="1303" tvg-id="רשת.il" tvg-logo="https://gurutv.online/wp-content/uploads/ch13.jpg",רשת 13
 https://d198ztbnlup2iq.cloudfront.net/out/v1/2d9050c90fb94df8b78d1d98306a1a65/index.m3u8
-#EXTINF:-1 group-title="NEWS WORLD" tvg-chno="1304" tvg-id="עברית.i24.il" tvg-logo="https://gurutv.online/wp-content/uploads/xi24news.jpg.pagespeed.ic.fhjsHkCDzf.webp" , ערוץ I24News לצפייה ישירה
-https://bcovlive-a.akamaihd.net/d89ede8094c741b7924120b27764153c/eu-central-1/5377161796001/profile_0/chunklist.m3u8
-#EXTINF:-1 group-title="NEWS WORLD" tvg-chno="1305" tvg-id="" tvg-logo="https://gurutv.online/wp-content/uploads/xcnn.jpg.pagespeed.ic.DU_bdJEA5F.webp" , ערוץ CNN News לצפייה ישירה
-https://live-manifests-aka.warnermediacdn.com/csmp/cmaf/live/2028716/cnnfast-international/master_de.m3u8
+#EXTINF:-1 group-title="NEWS WORLD" tvg-chno="1306" tvg-id="DW.English.HD.il" tvg-logo="https://images.frp1.ott.kaltura.com/Service.svc/GetImage/p/3197/entry_id/3e0472dc1a6645b69a64c8300539c53e/version/3",DW English HD
+https://dwamdstream104.akamaized.net/hls/live/2015530/dwstream104/index.m3u8
+#EXTINF:-1 group-title="NEWS WORLD" tvg-chno="1307" tvg-id="ערוץ.הכנסת.il" tvg-logo="https://images.frp1.ott.kaltura.com/Service.svc/GetImage/p/3197/entry_id/2c7f02e3c7914dd7bcdc5e57a0efbb8c/version/2",ערוץ הכנסת
+https://main.knesset.gov.il/tv/live/knesset_hls_high.isml/hls/live.m3u8
 #EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_AR1.xml.gz,https://iptv-epg.org/files/epg-ar.xml.gz" deinterlaced="1"
 #EXTM3U url-epg="https://iptv-epg.org/files/epg-ar.xml"
 #EXTINF:-1 group-title="ARGENTINA" tvg-id="ElTrece.ar" tvg-logo="https://www.lyngsat.com/logo/tv/ee/el-trece.png",El Trece
@@ -8757,7 +8673,6 @@ http://streaming.hotmix-radio.net/hotmixradio-80-128.mp3
 #EXTM3U x-tvg-url="https://iptv-org.github.io/epg/guides/mx/izzi.mx.epg.xml,https://iptv-org.github.io/epg/guides/pt/meo.pt.epg.xml,https://iptv-org.github.io/epg/guides/rs/mts.rs.epg.xml,https://iptv-org.github.io/epg/guides/il/yes.co.il.epg.xml,https://epgshare01.online/epgshare01/epg_ripper_MX1.xml.gz"
 #EXTINF:-1 group-title="Reality Show's Live" tvg-id="tv-globo" tvg-name="Globo" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/1f/TV_Globo_logo_%28April_2025%29.png",GLOBO (VIVO)
 http://xlsdfgvertydthdfdfgh5634dsfdsr4f.ethertwo.sbs/cesar3377/cse3377/12723.ts
-#EXTM3U
 #EXTINF:-1 tvg-logo="https://i.imgur.com/MN5tnPw.png" group-title="Reality Show's Live",Casa do Patrao: Casa Convivencia (B)
 http://play.1list.vip/live/8gZav5kQe2/duoiptv/1009226.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/MN5tnPw.png" group-title="Reality Show's Live",Casa do Patrao: Piscina (B)
@@ -8816,71 +8731,71 @@ https://tv.nousiptv.com:8443/mparodi/6900/1285662
 https://tv.nousiptv.com:8443/mparodi/6900/1285663
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://www.clarin.com/img/2025/12/16/rcuIRK9gO_2000x1500__1.jpg" group-title="Reality Show's Live",GH MULTICÁMARA
 https://tv.nousiptv.com:8443/mparodi/6900/1285664
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://www.clarin.com/img/2025/12/16/rcuIRK9gO_2000x1500__1.jpg" group-title="EL GRAN HERMANO (ARGENTINA) 2",PRINCIPAL
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://www.clarin.com/img/2025/12/16/rcuIRK9gO_2000x1500__1.jpg" group-title="Reality Show's Live",PRINCIPAL
 https://tv.nousiptv.com:8443/nelsonr/nr099391093/1285296
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://www.clarin.com/img/2025/12/16/rcuIRK9gO_2000x1500__1.jpg" group-title="EL GRAN HERMANO (ARGENTINA) 2",CAM 1
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://www.clarin.com/img/2025/12/16/rcuIRK9gO_2000x1500__1.jpg" group-title="Reality Show's Live",CAM 1
 https://tv.nousiptv.com:8443/nelsonr/nr099391093/1285661
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://www.clarin.com/img/2025/12/16/rcuIRK9gO_2000x1500__1.jpg" group-title="EL GRAN HERMANO (ARGENTINA) 2",CAM 2
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://www.clarin.com/img/2025/12/16/rcuIRK9gO_2000x1500__1.jpg" group-title="Reality Show's Live",CAM 2
 https://tv.nousiptv.com:8443/nelsonr/nr099391093/1285662
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://www.clarin.com/img/2025/12/16/rcuIRK9gO_2000x1500__1.jpg" group-title="EL GRAN HERMANO (ARGENTINA) 2",CAM 3
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://www.clarin.com/img/2025/12/16/rcuIRK9gO_2000x1500__1.jpg" group-title="Reality Show's Live",CAM 3
 https://tv.nousiptv.com:8443/nelsonr/nr099391093/1285663
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://www.clarin.com/img/2025/12/16/rcuIRK9gO_2000x1500__1.jpg" group-title="EL GRAN HERMANO (ARGENTINA) 2",MULTICÁMARA
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://www.clarin.com/img/2025/12/16/rcuIRK9gO_2000x1500__1.jpg" group-title="Reality Show's Live",MULTICÁMARA
 https://tv.nousiptv.com:8443/nelsonr/nr099391093/1285664
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Telefe_%28nuevo_logo%29.png/330px-Telefe_%28nuevo_logo%29.png" group-title="EL GRAN HERMANO (ARGENTINA) 2",TELEFE (VIVO)
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Telefe_%28nuevo_logo%29.png/330px-Telefe_%28nuevo_logo%29.png" group-title="Reality Show's Live",TELEFE (VIVO)
 https://tv.nousiptv.com:8443/nelsonr/nr099391093/1155824
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/4/47/Casadopatrao.jpg" group-title="CASA DO PATRÃO (BRASIL) 1",CAM 1
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/4/47/Casadopatrao.jpg" group-title="Reality Show's Live",CAM 1
 http://xlsdfgvertydthdfdfgh5634dsfdsr4f.ethertwo.sbs/live/5856140/6215848/1652946.m3u
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/4/47/Casadopatrao.jpg" group-title="CASA DO PATRÃO (BRASIL) 1",CAM 2
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/4/47/Casadopatrao.jpg" group-title="Reality Show's Live",CAM 2
 http://xlsdfgvertydthdfdfgh5634dsfdsr4f.ethertwo.sbs/live/5856140/6215848/1652949.m3u
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/4/47/Casadopatrao.jpg" group-title="CASA DO PATRÃO (BRASIL) 1",CAM 3
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/4/47/Casadopatrao.jpg" group-title="Reality Show's Live",CAM 3
 http://xlsdfgvertydthdfdfgh5634dsfdsr4f.ethertwo.sbs/live/5856140/6215848/1652952.m3u
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/4/47/Casadopatrao.jpg" group-title="CASA DO PATRÃO (BRASIL) 1",CAM 4
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/4/47/Casadopatrao.jpg" group-title="Reality Show's Live",CAM 4
 http://xlsdfgvertydthdfdfgh5634dsfdsr4f.ethertwo.sbs/live/5856140/6215848/1652955.m3u
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/4/47/Casadopatrao.jpg" group-title="CASA DO PATRÃO (BRASIL) 1",CAM 5
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/4/47/Casadopatrao.jpg" group-title="Reality Show's Live",CAM 5
 http://xlsdfgvertydthdfdfgh5634dsfdsr4f.ethertwo.sbs/live/5856140/6215848/1652961.m3u
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/4/47/Casadopatrao.jpg" group-title="CASA DO PATRÃO (BRASIL) 1",CAM 6
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/4/47/Casadopatrao.jpg" group-title="Reality Show's Live",CAM 6
 http://xlsdfgvertydthdfdfgh5634dsfdsr4f.ethertwo.sbs/live/5856140/6215848/1652988.m3u
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/4/47/Casadopatrao.jpg" group-title="CASA DO PATRÃO (BRASIL) 1",CAM 7
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/4/47/Casadopatrao.jpg" group-title="Reality Show's Live",CAM 7
 http://xlsdfgvertydthdfdfgh5634dsfdsr4f.ethertwo.sbs/live/5856140/6215848/1652991.m3u
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/4/47/Casadopatrao.jpg" group-title="CASA DO PATRÃO (BRASIL) 1",CAM 8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/4/47/Casadopatrao.jpg" group-title="Reality Show's Live",CAM 8
 http://xlsdfgvertydthdfdfgh5634dsfdsr4f.ethertwo.sbs/live/5856140/6215848/1652992.m3u
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/1/10/Logotipo_da_Record.png" group-title="CASA DO PATRÃO (BRASIL) 1",RECORD (VIVO)
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/1/10/Logotipo_da_Record.png" group-title="Reality Show's Live",RECORD (VIVO)
 http://xlsdfgvertydthdfdfgh5634dsfdsr4f.ethertwo.sbs/live/5856140/6215848/902.m3u
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/4/47/Casadopatrao.jpg" group-title="CASA DO PATRÃO (BRASIL) 2",CAM 1
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/4/47/Casadopatrao.jpg" group-title="Reality Show's Live",CAM 1
 http://xlsdfgvertydthdfdfgh5634dsfdsr4f.ethertwo.sbs/live/4792916/8539232/1652946.m3u
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/4/47/Casadopatrao.jpg" group-title="CASA DO PATRÃO (BRASIL) 2",CAM 2
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/4/47/Casadopatrao.jpg" group-title="Reality Show's Live",CAM 2
 http://xlsdfgvertydthdfdfgh5634dsfdsr4f.ethertwo.sbs/live/4792916/8539232/1652949.m3u
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/4/47/Casadopatrao.jpg" group-title="CASA DO PATRÃO (BRASIL) 2",CAM 3
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/4/47/Casadopatrao.jpg" group-title="Reality Show's Live",CAM 3
 http://xlsdfgvertydthdfdfgh5634dsfdsr4f.ethertwo.sbs/live/4792916/8539232/1652952.m3u
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/4/47/Casadopatrao.jpg" group-title="CASA DO PATRÃO (BRASIL) 2",CAM 4
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/4/47/Casadopatrao.jpg" group-title="Reality Show's Live",CAM 4
 http://xlsdfgvertydthdfdfgh5634dsfdsr4f.ethertwo.sbs/live/4792916/8539232/1652955.m3u
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/4/47/Casadopatrao.jpg" group-title="CASA DO PATRÃO (BRASIL) 2",CAM 5
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/4/47/Casadopatrao.jpg" group-title="Reality Show's Live",CAM 5
 http://xlsdfgvertydthdfdfgh5634dsfdsr4f.ethertwo.sbs/live/4792916/8539232/1652961.m3u
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/4/47/Casadopatrao.jpg" group-title="CASA DO PATRÃO (BRASIL) 2",CAM 6
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/4/47/Casadopatrao.jpg" group-title="Reality Show's Live",CAM 6
 http://xlsdfgvertydthdfdfgh5634dsfdsr4f.ethertwo.sbs/live/4792916/8539232/1652988.m3u
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/4/47/Casadopatrao.jpg" group-title="CASA DO PATRÃO (BRASIL) 2",CAM 7
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/4/47/Casadopatrao.jpg" group-title="Reality Show's Live",CAM 7
 http://xlsdfgvertydthdfdfgh5634dsfdsr4f.ethertwo.sbs/live/4792916/8539232/1652991.m3u
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/4/47/Casadopatrao.jpg" group-title="CASA DO PATRÃO (BRASIL) 2",CAM 8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/4/47/Casadopatrao.jpg" group-title="Reality Show's Live",CAM 8
 http://xlsdfgvertydthdfdfgh5634dsfdsr4f.ethertwo.sbs/live/4792916/8539232/1652992.m3u
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/1/10/Logotipo_da_Record.png" group-title="CASA DO PATRÃO (BRASIL) 2",RECORD (VIVO)
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/1/10/Logotipo_da_Record.png" group-title="Reality Show's Live",RECORD (VIVO)
 http://xlsdfgvertydthdfdfgh5634dsfdsr4f.ethertwo.sbs/live/4792916/8539232/902.m3u
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/4/47/Casadopatrao.jpg" group-title="CASA DO PATRÃO (BRASIL) 3",CAM 1
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/4/47/Casadopatrao.jpg" group-title="Reality Show's Live",CAM 1
 http://xlsdfgvertydthdfdfgh5634dsfdsr4f.ethertwo.sbs/live/4846140/5740524/1652946.m3u
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/4/47/Casadopatrao.jpg" group-title="CASA DO PATRÃO (BRASIL) 3",CAM 2
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/4/47/Casadopatrao.jpg" group-title="Reality Show's Live",CAM 2
 http://xlsdfgvertydthdfdfgh5634dsfdsr4f.ethertwo.sbs/live/4846140/5740524/1652949.m3u
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/4/47/Casadopatrao.jpg" group-title="CASA DO PATRÃO (BRASIL) 3",CAM 3
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/4/47/Casadopatrao.jpg" group-title="Reality Show's Live",CAM 3
 http://xlsdfgvertydthdfdfgh5634dsfdsr4f.ethertwo.sbs/live/4846140/5740524/1652952.m3u
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/4/47/Casadopatrao.jpg" group-title="CASA DO PATRÃO (BRASIL) 3",CAM 4
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/4/47/Casadopatrao.jpg" group-title="Reality Show's Live",CAM 4
 http://xlsdfgvertydthdfdfgh5634dsfdsr4f.ethertwo.sbs/live/4846140/5740524/1652955.m3u
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/4/47/Casadopatrao.jpg" group-title="CASA DO PATRÃO (BRASIL) 3",CAM 5
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/4/47/Casadopatrao.jpg" group-title="Reality Show's Live",CAM 5
 http://xlsdfgvertydthdfdfgh5634dsfdsr4f.ethertwo.sbs/live/4846140/5740524/1652961.m3u
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/4/47/Casadopatrao.jpg" group-title="CASA DO PATRÃO (BRASIL) 3",CAM 6
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/4/47/Casadopatrao.jpg" group-title="Reality Show's Live",CAM 6
 http://xlsdfgvertydthdfdfgh5634dsfdsr4f.ethertwo.sbs/live/4846140/5740524/1652988.m3u
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/4/47/Casadopatrao.jpg" group-title="CASA DO PATRÃO (BRASIL) 3",CAM 7
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/4/47/Casadopatrao.jpg" group-title="Reality Show's Live",CAM 7
 http://xlsdfgvertydthdfdfgh5634dsfdsr4f.ethertwo.sbs/live/4846140/5740524/1652991.m3u
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/4/47/Casadopatrao.jpg" group-title="CASA DO PATRÃO (BRASIL) 3",CAM 8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/4/47/Casadopatrao.jpg" group-title="Reality Show's Live",CAM 8
 http://xlsdfgvertydthdfdfgh5634dsfdsr4f.ethertwo.sbs/live/4846140/5740524/1652992.m3u
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/1/10/Logotipo_da_Record.png" group-title="CASA DO PATRÃO (BRASIL) 3",RECORD (VIVO)
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/1/10/Logotipo_da_Record.png" group-title="Reality Show's Live",RECORD (VIVO)
 http://xlsdfgvertydthdfdfgh5634dsfdsr4f.ethertwo.sbs/live/4846140/5740524/902.m3u
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/4/47/Casadopatrao.jpg" group-title="Reality Show's Live",CAM 1
 http://172.110.219.252:80/85836530/57158922/5144915.ts
@@ -9134,43 +9049,43 @@ https://webtvstream.bhtelecom.ba/hls19/zadruga_live3_1200.m3u8
 https://d2lckchr9cxrss.cloudfront.net/out/v1/c73af7694cce4767888c08a7534b503c/index.m3u8
 #EXTINF:-1 group-title="Reality Show's Live" tvg-logo="https://raw.githubusercontent.com/RokuIL/Live-From-Israel/master/Logos/Big%20Brother.png",BIG BROTHER ISRAEL (VPN) 2
 https://cdnapisec.kaltura.com/p/2748741/sp/2748741/playManifest/entryId/1_6fr5xbw2/deliveryProfileId/672/protocol/https/format/applehttp/index_3.m3u8
-#EXTINF:-1 tvg-chno="240" tvg-logo="https://cdn.mitvstatic.com/channels/60ef29f0-d7fb-487d-85c8-a1fbcf2ff8da_m.jpg" group-title="Colombia",RCN ² 🇨🇴
+#EXTINF:-1 tvg-chno="240" tvg-logo="https://cdn.mitvstatic.com/channels/60ef29f0-d7fb-487d-85c8-a1fbcf2ff8da_m.jpg" group-title="Reality Show's Live",RCN ² 🇨🇴
 http://181.118.156.46:8000/play/a03r/index.m3u8
-#EXTINF:-1 tvg-chno="240" tvg-logo="https://cdn.mitvstatic.com/channels/60ef29f0-d7fb-487d-85c8-a1fbcf2ff8da_m.jpg" group-title="Colombia",RCN 2 ² 🇨🇴
+#EXTINF:-1 tvg-chno="240" tvg-logo="https://cdn.mitvstatic.com/channels/60ef29f0-d7fb-487d-85c8-a1fbcf2ff8da_m.jpg" group-title="Reality Show's Live",RCN 2 ² 🇨🇴
 http://181.78.7.90:12500/play/a06l/index.m3u8
-#EXTINF:-1 tvg-chno="800" tvg-logo="https://www.laopinion.co/sites/default/files/styles/portada_principal_mobile_376x211/public/2025-09/LCDLF-3.jpg?itok=wD9eFKBG" group-title="Reality",LCDLF 3 (Principal) 🇨🇴
+#EXTINF:-1 tvg-chno="800" tvg-logo="https://www.laopinion.co/sites/default/files/styles/portada_principal_mobile_376x211/public/2025-09/LCDLF-3.jpg?itok=wD9eFKBG" group-title="Reality Show's Live",LCDLF 3 (Principal) 🇨🇴
 http://domestipo1.online:80/live/ser682mun/5w49evr21/736727.m3u8
-#EXTINF:-1 tvg-chno="800" tvg-logo="https://www.laopinion.co/sites/default/files/styles/portada_principal_mobile_376x211/public/2025-09/LCDLF-3.jpg?itok=wD9eFKBG" group-title="Reality",LCDLF 3 (Sala) 🇨🇴
+#EXTINF:-1 tvg-chno="800" tvg-logo="https://www.laopinion.co/sites/default/files/styles/portada_principal_mobile_376x211/public/2025-09/LCDLF-3.jpg?itok=wD9eFKBG" group-title="Reality Show's Live",LCDLF 3 (Sala) 🇨🇴
 http://domestipo1.online:80/live/ser682mun/5w49evr21/736728.m3u8
-#EXTINF:-1 tvg-chno="800" tvg-logo="https://www.laopinion.co/sites/default/files/styles/portada_principal_mobile_376x211/public/2025-09/LCDLF-3.jpg?itok=wD9eFKBG" group-title="Reality",LCDLF 3 (Comedor) 🇨🇴
+#EXTINF:-1 tvg-chno="800" tvg-logo="https://www.laopinion.co/sites/default/files/styles/portada_principal_mobile_376x211/public/2025-09/LCDLF-3.jpg?itok=wD9eFKBG" group-title="Reality Show's Live",LCDLF 3 (Comedor) 🇨🇴
 http://domestipo1.online:80/live/ser682mun/5w49evr21/736729.m3u8
-#EXTINF:-1 tvg-chno="800" tvg-logo="https://www.laopinion.co/sites/default/files/styles/portada_principal_mobile_376x211/public/2025-09/LCDLF-3.jpg?itok=wD9eFKBG" group-title="Reality",LCDLF 3 (Beauty) 🇨🇴
+#EXTINF:-1 tvg-chno="800" tvg-logo="https://www.laopinion.co/sites/default/files/styles/portada_principal_mobile_376x211/public/2025-09/LCDLF-3.jpg?itok=wD9eFKBG" group-title="Reality Show's Live",LCDLF 3 (Beauty) 🇨🇴
 http://domestipo1.online:80/live/ser682mun/5w49evr21/736732.m3u8
-#EXTINF:-1 tvg-chno="800" tvg-logo="https://www.laopinion.co/sites/default/files/styles/portada_principal_mobile_376x211/public/2025-09/LCDLF-3.jpg?itok=wD9eFKBG" group-title="Reality",LCDLF 3 (Hab. Calma) 🇨🇴
+#EXTINF:-1 tvg-chno="800" tvg-logo="https://www.laopinion.co/sites/default/files/styles/portada_principal_mobile_376x211/public/2025-09/LCDLF-3.jpg?itok=wD9eFKBG" group-title="Reality Show's Live",LCDLF 3 (Hab. Calma) 🇨🇴
 http://domestipo1.online:80/live/ser682mun/5w49evr21/736730.m3u8
-#EXTINF:-1 tvg-chno="800" tvg-logo="https://www.laopinion.co/sites/default/files/styles/portada_principal_mobile_376x211/public/2025-09/LCDLF-3.jpg?itok=wD9eFKBG" group-title="Reality",LCDLF 3 (Hab. Tormenta) 🇨🇴
+#EXTINF:-1 tvg-chno="800" tvg-logo="https://www.laopinion.co/sites/default/files/styles/portada_principal_mobile_376x211/public/2025-09/LCDLF-3.jpg?itok=wD9eFKBG" group-title="Reality Show's Live",LCDLF 3 (Hab. Tormenta) 🇨🇴
 http://domestipo1.online:80/live/ser682mun/5w49evr21/736731.m3u8
-#EXTINF:-1 tvg-chno="800" tvg-logo="https://www.laopinion.co/sites/default/files/styles/portada_principal_mobile_376x211/public/2025-09/LCDLF-3.jpg?itok=wD9eFKBG" group-title="Reality",LCDLF 3 (Baños) 🇨🇴
+#EXTINF:-1 tvg-chno="800" tvg-logo="https://www.laopinion.co/sites/default/files/styles/portada_principal_mobile_376x211/public/2025-09/LCDLF-3.jpg?itok=wD9eFKBG" group-title="Reality Show's Live",LCDLF 3 (Baños) 🇨🇴
 http://domestipo1.online:80/live/ser682mun/5w49evr21/736733.m3u8
-#EXTINF:-1 tvg-chno="800" tvg-logo="https://periodicocorreo.com.mx/core/correo/assets/images/2026/01/19/middle-g-bwnplxcaan42l-Xe3FRAPQV.jpg" group-title="Reality",Apostarias por Mí (Villa) 🇺🇸
+#EXTINF:-1 tvg-chno="800" tvg-logo="https://periodicocorreo.com.mx/core/correo/assets/images/2026/01/19/middle-g-bwnplxcaan42l-Xe3FRAPQV.jpg" group-title="Reality Show's Live",Apostarias por Mí (Villa) 🇺🇸
 http://domestipo1.online:80/live/ser682mun/5w49evr21/738700.m3u8
-#EXTINF:-1 tvg-chno="800" tvg-logo="https://periodicocorreo.com.mx/core/correo/assets/images/2026/01/19/middle-g-bwnplxcaan42l-Xe3FRAPQV.jpg" group-title="Reality",Apostarias por Mí (Conexión Total 24/7) 🇺🇸
+#EXTINF:-1 tvg-chno="800" tvg-logo="https://periodicocorreo.com.mx/core/correo/assets/images/2026/01/19/middle-g-bwnplxcaan42l-Xe3FRAPQV.jpg" group-title="Reality Show's Live",Apostarias por Mí (Conexión Total 24/7) 🇺🇸
 http://domestipo1.online:80/live/ser682mun/5w49evr21/738699.m3u8
-#EXTINF:-1 tvg-chno="800" tvg-logo="https://periodicocorreo.com.mx/core/correo/assets/images/2026/01/19/middle-g-bwnplxcaan42l-Xe3FRAPQV.jpg" group-title="Reality",Apostarias por Mí (Sala) 🇺🇸
+#EXTINF:-1 tvg-chno="800" tvg-logo="https://periodicocorreo.com.mx/core/correo/assets/images/2026/01/19/middle-g-bwnplxcaan42l-Xe3FRAPQV.jpg" group-title="Reality Show's Live",Apostarias por Mí (Sala) 🇺🇸
 http://domestipo1.online:80/live/ser682mun/5w49evr21/738705.m3u8
-#EXTINF:-1 tvg-chno="800" tvg-logo="https://periodicocorreo.com.mx/core/correo/assets/images/2026/01/19/middle-g-bwnplxcaan42l-Xe3FRAPQV.jpg" group-title="Reality",Apostarias por Mí (Cocina) 🇺🇸
+#EXTINF:-1 tvg-chno="800" tvg-logo="https://periodicocorreo.com.mx/core/correo/assets/images/2026/01/19/middle-g-bwnplxcaan42l-Xe3FRAPQV.jpg" group-title="Reality Show's Live",Apostarias por Mí (Cocina) 🇺🇸
 http://domestipo1.online:80/live/ser682mun/5w49evr21/738704.m3u8
-#EXTINF:-1 tvg-chno="800" tvg-logo="https://periodicocorreo.com.mx/core/correo/assets/images/2026/01/19/middle-g-bwnplxcaan42l-Xe3FRAPQV.jpg" group-title="Reality",Apostarias por Mí (Hab. Corazón) 🇺🇸
+#EXTINF:-1 tvg-chno="800" tvg-logo="https://periodicocorreo.com.mx/core/correo/assets/images/2026/01/19/middle-g-bwnplxcaan42l-Xe3FRAPQV.jpg" group-title="Reality Show's Live",Apostarias por Mí (Hab. Corazón) 🇺🇸
 http://domestipo1.online:80/live/ser682mun/5w49evr21/738701.m3u8
-#EXTINF:-1 tvg-chno="800" tvg-logo="https://periodicocorreo.com.mx/core/correo/assets/images/2026/01/19/middle-g-bwnplxcaan42l-Xe3FRAPQV.jpg" group-title="Reality",Apostarias por Mí (Hab. Trébol) 🇺🇸
+#EXTINF:-1 tvg-chno="800" tvg-logo="https://periodicocorreo.com.mx/core/correo/assets/images/2026/01/19/middle-g-bwnplxcaan42l-Xe3FRAPQV.jpg" group-title="Reality Show's Live",Apostarias por Mí (Hab. Trébol) 🇺🇸
 http://domestipo1.online:80/live/ser682mun/5w49evr21/738702.m3u8
-#EXTINF:-1 tvg-chno="800" tvg-logo="https://periodicocorreo.com.mx/core/correo/assets/images/2026/01/19/middle-g-bwnplxcaan42l-Xe3FRAPQV.jpg" group-title="Reality",Apostarias por Mí (Baños) 🇺🇸
+#EXTINF:-1 tvg-chno="800" tvg-logo="https://periodicocorreo.com.mx/core/correo/assets/images/2026/01/19/middle-g-bwnplxcaan42l-Xe3FRAPQV.jpg" group-title="Reality Show's Live",Apostarias por Mí (Baños) 🇺🇸
 http://domestipo1.online:80/live/ser682mun/5w49evr21/738703.m3u8
-#EXTINF:-1 tvg-chno="800" tvg-logo="https://periodicocorreo.com.mx/core/correo/assets/images/2026/01/19/middle-g-bwnplxcaan42l-Xe3FRAPQV.jpg" group-title="Reality",Apostarias por Mí (Multicámaras) 🇺🇸
+#EXTINF:-1 tvg-chno="800" tvg-logo="https://periodicocorreo.com.mx/core/correo/assets/images/2026/01/19/middle-g-bwnplxcaan42l-Xe3FRAPQV.jpg" group-title="Reality Show's Live",Apostarias por Mí (Multicámaras) 🇺🇸
 http://domestipo1.online:80/live/ser682mun/5w49evr21/738706.m3u8
-#EXTINF:-1 tvg-chno="800" tvg-logo="https://deadline.com/wp-content/uploads/2026/02/la-casa-de-los-famosos-season-6-2026-telemundo-cast-photos.jpg?w=681&h=383&crop=1" group-title="Reality",LCDLF 6 USA (24/7 - 1) 🇺🇸
+#EXTINF:-1 tvg-chno="800" tvg-logo="https://deadline.com/wp-content/uploads/2026/02/la-casa-de-los-famosos-season-6-2026-telemundo-cast-photos.jpg?w=681&h=383&crop=1" group-title="Reality Show's Live",LCDLF 6 USA (24/7 - 1) 🇺🇸
 http://domestipo1.online:80/live/ser682mun/5w49evr21/747415.m3u8
-#EXTINF:-1 tvg-chno="800" tvg-logo="https://deadline.com/wp-content/uploads/2026/02/la-casa-de-los-famosos-season-6-2026-telemundo-cast-photos.jpg?w=681&h=383&crop=1" group-title="Reality",LCDLF 6 USA (24/7 - 2) 🇺🇸
+#EXTINF:-1 tvg-chno="800" tvg-logo="https://deadline.com/wp-content/uploads/2026/02/la-casa-de-los-famosos-season-6-2026-telemundo-cast-photos.jpg?w=681&h=383&crop=1" group-title="Reality Show's Live",LCDLF 6 USA (24/7 - 2) 🇺🇸
 http://domestipo1.online:80/live/ser682mun/5w49evr21/747416.m3u8
 #EXTINF:-1 tvg-id="+SBT Silvio Santos" tvg-name="+SBT Raiz" tvg-logo="https://i.imgur.com/As98iql.png" group-title="Canais | SBT",+SBT Raiz
 http://gopower.click:80/wesleyvitor/58682594/406524
@@ -9636,43 +9551,6 @@ https://vgtrkregion-reg.cdnvideo.ru/vgtrk/0/russia1-hd/index.m3u8
 https://s.pokaz.me/zhk7j0uqDKrpQpDoIutrcw/544/1753896034/index.m3u8
 #EXTINF:-1 tvg-id="rossija24" tvg-name="Rossiya 24" tvg-logo="http://epg.it999.ru/img2/1683.png" group-title="RUSSIA",Россия-24
 https://vgtrkregion-reg.cdnvideo.ru/vgtrk/0/russia24-sd/index.m3u8
-#EXTM3U url-tvg="https://github.com/LITUATUI/M3UPT/raw/main/EPG/epg-m3upt.xml.xz"
-# M3UPT.com - IPTV playlist in M3U format with TV and radio stations in Portuguese. Public and official streams only.
-# 📺 TV
-#EXTINF:-1 group-title="TV" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP1.png",RTP 1
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:144.0) Gecko/20100101 Firefox/144.0
-#EXTVLCOPT:http-origin=https://www.rtp.pt
-#EXTVLCOPT:http-referrer=https://www.rtp.pt/play/direto/rtp1
-https://streaming-live.rtp.pt/liverepeater/smil:rtp1HD.smil/playlist.m3u8
-#EXTINF:-1 group-title="TV" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP2.png",RTP 2
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:144.0) Gecko/20100101 Firefox/144.0
-#EXTVLCOPT:http-origin=https://www.rtp.pt
-#EXTVLCOPT:http-referrer=https://www.rtp.pt/play/direto/rtp2
-https://streaming-live.rtp.pt/liverepeater/rtp2HD.smil/playlist.m3u8
-#EXTINF:-1 group-title="TV" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/SIC.png",SIC
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:144.0) Gecko/20100101 Firefox/144.0
-#EXTVLCOPT:http-origin=https://sic.pt
-#EXTVLCOPT:http-referrer=https://sic.pt/
-https://d1zx6l1dn8vaj5.cloudfront.net/out/v1/b89cc37caa6d418eb423cf092a2ef970/index.m3u8
-#EXTINF:-1 group-title="TV" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/TVI.png",TVI
-https://video-auth6.iol.pt/live_tvi/live_tvi/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Mi8yMi8yMDI2IDY6MjI6MzYgQU0maGFzaF92YWx1ZT1ubVFYd0NkcHQxUWxsajJxWkQvenRRPT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9MjJkMmQ3YWYtYTI0MS00YjM0LWI5YzctMThmYjdjYzQ3MmEz/
-#EXTINF:-1 group-title="TV" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/rtpnoticias.png",RTP Notícias
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:144.0) Gecko/20100101 Firefox/144.0
-#EXTVLCOPT:http-origin=https://www.rtp.pt
-#EXTVLCOPT:http-referrer=https://www.rtp.pt/play/direto/rtp3
-https://streaming-live.rtp.pt/liverepeater/smil:rtpnHD.smil/playlist.m3u8
-#EXTINF:-1 group-title="TV" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/SIC-Notícias.png",SIC Notícias
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:144.0) Gecko/20100101 Firefox/144.0
-#EXTVLCOPT:http-origin=https://sicnoticias.pt
-#EXTVLCOPT:http-referrer=https://sicnoticias.pt/
-https://sicnot.live.impresa.pt/sicnot.m3u8
-#EXTINF:-1 group-title="TV" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/CNN-Portugal.png",CNN Portugal
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:144.0) Gecko/20100101 Firefox/144.0
-https://video-auth7.iol.pt/live_cnn/live_cnn/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Mi8yMi8yMDI2IDY6MjI6MzcgQU0maGFzaF92YWx1ZT1xLzYrN3hvT0loK2ZjYzZwZS9wck9RPT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9MTJiMTA0Y2UtNGQ0OS00NmNmLTk3Y2ItMTM3MTg0NzQ4Nzg2/
-#EXTINF:-1 group-title="TV" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/CNN-Portugal.png",CNN Portugal
-#https://github.com/LITUATUI/M3UPT/raw/refs/heads/main/M3U/CNN_Portugal.m3u
-#EXTINF:-1 group-title="TV" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/CNN-Brasil.png",CNN Brasil
-https://d25usgadhphvwi.cloudfront.net/hls/main.m3u8
 #EXTM3U x-tvg-url="https://raw.githubusercontent.com/globetvapp/epg/main/Venezuela/venezuela1.xml.gz"
 #EXTINF:-1 group-title="VENEZUELA" tvg-id="VENEVISION.ve",Venevisión (1080p) [Geo-blocked]
 https://venevision.akamaized.net/hls/live/2098814/VENEVISION/master.m3u8
@@ -12771,71 +12649,71 @@ https://tv.nousiptv.com:8443/mparodi/6900/1285662
 https://tv.nousiptv.com:8443/mparodi/6900/1285663
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://www.clarin.com/img/2025/12/16/rcuIRK9gO_2000x1500__1.jpg" group-title="Reality Show's Live",GH MULTICÁMARA
 https://tv.nousiptv.com:8443/mparodi/6900/1285664
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://www.clarin.com/img/2025/12/16/rcuIRK9gO_2000x1500__1.jpg" group-title="EL GRAN HERMANO (ARGENTINA) 2",PRINCIPAL
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://www.clarin.com/img/2025/12/16/rcuIRK9gO_2000x1500__1.jpg" group-title="Reality Show's Live",PRINCIPAL
 https://tv.nousiptv.com:8443/nelsonr/nr099391093/1285296
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://www.clarin.com/img/2025/12/16/rcuIRK9gO_2000x1500__1.jpg" group-title="EL GRAN HERMANO (ARGENTINA) 2",CAM 1
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://www.clarin.com/img/2025/12/16/rcuIRK9gO_2000x1500__1.jpg" group-title="Reality Show's Live",CAM 1
 https://tv.nousiptv.com:8443/nelsonr/nr099391093/1285661
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://www.clarin.com/img/2025/12/16/rcuIRK9gO_2000x1500__1.jpg" group-title="EL GRAN HERMANO (ARGENTINA) 2",CAM 2
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://www.clarin.com/img/2025/12/16/rcuIRK9gO_2000x1500__1.jpg" group-title="Reality Show's Live",CAM 2
 https://tv.nousiptv.com:8443/nelsonr/nr099391093/1285662
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://www.clarin.com/img/2025/12/16/rcuIRK9gO_2000x1500__1.jpg" group-title="EL GRAN HERMANO (ARGENTINA) 2",CAM 3
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://www.clarin.com/img/2025/12/16/rcuIRK9gO_2000x1500__1.jpg" group-title="Reality Show's Live",CAM 3
 https://tv.nousiptv.com:8443/nelsonr/nr099391093/1285663
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://www.clarin.com/img/2025/12/16/rcuIRK9gO_2000x1500__1.jpg" group-title="EL GRAN HERMANO (ARGENTINA) 2",MULTICÁMARA
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://www.clarin.com/img/2025/12/16/rcuIRK9gO_2000x1500__1.jpg" group-title="Reality Show's Live",MULTICÁMARA
 https://tv.nousiptv.com:8443/nelsonr/nr099391093/1285664
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Telefe_%28nuevo_logo%29.png/330px-Telefe_%28nuevo_logo%29.png" group-title="EL GRAN HERMANO (ARGENTINA) 2",TELEFE (VIVO)
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Telefe_%28nuevo_logo%29.png/330px-Telefe_%28nuevo_logo%29.png" group-title="Reality Show's Live",TELEFE (VIVO)
 https://tv.nousiptv.com:8443/nelsonr/nr099391093/1155824
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/4/47/Casadopatrao.jpg" group-title="CASA DO PATRÃO (BRASIL) 1",CAM 1
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/4/47/Casadopatrao.jpg" group-title="Reality Show's Live",CAM 1
 http://xlsdfgvertydthdfdfgh5634dsfdsr4f.ethertwo.sbs/live/5856140/6215848/1652946.m3u
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/4/47/Casadopatrao.jpg" group-title="CASA DO PATRÃO (BRASIL) 1",CAM 2
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/4/47/Casadopatrao.jpg" group-title="Reality Show's Live",CAM 2
 http://xlsdfgvertydthdfdfgh5634dsfdsr4f.ethertwo.sbs/live/5856140/6215848/1652949.m3u
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/4/47/Casadopatrao.jpg" group-title="CASA DO PATRÃO (BRASIL) 1",CAM 3
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/4/47/Casadopatrao.jpg" group-title="Reality Show's Live",CAM 3
 http://xlsdfgvertydthdfdfgh5634dsfdsr4f.ethertwo.sbs/live/5856140/6215848/1652952.m3u
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/4/47/Casadopatrao.jpg" group-title="CASA DO PATRÃO (BRASIL) 1",CAM 4
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/4/47/Casadopatrao.jpg" group-title="Reality Show's Live",CAM 4
 http://xlsdfgvertydthdfdfgh5634dsfdsr4f.ethertwo.sbs/live/5856140/6215848/1652955.m3u
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/4/47/Casadopatrao.jpg" group-title="CASA DO PATRÃO (BRASIL) 1",CAM 5
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/4/47/Casadopatrao.jpg" group-title="Reality Show's Live",CAM 5
 http://xlsdfgvertydthdfdfgh5634dsfdsr4f.ethertwo.sbs/live/5856140/6215848/1652961.m3u
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/4/47/Casadopatrao.jpg" group-title="CASA DO PATRÃO (BRASIL) 1",CAM 6
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/4/47/Casadopatrao.jpg" group-title="Reality Show's Live",CAM 6
 http://xlsdfgvertydthdfdfgh5634dsfdsr4f.ethertwo.sbs/live/5856140/6215848/1652988.m3u
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/4/47/Casadopatrao.jpg" group-title="CASA DO PATRÃO (BRASIL) 1",CAM 7
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/4/47/Casadopatrao.jpg" group-title="Reality Show's Live",CAM 7
 http://xlsdfgvertydthdfdfgh5634dsfdsr4f.ethertwo.sbs/live/5856140/6215848/1652991.m3u
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/4/47/Casadopatrao.jpg" group-title="CASA DO PATRÃO (BRASIL) 1",CAM 8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/4/47/Casadopatrao.jpg" group-title="Reality Show's Live",CAM 8
 http://xlsdfgvertydthdfdfgh5634dsfdsr4f.ethertwo.sbs/live/5856140/6215848/1652992.m3u
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/1/10/Logotipo_da_Record.png" group-title="CASA DO PATRÃO (BRASIL) 1",RECORD (VIVO)
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/1/10/Logotipo_da_Record.png" group-title="Reality Show's Live",RECORD (VIVO)
 http://xlsdfgvertydthdfdfgh5634dsfdsr4f.ethertwo.sbs/live/5856140/6215848/902.m3u
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/4/47/Casadopatrao.jpg" group-title="CASA DO PATRÃO (BRASIL) 2",CAM 1
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/4/47/Casadopatrao.jpg" group-title="Reality Show's Live",CAM 1
 http://xlsdfgvertydthdfdfgh5634dsfdsr4f.ethertwo.sbs/live/4792916/8539232/1652946.m3u
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/4/47/Casadopatrao.jpg" group-title="CASA DO PATRÃO (BRASIL) 2",CAM 2
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/4/47/Casadopatrao.jpg" group-title="Reality Show's Live",CAM 2
 http://xlsdfgvertydthdfdfgh5634dsfdsr4f.ethertwo.sbs/live/4792916/8539232/1652949.m3u
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/4/47/Casadopatrao.jpg" group-title="CASA DO PATRÃO (BRASIL) 2",CAM 3
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/4/47/Casadopatrao.jpg" group-title="Reality Show's Live",CAM 3
 http://xlsdfgvertydthdfdfgh5634dsfdsr4f.ethertwo.sbs/live/4792916/8539232/1652952.m3u
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/4/47/Casadopatrao.jpg" group-title="CASA DO PATRÃO (BRASIL) 2",CAM 4
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/4/47/Casadopatrao.jpg" group-title="Reality Show's Live",CAM 4
 http://xlsdfgvertydthdfdfgh5634dsfdsr4f.ethertwo.sbs/live/4792916/8539232/1652955.m3u
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/4/47/Casadopatrao.jpg" group-title="CASA DO PATRÃO (BRASIL) 2",CAM 5
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/4/47/Casadopatrao.jpg" group-title="Reality Show's Live",CAM 5
 http://xlsdfgvertydthdfdfgh5634dsfdsr4f.ethertwo.sbs/live/4792916/8539232/1652961.m3u
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/4/47/Casadopatrao.jpg" group-title="CASA DO PATRÃO (BRASIL) 2",CAM 6
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/4/47/Casadopatrao.jpg" group-title="Reality Show's Live",CAM 6
 http://xlsdfgvertydthdfdfgh5634dsfdsr4f.ethertwo.sbs/live/4792916/8539232/1652988.m3u
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/4/47/Casadopatrao.jpg" group-title="CASA DO PATRÃO (BRASIL) 2",CAM 7
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/4/47/Casadopatrao.jpg" group-title="Reality Show's Live",CAM 7
 http://xlsdfgvertydthdfdfgh5634dsfdsr4f.ethertwo.sbs/live/4792916/8539232/1652991.m3u
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/4/47/Casadopatrao.jpg" group-title="CASA DO PATRÃO (BRASIL) 2",CAM 8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/4/47/Casadopatrao.jpg" group-title="Reality Show's Live",CAM 8
 http://xlsdfgvertydthdfdfgh5634dsfdsr4f.ethertwo.sbs/live/4792916/8539232/1652992.m3u
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/1/10/Logotipo_da_Record.png" group-title="CASA DO PATRÃO (BRASIL) 2",RECORD (VIVO)
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/1/10/Logotipo_da_Record.png" group-title="Reality Show's Live",RECORD (VIVO)
 http://xlsdfgvertydthdfdfgh5634dsfdsr4f.ethertwo.sbs/live/4792916/8539232/902.m3u
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/4/47/Casadopatrao.jpg" group-title="CASA DO PATRÃO (BRASIL) 3",CAM 1
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/4/47/Casadopatrao.jpg" group-title="Reality Show's Live",CAM 1
 http://xlsdfgvertydthdfdfgh5634dsfdsr4f.ethertwo.sbs/live/4846140/5740524/1652946.m3u
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/4/47/Casadopatrao.jpg" group-title="CASA DO PATRÃO (BRASIL) 3",CAM 2
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/4/47/Casadopatrao.jpg" group-title="Reality Show's Live",CAM 2
 http://xlsdfgvertydthdfdfgh5634dsfdsr4f.ethertwo.sbs/live/4846140/5740524/1652949.m3u
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/4/47/Casadopatrao.jpg" group-title="CASA DO PATRÃO (BRASIL) 3",CAM 3
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/4/47/Casadopatrao.jpg" group-title="Reality Show's Live",CAM 3
 http://xlsdfgvertydthdfdfgh5634dsfdsr4f.ethertwo.sbs/live/4846140/5740524/1652952.m3u
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/4/47/Casadopatrao.jpg" group-title="CASA DO PATRÃO (BRASIL) 3",CAM 4
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/4/47/Casadopatrao.jpg" group-title="Reality Show's Live",CAM 4
 http://xlsdfgvertydthdfdfgh5634dsfdsr4f.ethertwo.sbs/live/4846140/5740524/1652955.m3u
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/4/47/Casadopatrao.jpg" group-title="CASA DO PATRÃO (BRASIL) 3",CAM 5
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/4/47/Casadopatrao.jpg" group-title="Reality Show's Live",CAM 5
 http://xlsdfgvertydthdfdfgh5634dsfdsr4f.ethertwo.sbs/live/4846140/5740524/1652961.m3u
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/4/47/Casadopatrao.jpg" group-title="CASA DO PATRÃO (BRASIL) 3",CAM 6
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/4/47/Casadopatrao.jpg" group-title="Reality Show's Live",CAM 6
 http://xlsdfgvertydthdfdfgh5634dsfdsr4f.ethertwo.sbs/live/4846140/5740524/1652988.m3u
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/4/47/Casadopatrao.jpg" group-title="CASA DO PATRÃO (BRASIL) 3",CAM 7
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/4/47/Casadopatrao.jpg" group-title="Reality Show's Live",CAM 7
 http://xlsdfgvertydthdfdfgh5634dsfdsr4f.ethertwo.sbs/live/4846140/5740524/1652991.m3u
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/4/47/Casadopatrao.jpg" group-title="CASA DO PATRÃO (BRASIL) 3",CAM 8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/4/47/Casadopatrao.jpg" group-title="Reality Show's Live",CAM 8
 http://xlsdfgvertydthdfdfgh5634dsfdsr4f.ethertwo.sbs/live/4846140/5740524/1652992.m3u
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/1/10/Logotipo_da_Record.png" group-title="CASA DO PATRÃO (BRASIL) 3",RECORD (VIVO)
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/1/10/Logotipo_da_Record.png" group-title="Reality Show's Live",RECORD (VIVO)
 http://xlsdfgvertydthdfdfgh5634dsfdsr4f.ethertwo.sbs/live/4846140/5740524/902.m3u
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/4/47/Casadopatrao.jpg" group-title="Reality Show's Live",CAM 1
 http://172.110.219.252:80/85836530/57158922/5144915.ts
@@ -13093,41 +12971,41 @@ https://webtvstream.bhtelecom.ba/hls19/zadruga_live3_1200.m3u8
 https://d2lckchr9cxrss.cloudfront.net/out/v1/c73af7694cce4767888c08a7534b503c/index.m3u8
 #EXTINF:-1 group-title="Reality Show's Live" tvg-logo="https://raw.githubusercontent.com/RokuIL/Live-From-Israel/master/Logos/Big%20Brother.png",BIG BROTHER ISRAEL (VPN) 2
 https://cdnapisec.kaltura.com/p/2748741/sp/2748741/playManifest/entryId/1_6fr5xbw2/deliveryProfileId/672/protocol/https/format/applehttp/index_3.m3u8
-#EXTINF:-1 tvg-chno="240" tvg-logo="https://cdn.mitvstatic.com/channels/60ef29f0-d7fb-487d-85c8-a1fbcf2ff8da_m.jpg" group-title="Colombia",RCN ² 🇨🇴
+#EXTINF:-1 tvg-chno="240" tvg-logo="https://cdn.mitvstatic.com/channels/60ef29f0-d7fb-487d-85c8-a1fbcf2ff8da_m.jpg" group-title="Reality Show's Live",RCN ² 🇨🇴
 http://181.118.156.46:8000/play/a03r/index.m3u8
-#EXTINF:-1 tvg-chno="240" tvg-logo="https://cdn.mitvstatic.com/channels/60ef29f0-d7fb-487d-85c8-a1fbcf2ff8da_m.jpg" group-title="Colombia",RCN 2 ² 🇨🇴
+#EXTINF:-1 tvg-chno="240" tvg-logo="https://cdn.mitvstatic.com/channels/60ef29f0-d7fb-487d-85c8-a1fbcf2ff8da_m.jpg" group-title="Reality Show's Live",RCN 2 ² 🇨🇴
 http://181.78.7.90:12500/play/a06l/index.m3u8
-#EXTINF:-1 tvg-chno="800" tvg-logo="https://www.laopinion.co/sites/default/files/styles/portada_principal_mobile_376x211/public/2025-09/LCDLF-3.jpg?itok=wD9eFKBG" group-title="Reality",LCDLF 3 (Principal) 🇨🇴
+#EXTINF:-1 tvg-chno="800" tvg-logo="https://www.laopinion.co/sites/default/files/styles/portada_principal_mobile_376x211/public/2025-09/LCDLF-3.jpg?itok=wD9eFKBG" group-title="Reality Show's Live",LCDLF 3 (Principal) 🇨🇴
 http://domestipo1.online:80/live/ser682mun/5w49evr21/736727.m3u8
-#EXTINF:-1 tvg-chno="800" tvg-logo="https://www.laopinion.co/sites/default/files/styles/portada_principal_mobile_376x211/public/2025-09/LCDLF-3.jpg?itok=wD9eFKBG" group-title="Reality",LCDLF 3 (Sala) 🇨🇴
+#EXTINF:-1 tvg-chno="800" tvg-logo="https://www.laopinion.co/sites/default/files/styles/portada_principal_mobile_376x211/public/2025-09/LCDLF-3.jpg?itok=wD9eFKBG" group-title="Reality Show's Live",LCDLF 3 (Sala) 🇨🇴
 http://domestipo1.online:80/live/ser682mun/5w49evr21/736728.m3u8
-#EXTINF:-1 tvg-chno="800" tvg-logo="https://www.laopinion.co/sites/default/files/styles/portada_principal_mobile_376x211/public/2025-09/LCDLF-3.jpg?itok=wD9eFKBG" group-title="Reality",LCDLF 3 (Comedor) 🇨🇴
+#EXTINF:-1 tvg-chno="800" tvg-logo="https://www.laopinion.co/sites/default/files/styles/portada_principal_mobile_376x211/public/2025-09/LCDLF-3.jpg?itok=wD9eFKBG" group-title="Reality Show's Live",LCDLF 3 (Comedor) 🇨🇴
 http://domestipo1.online:80/live/ser682mun/5w49evr21/736729.m3u8
-#EXTINF:-1 tvg-chno="800" tvg-logo="https://www.laopinion.co/sites/default/files/styles/portada_principal_mobile_376x211/public/2025-09/LCDLF-3.jpg?itok=wD9eFKBG" group-title="Reality",LCDLF 3 (Beauty) 🇨🇴
+#EXTINF:-1 tvg-chno="800" tvg-logo="https://www.laopinion.co/sites/default/files/styles/portada_principal_mobile_376x211/public/2025-09/LCDLF-3.jpg?itok=wD9eFKBG" group-title="Reality Show's Live",LCDLF 3 (Beauty) 🇨🇴
 http://domestipo1.online:80/live/ser682mun/5w49evr21/736732.m3u8
-#EXTINF:-1 tvg-chno="800" tvg-logo="https://www.laopinion.co/sites/default/files/styles/portada_principal_mobile_376x211/public/2025-09/LCDLF-3.jpg?itok=wD9eFKBG" group-title="Reality",LCDLF 3 (Hab. Calma) 🇨🇴
+#EXTINF:-1 tvg-chno="800" tvg-logo="https://www.laopinion.co/sites/default/files/styles/portada_principal_mobile_376x211/public/2025-09/LCDLF-3.jpg?itok=wD9eFKBG" group-title="Reality Show's Live",LCDLF 3 (Hab. Calma) 🇨🇴
 http://domestipo1.online:80/live/ser682mun/5w49evr21/736730.m3u8
-#EXTINF:-1 tvg-chno="800" tvg-logo="https://www.laopinion.co/sites/default/files/styles/portada_principal_mobile_376x211/public/2025-09/LCDLF-3.jpg?itok=wD9eFKBG" group-title="Reality",LCDLF 3 (Hab. Tormenta) 🇨🇴
+#EXTINF:-1 tvg-chno="800" tvg-logo="https://www.laopinion.co/sites/default/files/styles/portada_principal_mobile_376x211/public/2025-09/LCDLF-3.jpg?itok=wD9eFKBG" group-title="Reality Show's Live",LCDLF 3 (Hab. Tormenta) 🇨🇴
 http://domestipo1.online:80/live/ser682mun/5w49evr21/736731.m3u8
-#EXTINF:-1 tvg-chno="800" tvg-logo="https://www.laopinion.co/sites/default/files/styles/portada_principal_mobile_376x211/public/2025-09/LCDLF-3.jpg?itok=wD9eFKBG" group-title="Reality",LCDLF 3 (Baños) 🇨🇴
+#EXTINF:-1 tvg-chno="800" tvg-logo="https://www.laopinion.co/sites/default/files/styles/portada_principal_mobile_376x211/public/2025-09/LCDLF-3.jpg?itok=wD9eFKBG" group-title="Reality Show's Live",LCDLF 3 (Baños) 🇨🇴
 http://domestipo1.online:80/live/ser682mun/5w49evr21/736733.m3u8
-#EXTINF:-1 tvg-chno="800" tvg-logo="https://periodicocorreo.com.mx/core/correo/assets/images/2026/01/19/middle-g-bwnplxcaan42l-Xe3FRAPQV.jpg" group-title="Reality",Apostarias por Mí (Villa) 🇺🇸
+#EXTINF:-1 tvg-chno="800" tvg-logo="https://periodicocorreo.com.mx/core/correo/assets/images/2026/01/19/middle-g-bwnplxcaan42l-Xe3FRAPQV.jpg" group-title="Reality Show's Live",Apostarias por Mí (Villa) 🇺🇸
 http://domestipo1.online:80/live/ser682mun/5w49evr21/738700.m3u8
-#EXTINF:-1 tvg-chno="800" tvg-logo="https://periodicocorreo.com.mx/core/correo/assets/images/2026/01/19/middle-g-bwnplxcaan42l-Xe3FRAPQV.jpg" group-title="Reality",Apostarias por Mí (Conexión Total 24/7) 🇺🇸
+#EXTINF:-1 tvg-chno="800" tvg-logo="https://periodicocorreo.com.mx/core/correo/assets/images/2026/01/19/middle-g-bwnplxcaan42l-Xe3FRAPQV.jpg" group-title="Reality Show's Live",Apostarias por Mí (Conexión Total 24/7) 🇺🇸
 http://domestipo1.online:80/live/ser682mun/5w49evr21/738699.m3u8
-#EXTINF:-1 tvg-chno="800" tvg-logo="https://periodicocorreo.com.mx/core/correo/assets/images/2026/01/19/middle-g-bwnplxcaan42l-Xe3FRAPQV.jpg" group-title="Reality",Apostarias por Mí (Sala) 🇺🇸
+#EXTINF:-1 tvg-chno="800" tvg-logo="https://periodicocorreo.com.mx/core/correo/assets/images/2026/01/19/middle-g-bwnplxcaan42l-Xe3FRAPQV.jpg" group-title="Reality Show's Live",Apostarias por Mí (Sala) 🇺🇸
 http://domestipo1.online:80/live/ser682mun/5w49evr21/738705.m3u8
-#EXTINF:-1 tvg-chno="800" tvg-logo="https://periodicocorreo.com.mx/core/correo/assets/images/2026/01/19/middle-g-bwnplxcaan42l-Xe3FRAPQV.jpg" group-title="Reality",Apostarias por Mí (Cocina) 🇺🇸
+#EXTINF:-1 tvg-chno="800" tvg-logo="https://periodicocorreo.com.mx/core/correo/assets/images/2026/01/19/middle-g-bwnplxcaan42l-Xe3FRAPQV.jpg" group-title="Reality Show's Live",Apostarias por Mí (Cocina) 🇺🇸
 http://domestipo1.online:80/live/ser682mun/5w49evr21/738704.m3u8
-#EXTINF:-1 tvg-chno="800" tvg-logo="https://periodicocorreo.com.mx/core/correo/assets/images/2026/01/19/middle-g-bwnplxcaan42l-Xe3FRAPQV.jpg" group-title="Reality",Apostarias por Mí (Hab. Corazón) 🇺🇸
+#EXTINF:-1 tvg-chno="800" tvg-logo="https://periodicocorreo.com.mx/core/correo/assets/images/2026/01/19/middle-g-bwnplxcaan42l-Xe3FRAPQV.jpg" group-title="Reality Show's Live",Apostarias por Mí (Hab. Corazón) 🇺🇸
 http://domestipo1.online:80/live/ser682mun/5w49evr21/738701.m3u8
-#EXTINF:-1 tvg-chno="800" tvg-logo="https://periodicocorreo.com.mx/core/correo/assets/images/2026/01/19/middle-g-bwnplxcaan42l-Xe3FRAPQV.jpg" group-title="Reality",Apostarias por Mí (Hab. Trébol) 🇺🇸
+#EXTINF:-1 tvg-chno="800" tvg-logo="https://periodicocorreo.com.mx/core/correo/assets/images/2026/01/19/middle-g-bwnplxcaan42l-Xe3FRAPQV.jpg" group-title="Reality Show's Live",Apostarias por Mí (Hab. Trébol) 🇺🇸
 http://domestipo1.online:80/live/ser682mun/5w49evr21/738702.m3u8
-#EXTINF:-1 tvg-chno="800" tvg-logo="https://periodicocorreo.com.mx/core/correo/assets/images/2026/01/19/middle-g-bwnplxcaan42l-Xe3FRAPQV.jpg" group-title="Reality",Apostarias por Mí (Baños) 🇺🇸
+#EXTINF:-1 tvg-chno="800" tvg-logo="https://periodicocorreo.com.mx/core/correo/assets/images/2026/01/19/middle-g-bwnplxcaan42l-Xe3FRAPQV.jpg" group-title="Reality Show's Live",Apostarias por Mí (Baños) 🇺🇸
 http://domestipo1.online:80/live/ser682mun/5w49evr21/738703.m3u8
-#EXTINF:-1 tvg-chno="800" tvg-logo="https://periodicocorreo.com.mx/core/correo/assets/images/2026/01/19/middle-g-bwnplxcaan42l-Xe3FRAPQV.jpg" group-title="Reality",Apostarias por Mí (Multicámaras) 🇺🇸
+#EXTINF:-1 tvg-chno="800" tvg-logo="https://periodicocorreo.com.mx/core/correo/assets/images/2026/01/19/middle-g-bwnplxcaan42l-Xe3FRAPQV.jpg" group-title="Reality Show's Live",Apostarias por Mí (Multicámaras) 🇺🇸
 http://domestipo1.online:80/live/ser682mun/5w49evr21/738706.m3u8
-#EXTINF:-1 tvg-chno="800" tvg-logo="https://deadline.com/wp-content/uploads/2026/02/la-casa-de-los-famosos-season-6-2026-telemundo-cast-photos.jpg?w=681&h=383&crop=1" group-title="Reality",LCDLF 6 USA (24/7 - 1) 🇺🇸
+#EXTINF:-1 tvg-chno="800" tvg-logo="https://deadline.com/wp-content/uploads/2026/02/la-casa-de-los-famosos-season-6-2026-telemundo-cast-photos.jpg?w=681&h=383&crop=1" group-title="Reality Show's Live",LCDLF 6 USA (24/7 - 1) 🇺🇸
 http://domestipo1.online:80/live/ser682mun/5w49evr21/747415.m3u8
-#EXTINF:-1 tvg-chno="800" tvg-logo="https://deadline.com/wp-content/uploads/2026/02/la-casa-de-los-famosos-season-6-2026-telemundo-cast-photos.jpg?w=681&h=383&crop=1" group-title="Reality",LCDLF 6 USA (24/7 - 2) 🇺🇸
+#EXTINF:-1 tvg-chno="800" tvg-logo="https://deadline.com/wp-content/uploads/2026/02/la-casa-de-los-famosos-season-6-2026-telemundo-cast-photos.jpg?w=681&h=383&crop=1" group-title="Reality Show's Live",LCDLF 6 USA (24/7 - 2) 🇺🇸
 http://domestipo1.online:80/live/ser682mun/5w49evr21/747416.m3u8
