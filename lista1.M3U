@@ -756,8 +756,8 @@ https://archive.org/download/yt-5s.com-80s-commercials-nbc-february-1985-1080p/y
 https://archive.org/download/WRC_20010913_220000_News_4_at_6/WRC_20010913_220000_News_4_at_6.mp4?exact=1&start=0&end=300
 #EXTINF:-1 group-title="VOD" ,NBC Nightly News : WCAU : October 3, 2014 6:30pm-7:01pm EDT
 https://archive.org/download/WCAU_20141003_223000_NBC_Nightly_News/WCAU_20141003_223000_NBC_Nightly_News.mp4?exact=1&start=0&end=300
-#EXTINF:-1 group-title="VOD" ,Governor addresses protests in Richmond
-https://archive.org/download/youtube-GithOw3_zug/GithOw3_zug.mp4
+#EXTINF:-1 group-title="VOD" ,Fmr. Rep.: America Should Be Embarrassed About Treatment Of Migrant Kids | Velshi & Ruhle | MSNBC
+https://archive.org/download/youtube-BWFp8nxkmGs/BWFp8nxkmGs.mp4
 #EXTM3U url-tvg="https://github.com/LITUATUI/M3UPT/raw/main/EPG/epg-m3upt.xml.xz"
 # M3UPT.com - IPTV playlist in M3U format with TV and radio stations in Portuguese. Public and official streams only.
 # 📺 TV
@@ -777,6 +777,7 @@ https://streaming-live.rtp.pt/liverepeater/rtp2HD.smil/playlist.m3u8
 #EXTVLCOPT:http-referrer=https://sic.pt/
 https://d1zx6l1dn8vaj5.cloudfront.net/out/v1/b89cc37caa6d418eb423cf092a2ef970/index.m3u8
 #EXTINF:-1 group-title="TV" tvg-id="TVI.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/TVI.png",TVI
+#EXTM3U
 #EXTM3U
 #EXTM3U x-tvg-url="https://iptv-epg.org/files/epg-cl.xml.gz"
 #EXTINF:-1 group-title="CHILE" tvg-chno="1" tvg-id="Canal13.cl" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/0/01/Canal_13_2018.png/revision/latest/scale-to-width-down/512/",Canal 13
