@@ -28,7 +28,7 @@ jobs:
       - name: Create prompt
         run: |
           cat << 'EOF' > prompt.txt
-          acesse lista2.M3U
+          acesse https://github.com/punkstarbr/STR-YT/raw/refs/heads/main/ARABIC.m3u
           remova os guias que não tiverem a programação de hoje
           EOF
 
