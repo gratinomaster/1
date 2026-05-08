@@ -756,8 +756,8 @@ https://archive.org/download/yt-5s.com-80s-commercials-nbc-february-1985-1080p/y
 https://archive.org/download/WRC_20010913_233000_Redskins_Report/WRC_20010913_233000_Redskins_Report.mp4?exact=1&start=0&end=300
 #EXTINF:-1 group-title="VOD" ,NBC Nightly News : WCAU : October 2, 2014 6:30pm-7:01pm EDT
 https://archive.org/download/WCAU_20141002_223000_NBC_Nightly_News/WCAU_20141002_223000_NBC_Nightly_News.mp4?exact=1&start=0&end=300
-#EXTINF:-1 group-title="VOD" ,Fmr. Rep.: America Should Be Embarrassed About Treatment Of Migrant Kids | Velshi & Ruhle | MSNBC
-https://archive.org/download/youtube-BWFp8nxkmGs/BWFp8nxkmGs.mp4
+#EXTINF:-1 group-title="VOD" ,What The Fight Over The Electoral College Could Mean For The Future | Velshi & Ruhle | MSNBC
+https://archive.org/download/youtube-Q1ksxHZ817Y/Q1ksxHZ817Y.mp4
 #EXTM3U url-tvg="https://github.com/LITUATUI/M3UPT/raw/main/EPG/epg-m3upt.xml.xz"
 # M3UPT.com - IPTV playlist in M3U format with TV and radio stations in Portuguese. Public and official streams only.
 # 📺 TV
@@ -778,6 +778,156 @@ https://streaming-live.rtp.pt/liverepeater/rtp2HD.smil/playlist.m3u8
 https://d1zx6l1dn8vaj5.cloudfront.net/out/v1/b89cc37caa6d418eb423cf092a2ef970/index.m3u8
 #EXTINF:-1 group-title="TV" tvg-id="TVI.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/TVI.png",TVI
 #EXTM3U
+#EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_IL1.xml.gz"
+#EXTINF:-1 group-title="NEWS WORLD" tvg-chno="1303" tvg-id="רשת.il" tvg-logo="https://gurutv.online/wp-content/uploads/ch13.jpg",רשת 13
+https://d198ztbnlup2iq.cloudfront.net/out/v1/2d9050c90fb94df8b78d1d98306a1a65/index.m3u8
+#EXTINF:-1 group-title="NEWS WORLD" tvg-chno="1306" tvg-id="DW.English.HD.il" tvg-logo="https://images.frp1.ott.kaltura.com/Service.svc/GetImage/p/3197/entry_id/3e0472dc1a6645b69a64c8300539c53e/version/3",DW English HD
+https://dwamdstream104.akamaized.net/hls/live/2015530/dwstream104/index.m3u8
+#EXTINF:-1 group-title="NEWS WORLD" tvg-chno="1307" tvg-id="ערוץ.הכנסת.il" tvg-logo="https://i.imgur.com/PEdXHSE.png",ערוץ הכנסת
+https://main.knesset.gov.il/tv/live/knesset_hls_high.isml/hls/live.m3u8
+#EXTINF:-1 group-title="NEWS WORLD" tvg-chno="1308" tvg-id="Kan11.il" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Kan11Logo.svg/960px-Kan11Logo.svg.png",כאן 11
+https://kancdn.medonecdn.net/livehls/oil/kancdn-live/live/kan11/live.livx/playlist.m3u8
+#EXTM3U
+#EXTINF:-1 tvg-id="br#telecine-premium-hd" tvg-name="Telecine Premium FHD" tvg-logo="http://channelart.8b90287dn2.online/images/logos/Telecine%20Premium.png" group-title="TELECINE",Telecine Premium FHD
+http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/1904
+#EXTINF:-1 tvg-id="br#telecine-premium-hd" tvg-name="Telecine Premium HD" tvg-logo="http://channelart.8b90287dn2.online/images/logos/Telecine%20Premium.png" group-title="TELECINE",Telecine Premium HD
+http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/2235
+#EXTINF:-1 tvg-id="TelecinePremium.br" tvg-name="Telecine Premium" tvg-logo="http://channelart.8b90287dn2.online/images/logos/Telecine%20Premium.png" group-title="TELECINE",Telecine Premium
+http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/2234
+#EXTINF:-1 tvg-id="br#telecine-pipoca-hd" tvg-name="Telecine Pipoca FHD" tvg-logo="http://channelart.8b90287dn2.online/images/logos/Telecine%20Pipoca.png" group-title="TELECINE",Telecine Pipoca FHD
+http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/1903
+#EXTINF:-1 tvg-id="br#telecine-pipoca-hd" tvg-name="Telecine Pipoca HD" tvg-logo="http://channelart.8b90287dn2.online/images/logos/Telecine%20Pipoca.png" group-title="TELECINE",Telecine Pipoca HD
+http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/2233
+#EXTINF:-1 tvg-id="br#telecine-pipoca-hd" tvg-name="Telecine Pipoca" tvg-logo="http://channelart.8b90287dn2.online/images/logos/Telecine%20Pipoca.png" group-title="TELECINE",Telecine Pipoca
+http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/2232
+#EXTINF:-1 tvg-id="TelecineAction.br" tvg-name="Telecine Action FHD" tvg-logo="http://channelart.8b90287dn2.online/images/logos/Telecine%20Action.png" group-title="TELECINE",Telecine Action FHD
+http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/1901
+#EXTINF:-1 tvg-id="br#telecine-action-hd" tvg-name="Telecine Action HD" tvg-logo="http://channelart.8b90287dn2.online/images/logos/Telecine%20Action.png" group-title="TELECINE",Telecine Action HD
+http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/2227
+#EXTINF:-1 tvg-id="br#telecine-action-hd" tvg-name="Telecine Action" tvg-logo="http://channelart.8b90287dn2.online/images/logos/Telecine%20Action.png" group-title="TELECINE",Telecine Action
+http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/2226
+#EXTINF:-1 tvg-id="br#telecine-touch-hd" tvg-name="Telecine Touch FHD" tvg-logo="http://channelart.8b90287dn2.online/images/logos/Telecine%20Touch.png" group-title="TELECINE",Telecine Touch FHD
+http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/1905
+#EXTINF:-1 tvg-id="br#telecine-touch-hd" tvg-name="Telecine Touch HD" tvg-logo="http://channelart.8b90287dn2.online/images/logos/Telecine%20Touch.png" group-title="TELECINE",Telecine Touch HD
+http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/2237
+#EXTINF:-1 tvg-id="br#telecine-touch-hd" tvg-name="Telecine Touch" tvg-logo="http://channelart.8b90287dn2.online/images/logos/Telecine%20Touch.png" group-title="TELECINE",Telecine Touch
+http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/2236
+#EXTINF:-1 tvg-id="br#telecine-fun-hd" tvg-name="Telecine Fun FHD" tvg-logo="http://channelart.8b90287dn2.online/images/logos/Telecine%20Fun.png" group-title="TELECINE",Telecine Fun FHD
+http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/1902
+#EXTINF:-1 tvg-id="br#telecine-fun-hd" tvg-name="Telecine Fun HD" tvg-logo="http://channelart.8b90287dn2.online/images/logos/Telecine%20Fun.png" group-title="TELECINE",Telecine Fun HD
+http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/2231
+#EXTINF:-1 tvg-id="br#telecine-fun-hd" tvg-name="Telecine Fun" tvg-logo="http://channelart.8b90287dn2.online/images/logos/Telecine%20Fun.png" group-title="TELECINE",Telecine Fun
+http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/2230
+#EXTINF:-1 tvg-id="br#telecine-cult-hd" tvg-name="Telecine Cult FHD" tvg-logo="http://channelart.8b90287dn2.online/images/logos/Telecine%20Cult.png" group-title="TELECINE",Telecine Cult FHD
+http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/1866
+#EXTINF:-1 tvg-id="br#telecine-cult-hd" tvg-name="Telecine Cult HD" tvg-logo="http://channelart.8b90287dn2.online/images/logos/Telecine%20Cult.png" group-title="TELECINE",Telecine Cult HD
+http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/2229
+#EXTINF:-1 tvg-id="br#telecine-cult-hd" tvg-name="Telecine Cult" tvg-logo="http://channelart.8b90287dn2.online/images/logos/Telecine%20Cult.png" group-title="TELECINE",Telecine Cult
+http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/2228
+#EXTINF:-1 tvg-id="br#megapix-hd" tvg-name="Megapix FHD" tvg-logo="http://channelart.8b90287dn2.online/images/logos/Megapix%20HD.png" group-title="TELECINE",Megapix FHD
+http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/1848
+#EXTINF:-1 tvg-id="br#megapix-hd" tvg-name="Megapix HD" tvg-logo="http://channelart.8b90287dn2.online/images/logos/Megapix%20HD.png" group-title="TELECINE",Megapix HD
+http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/2164
+#EXTINF:-1 tvg-id="megapix.br" tvg-name="Megapix" tvg-logo="http://channelart.8b90287dn2.online/images/logos/Megapix.png" group-title="TELECINE",Megapix
+http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/2163
+#EXTINF:-1 tvg-id="USA.br" tvg-name="USA FHD" tvg-logo="http://channelart.8b90287dn2.online/images/logos/USA%20Network.png" group-title="TELECINE",USA FHD
+http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/1864
+#EXTINF:-1 tvg-id="USA.br" tvg-name="USA HD" tvg-logo="http://channelart.8b90287dn2.online/images/logos/USA%20Network.png" group-title="TELECINE",USA HD
+http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/2215
+#EXTINF:-1 tvg-id="USA.br" tvg-name="USA" tvg-logo="http://channelart.8b90287dn2.online/images/logos/USA%20Network.png" group-title="TELECINE",USA
+http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/2214
+#EXTINF:-1 tvg-id="UniversalTV.br" tvg-name="Universal TV FHD" tvg-logo="http://channelart.8b90287dn2.online/images/logos/Universal%20TV.png" group-title="TELECINE",Universal TV FHD
+http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/1872
+#EXTINF:-1 tvg-id="UniversalTV.br" tvg-name="Universal TV HD" tvg-logo="http://channelart.8b90287dn2.online/images/logos/Universal%20TV.png" group-title="TELECINE",Universal TV HD
+http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/2258
+#EXTINF:-1 tvg-id="UniversalTV.br" tvg-name="Universal TV " tvg-logo="http://channelart.8b90287dn2.online/images/logos/Universal%20TV.png" group-title="TELECINE",Universal TV
+http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/2257
+#EXTINF:-1 tvg-id="br#canal-brasil-hd" tvg-name="Canal Brasil FHD" tvg-logo="http://channelart.8b90287dn2.online/images/logos/Canal%20Brasil.png" group-title="TELECINE",Canal Brasil FHD
+http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/1908
+#EXTINF:-1 tvg-id="br#canal-brasil-hd" tvg-name="Canal Brasil HD" tvg-logo="http://channelart.8b90287dn2.online/images/logos/Canal%20Brasil.png" group-title="TELECINE",Canal Brasil HD
+http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/2067
+#EXTINF:-1 tvg-id="br#canal-brasil-hd" tvg-name="Canal Brasil" tvg-logo="http://channelart.8b90287dn2.online/images/logos/Canal%20Brasil.png" group-title="TELECINE",Canal Brasil
+http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/2066
+#EXTINF:-1 tvg-id="HBO.br" tvg-name="HBO FHD" tvg-logo="http://channelart.8b90287dn2.online/images/logos/HBO.png" group-title="HBO ",HBO FHD
+http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/1891
+#EXTINF:-1 tvg-id="HBO.br" tvg-name="HBO HD" tvg-logo="http://channelart.8b90287dn2.online/images/logos/HBO.png" group-title="HBO ",HBO HD
+http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/2144
+#EXTINF:-1 tvg-id="HBO.br" tvg-name="HBO" tvg-logo="http://channelart.8b90287dn2.online/images/logos/HBO.png" group-title="HBO ",HBO
+http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/2139
+#EXTINF:-1 tvg-id="HBO2.br" tvg-name="HBO 2 FHD" tvg-logo="http://channelart.8b90287dn2.online/images/logos/HBO%202%20HD.png" group-title="HBO ",HBO 2 FHD
+http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/1890
+#EXTINF:-1 tvg-id="HBO2.br" tvg-name="HBO 2 HD" tvg-logo="http://channelart.8b90287dn2.online/images/logos/HBO%202%20HD.png" group-title="HBO ",HBO 2 HD
+http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/2141
+#EXTINF:-1 tvg-id="HBO2.br" tvg-name="HBO 2" tvg-logo="http://channelart.8b90287dn2.online/images/logos/HBO%202.png" group-title="HBO ",HBO 2
+http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/2140
+#EXTINF:-1 tvg-id="HBOPlus.br" tvg-name="HBO Plus FHD" tvg-logo="http://channelart.8b90287dn2.online/images/logos/HBO%20Plus.png" group-title="HBO",HBO Plus FHD
+http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/1840
+#EXTINF:-1 tvg-id="HBOPlus.br" tvg-name="HBO Plus HD" tvg-logo="http://channelart.8b90287dn2.online/images/logos/HBO%20Plus.png" group-title="HBO",HBO Plus HD
+http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/2146
+#EXTINF:-1 tvg-id="HBOPlus.br" tvg-name="HBO Plus" tvg-logo="http://channelart.8b90287dn2.online/images/logos/HBO%20Plus.png" group-title="HBO",HBO Plus
+http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/2145
+#EXTINF:-1 tvg-id="HBOFamily.br" tvg-name="HBO Family FHD" tvg-logo="http://channelart.8b90287dn2.online/images/logos/HBO%20Family%20HD.png" group-title="HBO ",HBO Family FHD
+http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/1839
+#EXTINF:-1 tvg-id="HBOFamily.br" tvg-name="HBO Family HD" tvg-logo="http://channelart.8b90287dn2.online/images/logos/HBO%20Family%20HD.png" group-title="HBO ",HBO Family HD
+http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/2143
+#EXTINF:-1 tvg-id="HBOFamily.br" tvg-name="HBO Family" tvg-logo="http://channelart.8b90287dn2.online/images/logos/HBO%20Family.png" group-title="HBO",HBO Family
+http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/2142
+#EXTINF:-1 tvg-id="HBOSignature.br" tvg-name="HBO Signature FHD" tvg-logo="http://channelart.8b90287dn2.online/images/logos/HBO%20Signature%20HD.png" group-title="HBO ",HBO Signature FHD
+http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/1841
+#EXTINF:-1 tvg-id="HBOSignature.br" tvg-name="HBO Signature HD" tvg-logo="http://channelart.8b90287dn2.online/images/logos/HBO%20Signature%20HD.png" group-title="HBO ",HBO Signature HD
+http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/2148
+#EXTINF:-1 tvg-id="HBOSignature.br" tvg-name="HBO Signature" tvg-logo="http://channelart.8b90287dn2.online/images/logos/HBO%20Signature.png" group-title="HBO ",HBO Signature
+http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/2147
+#EXTINF:-1 tvg-id="HBOMundi.br" tvg-name="HBO Mundi FHD" tvg-logo="http://channelart.8b90287dn2.online/images/logos/HBO%20Mundi.png" group-title="HBO ",HBO Mundi FHD
+http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/1845
+#EXTINF:-1 tvg-id="HBOMundi.br" tvg-name="HBO Mundi HD" tvg-logo="http://channelart.8b90287dn2.online/images/logos/HBO%20Mundi.png" group-title="HBO ",HBO Mundi HD
+http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/2158
+#EXTINF:-1 tvg-id="HBOMundi.br" tvg-name="HBO Mundi" tvg-logo="http://channelart.8b90287dn2.online/images/logos/HBO%20Mundi.png" group-title="HBO ",HBO Mundi
+http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/2157
+#EXTINF:-1 tvg-id="HBOMundi.br" tvg-name="HBO Mundi" tvg-logo="http://channelart.8b90287dn2.online/images/logos/HBO%20Mundi.png" group-title="HBO ",HBO Mundi
+http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/1202
+#EXTINF:-1 tvg-id="HBOPop.br" tvg-name="HBO POP FHD" tvg-logo="http://channelart.8b90287dn2.online/images/logos/HBO%20Pop.png" group-title="HBO ",HBO POP FHD
+http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/1847
+#EXTINF:-1 tvg-id="HBOPop.br" tvg-name="HBO POP HD" tvg-logo="http://channelart.8b90287dn2.online/images/logos/HBO%20Pop.png" group-title="HBO ",HBO POP HD
+http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/2162
+#EXTINF:-1 tvg-id="HBOPop.br" tvg-name="HBO POP" tvg-logo="http://channelart.8b90287dn2.online/images/logos/HBO%20Pop.png" group-title="HBO ",HBO POP
+http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/2161
+#EXTINF:-1 tvg-id="HBOXtreme.br" tvg-name="HBO Xtreme FHD" tvg-logo="http://channelart.8b90287dn2.online/images/logos/HBO%20Xtreme.png" group-title="HBO ",HBO Xtreme FHD
+http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/1846
+#EXTINF:-1 tvg-id="HBOXtreme.br" tvg-name="HBO Xtreme HD" tvg-logo="http://channelart.8b90287dn2.online/images/logos/HBO%20Xtreme.png" group-title="HBO ",HBO Xtreme HD
+http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/2160
+#EXTINF:-1 tvg-id="HBOXtreme.br" tvg-name="HBO Xtreme" tvg-logo="http://channelart.8b90287dn2.online/images/logos/HBO%20Xtreme.png" group-title="HBO ",HBO Xtreme
+http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/2159
+#EXTINF:-1 tvg-id="AMC.br" tvg-name="AMC FHD" tvg-logo="http://channelart.8b90287dn2.online/images/logos/AMC%20HD.png" group-title="FILMES & SERIES",AMC FHD
+http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/1807
+#EXTINF:-1 tvg-id="AMC.br" tvg-name="AMC HD" tvg-logo="http://channelart.8b90287dn2.online/images/logos/AMC%20HD.png" group-title="FILMES & SERIES",AMC HD
+http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/2048
+#EXTINF:-1 tvg-id="AMC.br" tvg-name="AMC" tvg-logo="http://channelart.8b90287dn2.online/images/logos/AMC.png" group-title="FILMES & SERIES",AMC
+http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/2047
+#EXTINF:-1 tvg-id="AXN.br" tvg-name="AXN FHD" tvg-logo="http://channelart.8b90287dn2.online/images/logos/AXN%20HD.png" group-title="FILMES & SERIES",AXN FHD
+http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/1810
+#EXTINF:-1 tvg-id="AXN.br" tvg-name="AXN HD" tvg-logo="http://channelart.8b90287dn2.online/images/logos/AXN%20HD.png" group-title="FILMES & SERIES",AXN HD
+http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/2054
+#EXTINF:-1 tvg-id="AXN.br" tvg-name="AXN" tvg-logo="http://channelart.8b90287dn2.online/images/logos/AXN.png" group-title="FILMES & SERIES",AXN
+http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/2053
+#EXTINF:-1 tvg-id="AXN.br" tvg-name="AXN FHD LEG" tvg-logo="http://channelart.8b90287dn2.online/images/logos/AXN%20HD.png" group-title="LEGENDADOS",AXN FHD LEG
+http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/24778
+#EXTINF:-1 tvg-id="tnt" tvg-name="TNT FHD" tvg-logo="http://channelart.8b90287dn2.online/images/logos/TNT%20HD.png" group-title="FILMES & SERIES",TNT FHD
+http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/1868
+#EXTINF:-1 tvg-id="tnt" tvg-name="TNT HD" tvg-logo="http://channelart.8b90287dn2.online/images/logos/TNT%20HD.png" group-title="FILMES & SERIES",TNT HD
+http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/2242
+#EXTINF:-1 tvg-id="tnt.br" tvg-name="TNT" tvg-logo="http://channelart.8b90287dn2.online/images/logos/TNT.png" group-title="FILMES & SERIES",TNT
+http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/2241
+#EXTINF:-1 tvg-id="tnt" tvg-name="TNT Alternativo HD" tvg-logo="http://channelart.8b90287dn2.online/images/logos/TNT%20HD.png" group-title="FILMES & SERIES",TNT Alternativo HD
+http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/1283
+#EXTINF:-1 tvg-id="tnt.br" tvg-name="TNT Alternativo" tvg-logo="http://channelart.8b90287dn2.online/images/logos/TNT.png" group-title="FILMES & SERIES",TNT Alternativo
+http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/1234
+#EXTINF:-1 tvg-id="ParamountNetwork.br" tvg-name="Paramount Network FHD" tvg-logo="http://channelart.8b90287dn2.online/images/logos/Paramount%20Network.png" group-title="FILMES & SERIES",Paramount Network FHD
+http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/1869
+#EXTINF:-1 tvg-id="ParamountNetwork.br" tvg-name="Paramount Network HD" tvg-logo="http://channelart.8b90287dn2.online/images/logos/Paramount%20Network.png" group-title="FILMES & SERIES",Paramount Network HD
+http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/2243
+#EXTINF:-1 tvg-id="ParamountNetwork.br" tvg-name="Paramount Network" tvg-logo="http://channelart.8b90287dn2.online/images/logos/Paramount%20Network.png" group-title="FILMES & SERIES",Paramount Network
+http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/2244
 #EXTM3U x-tvg-url="https://iptv-epg.org/files/epg-cl.xml.gz"
 #EXTINF:-1 group-title="CHILE" tvg-chno="1" tvg-id="Canal13.cl" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/0/01/Canal_13_2018.png/revision/latest/scale-to-width-down/512/",Canal 13
 http://38.250.127.17:9800/play/a067/index.m3u8
@@ -3359,21 +3509,19 @@ https://live-cm-ah-17-31.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0e
 #EXTM3U
 #EXTM3U
 #EXTINF:-1 tvg-logo="https://keyframe-cdn.abcnews.com/streamprovider11.jpg" group-title="NEWS WORLD",ABC News Live - ABC News
-https://linear-abcnews-ftc-na-east-1.media.dssott.com/dvt2=exp=1778359577~url=%2Fclt1%2Fva02%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1776583682323%2F~psid=078baa0d-5912-41ba-9c16-6b45767e3934~did=f1f85e3c-5bc1-4577-8c9a-cc5c43027ae1~country=US~kid=k02~hmac=020530b0772e57816f90f0ef937c45296f9c8325b9efc8d243671004f84e5a11/clt1/va02/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1776583682323/ctr-all-hdri-sliding.m3u8?r=1080&v=1&hash=0ce6d6ffe5eed1546b2d7ba51fca94a7850f62ea
+https://linear-abcnews-akc-na-west-1.media.dssott.com/dvt2=exp=1778363447~url=%2Flas1%2Fva01%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1776861675071%2F~psid=55e7979e-d606-48fc-8f46-9e1a781881b5~did=0b8d9a6d-061c-444f-bd9b-2bf99d1f4332~country=US~kid=k02~hmac=31f27e0380afbabd20ebc0b93347345b8de951d0c33ab0c471001b29cb1a36ef/las1/va01/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1776861675071/ctr-all-hdri-sliding.m3u8?r=1080&v=1&hash=ab84398225d4a583cf5479db7842af5fa60665cc
 #EXTINF:-1 tvg-logo="https://keyframe-cdn.abcnews.com/streamprovider11.jpg" group-title="NEWS WORLD",ABC News Live - ABC News
-https://linear-abcnews-ftc-na-east-1.media.dssott.com/dvt2=exp=1778359577~url=%2Fclt1%2Fva02%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1776583682323%2F~psid=078baa0d-5912-41ba-9c16-6b45767e3934~did=f1f85e3c-5bc1-4577-8c9a-cc5c43027ae1~country=US~kid=k02~hmac=020530b0772e57816f90f0ef937c45296f9c8325b9efc8d243671004f84e5a11/clt1/va02/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1776583682323/cmaf-cenc-ctr-1700K/1700_hdri_slide.m3u8
+https://linear-abcnews-akc-na-west-1.media.dssott.com/dvt2=exp=1778363447~url=%2Flas1%2Fva01%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1776861675071%2F~psid=55e7979e-d606-48fc-8f46-9e1a781881b5~did=0b8d9a6d-061c-444f-bd9b-2bf99d1f4332~country=US~kid=k02~hmac=31f27e0380afbabd20ebc0b93347345b8de951d0c33ab0c471001b29cb1a36ef/las1/va01/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1776861675071/audio-aac-1-64K/64_slide.m3u8
 #EXTINF:-1 tvg-logo="https://keyframe-cdn.abcnews.com/streamprovider11.jpg" group-title="NEWS WORLD",ABC News Live - ABC News
-https://linear-abcnews-ftc-na-east-1.media.dssott.com/dvt2=exp=1778359577~url=%2Fclt1%2Fva02%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1776583682323%2F~psid=078baa0d-5912-41ba-9c16-6b45767e3934~did=f1f85e3c-5bc1-4577-8c9a-cc5c43027ae1~country=US~kid=k02~hmac=020530b0772e57816f90f0ef937c45296f9c8325b9efc8d243671004f84e5a11/clt1/va02/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1776583682323/audio-aac-1-64K/64_slide.m3u8
+https://linear-abcnews-akc-na-west-1.media.dssott.com/dvt2=exp=1778363447~url=%2Flas1%2Fva01%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1776861675071%2F~psid=55e7979e-d606-48fc-8f46-9e1a781881b5~did=0b8d9a6d-061c-444f-bd9b-2bf99d1f4332~country=US~kid=k02~hmac=31f27e0380afbabd20ebc0b93347345b8de951d0c33ab0c471001b29cb1a36ef/las1/va01/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1776861675071/cmaf-cenc-ctr-1700K/1700_hdri_slide.m3u8
 #EXTINF:-1 tvg-logo="https://keyframe-cdn.abcnews.com/streamprovider11.jpg" group-title="NEWS WORLD",ABC News Live - ABC News
-https://linear-abcnews-ftc-na-east-1.media.dssott.com/dvt2=exp=1778359577~url=%2Fclt1%2Fva02%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1776583682323%2F~psid=078baa0d-5912-41ba-9c16-6b45767e3934~did=f1f85e3c-5bc1-4577-8c9a-cc5c43027ae1~country=US~kid=k02~hmac=020530b0772e57816f90f0ef937c45296f9c8325b9efc8d243671004f84e5a11/clt1/va02/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1776583682323/audio-aac-1-64K/64_slide.m3u8
+https://linear-abcnews-akc-na-west-1.media.dssott.com/dvt2=exp=1778363447~url=%2Flas1%2Fva01%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1776861675071%2F~psid=55e7979e-d606-48fc-8f46-9e1a781881b5~did=0b8d9a6d-061c-444f-bd9b-2bf99d1f4332~country=US~kid=k02~hmac=31f27e0380afbabd20ebc0b93347345b8de951d0c33ab0c471001b29cb1a36ef/las1/va01/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1776861675071/audio-aac-1-128K/128_slide.m3u8
 #EXTINF:-1 tvg-logo="https://keyframe-cdn.abcnews.com/streamprovider11.jpg" group-title="NEWS WORLD",ABC News Live - ABC News
-https://linear-abcnews-ftc-na-east-1.media.dssott.com/dvt2=exp=1778359577~url=%2Fclt1%2Fva02%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1776583682323%2F~psid=078baa0d-5912-41ba-9c16-6b45767e3934~did=f1f85e3c-5bc1-4577-8c9a-cc5c43027ae1~country=US~kid=k02~hmac=020530b0772e57816f90f0ef937c45296f9c8325b9efc8d243671004f84e5a11/clt1/va02/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1776583682323/audio-aac-1-128K/128_slide.m3u8
+https://linear-abcnews-akc-na-west-1.media.dssott.com/dvt2=exp=1778363447~url=%2Flas1%2Fva01%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1776861675071%2F~psid=55e7979e-d606-48fc-8f46-9e1a781881b5~did=0b8d9a6d-061c-444f-bd9b-2bf99d1f4332~country=US~kid=k02~hmac=31f27e0380afbabd20ebc0b93347345b8de951d0c33ab0c471001b29cb1a36ef/las1/va01/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1776861675071/cmaf-cenc-ctr-2400K/2400_hdri_slide.m3u8
 #EXTINF:-1 tvg-logo="https://keyframe-cdn.abcnews.com/streamprovider11.jpg" group-title="NEWS WORLD",ABC News Live - ABC News
-https://linear-abcnews-ftc-na-east-1.media.dssott.com/dvt2=exp=1778359577~url=%2Fclt1%2Fva02%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1776583682323%2F~psid=078baa0d-5912-41ba-9c16-6b45767e3934~did=f1f85e3c-5bc1-4577-8c9a-cc5c43027ae1~country=US~kid=k02~hmac=020530b0772e57816f90f0ef937c45296f9c8325b9efc8d243671004f84e5a11/clt1/va02/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1776583682323/cmaf-cenc-ctr-2400K/2400_hdri_slide.m3u8
+https://linear-abcnews-akc-na-west-1.media.dssott.com/dvt2=exp=1778363447~url=%2Flas1%2Fva01%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1776861675071%2F~psid=55e7979e-d606-48fc-8f46-9e1a781881b5~did=0b8d9a6d-061c-444f-bd9b-2bf99d1f4332~country=US~kid=k02~hmac=31f27e0380afbabd20ebc0b93347345b8de951d0c33ab0c471001b29cb1a36ef/las1/va01/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1776861675071/audio-aac-1-128K/128_slide.m3u8
 #EXTINF:-1 tvg-logo="https://keyframe-cdn.abcnews.com/streamprovider11.jpg" group-title="NEWS WORLD",ABC News Live - ABC News
-https://linear-abcnews-ftc-na-east-1.media.dssott.com/dvt2=exp=1778359577~url=%2Fclt1%2Fva02%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1776583682323%2F~psid=078baa0d-5912-41ba-9c16-6b45767e3934~did=f1f85e3c-5bc1-4577-8c9a-cc5c43027ae1~country=US~kid=k02~hmac=020530b0772e57816f90f0ef937c45296f9c8325b9efc8d243671004f84e5a11/clt1/va02/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1776583682323/audio-aac-1-128K/128_slide.m3u8
-#EXTINF:-1 tvg-logo="https://keyframe-cdn.abcnews.com/streamprovider11.jpg" group-title="NEWS WORLD",ABC News Live - ABC News
-https://linear-abcnews-ftc-na-east-1.media.dssott.com/dvt2=exp=1778359577~url=%2Fclt1%2Fva02%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1776583682323%2F~psid=078baa0d-5912-41ba-9c16-6b45767e3934~did=f1f85e3c-5bc1-4577-8c9a-cc5c43027ae1~country=US~kid=k02~hmac=020530b0772e57816f90f0ef937c45296f9c8325b9efc8d243671004f84e5a11/clt1/va02/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1776583682323/cmaf-cenc-ctr-2400K/2400_hdri_slide.m3u8
+https://linear-abcnews-akc-na-west-1.media.dssott.com/dvt2=exp=1778363447~url=%2Flas1%2Fva01%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1776861675071%2F~psid=55e7979e-d606-48fc-8f46-9e1a781881b5~did=0b8d9a6d-061c-444f-bd9b-2bf99d1f4332~country=US~kid=k02~hmac=31f27e0380afbabd20ebc0b93347345b8de951d0c33ab0c471001b29cb1a36ef/las1/va01/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1776861675071/cmaf-cenc-ctr-2400K/2400_hdri_slide.m3u8
 #EXTINF:-1 tvg-logo="https://keyframe-cdn.abcnews.com/streamprovider11.jpg" group-title="NEWS WORLD",ABC News Live - ABC News
 https://abcnews-livestreams.akamaized.net/out/v1/173a6e46d5c5423d9611bc7fb7899c73/abcn-live-05-cmaf-manifest/abcn-live-05-index.m3u8
 #EXTINF:-1 tvg-logo="https://keyframe-cdn.abcnews.com/streamprovider11.jpg" group-title="NEWS WORLD",ABC News Live - ABC News
@@ -3386,6 +3534,8 @@ https://abcnews-livestreams.akamaized.net/out/v1/173a6e46d5c5423d9611bc7fb7899c7
 https://abcnews-livestreams.akamaized.net/out/v1/173a6e46d5c5423d9611bc7fb7899c73/abcn-live-05-cmaf-manifest/abcn-live-05-index_3.m3u8
 #EXTINF:-1 tvg-logo="https://keyframe-cdn.abcnews.com/streamprovider11.jpg" group-title="NEWS WORLD",ABC News Live - ABC News
 https://abcnews-livestreams.akamaized.net/out/v1/173a6e46d5c5423d9611bc7fb7899c73/abcn-live-05-cmaf-manifest/abcn-live-05-index_4_0.m3u8
+#EXTINF:-1 tvg-logo="https://keyframe-cdn.abcnews.com/streamprovider11.jpg" group-title="NEWS WORLD",ABC News Live - ABC News
+https://abcnews-livestreams.akamaized.net/out/v1/173a6e46d5c5423d9611bc7fb7899c73/abcn-live-05-cmaf-manifest/abcn-live-05-index_3.m3u8
 #EXTINF:-1 tvg-logo="https://keyframe-cdn.abcnews.com/streamprovider10.jpg" group-title="NEWS WORLD",Video Severe weather chances this weekend; heat wave heading to the West; Mother's Day forecast | Watch Live News on ABCNL
 https://abcnews-livestreams.akamaized.net/out/v1/6a597119dbd5428a82dc11a2f514a1a2/abcn-live-10-cmaf-manifest/abcn-live-10-index.m3u8
 #EXTINF:-1 tvg-logo="https://keyframe-cdn.abcnews.com/streamprovider10.jpg" group-title="NEWS WORLD",Video Severe weather chances this weekend; heat wave heading to the West; Mother's Day forecast | Watch Live News on ABCNL
@@ -3400,48 +3550,54 @@ https://abcnews-livestreams.akamaized.net/out/v1/6a597119dbd5428a82dc11a2f514a1a
 https://abcnews-livestreams.akamaized.net/out/v1/6a597119dbd5428a82dc11a2f514a1a2/abcn-live-10-cmaf-manifest/abcn-live-10-index_4_0.m3u8
 #EXTINF:-1 tvg-logo="https://keyframe-cdn.abcnews.com/streamprovider10.jpg" group-title="NEWS WORLD",Video Severe weather chances this weekend; heat wave heading to the West; Mother's Day forecast | Watch Live News on ABCNL
 https://abcnews-livestreams.akamaized.net/out/v1/6a597119dbd5428a82dc11a2f514a1a2/abcn-live-10-cmaf-manifest/abcn-live-10-index_3.m3u8
-#EXTINF:-1 tvg-logo="https://keyframe-cdn.abcnews.com/streamprovider10.jpg" group-title="NEWS WORLD",Video Severe weather chances this weekend; heat wave heading to the West; Mother's Day forecast | Watch Live News on ABCNL
-https://abcnews-livestreams.akamaized.net/out/v1/6a597119dbd5428a82dc11a2f514a1a2/abcn-live-10-cmaf-manifest/abcn-live-10-index_4_0.m3u8
-#EXTINF:-1 tvg-logo="https://a57.foxnews.com/cf-images.us-east-1.prod.boltdns.net/v1/static/694940094001/519925b6-905d-47fa-bada-5e700a710dee/22ee56a5-9cee-46af-a739-c240172f2777/1280x720/match/1280/720/image.jpg" group-title="NEWS WORLD",Fox Business Go | Fox News Video
-https://247.foxbusiness.com/hls/live/2003756/FBNHLSv3/master.m3u8?hdnea=exp=1778276776~acl=/*~hmac=20009e6c86af743984854f11f1a055629a591f1a5c3d0ae2a7f8b785a361816c
 #EXTINF:-1 tvg-logo="https://a57.foxnews.com/cf-images.us-east-1.prod.boltdns.net/v1/static/694940094001/15de0523-3be4-4a9a-8159-7020114e7036/b6ff623a-26d6-4fd9-8bb8-0856adbf38ce/1280x720/match/676/380/image.jpg?ve=1&tl=1" group-title="NEWS WORLD",Watch Fox News Channel Online | Stream Fox News
-https://247.foxnews.com/hls/live/2003586/FNCHLSv3/master.m3u8?hdnea=exp=1778276776~acl=/*~hmac=20009e6c86af743984854f11f1a055629a591f1a5c3d0ae2a7f8b785a361816c
+https://247.foxnews.com/hls/live/2003586/FNCHLSv3/master.m3u8?hdnea=exp=1778280647~acl=/*~hmac=07d2bda9025678f64aa5d31085ac393593fa32e946a835c3906aa8e365eae5cf
+#EXTINF:-1 tvg-logo="https://a57.foxnews.com/cf-images.us-east-1.prod.boltdns.net/v1/static/694940094001/519925b6-905d-47fa-bada-5e700a710dee/22ee56a5-9cee-46af-a739-c240172f2777/1280x720/match/1280/720/image.jpg" group-title="NEWS WORLD",Fox Business Go | Fox News Video
+https://247.foxbusiness.com/hls/live/2003756/FBNHLSv3/master.m3u8?hdnea=exp=1778280648~acl=/*~hmac=e208567d3ffaa472f7bf2a59c58ba13261a293a6a8823a924d4ca92dedb3d07e
 #EXTINF:-1 tvg-logo="https://www.cbsnews.com/bundles/cbsnewsvideo/images/cbsn--main-bg.jpg" group-title="NEWS WORLD",Watch CBS News 24/7, our free live news stream
-https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/5a03e83e-3141-4743-94c1-57a6d2cee9b6:CBF2/master.m3u8
+https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/374580ef-8865-42be-afcd-de7920a45377:CBF2/master.m3u8
 #EXTINF:-1 tvg-logo="https://www.cbsnews.com/bundles/cbsnewsvideo/images/cbsn--main-bg.jpg" group-title="NEWS WORLD",Watch CBS News 24/7, our free live news stream
-https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/5a03e83e-3141-4743-94c1-57a6d2cee9b6:CBF2/variant/93c2acc6479504ccd49e3f4d21db1bec/bandwidth/441000.m3u8
+https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/374580ef-8865-42be-afcd-de7920a45377:CBF2/variant/93c2acc6479504ccd49e3f4d21db1bec/bandwidth/441000.m3u8
 #EXTINF:-1 tvg-logo="https://www.cbsnews.com/bundles/cbsnewsvideo/images/cbsn--main-bg.jpg" group-title="NEWS WORLD",Watch CBS News 24/7, our free live news stream
-https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/5a03e83e-3141-4743-94c1-57a6d2cee9b6:CBF2/variant/df15b3d87264e51b4858655d95765b18/bandwidth/1549000.m3u8
+https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/374580ef-8865-42be-afcd-de7920a45377:CBF2/variant/df15b3d87264e51b4858655d95765b18/bandwidth/1549000.m3u8
 #EXTINF:-1 tvg-logo="https://www.cbsnews.com/bundles/cbsnewsvideo/images/cbsn--main-bg.jpg" group-title="NEWS WORLD",Watch CBS News 24/7, our free live news stream
-https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/5a03e83e-3141-4743-94c1-57a6d2cee9b6:CBF2/variant/9b9c3d2ac5aa8733095eb4ff47cef5d8/bandwidth/2249000.m3u8
+https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/374580ef-8865-42be-afcd-de7920a45377:CBF2/variant/9b9c3d2ac5aa8733095eb4ff47cef5d8/bandwidth/2249000.m3u8
 #EXTINF:-1 tvg-logo="https://www.cbsnews.com/bundles/cbsnewsvideo/images/cbsn--main-bg.jpg" group-title="NEWS WORLD",Watch CBS News 24/7, our free live news stream
-https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/5a03e83e-3141-4743-94c1-57a6d2cee9b6:CBF2/variant/bbe09487996e4026304507dc92286621/bandwidth/4231000.m3u8
+https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/374580ef-8865-42be-afcd-de7920a45377:CBF2/variant/bbe09487996e4026304507dc92286621/bandwidth/4231000.m3u8
 #EXTINF:-1 tvg-logo="https://www.cbsnews.com/bundles/cbsnewsvideo/images/cbsn--main-bg.jpg" group-title="NEWS WORLD",Watch CBS News 24/7, our free live news stream
-https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/5a03e83e-3141-4743-94c1-57a6d2cee9b6:CBF2/variant/bbe09487996e4026304507dc92286621/bandwidth/4231000.m3u8
+https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/374580ef-8865-42be-afcd-de7920a45377:CBF2/variant/bbe09487996e4026304507dc92286621/bandwidth/4231000.m3u8
 #EXTINF:-1 tvg-logo="https://www.cbsnews.com/bundles/cbsnewsvideo/images/cbsn--main-bg.jpg" group-title="NEWS WORLD",Watch CBS News 24/7, our free live news stream
-https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/5a03e83e-3141-4743-94c1-57a6d2cee9b6:CBF2/variant/bbe09487996e4026304507dc92286621/bandwidth/4231000.m3u8
+https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/374580ef-8865-42be-afcd-de7920a45377:CBF2/variant/bbe09487996e4026304507dc92286621/bandwidth/4231000.m3u8
 #EXTINF:-1 tvg-logo="https://www.cbsnews.com/bundles/cbsnewsvideo/images/cbsn--main-bg.jpg" group-title="NEWS WORLD",Watch CBS News 24/7, our free live news stream
-https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/5a03e83e-3141-4743-94c1-57a6d2cee9b6:CBF2/variant/bbe09487996e4026304507dc92286621/bandwidth/4231000.m3u8
+https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/374580ef-8865-42be-afcd-de7920a45377:CBF2/variant/bbe09487996e4026304507dc92286621/bandwidth/4231000.m3u8
 #EXTINF:-1 tvg-logo="https://www.cbsnews.com/bundles/cbsnewsvideo/images/cbsn--main-bg.jpg" group-title="NEWS WORLD",Watch CBS News 24/7, our free live news stream
-https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/5a03e83e-3141-4743-94c1-57a6d2cee9b6:CBF2/variant/bbe09487996e4026304507dc92286621/bandwidth/4231000.m3u8
+https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/374580ef-8865-42be-afcd-de7920a45377:CBF2/variant/bbe09487996e4026304507dc92286621/bandwidth/4231000.m3u8
 #EXTINF:-1 tvg-logo="https://www.cbsnews.com/bundles/cbsnewsvideo/images/cbsn--main-bg.jpg" group-title="NEWS WORLD",Watch CBS News 24/7, our free live news stream
-https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/5a03e83e-3141-4743-94c1-57a6d2cee9b6:CBF2/variant/bbe09487996e4026304507dc92286621/bandwidth/4231000.m3u8
+https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/374580ef-8865-42be-afcd-de7920a45377:CBF2/variant/bbe09487996e4026304507dc92286621/bandwidth/4231000.m3u8
 #EXTINF:-1 tvg-logo="https://www.cbsnews.com/bundles/cbsnewsvideo/images/cbsn--main-bg.jpg" group-title="NEWS WORLD",Watch CBS News 24/7, our free live news stream
-https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/5a03e83e-3141-4743-94c1-57a6d2cee9b6:CBF2/variant/bbe09487996e4026304507dc92286621/bandwidth/4231000.m3u8
+https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/374580ef-8865-42be-afcd-de7920a45377:CBF2/variant/bbe09487996e4026304507dc92286621/bandwidth/4231000.m3u8
 #EXTINF:-1 tvg-logo="https://www.cbsnews.com/bundles/cbsnewsvideo/images/cbsn--main-bg.jpg" group-title="NEWS WORLD",Watch CBS News 24/7, our free live news stream
-https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/5a03e83e-3141-4743-94c1-57a6d2cee9b6:CBF2/variant/bbe09487996e4026304507dc92286621/bandwidth/4231000.m3u8
+https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/374580ef-8865-42be-afcd-de7920a45377:CBF2/variant/bbe09487996e4026304507dc92286621/bandwidth/4231000.m3u8
 #EXTINF:-1 tvg-logo="https://www.cbsnews.com/bundles/cbsnewsvideo/images/cbsn--main-bg.jpg" group-title="NEWS WORLD",Watch CBS News 24/7, our free live news stream
-https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/5a03e83e-3141-4743-94c1-57a6d2cee9b6:CBF2/variant/bbe09487996e4026304507dc92286621/bandwidth/4231000.m3u8
+https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/374580ef-8865-42be-afcd-de7920a45377:CBF2/variant/bbe09487996e4026304507dc92286621/bandwidth/4231000.m3u8
 #EXTINF:-1 tvg-logo="https://www.cbsnews.com/bundles/cbsnewsvideo/images/cbsn--main-bg.jpg" group-title="NEWS WORLD",Watch CBS News 24/7, our free live news stream
-https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/5a03e83e-3141-4743-94c1-57a6d2cee9b6:CBF2/variant/bbe09487996e4026304507dc92286621/bandwidth/4231000.m3u8
+https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/374580ef-8865-42be-afcd-de7920a45377:CBF2/variant/bbe09487996e4026304507dc92286621/bandwidth/4231000.m3u8
 #EXTINF:-1 tvg-logo="https://www.cbsnews.com/bundles/cbsnewsvideo/images/cbsn--main-bg.jpg" group-title="NEWS WORLD",Watch CBS News 24/7, our free live news stream
-https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/5a03e83e-3141-4743-94c1-57a6d2cee9b6:CBF2/variant/bbe09487996e4026304507dc92286621/bandwidth/4231000.m3u8
+https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/374580ef-8865-42be-afcd-de7920a45377:CBF2/variant/bbe09487996e4026304507dc92286621/bandwidth/4231000.m3u8
 #EXTINF:-1 tvg-logo="https://www.cbsnews.com/bundles/cbsnewsvideo/images/cbsn--main-bg.jpg" group-title="NEWS WORLD",Watch CBS News 24/7, our free live news stream
-https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/5a03e83e-3141-4743-94c1-57a6d2cee9b6:CBF2/variant/bbe09487996e4026304507dc92286621/bandwidth/4231000.m3u8
+https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/374580ef-8865-42be-afcd-de7920a45377:CBF2/variant/bbe09487996e4026304507dc92286621/bandwidth/4231000.m3u8
 #EXTINF:-1 tvg-logo="https://www.cbsnews.com/bundles/cbsnewsvideo/images/cbsn--main-bg.jpg" group-title="NEWS WORLD",Watch CBS News 24/7, our free live news stream
-https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/5a03e83e-3141-4743-94c1-57a6d2cee9b6:CBF2/variant/bbe09487996e4026304507dc92286621/bandwidth/4231000.m3u8
+https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/374580ef-8865-42be-afcd-de7920a45377:CBF2/variant/bbe09487996e4026304507dc92286621/bandwidth/4231000.m3u8
 #EXTINF:-1 tvg-logo="https://www.cbsnews.com/bundles/cbsnewsvideo/images/cbsn--main-bg.jpg" group-title="NEWS WORLD",Watch CBS News 24/7, our free live news stream
-https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/5a03e83e-3141-4743-94c1-57a6d2cee9b6:CBF2/variant/bbe09487996e4026304507dc92286621/bandwidth/4231000.m3u8
+https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/374580ef-8865-42be-afcd-de7920a45377:CBF2/variant/bbe09487996e4026304507dc92286621/bandwidth/4231000.m3u8
+#EXTINF:-1 tvg-logo="https://www.cbsnews.com/bundles/cbsnewsvideo/images/cbsn--main-bg.jpg" group-title="NEWS WORLD",Watch CBS News 24/7, our free live news stream
+https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/374580ef-8865-42be-afcd-de7920a45377:CBF2/variant/bbe09487996e4026304507dc92286621/bandwidth/4231000.m3u8
+#EXTINF:-1 tvg-logo="https://www.cbsnews.com/bundles/cbsnewsvideo/images/cbsn--main-bg.jpg" group-title="NEWS WORLD",Watch CBS News 24/7, our free live news stream
+https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/374580ef-8865-42be-afcd-de7920a45377:CBF2/variant/bbe09487996e4026304507dc92286621/bandwidth/4231000.m3u8
+#EXTINF:-1 tvg-logo="https://www.cbsnews.com/bundles/cbsnewsvideo/images/cbsn--main-bg.jpg" group-title="NEWS WORLD",Watch CBS News 24/7, our free live news stream
+https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/374580ef-8865-42be-afcd-de7920a45377:CBF2/variant/bbe09487996e4026304507dc92286621/bandwidth/4231000.m3u8
+#EXTINF:-1 tvg-logo="https://www.cbsnews.com/bundles/cbsnewsvideo/images/cbsn--main-bg.jpg" group-title="NEWS WORLD",Watch CBS News 24/7, our free live news stream
+https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/374580ef-8865-42be-afcd-de7920a45377:CBF2/variant/bbe09487996e4026304507dc92286621/bandwidth/4231000.m3u8
 #EXTM3U x-tvg-url="https://iptv-epg.org/files/epg-es.xml.gz,https://iptv-epg.org/files/epg-fr.xml.gz,https://iptv-epg.org/files/epg-us.xml.gz,https://iptv-epg.org/files/epg-de.xml.gz"
 #EXTINF:-1 tvg-id="AlJazeeraEnglish.es" tvg-logo="https://raw.githubusercontent.com/guigo85/lista-m3u-gratuita/main/logos/aljazeera.png" group-title="Mundo" x-tvg-url="https://iptv-epg.org/files/epg-es.xml.gz",Al Jazeera Español
 https://live-hls-web-aja.getaj.net/AJA/index.m3u8
@@ -4201,13 +4357,6 @@ http://play.dnsrot.vip/live/ramagi777/e4ifqhgjpqf/215399.m3u8
 #EXTINF:-1 tvg-id="tv-globo" tvg-name="Globo News HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/TV_Globo.png/180px-TV_Globo.png" group-title="Canais | Globo",Globo News HD
 http://play.dnsrot.vip/live/ramagi777/e4ifqhgjpqf/38970.m3u8
 #EXTM3U
-#EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_IL1.xml.gz"
-#EXTINF:-1 group-title="NEWS WORLD" tvg-chno="1303" tvg-id="רשת.il" tvg-logo="https://gurutv.online/wp-content/uploads/ch13.jpg",רשת 13
-https://d198ztbnlup2iq.cloudfront.net/out/v1/2d9050c90fb94df8b78d1d98306a1a65/index.m3u8
-#EXTINF:-1 group-title="NEWS WORLD" tvg-chno="1306" tvg-id="DW.English.HD.il" tvg-logo="https://images.frp1.ott.kaltura.com/Service.svc/GetImage/p/3197/entry_id/3e0472dc1a6645b69a64c8300539c53e/version/3",DW English HD
-https://dwamdstream104.akamaized.net/hls/live/2015530/dwstream104/index.m3u8
-#EXTINF:-1 group-title="NEWS WORLD" tvg-chno="1307" tvg-id="ערוץ.הכנסת.il" tvg-logo="https://images.frp1.ott.kaltura.com/Service.svc/GetImage/p/3197/entry_id/2c7f02e3c7914dd7bcdc5e57a0efbb8c/version/2",ערוץ הכנסת
-https://main.knesset.gov.il/tv/live/knesset_hls_high.isml/hls/live.m3u8
 #EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_AR1.xml.gz,https://iptv-epg.org/files/epg-ar.xml.gz" deinterlaced="1"
 #EXTM3U url-epg="https://iptv-epg.org/files/epg-ar.xml"
 #EXTINF:-1 group-title="ARGENTINA" tvg-id="ElTrece.ar" tvg-logo="https://www.lyngsat.com/logo/tv/ee/el-trece.png",El Trece
@@ -4359,140 +4508,6 @@ https://grrfff66me7t.objectstorage.sa-saopaulo-1.oci.customer-oci.com/n/grrfff66
 https://grrfff66me7t.objectstorage.sa-saopaulo-1.oci.customer-oci.com/n/grrfff66me7t/b/Cubojoselyn/o/reset%2Fpeliculas%2Fdiciembre%2FVer%20Pollitos%20en%20fuga-%20El%20origen%20de%20los%20nuggets%20online%20HD%20-%20Cuevana%202.mp4
 #EXTINF:-1 group-title="Movies" tvg-id="AtrapadosEnLoProfundo.2024" tvg-logo="https://m.media-amazon.com/images/M/MV5BN2I4NmE0MzAtNjE1MS00NzNlLWE1YjItYzkyMzE0MGM3ODY1XkEyXkFqcGc@._V1_.jpg",Atrapados en lo Profundo (2024 Suspenso)
 https://grrfff66me7t.objectstorage.sa-saopaulo-1.oci.customer-oci.com/n/grrfff66me7t/b/Cubojoselyn/o/reset%2Fpeliculas%2Fmar24%2FVer%20Atrapados%20en%20lo%20Profundo%20online%20HD%20-%20Cuevana%202.mp4
-#EXTINF:-1 tvg-id="br#telecine-premium-hd" tvg-name="Telecine Premium FHD" tvg-logo="http://channelart.8b90287dn2.online/images/logos/Telecine%20Premium.png" group-title="TELECINE",Telecine Premium FHD
-http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/1904
-#EXTINF:-1 tvg-id="br#telecine-premium-hd" tvg-name="Telecine Premium HD" tvg-logo="http://channelart.8b90287dn2.online/images/logos/Telecine%20Premium.png" group-title="TELECINE",Telecine Premium HD
-http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/2235
-#EXTINF:-1 tvg-id="TelecinePremium.br" tvg-name="Telecine Premium" tvg-logo="http://channelart.8b90287dn2.online/images/logos/Telecine%20Premium.png" group-title="TELECINE",Telecine Premium
-http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/2234
-#EXTINF:-1 tvg-id="br#telecine-pipoca-hd" tvg-name="Telecine Pipoca FHD" tvg-logo="http://channelart.8b90287dn2.online/images/logos/Telecine%20Pipoca.png" group-title="TELECINE",Telecine Pipoca FHD
-http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/1903
-#EXTINF:-1 tvg-id="br#telecine-pipoca-hd" tvg-name="Telecine Pipoca HD" tvg-logo="http://channelart.8b90287dn2.online/images/logos/Telecine%20Pipoca.png" group-title="TELECINE",Telecine Pipoca HD
-http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/2233
-#EXTINF:-1 tvg-id="br#telecine-pipoca-hd" tvg-name="Telecine Pipoca" tvg-logo="http://channelart.8b90287dn2.online/images/logos/Telecine%20Pipoca.png" group-title="TELECINE",Telecine Pipoca
-http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/2232
-#EXTINF:-1 tvg-id="TelecineAction.br" tvg-name="Telecine Action FHD" tvg-logo="http://channelart.8b90287dn2.online/images/logos/Telecine%20Action.png" group-title="TELECINE",Telecine Action FHD
-http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/1901
-#EXTINF:-1 tvg-id="br#telecine-action-hd" tvg-name="Telecine Action HD" tvg-logo="http://channelart.8b90287dn2.online/images/logos/Telecine%20Action.png" group-title="TELECINE",Telecine Action HD
-http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/2227
-#EXTINF:-1 tvg-id="br#telecine-action-hd" tvg-name="Telecine Action" tvg-logo="http://channelart.8b90287dn2.online/images/logos/Telecine%20Action.png" group-title="TELECINE",Telecine Action
-http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/2226
-#EXTINF:-1 tvg-id="br#telecine-touch-hd" tvg-name="Telecine Touch FHD" tvg-logo="http://channelart.8b90287dn2.online/images/logos/Telecine%20Touch.png" group-title="TELECINE",Telecine Touch FHD
-http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/1905
-#EXTINF:-1 tvg-id="br#telecine-touch-hd" tvg-name="Telecine Touch HD" tvg-logo="http://channelart.8b90287dn2.online/images/logos/Telecine%20Touch.png" group-title="TELECINE",Telecine Touch HD
-http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/2237
-#EXTINF:-1 tvg-id="br#telecine-touch-hd" tvg-name="Telecine Touch" tvg-logo="http://channelart.8b90287dn2.online/images/logos/Telecine%20Touch.png" group-title="TELECINE",Telecine Touch
-http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/2236
-#EXTINF:-1 tvg-id="br#telecine-fun-hd" tvg-name="Telecine Fun FHD" tvg-logo="http://channelart.8b90287dn2.online/images/logos/Telecine%20Fun.png" group-title="TELECINE",Telecine Fun FHD
-http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/1902
-#EXTINF:-1 tvg-id="br#telecine-fun-hd" tvg-name="Telecine Fun HD" tvg-logo="http://channelart.8b90287dn2.online/images/logos/Telecine%20Fun.png" group-title="TELECINE",Telecine Fun HD
-http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/2231
-#EXTINF:-1 tvg-id="br#telecine-fun-hd" tvg-name="Telecine Fun" tvg-logo="http://channelart.8b90287dn2.online/images/logos/Telecine%20Fun.png" group-title="TELECINE",Telecine Fun
-http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/2230
-#EXTINF:-1 tvg-id="br#telecine-cult-hd" tvg-name="Telecine Cult FHD" tvg-logo="http://channelart.8b90287dn2.online/images/logos/Telecine%20Cult.png" group-title="TELECINE",Telecine Cult FHD
-http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/1866
-#EXTINF:-1 tvg-id="br#telecine-cult-hd" tvg-name="Telecine Cult HD" tvg-logo="http://channelart.8b90287dn2.online/images/logos/Telecine%20Cult.png" group-title="TELECINE",Telecine Cult HD
-http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/2229
-#EXTINF:-1 tvg-id="br#telecine-cult-hd" tvg-name="Telecine Cult" tvg-logo="http://channelart.8b90287dn2.online/images/logos/Telecine%20Cult.png" group-title="TELECINE",Telecine Cult
-http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/2228
-#EXTINF:-1 tvg-id="br#megapix-hd" tvg-name="Megapix FHD" tvg-logo="http://channelart.8b90287dn2.online/images/logos/Megapix%20HD.png" group-title="TELECINE",Megapix FHD
-http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/1848
-#EXTINF:-1 tvg-id="br#megapix-hd" tvg-name="Megapix HD" tvg-logo="http://channelart.8b90287dn2.online/images/logos/Megapix%20HD.png" group-title="TELECINE",Megapix HD
-http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/2164
-#EXTINF:-1 tvg-id="megapix.br" tvg-name="Megapix" tvg-logo="http://channelart.8b90287dn2.online/images/logos/Megapix.png" group-title="TELECINE",Megapix
-http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/2163
-#EXTINF:-1 tvg-id="USA.br" tvg-name="USA FHD" tvg-logo="http://channelart.8b90287dn2.online/images/logos/Syfy%20HD.png" group-title="TELECINE",USA FHD
-http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/1864
-#EXTINF:-1 tvg-id="USA.br" tvg-name="USA HD" tvg-logo="http://channelart.8b90287dn2.online/images/logos/Syfy%20HD.png" group-title="TELECINE",USA HD
-http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/2215
-#EXTINF:-1 tvg-id="24HAnimes" tvg-name="USA" tvg-logo="http://channelart.8b90287dn2.online/images/logos/Syfy.png" group-title="TELECINE",USA
-http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/2214
-#EXTINF:-1 tvg-id="UniversalTV.br" tvg-name="Universal TV FHD" tvg-logo="http://channelart.8b90287dn2.online/images/logos/Universal%20TV.png" group-title="TELECINE",Universal TV FHD
-http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/1872
-#EXTINF:-1 tvg-id="UniversalTV.br" tvg-name="Universal TV HD" tvg-logo="http://channelart.8b90287dn2.online/images/logos/Universal%20TV.png" group-title="TELECINE",Universal TV HD
-http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/2258
-#EXTINF:-1 tvg-id="UniversalTV.br" tvg-name="Universal TV " tvg-logo="http://channelart.8b90287dn2.online/images/logos/Universal%20TV.png" group-title="TELECINE",Universal TV 
-http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/2257
-#EXTINF:-1 tvg-id="br#canal-brasil-hd" tvg-name="Canal Brasil FHD" tvg-logo="http://channelart.8b90287dn2.online/images/logos/Canal%20Brasil.png" group-title="TELECINE",Canal Brasil FHD
-http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/1908
-#EXTINF:-1 tvg-id="br#canal-brasil-hd" tvg-name="Canal Brasil HD" tvg-logo="http://channelart.8b90287dn2.online/images/logos/Canal%20Brasil.png" group-title="TELECINE",Canal Brasil HD
-http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/2067
-#EXTINF:-1 tvg-id="br#canal-brasil-hd" tvg-name="Canal Brasil" tvg-logo="http://channelart.8b90287dn2.online/images/logos/Canal%20Brasil.png" group-title="TELECINE",Canal Brasil
-http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/2066
-#EXTINF:-1 tvg-id="HBO.br" tvg-name="HBO FHD" tvg-logo="http://channelart.8b90287dn2.online/images/logos/HBO.png" group-title="HBO ",HBO FHD
-http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/1891
-#EXTINF:-1 tvg-id="HBO.br" tvg-name="HBO HD" tvg-logo="http://channelart.8b90287dn2.online/images/logos/HBO.png" group-title="HBO ",HBO HD
-http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/2144
-#EXTINF:-1 tvg-id="HBO.br" tvg-name="HBO" tvg-logo="http://channelart.8b90287dn2.online/images/logos/HBO.png" group-title="HBO ",HBO
-http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/2139
-#EXTINF:-1 tvg-id="HBO2.br" tvg-name="HBO 2 FHD" tvg-logo="http://channelart.8b90287dn2.online/images/logos/HBO%202%20HD.png" group-title="HBO ",HBO 2 FHD
-http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/1890
-#EXTINF:-1 tvg-id="HBO2.br" tvg-name="HBO 2 HD" tvg-logo="http://channelart.8b90287dn2.online/images/logos/HBO%202%20HD.png" group-title="HBO ",HBO 2 HD
-http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/2141
-#EXTINF:-1 tvg-id="HBO2.br" tvg-name="HBO 2" tvg-logo="http://channelart.8b90287dn2.online/images/logos/HBO%202.png" group-title="HBO ",HBO 2
-http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/2140
-#EXTINF:-1 tvg-id="" tvg-name="HBO Plus FHD" tvg-logo="http://channelart.8b90287dn2.online/images/logos/HBO%20Plus.png" group-title="HBO ",HBO Plus FHD
-http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/1840
-#EXTINF:-1 tvg-id="" tvg-name="HBO Plus HD" tvg-logo="http://channelart.8b90287dn2.online/images/logos/HBO%20Plus.png" group-title="HBO ",HBO Plus HD
-http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/2146
-#EXTINF:-1 tvg-id="" tvg-name="HBO Plus" tvg-logo="http://channelart.8b90287dn2.online/images/logos/HBO%20Plus.png" group-title="HBO ",HBO Plus
-http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/2145
-#EXTINF:-1 tvg-id="HBOFamily.br" tvg-name="HBO Family FHD" tvg-logo="http://channelart.8b90287dn2.online/images/logos/HBO%20Family%20HD.png" group-title="HBO ",HBO Family FHD
-http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/1839
-#EXTINF:-1 tvg-id="HBOFamily.br" tvg-name="HBO Family HD" tvg-logo="http://channelart.8b90287dn2.online/images/logos/HBO%20Family%20HD.png" group-title="HBO ",HBO Family HD
-http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/2143
-#EXTINF:-1 tvg-id="" tvg-name="HBO Family" tvg-logo="http://channelart.8b90287dn2.online/images/logos/HBO%20Family.png" group-title="HBO ",HBO Family
-http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/2142
-#EXTINF:-1 tvg-id="HBOSignature.br" tvg-name="HBO Signature FHD" tvg-logo="http://channelart.8b90287dn2.online/images/logos/HBO%20Signature%20HD.png" group-title="HBO ",HBO Signature FHD
-http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/1841
-#EXTINF:-1 tvg-id="HBOSignature.br" tvg-name="HBO Signature HD" tvg-logo="http://channelart.8b90287dn2.online/images/logos/HBO%20Signature%20HD.png" group-title="HBO ",HBO Signature HD
-http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/2148
-#EXTINF:-1 tvg-id="HBOSignature.br" tvg-name="HBO Signature" tvg-logo="http://channelart.8b90287dn2.online/images/logos/HBO%20Signature.png" group-title="HBO ",HBO Signature
-http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/2147
-#EXTINF:-1 tvg-id="HBOMundi.br" tvg-name="HBO Mundi FHD" tvg-logo="http://channelart.8b90287dn2.online/images/logos/HBO%20Mundi.png" group-title="HBO ",HBO Mundi FHD
-http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/1845
-#EXTINF:-1 tvg-id="HBOMundi.br" tvg-name="HBO Mundi HD" tvg-logo="http://channelart.8b90287dn2.online/images/logos/HBO%20Mundi.png" group-title="HBO ",HBO Mundi HD
-http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/2158
-#EXTINF:-1 tvg-id="HBOMundi.br" tvg-name="HBO Mundi" tvg-logo="http://channelart.8b90287dn2.online/images/logos/HBO%20Mundi.png" group-title="HBO ",HBO Mundi
-http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/2157
-#EXTINF:-1 tvg-id="HBOMundi.br" tvg-name="HBO Mundi" tvg-logo="http://channelart.8b90287dn2.online/images/logos/HBO%20Mundi.png" group-title="HBO ",HBO Mundi
-http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/1202
-#EXTINF:-1 tvg-id="HBOPop.br" tvg-name="HBO POP FHD" tvg-logo="http://channelart.8b90287dn2.online/images/logos/HBO%20Pop.png" group-title="HBO ",HBO POP FHD
-http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/1847
-#EXTINF:-1 tvg-id="HBOPop.br" tvg-name="HBO POP HD" tvg-logo="http://channelart.8b90287dn2.online/images/logos/HBO%20Pop.png" group-title="HBO ",HBO POP HD
-http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/2162
-#EXTINF:-1 tvg-id="HBOPop.br" tvg-name="HBO POP" tvg-logo="http://channelart.8b90287dn2.online/images/logos/HBO%20Pop.png" group-title="HBO ",HBO POP
-http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/2161
-#EXTINF:-1 tvg-id="HBOXtreme.br" tvg-name="HBO Xtreme FHD" tvg-logo="http://channelart.8b90287dn2.online/images/logos/HBO%20Xtreme.png" group-title="HBO ",HBO Xtreme FHD
-http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/1846
-#EXTINF:-1 tvg-id="HBOXtreme.br" tvg-name="HBO Xtreme HD" tvg-logo="http://channelart.8b90287dn2.online/images/logos/HBO%20Xtreme.png" group-title="HBO ",HBO Xtreme HD
-http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/2160
-#EXTINF:-1 tvg-id="HBOXtreme.br" tvg-name="HBO Xtreme" tvg-logo="http://channelart.8b90287dn2.online/images/logos/HBO%20Xtreme.png" group-title="HBO ",HBO Xtreme
-http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/2159
-#EXTINF:-1 tvg-id="AMC.br" tvg-name="AMC FHD" tvg-logo="http://channelart.8b90287dn2.online/images/logos/AMC%20HD.png" group-title="FILMES & SERIES",AMC FHD
-http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/1807
-#EXTINF:-1 tvg-id="" tvg-name="AMC HD" tvg-logo="http://channelart.8b90287dn2.online/images/logos/AMC%20HD.png" group-title="FILMES & SERIES",AMC HD
-http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/2048
-#EXTINF:-1 tvg-id="" tvg-name="AMC" tvg-logo="http://channelart.8b90287dn2.online/images/logos/AMC.png" group-title="FILMES & SERIES",AMC
-http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/2047
-#EXTINF:-1 tvg-id="AXN.br" tvg-name="AXN FHD" tvg-logo="http://channelart.8b90287dn2.online/images/logos/AXN%20HD.png" group-title="FILMES & SERIES",AXN FHD
-http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/1810
-#EXTINF:-1 tvg-id="" tvg-name="AXN HD" tvg-logo="http://channelart.8b90287dn2.online/images/logos/AXN%20HD.png" group-title="FILMES & SERIES",AXN HD
-http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/2054
-#EXTINF:-1 tvg-id="" tvg-name="AXN" tvg-logo="http://channelart.8b90287dn2.online/images/logos/AXN.png" group-title="FILMES & SERIES",AXN
-http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/2053
-#EXTINF:-1 tvg-id="AXN.br" tvg-name="AXN FHD LEG" tvg-logo="http://channelart.8b90287dn2.online/images/logos/AXN%20HD.png" group-title="LEGENDADOS",AXN FHD LEG
-http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/24778
-#EXTINF:-1 tvg-id="tnt" tvg-name="TNT FHD" tvg-logo="http://channelart.8b90287dn2.online/images/logos/TNT%20HD.png" group-title="FILMES & SERIES",TNT FHD
-http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/1868
-#EXTINF:-1 tvg-id="tnt" tvg-name="TNT HD" tvg-logo="http://channelart.8b90287dn2.online/images/logos/TNT%20HD.png" group-title="FILMES & SERIES",TNT HD
-http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/2242
-#EXTINF:-1 tvg-id="tnt.br" tvg-name="TNT" tvg-logo="http://channelart.8b90287dn2.online/images/logos/TNT.png" group-title="FILMES & SERIES",TNT
-http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/2241
-#EXTINF:-1 tvg-id="tnt" tvg-name="TNT Alternativo HD" tvg-logo="http://channelart.8b90287dn2.online/images/logos/TNT%20HD.png" group-title="FILMES & SERIES",TNT Alternativo HD
-http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/1283
-#EXTINF:-1 tvg-id="tnt.br" tvg-name="TNT Alternativo" tvg-logo="http://channelart.8b90287dn2.online/images/logos/TNT.png" group-title="FILMES & SERIES",TNT Alternativo
-http://site.poupadefrutas.shop:80/q2Y7tqVAUv/dnuavyuZV5/1234
 #EXTM3U x-tvg-url="https://raw.githubusercontent.com/MatheusAlves7/Canais_IPTV/refs/heads/main/guide.xml,http://lidns.cc/xmltv.php?username=4x6cXF&password=JDqRqj&type=m3u_plus&output=m3u8,https://www.open-epg.com/files/brazil1.xml.gz,https://www.open-epg.com/files/brazil2.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_BR1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_ALL_SOURCES1.xml.gz,https://www.open-epg.com/files/portugal.xml.gz,https://www.open-epg.com/files/portugal2.xml.gz,https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/PlutoTV/all.xml,https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/Plex/all.xml,https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/SamsungTVPlus/all.xml,https://raw.githubusercontent.com/helenfernanda/gratis/main/distrotv.xml,https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/Stirr/all.xml,https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/Singtel/epg.xml,https://raw.githubusercontent.com/AqFad2811/epg/main/unifitv.xml"
 #EXTM3U url-tvg="https://fastly.jsdelivr.net/gh/limaalef/BrazilTVEPG@main/epg.xml"
 #EXTM3U x-tvg-url="https://raw.githubusercontent.com/limaalef/BrazilTVEPG/main/epg.xml"
