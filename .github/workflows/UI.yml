@@ -28,7 +28,7 @@ jobs:
       - name: Create prompt
         run: |
           cat << 'EOF' > prompt.txt
-          acesse lista3.M3U
+          acesse lista2.M3U
           remova os guias que não tiverem a programação de hoje
           EOF
 
