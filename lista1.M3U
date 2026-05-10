@@ -756,10 +756,8 @@ https://archive.org/download/yt-5s.com-80s-commercials-nbc-february-1985-1080p/y
 https://archive.org/download/WRC_20010913_233000_Redskins_Report/WRC_20010913_233000_Redskins_Report.mp4?exact=1&start=0&end=300
 #EXTINF:-1 group-title="VOD" ,NBC Nightly News : WCAU : October 2, 2014 6:30pm-7:01pm EDT
 https://archive.org/download/WCAU_20141002_223000_NBC_Nightly_News/WCAU_20141002_223000_NBC_Nightly_News.mp4?exact=1&start=0&end=300
-#EXTINF:-1 group-title="VOD" ,Fmr. Rep.: America Should Be Embarrassed About Treatment Of Migrant Kids | Velshi & Ruhle | MSNBC
-https://archive.org/download/youtube-BWFp8nxkmGs/BWFp8nxkmGs.mp4
-#EXTM3U
-#EXTM3U
+#EXTINF:-1 group-title="VOD" ,What The Fight Over The Electoral College Could Mean For The Future | Velshi & Ruhle | MSNBC
+https://archive.org/download/youtube-Q1ksxHZ817Y/Q1ksxHZ817Y.mp4
 #EXTM3U
 #EXTM3U
 #EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_IL1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_ALJAZEERA1.xml.gz"
@@ -1415,11 +1413,425 @@ EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/CINECITY2023/cinecity/refs
 http://172.93.102.112:8989/158753_.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/CINECITY2023/cinecity/refs/heads/cinecity.net/logos/canales-internacionales/VibeTVMexico.png" group-title="🌍 Canales Internacionales",✔️ Vibe TV (Mexico)
 https://5ca9af4645e15.streamlock.net/vibetv/videovibetv/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9My8yMS8yMDI1IDg6NTk6MjQgQU0maGFzaF92YWx1ZT1qMmRGZWNzTHIyZGttY3dJdXRYMXF3PT0mdmFsaWRtaW51dGVzPTEwJmlkPQ==
-#EXTM3U x-tvg-url="https://iptv-epg.org/files/epg-br.xml.gz"
-#EXTINF:-1 tvg-id="GloboNews.br" tvg-logo="https://i.imgur.com/Wu4ykxo.png" group-title="NEWS WORLD",GLOBO NEWS
-http://79.127.238.228:14093/
-#EXTINF:-1 tvg-id="RecordNews.br" tvg-logo="https://i.imgur.com/HZDRG0K.png" group-title="NEWS WORLD",Record News
-https://rnw-rn.otteravision.com/rnw/rn/rnw_rn.m3u8
+#EXTM3U url-tvg="https://epgshare01.online/epgshare01/epg_ripper_ALL_SOURCES1.xml.gz"
+#EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_MX1.xml.gz"
+#EXTM3U x-tvg-url="https://iptv-org.github.io/epg/guides/mx/izzi.mx.epg.xml,https://iptv-org.github.io/epg/guides/pt/meo.pt.epg.xml,https://iptv-org.github.io/epg/guides/rs/mts.rs.epg.xml,https://iptv-org.github.io/epg/guides/il/yes.co.il.epg.xml,https://epgshare01.online/epgshare01/epg_ripper_MX1.xml.gz"
+#EXTINF:-1 group-title="Reality Show's Live" tvg-id="tv-globo" tvg-name="Globo" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/1f/TV_Globo_logo_%28April_2025%29.png",GLOBO (VIVO)
+http://xlsdfgvertydthdfdfgh5634dsfdsr4f.ethertwo.sbs/cesar3377/cse3377/12723.ts
+#EXTINF:-1 tvg-logo="https://i.imgur.com/MN5tnPw.png" group-title="Reality Show's Live",Casa do Patrao: Casa Convivencia (B)
+http://play.1list.vip/live/8gZav5kQe2/duoiptv/1009226.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/MN5tnPw.png" group-title="Reality Show's Live",Casa do Patrao: Piscina (B)
+http://play.1list.vip/live/8gZav5kQe2/duoiptv/1009227.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/MN5tnPw.png" group-title="Reality Show's Live",Casa do Patrao: Quarto Coletivo (B)
+http://play.1list.vip/live/8gZav5kQe2/duoiptv/1009223.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/MN5tnPw.png" group-title="Reality Show's Live",Casa do Patrao: Quarto dos Parças (B)
+http://play.1list.vip/live/8gZav5kQe2/duoiptv/1009225.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/MN5tnPw.png" group-title="Reality Show's Live",Casa do Patrao: Sala e Cozinha (B)
+http://play.1list.vip/live/8gZav5kQe2/duoiptv/1009222.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/MN5tnPw.png" group-title="Reality Show's Live",Casa do Patrao: Suite do Patrao (B)
+http://play.1list.vip/live/8gZav5kQe2/duoiptv/1009224.m3u8
+#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Casa do Patrão | Multicam 1" tvg-logo="http://lgfp.one/SWV3" group-title="Reality Show's Live",Casa do Patrão | Multicam 1
+http://cdc55.cc:80/live/7125938483/5158/385857.ts
+#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Casa do patrão | Multicam 2" tvg-logo="http://lgfp.one/SWW2" group-title="Reality Show's Live",Casa do patrão | Multicam 2
+http://cdc55.cc:80/live/7125938483/5158/385966.ts
+#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Casa do patrão | Piscina" tvg-logo="http://lgfp.one/SWV6" group-title="Reality Show's Live",Casa do patrão | Piscina
+http://cdc55.cc:80/live/7125938483/5158/385960.ts
+#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Casa do patrão | Casa Convivência" tvg-logo="http://lgfp.one/SWV7" group-title="Reality Show's Live",Casa do patrão | Casa Convivência
+http://cdc55.cc:80/live/7125938483/5158/385961.ts
+#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Casa do patrão | Suíte do patrão" tvg-logo="http://lgfp.one/SWV9" group-title="Reality Show's Live",Casa do patrão | Suíte do patrão
+http://cdc55.cc:80/live/7125938483/5158/385963.ts
+#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Casa do patrão | Quarto dos Parças" tvg-logo="http://lgfp.one/SWV8" group-title="Reality Show's Live",Casa do patrão | Quarto dos Parças
+http://cdc55.cc:80/live/7125938483/5158/385962.ts
+#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Casa do patrão | Quarto coletivo (Casa trampo)" tvg-logo="http://lgfp.one/SWW0" group-title="Reality Show's Live",Casa do patrão | Quarto coletivo (Casa trampo)
+http://cdc55.cc:80/live/7125938483/5158/385964.ts
+#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Casa do patrão | Sala e Cozinha (Casa Trampo)" tvg-logo="http://lgfp.one/SWW1" group-title="Reality Show's Live",Casa do patrão | Sala e Cozinha (Casa Trampo)
+http://cdc55.cc:80/live/7125938483/5158/385965.ts
+#EXTINF:-1 tvg-chno="240" tvg-logo="https://cdn.mitvstatic.com/channels/60ef29f0-d7fb-487d-85c8-a1fbcf2ff8da_m.jpg" group-title="Reality Show's Live",RCN
+http://181.78.7.90:12500/play/a06l/index.m3u8
+#EXTINF:-1 tvg-chno="800" tvg-logo="https://www.laopinion.co/sites/default/files/styles/portada_principal_mobile_376x211/public/2025-09/LCDLF-3.jpg?itok=wD9eFKBG" group-title="Reality Show's Live",LCDLF 3 (Principal) 🇨🇴
+http://domestipo1.online:80/live/ser682mun/5w49evr21/736727.m3u8
+#EXTINF:-1 tvg-chno="800" tvg-logo="https://www.laopinion.co/sites/default/files/styles/portada_principal_mobile_376x211/public/2025-09/LCDLF-3.jpg?itok=wD9eFKBG" group-title="Reality Show's Live",LCDLF 3 (Sala) 🇨🇴
+http://domestipo1.online:80/live/ser682mun/5w49evr21/736728.m3u8
+#EXTINF:-1 tvg-chno="800" tvg-logo="https://www.laopinion.co/sites/default/files/styles/portada_principal_mobile_376x211/public/2025-09/LCDLF-3.jpg?itok=wD9eFKBG" group-title="Reality Show's Live",LCDLF 3 (Comedor) 🇨🇴
+http://domestipo1.online:80/live/ser682mun/5w49evr21/736729.m3u8
+#EXTINF:-1 tvg-chno="800" tvg-logo="https://www.laopinion.co/sites/default/files/styles/portada_principal_mobile_376x211/public/2025-09/LCDLF-3.jpg?itok=wD9eFKBG" group-title="Reality Show's Live",LCDLF 3 (Beauty) 🇨🇴
+http://domestipo1.online:80/live/ser682mun/5w49evr21/736732.m3u8
+#EXTINF:-1 tvg-chno="800" tvg-logo="https://www.laopinion.co/sites/default/files/styles/portada_principal_mobile_376x211/public/2025-09/LCDLF-3.jpg?itok=wD9eFKBG" group-title="Reality Show's Live",LCDLF 3 (Hab. Calma) 🇨🇴
+http://domestipo1.online:80/live/ser682mun/5w49evr21/736730.m3u8
+#EXTINF:-1 tvg-chno="800" tvg-logo="https://www.laopinion.co/sites/default/files/styles/portada_principal_mobile_376x211/public/2025-09/LCDLF-3.jpg?itok=wD9eFKBG" group-title="Reality Show's Live",LCDLF 3 (Hab. Tormenta) 🇨🇴
+http://domestipo1.online:80/live/ser682mun/5w49evr21/736731.m3u8
+#EXTINF:-1 tvg-chno="800" tvg-logo="https://www.laopinion.co/sites/default/files/styles/portada_principal_mobile_376x211/public/2025-09/LCDLF-3.jpg?itok=wD9eFKBG" group-title="Reality Show's Live",LCDLF 3 (Baños) 🇨🇴
+http://domestipo1.online:80/live/ser682mun/5w49evr21/736733.m3u8
+#EXTINF:-1 tvg-chno="800" tvg-logo="https://deadline.com/wp-content/uploads/2026/02/la-casa-de-los-famosos-season-6-2026-telemundo-cast-photos.jpg?w=681&h=383&crop=1" group-title="Reality Show's Live",LCDLF 6 USA (24/7 - 1) 🇺🇸
+http://domestipo1.online:80/live/ser682mun/5w49evr21/747415.m3u8
+#EXTINF:-1 tvg-chno="800" tvg-logo="https://deadline.com/wp-content/uploads/2026/02/la-casa-de-los-famosos-season-6-2026-telemundo-cast-photos.jpg?w=681&h=383&crop=1" group-title="Reality Show's Live",LCDLF 6 USA (24/7 - 2) 🇺🇸
+http://domestipo1.online:80/live/ser682mun/5w49evr21/747416.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://www.clarin.com/img/2025/12/16/rcuIRK9gO_2000x1500__1.jpg" group-title="Reality Show's Live",GH PRINCIPAL
+https://tv.nousiptv.com:8443/mparodi/6900/1285296
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://www.clarin.com/img/2025/12/16/rcuIRK9gO_2000x1500__1.jpg" group-title="Reality Show's Live",GH CAM 1
+https://tv.nousiptv.com:8443/mparodi/6900/1285661
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://www.clarin.com/img/2025/12/16/rcuIRK9gO_2000x1500__1.jpg" group-title="Reality Show's Live",GH CAM 2
+https://tv.nousiptv.com:8443/mparodi/6900/1285662
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://www.clarin.com/img/2025/12/16/rcuIRK9gO_2000x1500__1.jpg" group-title="Reality Show's Live",GH CAM 3
+https://tv.nousiptv.com:8443/mparodi/6900/1285663
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://www.clarin.com/img/2025/12/16/rcuIRK9gO_2000x1500__1.jpg" group-title="Reality Show's Live",GH MULTICÁMARA
+https://tv.nousiptv.com:8443/mparodi/6900/1285664
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://www.clarin.com/img/2025/12/16/rcuIRK9gO_2000x1500__1.jpg" group-title="Reality Show's Live",PRINCIPAL
+https://tv.nousiptv.com:8443/nelsonr/nr099391093/1285296
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://www.clarin.com/img/2025/12/16/rcuIRK9gO_2000x1500__1.jpg" group-title="Reality Show's Live",CAM 1
+https://tv.nousiptv.com:8443/nelsonr/nr099391093/1285661
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://www.clarin.com/img/2025/12/16/rcuIRK9gO_2000x1500__1.jpg" group-title="Reality Show's Live",CAM 2
+https://tv.nousiptv.com:8443/nelsonr/nr099391093/1285662
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://www.clarin.com/img/2025/12/16/rcuIRK9gO_2000x1500__1.jpg" group-title="Reality Show's Live",CAM 3
+https://tv.nousiptv.com:8443/nelsonr/nr099391093/1285663
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://www.clarin.com/img/2025/12/16/rcuIRK9gO_2000x1500__1.jpg" group-title="Reality Show's Live",MULTICÁMARA
+https://tv.nousiptv.com:8443/nelsonr/nr099391093/1285664
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Telefe_%28nuevo_logo%29.png/330px-Telefe_%28nuevo_logo%29.png" group-title="Reality Show's Live",TELEFE (VIVO)
+https://tv.nousiptv.com:8443/nelsonr/nr099391093/1155824
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/4/47/Casadopatrao.jpg" group-title="Reality Show's Live",CAM 1
+http://xlsdfgvertydthdfdfgh5634dsfdsr4f.ethertwo.sbs/live/5856140/6215848/1652946.m3u
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/4/47/Casadopatrao.jpg" group-title="Reality Show's Live",CAM 2
+http://xlsdfgvertydthdfdfgh5634dsfdsr4f.ethertwo.sbs/live/5856140/6215848/1652949.m3u
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/4/47/Casadopatrao.jpg" group-title="Reality Show's Live",CAM 3
+http://xlsdfgvertydthdfdfgh5634dsfdsr4f.ethertwo.sbs/live/5856140/6215848/1652952.m3u
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/4/47/Casadopatrao.jpg" group-title="Reality Show's Live",CAM 4
+http://xlsdfgvertydthdfdfgh5634dsfdsr4f.ethertwo.sbs/live/5856140/6215848/1652955.m3u
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/4/47/Casadopatrao.jpg" group-title="Reality Show's Live",CAM 5
+http://xlsdfgvertydthdfdfgh5634dsfdsr4f.ethertwo.sbs/live/5856140/6215848/1652961.m3u
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/4/47/Casadopatrao.jpg" group-title="Reality Show's Live",CAM 6
+http://xlsdfgvertydthdfdfgh5634dsfdsr4f.ethertwo.sbs/live/5856140/6215848/1652988.m3u
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/4/47/Casadopatrao.jpg" group-title="Reality Show's Live",CAM 7
+http://xlsdfgvertydthdfdfgh5634dsfdsr4f.ethertwo.sbs/live/5856140/6215848/1652991.m3u
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/4/47/Casadopatrao.jpg" group-title="Reality Show's Live",CAM 8
+http://xlsdfgvertydthdfdfgh5634dsfdsr4f.ethertwo.sbs/live/5856140/6215848/1652992.m3u
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/1/10/Logotipo_da_Record.png" group-title="Reality Show's Live",RECORD (VIVO)
+http://xlsdfgvertydthdfdfgh5634dsfdsr4f.ethertwo.sbs/live/5856140/6215848/902.m3u
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/4/47/Casadopatrao.jpg" group-title="Reality Show's Live",CAM 1
+http://xlsdfgvertydthdfdfgh5634dsfdsr4f.ethertwo.sbs/live/4792916/8539232/1652946.m3u
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/4/47/Casadopatrao.jpg" group-title="Reality Show's Live",CAM 2
+http://xlsdfgvertydthdfdfgh5634dsfdsr4f.ethertwo.sbs/live/4792916/8539232/1652949.m3u
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/4/47/Casadopatrao.jpg" group-title="Reality Show's Live",CAM 3
+http://xlsdfgvertydthdfdfgh5634dsfdsr4f.ethertwo.sbs/live/4792916/8539232/1652952.m3u
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/4/47/Casadopatrao.jpg" group-title="Reality Show's Live",CAM 4
+http://xlsdfgvertydthdfdfgh5634dsfdsr4f.ethertwo.sbs/live/4792916/8539232/1652955.m3u
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/4/47/Casadopatrao.jpg" group-title="Reality Show's Live",CAM 5
+http://xlsdfgvertydthdfdfgh5634dsfdsr4f.ethertwo.sbs/live/4792916/8539232/1652961.m3u
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/4/47/Casadopatrao.jpg" group-title="Reality Show's Live",CAM 6
+http://xlsdfgvertydthdfdfgh5634dsfdsr4f.ethertwo.sbs/live/4792916/8539232/1652988.m3u
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/4/47/Casadopatrao.jpg" group-title="Reality Show's Live",CAM 7
+http://xlsdfgvertydthdfdfgh5634dsfdsr4f.ethertwo.sbs/live/4792916/8539232/1652991.m3u
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/4/47/Casadopatrao.jpg" group-title="Reality Show's Live",CAM 8
+http://xlsdfgvertydthdfdfgh5634dsfdsr4f.ethertwo.sbs/live/4792916/8539232/1652992.m3u
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/1/10/Logotipo_da_Record.png" group-title="Reality Show's Live",RECORD (VIVO)
+http://xlsdfgvertydthdfdfgh5634dsfdsr4f.ethertwo.sbs/live/4792916/8539232/902.m3u
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/4/47/Casadopatrao.jpg" group-title="Reality Show's Live",CAM 1
+http://xlsdfgvertydthdfdfgh5634dsfdsr4f.ethertwo.sbs/live/4846140/5740524/1652946.m3u
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/4/47/Casadopatrao.jpg" group-title="Reality Show's Live",CAM 2
+http://xlsdfgvertydthdfdfgh5634dsfdsr4f.ethertwo.sbs/live/4846140/5740524/1652949.m3u
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/4/47/Casadopatrao.jpg" group-title="Reality Show's Live",CAM 3
+http://xlsdfgvertydthdfdfgh5634dsfdsr4f.ethertwo.sbs/live/4846140/5740524/1652952.m3u
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/4/47/Casadopatrao.jpg" group-title="Reality Show's Live",CAM 4
+http://xlsdfgvertydthdfdfgh5634dsfdsr4f.ethertwo.sbs/live/4846140/5740524/1652955.m3u
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/4/47/Casadopatrao.jpg" group-title="Reality Show's Live",CAM 5
+http://xlsdfgvertydthdfdfgh5634dsfdsr4f.ethertwo.sbs/live/4846140/5740524/1652961.m3u
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/4/47/Casadopatrao.jpg" group-title="Reality Show's Live",CAM 6
+http://xlsdfgvertydthdfdfgh5634dsfdsr4f.ethertwo.sbs/live/4846140/5740524/1652988.m3u
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/4/47/Casadopatrao.jpg" group-title="Reality Show's Live",CAM 7
+http://xlsdfgvertydthdfdfgh5634dsfdsr4f.ethertwo.sbs/live/4846140/5740524/1652991.m3u
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/4/47/Casadopatrao.jpg" group-title="Reality Show's Live",CAM 8
+http://xlsdfgvertydthdfdfgh5634dsfdsr4f.ethertwo.sbs/live/4846140/5740524/1652992.m3u
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/1/10/Logotipo_da_Record.png" group-title="Reality Show's Live",RECORD (VIVO)
+http://xlsdfgvertydthdfdfgh5634dsfdsr4f.ethertwo.sbs/live/4846140/5740524/902.m3u
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/4/47/Casadopatrao.jpg" group-title="Reality Show's Live",CAM 1
+http://172.110.219.252:80/85836530/57158922/5144915.ts
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/4/47/Casadopatrao.jpg" group-title="Reality Show's Live",CAM 2
+http://172.110.219.252:80/85836530/57158922/5144916.ts
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/4/47/Casadopatrao.jpg" group-title="Reality Show's Live",CAM 3
+http://172.110.219.252:80/85836530/57158922/5144917.ts
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/4/47/Casadopatrao.jpg" group-title="Reality Show's Live",CAM 4
+http://172.110.219.252:80/85836530/57158922/5144918.ts
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/4/47/Casadopatrao.jpg" group-title="Reality Show's Live",CAM 5
+http://172.110.219.252:80/85836530/57158922/5144919.ts
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/4/47/Casadopatrao.jpg" group-title="Reality Show's Live",CAM 6
+http://172.110.219.252:80/85836530/57158922/5144920.ts
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/4/47/Casadopatrao.jpg" group-title="Reality Show's Live",CAM 7
+http://172.110.219.252:80/85836530/57158922/5144921.ts
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/4/47/Casadopatrao.jpg" group-title="Reality Show's Live",CAM 8
+http://172.110.219.252:80/85836530/57158922/5144922.ts
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/1/10/Logotipo_da_Record.png" group-title="Reality Show's Live",RECORD (VIVO)
+http://172.110.219.252:80/85836530/57158922/127585.ts
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Telefe_%28nuevo_logo%29.png/330px-Telefe_%28nuevo_logo%29.png" group-title="Reality Show's Live",TELEFE (VIVO)
+https://tv.nousiptv.com:8443/mparodi/6900/1155824
+#EXTINF:-1 group-title="Reality Show's Live" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaEZjACp2gNRjpN7T3EO0SInnfOFlrFx4rM8UJSg3ELD1drQm7aX0NaaUzyw&s",196 Univision Los Angeles
+http://aztkplay.pro:8080/live/eliseoVICENTE6060/orRAY2FalJ/555458.m3u8
+#EXTINF:-1 group-title="Reality Show's Live" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIcr7-V_2CAur4p_dc9WRzQ8Vkot5WsgcXB0xqxNWcDm0pfka7rIoTGKnjwlc&s",Univision KMEX-TV
+http://aztkplay.pro:8080/live/eliseoVICENTE6060/orRAY2FalJ/555480.m3u8
+#EXTINF:-1 group-title="Reality Show's Live" tvg-id="Undefined" tvg-logo="https://www.lyngsat.com/logo/tv/kk/kmex_los_angeles.png",Univision 34 KMEX-TV
+http://aztkplay.pro:8080/live/eliseoVICENTE6060/orRAY2FalJ/555488.m3u8
+#EXTINF:-1 group-title="Reality Show's Live" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSu4YS4CcKefG5L-8xUZUq0yOAkgdooKhQYus3tlWRQx0dVimBNzPMrmC9u_g&s",UNIVISION CHICAGO (WGBO) Local
+http://aztkplay.pro:8080/live/eliseoVICENTE6060/orRAY2FalJ/555506.m3u8
+#EXTINF:-1 group-title="Reality Show's Live" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSu4YS4CcKefG5L-8xUZUq0yOAkgdooKhQYus3tlWRQx0dVimBNzPMrmC9u_g&s",HD | Univision Chicago (WGBO)
+http://aztkplay.pro:8080/live/eliseoVICENTE6060/orRAY2FalJ/555507.m3u8
+#EXTINF:-1 group-title="Reality Show's Live" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSu4YS4CcKefG5L-8xUZUq0yOAkgdooKhQYus3tlWRQx0dVimBNzPMrmC9u_g&s",Univision WGBO Chicago HD
+http://aztkplay.pro:8080/live/eliseoVICENTE6060/orRAY2FalJ/555502.m3u8
+#EXTINF:-1 group-title="Reality Show's Live" tvg-id="Las.Estrellas.mx" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Las_Estrellas_2016.svg/250px-Las_Estrellas_2016.svg.png",1 Las Estrellas
+https://channel01-onlymex.akamaized.net/hls/live/2022749/event01/index.m3u8
+#EXTINF:-1 group-title="Reality Show's Live" tvg-id="Las.Estrellas.mx" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Las_Estrellas_2016.svg/250px-Las_Estrellas_2016.svg.png",1 Las Estrellas (Alt)
+http://45.186.106.220:5550/play/a00y/index.m3u8
+#EXTINF:-1 group-title="Reality Show's Live" tvg-id="Las.Estrellas.mx" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Las_Estrellas_2016.svg/250px-Las_Estrellas_2016.svg.png",2 Las Estrellas
+http://45.186.106.207:8000/play/a098/index.m3u8
+#EXTINF:-1 group-title="Reality Show's Live" tvg-id="Las.Estrellas.mx" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Las_Estrellas_2016.svg/250px-Las_Estrellas_2016.svg.png",3 Las Estrellas
+http://200.115.120.1:8000/play/ca014/index.m3u8
+#EXTINF:0 type="stream" channelId="-1" logo="https://logosandtypes.com/wp-content/uploads/2020/11/channel-5-mexico.svg" group-title="Reality Show's Live",Canal 5
+##EXTVLCOPT:network-caching=1000
+http://45.5.119.43:4000/play/a05o/index.m3u8
+#EXTINF:0 type="stream" channelId="-1" logo="https://logosandtypes.com/wp-content/uploads/2020/11/channel-5-mexico.svg" group-title="Reality Show's Live",Canal 5
+http://177.10.184.60:8002/play/a01n/index.m3u8
+#EXTINF:0 type="stream" channelId="-1" logo="https://logosandtypes.com/wp-content/uploads/2020/11/channel-5-mexico.svg" group-title="Reality Show's Live",Canal 5
+http://38.49.128.38:8000/play/a0n6/index.m3u8
+http://190.11.225.124:5000/live/canal5_hd/playlist.m3u8
+#EXTINF:0 type="stream" channelId="-1" logo="https://logosandtypes.com/wp-content/uploads/2020/11/channel-5-mexico.svg" group-title="Reality Show's Live",Canal 5
+http://200.115.120.1:8000/play/ca0105/index.m3u8
+#EXTINF:0 type="stream" channelId="3209" group-title="Reality Show's Live", 1 Univisión
+##EXTVLCOPT:network-caching=1000
+http://190.92.10.66:4000/play/a005/index.m3u8
+http://cord-cutter.net:8080/wY96uK/850378/15336
+#EXTINF:0 type="stream" channelId="3209" group-title="Reality Show's Live", 2 Univisión
+##EXTVLCOPT:network-caching=1000
+http://172.93.102.112:8989/158765_.m3u8
+https://e4.thetvapp.to/hls/UnivisionEast/index.m3u8
+http://x3c1rsvw.ottclub.xyz/iptv/F5BM9GXMAPYBDK/1099/index.m3u8
+#EXTINF:0 type="stream" channelId="3209" group-title="Reality Show's Live", 3 Univisión
+http://tv.proyectox.vip:8080/asdsdIlLasOOoWsdsdaw/cK9ceDN2tC/8395
+#EXTINF:0 type="stream" channelId="-1" logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5-yl63zZKG2zwmCEwPzvzzcuvLAnvnvi1frUL_D3lHA&s=10" group-title="Reality Show's Live", 2 Unimas
+##EXTVLCOPT:network-caching=1000
+http://tv.proyectox.vip:8080/asdsdIlLasOOoWsdsdaw/cK9ceDN2tC/8384
+#EXTINF:0 type="stream" channelId="-1" logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDjMhVH4ShcGj34bMboM0d_7eTGGZXFHOJIyHKqjm0Lg&s=10" group-title="Reality Show's Live", 3 Unimas
+http://172.93.102.112:8989/158753_.m3u8
+#EXTINF:0 type="stream" channelId="-1" logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDjMhVH4ShcGj34bMboM0d_7eTGGZXFHOJIyHKqjm0Lg&s=10" group-title="Reality Show's Live", 4 Unimas
+http://x3c1rsvw.ottclub.xyz/iptv/F5BM9GXMAPYBDK/1100/index.m3u8
+#EXTINF:-1 logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3NNA1PtioIudXluo13qD-RFMkblih4RTzkw&s" group-title="Reality Show's Live", APM 24/7
+http://live.detodotvplay.com:8080/Risario8/Pineda13/460828
+#EXTINF:-1 logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3NNA1PtioIudXluo13qD-RFMkblih4RTzkw&s" group-title="Reality Show's Live", APM VILLA
+http://live.detodotvplay.com:8080/Risario8/Pineda13/460829
+#EXTINF:-1 logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3NNA1PtioIudXluo13qD-RFMkblih4RTzkw&s" group-title="Reality Show's Live", APM H CORAZON
+http://live.detodotvplay.com:8080/Risario8/Pineda13/460830
+#EXTINF:-1 logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3NNA1PtioIudXluo13qD-RFMkblih4RTzkw&s" group-title="Reality Show's Live", APM H TREBOL
+http://live.detodotvplay.com:8080/Risario8/Pineda13/460831
+#EXTINF:-1 logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3NNA1PtioIudXluo13qD-RFMkblih4RTzkw&s" group-title="Reality Show's Live", APM BAÑOS
+http://live.detodotvplay.com:8080/Risario8/Pineda13/460832
+#EXTINF:-1 logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3NNA1PtioIudXluo13qD-RFMkblih4RTzkw&s" group-title="Reality Show's Live", APM COCINA
+http://live.detodotvplay.com:8080/Risario8/Pineda13/460832
+#EXTINF:-1 logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3NNA1PtioIudXluo13qD-RFMkblih4RTzkw&s" group-title="Reality Show's Live", APM SALA
+http://live.detodotvplay.com:8080/Risario8/Pineda13/460834
+#EXTINF:-1 logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3NNA1PtioIudXluo13qD-RFMkblih4RTzkw&s" group-title="Reality Show's Live", APM MULTICAMARA
+http://live.detodotvplay.com:8080/Risario8/Pineda13/460835
+#EXTINF:-1 tvg-logo="https://i.imgur.com/6yAsmu3.png" group-title="Reality Show's Live",RCN
+http://aztkplay.pro:8080/live/eliseoVICENTE6060/orRAY2FalJ/314633.m3u8
+#EXTINF:-1 tvg-logo="https://www.lyngsat.com/logo/corp/rr/rcn_co.png" group-title="Reality Show's Live",RCN
+http://aztkplay.pro:8080/live/eliseoVICENTE6060/orRAY2FalJ/314634.m3u8
+#EXTINF:-1 tvg-logo="https://assets.stickpng.com/images/58afdad6829958a978a4a693.png" group-title="Reality Show's Live",* LA CASA DE LOS FAMOSOS COLOMBIA *
+http://aztkplay.pro:8080/live/eliseoVICENTE6060/orRAY2FalJ/596996.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/gWClxvl.png" group-title="Reality Show's Live",LA CASA EN VIVO
+http://aztkplay.pro:8080/live/eliseoVICENTE6060/orRAY2FalJ/596997.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/gWClxvl.png" group-title="Reality Show's Live",BEAUTY
+http://aztkplay.pro:8080/live/eliseoVICENTE6060/orRAY2FalJ/596998.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/gWClxvl.png" group-title="Reality Show's Live",BAÑOS
+http://aztkplay.pro:8080/live/eliseoVICENTE6060/orRAY2FalJ/596999.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/gWClxvl.png" group-title="Reality Show's Live",COMEDOR
+http://aztkplay.pro:8080/live/eliseoVICENTE6060/orRAY2FalJ/597000.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/gWClxvl.png" group-title="Reality Show's Live",HABITACION CALMA
+http://aztkplay.pro:8080/live/eliseoVICENTE6060/orRAY2FalJ/597001.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/gWClxvl.png" group-title="Reality Show's Live",HABITACION TORMENTA
+http://aztkplay.pro:8080/live/eliseoVICENTE6060/orRAY2FalJ/597002.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/gWClxvl.png" group-title="Reality Show's Live",SALA
+http://aztkplay.pro:8080/live/eliseoVICENTE6060/orRAY2FalJ/597003.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://abcdoabc.com.br/wp-content/uploads/bbb_dcbc93f2-525x350.jpg" group-title="Reality Show's Live",Mozaico
+http://krmbr.com:80/live/11983083256danilo2/vfdklghj8541/85447.ts
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://abcdoabc.com.br/wp-content/uploads/bbb_dcbc93f2-525x350.jpg" group-title="Reality Show's Live",Quarto branco | Piscina
+http://krmbr.com:80/live/11983083256danilo2/vfdklghj8541/85449.ts
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://abcdoabc.com.br/wp-content/uploads/bbb_dcbc93f2-525x350.jpg" group-title="Reality Show's Live",Acompanhe a casa 1
+http://krmbr.com:80/live/11983083256danilo2/vfdklghj8541/1624.ts
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://abcdoabc.com.br/wp-content/uploads/bbb_dcbc93f2-525x350.jpg" group-title="Reality Show's Live",Acompanhe a casa 2
+http://krmbr.com:80/live/11983083256danilo2/vfdklghj8541/81853.ts
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://abcdoabc.com.br/wp-content/uploads/bbb_dcbc93f2-525x350.jpg" group-title="Reality Show's Live",Cozinha 1
+http://krmbr.com:80/live/11983083256danilo2/vfdklghj8541/81886.ts
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://abcdoabc.com.br/wp-content/uploads/bbb_dcbc93f2-525x350.jpg" group-title="Reality Show's Live",Cozinha 2
+http://krmbr.com:80/live/11983083256danilo2/vfdklghj8541/85445.ts
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://abcdoabc.com.br/wp-content/uploads/bbb_dcbc93f2-525x350.jpg" group-title="Reality Show's Live",Academia Nivea
+http://krmbr.com:80/live/11983083256danilo2/vfdklghj8541/1337.ts
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://abcdoabc.com.br/wp-content/uploads/bbb_dcbc93f2-525x350.jpg" group-title="Reality Show's Live",Banheiro Super Cimed
+http://krmbr.com:80/live/11983083256danilo2/vfdklghj8541/81880.ts
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://abcdoabc.com.br/wp-content/uploads/bbb_dcbc93f2-525x350.jpg" group-title="Reality Show's Live",Quarto Sonho de eternidade
+http://krmbr.com:80/live/11983083256danilo2/vfdklghj8541/85451.ts
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://abcdoabc.com.br/wp-content/uploads/bbb_dcbc93f2-525x350.jpg" group-title="Reality Show's Live",Quarto Sonho de voar
+http://krmbr.com:80/live/11983083256danilo2/vfdklghj8541/85453.ts
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://abcdoabc.com.br/wp-content/uploads/bbb_dcbc93f2-525x350.jpg" group-title="Reality Show's Live",Quarto Sonho do grande amor
+http://krmbr.com:80/live/11983083256danilo2/vfdklghj8541/85455.ts
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://abcdoabc.com.br/wp-content/uploads/bbb_dcbc93f2-525x350.jpg" group-title="Reality Show's Live",Sala Sonho de ser milionario
+http://krmbr.com:80/live/11983083256danilo2/vfdklghj8541/85457.ts
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://abcdoabc.com.br/wp-content/uploads/bbb_dcbc93f2-525x350.jpg" group-title="Reality Show's Live",Mozaico
+http://krmbr.com:80/live/11999890163roberto3/2gfrh8f7usm/85447.ts
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://abcdoabc.com.br/wp-content/uploads/bbb_dcbc93f2-525x350.jpg" group-title="Reality Show's Live",Quarto branco | Piscina
+http://krmbr.com:80/live/11999890163roberto3/2gfrh8f7usm/85449.ts
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://abcdoabc.com.br/wp-content/uploads/bbb_dcbc93f2-525x350.jpg" group-title="Reality Show's Live",Acompanhe a casa 1
+http://krmbr.com:80/live/11999890163roberto3/2gfrh8f7usm/1624.ts
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://abcdoabc.com.br/wp-content/uploads/bbb_dcbc93f2-525x350.jpg" group-title="Reality Show's Live",Acompanhe a casa 2
+http://krmbr.com:80/live/11999890163roberto3/2gfrh8f7usm/81853.ts
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://abcdoabc.com.br/wp-content/uploads/bbb_dcbc93f2-525x350.jpg" group-title="Reality Show's Live",Cozinha 1
+http://krmbr.com:80/live/11999890163roberto3/2gfrh8f7usm/81886.ts
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://abcdoabc.com.br/wp-content/uploads/bbb_dcbc93f2-525x350.jpg" group-title="Reality Show's Live",Cozinha 2
+http://krmbr.com:80/live/11999890163roberto3/2gfrh8f7usm/85445.ts
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://abcdoabc.com.br/wp-content/uploads/bbb_dcbc93f2-525x350.jpg" group-title="Reality Show's Live",Academia Nivea
+http://krmbr.com:80/live/11999890163roberto3/2gfrh8f7usm/1337.ts
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://abcdoabc.com.br/wp-content/uploads/bbb_dcbc93f2-525x350.jpg" group-title="Reality Show's Live",Banheiro Super Cimed
+http://krmbr.com:80/live/11999890163roberto3/2gfrh8f7usm/81880.ts
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://abcdoabc.com.br/wp-content/uploads/bbb_dcbc93f2-525x350.jpg" group-title="Reality Show's Live",Quarto Sonho de eternidade
+http://krmbr.com:80/live/11999890163roberto3/2gfrh8f7usm/85451.ts
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://abcdoabc.com.br/wp-content/uploads/bbb_dcbc93f2-525x350.jpg" group-title="Reality Show's Live",Quarto Sonho de voar
+http://krmbr.com:80/live/11999890163roberto3/2gfrh8f7usm/85453.ts
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://abcdoabc.com.br/wp-content/uploads/bbb_dcbc93f2-525x350.jpg" group-title="Reality Show's Live",Quarto Sonho do grande amor
+http://krmbr.com:80/live/11999890163roberto3/2gfrh8f7usm/85455.ts
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://abcdoabc.com.br/wp-content/uploads/bbb_dcbc93f2-525x350.jpg" group-title="Reality Show's Live",Sala Sonho de ser milionario
+http://krmbr.com:80/live/11999890163roberto3/2gfrh8f7usm/85457.ts
+#EXTINF:-1 tvg-logo="http://st1.binctv.org:8080/icon/1829-b-1767991318524.png" group-title="Reality Show's Live",BBB 01
+http://dnsit.click:80/live/1junior6227luiz/62728juni73729/1271892.m3u8
+#EXTINF:-1 tvg-logo="http://st1.binctv.org:8080/icon/1829-b-1767991318524.png" group-title="Reality Show's Live",BBB 02
+http://dnsit.click:80/live/1junior6227luiz/62728juni73729/1271891.m3u8
+#EXTINF:-1 tvg-logo="http://st1.binctv.org:8080/icon/1829-b-1767991318524.png" group-title="Reality Show's Live",BBB 03
+http://dnsit.click:80/live/1junior6227luiz/62728juni73729/1271890.m3u8
+#EXTINF:-1 tvg-logo="http://st1.binctv.org:8080/icon/1829-b-1767991318524.png" group-title="Reality Show's Live",Quarto Sonho de Eternidade
+http://dnsit.click:80/live/1junior6227luiz/62728juni73729/1271889.m3u8
+#EXTINF:-1 tvg-logo="http://st1.binctv.org:8080/icon/1829-b-1767991318524.png" group-title="Reality Show's Live",Quarto Sonho de Voar
+http://dnsit.click:80/live/1junior6227luiz/62728juni73729/1271888.m3u8
+#EXTINF:-1 tvg-logo="http://st1.binctv.org:8080/icon/1829-b-1767991318524.png" group-title="Reality Show's Live",Quarto Sonho do Grande Amor
+http://dnsit.click:80/live/1junior6227luiz/62728juni73729/1271887.m3u8
+#EXTINF:-1 tvg-logo="http://st1.binctv.org:8080/icon/1829-b-1767991318524.png" group-title="Reality Show's Live",Cozinha
+http://dnsit.click:80/live/1junior6227luiz/62728juni73729/1278716.m3u8
+#EXTINF:-1 tvg-logo="http://st1.binctv.org:8080/icon/1829-b-1767991318524.png" group-title="Reality Show's Live",Banheiro Super Cimed
+http://dnsit.click:80/live/1junior6227luiz/62728juni73729/1278717.m3u8
+#EXTINF:-1 tvg-logo="http://st1.binctv.org:8080/icon/1829-b-1767991318524.png" group-title="Reality Show's Live",Sala Sonho de Ser Milionário
+http://dnsit.click:80/live/1junior6227luiz/62728juni73729/1278718.m3u8
+#EXTINF:-1 tvg-logo="http://st1.binctv.org:8080/icon/1829-b-1767991318524.png" group-title="Reality Show's Live",Quarto Branco
+http://dnsit.click:80/live/1junior6227luiz/62728juni73729/1278719.m3u8
+#EXTINF:-1 tvg-logo="http://st1.binctv.org:8080/icon/1829-b-1767991318524.png" group-title="Reality Show's Live",Academia Nivea
+http://dnsit.click:80/live/1junior6227luiz/62728juni73729/1278720.m3u8
+#EXTINF:-1 tvg-logo="http://st1.binctv.org:8080/icon/1829-b-1767991318524.png" group-title="Reality Show's Live",Mosaico
+http://dnsit.click:80/live/1junior6227luiz/62728juni73729/1278721.m3u8
+#EXTINF:-1 tvg-logo="http://st1.binctv.org:8080/icon/1829-b-1767991318524.png" group-title="Reality Show's Live",BBB 01
+http://gjrctv.com:8080/live/josechagas1/8muRH8/1271892.m3u8
+#EXTINF:-1 tvg-logo="http://st1.binctv.org:8080/icon/1829-b-1767991318524.png" group-title="Reality Show's Live",BBB 02
+http://gjrctv.com:8080/live/josechagas1/8muRH8/1271891.m3u8
+#EXTINF:-1 tvg-logo="http://st1.binctv.org:8080/icon/1829-b-1767991318524.png" group-title="Reality Show's Live",BBB 03
+http://gjrctv.com:8080/live/josechagas1/8muRH8/1271890.m3u8
+#EXTINF:-1 tvg-logo="http://st1.binctv.org:8080/icon/1829-b-1767991318524.png" group-title="Reality Show's Live",Quarto Sonho de Eternidade
+http://gjrctv.com:8080/live/josechagas1/8muRH8/1271889.m3u8
+#EXTINF:-1 tvg-logo="http://st1.binctv.org:8080/icon/1829-b-1767991318524.png" group-title="Reality Show's Live",Quarto Sonho de Voar
+http://gjrctv.com:8080/live/josechagas1/8muRH8/1271888.m3u8
+#EXTINF:-1 tvg-logo="http://st1.binctv.org:8080/icon/1829-b-1767991318524.png" group-title="Reality Show's Live",Quarto Sonho do Grande Amor
+http://gjrctv.com:8080/live/josechagas1/8muRH8/1271887.m3u8
+#EXTINF:-1 tvg-logo="http://st1.binctv.org:8080/icon/1829-b-1767991318524.png" group-title="Reality Show's Live",Cozinha
+http://gjrctv.com:8080/live/josechagas1/8muRH8/1278716.m3u8
+#EXTINF:-1 tvg-logo="http://st1.binctv.org:8080/icon/1829-b-1767991318524.png" group-title="Reality Show's Live",Banheiro Super Cimed
+http://gjrctv.com:8080/live/josechagas1/8muRH8/1278717.m3u8
+#EXTINF:-1 tvg-logo="http://st1.binctv.org:8080/icon/1829-b-1767991318524.png" group-title="Reality Show's Live",Sala Sonho de Ser Milionário
+http://gjrctv.com:8080/live/josechagas1/8muRH8/1278718.m3u8
+#EXTINF:-1 tvg-logo="http://st1.binctv.org:8080/icon/1829-b-1767991318524.png" group-title="Reality Show's Live",Quarto Branco
+http://gjrctv.com:8080/live/josechagas1/8muRH8/1278719.m3u8
+#EXTINF:-1 tvg-logo="http://st1.binctv.org:8080/icon/1829-b-1767991318524.png" group-title="Reality Show's Live",Academia Nivea
+http://gjrctv.com:8080/live/josechagas1/8muRH8/1278720.m3u8
+#EXTINF:-1 tvg-logo="http://st1.binctv.org:8080/icon/1829-b-1767991318524.png" group-title="Reality Show's Live",Mosaico
+http://gjrctv.com:8080/live/josechagas1/8muRH8/1278721.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://abcdoabc.com.br/wp-content/uploads/bbb_dcbc93f2-525x350.jpg" group-title="Reality Show's Live",Mozaico
+http://209.14.88.42:80/10203470/68892705/4681017.ts
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://abcdoabc.com.br/wp-content/uploads/bbb_dcbc93f2-525x350.jpg" group-title="Reality Show's Live",Acompanhe a casa 2
+http://209.14.88.42:80/10203470/68892705/4681016.ts
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://abcdoabc.com.br/wp-content/uploads/bbb_dcbc93f2-525x350.jpg" group-title="Reality Show's Live",Cozinha 2
+http://209.14.88.42:80/10203470/68892705/4795364.ts
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://abcdoabc.com.br/wp-content/uploads/bbb_dcbc93f2-525x350.jpg" group-title="Reality Show's Live",Quarto Sonho de eternidade
+http://209.14.88.42:80/10203470/68892705/4681019.ts
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://abcdoabc.com.br/wp-content/uploads/bbb_dcbc93f2-525x350.jpg" group-title="Reality Show's Live",Quarto Sonho de voar 1
+http://209.14.88.42:80/10203470/68892705/4681020.ts
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://abcdoabc.com.br/wp-content/uploads/bbb_dcbc93f2-525x350.jpg" group-title="Reality Show's Live",Quarto Sonho de voar 2
+http://209.14.88.42:80/10203470/68892705/4681021.ts
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://abcdoabc.com.br/wp-content/uploads/bbb_dcbc93f2-525x350.jpg" group-title="Reality Show's Live",Quarto Sonho do grande amor
+http://209.14.88.42:80/10203470/68892705/4795363.ts
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://abcdoabc.com.br/wp-content/uploads/bbb_dcbc93f2-525x350.jpg" group-title="Reality Show's Live",Banheiro Super Cimed
+http://209.14.88.42:80/10203470/68892705/4795365.ts
+#EXTINF:-1 group-title="Reality Show's Live" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMgq7muz8q6emSSdZR0h3kcTMrxeaSpsQ09DNS4sBi_JijLFSSGNTM3i2tPA&s",TVI REALITY CAMARA 1 sd
+http://vm4youallsos.securityservice.cyou:8080/AndreNovais25/ascmUEAyUTtDdRC/83164
+#EXTINF:-1 group-title="Reality Show's Live" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAwldVnDFQ2BoXx1kG0nNl0zLLNFoYXz7aSbbjDAMZAGxLh3pIQz5sJeLTyA&s",TVI REALITY CAMARA 2
+http://vm4youallsos.securityservice.cyou:8080/AndreNovais25/ascmUEAyUTtDdRC/83165
+#EXTINF:-1 group-title="Reality Show's Live" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQLrZJkugnYS7YMCCW5ExdS4lum0MMJI00HbCraT9um_FGOw9Dxy8LllJrbQ&s",TVI REALITY CAMARA 3
+http://vm4youallsos.securityservice.cyou:8080/AndreNovais25/ascmUEAyUTtDdRC/83166
+#EXTINF:-1 group-title="Reality Show's Live" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQETyAFKgS12N-qIJoZNEqO5Nai6SaKu1n5T_t01P6ChJuCfR8tfA2p8Zbkdg&s",TVI REALITY CAMARA 4
+http://vm4youallsos.securityservice.cyou:8080/AndreNovais25/ascmUEAyUTtDdRC/83167
+#EXTINF:-1 group-title="Reality Show's Live" tvg-id="TVI.Reality.HD.pt" tvg-logo="https://www.iol.pt/multimedia/oratvi/multimedia/imagem/id/64f8a935d34e371fc0b75aed/",TVI REALITY
+https://video-auth6.iol.pt/live_tvi_reality/live_tvi_reality/edge_servers/tvireality-720_passthrough/chunks.m3u8
+#EXTINF:-1 group-title="Reality Show's Live" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Big_Brother_VIP_Albania.png/250px-Big_Brother_VIP_Albania.png",BBVIP AL 1
+https://dmca5112s.sksktotun.xyz/memfs/d55b1c70-d814-4f04-81b8-00942f3e5998_output_0.m3u8
+#EXTINF:-1 group-title="Reality Show's Live" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Big_Brother_VIP_Albania.png/250px-Big_Brother_VIP_Albania.png",BBVIP AL 2
+https://fvb34v2.sksktotun.xyz/memfs/532701dd-1912-4c13-b9a3-3325c2652888_output_0.m3u8
+#EXTINF:-1 group-title="Reality Show's Live" tvg-id="Canal.5.(XHPNH).mx" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Canal_5_Mexico_logo_2014.svg/250px-Canal_5_Mexico_logo_2014.svg.png",CANAL 5
+http://181.78.106.127:9000/play/ca012/index.m3u8
+#EXTINF:-1 group-title="Reality Show's Live" tvg-id="Canal.2.de.México.(Canal.Las.Estrellas.-.XEW).mx" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Las_Estrellas_logo_%282016%29.svg/154px-Las_Estrellas_logo_%282016%29.svg.png",Canal Estrellas
+http://181.78.106.127:9000/play/ca011/index.m3u8
+#EXTINF:-1 group-title="Reality Show's Live" tvg-id="Canal.2.de.México.(Canal.Las.Estrellas.-.XEW).mx" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Las_Estrellas_logo_%282016%29.svg/154px-Las_Estrellas_logo_%282016%29.svg.png",Canal Estrellas
+https://channel01-onlymex.akamaized.net/hls/live/2022749/event01/index.m3u8
+#EXTINF:-1 group-title="Reality Show's Live" tvg-id="Canal.2.de.México.(Canal.Las.Estrellas.-.XEW).mx" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Las_Estrellas_logo_%282016%29.svg/154px-Las_Estrellas_logo_%282016%29.svg.png",Canal Estrellas
+http://181.205.130.194:4000/play/a07r
+#EXTINF:-1 group-title="Reality Show's Live",CANAL 10 AUSTRALIA
+https://pod.lnt.sh/efh6eg76eglD/efhTcwxIbQhKqj1Dd2/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OC80LzIwMjUgNTo1Mjo1MSBBTSZoYXNoX3ZhbHVlPTJhZUJyYkROV2V4U1AzeFVkczFmanc9PSZ2YWxpZG1pbnV0ZXM9Mg==
+#EXTINF:-1 group-title="Reality Show's Live" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbhg_yJyms3Y21jxx3Q0j4FizlewTj2oU0dfA_2EfhI53wSR9j_6ADeZn48qc&s",Pink TV
+https://edge8.pink.rs/pinktv/index.m3u8
+#EXTINF:-1 group-title="Reality Show's Live" tvg-id="Zadruga.Live.1.ba" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQc4slncpzSOyjUVU-xNJFy8CCY_2BSwRzGrVzvNRSFwd3wHINhTdgxRSwHXg&s",Zadruga Live 1
+https://webtvstream.bhtelecom.ba/hls19/zadruga_live1_1200.m3u8
+#EXTINF:-1 group-title="Reality Show's Live" tvg-id="Zadruga.Live.2.ba" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQB0gFnv6opRW1WOd0tqYm3gmJOd2BJkdl-Q5_hprM6dV_OZ7_6A0MlKkF-cYQ&s",Zadruga Live 2
+https://webtvstream.bhtelecom.ba/hls19/zadruga_live2_1200.m3u8
+#EXTINF:-1 group-title="Reality Show's Live" tvg-id="Zadruga.Live.3.ba" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3_ZwvmBi2-zAQvwP1umtFJlSoexjqu8N-2qkq0akGjEUjvjrh_86_Hygewgc&s",Zadruga Live 3
+https://webtvstream.bhtelecom.ba/hls19/zadruga_live3_1200.m3u8
+#EXTINF:-1 group-title="Reality Show's Live" tvg-logo="https://raw.githubusercontent.com/RokuIL/Live-From-Israel/master/Logos/Big%20Brother.png",BIG BROTHER ISRAEL (VPN)
+https://d2lckchr9cxrss.cloudfront.net/out/v1/c73af7694cce4767888c08a7534b503c/index.m3u8
+#EXTINF:-1 group-title="Reality Show's Live" tvg-logo="https://raw.githubusercontent.com/RokuIL/Live-From-Israel/master/Logos/Big%20Brother.png",BIG BROTHER ISRAEL (VPN) 2
+https://cdnapisec.kaltura.com/p/2748741/sp/2748741/playManifest/entryId/1_6fr5xbw2/deliveryProfileId/672/protocol/https/format/applehttp/index_3.m3u8
+#EXTINF:-1 tvg-chno="240" tvg-logo="https://cdn.mitvstatic.com/channels/60ef29f0-d7fb-487d-85c8-a1fbcf2ff8da_m.jpg" group-title="Reality Show's Live",RCN ² 🇨🇴
+http://181.118.156.46:8000/play/a03r/index.m3u8
+#EXTINF:-1 tvg-chno="240" tvg-logo="https://cdn.mitvstatic.com/channels/60ef29f0-d7fb-487d-85c8-a1fbcf2ff8da_m.jpg" group-title="Reality Show's Live",RCN 2 ² 🇨🇴
+http://181.78.7.90:12500/play/a06l/index.m3u8
+#EXTINF:-1 tvg-chno="800" tvg-logo="https://www.laopinion.co/sites/default/files/styles/portada_principal_mobile_376x211/public/2025-09/LCDLF-3.jpg?itok=wD9eFKBG" group-title="Reality Show's Live",LCDLF 3 (Principal) 🇨🇴
+http://domestipo1.online:80/live/ser682mun/5w49evr21/736727.m3u8
+#EXTINF:-1 tvg-chno="800" tvg-logo="https://www.laopinion.co/sites/default/files/styles/portada_principal_mobile_376x211/public/2025-09/LCDLF-3.jpg?itok=wD9eFKBG" group-title="Reality Show's Live",LCDLF 3 (Sala) 🇨🇴
+http://domestipo1.online:80/live/ser682mun/5w49evr21/736728.m3u8
+#EXTINF:-1 tvg-chno="800" tvg-logo="https://www.laopinion.co/sites/default/files/styles/portada_principal_mobile_376x211/public/2025-09/LCDLF-3.jpg?itok=wD9eFKBG" group-title="Reality Show's Live",LCDLF 3 (Comedor) 🇨🇴
+http://domestipo1.online:80/live/ser682mun/5w49evr21/736729.m3u8
+#EXTINF:-1 tvg-chno="800" tvg-logo="https://www.laopinion.co/sites/default/files/styles/portada_principal_mobile_376x211/public/2025-09/LCDLF-3.jpg?itok=wD9eFKBG" group-title="Reality Show's Live",LCDLF 3 (Beauty) 🇨🇴
+http://domestipo1.online:80/live/ser682mun/5w49evr21/736732.m3u8
+#EXTINF:-1 tvg-chno="800" tvg-logo="https://www.laopinion.co/sites/default/files/styles/portada_principal_mobile_376x211/public/2025-09/LCDLF-3.jpg?itok=wD9eFKBG" group-title="Reality Show's Live",LCDLF 3 (Hab. Calma) 🇨🇴
+http://domestipo1.online:80/live/ser682mun/5w49evr21/736730.m3u8
+#EXTINF:-1 tvg-chno="800" tvg-logo="https://www.laopinion.co/sites/default/files/styles/portada_principal_mobile_376x211/public/2025-09/LCDLF-3.jpg?itok=wD9eFKBG" group-title="Reality Show's Live",LCDLF 3 (Hab. Tormenta) 🇨🇴
+http://domestipo1.online:80/live/ser682mun/5w49evr21/736731.m3u8
+#EXTINF:-1 tvg-chno="800" tvg-logo="https://www.laopinion.co/sites/default/files/styles/portada_principal_mobile_376x211/public/2025-09/LCDLF-3.jpg?itok=wD9eFKBG" group-title="Reality Show's Live",LCDLF 3 (Baños) 🇨🇴
+http://domestipo1.online:80/live/ser682mun/5w49evr21/736733.m3u8
+#EXTINF:-1 tvg-chno="800" tvg-logo="https://periodicocorreo.com.mx/core/correo/assets/images/2026/01/19/middle-g-bwnplxcaan42l-Xe3FRAPQV.jpg" group-title="Reality Show's Live",Apostarias por Mí (Villa) 🇺🇸
+http://domestipo1.online:80/live/ser682mun/5w49evr21/738700.m3u8
+#EXTINF:-1 tvg-chno="800" tvg-logo="https://periodicocorreo.com.mx/core/correo/assets/images/2026/01/19/middle-g-bwnplxcaan42l-Xe3FRAPQV.jpg" group-title="Reality Show's Live",Apostarias por Mí (Conexión Total 24/7) 🇺🇸
+http://domestipo1.online:80/live/ser682mun/5w49evr21/738699.m3u8
+#EXTINF:-1 tvg-chno="800" tvg-logo="https://periodicocorreo.com.mx/core/correo/assets/images/2026/01/19/middle-g-bwnplxcaan42l-Xe3FRAPQV.jpg" group-title="Reality Show's Live",Apostarias por Mí (Sala) 🇺🇸
+http://domestipo1.online:80/live/ser682mun/5w49evr21/738705.m3u8
+#EXTINF:-1 tvg-chno="800" tvg-logo="https://periodicocorreo.com.mx/core/correo/assets/images/2026/01/19/middle-g-bwnplxcaan42l-Xe3FRAPQV.jpg" group-title="Reality Show's Live",Apostarias por Mí (Cocina) 🇺🇸
+http://domestipo1.online:80/live/ser682mun/5w49evr21/738704.m3u8
+#EXTINF:-1 tvg-chno="800" tvg-logo="https://periodicocorreo.com.mx/core/correo/assets/images/2026/01/19/middle-g-bwnplxcaan42l-Xe3FRAPQV.jpg" group-title="Reality Show's Live",Apostarias por Mí (Hab. Corazón) 🇺🇸
+http://domestipo1.online:80/live/ser682mun/5w49evr21/738701.m3u8
+#EXTINF:-1 tvg-chno="800" tvg-logo="https://periodicocorreo.com.mx/core/correo/assets/images/2026/01/19/middle-g-bwnplxcaan42l-Xe3FRAPQV.jpg" group-title="Reality Show's Live",Apostarias por Mí (Hab. Trébol) 🇺🇸
+http://domestipo1.online:80/live/ser682mun/5w49evr21/738702.m3u8
+#EXTINF:-1 tvg-chno="800" tvg-logo="https://periodicocorreo.com.mx/core/correo/assets/images/2026/01/19/middle-g-bwnplxcaan42l-Xe3FRAPQV.jpg" group-title="Reality Show's Live",Apostarias por Mí (Baños) 🇺🇸
+http://domestipo1.online:80/live/ser682mun/5w49evr21/738703.m3u8
+#EXTINF:-1 tvg-chno="800" tvg-logo="https://periodicocorreo.com.mx/core/correo/assets/images/2026/01/19/middle-g-bwnplxcaan42l-Xe3FRAPQV.jpg" group-title="Reality Show's Live",Apostarias por Mí (Multicámaras) 🇺🇸
+http://domestipo1.online:80/live/ser682mun/5w49evr21/738706.m3u8
+#EXTINF:-1 tvg-chno="800" tvg-logo="https://deadline.com/wp-content/uploads/2026/02/la-casa-de-los-famosos-season-6-2026-telemundo-cast-photos.jpg?w=681&h=383&crop=1" group-title="Reality Show's Live",LCDLF 6 USA (24/7 - 1) 🇺🇸
+http://domestipo1.online:80/live/ser682mun/5w49evr21/747415.m3u8
+#EXTINF:-1 tvg-chno="800" tvg-logo="https://deadline.com/wp-content/uploads/2026/02/la-casa-de-los-famosos-season-6-2026-telemundo-cast-photos.jpg?w=681&h=383&crop=1" group-title="Reality Show's Live",LCDLF 6 USA (24/7 - 2) 🇺🇸
+http://domestipo1.online:80/live/ser682mun/5w49evr21/747416.m3u8
 #EXTM3U url-epg="https://raw.githubusercontent.com/dp247/Freeview-EPG/master/epg.xml"
 #EXTINF:-1 group-title="UK" tvg-id="BBCOneLondonHD.uk" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/bbc-one-uk.png",BBC One
 https://streamer.nexyl.uk/5c858268-a93b-45f8-9e82-41d66b526d6c.m3u8
@@ -3543,78 +3955,78 @@ https://zedhls.wns.live/hls/stream.m3u8
 https://live-as-11-10.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJVUyIsImRvbWFpbiI6ImxpdmUtYXMtMTEtMTAudmlkZW8uZ2xvYm8uY29tIiwiZXhwIjoxNzc4MzY2NjQ4LCJpYXQiOjE3NzgzNDUwNDgsImlzcyI6InBsYXliYWNrLWFwaS1wcm9kLWdjcCIsIm93bmVyIjoiIiwicGF0aCI6Ii9saXZlL2YoaT0yKS9yZWRlYWMvcGxheWxpc3QubTN1OCJ9.hlodTXy9fJozKbAikzjSNEz6IiLSQ2nHmW6WwM1TiNlnVfkKTrO5dGMPuW_ftfNHXVouAYVopixEfdTLpcCU4LtsjX0LplaiddoymrhIRVAOx6FxZNKba6EVWVyrh-lkvB7KsTF6uR17rCn4ra32IUADyNisweFjVwlbFGzVG83d873cijvuY3Ld8g8LuJsdXisxRtxZZ1rprXX0_oN5fvbBmSPJheP8V70PIbPrdls-cpNGwfxNcaTQg8Cq7ZRuOTc8VVPxZn3M9CpMjax7hz9V2pkkPyjhYiUaJqAkz592kHs8dMhAKOY5kmEToup1joD6JQqhAs7aig3GGp_4kg/live/f(i=2)/redeac/playlist.m3u8
 #EXTM3U
 #EXTM3U
-#EXTINF:-1 tvg-logo="https://keyframe-cdn.abcnews.com/streamprovider11.jpg" group-title="NEWS WORLD",ABC News Live - ABC News
-https://abcnews-livestreams.akamaized.net/out/v1/6a597119dbd5428a82dc11a2f514a1a2/abcn-live-10-cmaf-manifest/abcn-live-10-index_4_0.m3u8
-#EXTINF:-1 tvg-logo="https://keyframe-cdn.abcnews.com/streamprovider11.jpg" group-title="NEWS WORLD",ABC News Live - ABC News
+#EXTINF:-1 tvg-logo="https://s.abcnews.com/images/Live/abc_news_live-abc-ml-250210_1739199021469_hpMain_16x9_608.jpg" group-title="NEWS WORLD",20/20: The Secret in the Water | Watch Live News on ABCNL
+https://linear-abcnews-akc-na-central-1.media.dssott.com/dvt2=exp=1778490845~url=%2Flas1%2Fva01%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1776861675071%2F~psid=fc129ff8-243b-4169-8747-881cfb419904~did=8dd24758-714b-446e-9449-818191256db1~country=US~kid=k02~hmac=6c1b4092c1550ac7bf00a3a18983cc7e3e6c608c2a1064789ba6d649d80cd3ac/las1/va01/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1776861675071/ctr-all-hdri-sliding.m3u8?r=1080&v=1&hash=ab84398225d4a583cf5479db7842af5fa60665cc
+#EXTINF:-1 tvg-logo="https://s.abcnews.com/images/Live/abc_news_live-abc-ml-250210_1739199021469_hpMain_16x9_608.jpg" group-title="NEWS WORLD",20/20: The Secret in the Water | Watch Live News on ABCNL
+https://linear-abcnews-akc-na-central-1.media.dssott.com/dvt2=exp=1778490845~url=%2Flas1%2Fva01%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1776861675071%2F~psid=fc129ff8-243b-4169-8747-881cfb419904~did=8dd24758-714b-446e-9449-818191256db1~country=US~kid=k02~hmac=6c1b4092c1550ac7bf00a3a18983cc7e3e6c608c2a1064789ba6d649d80cd3ac/las1/va01/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1776861675071/audio-aac-1-64K/64_slide.m3u8
+#EXTINF:-1 tvg-logo="https://s.abcnews.com/images/Live/abc_news_live-abc-ml-250210_1739199021469_hpMain_16x9_608.jpg" group-title="NEWS WORLD",20/20: The Secret in the Water | Watch Live News on ABCNL
+https://linear-abcnews-akc-na-central-1.media.dssott.com/dvt2=exp=1778490845~url=%2Flas1%2Fva01%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1776861675071%2F~psid=fc129ff8-243b-4169-8747-881cfb419904~did=8dd24758-714b-446e-9449-818191256db1~country=US~kid=k02~hmac=6c1b4092c1550ac7bf00a3a18983cc7e3e6c608c2a1064789ba6d649d80cd3ac/las1/va01/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1776861675071/cmaf-cenc-ctr-1700K/1700_hdri_slide.m3u8
+#EXTINF:-1 tvg-logo="https://s.abcnews.com/images/Live/abc_news_live-abc-ml-250210_1739199021469_hpMain_16x9_608.jpg" group-title="NEWS WORLD",20/20: The Secret in the Water | Watch Live News on ABCNL
+https://linear-abcnews-akc-na-central-1.media.dssott.com/dvt2=exp=1778490845~url=%2Flas1%2Fva01%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1776861675071%2F~psid=fc129ff8-243b-4169-8747-881cfb419904~did=8dd24758-714b-446e-9449-818191256db1~country=US~kid=k02~hmac=6c1b4092c1550ac7bf00a3a18983cc7e3e6c608c2a1064789ba6d649d80cd3ac/las1/va01/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1776861675071/cmaf-cenc-ctr-2400K/2400_hdri_slide.m3u8
+#EXTINF:-1 tvg-logo="https://s.abcnews.com/images/Live/abc_news_live-abc-ml-250210_1739199021469_hpMain_16x9_608.jpg" group-title="NEWS WORLD",20/20: The Secret in the Water | Watch Live News on ABCNL
+https://linear-abcnews-akc-na-central-1.media.dssott.com/dvt2=exp=1778490845~url=%2Flas1%2Fva01%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1776861675071%2F~psid=fc129ff8-243b-4169-8747-881cfb419904~did=8dd24758-714b-446e-9449-818191256db1~country=US~kid=k02~hmac=6c1b4092c1550ac7bf00a3a18983cc7e3e6c608c2a1064789ba6d649d80cd3ac/las1/va01/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1776861675071/audio-aac-1-128K/128_slide.m3u8
+#EXTINF:-1 tvg-logo="https://s.abcnews.com/images/Live/abc_news_live-abc-ml-250210_1739199021469_hpMain_16x9_608.jpg" group-title="NEWS WORLD",20/20: The Secret in the Water | Watch Live News on ABCNL
+https://linear-abcnews-akc-na-central-1.media.dssott.com/dvt2=exp=1778490845~url=%2Flas1%2Fva01%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1776861675071%2F~psid=fc129ff8-243b-4169-8747-881cfb419904~did=8dd24758-714b-446e-9449-818191256db1~country=US~kid=k02~hmac=6c1b4092c1550ac7bf00a3a18983cc7e3e6c608c2a1064789ba6d649d80cd3ac/las1/va01/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1776861675071/cmaf-cenc-ctr-2400K/2400_hdri_slide.m3u8
+#EXTINF:-1 tvg-logo="https://s.abcnews.com/images/Live/abc_news_live-abc-ml-250210_1739199021469_hpMain_16x9_608.jpg" group-title="NEWS WORLD",20/20: The Secret in the Water | Watch Live News on ABCNL
+https://linear-abcnews-akc-na-central-1.media.dssott.com/dvt2=exp=1778490845~url=%2Flas1%2Fva01%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1776861675071%2F~psid=fc129ff8-243b-4169-8747-881cfb419904~did=8dd24758-714b-446e-9449-818191256db1~country=US~kid=k02~hmac=6c1b4092c1550ac7bf00a3a18983cc7e3e6c608c2a1064789ba6d649d80cd3ac/las1/va01/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1776861675071/audio-aac-1-128K/128_slide.m3u8
+#EXTINF:-1 tvg-logo="https://keyframe-cdn.abcnews.com/streamprovider10.jpg" group-title="NEWS WORLD",Video Chances for severe weather this weekend; heat wave building in the West; Mother's Day forecast across America | Watch Live News on ABCNL
 https://abcnews-livestreams.akamaized.net/out/v1/6a597119dbd5428a82dc11a2f514a1a2/abcn-live-10-cmaf-manifest/abcn-live-10-index.m3u8
-#EXTINF:-1 tvg-logo="https://s.abcnews.com/images/Live/abc_news_live-abc-ml-250210_1739199021469_hpMain_16x9_608.jpg" group-title="NEWS WORLD",What Would You Do? | Watch Live News on ABCNL
-https://linear-abcnews-akc-na-central-1.media.dssott.com/dvt2=exp=1778474011~url=%2Flas1%2Fva01%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1776861675071%2F~psid=d0edaa0b-1e69-4129-b2be-5cd4177d41bf~did=6b5c7bca-e7bc-46df-9610-741070cf2885~country=US~kid=k02~hmac=dd1dc65cabd85fd1d85fe272932ca3fda716c546cf2d9193ef6d3929ace42516/las1/va01/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1776861675071/audio-aac-1-128K/128_slide.m3u8
-#EXTINF:-1 tvg-logo="https://s.abcnews.com/images/Live/abc_news_live-abc-ml-250210_1739199021469_hpMain_16x9_608.jpg" group-title="NEWS WORLD",What Would You Do? | Watch Live News on ABCNL
-https://linear-abcnews-akc-na-central-1.media.dssott.com/dvt2=exp=1778474011~url=%2Flas1%2Fva01%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1776861675071%2F~psid=d0edaa0b-1e69-4129-b2be-5cd4177d41bf~did=6b5c7bca-e7bc-46df-9610-741070cf2885~country=US~kid=k02~hmac=dd1dc65cabd85fd1d85fe272932ca3fda716c546cf2d9193ef6d3929ace42516/las1/va01/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1776861675071/audio-aac-1-128K/128_slide.m3u8
-#EXTINF:-1 tvg-logo="https://s.abcnews.com/images/Live/abc_news_live-abc-ml-250210_1739199021469_hpMain_16x9_608.jpg" group-title="NEWS WORLD",What Would You Do? | Watch Live News on ABCNL
-https://linear-abcnews-akc-na-central-1.media.dssott.com/dvt2=exp=1778474011~url=%2Flas1%2Fva01%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1776861675071%2F~psid=d0edaa0b-1e69-4129-b2be-5cd4177d41bf~did=6b5c7bca-e7bc-46df-9610-741070cf2885~country=US~kid=k02~hmac=dd1dc65cabd85fd1d85fe272932ca3fda716c546cf2d9193ef6d3929ace42516/las1/va01/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1776861675071/cmaf-cenc-ctr-2400K/2400_hdri_slide.m3u8
-#EXTINF:-1 tvg-logo="https://s.abcnews.com/images/Live/abc_news_live-abc-ml-250210_1739199021469_hpMain_16x9_608.jpg" group-title="NEWS WORLD",What Would You Do? | Watch Live News on ABCNL
-https://linear-abcnews-akc-na-central-1.media.dssott.com/dvt2=exp=1778474011~url=%2Flas1%2Fva01%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1776861675071%2F~psid=d0edaa0b-1e69-4129-b2be-5cd4177d41bf~did=6b5c7bca-e7bc-46df-9610-741070cf2885~country=US~kid=k02~hmac=dd1dc65cabd85fd1d85fe272932ca3fda716c546cf2d9193ef6d3929ace42516/las1/va01/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1776861675071/cmaf-cenc-ctr-2400K/2400_hdri_slide.m3u8
-#EXTINF:-1 tvg-logo="https://s.abcnews.com/images/Live/abc_news_live-abc-ml-250210_1739199021469_hpMain_16x9_608.jpg" group-title="NEWS WORLD",What Would You Do? | Watch Live News on ABCNL
-https://linear-abcnews-akc-na-central-1.media.dssott.com/dvt2=exp=1778474011~url=%2Flas1%2Fva01%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1776861675071%2F~psid=d0edaa0b-1e69-4129-b2be-5cd4177d41bf~did=6b5c7bca-e7bc-46df-9610-741070cf2885~country=US~kid=k02~hmac=dd1dc65cabd85fd1d85fe272932ca3fda716c546cf2d9193ef6d3929ace42516/las1/va01/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1776861675071/ctr-all-hdri-sliding.m3u8?r=1080&v=1&hash=ab84398225d4a583cf5479db7842af5fa60665cc
-#EXTINF:-1 tvg-logo="https://keyframe-cdn.abcnews.com/streamprovider11.jpg" group-title="NEWS WORLD",ABC News Live - ABC News
+#EXTINF:-1 tvg-logo="https://keyframe-cdn.abcnews.com/streamprovider10.jpg" group-title="NEWS WORLD",Video Chances for severe weather this weekend; heat wave building in the West; Mother's Day forecast across America | Watch Live News on ABCNL
+https://abcnews-livestreams.akamaized.net/out/v1/6a597119dbd5428a82dc11a2f514a1a2/abcn-live-10-cmaf-manifest/abcn-live-10-index_3.m3u8
+#EXTINF:-1 tvg-logo="https://keyframe-cdn.abcnews.com/streamprovider10.jpg" group-title="NEWS WORLD",Video Chances for severe weather this weekend; heat wave building in the West; Mother's Day forecast across America | Watch Live News on ABCNL
 https://abcnews-livestreams.akamaized.net/out/v1/6a597119dbd5428a82dc11a2f514a1a2/abcn-live-10-cmaf-manifest/abcn-live-10-index_4_0.m3u8
-#EXTINF:-1 tvg-logo="https://keyframe-cdn.abcnews.com/streamprovider11.jpg" group-title="NEWS WORLD",ABC News Live - ABC News
+#EXTINF:-1 tvg-logo="https://keyframe-cdn.abcnews.com/streamprovider10.jpg" group-title="NEWS WORLD",Video Chances for severe weather this weekend; heat wave building in the West; Mother's Day forecast across America | Watch Live News on ABCNL
 https://abcnews-livestreams.akamaized.net/out/v1/6a597119dbd5428a82dc11a2f514a1a2/abcn-live-10-cmaf-manifest/abcn-live-10-index_4_0.m3u8
-#EXTINF:-1 tvg-logo="https://keyframe-cdn.abcnews.com/streamprovider11.jpg" group-title="NEWS WORLD",ABC News Live - ABC News
+#EXTINF:-1 tvg-logo="https://keyframe-cdn.abcnews.com/streamprovider10.jpg" group-title="NEWS WORLD",Video Chances for severe weather this weekend; heat wave building in the West; Mother's Day forecast across America | Watch Live News on ABCNL
 https://abcnews-livestreams.akamaized.net/out/v1/6a597119dbd5428a82dc11a2f514a1a2/abcn-live-10-cmaf-manifest/abcn-live-10-index_3.m3u8
-#EXTINF:-1 tvg-logo="https://s.abcnews.com/images/Live/abc_news_live-abc-ml-250210_1739199021469_hpMain_16x9_608.jpg" group-title="NEWS WORLD",What Would You Do? | Watch Live News on ABCNL
-https://linear-abcnews-akc-na-central-1.media.dssott.com/dvt2=exp=1778474011~url=%2Flas1%2Fva01%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1776861675071%2F~psid=d0edaa0b-1e69-4129-b2be-5cd4177d41bf~did=6b5c7bca-e7bc-46df-9610-741070cf2885~country=US~kid=k02~hmac=dd1dc65cabd85fd1d85fe272932ca3fda716c546cf2d9193ef6d3929ace42516/las1/va01/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1776861675071/audio-aac-1-64K/64_slide.m3u8
-#EXTINF:-1 tvg-logo="https://keyframe-cdn.abcnews.com/streamprovider11.jpg" group-title="NEWS WORLD",ABC News Live - ABC News
+#EXTINF:-1 tvg-logo="https://keyframe-cdn.abcnews.com/streamprovider10.jpg" group-title="NEWS WORLD",Video Chances for severe weather this weekend; heat wave building in the West; Mother's Day forecast across America | Watch Live News on ABCNL
+https://abcnews-livestreams.akamaized.net/out/v1/6a597119dbd5428a82dc11a2f514a1a2/abcn-live-10-cmaf-manifest/abcn-live-10-index_4_0.m3u8
+#EXTINF:-1 tvg-logo="https://keyframe-cdn.abcnews.com/streamprovider10.jpg" group-title="NEWS WORLD",Video Chances for severe weather this weekend; heat wave building in the West; Mother's Day forecast across America | Watch Live News on ABCNL
 https://abcnews-livestreams.akamaized.net/out/v1/6a597119dbd5428a82dc11a2f514a1a2/abcn-live-10-cmaf-manifest/abcn-live-10-index_3.m3u8
-#EXTINF:-1 tvg-logo="https://keyframe-cdn.abcnews.com/streamprovider11.jpg" group-title="NEWS WORLD",ABC News Live - ABC News
-https://abcnews-livestreams.akamaized.net/out/v1/6a597119dbd5428a82dc11a2f514a1a2/abcn-live-10-cmaf-manifest/abcn-live-10-index_3.m3u8
-#EXTINF:-1 tvg-logo="https://s.abcnews.com/images/Live/abc_news_live-abc-ml-250210_1739199021469_hpMain_16x9_608.jpg" group-title="NEWS WORLD",What Would You Do? | Watch Live News on ABCNL
-https://linear-abcnews-akc-na-central-1.media.dssott.com/dvt2=exp=1778474011~url=%2Flas1%2Fva01%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1776861675071%2F~psid=d0edaa0b-1e69-4129-b2be-5cd4177d41bf~did=6b5c7bca-e7bc-46df-9610-741070cf2885~country=US~kid=k02~hmac=dd1dc65cabd85fd1d85fe272932ca3fda716c546cf2d9193ef6d3929ace42516/las1/va01/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1776861675071/audio-aac-1-64K/64_slide.m3u8
-#EXTINF:-1 tvg-logo="https://s.abcnews.com/images/Live/abc_news_live-abc-ml-250210_1739199021469_hpMain_16x9_608.jpg" group-title="NEWS WORLD",What Would You Do? | Watch Live News on ABCNL
-https://linear-abcnews-akc-na-central-1.media.dssott.com/dvt2=exp=1778474011~url=%2Flas1%2Fva01%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1776861675071%2F~psid=d0edaa0b-1e69-4129-b2be-5cd4177d41bf~did=6b5c7bca-e7bc-46df-9610-741070cf2885~country=US~kid=k02~hmac=dd1dc65cabd85fd1d85fe272932ca3fda716c546cf2d9193ef6d3929ace42516/las1/va01/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1776861675071/cmaf-cenc-ctr-1700K/1700_hdri_slide.m3u8
-#EXTINF:-1 tvg-logo="https://assets2.cbsnewsstatic.com/hub/i/r/2024/04/16/0fb75ad2-a909-44bb-87dc-86b9d51cbeb2/thumbnail/1280x720/949f3d3fef16f9c113e3048c6aef229f/247-key-channelthumbnail-1920x1080.jpg" group-title="NEWS WORLD",Watch CBS News 24/7, our free live news stream
-https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/2565de75-cc57-4b3c-894d-4b8bfd893e99:CHS/variant/93c2acc6479504ccd49e3f4d21db1bec/bandwidth/441000.m3u8
-#EXTINF:-1 tvg-logo="https://assets2.cbsnewsstatic.com/hub/i/r/2024/04/16/0fb75ad2-a909-44bb-87dc-86b9d51cbeb2/thumbnail/1280x720/949f3d3fef16f9c113e3048c6aef229f/247-key-channelthumbnail-1920x1080.jpg" group-title="NEWS WORLD",Watch CBS News 24/7, our free live news stream
-https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/2565de75-cc57-4b3c-894d-4b8bfd893e99:CHS/master.m3u8
-#EXTINF:-1 tvg-logo="https://a57.foxnews.com/cf-images.us-east-1.prod.boltdns.net/v1/static/694940094001/e8b65c68-0892-43bf-aad8-d73d2b18c84a/7d5ed45f-cc85-4516-8cf0-1caabac185c5/1280x720/match/390/219/image.jpg" group-title="NEWS WORLD",Watch Fox News Channel Online | Stream Fox News
-https://247.foxnews.com/hls/live/2003586/FNCHLSv3/master.m3u8?hdnea=exp=1778391212~acl=/*~hmac=c884c49992b38635f1a680c8d29b038f939742d36f4467431da7998c9c216440
-#EXTINF:-1 tvg-logo="https://a57.foxnews.com/cf-images.us-east-1.prod.boltdns.net/v1/static/694940094001/e8b65c68-0892-43bf-aad8-d73d2b18c84a/7d5ed45f-cc85-4516-8cf0-1caabac185c5/1280x720/match/390/219/image.jpg" group-title="NEWS WORLD",Fox Business Go | Fox News Video
-https://247.foxbusiness.com/hls/live/2003756/FBNHLSv3/master.m3u8?hdnea=exp=1778391211~acl=/*~hmac=6b681d4793d8ed18c8d7609c4ed7afe4ce46cfcb0558bfd29b61e530e45783ac
-#EXTINF:-1 tvg-logo="https://assets2.cbsnewsstatic.com/hub/i/r/2024/04/16/0fb75ad2-a909-44bb-87dc-86b9d51cbeb2/thumbnail/1280x720/949f3d3fef16f9c113e3048c6aef229f/247-key-channelthumbnail-1920x1080.jpg" group-title="NEWS WORLD",Watch CBS News 24/7, our free live news stream
-https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/2565de75-cc57-4b3c-894d-4b8bfd893e99:CHS/variant/9b9c3d2ac5aa8733095eb4ff47cef5d8/bandwidth/2249000.m3u8
-#EXTINF:-1 tvg-logo="https://assets2.cbsnewsstatic.com/hub/i/r/2024/04/16/0fb75ad2-a909-44bb-87dc-86b9d51cbeb2/thumbnail/1280x720/949f3d3fef16f9c113e3048c6aef229f/247-key-channelthumbnail-1920x1080.jpg" group-title="NEWS WORLD",Watch CBS News 24/7, our free live news stream
-https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/2565de75-cc57-4b3c-894d-4b8bfd893e99:CHS/variant/746103095c4cba0bf336a095edd0798c/bandwidth/733000.m3u8
-#EXTINF:-1 tvg-logo="https://assets2.cbsnewsstatic.com/hub/i/r/2024/04/16/0fb75ad2-a909-44bb-87dc-86b9d51cbeb2/thumbnail/1280x720/949f3d3fef16f9c113e3048c6aef229f/247-key-channelthumbnail-1920x1080.jpg" group-title="NEWS WORLD",Watch CBS News 24/7, our free live news stream
-https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/2565de75-cc57-4b3c-894d-4b8bfd893e99:CHS/variant/d97af4c27467beea3da650488b681b9e/bandwidth/1083000.m3u8
-#EXTINF:-1 tvg-logo="https://assets2.cbsnewsstatic.com/hub/i/r/2024/04/16/0fb75ad2-a909-44bb-87dc-86b9d51cbeb2/thumbnail/1280x720/949f3d3fef16f9c113e3048c6aef229f/247-key-channelthumbnail-1920x1080.jpg" group-title="NEWS WORLD",Watch CBS News 24/7, our free live news stream
-https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/2565de75-cc57-4b3c-894d-4b8bfd893e99:CHS/variant/bbe09487996e4026304507dc92286621/bandwidth/4231000.m3u8
-#EXTINF:-1 tvg-logo="https://assets2.cbsnewsstatic.com/hub/i/r/2024/04/16/0fb75ad2-a909-44bb-87dc-86b9d51cbeb2/thumbnail/1280x720/949f3d3fef16f9c113e3048c6aef229f/247-key-channelthumbnail-1920x1080.jpg" group-title="NEWS WORLD",Watch CBS News 24/7, our free live news stream
-https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/2565de75-cc57-4b3c-894d-4b8bfd893e99:CHS/variant/bbe09487996e4026304507dc92286621/bandwidth/4231000.m3u8
-#EXTINF:-1 tvg-logo="https://assets2.cbsnewsstatic.com/hub/i/r/2024/04/16/0fb75ad2-a909-44bb-87dc-86b9d51cbeb2/thumbnail/1280x720/949f3d3fef16f9c113e3048c6aef229f/247-key-channelthumbnail-1920x1080.jpg" group-title="NEWS WORLD",Watch CBS News 24/7, our free live news stream
-https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/2565de75-cc57-4b3c-894d-4b8bfd893e99:CHS/variant/bbe09487996e4026304507dc92286621/bandwidth/4231000.m3u8
-#EXTINF:-1 tvg-logo="https://assets2.cbsnewsstatic.com/hub/i/r/2024/04/16/0fb75ad2-a909-44bb-87dc-86b9d51cbeb2/thumbnail/1280x720/949f3d3fef16f9c113e3048c6aef229f/247-key-channelthumbnail-1920x1080.jpg" group-title="NEWS WORLD",Watch CBS News 24/7, our free live news stream
-https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/2565de75-cc57-4b3c-894d-4b8bfd893e99:CHS/variant/bbe09487996e4026304507dc92286621/bandwidth/4231000.m3u8
-#EXTINF:-1 tvg-logo="https://assets2.cbsnewsstatic.com/hub/i/r/2024/04/16/0fb75ad2-a909-44bb-87dc-86b9d51cbeb2/thumbnail/1280x720/949f3d3fef16f9c113e3048c6aef229f/247-key-channelthumbnail-1920x1080.jpg" group-title="NEWS WORLD",Watch CBS News 24/7, our free live news stream
-https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/2565de75-cc57-4b3c-894d-4b8bfd893e99:CHS/variant/bbe09487996e4026304507dc92286621/bandwidth/4231000.m3u8
-#EXTINF:-1 tvg-logo="https://assets2.cbsnewsstatic.com/hub/i/r/2024/04/16/0fb75ad2-a909-44bb-87dc-86b9d51cbeb2/thumbnail/1280x720/949f3d3fef16f9c113e3048c6aef229f/247-key-channelthumbnail-1920x1080.jpg" group-title="NEWS WORLD",Watch CBS News 24/7, our free live news stream
-https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/2565de75-cc57-4b3c-894d-4b8bfd893e99:CHS/variant/bbe09487996e4026304507dc92286621/bandwidth/4231000.m3u8
-#EXTINF:-1 tvg-logo="https://assets2.cbsnewsstatic.com/hub/i/r/2024/04/16/0fb75ad2-a909-44bb-87dc-86b9d51cbeb2/thumbnail/1280x720/949f3d3fef16f9c113e3048c6aef229f/247-key-channelthumbnail-1920x1080.jpg" group-title="NEWS WORLD",Watch CBS News 24/7, our free live news stream
-https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/2565de75-cc57-4b3c-894d-4b8bfd893e99:CHS/variant/bbe09487996e4026304507dc92286621/bandwidth/4231000.m3u8
-#EXTINF:-1 tvg-logo="https://assets2.cbsnewsstatic.com/hub/i/r/2024/04/16/0fb75ad2-a909-44bb-87dc-86b9d51cbeb2/thumbnail/1280x720/949f3d3fef16f9c113e3048c6aef229f/247-key-channelthumbnail-1920x1080.jpg" group-title="NEWS WORLD",Watch CBS News 24/7, our free live news stream
-https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/2565de75-cc57-4b3c-894d-4b8bfd893e99:CHS/variant/bbe09487996e4026304507dc92286621/bandwidth/4231000.m3u8
-#EXTINF:-1 tvg-logo="https://assets2.cbsnewsstatic.com/hub/i/r/2024/04/16/0fb75ad2-a909-44bb-87dc-86b9d51cbeb2/thumbnail/1280x720/949f3d3fef16f9c113e3048c6aef229f/247-key-channelthumbnail-1920x1080.jpg" group-title="NEWS WORLD",Watch CBS News 24/7, our free live news stream
-https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/2565de75-cc57-4b3c-894d-4b8bfd893e99:CHS/variant/bbe09487996e4026304507dc92286621/bandwidth/4231000.m3u8
-#EXTINF:-1 tvg-logo="https://assets2.cbsnewsstatic.com/hub/i/r/2024/04/16/0fb75ad2-a909-44bb-87dc-86b9d51cbeb2/thumbnail/1280x720/949f3d3fef16f9c113e3048c6aef229f/247-key-channelthumbnail-1920x1080.jpg" group-title="NEWS WORLD",Watch CBS News 24/7, our free live news stream
-https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/2565de75-cc57-4b3c-894d-4b8bfd893e99:CHS/variant/bbe09487996e4026304507dc92286621/bandwidth/4231000.m3u8
-#EXTINF:-1 tvg-logo="https://assets2.cbsnewsstatic.com/hub/i/r/2024/04/16/0fb75ad2-a909-44bb-87dc-86b9d51cbeb2/thumbnail/1280x720/949f3d3fef16f9c113e3048c6aef229f/247-key-channelthumbnail-1920x1080.jpg" group-title="NEWS WORLD",Watch CBS News 24/7, our free live news stream
-https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/2565de75-cc57-4b3c-894d-4b8bfd893e99:CHS/variant/bbe09487996e4026304507dc92286621/bandwidth/4231000.m3u8
-#EXTINF:-1 tvg-logo="https://assets2.cbsnewsstatic.com/hub/i/r/2024/04/16/0fb75ad2-a909-44bb-87dc-86b9d51cbeb2/thumbnail/1280x720/949f3d3fef16f9c113e3048c6aef229f/247-key-channelthumbnail-1920x1080.jpg" group-title="NEWS WORLD",Watch CBS News 24/7, our free live news stream
-https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/2565de75-cc57-4b3c-894d-4b8bfd893e99:CHS/variant/bbe09487996e4026304507dc92286621/bandwidth/4231000.m3u8
-#EXTINF:-1 tvg-logo="https://assets2.cbsnewsstatic.com/hub/i/r/2024/04/16/0fb75ad2-a909-44bb-87dc-86b9d51cbeb2/thumbnail/1280x720/949f3d3fef16f9c113e3048c6aef229f/247-key-channelthumbnail-1920x1080.jpg" group-title="NEWS WORLD",Watch CBS News 24/7, our free live news stream
-https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/2565de75-cc57-4b3c-894d-4b8bfd893e99:CHS/variant/bbe09487996e4026304507dc92286621/bandwidth/4231000.m3u8
-#EXTINF:-1 tvg-logo="https://assets2.cbsnewsstatic.com/hub/i/r/2024/04/16/0fb75ad2-a909-44bb-87dc-86b9d51cbeb2/thumbnail/1280x720/949f3d3fef16f9c113e3048c6aef229f/247-key-channelthumbnail-1920x1080.jpg" group-title="NEWS WORLD",Watch CBS News 24/7, our free live news stream
-https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/2565de75-cc57-4b3c-894d-4b8bfd893e99:CHS/variant/bbe09487996e4026304507dc92286621/bandwidth/4231000.m3u8
+#EXTINF:-1 tvg-logo="https://keyframe-cdn.abcnews.com/streamprovider10.jpg" group-title="NEWS WORLD",Video Chances for severe weather this weekend; heat wave building in the West; Mother's Day forecast across America | Watch Live News on ABCNL
+https://abcnews-livestreams.akamaized.net/out/v1/6a597119dbd5428a82dc11a2f514a1a2/abcn-live-10-cmaf-manifest/abcn-live-10-index_4_0.m3u8
+#EXTINF:-1 tvg-logo="https://a57.foxnews.com/cf-images.us-east-1.prod.boltdns.net/v1/static/694940094001/21e01857-d201-4338-8689-c0d98aae3cc9/34272a46-254f-45aa-9604-e59c0f93c4d3/1280x720/match/390/219/image.jpg" group-title="NEWS WORLD",Watch Fox News Channel Online | Stream Fox News
+https://247.foxnews.com/hls/live/2003586/FNCHLSv3/master.m3u8?hdnea=exp=1778408046~acl=/*~hmac=896b997b1f3ec1a2283af6a8afdcf235f7a9e8c4011db98f905f8fd1df48cd19
+#EXTINF:-1 tvg-logo="https://a57.foxnews.com/cf-images.us-east-1.prod.boltdns.net/v1/static/694940094001/c9b2e2eb-7b87-435c-9510-eab2650ff944/8b584585-acf2-4c37-aa07-aaf2d077bb20/1280x720/match/676/380/image.jpg?ve=1&tl=1" group-title="NEWS WORLD",Fox Business Go | Fox News Video
+https://247.foxbusiness.com/hls/live/2003756/FBNHLSv3/master.m3u8?hdnea=exp=1778408046~acl=/*~hmac=896b997b1f3ec1a2283af6a8afdcf235f7a9e8c4011db98f905f8fd1df48cd19
+#EXTINF:-1 tvg-logo="https://www.cbsnews.com/bundles/cbsnewsvideo/images/cbsn--main-bg.jpg" group-title="NEWS WORLD",Watch CBS News 24/7, our free live news stream
+https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/272e31b2-1626-4687-8999-32d1a02ffb11:ATL/master.m3u8
+#EXTINF:-1 tvg-logo="https://www.cbsnews.com/bundles/cbsnewsvideo/images/cbsn--main-bg.jpg" group-title="NEWS WORLD",Watch CBS News 24/7, our free live news stream
+https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/272e31b2-1626-4687-8999-32d1a02ffb11:ATL/variant/93c2acc6479504ccd49e3f4d21db1bec/bandwidth/441000.m3u8
+#EXTINF:-1 tvg-logo="https://www.cbsnews.com/bundles/cbsnewsvideo/images/cbsn--main-bg.jpg" group-title="NEWS WORLD",Watch CBS News 24/7, our free live news stream
+https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/272e31b2-1626-4687-8999-32d1a02ffb11:ATL/variant/d97af4c27467beea3da650488b681b9e/bandwidth/1083000.m3u8
+#EXTINF:-1 tvg-logo="https://www.cbsnews.com/bundles/cbsnewsvideo/images/cbsn--main-bg.jpg" group-title="NEWS WORLD",Watch CBS News 24/7, our free live news stream
+https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/272e31b2-1626-4687-8999-32d1a02ffb11:ATL/variant/9b9c3d2ac5aa8733095eb4ff47cef5d8/bandwidth/2249000.m3u8
+#EXTINF:-1 tvg-logo="https://www.cbsnews.com/bundles/cbsnewsvideo/images/cbsn--main-bg.jpg" group-title="NEWS WORLD",Watch CBS News 24/7, our free live news stream
+https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/272e31b2-1626-4687-8999-32d1a02ffb11:ATL/variant/bbe09487996e4026304507dc92286621/bandwidth/4231000.m3u8
+#EXTINF:-1 tvg-logo="https://www.cbsnews.com/bundles/cbsnewsvideo/images/cbsn--main-bg.jpg" group-title="NEWS WORLD",Watch CBS News 24/7, our free live news stream
+https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/272e31b2-1626-4687-8999-32d1a02ffb11:ATL/variant/bbe09487996e4026304507dc92286621/bandwidth/4231000.m3u8
+#EXTINF:-1 tvg-logo="https://www.cbsnews.com/bundles/cbsnewsvideo/images/cbsn--main-bg.jpg" group-title="NEWS WORLD",Watch CBS News 24/7, our free live news stream
+https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/272e31b2-1626-4687-8999-32d1a02ffb11:ATL/variant/bbe09487996e4026304507dc92286621/bandwidth/4231000.m3u8
+#EXTINF:-1 tvg-logo="https://www.cbsnews.com/bundles/cbsnewsvideo/images/cbsn--main-bg.jpg" group-title="NEWS WORLD",Watch CBS News 24/7, our free live news stream
+https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/272e31b2-1626-4687-8999-32d1a02ffb11:ATL/variant/bbe09487996e4026304507dc92286621/bandwidth/4231000.m3u8
+#EXTINF:-1 tvg-logo="https://www.cbsnews.com/bundles/cbsnewsvideo/images/cbsn--main-bg.jpg" group-title="NEWS WORLD",Watch CBS News 24/7, our free live news stream
+https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/272e31b2-1626-4687-8999-32d1a02ffb11:ATL/variant/bbe09487996e4026304507dc92286621/bandwidth/4231000.m3u8
+#EXTINF:-1 tvg-logo="https://www.cbsnews.com/bundles/cbsnewsvideo/images/cbsn--main-bg.jpg" group-title="NEWS WORLD",Watch CBS News 24/7, our free live news stream
+https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/272e31b2-1626-4687-8999-32d1a02ffb11:ATL/variant/bbe09487996e4026304507dc92286621/bandwidth/4231000.m3u8
+#EXTINF:-1 tvg-logo="https://www.cbsnews.com/bundles/cbsnewsvideo/images/cbsn--main-bg.jpg" group-title="NEWS WORLD",Watch CBS News 24/7, our free live news stream
+https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/272e31b2-1626-4687-8999-32d1a02ffb11:ATL/variant/bbe09487996e4026304507dc92286621/bandwidth/4231000.m3u8
+#EXTINF:-1 tvg-logo="https://www.cbsnews.com/bundles/cbsnewsvideo/images/cbsn--main-bg.jpg" group-title="NEWS WORLD",Watch CBS News 24/7, our free live news stream
+https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/272e31b2-1626-4687-8999-32d1a02ffb11:ATL/variant/bbe09487996e4026304507dc92286621/bandwidth/4231000.m3u8
+#EXTINF:-1 tvg-logo="https://www.cbsnews.com/bundles/cbsnewsvideo/images/cbsn--main-bg.jpg" group-title="NEWS WORLD",Watch CBS News 24/7, our free live news stream
+https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/272e31b2-1626-4687-8999-32d1a02ffb11:ATL/variant/bbe09487996e4026304507dc92286621/bandwidth/4231000.m3u8
+#EXTINF:-1 tvg-logo="https://www.cbsnews.com/bundles/cbsnewsvideo/images/cbsn--main-bg.jpg" group-title="NEWS WORLD",Watch CBS News 24/7, our free live news stream
+https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/272e31b2-1626-4687-8999-32d1a02ffb11:ATL/variant/bbe09487996e4026304507dc92286621/bandwidth/4231000.m3u8
+#EXTINF:-1 tvg-logo="https://www.cbsnews.com/bundles/cbsnewsvideo/images/cbsn--main-bg.jpg" group-title="NEWS WORLD",Watch CBS News 24/7, our free live news stream
+https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/272e31b2-1626-4687-8999-32d1a02ffb11:ATL/variant/bbe09487996e4026304507dc92286621/bandwidth/4231000.m3u8
+#EXTINF:-1 tvg-logo="https://www.cbsnews.com/bundles/cbsnewsvideo/images/cbsn--main-bg.jpg" group-title="NEWS WORLD",Watch CBS News 24/7, our free live news stream
+https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/272e31b2-1626-4687-8999-32d1a02ffb11:ATL/variant/bbe09487996e4026304507dc92286621/bandwidth/4231000.m3u8
+#EXTINF:-1 tvg-logo="https://www.cbsnews.com/bundles/cbsnewsvideo/images/cbsn--main-bg.jpg" group-title="NEWS WORLD",Watch CBS News 24/7, our free live news stream
+https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/272e31b2-1626-4687-8999-32d1a02ffb11:ATL/variant/bbe09487996e4026304507dc92286621/bandwidth/4231000.m3u8
+#EXTINF:-1 tvg-logo="https://www.cbsnews.com/bundles/cbsnewsvideo/images/cbsn--main-bg.jpg" group-title="NEWS WORLD",Watch CBS News 24/7, our free live news stream
+https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/272e31b2-1626-4687-8999-32d1a02ffb11:ATL/variant/bbe09487996e4026304507dc92286621/bandwidth/4231000.m3u8
+#EXTINF:-1 tvg-logo="https://www.cbsnews.com/bundles/cbsnewsvideo/images/cbsn--main-bg.jpg" group-title="NEWS WORLD",Watch CBS News 24/7, our free live news stream
+https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/272e31b2-1626-4687-8999-32d1a02ffb11:ATL/variant/bbe09487996e4026304507dc92286621/bandwidth/4231000.m3u8
 #EXTM3U x-tvg-url="https://iptv-epg.org/files/epg-es.xml.gz,https://iptv-epg.org/files/epg-fr.xml.gz,https://iptv-epg.org/files/epg-us.xml.gz,https://iptv-epg.org/files/epg-de.xml.gz"
 #EXTINF:-1 tvg-id="AlJazeeraEnglish.es" tvg-logo="https://raw.githubusercontent.com/guigo85/lista-m3u-gratuita/main/logos/aljazeera.png" group-title="Mundo" x-tvg-url="https://iptv-epg.org/files/epg-es.xml.gz",Al Jazeera Español
 https://live-hls-web-aja.getaj.net/AJA/index.m3u8
@@ -3792,16 +4204,16 @@ http://play.dnsrot.vip/live/ramagi777/e4ifqhgjpqf/63641.m3u8
 #EXTINF:-1 tvg-id="GloboSP.br" tvg-name="Globo São Paulo HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/TV_Globo.png/180px-TV_Globo.png" group-title="Canais | Globo",Globo São Paulo HD
 https://live-as-02-03.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJVUyIsImRvbWFpbiI6ImxpdmUtYXMtMDItMDMudmlkZW8uZ2xvYm8uY29tIiwiZXhwIjoxNzc4MzYzODQzLCJpYXQiOjE3NzgzNDIyNDMsImlzcyI6InBsYXliYWNrLWFwaS1wcm9kLWdjcCIsIm93bmVyIjoiIiwicGF0aCI6Ii9saXZlL2YoaT0yKS9zcG8xMjRoYS9wbGF5bGlzdC5tM3U4In0.KgWTLSJiASG8PZ2eyK0Xr3enZulJqt26Bvol22L2RWqidgFOWYH_8jSUqIFsHNbzA5CQEq_Ee9bIXOybBYOleU1gdXzJiGIWhs2JYim7nog40rP39lFBMI7L_fAaymjI24XqAAUwELbnK88-LCOKK9LAlm_qRKkaYgFnfSr3Mz_Of56LQ-9iFaZzSje_6tLwdS__6LjRM-GX4zDb7PyUKkeAUmhJpEhdSlP2RTuW4jqqLaUVMe9xIi4wIHJRqqDgdKwZ8h7GEQlINmms9rkeRWQRNsfCnCqd4x2doNOVGR-zbwa8W8zWIQrI6JGINZWqA1AMCp9_RnUyeWOowv1hcg/live/f(i=2)/spo124ha/playlist.m3u8
 #EXTM3U
-#EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_AR1.xml.gz,https://iptv-epg.org/files/epg-ar.xml.gz" deinterlaced="1"
-#EXTM3U url-epg="https://iptv-epg.org/files/epg-ar.xml"
-#EXTINF:-1 group-title="ARGENTINA" tvg-id=Telefe.ar",Telefe
+#EXTM3U x-tvg-url="https://iptv-epg.org/files/epg-ar.xml,https://epgshare01.online/epgshare01/epg_ripper_AR1.xml.gz" deinterlaced="1"
+#EXTINF:-1 group-title="ARGENTINA" tvg-id="Telefe.ar" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/cc/Telefe_%28nuevo_logo%29.png",Telefe
 http://201.217.246.42:44310/Live/3fcb6e26785fd8d415571b26dc3cf5d3/telefe.playlist.m3u8
-#EXTINF:-1 group-title="ARGENTINA" tvg-id="ElTrece.ar" tvg-logo="https://www.lyngsat.com/logo/tv/ee/el-trece.png",El Trece
+#EXTINF:-1 group-title="ARGENTINA" tvg-id="ELTrece.ar" tvg-logo="https://i.imgur.com/TrgBAdA.png",El Trece
 #EXTVLCOPT:http-referrer=https://vodgc.net
 https://livetrx01.vodgc.net/eltrecetv/index.m3u8
-#EXTINF:-1 group-title="ARGENTINA" tvg-id="TN.ar" tvg-logo="https://www.lyngsat.com/logo/tv/tt/tn.png",TN
-https://latam-cache-sv2-cdn.latamlive.net/TN_ENC_LIVE/index.mpd
-#EXTINF:-1 group-title="ARGENTINA" tvg-id="TVPublica.ar" tvg-logo="https://www.lyngsat.com/logo/tv/tv/tv-publica-ar.png",TV Pública
+#EXTINF:-1 group-title="ARGENTINA" tvg-id="AmericaTV.ar" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/99/Logotipo_de_America_TV.svg",América TV
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 13; Pixel 7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Mobile Safari/537.36
+https://prepublish.f.qaotic.net/a07/americahls-100056/playlist_720p.m3u8
+#EXTINF:-1 group-title="ARGENTINA" tvg-id="TVPublica.ar" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/a/a5/TVP_-_Televisi%C3%B3n_P%C3%BAblica_%282021%29.svg",TV Pública
 http://201.217.246.42:44310/Live/3fcb6e26785fd8d415571b26dc3cf5d3/tvpublica_720.m3u8
 #EXTINF:-1 group-title="ARGENTINA" tvg-id="Canal26.ar" tvg-logo="https://www.lyngsat.com/logo/tv/cc/canal-26-ar.png",Canal 26 HD
 https://stream-gtlc.telecentro.net.ar/hls/canal26hls/main.m3u8
@@ -5866,6 +6278,7 @@ https://inliveserver.com:1936/10020/10020/playlist.m3u8?PlaylistM3UCL
 #EXTM3U url-tvg="https://i.mjh.nz/Roku/mx.xml.gz,https://timbiriche.me/epg/mexico.xml.gz,https://raw.githubusercontent.com/LITUATUI/Geral/master/EPG/Geral.xml.gz,https://github.com/roisiano/miEPG-v3.6/raw/refs/heads/main/miEPG.xml.gz,https://raw.githubusercontent.com/HelmerLous/EPG/main/Guia.xml.gz"
 #EXTM3U url-tvg="https://timbiriche.me/epg/usa.xml.gz,https://raw.githubusercontent.com/LITUATUI/Geral/master/EPG/Geral.xml.gz,https://raw.githubusercontent.com/davidmuma/EPG_doble_m/master/guia.xml.gz,https://raw.githubusercontent.com/HelmerLous/EPG/main/Guia.xml.gz,https://raw.githubusercontent.com/Tapiosat/EPG/master/guide.xml.gz"
 #EXTM3U x-tvg-url="https://epg.pw/xmltv/epg_US.xml.gz,https://epg.pw/xmltv/epg_GB.xml.gz,https://epg.pw/xmltv/epg_FR.xml.gz,https://epg.pw/xmltv/epg_BR.xml.gz,https://epg.pw/xmltv/epg_CN.xml.gz,https://epg.pw/xmltv/epg_SG.xml.gz,https://epg.pw/xmltv/epg_IN.xml.gz,https://epg.pw/xmltv/epg_TW.xml.gz,https://epg.pw/xmltv/epg_RU.xml.gz"
+#EXTM3U x-tvg-url="https://iptv-epg.org/files/epg-br.xml.gz"
 #EXTINF:-1 tvg-id="464746" tvg-name="BBC News" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/bbc-news-uk.png" group-title="NEWS WORLD",BBC News
 https://vs-hls-push-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_news_channel_hd/mobile_wifi_main_sd_abr_v2.m3u8
 #EXTINF:-1 tvg-id="464941" tvg-name="CBS News 24/7" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/cbs-news-us.png" group-title="NEWS WORLD",CBS News 24/7
@@ -5904,6 +6317,8 @@ http://79.127.238.228:14093/
 http://limed.cc:80/4x6cXF/ehfxdp/90039.m3u8
 #EXTINF:-1 group-title="NEWS WORLD" tvg-id="GLOBO NEWS" tvg-logo="https://imgur.com/Wu4ykxo.png",GLOBO NEWS
 https://03-mcteteu.shop/secret_key/77a11442e33a694798f9cc53b6235737.m3u8
+#EXTINF:-1 tvg-id="RecordNews.br" tvg-logo="https://i.imgur.com/HZDRG0K.png" group-title="NEWS WORLD",Record News
+https://rnw-rn.otteravision.com/rnw/rn/rnw_rn.m3u8
 #EXTINF:-1 group-title="NEWS WORLD" tvg-id="465469" tvg-name="BIS" tvg-logo="https://logodownload.org/wp-content/uploads/2017/11/canal-bis-logo-1.png",BIS
 http://limed.cc:80/4x6cXF/ehfxdp/89831.m3u8
 #EXTINF:-1 group-title="ESPORTES" tvg-id="418725" tvg-name="ESPN" tvg-logo="https://logodownload.org/wp-content/uploads/2015/05/espn-logo-0-1536x1536.png",ESPN
