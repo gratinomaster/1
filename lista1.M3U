@@ -1262,6 +1262,17 @@ https://tvpass.org/live/WPIX/hd
 https://tvpass.org/live/yes-network/sd
 #EXTINF:-1 tvg-id="ABCNewsLive" tvg-name="ABC News Live" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/ABC_News_Live_Logo.svg/1200px-ABC_News_Live_Logo.svg.png",ABC News Live
 https://abc-news-live.akamaized.net/live/dde6d5f62b724a8d8b77f3a68b579ba7/h264_450k/hls.m3u8
+#EXTM3U
+#EXTINF:-1 tvg-id="IRIB1.ir" tvg-name="IRIB 1" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/d/d7/IRIBTV1.svg" group-title="IRIB",IRIB 1
+https://ncdn.telewebion.ir/tv1/live/playlist.m3u8
+#EXTINF:-1 tvg-id="IRIB2.ir" tvg-name="IRIB 2" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/16/IRIB_TV2_logo.svg" group-title="IRIB",IRIB 2
+https://ncdn.telewebion.ir/tv2/live/playlist.m3u8
+#EXTINF:-1 tvg-id="IRIB3.ir" tvg-name="IRIB 3" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/6d/IRIB_TV3_LOGO.svg" group-title="IRIB",IRIB 3
+https://ncdn.telewebion.ir/tv3/live/playlist.m3u8
+#EXTINF:-1 tvg-id="IRIB4.ir" tvg-name="IRIB 4" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/fd/IRIB_TV4_logo.svg" group-title="IRIB",IRIB 4
+https://ncdn.telewebion.ir/tv4/live/playlist.m3u8
+#EXTINF:-1 tvg-id="Nasim.ir" tvg-name="IRIB Nasim" tvg-logo="https://i.ibb.co/cwWJXBY/nasim.png" group-title="IRIB",IRIB Nasim
+https://ncdn.telewebion.ir/nasim/live/playlist.m3u8
 #EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_MX1.xml.gz"
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/CINECITY2023/cinecity/refs/heads/cinecity.net/logos/canales-internacionales/adn40.png" group-title="🌍 Canales Internacionales",✔️ ADN40 (Mexico)
 https://mdstrm.com/live-stream-playlist/60b578b060947317de7b57ac.m3u8
@@ -1404,51 +1415,11 @@ EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/CINECITY2023/cinecity/refs
 http://172.93.102.112:8989/158753_.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/CINECITY2023/cinecity/refs/heads/cinecity.net/logos/canales-internacionales/VibeTVMexico.png" group-title="🌍 Canales Internacionales",✔️ Vibe TV (Mexico)
 https://5ca9af4645e15.streamlock.net/vibetv/videovibetv/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9My8yMS8yMDI1IDg6NTk6MjQgQU0maGFzaF92YWx1ZT1qMmRGZWNzTHIyZGttY3dJdXRYMXF3PT0mdmFsaWRtaW51dGVzPTEwJmlkPQ==
-#EXTM3U x-tvg-url="https://epg.pw/xmltv/epg_US.xml.gz,https://epg.pw/xmltv/epg_GB.xml.gz,https://epg.pw/xmltv/epg_FR.xml.gz,https://epg.pw/xmltv/epg_BR.xml.gz,https://epg.pw/xmltv/epg_CN.xml.gz,https://epg.pw/xmltv/epg_SG.xml.gz,https://epg.pw/xmltv/epg_IN.xml.gz,https://epg.pw/xmltv/epg_TW.xml.gz,https://epg.pw/xmltv/epg_RU.xml.gz"
-#EXTINF:-1 tvg-id="464746" tvg-name="BBC News" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/bbc-news-uk.png" group-title="NEWS WORLD",BBC News
-https://vs-hls-push-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_news_channel_hd/mobile_wifi_main_sd_abr_v2.m3u8
-#EXTINF:-1 tvg-id="443227" tvg-name="France 24 English" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/international/france-24-int.png" group-title="NEWS WORLD",France 24 English
-https://live.france24.com/hls/live/2037218-b/F24_EN_HI_HLS/master_5000.m3u8
-#EXTINF:-1 tvg-id="464941" tvg-name="CBS News 24/7" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/cbs-news-us.png" group-title="NEWS WORLD",CBS News 24/7
-https://news20e7hhcb.airspace-cdn.cbsivideo.com/index.m3u8
-#EXTINF:-1 tvg-id="465324" tvg-name="Bloomberg TV" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/bloomberg-television-us.png" group-title="NEWS WORLD",Bloomberg TV
-https://www.bloomberg.com/media-manifest/streams/eu.m3u8
-#EXTINF:-1 tvg-id="12532" tvg-name="Al Jazeera English" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/aljazeera-uk.png" group-title="NEWS WORLD",Al Jazeera English
-https://live-hls-apps-aje-fa.getaj.net/AJE/index.m3u8
-#EXTINF:-1 tvg-id="9504" tvg-name="Sky News" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/sky-news-uk.png" group-title="NEWS WORLD",Sky News
-https://linear417-gb-hls1-prd-ak.cdn.skycdp.com/100e/Content/HLS_001_1080_30/Live/channel(skynews)/index_1080-30.m3u8
-#EXTINF:-1 tvg-id="464863" tvg-name="Newsmax" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/newsmax-tv-us.png" group-title="NEWS WORLD",Newsmax
-https://nmxlive.akamaized.net/hls/live/529965/Live_1/index.m3u8
-#EXTINF:-1 tvg-id="465309" tvg-name="Meganoticias" tvg-logo="https://t0.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=http://meganoticias.cl&size=128" group-title="NEWS WORLD",Meganoticias [CL]
-https://pantera1-100gb-cl-movistar.dps.live/mega/mega.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="52000" tvg-name="Euronews English" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/international/euro-news-int.png" group-title="NEWS WORLD",Euronews English
-https://aegis-cloudfront-1.tubi.video/b1c4d439-03a5-4c40-ae9d-90a183e010c9/euronews-en.m3u8
-#EXTINF:-1 tvg-id="55960" tvg-name="Africa 24" tvg-logo="https://i.imgur.com/YWIJdai.png" group-title="NEWS WORLD",Africa 24 English
-https://edge20.vedge.infomaniak.com/livecast/ik:africa24english/manifest.m3u8
-#EXTINF:-1 tvg-id="9440" tvg-name="TRT World" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/trt-world-tr.png" group-title="NEWS WORLD",TRT World
-https://tv-trtworld.medya.trt.com.tr/master.m3u8
-#EXTINF:-1 tvg-id="492837" tvg-name="CGTN" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/international/cgtn-int.png" group-title="NEWS WORLD",CGTN
-https://news.cgtn.com/resource/live/english/cgtn-news.m3u8
-#EXTINF:-1 tvg-id="474641" tvg-name="Arirang TV" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/international/arirang-int.png" group-title="NEWS WORLD",Arirang TV
-https://amdlive-ch01-ctnd-com.akamaized.net/arirang_1ch/smil:arirang_1ch.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="543408" tvg-name="NDTV 24x7" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/india/ndtv-24x7-in.png" group-title="NEWS WORLD",NDTV 24x7
-https://ndtv24x7elemarchana.akamaized.net/hls/live/2003678/ndtv24x7/ndtv24x7master.m3u8
-#EXTINF:-1 tvg-id="539788" tvg-name="CGTN Francais" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/international/cgtn-french-int.png" group-title="NEWS WORLD",CGTN Francais
-https://news.cgtn.com/resource/live/french/cgtn-f.m3u8
-#EXTINF:-1 tvg-id="7473" tvg-name="DW Espanol" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/germany/dw-de.png" group-title="NEWS WORLD",DW Espanol
-https://dwamdstream103.akamaized.net/hls/live/2015526/dwstream103/index.m3u8
-#EXTINF:-1 tvg-id="412092" tvg-name="Bloomberg Asia" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/bloomberg-television-us.png" group-title="NEWS WORLD",Bloomberg Asia
-https://www.bloomberg.com/media-manifest/streams/asia.m3u8
-#EXTINF:-1 tvg-id="492874" tvg-name="CNA" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/international/cna-int.png" group-title="NEWS WORLD",CNA
-https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_5.m3u8
-#EXTINF:-1 tvg-id="516389" tvg-name="Al Jazeera" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/aljazeera-uk.png" group-title="NEWS WORLD",Al Jazeera Arabic
-https://live-hls-web-aja.getaj.net/AJA/03.m3u8
-#EXTINF:-1 tvg-id="369836" tvg-name="NHK World-Japan" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/international/nhk-world-japan-int.png" group-title="NEWS WORLD",NHK World-Japan
-https://nhk.lls.pbs.org/index.m3u8
-#EXTINF:-1 tvg-id="369766" tvg-name="DW English" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/international/dw-int.png" group-title="NEWS WORLD",DW English
-https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/index.m3u8
-#EXTINF:-1 tvg-id="464874" tvg-name="Scripps News" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/scripps-news-us.png" group-title="NEWS WORLD",Scripps News
-https://content.uplynk.com/channel/4bb4901b934c4e029fd4c1abfc766c37.m3u8
+#EXTM3U x-tvg-url="https://iptv-epg.org/files/epg-br.xml.gz"
+#EXTINF:-1 tvg-id="GloboNews.br" tvg-logo="https://i.imgur.com/Wu4ykxo.png" group-title="NEWS WORLD",GLOBO NEWS
+http://79.127.238.228:14093/
+#EXTINF:-1 tvg-id="RecordNews.br" tvg-logo="https://i.imgur.com/HZDRG0K.png" group-title="NEWS WORLD",Record News
+https://rnw-rn.otteravision.com/rnw/rn/rnw_rn.m3u8
 #EXTM3U url-epg="https://raw.githubusercontent.com/dp247/Freeview-EPG/master/epg.xml"
 #EXTINF:-1 group-title="UK" tvg-id="BBCOneLondonHD.uk" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/bbc-one-uk.png",BBC One
 https://streamer.nexyl.uk/5c858268-a93b-45f8-9e82-41d66b526d6c.m3u8
@@ -3071,7 +3042,7 @@ https://600f07e114306.streamlock.net/PadrePioTV/livestream/playlist.m3u8
 https://live-as-02-22.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJVUyIsImRvbWFpbiI6ImxpdmUtYXMtMDItMjIudmlkZW8uZ2xvYm8uY29tIiwiZXhwIjoxNzc4Mzg1MDU4LCJpYXQiOjE3NzgzNjM0NTgsImlzcyI6InBsYXliYWNrLWFwaS1wcm9kLWdjcCIsIm93bmVyIjoiIiwicGF0aCI6Ii9saXZlL2YoaT0yKS9zcG8xMjRoYS9wbGF5bGlzdC5tM3U4In0.u-uhCgAzaXIgTtuChuG2KHdeJc_VTCh9qrXzXUZi_ImOmc7kIsT9GzVwHtABtZdknd5MhjwmKO-gIUpVciyb3FIn42GQ7_v6TyzBlyJXCORU2wHuhcaosfYSkhzOKs0CV1vV95GKHNWnnApk5QGVydkJhtZyFET69-ucyXkcIyMrptWXfGbanZWXuFiWwrO_VtprlBaS2PmRaZTl2WuuoRH3RtBQHn3PVbtiklpq5cGrwRVPeowvRw8UIaLR3XmjcNAiPYGfvWqgkxUoeysHxdgEnhYo2VpBoSbmImF4EmZBOqqIs5XT7y9CZQPjZaBskv3pOpr5o1RUEEYVb3vWAQ/live/f(i=2)/spo124ha/playlist.m3u8
 #EXTINF:-1 tvg-id="tv-globo" tvg-logo="https://s01.video.glbimg.com/x720/14164032.jpg" group-title="GLOBO AO VIVO",Transmissão Ao Vivo ABTV - Alagoas | Assista ao vivo pelo Globoplay
 https://live-as-03-35.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJVUyIsImRvbWFpbiI6ImxpdmUtYXMtMDMtMzUudmlkZW8uZ2xvYm8uY29tIiwiZXhwIjoxNzc4Mzg1MDk1LCJpYXQiOjE3NzgzNjM0OTUsImlzcyI6InBsYXliYWNrLWFwaS1wcm9kLWdjcCIsIm93bmVyIjoiIiwicGF0aCI6Ii9saXZlL2YoaT0yKS9hYnR2L3BsYXlsaXN0Lm0zdTgifQ.k2DXHjOYCWtSHJ2SVw6haO0UPAZpR0w6dArSHHdfaN93CS2L3Y8rb8r3WBeKdDe2ENwsJxxyRVqvo1Zuzu926o7U12RucnnYwDGWjxN3ycf8dEa5_JxA8e4T3PajcslvsXfPRXu_nYSn1bOcuNHPQSQSFZ8e8pXZvWM94x6XCU3Q2EDOnCMJZ-d7gX-khcD9fGwpUX-TzFjTLrsUNeJYMc07x7ScXDQLypFiDjSV7vY6Iv1Dxv4pnuOeaSwlAQg-Khv7H4F9MHFVsFKHKUy9UUGqqc3nK97hw79JqELdM_rrnZgtbksPCbTs0UxU56BuFtKva-zb19O6Qj8vP6vIvw/live/f(i=2)/abtv/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://s02.video.glbimg.com/x720/7813173.jpg" group-title="GLOBO AO VIVO",Teste Live CDN Google | Assista ao vivo pelo Globoplay
+#EXTINF:-1 tvg-id="" tvg-logo="https://s02.video.glbimg.com/x720/7813173.jpg" group-title="GLOBO AO VIVO",Teste Live CDN Google | Assista ao vivo pelo Globoplay
 https://live-as-08-16.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJVUyIsImRvbWFpbiI6ImxpdmUtYXMtMDgtMTYudmlkZW8uZ2xvYm8uY29tIiwiZXhwIjoxNzc4Mzg1MDg3LCJpYXQiOjE3NzgzNjM0ODcsImlzcyI6InBsYXliYWNrLWFwaS1wcm9kLWdjcCIsIm93bmVyIjoiIiwicGF0aCI6Ii9saXZlL2YoaT0yKS9nbGIvcGxheWxpc3QubTN1OCJ9.l7brrgjMGbigVsDDp8jOIrF3B4dXntmhxSyIJNTIzz0CYb63V__nM5tOQS2u70QHvYpxVAJHdfz4AUXSk2jOd9MmGsZ55VtibJAIBx6a10Z1riACQxgJnj6MD6Qxi4JbVPa1-gLUP1T8KPB0Udonqf3ubysXlBoDyfwDn9o3viZ7nHj1xnn_Hw_yM1KP6hk14LJUT24ZVsw1BU91BiUsEsufAeUuick5AtgOP5VIJbVmRzfGto_X9n1gN7ctQj9FcLz7qjMIxs0WTgALm8P8VBuj53-AGH44LJOQIVb8vPTnLeurn1mu2vux8tA5hC8grD9zbnBCepyogS8h7eOkYA/live/f(i=2)/glb/playlist.m3u8
 #EXTINF:-1 tvg-id="globonews" tvg-logo="https://s03.video.glbimg.com/x720/1328766.jpg" group-title="GLOBO AO VIVO",Assistir G1 ao vivo - g1 ao vivo: Transmissão ao vivo online | Globoplay
 https://live-as-03-30.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJVUyIsImRvbWFpbiI6ImxpdmUtYXMtMDMtMzAudmlkZW8uZ2xvYm8uY29tIiwiZXhwIjoxNzc4Mzg1MTc4LCJpYXQiOjE3NzgzNjM1NzgsImlzcyI6InBsYXliYWNrLWFwaS1wcm9kLWdjcCIsIm93bmVyIjoiIiwicGF0aCI6Ii9saXZlL2YoaT0yKS9nMXJqMS9wbGF5bGlzdC5tM3U4In0.zxMK2HQgBjyO8XMEbj8qJY9bn4rRNjykEf7dJlmLoWAzb3xSjo93UoRAYxIp9kJW6avPoGIM9NYudCBo3EKOA4_2fBFkETxzcbs-bdCMoDWvqfGg1g_BWmrE7nh9EPfJIWOMvBiMA7AN9hk_6O74CtQ1GW3o7eGskej0OxNJD_gSD3-eHobdxiRUmdwvKRsgS9SFh-KvPqC2_7lKD3-qoQO9TTtN_3kAce2aGz18vcVQy_iHfD3goll_uUS6tirarSPfnyMeuSoAKJZOq7nFR4z9QNzinKHV-GzK40u4maS6GVwqUwzNnIGu6eBjPwDwxhbm2GfskAMR3U9CO5JktQ/live/f(i=2)/g1rj1/playlist.m3u8
@@ -3105,10 +3076,468 @@ https://live-as-03-33.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAi
 https://live-as-01-31.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJVUyIsImRvbWFpbiI6ImxpdmUtYXMtMDEtMzEudmlkZW8uZ2xvYm8uY29tIiwiZXhwIjoxNzc4Mzg1MzQ2LCJpYXQiOjE3NzgzNjM3NDYsImlzcyI6InBsYXliYWNrLWFwaS1wcm9kLWdjcCIsIm93bmVyIjoiIiwicGF0aCI6Ii9saXZlL2YoaT0yKS9nZWhkL3BsYXlsaXN0Lm0zdTgifQ.c7n4DCTHX_vJXm8FLMIgjppD_88iqewkFrF0iHzVgGUSZZ4kP1iunhfE2US494agI-LiA2dgXDS0UEvi8y-5Di5b4kegLcLAylDdW86JhGlS5k4ilcdh_cKIbDC2M0iG0Qtzq4qXzv0EzvKIlu92aUmMBYsBkqIQc3kCS7bMpyXd7c491Q8Xk6UDdsnH7zmOSw6mY8sTeqs09R9sRR2n-yzjykW9S0ZmVX9Yw9K3zGlw_PzolswXd58w6TsQRSaI4513K9Ggdp4dw5eHLF-p3ohchqNoDx_hwP6DnCzapbTL152xWAj1FrWBr18bwfPE9gzSGX2yrLtopp8LHicSaw/live/f(i=2)/gehd/playlist.m3u8
 #EXTINF:-1 tvg-id="ge-tv" tvg-logo="https://s02.video.glbimg.com/x720/602497.jpg" group-title="GLOBO AO VIVO",Assistir ge.globo - Transmissão ao vivo online | Globoplay
 https://live-as-11-09.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJVUyIsImRvbWFpbiI6ImxpdmUtYXMtMTEtMDkudmlkZW8uZ2xvYm8uY29tIiwiZXhwIjoxNzc4Mzg1MzUzLCJpYXQiOjE3NzgzNjM3NTMsImlzcyI6InBsYXliYWNrLWFwaS1wcm9kLWdjcCIsIm93bmVyIjoiIiwicGF0aCI6Ii9saXZlL2YoaT0yKS9nZWhkL3BsYXlsaXN0Lm0zdTgifQ.T3TrnLY_m4YTr8KcKU0hNWXivNEqDq8x98y88qK6PWXkXU-C85_VxcBp1q3ddPktUkdBfv2i8DOxwuLkEcPUIZ0IE1C4MBstxoRbahvaD1FXcL1Y6k1a99dCk2muyzj2uv6K3byUHRQoKIvaJsbGL88f-zM-4louePhE9XxD9rttw5fC9_3EB13rilb7iN6LEoHEHSJIoAmzrf0EnBwJOe6oWBBcunItEwqR9xIwwKcRqHYduFaGiSja-ULCWiUpgZPzlS-fMPQpLcRyW5AhKyLhskuZjDAP5X0MnNsc9KgPaBCjCEDFiYbxb5Li-SQefdCcEWTdBjsp1DUhXe-bCQ/live/f(i=2)/gehd/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://s01.video.glbimg.com/x720/10747444.jpg" group-title="GLOBO AO VIVO",Assistir CBN - CBN SP online | Globoplay
+#EXTINF:-1 tvg-id="cbn" tvg-logo="https://s01.video.glbimg.com/x720/10747444.jpg" group-title="GLOBO AO VIVO",Assistir CBN - CBN SP online | Globoplay
 https://live-cm-ad-08-39.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJVUyIsImRvbWFpbiI6ImxpdmUtY20tYWQtMDgtMzkudmlkZW8uZ2xvYm8uY29tIiwiZXhwIjoxNzc4Mzg1Mzc3LCJpYXQiOjE3NzgzNjM3NzcsImlzcyI6InBsYXliYWNrLWFwaS1wcm9kLWdjcCIsIm93bmVyIjoiIiwicGF0aCI6Ii9saXZlL2YoYk1pbj01NTg5NzYsZHZyPTEyMCkvY2Juc3AyNGhhL3BsYXlsaXN0Lm0zdTgifQ.Z06HTD_yDPcTIQCgtOtbbMLGVZeAPM-E8v1OXM2-UbqjKpuocUOsMT5_id1Modte8wT47wsTWnSpjoNXVpeqzGh8B_PRLwdP88MfXqgkuaiGXxpRtpCmCNF7wEh5X1lpEH_naK4sdjicIWUWoQxM_F3RdLMQc6kIZ-OQ74WUpwXeACg3WelpR2qnwzTu_SyetHmGZszUWM9FXsyRrq_QD7sTbuINp4dzcSpsvs3Vw1kcZw4r_cSwo33f1ooLAjpn25sG6yBBbfGP6BazKxwRA-szGKv7EZH-uOZ2zlzdjVEcXT4BkeoX3eit8JabLL6SnjqI_uhMP1eTYBC55K3_Hw/live/f(bMin=558976,dvr=120)/cbnsp24ha/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://s01.video.glbimg.com/x720/10740500.jpg" group-title="GLOBO AO VIVO",Assistir CBN - CBN RJ online | Globoplay
+#EXTINF:-1 tvg-id="cbn" tvg-logo="https://s01.video.glbimg.com/x720/10740500.jpg" group-title="GLOBO AO VIVO",Assistir CBN - CBN RJ online | Globoplay
 https://live-as-08-16.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJVUyIsImRvbWFpbiI6ImxpdmUtYXMtMDgtMTYudmlkZW8uZ2xvYm8uY29tIiwiZXhwIjoxNzc4Mzg1Mzg1LCJpYXQiOjE3NzgzNjM3ODUsImlzcyI6InBsYXliYWNrLWFwaS1wcm9kLWdjcCIsIm93bmVyIjoiIiwicGF0aCI6Ii9saXZlL2YoYk1pbj01NTg5NzYsZHZyPTEyMCkvY2JucmoyNGhhL3BsYXlsaXN0Lm0zdTgifQ.E2l9SP_DVjm3w2zUB8xOyde-3of_xJasCPoQvm2oSKbMqU5oRId3tw5btmBHDktc5DBnH39e8uT__fwx92MCc8nLxuLThXQ12l6_mc0mMyB62jueIxIojuNIfq-6489MS13Ri5CxcrUwBeyE01txHXAkAKBi-H608mBYuorBfDTa65neinVxwTQP5tegfx0wQXwhZ0zrOKs3D1Sua8mLDq3YzeRx92LJ_qfGG5QN_aUnvlOROgJO7EYYfQzD0fTzLL3vx3aSUBeyT1F4YJmvXsIg9YiD3Jx24gh97wBMEBWSSEHHG9gDdME600MaOiAgS90-a8LxPAzg10tCBlFC1A/live/f(bMin=558976,dvr=120)/cbnrj24ha/playlist.m3u8
+#EXTINF:-1 tvg-id="4Music.fr" group-title="IR" tvg-language="fas" tvg-quality="720p",4Music.fr
+https://musichls.persiana.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="4Music.fr" group-title="IR" tvg-language="fas" tvg-quality="720p",4Music.fr
+https://itthls.wns.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="4UTV.tr" group-title="TR, IR" tvg-language="fas" tvg-quality="576i",4UTV.tr
+https://hls.4utv.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="247BoxTV.ir" group-title="IR" tvg-language="fas" tvg-quality="576i",247BoxTV.ir
+https://hls.247box.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="AbadanTV.ir" group-title="IR" tvg-language="fas" tvg-quality="576i",AbadanTV.ir
+https://ncdn.telewebion.ir/abadan/live/playlist.m3u8
+#EXTINF:-1 tvg-id="AbalfadhlTV.ir" group-title="IR, IQ" tvg-language="fas" tvg-quality="576i",AbalfadhlTV.ir
+https://t.northtelecom.org/ABALFADHLTV.m3u8
+#EXTINF:-1 tvg-id="AflakTV.ir" group-title="IR" tvg-language="fas" tvg-quality="576i",AflakTV.ir
+https://ncdn.telewebion.ir/aflak/live/playlist.m3u8
+#EXTINF:-1 tvg-id="AFNTV.ir" group-title="IR" tvg-language="fas" tvg-quality="576i",AFNTV.ir
+https://bozztv.com/1gbw5/tintv2/tintv2/playlist.m3u8
+#EXTINF:-1 tvg-id="AfraFilm.ir" group-title="IR" tvg-language="fas" tvg-quality="720p",AfraFilm.ir
+https://afrafhls.wns.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="AfraSeries.ir" group-title="IR" tvg-language="fas" tvg-quality="720p",AfraSeries.ir
+https://afrashls.wns.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="AftabTV.ir" group-title="IR" tvg-language="fas" tvg-quality="576i",AftabTV.ir
+https://ncdn.telewebion.ir/aftab/live/playlist.m3u8
+#EXTINF:-1 tvg-id="AlborzTV.ir" group-title="IR" tvg-language="fas" tvg-quality="576i",AlborzTV.ir
+https://ncdn.telewebion.ir/alborz/live/playlist.m3u8
+#EXTINF:-1 tvg-id="AlMahdiTV.us" group-title="US" tvg-language="fas" tvg-quality="480i",AlMahdiTV.us
+https://iptv.almahditv.com/almahditv/playlist.m3u8
+#EXTINF:-1 tvg-id="AmouzeshTV.ir" group-title="IR" tvg-language="fas" tvg-quality="576i",AmouzeshTV.ir
+https://ncdn.telewebion.ir/amouzesh/live/playlist.m3u8
+#EXTINF:-1 tvg-id="AraTV.ir" group-title="IR" tvg-language="fas" tvg-quality="576i",AraTV.ir
+https://ncdn.telewebion.ir/ara/live/playlist.m3u8
+#EXTINF:-1 tvg-id="AraxTV.ir" group-title="IR" tvg-language="fas" tvg-quality="720p",AraxTV.ir
+https://araxhls.wns.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="ArkoTV.ir" group-title="IR" tvg-language="fas" tvg-quality="720p",ArkoTV.ir
+https://arkhls.wns.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="ArvanTV.ir" group-title="IR" tvg-language="fas" tvg-quality="720p",ArvanTV.ir
+https://arvhls.wns.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="ArvanTV.ir" group-title="IR" tvg-language="fas" tvg-quality="720p",ArvanTV.ir
+https://me2hls.wns.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="AtrinaTV.ir" group-title="IR" tvg-language="fas" tvg-quality="720p",AtrinaTV.ir
+https://atrihls.wns.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="AVAFamily.ir" group-title="IQ" tvg-language="fas" tvg-quality="576i",AVAFamily.ir
+https://familyhls.avatv.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="AvangTV.us" group-title="US, IR" tvg-language="fas" tvg-quality="480i",AvangTV.us
+https://hls.avang.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="AVASeries.ir" group-title="IR" tvg-language="fas" tvg-quality="576i",AVASeries.ir
+https://avaserieshls.wns.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="BaranTV.ir" group-title="IR" tvg-language="fas" tvg-quality="576i",BaranTV.ir
+https://ncdn.telewebion.ir/baran/live/playlist.m3u8
+#EXTINF:-1 tvg-id="BBCPersian.uk" group-title="UK" tvg-language="fas" tvg-quality="576i",BBCPersian.uk
+https://vs-cmaf-pushb-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_persian_tv/pc_hd_abr_v2.mpd
+#EXTINF:-1 tvg-id="BBCPersian.uk" group-title="UK" tvg-language="fas" tvg-quality="576i",BBCPersian.uk
+https://vs-cmaf-pushb-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_persian_tv/pc_hd_abr_v2_http.mpd
+#EXTINF:-1 tvg-id="BBCPersian.uk" group-title="UK" tvg-language="fas" tvg-quality="576i",BBCPersian.uk
+https://vs-cmaf-pushb-ww.live.cf.md.bbci.co.uk/x=4/i=urn:bbc:pips:service:bbc_persian_tv/pc_hd_abr_v2.mpd
+#EXTINF:-1 tvg-id="BBCPersian.uk" group-title="UK" tvg-language="fas" tvg-quality="576i",BBCPersian.uk
+https://vs-cmaf-pushb-ww.live.cf.md.bbci.co.uk/x=4/i=urn:bbc:pips:service:bbc_persian_tv/pc_hd_abr_v2_http.mpd
+#EXTINF:-1 tvg-id="BBCPersian.uk" group-title="UK" tvg-language="fas" tvg-quality="576i",BBCPersian.uk
+https://vs-hls-pushb-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_persian_tv/mobile_wifi_main_hd_abr_v2.m3u8
+#EXTINF:-1 tvg-id="BBCPersian.uk" group-title="UK" tvg-language="fas" tvg-quality="576i",BBCPersian.uk
+https://vs-hls-pushb-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_persian_tv/pc_hd_abr_v2.m3u8
+#EXTINF:-1 tvg-id="BBCPersian.uk" group-title="UK" tvg-language="fas" tvg-quality="576i",BBCPersian.uk
+https://vs-hls-pushb-ww.live.cf.md.bbci.co.uk/x=4/i=urn:bbc:pips:service:bbc_persian_tv/pc_hd_abr_v2.m3u8
+#EXTINF:-1 tvg-id="BoushehrTV.ir" group-title="IR" tvg-language="fas" tvg-quality="576i",BoushehrTV.ir
+https://ncdn.telewebion.ir/bushehr/live/playlist.m3u8
+#EXTINF:-1 tvg-id="BravoFarsiTV.ir" group-title="IR" tvg-language="fas" tvg-quality="576i",BravoFarsiTV.ir
+https://bravoohls.wns.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="CafeFilm.ir" group-title="IR" tvg-language="fas" tvg-quality="720p",CafeFilm.ir
+https://cafefhls.wns.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="CafeTradeTV.ir" group-title="US, IR" tvg-language="fas" tvg-quality="480i",CafeTradeTV.ir
+https://cafetradehls.wns.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="ChannelOne.us" group-title="US" tvg-language="fas" tvg-quality="480i",ChannelOne.us
+https://pemirateshls.persiana.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="ClassicTV.ir" group-title="IR" tvg-language="fas" tvg-quality="720p",ClassicTV.ir
+https://clshls.wns.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="DatisTV.ir" group-title="IR" tvg-language="fas" tvg-quality="720p",DatisTV.ir
+https://dathls.wns.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="DatisTV.ir" group-title="IR" tvg-language="fas" tvg-quality="720p",DatisTV.ir
+https://ronhls.wns.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="DejTV.ir" group-title="IR" tvg-language="fas" tvg-quality="720p",DejTV.ir
+https://rdejhls.wns.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="DenaTV.ir" group-title="IR" tvg-language="fas" tvg-quality="576i",DenaTV.ir
+https://ncdn.telewebion.ir/dena/live/playlist.m3u8
+#EXTINF:-1 tvg-id="DidgahTV.us" group-title="US" tvg-language="fas" tvg-quality="480i",DidgahTV.us
+https://media.streambrothers.com:1936/8276/8276/playlist.m3u8
+#EXTINF:-1 tvg-id="EkranMovies.ir" group-title="IR" tvg-language="fas" tvg-quality="576i",EkranMovies.ir
+https://ca-rt.onetv.app/EkranMovies/index-0.m3u8?token=onetv202
+#EXTINF:-1 tvg-id="Energy.ir" group-title="IR" tvg-language="fas" tvg-quality="576i",Energy.ir
+https://ncdn.telewebion.ir/baenergy/live/playlist.m3u8
+#EXTINF:-1 tvg-id="EPlanetTV.ir" group-title="IR" tvg-language="fas" tvg-quality="720p",EPlanetTV.ir
+https://eplhls.wns.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="ErfanHalghehTV.ca" group-title="CA, IR" tvg-language="fas" tvg-quality="480i",ErfanHalghehTV.ca
+https://hls.erfanhalgheh.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="EshraghNetwork.ir" group-title="IR" tvg-language="fas" tvg-quality="576i",EshraghNetwork.ir
+https://ncdn.telewebion.ir/eshragh/live/playlist.m3u8
+#EXTINF:-1 tvg-id="FarsTV.ir" group-title="IR" tvg-language="fas" tvg-quality="576i",FarsTV.ir
+https://ncdn.telewebion.ir/fars/live/playlist.m3u8
+#EXTINF:-1 tvg-id="FX1.ir" group-title="IR" tvg-language="fas" tvg-quality="576i",FX1.ir
+https://fxtvhls.wns.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="FX2.ir" group-title="IR" tvg-language="fas" tvg-quality="576i",FX2.ir
+https://toonixhls.wns.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="GanjeHozourTV.us" group-title="US" tvg-language="fas" tvg-quality="480i",GanjeHozourTV.us
+https://media.parvizshahbazi.com/ganjehozour/Main_tv/playlist.m3u8
+#EXTINF:-1 tvg-id="GEM24B.tr" group-title="IR" tvg-language="fas" tvg-quality="576i",GEM24B.tr
+https://ca-rt.onetv.app/gem24b/index-0.m3u8?token=onetv202
+#EXTINF:-1 tvg-id="GEMBollywood.tr" group-title="IR" tvg-language="fas" tvg-quality="480i",GEMBollywood.tr
+https://ca-rt.onetv.app/gembollywood/index-0.m3u8?token=onetv202
+#EXTINF:-1 tvg-id="GEMClassic.tr" group-title="IR" tvg-language="fas" tvg-quality="480i",GEMClassic.tr
+https://ca-rt.onetv.app/gemclassic/index-0.m3u8?token=onetv202
+#EXTINF:-1 tvg-id="GEMComedy.tr" group-title="IR" tvg-language="fas" tvg-quality="480i",GEMComedy.tr
+https://ca-rt.onetv.app/gemcomedy/index-0.m3u8?token=onetv202
+#EXTINF:-1 tvg-id="GEMDrama.tr" group-title="IR" tvg-language="fas" tvg-quality="480i",GEMDrama.tr
+https://ca-rt.onetv.app/gemdrama/index-0.m3u8?token=onetv202
+#EXTINF:-1 tvg-id="GEMDramaPlus.tr" group-title="IR" tvg-language="fas" tvg-quality="480i",GEMDramaPlus.tr
+https://ca-rt.onetv.app/gemdramaplus/index-0.m3u8?token=onetv202
+#EXTINF:-1 tvg-id="GEMEntertainment.tr" group-title="IR" tvg-language="fas" tvg-quality="576i",GEMEntertainment.tr
+https://ca-rt.onetv.app/gementertainment/index-0.m3u8?token=onetv202
+#EXTINF:-1 tvg-id="GEMFilm.tr" group-title="IR" tvg-language="fas" tvg-quality="480i",GEMFilm.tr
+https://ca-rt.onetv.app/gemfilm/index-0.m3u8?token=onetv202
+#EXTINF:-1 tvg-id="GEMFit.tr" group-title="IR" tvg-language="fas" tvg-quality="480i",GEMFit.tr
+https://ca-rt.onetv.app/gemfit/index-0.m3u8?token=onetv202
+#EXTINF:-1 tvg-id="GEMFood.tr" group-title="IR" tvg-language="fas" tvg-quality="480i",GEMFood.tr
+https://ca-rt.onetv.app/gemfood/index-0.m3u8?token=onetv202
+#EXTINF:-1 tvg-id="GEMJunior.tr" group-title="IR" tvg-language="fas" tvg-quality="480i",GEMJunior.tr
+https://ca-rt.onetv.app/gemjunior/index-0.m3u8?token=onetv202
+#EXTINF:-1 tvg-id="GEMKids.tr" group-title="IR" tvg-language="fas" tvg-quality="480i",GEMKids.tr
+https://ca-rt.onetv.app/gemkids/index-0.m3u8?token=onetv202
+#EXTINF:-1 tvg-id="GEMLife.tr" group-title="IR" tvg-language="fas" tvg-quality="480i",GEMLife.tr
+https://ca-rt.onetv.app/gemlife/index-0.m3u8?token=onetv202
+#EXTINF:-1 tvg-id="GEMMifa.tr" group-title="IR" tvg-language="fas" tvg-quality="576i",GEMMifa.tr
+https://ca-rt.onetv.app/gemmifa/index-0.m3u8?token=onetv202
+#EXTINF:-1 tvg-id="GEMMifaPlus.tr" group-title="IR" tvg-language="fas" tvg-quality="576i",GEMMifaPlus.tr
+https://ca-rt.onetv.app/gemmifaplus/index-0.m3u8?token=onetv202
+#EXTINF:-1 tvg-id="GEMNature.tr" group-title="IR" tvg-language="fas" tvg-quality="480i",GEMNature.tr
+https://ca-rt.onetv.app/gemnature/index-0.m3u8?token=onetv202
+#EXTINF:-1 tvg-id="GEMOnyx.tr" group-title="IR" tvg-language="fas" tvg-quality="576i",GEMOnyx.tr
+https://ca-rt.onetv.app/gemonyx/index-0.m3u8?token=onetv202
+#EXTINF:-1 tvg-id="GEMPixel.tr" group-title="IR" tvg-language="fas" tvg-quality="576i",GEMPixel.tr
+https://glserver1.tamashaland.com/live/aBCH96886YznRbGOiqTnnQ__/stream_0.m3u8
+#EXTINF:-1 tvg-id="GEMPixel.tr" group-title="IR" tvg-language="fas" tvg-quality="576i",GEMPixel.tr
+https://ca-rt.onetv.app/gempixel/index-0.m3u8?token=onetv202
+#EXTINF:-1 tvg-id="GEMRiver.tr" group-title="IR" tvg-language="fas" tvg-quality="576i",GEMRiver.tr
+https://ca-rt.onetv.app/gemriver/index-0.m3u8?token=onetv202
+#EXTINF:-1 tvg-id="GEMRiverPlus.tr" group-title="IR" tvg-language="fas" tvg-quality="576i",GEMRiverPlus.tr
+https://ca-rt.onetv.app/gemriverplus/index-0.m3u8?token=onetv202
+#EXTINF:-1 tvg-id="GEMRubix.tr" group-title="IR" tvg-language="fas" tvg-quality="576i",GEMRubix.tr
+https://ca-rt.onetv.app/gemrubix/index-0.m3u8?token=onetv202
+#EXTINF:-1 tvg-id="GEMRubixPlus.tr" group-title="IR" tvg-language="fas" tvg-quality="576i",GEMRubixPlus.tr
+https://ca-rt.onetv.app/gemrubixplus/index-0.m3u8?token=onetv202
+#EXTINF:-1 tvg-id="GEMSeries.tr" group-title="IR" tvg-language="fas" tvg-quality="480i",GEMSeries.tr
+https://ca-rt.onetv.app/gemseries/index-0.m3u8?token=onetv202
+#EXTINF:-1 tvg-id="GEMSeriesPlus.tr" group-title="IR" tvg-language="fas" tvg-quality="480i",GEMSeriesPlus.tr
+https://ca-rt.onetv.app/gemseriesplus/index-0.m3u8?token=onetv202
+#EXTINF:-1 tvg-id="GEMSport.tr" group-title="IR" tvg-language="fas" tvg-quality="576i",GEMSport.tr
+https://steep-wildflower-284d.nhhwkiszzzvcuojxdo.workers.dev/?url=https://gg.hls2.xyz/live/IR+-+GEM+Sport/chunks.m3u8
+#EXTINF:-1 tvg-id="GEMTV.tr" group-title="IR" tvg-language="fas" tvg-quality="480i",GEMTV.tr
+https://ca-rt.onetv.app/gem/index-0.m3u8?token=onetv202
+#EXTINF:-1 tvg-id="GEMTVPlus.tr" group-title="IR" tvg-language="fas" tvg-quality="480i",GEMTVPlus.tr
+https://ca-rt.onetv.app/gemtvplus/index-0.m3u8?token=onetv202
+#EXTINF:-1 tvg-id="GoldStar.ir" group-title="IR" tvg-language="fas" tvg-quality="720p",GoldStar.ir
+https://moviethls.wns.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="GolkhaneTv.ir" group-title="IR" tvg-language="fas" tvg-quality="576i",GolkhaneTv.ir
+https://ncdn.telewebion.ir/golkhane/live/playlist.m3u8
+#EXTINF:-1 tvg-id="GrandCinema.tr" group-title="IR" tvg-language="fas" tvg-quality="576i",GrandCinema.tr
+https://gcinemahls.wns.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="HamedanTV.ir" group-title="IR" tvg-language="fas" tvg-quality="576i",HamedanTV.ir
+https://ncdn.telewebion.ir/sina/live/playlist.m3u8
+#EXTINF:-1 tvg-id="HamoonTV.ir" group-title="IR" tvg-language="fas" tvg-quality="576i",HamoonTV.ir
+https://ncdn.telewebion.ir/hamoon/live/playlist.m3u8
+#EXTINF:-1 tvg-id="HealthMediaTV.us" group-title="IR" tvg-language="fas" tvg-quality="576i",HealthMediaTV.us
+https://6n3yowknl9ok-hls-live.5centscdn.com/HMN/271ddf829afeece44d8732757fba1a66.sdp/playlist.m3u8
+#EXTINF:-1 tvg-id="HighVisionTV.us" group-title="US, IR" tvg-language="fas" tvg-quality="480i",HighVisionTV.us
+https://streamer1.connectto.com/HIGHVISION_WEB_1205/index.m3u8
+#EXTINF:-1 tvg-id="HomePlus.ir" group-title="CN" tvg-language="fas" tvg-quality="720p",HomePlus.ir
+https://homeplushls.wns.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="ICCplus.us" group-title="IR" tvg-language="fas" tvg-quality="576i",ICCplus.us
+https://icchls.wns.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="ICnet1.ca" group-title="CA" tvg-language="fas" tvg-quality="480i",ICnet1.ca
+https://icnet1hls.wns.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="ICnet2.ca" group-title="IR" tvg-language="fas" tvg-quality="480i",ICnet2.ca
+https://icnet2hls.wns.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="icnet3.ca" group-title="IR" tvg-language="fas" tvg-quality="720p",icnet3.ca
+https://ic3hls.wns.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="iFilm2.ir" group-title="IR" tvg-language="fas" tvg-quality="576i",iFilm2.ir
+https://live.presstv.ir/hls/ifilm2.m3u8
+#EXTINF:-1 tvg-id="iFilmPersian.ir" group-title="IR" tvg-language="fas" tvg-quality="576i",iFilmPersian.ir
+https://live.presstv.ir/hls/ifilmfa.m3u8
+#EXTINF:-1 tvg-id="iFilmPersian.ir" group-title="IR" tvg-language="fas" tvg-quality="576i",iFilmPersian.ir
+https://ncdn.telewebion.ir/ifilm/live/playlist.m3u8
+#EXTINF:-1 tvg-id="IlamTV.ir" group-title="IR" tvg-language="fas" tvg-quality="576i",IlamTV.ir
+https://ncdn.telewebion.ir/ilam/live/playlist.m3u8
+#EXTINF:-1 tvg-id="ImamHusseinTV1.iq" group-title="IQ" tvg-language="fas" tvg-quality="576i",ImamHusseinTV1.iq
+https://live.imamhossaintv.com/live/ih1.m3u8
+#EXTINF:-1 tvg-id="IraneFardaTV.uk" group-title="US, IR" tvg-language="fas" tvg-quality="720p",IraneFardaTV.uk
+https://hls.iranfarda.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="Iraneman.ir" group-title="IR" tvg-language="fas" tvg-quality="576i",Iraneman.ir
+https://ncdn.telewebion.ir/iraneman/live/playlist.m3u8
+#EXTINF:-1 tvg-id="IranInternational.uk" group-title="UK, IR" tvg-language="fas" tvg-quality="576i",IranInternational.uk
+https://dev-live.livetvstream.co.uk/LS-63503-4/index.m3u8
+#EXTINF:-1 tvg-id="IranInternational.uk" group-title="UK, IR" tvg-language="fas" tvg-quality="576i",IranInternational.uk
+https://live.livetvstream.co.uk/LS-63503-4/index.m3u8
+#EXTINF:-1 tvg-id="IranInternational.uk" group-title="UK, IR" tvg-language="fas" tvg-quality="576i",IranInternational.uk
+https://live.playstop.me/1816184091/index.m3u8
+#EXTINF:-1 tvg-id="IranInternational.uk" group-title="UK, IR" tvg-language="fas" tvg-quality="576i",IranInternational.uk
+https://live.playstop.me/LS-63503-4/index.m3u8
+#EXTINF:-1 tvg-id="IranJewishTV.ir" group-title="IR" tvg-language="fas" tvg-quality="576i",IranJewishTV.ir
+http://iran620.com:1935/live/IranJewishTv/playlist.m3u8
+#EXTINF:-1 tvg-id="IranNama.fr" group-title="IR" tvg-language="fas" tvg-quality="576i",IranNama.fr
+https://iran613hls.wns.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="IranNationalRevolutionTV.us" group-title="IR" tvg-language="fas" tvg-quality="720p",IranNationalRevolutionTV.us
+https://hls.irannrtv.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="IRIB1.ir" group-title="IR" tvg-language="fas" tvg-quality="576i",IRIB1.ir
+https://ncdn.telewebion.ir/tv1/live/playlist.m3u8
+#EXTINF:-1 tvg-id="IRIB2.ir" group-title="IR" tvg-language="fas" tvg-quality="576i",IRIB2.ir
+https://ncdn.telewebion.ir/tv2/live/playlist.m3u8
+#EXTINF:-1 tvg-id="IRIB3.ir" group-title="IR" tvg-language="fas" tvg-quality="576i",IRIB3.ir
+https://ncdn.telewebion.ir/tv3/live/playlist.m3u8
+#EXTINF:-1 tvg-id="IRIB4.ir" group-title="IR" tvg-language="fas" tvg-quality="576i",IRIB4.ir
+https://ncdn.telewebion.ir/tv4/live/playlist.m3u8
+#EXTINF:-1 tvg-id="IRIBMostanad.ir" group-title="IR" tvg-language="fas" tvg-quality="576i",IRIBMostanad.ir
+https://ncdn.telewebion.ir/mostanad/live/playlist.m3u8
+#EXTINF:-1 tvg-id="IRIBOmid.ir" group-title="IR" tvg-language="fas" tvg-quality="576i",IRIBOmid.ir
+https://ncdn.telewebion.ir/omid/live/playlist.m3u8
+#EXTINF:-1 tvg-id="IRIBUHD.ir" group-title="IR" tvg-language="fas" tvg-quality="2160p",IRIBUHD.ir
+https://ncdn.telewebion.ir/faratar/live/playlist.m3u8
+#EXTINF:-1 tvg-id="IRINN2.ir" group-title="IR" tvg-language="fas" tvg-quality="576i",IRINN2.ir
+https://ncdn.telewebion.ir/irinn2/live/playlist.m3u8
+#EXTINF:-1 tvg-id="IRINN.ir" group-title="IR" tvg-language="fas" tvg-quality="576i",IRINN.ir
+https://ncdn.telewebion.ir/irinn/live/playlist.m3u8
+#EXTINF:-1 tvg-id="IsfahanTV.ir" group-title="IR" tvg-language="fas" tvg-quality="576i",IsfahanTV.ir
+https://ncdn.telewebion.ir/esfahan/live/playlist.m3u8
+#EXTINF:-1 tvg-id="ITVLife.ir" group-title="IR" tvg-language="fas" tvg-quality="576i",ITVLife.ir
+https://ca1.buximedia.com/itv/life/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="ITVPersianMusic.ir" group-title="IR" tvg-language="fas" tvg-quality="576i",ITVPersianMusic.ir
+https://ca1.buximedia.com/itv/persian/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="JahanbinTV.ir" group-title="IR" tvg-language="fas" tvg-quality="576i",JahanbinTV.ir
+https://ncdn.telewebion.ir/jahanbin/live/playlist.m3u8
+#EXTINF:-1 tvg-id="KalemehTV.uk" group-title="IR" tvg-language="fas" tvg-quality="576i",KalemehTV.uk
+https://klmhls.wns.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="KanalJadid.uk" group-title="UK, IR" tvg-language="fas" tvg-quality="576i",KanalJadid.uk
+https://kjhls.wns.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="KaroonTV.ir" group-title="IR" tvg-language="fas" tvg-quality="576i",KaroonTV.ir
+https://ncdn.telewebion.ir/karoon/live/playlist.m3u8
+#EXTINF:-1 tvg-id="KermanTV.ir" group-title="IR" tvg-language="fas" tvg-quality="576i",KermanTV.ir
+https://ncdn.telewebion.ir/kerman/live/playlist.m3u8
+#EXTINF:-1 tvg-id="KhabarbinTV.ir" group-title="IR" tvg-language="fas" tvg-quality="720p",KhabarbinTV.ir
+https://khbhls.wns.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="KhalijeFarsTV.ir" group-title="IR" tvg-language="fas" tvg-quality="576i",KhalijeFarsTV.ir
+https://ncdn.telewebion.ir/khalijefars/live/playlist.m3u8
+#EXTINF:-1 tvg-id="KhalijTV.ir" group-title="IR" tvg-language="fas" tvg-quality="720p",KhalijTV.ir
+https://khalijhls.wns.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="KhavaranTV.ir" group-title="IR" tvg-language="fas" tvg-quality="576i",KhavaranTV.ir
+https://ncdn.telewebion.ir/khavaran/live/playlist.m3u8
+#EXTINF:-1 tvg-id="KhorasanRazaviTV.ir" group-title="IR" tvg-language="fas" tvg-quality="576i",KhorasanRazaviTV.ir
+https://ncdn.telewebion.ir/khorasanrazavi/live/playlist.m3u8
+#EXTINF:-1 tvg-id="KhozestanTV.ir" group-title="IR" tvg-language="fas" tvg-quality="576i",KhozestanTV.ir
+https://ncdn.telewebion.ir/khoozestan/live/playlist.m3u8
+#EXTINF:-1 tvg-id="KishTV.ir" group-title="IR" tvg-language="fas" tvg-quality="576i",KishTV.ir
+https://ncdn.telewebion.ir/kish/live/playlist.m3u8
+#EXTINF:-1 tvg-id="KordestanTV.ir" group-title="IR" tvg-language="fas" tvg-quality="576i",KordestanTV.ir
+https://ncdn.telewebion.ir/kordestan/live/playlist.m3u8
+#EXTINF:-1 tvg-id="LabbaykTV.ir" group-title="IR" tvg-language="fas" tvg-quality="576i",LabbaykTV.ir
+https://ncdn.telewebion.ir/labbayk/live/playlist.m3u8
+#EXTINF:-1 tvg-id="LoveWorldPersia.ng" group-title="NG" tvg-language="fas" tvg-quality="576i",LoveWorldPersia.ng
+https://cdn3.wowza.com/5/aVJETlF0UFdmYTFu/LWPP/ngrp:persia.stream_all/playlist.m3u8
+#EXTINF:-1 tvg-id="MaahTV.my" group-title="IR, AF" tvg-language="fas" tvg-quality="576i",MaahTV.my
+https://hls.maahtv.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="MahabadTV.ir" group-title="IR" tvg-language="fas" tvg-quality="576i",MahabadTV.ir
+https://ncdn.telewebion.ir/mahabad/live/playlist.m3u8
+#EXTINF:-1 tvg-id="Manoto.uk" group-title="IR" tvg-language="fas" tvg-quality="576i",Manoto.uk
+https://ca-rt.onetv.app/manototv/index-0.m3u8?token=onetv202
+#EXTINF:-1 tvg-id="MarjaeyatTVPersian.iq" group-title="IQ" tvg-language="fas" tvg-quality="576i",MarjaeyatTVPersian.iq
+https://livefa.marjaeyattv.com/mtv_fa/playlist.m3u8
+#EXTINF:-1 tvg-id="MBCPersia.ae" group-title="AE" tvg-language="fas" tvg-quality="576i",MBCPersia.ae
+https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-persia/818ee8e4b592dc497608f066d825bfb4/index.m3u8
+#EXTINF:-1 tvg-id="MBCPersia.ae" group-title="AE" tvg-language="fas" tvg-quality="576i",MBCPersia.ae
+https://hls.mbcpersia.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="MetaFilmTV.ir" group-title="IR" tvg-language="fas" tvg-quality="576i",MetaFilmTV.ir
+https://metafilmhls.wns.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="MihanTV.ir" group-title="IR" tvg-language="fas" tvg-quality="576i",MihanTV.ir
+https://iptv.mihantv.com/mihantv/playlist.m3u8
+#EXTINF:-1 tvg-id="MohabatTV.ir" group-title="IR" tvg-language="fas" tvg-quality="576i",MohabatTV.ir
+http://204.11.235.251:1935/live_transcoder/ngrp:mohabat.stream_all/playlist.m3u8
+#EXTINF:-1 tvg-id="MohabatTV.ir" group-title="IR" tvg-language="fas" tvg-quality="576i",MohabatTV.ir
+https://5acf9f9415a10.streamlock.net/live_transcoder/ngrp:mohabat.stream_all/playlist.m3u8
+#EXTINF:-1 tvg-id="MohabatTV.us" group-title="US" tvg-language="fas" tvg-quality="480i",MohabatTV.us
+https://mohabathls.wns.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="MohabatTV.us" group-title="US" tvg-language="fas" tvg-quality="480i",MohabatTV.us
+http://media.mohabat.tv:1935/live_transcoder/ngrp:mohabat.stream_all/playlist.m3u8
+#EXTINF:-1 tvg-id="MTC.us" group-title="US" tvg-language="fas" tvg-quality="720p",MTC.us
+https://mtchls.wns.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="NamaTV.ir" group-title="IR" tvg-language="fas" tvg-quality="576i",NamaTV.ir
+https://ncdn.telewebion.ir/nama/live/playlist.m3u8
+#EXTINF:-1 tvg-id="NamayeshTV.ir" group-title="IR" tvg-language="fas" tvg-quality="576i",NamayeshTV.ir
+https://ncdn.telewebion.ir/namayesh/live/playlist.m3u8
+#EXTINF:-1 tvg-id="Nasim.ir" group-title="IR" tvg-language="fas" tvg-quality="576i",Nasim.ir
+https://ncdn.telewebion.ir/nasim/live/playlist.m3u8
+#EXTINF:-1 tvg-id="NationalIranianCongressTV.us" group-title="IR" tvg-language="fas" tvg-quality="720p",NationalIranianCongressTV.us
+https://tv.iraniancongress.com/stream/tv.m3u8
+#EXTINF:-1 tvg-id="NavahangTV.fi" group-title="FI" tvg-language="fas" tvg-quality="576i",NavahangTV.fi
+https://hls.navahang.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="NavahangTV.fi" group-title="FI" tvg-language="fas" tvg-quality="576i",NavahangTV.fi
+https://simahls.wns.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="NewFlix.ir" group-title="IR" tvg-language="fas" tvg-quality="720p",NewFlix.ir
+https://newfhls.wns.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="NoorTV.ir" group-title="IR" tvg-language="fas" tvg-quality="576i",NoorTV.ir
+https://ncdn.telewebion.ir/noor/live/playlist.m3u8
+#EXTINF:-1 tvg-id="NourTV.ae" group-title="AE" tvg-language="fas" tvg-quality="576i",NourTV.ae
+https://cdn.bestream.io:19360/elfaro4/elfaro4.m3u8
+#EXTINF:-1 tvg-id="OfoghTV.ir" group-title="IR" tvg-language="fas" tvg-quality="576i",OfoghTV.ir
+https://ncdn.telewebion.ir/ofogh/live/playlist.m3u8
+#EXTINF:-1 tvg-id="OXIRTV.ir" group-title="IR" tvg-language="fas" tvg-quality="576i",OXIRTV.ir
+https://hls.oxir.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="ParsTV.us" group-title="US, IR" tvg-language="fas" tvg-quality="480i",ParsTV.us
+https://parshls.wns.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="ParsTV.us" group-title="US, IR" tvg-language="fas" tvg-quality="480i",ParsTV.us
+http://dvrfl05.bozztv.com/gin-parstv/index.m3u8
+#EXTINF:-1 tvg-id="PayameArameshTV.us" group-title="US" tvg-language="fas" tvg-quality="480i",PayameArameshTV.us
+https://hls.keshishhamid.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="PayamJavanTV.us" group-title="US, IR" tvg-language="fas" tvg-quality="480i",PayamJavanTV.us
+https://uni01rtmp.tulix.tv/kensecure/pjtv.stream/playlist.m3u8
+#EXTINF:-1 tvg-id="PayvandTV.ir" group-title="IR" tvg-language="fas" tvg-quality="576i",PayvandTV.ir
+https://uni6rtmp.tulix.tv/ucur1/Payvand/playlist.m3u8
+#EXTINF:-1 tvg-id="PBCTapeshTV.us" group-title="US, IR, CA, AU" tvg-language="fas" tvg-quality="480i",PBCTapeshTV.us
+https://iptv.tapesh.tv/tapesh/playlist.m3u8
+#EXTINF:-1 tvg-id="PersianaCinema.fr" group-title="IR" tvg-language="fas" tvg-quality="576i",PersianaCinema.fr
+https://cinehls.persiana.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="PersianaCinema.fr" group-title="IR" tvg-language="fas" tvg-quality="576i",PersianaCinema.fr
+https://todayhls.wns.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="PersianaComedy.fr" group-title="IR" tvg-language="fas" tvg-quality="576i",PersianaComedy.fr
+https://comedyhls.persiana.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="PersianaDocs.fr" group-title="IR" tvg-language="fas" tvg-quality="720p",PersianaDocs.fr
+https://scihls.persiana.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="PersianaFamily.fr" group-title="IR" tvg-language="fas" tvg-quality="576i",PersianaFamily.fr
+https://familyhls.persiana.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="PersianaFight.fr" group-title="IR" tvg-language="fas" tvg-quality="720p",PersianaFight.fr
+https://fighthls.persiana.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="PersianaFolk.fr" group-title="IR" tvg-language="fas" tvg-quality="720p",PersianaFolk.fr
+https://sonhls.persiana.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="PersianaIranian.fr" group-title="IR" tvg-language="fas" tvg-quality="576i",PersianaIranian.fr
+https://irhls.persiana.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="PersianaJunior.fr" group-title="IR" tvg-language="fas" tvg-quality="576i",PersianaJunior.fr
+https://junhls.persiana.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="PersianaMedical.fr" group-title="IR" tvg-language="fas" tvg-quality="720p",PersianaMedical.fr
+https://phd2hls.persiana.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="PersianaMedical.fr" group-title="IR" tvg-language="fas" tvg-quality="720p",PersianaMedical.fr
+https://tfnhls.wns.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="PersianaNostalgia.fr" group-title="IR" tvg-language="fas" tvg-quality="576i",PersianaNostalgia.fr
+https://noshls.persiana.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="PersianaPlus.fr" group-title="IR" tvg-language="fas" tvg-quality="576i",PersianaPlus.fr
+https://euhls.persiana.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="PersianaReality.fr" group-title="IR" tvg-language="fas" tvg-quality="720p",PersianaReality.fr
+https://twohls.persiana.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="PersianaSeries.fr" group-title="IR" tvg-language="fas" tvg-quality="720p",PersianaSeries.fr
+https://onehls.persiana.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="PersianaTeen.fr" group-title="IR" tvg-language="fas" tvg-quality="720p",PersianaTeen.fr
+https://kphls.persiana.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="PersianaTravel.fr" group-title="IR" tvg-language="fas" tvg-quality="720p",PersianaTravel.fr
+https://ptravelhls.persiana.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="PersianaTravel.fr" group-title="IR" tvg-language="fas" tvg-quality="720p",PersianaTravel.fr
+https://mardomhls.wns.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="PersianaVibe.fr" group-title="IR" tvg-language="fas" tvg-quality="720p",PersianaVibe.fr
+https://raphls.persiana.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="PMC.ae" group-title="r/MENA" tvg-language="fas" tvg-quality="576i",PMC.ae
+https://pmchls.wns.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="PMCRoyale.ae" group-title="r/MENA" tvg-language="fas" tvg-quality="576i",PMCRoyale.ae
+https://pmcrohls.wns.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="PooyaTV.ir" group-title="IR" tvg-language="fas" tvg-quality="576i",PooyaTV.ir
+https://ncdn.telewebion.ir/pooya/live/playlist.m3u8
+#EXTINF:-1 tvg-id="PooyaTVPlus.ir" group-title="IR" tvg-language="fas" tvg-quality="576i",PooyaTVPlus.ir
+https://ncdn.telewebion.ir/javaneh/live/playlist.m3u8
+#EXTINF:-1 tvg-id="PROSportInternational.my" group-title="IR" tvg-language="fas" tvg-quality="720p",PROSportInternational.my
+https://proshls.wns.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="QazvinTV.ir" group-title="IR" tvg-language="fas" tvg-quality="576i",QazvinTV.ir
+https://ncdn.telewebion.ir/qazvin/live/playlist.m3u8
+#EXTINF:-1 tvg-id="QuranTV.ir" group-title="IR" tvg-language="fas" tvg-quality="576i",QuranTV.ir
+https://ncdn.telewebion.ir/quran/live/playlist.m3u8
+#EXTINF:-1 tvg-id="RasoulallahTv.ir" group-title="IR" tvg-language="fas" tvg-quality="1080p",RasoulallahTv.ir
+https://avr.host247.net/live/rasoulallahtv/playlist.m3u8
+#EXTINF:-1 tvg-id="RazaviTV.ir" group-title="IR" tvg-language="fas" tvg-quality="576i",RazaviTV.ir
+https://ncdn.telewebion.ir/razavi/live/playlist.m3u8
+#EXTINF:-1 tvg-id="RJTV.us" group-title="IR" tvg-language="fas" tvg-quality="480i",RJTV.us
+https://rjtvhls.wns.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="RoyaTV.ir" group-title="IR" tvg-language="fas" tvg-quality="576i",RoyaTV.ir
+https://ncdn.telewebion.ir/iribu/live/playlist.m3u8
+#EXTINF:-1 tvg-id="SabalanTV.ir" group-title="IR" tvg-language="fas" tvg-quality="576i",SabalanTV.ir
+https://ncdn.telewebion.ir/sabalan/live/playlist.m3u8
+#EXTINF:-1 tvg-id="SabzTV.ir" group-title="IR" tvg-language="fas" tvg-quality="576i",SabzTV.ir
+https://ncdn.telewebion.ir/sabz/live/playlist.m3u8
+#EXTINF:-1 tvg-id="SahandTV.ir" group-title="IR" tvg-language="fas" tvg-quality="576i",SahandTV.ir
+https://ncdn.telewebion.ir/sahand/live/playlist.m3u8
+#EXTINF:-1 tvg-id="SalamatTV.ir" group-title="IR" tvg-language="fas" tvg-quality="576i",SalamatTV.ir
+https://ncdn.telewebion.ir/salamat/live/playlist.m3u8
+#EXTINF:-1 tvg-id="SarbedaranTV.ir" group-title="IR" tvg-language="fas" tvg-quality="576i",SarbedaranTV.ir
+https://ncdn.telewebion.ir/sarbedaran/live/playlist.m3u8
+#EXTINF:-1 tvg-id="Sat7Pars.cy" group-title="CY" tvg-language="fas" tvg-quality="576i",Sat7Pars.cy
+https://sat7phls.wns.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="SemnanTV.ir" group-title="IR" tvg-language="fas" tvg-quality="576i",SemnanTV.ir
+https://ncdn.telewebion.ir/semnan/live/playlist.m3u8
+#EXTINF:-1 tvg-id="SepehrTV.ir" group-title="IR" tvg-language="fas" tvg-quality="576i",SepehrTV.ir
+https://ncdn.telewebion.ir/sepehr/live/playlist.m3u8
+#EXTINF:-1 tvg-id="SetarehTV.uk" group-title="IR" tvg-language="fas" tvg-quality="576i",SetarehTV.uk
+https://setarehhls.wns.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="Shabakeh7.us" group-title="US" tvg-language="fas" tvg-quality="480i",Shabakeh7.us
+https://sh7hls.wns.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="SimayeAzadi.uk" group-title="IR" tvg-language="fas" tvg-quality="576i",SimayeAzadi.uk
+https://simaytv.akamaized.net/hls/live/2043550/simayhls/index.m3u8
+#EXTINF:-1 tvg-id="SL1.ir" group-title="IR" tvg-language="fas" tvg-quality="576i",SL1.ir
+https://slonehls.wns.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="SL2.ir" group-title="IR" tvg-language="fas" tvg-quality="576i",SL2.ir
+https://sltwohls.wns.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="SNNTV.ir" group-title="IR" tvg-language="fas" tvg-quality="576i",SNNTV.ir
+https://live2.snn.ir/hls/snn2_hd720/index.m3u8
+#EXTINF:-1 tvg-id="T2Movies.ir" group-title="IR" tvg-language="fas" tvg-quality="720p",T2Movies.ir
+https://ca-rt.onetv.app/T2Movies/index-0.m3u8?token=onetv202
+#EXTINF:-1 tvg-id="T2TV.ir" group-title="IR" tvg-language="fas" tvg-quality="576i",T2TV.ir
+https://t2hls.wns.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="TabarestanTV.ir" group-title="IR" tvg-language="fas" tvg-quality="576i",TabarestanTV.ir
+https://ncdn.telewebion.ir/tabarestan/live/playlist.m3u8
+#EXTINF:-1 tvg-id="Tamasha.ir" group-title="IR" tvg-language="fas" tvg-quality="576i",Tamasha.ir
+https://ncdn.telewebion.ir/hdtest/live/playlist.m3u8
+#EXTINF:-1 tvg-id="Tapesh2.us" group-title="US" tvg-language="fas" tvg-quality="480i",Tapesh2.us
+https://maxtvhls.wns.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="TBNNejatTV.ir" group-title="IR" tvg-language="fas" tvg-quality="576i",TBNNejatTV.ir
+https://hls.nejat.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="TehranTV.ir" group-title="IR" tvg-language="fas" tvg-quality="576i",TehranTV.ir
+https://ncdn.telewebion.ir/tehran/live/playlist.m3u8
+#EXTINF:-1 tvg-id="Tekyemadahi.ir" group-title="IR" tvg-language="fas" tvg-quality="576i",Tekyemadahi.ir
+https://ncdn.telewebion.ir/tekyemadahi/live/playlist.m3u8
+#EXTINF:-1 tvg-id="TinTV.us" group-title="US" tvg-language="fas" tvg-quality="480i",TinTV.us
+https://bozztv.com/1gbw5/tintv/tintv/playlist.m3u8
+#EXTINF:-1 tvg-id="TinTV.us" group-title="US" tvg-language="fas" tvg-quality="480i",TinTV.us
+https://tulixcdn.akamaized.net/tintv6/tintv/tintv/playlist.m3u8
+#EXTINF:-1 tvg-id="TMTV.us" group-title="IR" tvg-language="fas" tvg-quality="480i",TMTV.us
+https://hls.tmtv.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="TVANava.ir" group-title="IR" tvg-language="fas" tvg-quality="576i",TVANava.ir
+https://ncdn.telewebion.ir/nava/live/playlist.m3u8
+#EXTINF:-1 tvg-id="TVITN.ir" group-title="IR" tvg-language="fas" tvg-quality="576i",TVITN.ir
+https://itnhls.wns.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="VarzeshTV.ir" group-title="IR" tvg-language="fas" tvg-quality="576i",VarzeshTV.ir
+https://ncdn.telewebion.ir/varzesh/live/playlist.m3u8
+#EXTINF:-1 tvg-id="VelayatTV.ir" group-title="IR" tvg-language="fas" tvg-quality="576i",VelayatTV.ir
+https://ncdn.telewebion.ir/velayat/live/playlist.m3u8
+#EXTINF:-1 tvg-id="VelayatTVNetwork.us" group-title="US" tvg-language="fas" tvg-quality="480i",VelayatTVNetwork.us
+https://nl.livekadeh.com/hls2/velayattv.m3u8
+#EXTINF:-1 tvg-id="VoATVPersian.us" group-title="US" tvg-language="fas" tvg-quality="480i",VoATVPersian.us
+https://voaphls.wns.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="VoATVPersian.us" group-title="US" tvg-language="fas" tvg-quality="480i",VoATVPersian.us
+https://voa-ingest.akamaized.net/hls/live/2033876/tvmc07/playlist.m3u8
+#EXTINF:-1 tvg-id="VOX1.ir" group-title="IR" tvg-language="fas" tvg-quality="576i",VOX1.ir
+https://hls.vox1.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="YazdTV.ir" group-title="IR" tvg-language="fas" tvg-quality="576i",YazdTV.ir
+https://ncdn.telewebion.ir/taban/live/playlist.m3u8
+#EXTINF:-1 tvg-id="YourTimeTV.ir" group-title="IR" tvg-language="fas" tvg-quality="576i",YourTimeTV.ir
+https://hls.yourtime.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="ZagrosTV.ir" group-title="IR" tvg-language="fas" tvg-quality="576i",ZagrosTV.ir
+https://ncdn.telewebion.ir/zagros/live/playlist.m3u8
+#EXTINF:-1 tvg-id="ZedTV.ir" group-title="IR" tvg-language="fas" tvg-quality="720p",ZedTV.ir
+https://zedhls.wns.live/hls/stream.m3u8
 #EXTM3U
 #EXTINF:-1 group-title="GLOBO AO VIVO" tvg-logo="https://s02.video.glbimg.com/x720/2923546.jpg",AO VIVO: AO VIVO: Assista ao JAC1 com Murilo Lima
 https://live-as-11-10.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJVUyIsImRvbWFpbiI6ImxpdmUtYXMtMTEtMTAudmlkZW8uZ2xvYm8uY29tIiwiZXhwIjoxNzc4MzY2NjQ4LCJpYXQiOjE3NzgzNDUwNDgsImlzcyI6InBsYXliYWNrLWFwaS1wcm9kLWdjcCIsIm93bmVyIjoiIiwicGF0aCI6Ii9saXZlL2YoaT0yKS9yZWRlYWMvcGxheWxpc3QubTN1OCJ9.hlodTXy9fJozKbAikzjSNEz6IiLSQ2nHmW6WwM1TiNlnVfkKTrO5dGMPuW_ftfNHXVouAYVopixEfdTLpcCU4LtsjX0LplaiddoymrhIRVAOx6FxZNKba6EVWVyrh-lkvB7KsTF6uR17rCn4ra32IUADyNisweFjVwlbFGzVG83d873cijvuY3Ld8g8LuJsdXisxRtxZZ1rprXX0_oN5fvbBmSPJheP8V70PIbPrdls-cpNGwfxNcaTQg8Cq7ZRuOTc8VVPxZn3M9CpMjax7hz9V2pkkPyjhYiUaJqAkz592kHs8dMhAKOY5kmEToup1joD6JQqhAs7aig3GGp_4kg/live/f(i=2)/redeac/playlist.m3u8
@@ -3365,13 +3794,15 @@ https://live-as-02-03.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAi
 #EXTM3U
 #EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_AR1.xml.gz,https://iptv-epg.org/files/epg-ar.xml.gz" deinterlaced="1"
 #EXTM3U url-epg="https://iptv-epg.org/files/epg-ar.xml"
+#EXTINF:-1 group-title="ARGENTINA" tvg-id=Telefe.ar",Telefe
+http://201.217.246.42:44310/Live/3fcb6e26785fd8d415571b26dc3cf5d3/telefe.playlist.m3u8
 #EXTINF:-1 group-title="ARGENTINA" tvg-id="ElTrece.ar" tvg-logo="https://www.lyngsat.com/logo/tv/ee/el-trece.png",El Trece
 #EXTVLCOPT:http-referrer=https://vodgc.net
 https://livetrx01.vodgc.net/eltrecetv/index.m3u8
 #EXTINF:-1 group-title="ARGENTINA" tvg-id="TN.ar" tvg-logo="https://www.lyngsat.com/logo/tv/tt/tn.png",TN
 https://latam-cache-sv2-cdn.latamlive.net/TN_ENC_LIVE/index.mpd
 #EXTINF:-1 group-title="ARGENTINA" tvg-id="TVPublica.ar" tvg-logo="https://www.lyngsat.com/logo/tv/tv/tv-publica-ar.png",TV Pública
-https://stream.claroh.com/tvpublica/playlist.m3u8
+http://201.217.246.42:44310/Live/3fcb6e26785fd8d415571b26dc3cf5d3/tvpublica_720.m3u8
 #EXTINF:-1 group-title="ARGENTINA" tvg-id="Canal26.ar" tvg-logo="https://www.lyngsat.com/logo/tv/cc/canal-26-ar.png",Canal 26 HD
 https://stream-gtlc.telecentro.net.ar/hls/canal26hls/main.m3u8
 #EXTINF:-1 group-title="ARGENTINA" tvg-id="Telemax.ar" tvg-logo="https://www.lyngsat.com/logo/tv/tt/telemax.png",Telemax
@@ -5434,6 +5865,31 @@ https://inliveserver.com:1936/10020/10020/playlist.m3u8?PlaylistM3UCL
 #EXTM3U url-tvg="https://github.com/matthuisman/i.mjh.nz/raw/master/Roku/all.xml"
 #EXTM3U url-tvg="https://i.mjh.nz/Roku/mx.xml.gz,https://timbiriche.me/epg/mexico.xml.gz,https://raw.githubusercontent.com/LITUATUI/Geral/master/EPG/Geral.xml.gz,https://github.com/roisiano/miEPG-v3.6/raw/refs/heads/main/miEPG.xml.gz,https://raw.githubusercontent.com/HelmerLous/EPG/main/Guia.xml.gz"
 #EXTM3U url-tvg="https://timbiriche.me/epg/usa.xml.gz,https://raw.githubusercontent.com/LITUATUI/Geral/master/EPG/Geral.xml.gz,https://raw.githubusercontent.com/davidmuma/EPG_doble_m/master/guia.xml.gz,https://raw.githubusercontent.com/HelmerLous/EPG/main/Guia.xml.gz,https://raw.githubusercontent.com/Tapiosat/EPG/master/guide.xml.gz"
+#EXTM3U x-tvg-url="https://epg.pw/xmltv/epg_US.xml.gz,https://epg.pw/xmltv/epg_GB.xml.gz,https://epg.pw/xmltv/epg_FR.xml.gz,https://epg.pw/xmltv/epg_BR.xml.gz,https://epg.pw/xmltv/epg_CN.xml.gz,https://epg.pw/xmltv/epg_SG.xml.gz,https://epg.pw/xmltv/epg_IN.xml.gz,https://epg.pw/xmltv/epg_TW.xml.gz,https://epg.pw/xmltv/epg_RU.xml.gz"
+#EXTINF:-1 tvg-id="464746" tvg-name="BBC News" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/bbc-news-uk.png" group-title="NEWS WORLD",BBC News
+https://vs-hls-push-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_news_channel_hd/mobile_wifi_main_sd_abr_v2.m3u8
+#EXTINF:-1 tvg-id="464941" tvg-name="CBS News 24/7" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/cbs-news-us.png" group-title="NEWS WORLD",CBS News 24/7
+https://news20e7hhcb.airspace-cdn.cbsivideo.com/index.m3u8
+#EXTINF:-1 tvg-id="12532" tvg-name="Al Jazeera English" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/aljazeera-uk.png" group-title="NEWS WORLD",Al Jazeera English
+https://live-hls-apps-aje-fa.getaj.net/AJE/index.m3u8
+#EXTINF:-1 tvg-id="464863" tvg-name="Newsmax" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/newsmax-tv-us.png" group-title="NEWS WORLD",Newsmax
+https://nmxlive.akamaized.net/hls/live/529965/Live_1/index.m3u8
+#EXTINF:-1 tvg-name="Meganoticias" tvg-logo="https://t0.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=http://meganoticias.cl&size=128" group-title="NEWS WORLD",Meganoticias [CL]
+https://pantera1-100gb-cl-movistar.dps.live/mega/mega.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="52000" tvg-name="Euronews English" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/international/euro-news-int.png" group-title="NEWS WORLD",Euronews English
+https://aegis-cloudfront-1.tubi.video/b1c4d439-03a5-4c40-ae9d-90a183e010c9/euronews-en.m3u8
+#EXTINF:-1 tvg-id="55960" tvg-name="Africa 24" tvg-logo="https://i.imgur.com/YWIJdai.png" group-title="NEWS WORLD",Africa 24 English
+https://edge20.vedge.infomaniak.com/livecast/ik:africa24english/manifest.m3u8
+#EXTINF:-1 tvg-id="492837" tvg-name="CGTN" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/international/cgtn-int.png" group-title="NEWS WORLD",CGTN
+https://news.cgtn.com/resource/live/english/cgtn-news.m3u8
+#EXTINF:-1 tvg-id="543408" tvg-name="NDTV 24x7" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/india/ndtv-24x7-in.png" group-title="NEWS WORLD",NDTV 24x7
+https://ndtv24x7elemarchana.akamaized.net/hls/live/2003678/ndtv24x7/ndtv24x7master.m3u8
+#EXTINF:-1 tvg-id="539788" tvg-name="CGTN Francais" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/international/cgtn-french-int.png" group-title="NEWS WORLD",CGTN Francais
+https://news.cgtn.com/resource/live/french/cgtn-f.m3u8
+#EXTINF:-1 tvg-id="369836" tvg-name="NHK World-Japan" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/international/nhk-world-japan-int.png" group-title="NEWS WORLD",NHK World-Japan
+https://nhk.lls.pbs.org/index.m3u8
+#EXTINF:-1 tvg-id="464874" tvg-name="Scripps News" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/scripps-news-us.png" group-title="NEWS WORLD",Scripps News
+https://content.uplynk.com/channel/4bb4901b934c4e029fd4c1abfc766c37.m3u8
 #EXTINF:-1 group-title="NEWS WORLD" tvg-id="SPORTV" tvg-name="SPORTV 1" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/26/SporTV_2021.png",SPORTV 1
 http://limed.cc:80/4x6cXF/ehfxdp/90327.m3u8
 #EXTINF:-1 group-title="NEWS WORLD" tvg-id="SPORTV2" tvg-name="SPORTV 2" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/01/SporTV2_2021.png",SPORTV 2
@@ -5484,6 +5940,8 @@ http://cord-cutter.net:8080/live/j3McKd/673709/57619.m3u8
 https://video01.logicahost.com.br/bmcnews/bmcnews/playlist.m3u8
 #EXTINF:-1 group-title="NEWS WORLD" tvg-id="BloombergTelevision.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Bloomberg_L.P.svg/512px-Bloomberg_L.P.svg.png",Bloomberg US
 https://www.bloomberg.com/media-manifest/streams/us.m3u8
+#EXTINF:-1 tvg-id="465324" tvg-name="Bloomberg TV" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/bloomberg-television-us.png" group-title="NEWS WORLD",Bloomberg TV
+https://www.bloomberg.com/media-manifest/streams/eu.m3u8
 #EXTINF:-1 group-title="NEWS WORLD" tvg-id="Fox.News.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Fox_News_Channel_logo.svg/512px-Fox_News_Channel_logo.svg.png",Fox News
 https://stream.livenewsplay.com:9443/hls/foxnews/foxsd.m3u8
 #EXTINF:-1 group-title="NEWS WORLD" tvg-id="6317ba014d4d040007227f72" tvg-name="JOVEM PAN NEWS" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Logotipo_da_TV_Jovem_Pan_News.png/120px-Logotipo_da_TV_Jovem_Pan_News.png",JOVEM PAN NEWS
@@ -5493,7 +5951,7 @@ https://www.youtube.com/@otimesbrasil/live
 #EXTINF:-1 group-title="NEWS WORLD" tvg-id="DWEspanol.de" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/DW_Logo.svg/512px-DW_Logo.svg.png",DW Español
 https://dwamdstream104.akamaized.net/hls/live/2015530/dwstream104/index.m3u8
 #EXTINF:-1 group-title="OTHER" tvg-name="--- OTHER CHANNELS ---",--- OTHER CHANNELS ---
-#EXTINF:-1 tvg-id="369766" tvg-name="DW-TV" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/international/dw-english-int.png" group-title="NEWS WORLD",DW News English
+#EXTINF:-1 tvg-id="369766" tvg-name="DW English" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/international/dw-int.png" group-title="NEWS WORLD",DW English
 https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/index.m3u8
 #EXTINF:-1 group-title="NEWS WORLD" tvg-id="RT.com" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Russia_today_logo.svg/512px-Russia_today_logo.svg.png",RT English
 https://rt-glb.rttv.com/dvr/rtnews/playlist.m3u8
@@ -5503,11 +5961,9 @@ http://static.france24.com/live/F24_EN_LO_HLS/live_web.m3u8
 https://static.france24.com/live/F24_FR_LO_HLS/live_ios.m3u8
 #EXTINF:-1 group-title="NEWS WORLD" tvg-id="Euronews.com" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Euronews_2018.svg/512px-Euronews_2018.svg.png",Euronews English
 https://rakuten-euronews-4-en.samsung.wurl.tv/playlist.m3u8
-#EXTINF:-1 group-title="NEWS WORLD" tvg-id="SkyNews.com" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Sky_News.svg/512px-Sky_News.svg.png",Sky News UK
-https://linear417-gb-hls1-prd-ak.cdn.skycdp.com/100e/Content/HLS_001_1080_30/Live/channel(skynews)/index_1080-30.m3u8
 #EXTINF:-1 group-title="NEWS WORLD" tvg-id="NHKWorld.jp" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/NHK_World_Japan.svg/512px-NHK_World_Japan.svg.png",NHK World
 https://master.nhkworld.jp/nhkworld-tv/playlist/live.m3u8
-#EXTINF:-1 group-title="NEWS WORLD" tvg-id="TRTWorld.tr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/TRT_World.svg/512px-TRT_World.svg.png",TRT World
+#EXTINF:-1 tvg-id="9440" tvg-name="TRT World" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/trt-world-tr.png" group-title="NEWS WORLD",TRT World
 https://tv-trtworld.medya.trt.com.tr/master.m3u8
 #EXTINF:-1 group-title="NEWS WORLD" tvg-id="AlArabiya.ae" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Al_Arabiya.svg/512px-Al_Arabiya.svg.png",Al Arabiya
 https://live.alarabiya.net/alarabiapublish/alarabiya.smil/playlist.m3u8
@@ -5633,8 +6089,6 @@ https://streaming-a-806.cdn.nextologies.com/38dafadc68316650d32c7e974332e5b8/pla
 https://abc-news-dmd-streams-1.akamaized.net/out/v1/abc83881886746b0802dc3e7ca2bc792/index.m3u8
 #EXTINF:-1 group-title="NEWS WORLD" tvg-id="ABCRadioAustralia.au",ABC Radio (Australia)
 https://mediaserviceslive.akamaized.net/hls/live/2038311/newsradio/index.m3u8
-#EXTINF:-1 group-title="NEWS WORLD" tvg-id="AlArabiya.ae",Al Arabiya
-https://live.alarabiya.net/alarabiapublish/alarabiya.smil/playlist.m3u8
 #EXTINF:-1 group-title="NEWS WORLD" tvg-id="AlAraby.tv",Al Araby
 https://alarabyta.cdn.octivid.com/alaraby/smil:alaraby.stream.smil/chunklist_b1150000.m3u8
 #EXTINF:-1 group-title="NEWS WORLD" tvg-id="AlJazeeraArabic.qa" tvg-logo="https://upload.wikimedia.org/wikipedia/ms/thumb/f/f2/Aljazeera_eng.svg/1200px-Aljazeera_eng.svg.png",Al Jazeera Arabic
@@ -5649,7 +6103,7 @@ https://edge.fastpublish.me/live/index.m3u8
 https://mbnv-video-ingest.akamaized.net/hls/live/2038904/MBNV_ALHURRA_MAIN_HLS/merge.m3u8
 #EXTINF:-1 group-title="NEWS WORLD" tvg-id="AnewZ.com",AnewZ
 https://cdn.target-video.com/livestream/eu/83ac8fe07ddd10cf/out/v1/b9c4c59c1c4c4b1697bf9ea8d81e1f5e/30355_1872539_index.m3u8
-#EXTINF:-1 group-title="NEWS WORLD" tvg-id="Arirang.kr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Arirang_TV_logo.svg/512px-Arirang_TV_logo.svg.png",Arirang
+#EXTINF:-1 tvg-id="474641" tvg-name="Arirang TV" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/international/arirang-int.png" group-title="NEWS WORLD",Arirang TV
 https://amdlive-ch01-ctnd-com.akamaized.net/arirang_1ch/smil:arirang_1ch.smil/playlist.m3u8
 #EXTINF:-1 group-title="NEWS WORLD" tvg-id="BBCWorldService.uk" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/BBC_News.svg/512px-BBC_News.svg.png",BBC News Radio
 http://as-hls-ww-live.akamaized.net/pool_904/live/ww/bbc_world_service/bbc_world_service.isml/bbc_world_service-audio=96000.norewind.m3u8
@@ -5667,7 +6121,7 @@ https://news.cgtn.com/resource/live/arabic/cgtn-a.m3u8
 https://news.cgtn.com/resource/live/wx/cgtn-doc.m3u8
 #EXTINF:-1 group-title="NEWS WORLD" tvg-id="CurrentTimeTV.us",Current Time TV
 https://rfe-ingest.akamaized.net/hls/live/2033043/tvmc05/master.m3u8
-#EXTINF:-1 group-title="NEWS WORLD" tvg-id="DWArabic.de" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/DW_Logo.svg/512px-DW_Logo.svg.png",DW Arabic
+#EXTINF:-1 tvg-id="7473" tvg-name="DW Espanol" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/germany/dw-de.png" group-title="NEWS WORLD",DW Español
 https://dwamdstream103.akamaized.net/hls/live/2015526/dwstream103/index.m3u8
 #EXTINF:-1 group-title="NEWS WORLD" tvg-id="DWEspanol.de" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/DW_Logo.svg/512px-DW_Logo.svg.png",DW Español
 https://dwamdstream104.akamaized.net/hls/live/2015530/dwstream104/index.m3u8
@@ -5689,8 +6143,10 @@ https://master.nhkworld.jp/nhkworld-tv/playlist/live.m3u8
 https://live.presstv.ir/hls/presstv.m3u8
 #EXTINF:-1 group-title="NEWS WORLD" tvg-id="SkyNews.com" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Sky_News.svg/512px-Sky_News.svg.png",Sky News UK
 https://linear417-gb-hls1-prd-ak.cdn.skycdp.com/100e/Content/HLS_001_1080_30/Live/channel(skynews)/index_1080-30.m3u8
-#EXTINF:-1 group-title="NEWS WORLD" tvg-id="TRTWorld.tr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Russia_today_logo.svg/512px-Russia_today_logo.svg.png",TRT World
-https://tv-trtworld.medya.trt.com.tr/master.m3u8
+#EXTINF:-1 group-title="NEWS WORLD" tvg-id="SkyNews.com" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Sky_News.svg/512px-Sky_News.svg.png",Sky News UK
+https://linear417-gb-hls1-prd-ak.cdn.skycdp.com/100e/Content/HLS_001_1080_30/Live/channel(skynews)/index_1080-30.m3u8
+#EXTINF:-1 tvg-id="9504" tvg-name="Sky News" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/sky-news-uk.png" group-title="NEWS WORLD",Sky News
+https://linear417-gb-hls1-prd-ak.cdn.skycdp.com/100e/Content/HLS_001_1080_30/Live/channel(skynews)/index_1080-30.m3u8
 #EXTINF:-1 group-title="NEWS WORLD" tvg-id="WION.in" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/WION_Logo.svg/512px-WION_Logo.svg.png",WION
 https://d7x8z4yuq42qn.cloudfront.net/index_1.m3u8
 #EXTINF:-1 group-title="NEWS WORLD" tvg-id="RT.com" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Russia_today_logo.svg/512px-Russia_today_logo.svg.png",RT Arabic
@@ -5815,6 +6271,18 @@ https://www.bloomberg.com/media-manifest/streams/us-event.m3u8
 https://www.bloomberg.com/media-manifest/streams/politics.m3u8
 #EXTINF:-1 group-title="NEWS WORLD" tvg-id="6110" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZS8rzrmFoRuvQby6YSaja-ScGunpB-TRFCbWt4RcbfJaapuk4R6Q4C9MGohY&s",Bloomberg EU
 https://www.bloomberg.com/media-manifest/streams/eu-event.m3u8
+#EXTINF:-1 group-title="BUSINESS NEWS" tvg-id="BloombergTVEMEALiveEvent.us" tvg-logo="https://www.lyngsat.com/logo/tv/bb/blommberg-tv-us.png",Bloomberg Europe Event
+https://www.bloomberg.com/media-manifest/streams/eu-event.m3u8
+#EXTINF:-1 group-title="NEWS WORLD" tvg-id="BloombergTelevision.us" tvg-logo="https://pbs.twimg.com/profile_images/991792042094354432/DG1Ruupb_200x200.jpg",Int. América: Bloomberg USA EN
+https://www.bloomberg.com/media-manifest/streams/us-event.m3u8
+#EXTINF:-1 tvg-id="412092" tvg-name="Bloomberg Asia" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/bloomberg-television-us.png" group-title="NEWS WORLD",Bloomberg Asia
+https://www.bloomberg.com/media-manifest/streams/asia.m3u8
+#EXTINF:-1 group-title="NEWS WORLD" tvg-id="BloombergTelevision.us" tvg-logo="https://pbs.twimg.com/profile_images/991792042094354432/DG1Ruupb_200x200.jpg",Int. América: Bloomberg USA EN
+https://www.bloomberg.com/media-manifest/streams/us.m3u8
+#EXTINF:-1 group-title="BUSINESS NEWS" tvg-id="BloombergTVMongolia.mn" tvg-logo="https://i.imgur.com/nSj18g1.png",Bloomberg TV Mongolia
+https://cdn3.skygo.mn/live/disk1/BloombergMon/HLS-FTA/BloombergMon.m3u8
+#EXTINF:-1 group-title="BUSINESS NEWS" tvg-id="BloombergTVMongolia.mn" tvg-logo="https://i.imgur.com/nSj18g1.png",Bloomberg TV Mongolia
+https://cdn3.skygo.mn/live/disk1/BloombergMon/HLS-FTA/BloombergMon.m3u8
 #EXTINF:-1 group-title="BUSINESS NEWS" tvg-id="BLOOMBERG TV" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Bloomberg.png",Bloomberg TV Brasil
 https://bloomberg-bloomberg-3-br.samsung.wurl.tv/playlist.m3u8
 #EXTINF:-1 group-title="BUSINESS NEWS" tvg-id="6110" tvg-name="Blomberg US" tvg-logo="https://i.imgur.com/idRFfhY.png",Blomberg US
@@ -5825,16 +6293,6 @@ https://liveproduseast.global.ssl.fastly.net/btv/desktop/us_politics.m3u8
 https://content.uplynk.com/channel/ext/72750b711f704e4a94b5cfe6dc99f5e1/wabc_24x7_news.m3u8?DVR
 #EXTINF:-1 group-title="BUSINESS NEWS" tvg-id="BloombergTelevision.us" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBAMx5ocyi-5mmkLQHwD0w1vteFbhZwme0iLwR4F1Aos64MpycYMYVHThM_Ic&s",Bloomberg Television
 https://liveprodusphoenixeast.global.ssl.fastly.net/USPhx-HD/Channel-TX-USPhx-AWS-virginia-1/Source-USPhx-16k-1-s6lk2-BP-07-02-81ykIWnsMsg_live.m3u8
-#EXTINF:-1 group-title="BUSINESS NEWS" tvg-id="BloombergTVEMEALiveEvent.us" tvg-logo="https://www.lyngsat.com/logo/tv/bb/blommberg-tv-us.png",Bloomberg Europe Event
-https://www.bloomberg.com/media-manifest/streams/eu-event.m3u8
-#EXTINF:-1 group-title="NEWS WORLD" tvg-id="BloombergTelevision.us" tvg-logo="https://pbs.twimg.com/profile_images/991792042094354432/DG1Ruupb_200x200.jpg",Int. América: Bloomberg USA EN
-https://www.bloomberg.com/media-manifest/streams/us-event.m3u8
-#EXTINF:-1 group-title="NEWS WORLD" tvg-id="BloombergTelevision.us" tvg-logo="https://pbs.twimg.com/profile_images/991792042094354432/DG1Ruupb_200x200.jpg",Int. América: Bloomberg USA EN
-https://www.bloomberg.com/media-manifest/streams/us.m3u8
-#EXTINF:-1 group-title="BUSINESS NEWS" tvg-id="BloombergTVMongolia.mn" tvg-logo="https://i.imgur.com/nSj18g1.png",Bloomberg TV Mongolia
-https://cdn3.skygo.mn/live/disk1/BloombergMon/HLS-FTA/BloombergMon.m3u8
-#EXTINF:-1 group-title="BUSINESS NEWS" tvg-id="BloombergTVMongolia.mn" tvg-logo="https://i.imgur.com/nSj18g1.png",Bloomberg TV Mongolia
-https://cdn3.skygo.mn/live/disk1/BloombergMon/HLS-FTA/BloombergMon.m3u8
 #EXTINF:-1 group-title="NEWS WORLD" tvg-id="465497" tvg-name="RECORD NEWS" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Record_News_logo_2022.svg/120px-Record_News_logo_2022.svg.png",RECORD NEWS
 http://limed.cc:80/4x6cXF/ehfxdp/90259.m3u8
 #EXTINF:-1 group-title="NEWS WORLD" tvg-id="Band.News.br" tvg-name="BAND NEWS" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Band_News_TV_2021_Logo.png/800px-Band_News_TV_2021_Logo.png",BAND NEWS
@@ -5843,7 +6301,7 @@ http://limed.cc:80/4x6cXF/ehfxdp/89820.m3u8
 http://lunar.pm:8080/2052023680/mvpQrGT27dkS/120587
 #EXTINF:-1 group-title="NEWS WORLD" tvg-id="6317ba014d4d040007227f72" tvg-name="JOVEM PAN NEWS" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Logotipo_da_TV_Jovem_Pan_News.png/120px-Logotipo_da_TV_Jovem_Pan_News.png",JOVEM PAN NEWS
 http://limed.cc:80/4x6cXF/ehfxdp/90139.m3u8
-#EXTINF:-1 group-title="NEWS WORLD" tvg-id="6317ba014d4d040007227f72" tvg-logo="https://i.imgur.com/aqgaka0.jpeg",Jovem Pan News
+#EXTINF:-1 tvg-id="417187" tvg-name="Jovem Pan News" tvg-logo="https://i.imgur.com/aqgaka0.jpg" group-title="NEWS WORLD",Jovem Pan News
 https://d6yfbj4xxtrod.cloudfront.net/out/v1/7836eb391ec24452b149f3dc6df15bbd/index.m3u8
 #EXTINF:-1 group-title="NEWS WORLD" tvg-id="MTV00" tvg-name="MTV '00" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/f8/MTV_00s_remaster.png",MTV '00
 http://limed.cc:80/4x6cXF/ehfxdp/90161.m3u8
@@ -6003,8 +6461,6 @@ https://mdstrm.com/live-stream-playlist-v/5ddfebf14bee0054b9b3fd14.m3u8?DVR
 https://unlimited1-cl-isp.dps.live/pauta2/pauta2.smil/playlist.m3u8?DVR
 #EXTINF:-1 group-title="NEWS WORLD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQT5Em8I4_mvFMzUhvAbZKw7xLDhE1BI_dicqK6_xuzCOatJfumc_PG0kwlLPg&s",RADIO SONAR
 https://unlimited1-cl-isp.dps.live/dunatv/dunatv.smil/playlist.m3u8?DVR
-#EXTINF:-1 group-title="NEWS WORLD" tvg-id="465415" tvg-logo="https://i.imgur.com/8MRNFb9.png",Deutsche Welle Arabic
-https://dwamdstream103.akamaized.net/hls/live/2015526/dwstream103/index.m3u8
 #EXTINF:-1 group-title="NEWS WORLD" tvg-id="RadioArcoiris.cl" tvg-name="Radio Arcoiris" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3bn-tmSNSftjEysh-BqCvRSoeUe190uvvDXRGvRPRPyJ9w_FBMKX6qxsVq3c&s",Radio Arcoiris
 https://v2.tustreaming.cl/fmarcoirirs/index.m3u8?DVR
 #EXTINF:-1 group-title="NEWS WORLD" tvg-id="RadioPanoramica.cl" tvg-name="Radio Panoramica" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7k2Y8jGjKq0vur60DQ7U2B6pTM9tgRo42TIX_bYZMfmCgpStkx18uYEBZvQ&s",RADIO PANORAMICA INFORMATIVA
@@ -6137,12 +6593,10 @@ https://cheddar-us.samsung.wurl.tv/playlist.m3u8
 https://content.uplynk.com/channel/ext/72750b711f704e4a94b5cfe6dc99f5e1/WABCLive1.m3u8?DVR
 #EXTINF:-1 group-title="BUSINESS NEWS" tvg-id="FRBD4100006OC" tvg-logo="https://upload.wikimedia.org/wikipedia/fr/6/62/Logo_Business_2020.png",BFM Business
 https://ncdn-live-bfm.pfd.sfr.net/shls/LIVE$BFM_BUSINESS/index.m3u8?start=LIVE&end=END
-#EXTINF:-1 group-title="NEWS WORLD" tvg-id="CNA.sg" tvg-logo="https://i.imgur.com/xJZ9ChT.png",CNA
-https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_5.m3u8
 #EXTINF:-1 group-title="NEWS WORLD" tvg-id="CNA.sg" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/CNA_logo.svg/512px-CNA_logo.svg.png",CNA
 https://mediacorp-videosbclive.akamaized.net/8a496e61361c4079a0e16d8f09e79df9/ap-southeast-1/6057994443001/playlist.m3u8
-#EXTINF:-1 group-title="NEWS WORLD" tvg-id="cna" tvg-logo="https://i.ibb.co/NTKgPfv/cna.png",CNA
-https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_5.m3u8?cc
+#EXTINF:-1 tvg-id="492874" tvg-name="CNA" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/international/cna-int.png" group-title="NEWS WORLD",CNA
+https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_5.m3u8
 #EXTINF:-1 group-title="NEWS WORLD" tvg-id="465021" tvg-logo="https://i.imgur.com/xWglicB.png",CNA International (1080p)
 https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index.m3u8
 #EXTINF:-1 group-title="NEWS WORLD" tvg-id="CNA.sg" tvg-logo="https://raw.githubusercontent.com/punkstarbr/STR-YT/main/logos/cna.png",CNA (Channel News Asia)
@@ -6193,8 +6647,14 @@ https://live-hls-web-aja.getaj.net/AJA/01.m3u8
 https://cdn.catiacast.video/abr/78054972db7708422595bc96c6e024ac/playlist.m3u8
 #EXTINF:-1 group-title="NEWS WORLD" tvg-id="AlArabiya.uk" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOFxyDXvMqzluYDtpAGClZQ2Rl7SWcurIjsz2rg8F71u4sJLxnxvJfeegYL24&s",Al Arabiya (Arabic)
 https://live.alarabiya.net/alarabiapublish/alarabiya.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="AlArabiya.ae" tvg-logo="https://t0.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=http://alarabiya.net&size=128" group-title="NEWS WORLD",Al Arabiya
+https://live.alarabiya.net/alarabiapublish/alarabiya.smil/playlist.m3u8
+#EXTINF:-1 group-title="NEWS WORLD" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/f/fd/AlArabiya2020.png",Al Arabiya
+https://live.alarabiya.net/alarabiapublish/alarabiya.smil/playlist.m3u8
 #EXTINF:-1 group-title="NEWS WORLD" tvg-id="AlJazeeraArabic.qa" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_D9WOAaoPC8yyCvYzHJpvW8L72lbzeA_1Rk2-f3J4P3pczmQXR1UyFtSehA&s",Al Jazeera Arabic
 https://live-hls-web-aja.getaj.net/AJA/index.m3u8
+#EXTINF:-1 tvg-id="516389" tvg-name="Al Jazeera" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/aljazeera-uk.png" group-title="NEWS WORLD",Al Jazeera Arabic
+https://live-hls-web-aja.getaj.net/AJA/03.m3u8
 #EXTINF:-1 group-title="BUSINESS NEWS" tvg-id="Ameritrade.us" tvg-logo="https://images-na.ssl-images-amazon.com/images/I/71CZKwin9mL.png",Ameritrade (1080p) [Not 24/7]
 https://tdameritrade-vizio.amagi.tv/playlist.m3u8
 #EXTINF:-1 group-title="BUSINESS NEWS" tvg-id="30AInvestmentPitch.us" tvg-logo="https://i.imgur.com/CKCtZo7.png",30A Investment Pitch (720p)
@@ -6333,8 +6793,6 @@ https://live.corusdigitaldev.com/groupa/live/b60d1d57-2851-4c29-bf5c-36feed988e5
 https://live.corusdigitaldev.com/groupa/live/023a9e25-f0cf-4d97-af9f-5c665b7d45b9/live.isml/.m3u8
 #EXTINF:-1 group-title="NEWS WORLD" tvg-id="62cbfbd6ad95670007f567af" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS19ztpvT3Z2jFNJqqQ-HgS4oH19laxpBm4hYz6S4PMZMNnnvnJou0DjCmUsw&s",Global News Montreal (720p)
 https://live.corusdigitaldev.com/groupa/live/6bfb7f13-9d9d-4211-9c50-fb56330e4ccd/live.isml/.m3u8
-#EXTINF:-1 group-title="NEWS WORLD" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/f/fd/AlArabiya2020.png",Al Arabiya
-https://live.alarabiya.net/alarabiapublish/alarabiya.smil/playlist.m3u8
 #EXTINF:-1 group-title="NEWS WORLD" tvg-id="62cbf7439cb58900088dc77b" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAvW3jNxfG0yNDtCXeVK_3JIrELiHorvVTymjjoz6y2PZqWcyjD8QVJ9MRmw&s",Global News Lethbridge (720p)
 https://live.corusdigitaldev.com/groupc/live/cea96246-9af2-4373-932f-cdd3f8db2bc0/live.isml/.m3u8
 #EXTINF:-1 group-title="NEWS WORLD" tvg-id="62cbef9ebb857100072fc187" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTj_frvclHtk__jRwgkQ6hId3lakX94mKm0Uw-KE3PFiRHyzxW1AL26e2q1lg&s",Global News National (720p)
@@ -6783,7 +7241,7 @@ https://live.france24.com/hls/live/2037222-b/F24_AR_HI_HLS/master_5000.m3u8
 https://c4635.cdn.xsg.ge/c4635/TVFormula/index.m3u8
 #EXTINF:-1 group-title="NEWS WORLD" tvg-id="FoxNewsRadio.us" tvg-logo="https://radio.foxnews.com/wp-content/uploads/2017/10/default_logo-150x150.png",Fox News Radio (720p)
 https://radiovid.foxnews.com/hls/live/661547/RADIOVID/index.m3u8
-#EXTINF:-1 group-title="NEWS WORLD" tvg-id="France24.fr@English" tvg-logo="https://i.imgur.com/u8N6uoj.png",France 24 English (1080p)
+#EXTINF:-1 tvg-id="443227" tvg-name="France 24 English" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/international/france-24-int.png" group-title="NEWS WORLD",France 24 English
 https://live.france24.com/hls/live/2037218-b/F24_EN_HI_HLS/master_5000.m3u8
 #EXTINF:-1 group-title="NEWS WORLD" tvg-id="FaxNews.al" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Fax_News_%28Albania%29.svg/512px-Fax_News_%28Albania%29.svg.png",Fax News (576i)
 http://77.83.120.135:8001/play/FaxNews
@@ -6859,8 +7317,6 @@ https://bcovlive-a.akamaihd.net/95116e8d79524d87bf3ac20ba04241e3/eu-central-1/53
 https://halktv-live.daioncdn.net/halktv/halktv.m3u8
 #EXTINF:-1 group-title="NEWS WORLD" tvg-id="INH24x7.in" tvg-logo="https://i.imgur.com/Es3QiVx.png",INH 24x7 (360p)
 https://7epd6o8edk9b-hls-live.wmncdn.net/inh24/live.stream/playlist.m3u8
-#EXTINF:-1 group-title="NEWS WORLD" tvg-id="JovemPanNews.br" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Jovem_Pan_logo_2018.svg/512px-Jovem_Pan_logo_2018.svg.png",Jovem Pan News (JP News) (1080p) [Not 24/7]
-https://d6yfbj4xxtrod.cloudfront.net/out/v1/7836eb391ec24452b149f3dc6df15bbd/index.m3u8
 #EXTINF:-1 group-title="NEWS WORLD" tvg-id="JKN18.th" tvg-logo="https://i.imgur.com/m4nPR2L.png",JKN 18 (1080p)
 https://lb1-live-mv.v2h-cdn.com/hls/ffda/jkn18/jkn18.m3u8
 #EXTINF:-1 group-title="NEWS WORLD" tvg-id="KabloInfo.tr" tvg-logo="https://i.imgur.com/6BC3M4C.png",Kablo Info (1080p)
