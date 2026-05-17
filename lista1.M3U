@@ -756,8 +756,9 @@ https://archive.org/download/yt-5s.com-80s-commercials-nbc-february-1985-1080p/y
 https://archive.org/download/WRC_20010913_233000_Redskins_Report/WRC_20010913_233000_Redskins_Report.mp4?exact=1&start=0&end=300
 #EXTINF:-1 group-title="VOD" ,NBC Nightly News : WCAU : October 2, 2014 6:30pm-7:01pm EDT
 https://archive.org/download/WCAU_20141002_223000_NBC_Nightly_News/WCAU_20141002_223000_NBC_Nightly_News.mp4?exact=1&start=0&end=300
-#EXTINF:-1 group-title="VOD" ,What The Fight Over The Electoral College Could Mean For The Future | Velshi & Ruhle | MSNBC
-https://archive.org/download/youtube-Q1ksxHZ817Y/Q1ksxHZ817Y.mp4
+#EXTINF:-1 group-title="VOD" ,Fmr. Rep.: America Should Be Embarrassed About Treatment Of Migrant Kids | Velshi & Ruhle | MSNBC
+https://archive.org/download/youtube-BWFp8nxkmGs/BWFp8nxkmGs.mp4
+#EXTM3U
 #EXTM3U
 #EXTM3U
 #EXTM3U
@@ -1414,15 +1415,13 @@ EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/CINECITY2023/cinecity/refs
 http://172.93.102.112:8989/158753_.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/CINECITY2023/cinecity/refs/heads/cinecity.net/logos/canales-internacionales/VibeTVMexico.png" group-title="🌍 Canales Internacionales",✔️ Vibe TV (Mexico)
 https://5ca9af4645e15.streamlock.net/vibetv/videovibetv/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9My8yMS8yMDI1IDg6NTk6MjQgQU0maGFzaF92YWx1ZT1qMmRGZWNzTHIyZGttY3dJdXRYMXF3PT0mdmFsaWRtaW51dGVzPTEwJmlkPQ==
-#EXTM3U x-tvg-url="https://iptv-epg.org/files/epg-kr.xml.gz https://cdn.epg.one/epg.xml.gz"
-#EXTINF:-1 tvg-id="KoreanCentralTelevision.kp" tvg-name="KCTV SD" tvg-logo="https://i.imgur.com/p02AEOF.png" group-title="🇰🇵 Coreia do Norte",Korean Central Television (KCTV) (576p)
-#EXTVLCOPT:http-referrer=https://kcnawatch.org/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.4044.138 Safari/537.36
-https://streamer.nknews.org/tvdash/stream.mpd
-#EXTINF:-1 tvg-id="KoreanCentralTelevision.kp" tvg-name="KCTV Main" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/KCTV_logo.svg/200px-KCTV_logo.svg.png" group-title="🇰🇵 Coreia do Norte",KCTV (Korean Central TV)
-https://tv.intchoson.com/kctv/index.m3u8
+#EXTM3U x-tvg-url="https://iptv-epg.org/files/epg-kr.xml.gz https://iptv-epg.org/files/epg-fr.xml.gz"
 #EXTINF:-1 tvg-id="아리랑TV.kr" tvg-name="Arirang TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/4c/Arirang-TV-Logo.svg" group-title="🇰🇷 Coreia do Sul",Arirang TV (HD)
 https://amdlive-ch01-ctnd-com.akamaized.net/arirang_1ch/smil:arirang_1ch.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="BBCWorldNews.fr" tvg-name="BBC World News" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/BBC_World_News_logo.svg/512px-BBC_World_News_logo.svg.png" group-title="🌍 Internacional",BBC World News
+https://vs-hls-push-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_news_channel_hd/mobile_wifi_main_sd_abr_v2.m3u8
+#EXTINF:-1 tvg-id="France24English.fr" tvg-name="France 24 English" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/France_24_logo_%282013%29.svg/512px-France_24_logo_%282013%29.svg.png" group-title="🌍 Internacional",France 24 English
+https://static.france24.com/live/F24_EN_LO_HLS/live_ios.m3u8
 #EXTM3U url-epg="https://raw.githubusercontent.com/dp247/Freeview-EPG/master/epg.xml"
 #EXTINF:-1 group-title="UK" tvg-id="BBCOneLondonHD.uk" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/bbc-one-uk.png",BBC One
 https://streamer.nexyl.uk/5c858268-a93b-45f8-9e82-41d66b526d6c.m3u8
@@ -3092,7 +3091,7 @@ https://live-as-08-16.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAi
 https://video.twimg.com/amplify_video/2055778563152896000/pl/f3r9YH8sb6V7Q0St.m3u8
 #EXTM3U
 #EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/4/49/CBN.png" group-title="NEWS WORLD",CBN SP
-https://live-cm-ad-08-39.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJVUyIsImRvbWFpbiI6ImxpdmUtY20tYWQtMDgtMzkudmlkZW8uZ2xvYm8uY29tIiwiZXhwIjoxNzc4OTc5OTgyLCJpYXQiOjE3Nzg5NTgzODIsImlzcyI6InBsYXliYWNrLWFwaS1wcm9kLWdjcCIsIm93bmVyIjoiIiwicGF0aCI6Ii9saXZlL2YoYk1pbj0zMTM5ODQsZHZyPTEyMCkvY2Juc3AyNGhhL3BsYXlsaXN0Lm0zdTgifQ.tvYGfjKEIWvXka2vlXg8oRhQCDp6KDwALAemigBApPxUYeEwrZoKOT-lz7gFk9s7GLj7j6S6pZJ6g8iQYglEfOWa4bIhKmGWWMDXb1U2s-FG-hKsG3d2AfGiRGcJROXEJQIPoT2msDnOek90Rjqj36cJtlUjghJeeb8AmGq7vee9RRwcq4darMPvj3sG0rPrdD_ubroNPvrpms_TD8z7hoK14RYTD6HlGATy067pBhZgXFLvU08GGPzR7-fdxyp43bIEEMKo0sxhhr56513U59uyV2TDXF9fVR_8c-Z8Hmbho44B8InXaZwtWTik67KI6cSX6BXiJWvD1l5Jf5FYfg/live/f(bMin=313984,dvr=120)/cbnsp24ha/playlist.m3u8
+https://live-cm-ah-08-37.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJVUyIsImRvbWFpbiI6ImxpdmUtY20tYWgtMDgtMzcudmlkZW8uZ2xvYm8uY29tIiwiZXhwIjoxNzc5MDEwMzU4LCJpYXQiOjE3Nzg5ODg3NTgsImlzcyI6InBsYXliYWNrLWFwaS1wcm9kLWdjcCIsIm93bmVyIjoiIiwicGF0aCI6Ii9saXZlL2YoYk1pbj0zMTM5ODQsZHZyPTEyMCkvY2Juc3AyNGhhL3BsYXlsaXN0Lm0zdTgifQ.H7MCYLuiAn2fmDj23Oo0hySmhMq3MI6L56ETxw3rb2iGNIOu2J8sKW9RaMPuYZShBDBkYC33UNXsTjg_wpnjgi41GXAvZ0jNDWuhlwMuNdOWh57Ky0gFnERN5ddfvCGmeKoHOHRpE2xazAs1mobuakmR6f8vW6eoDfGoQni7kAkA3u3LRZwzr1q_-vYTgY7CRmk7V0f6SYfmWmBFX_hVa2sTFMcCOTauWHHqb2WfhKNCs96CITcokxmsX8qdtk5_4N9ZGLyxo3nF4ESCHL79l2KD8r6KbqVpDdXloEvLkDq9rhpEnTiyHynSQD9jVJf2C7s1c0oSWHU3toWn7mDsNg/live/f(bMin=313984,dvr=120)/cbnsp24ha/playlist.m3u8
 #EXTM3U
 #EXTINF:-1 tvg-logo="https://s.abcnews.com/images/Live/abc_news_live-abc-ml-250210_1739199021469_hpMain_16x9_608.jpg" group-title="NEWS WORLD",World News Tonight with David Muir | Watch Live News on ABCNL
 https://linear-abcnews-akc-na-east-1.media.dssott.com/dvt2=exp=1779069831~url=%2Fclt1%2Fva02%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1776583682323%2F~psid=11a86725-7c4f-4276-a62c-e0026f1cf962~did=aadd8e38-095b-435a-9cac-63e596a6bf5f~country=US~kid=k02~hmac=32fe334be4a80320cc76c235b7701a5c9a90b4493dedf43d10e00ef8dbb4a0cf/clt1/va02/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1776583682323/ctr-all-hdri-sliding.m3u8?r=1080&v=1&hash=0ce6d6ffe5eed1546b2d7ba51fca94a7850f62ea
