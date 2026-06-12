@@ -68,8 +68,10 @@ EOF
         run: |
           git add lista30.M3U log.txt ia.txt
 
-          git diff --cached --quiet && echo "Sem mudanças" || (
+          if git diff --cached --quiet; then
+            echo "Sem mudanças"
+          else
             git commit -m "🤖 Atualização automática da playlist - $(date '+%Y-%m-%d %H:%M:%S')"
-            git pull origin main --rebase
+            git pull origin main --rebase || echo "Sem conflitos"
             git push origin main
-          )
+          fi
