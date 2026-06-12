@@ -2,7 +2,7 @@ name: Baixando Lista
 
 on:
   schedule:
-    - cron: '*/50 * * * *'  # Schedule to run every 30 minutes
+    - cron: '*/50 * * * *'
   pull_request:
     branches:
       - main
@@ -13,50 +13,40 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout Repositório
-      uses: actions/checkout@v4  # Updated to use a newer version
+      - name: Checkout Repositório
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
-    - name: Configurar Git
-      run: |
-        git config --global user.email "action@github.com"
-        git config --global user.name "GitHub Action"
+      - name: Configurar Git
+        run: |
+          git config --global user.email "action@github.com"
+          git config --global user.name "GitHub Action"
 
-    - name: Deletar Log
-      run: |
-        rm -rf ./log.txt
+      - name: Deletar Log
+        run: |
+          rm -rf log.txt || echo "sem log"
 
-    - name: Instalando dependências
-      run: |
-        # Install required Python dependencies
-        python3 -m pip install --upgrade pip
-        python3 -m pip install streamlink selenium requests beautifulsoup4 lxml python-dateutil yt-dlp youtube-dl pytz
+      - name: Instalar dependências
+        run: |
+          python3 -m pip install --upgrade pip
+          pip install streamlink selenium requests beautifulsoup4 lxml python-dateutil yt-dlp pytz
 
-    - name: Verificar versão do Python
-      run: |
-        python3 --version
+      - name: Verificar versão do Python
+        run: python3 --version
 
-    - name: Rodar script YT.py
-      run: |
-        # Navega até a pasta scripts e executa o script YT.py
-        python3 ia.py
+      - name: Rodar script ia.py
+        run: python3 ia.py
 
-    - name: Adicionar Mudanças ao Controle de Versão
-      run: |
-        git add -A
-        git status
+      - name: Verificar mudanças
+        run: git status
 
-    - name: Garantir alterações mais recentes do repositório remoto
-      run: |
-        git pull origin main || echo "Erro ao fazer pull, pode ser que já tenha as últimas alterações."
+      - name: Commit e Push
+        run: |
+          git add -A
 
-    - name: Verificar se há mudanças para commit
-      run: |
-        if [[ -n "$(git status --porcelain)" ]]; then
-          git commit -m "Atualizar lista baixada"
-        else
-          echo "Nenhuma mudança para commitar."
-        fi
-
-    - name: Push alterações
-      run: |
-        git push origin main || echo "Erro ao fazer push. Pode ser necessário revisar conflitos."
+          git diff --cached --quiet && echo "Nenhuma mudança" || (
+            git commit -m "Atualizar lista baixada"
+            git pull origin main --rebase || echo "Sem conflitos"
+            git push origin main
+          )
