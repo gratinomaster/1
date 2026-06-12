@@ -8,9 +8,15 @@ on:
       - main
   workflow_dispatch:
 
+# Permissões necessárias para o GitHub Action fazer push no repositório
+permissions:
+  contents: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true # Resolve o aviso de depreciação do Node.js
 
     steps:
       - name: Checkout Repositório
@@ -18,33 +24,26 @@ jobs:
         with:
           fetch-depth: 0
 
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
       - name: Configurar Git
         run: |
-          git config --global user.email "action@github.com"
-          git config --global user.name "GitHub Action"
-
-      - name: Deletar Log Antigo
-        run: |
-          rm -rf log.txt || echo "Log não existe, continuando..."
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git config --global user.name "github-actions[bot]"
 
       - name: Instalar dependências
         run: |
-          echo "Instalando dependências Python..."
-          python3 -m pip install --upgrade pip
-          python3 -m pip install yt-dlp beautifulsoup4
-
-      - name: Verificar versão do Python e yt-dlp
-        run: |
-          python3 --version
-          yt-dlp --version || echo "yt-dlp não instalado corretamente"
+          python -m pip install --upgrade pip
+          # Adicionei lxml e requests que são comuns para scraping
+          python -m pip install yt-dlp beautifulsoup4 lxml requests
 
       - name: Verificar arquivo ia.txt
         run: |
-          if [ -f ia.txt ]; then
-            echo "✓ ia.txt encontrado"
-            cat ia.txt
-          else
-            echo "ia.txt não encontrado, criando..."
+          if [ ! -f ia.txt ]; then
+            echo "ia.txt não encontrado, criando arquivo padrão..."
             cat > ia.txt << 'EOF'
 https://archive.org/details/globo-e-record-novelas-e-variados-2005-2006-e-2010-fita-vhs
 https://archive.org/details/globo-tv-gazeta-sao-paulo-e-redetv-ano-2007-em-fita-vhs
@@ -54,24 +53,27 @@ EOF
       - name: Rodar script ia2.py
         run: python3 ia2.py
 
-      - name: Verificar lista30.M3U
+      - name: Verificar arquivos gerados
         run: |
           if [ -f lista30.M3U ]; then
-            echo "✓ arquivo criado"
-            wc -l lista30.M3U
+            echo "✓ lista30.M3U gerada com sucesso ($(wc -l < lista30.M3U ) linhas)"
           else
-            echo "ERRO: lista30.M3U não foi criado"
+            echo "::error::Arquivo lista30.M3U não foi criado!"
             exit 1
           fi
 
       - name: Commit e Push
         run: |
-          git add lista30.M3U log.txt ia.txt
-
+          # Adiciona apenas os arquivos necessários
+          git add lista30.M3U ia.txt
+          
+          # Verifica se existem mudanças antes de commitar
           if git diff --cached --quiet; then
-            echo "Sem mudanças"
+            echo "Nenhuma mudança detectada na lista."
           else
-            git commit -m "🤖 Atualização automática da playlist - $(date '+%Y-%m-%d %H:%M:%S')"
-            git pull origin main --rebase || echo "Sem conflitos"
+            git commit -m "🤖 Atualização automática da playlist - $(date '+%Y-%m-%d %H:%M')"
+            
+            # Tenta fazer o push com rebase para evitar conflitos de concorrência
+            git pull --rebase origin main
             git push origin main
           fi
