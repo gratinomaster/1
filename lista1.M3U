@@ -1,22 +1,218 @@
 #EXTM3U
+#EXTINF:-1 group-title="GLOBO AO VIVO" tvg-id="Globo SP.br" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLBbr7-LGDTs8A4UlZaQ-v0s-u_T294dLLGlTkDsWp9mh_OPCP6ysZoaUkWA&s",TV Globo São Paulo
+http://hls1.sua.tv:80/live/globosphd/s.m3u8
+#EXTINF:-1 group-title="GLOBO AO VIVO" tvg-id="Globo SP.br" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVTA2lPxgzulUUqfQtAZ91PEug5evdlLfqP1l7Sr6U38KAtWklLFsOtIyqHg&s",TV Globo São Paulo
+http://hls1.sua.tv:80/live/globosphd/s.m3u8
+#EXTINF:-1 group-title="GLOBO AO VIVO" tvg-id="Globo SP.br" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDL0hiZWrm3Adfp7RouFKTT_oIyrYNUoouTMHacd4Zjf0oUUr49R-4em6lLA&s",TV Globo São Paulo
+http://hls1.sua.tv:80/live/globosphd/s.m3u8
+#EXTINF:-1 group-title="GLOBO AO VIVO" tvg-id="TV Bahia HD.br" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/1/1e/Logotipo_TV_Bahia.png",TV Bahia
+http://hls1.sua.tv/live/globotvbahiafhdbr2/s.m3u8
+#EXTINF:-1 group-title="GLOBO AO VIVO" tvg-id="TV Bahia HD.br" tvg-logo="https://i.imgur.com/k4fl1wF.png",TV Bahia
+http://hls1.sua.tv/live/globotvbahiafhdbr2/s.m3u8
+#EXTINF:-1 group-title="GLOBO AO VIVO" tvg-id="TV Bahia HD.br" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/1/1e/Logotipo_TV_Bahia.png",TV Bahia
+http://hls1.sua.tv/live/globotvbahiafhdbr2/s.m3u8
+#EXTINF:-1 group-title="GLOBO AO VIVO" tvg-id="TV Bahia HD.br" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/1/1e/Logotipo_TV_Bahia.png",TV Bahia
+http://hls1.sua.tv/live/globotvbahiafhdbr2/s.m3u8
+#EXTINF:-1 group-title="GLOBO AO VIVO" tvg-id="Globo TV Bahia.br" tvg-logo="https://i.imgur.com/k4fl1wF.png",TV Bahia
+http://hls1.sua.tv/live/globotvbahiafhdbr2/s.m3u8
+#EXTINF:-1 group-title="GLOBO AO VIVO" tvg-id="Globo TV Bahia.br" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/1/1e/Logotipo_TV_Bahia.png",TV Bahia
+http://hls1.sua.tv/live/globotvbahiafhdbr2/s.m3u8
+#EXTINF:-1 group-title="GLOBO AO VIVO" tvg-id="Globo TV Bahia.br" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/1/1e/Logotipo_TV_Bahia.png",TV Bahia
+http://hls1.sua.tv/live/globotvbahiafhdbr2/s.m3u8
+#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="NoLogoFound.png",Computer Chronicles - 01x01 - Mainframes to Minis to Micros
+https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chronicles.zip/Computer%20Chronicles%2FSeason%2001%2FEnglish%2FComputer%20Chronicles%20-%2001x01%20-%20Mainframes%20to%20Minis%20to%20Micros.mp4
+#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="NoLogoFound.png",Computer Chronicles - 01x02 - Integrated Software
+https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chronicles.zip/Computer%20Chronicles%2FSeason%2001%2FEnglish%2FComputer%20Chronicles%20-%2001x02%20-%20Integrated%20Software.mp4
+#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="NoLogoFound.png",Computer Chronicles - 01x03 - Computers and Music
+https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chronicles.zip/Computer%20Chronicles%2FSeason%2001%2FEnglish%2FComputer%20Chronicles%20-%2001x03%20-%20Computers%20and%20Music.mp4
+#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="NoLogoFound.png",Computer Chronicles - 01x04 - Computer Simulations
+https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chronicles.zip/Computer%20Chronicles%2FSeason%2001%2FEnglish%2FComputer%20Chronicles%20-%2001x04%20-%20Computer%20Simulations.mp4
+#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="NoLogoFound.png",Computer Chronicles - 01x05 - Operating Systems
+https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chronicles.zip/Computer%20Chronicles%2FSeason%2001%2FEnglish%2FComputer%20Chronicles%20-%2001x05%20-%20Operating%20Systems.mp4
+#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="NoLogoFound.png",Computer Chronicles - 01x06 - Word Processing
+https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chronicles.zip/Computer%20Chronicles%2FSeason%2001%2FEnglish%2FComputer%20Chronicles%20-%2001x06%20-%20Word%20Processing.mp4
+#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="NoLogoFound.png",Computer Chronicles - 01x07 - Computer Security
+https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chronicles.zip/Computer%20Chronicles%2FSeason%2001%2FEnglish%2FComputer%20Chronicles%20-%2001x07%20-%20Computer%20Security.mp4
+#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="NoLogoFound.png",Computer Chronicles - 01x08 - Robotics
+https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chronicles.zip/Computer%20Chronicles%2FSeason%2001%2FEnglish%2FComputer%20Chronicles%20-%2001x08%20-%20Robotics.mp4
+#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="NoLogoFound.png",Computer Chronicles - 01x09 - Speech Synthesis
+https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chronicles.zip/Computer%20Chronicles%2FSeason%2001%2FEnglish%2FComputer%20Chronicles%20-%2001x09%20-%20Speech%20Synthesis.mp4
+#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="NoLogoFound.png",Computer Chronicles - 01x10 - Networking
+https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chronicles.zip/Computer%20Chronicles%2FSeason%2001%2FEnglish%2FComputer%20Chronicles%20-%2001x10%20-%20Networking.mp4
+#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="NoLogoFound.png",Computer Chronicles - 01x11 - Microchips
+https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chronicles.zip/Computer%20Chronicles%2FSeason%2001%2FEnglish%2FComputer%20Chronicles%20-%2001x11%20-%20Microchips.mp4
+#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="NoLogoFound.png",Computer Chronicles - 01x12 - Business Applications (1984)
+https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chronicles.zip/Computer%20Chronicles%2FSeason%2001%2FEnglish%2FComputer%20Chronicles%20-%2001x12%20-%20Business%20Applications%20%281984%29.mp4
+#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="NoLogoFound.png",Computer Chronicles - 01x13 - Storage Devices
+https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chronicles.zip/Computer%20Chronicles%2FSeason%2001%2FEnglish%2FComputer%20Chronicles%20-%2001x13%20-%20Storage%20Devices.mp4
+#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="NoLogoFound.png",Computer Chronicles - 01x14 - Printers
+https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chronicles.zip/Computer%20Chronicles%2FSeason%2001%2FEnglish%2FComputer%20Chronicles%20-%2001x14%20-%20Printers.mp4
+#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="NoLogoFound.png",Computer Chronicles - 01x15 - Databases
+https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chronicles.zip/Computer%20Chronicles%2FSeason%2001%2FEnglish%2FComputer%20Chronicles%20-%2001x15%20-%20Databases.mp4
+#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="NoLogoFound.png",Computer Chronicles - 01x16 - Computer Graphics
+https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chronicles.zip/Computer%20Chronicles%2FSeason%2001%2FEnglish%2FComputer%20Chronicles%20-%2001x16%20-%20Computer%20Graphics.mp4
+#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="NoLogoFound.png",Computer Chronicles - 01x17 - Decision Support Systems
+https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chronicles.zip/Computer%20Chronicles%2FSeason%2001%2FEnglish%2FComputer%20Chronicles%20-%2001x17%20-%20Decision%20Support%20Systems.mp4
+#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="NoLogoFound.png",Computer Chronicles - 01x18 - Computer Ergonomics
+https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chronicles.zip/Computer%20Chronicles%2FSeason%2001%2FEnglish%2FComputer%20Chronicles%20-%2001x18%20-%20Computer%20Ergonomics.mp4
+#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="NoLogoFound.png",Computer Chronicles - 01x19 - Programming Languages
+https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chronicles.zip/Computer%20Chronicles%2FSeason%2001%2FEnglish%2FComputer%20Chronicles%20-%2001x19%20-%20Programming%20Languages.mp4
+#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="NoLogoFound.png",Computer Chronicles - 01x21 - Computer Games
+https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chronicles.zip/Computer%20Chronicles%2FSeason%2001%2FEnglish%2FComputer%20Chronicles%20-%2001x21%20-%20Computer%20Games.mp4
+#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="NoLogoFound.png",Computer Chronicles - 01x22 - Computer Entrepreneurs (v1)
+https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chronicles.zip/Computer%20Chronicles%2FSeason%2001%2FEnglish%2FComputer%20Chronicles%20-%2001x22%20-%20Computer%20Entrepreneurs%20%28v1%29.mp4
+#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="NoLogoFound.png",Computer Chronicles - 01x22 - Computer Entrepreneurs (v2)
+https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chronicles.zip/Computer%20Chronicles%2FSeason%2001%2FEnglish%2FComputer%20Chronicles%20-%2001x22%20-%20Computer%20Entrepreneurs%20%28v2%29.mp4
+#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="NoLogoFound.png",Computer Chronicles - 01x23 - Fifth Generation Computers
+https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chronicles.zip/Computer%20Chronicles%2FSeason%2001%2FEnglish%2FComputer%20Chronicles%20-%2001x23%20-%20Fifth%20Generation%20Computers.mp4
+#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="NoLogoFound.png",Computer Chronicles - 01x24 - Super Computers
+https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chronicles.zip/Computer%20Chronicles%2FSeason%2001%2FEnglish%2FComputer%20Chronicles%20-%2001x24%20-%20Super%20Computers.mp4
+#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="NoLogoFound.png",Computer Chronicles - 01x25 - Artificial Intelligence (1984) (v1)
+https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chronicles.zip/Computer%20Chronicles%2FSeason%2001%2FEnglish%2FComputer%20Chronicles%20-%2001x25%20-%20Artificial%20Intelligence%20%281984%29%20%28v1%29.mp4
+#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="NoLogoFound.png",Computer Chronicles - 01x25 - Artificial Intelligence (1984) (v2)
+https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chronicles.zip/Computer%20Chronicles%2FSeason%2001%2FEnglish%2FComputer%20Chronicles%20-%2001x25%20-%20Artificial%20Intelligence%20%281984%29%20%28v2%29.mp4
+#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="NoLogoFound.png",Computer Chronicles - 01x26 - Computers in Education
+https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chronicles.zip/Computer%20Chronicles%2FSeason%2001%2FEnglish%2FComputer%20Chronicles%20-%2001x26%20-%20Computers%20in%20Education.mp4
+#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="NoLogoFound.png",Computer Chronicles - 02x01 - Laser Disk Storage
+https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chronicles.zip/Computer%20Chronicles%2FSeason%2002%2FEnglish%2FComputer%20Chronicles%20-%2002x01%20-%20Laser%20Disk%20Storage.mp4
+#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="NoLogoFound.png",Computer Chronicles - 02x02 - Portable Computers
+https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chronicles.zip/Computer%20Chronicles%2FSeason%2002%2FEnglish%2FComputer%20Chronicles%20-%2002x02%20-%20Portable%20Computers.mp4
+#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="NoLogoFound.png",Computer Chronicles - 02x03 - Computer Games
+https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chronicles.zip/Computer%20Chronicles%2FSeason%2002%2FEnglish%2FComputer%20Chronicles%20-%2002x03%20-%20Computer%20Games.mp4
+#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="NoLogoFound.png",Computer Chronicles - 02x04 - IBM Compatible Computers
+https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chronicles.zip/Computer%20Chronicles%2FSeason%2002%2FEnglish%2FComputer%20Chronicles%20-%2002x04%20-%20IBM%20Compatible%20Computers.mp4
+#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="NoLogoFound.png",Computer Chronicles - 02x05 - Software Piracy
+https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chronicles.zip/Computer%20Chronicles%2FSeason%2002%2FEnglish%2FComputer%20Chronicles%20-%2002x05%20-%20Software%20Piracy.mp4
+#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="NoLogoFound.png",Computer Chronicles - 02x06 - Computers and the Disabled
+https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chronicles.zip/Computer%20Chronicles%2FSeason%2002%2FEnglish%2FComputer%20Chronicles%20-%2002x06%20-%20Computers%20and%20the%20Disabled.mp4
+#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="NoLogoFound.png",Computer Chronicles - 02x07 - UNIX (1985)
+https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chronicles.zip/Computer%20Chronicles%2FSeason%2002%2FEnglish%2FComputer%20Chronicles%20-%2002x07%20-%20UNIX%20%281985%29.mp4
+#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="NoLogoFound.png",Computer Chronicles - 02x08 - Computers and Sports (1985)
+https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chronicles.zip/Computer%20Chronicles%2FSeason%2002%2FEnglish%2FComputer%20Chronicles%20-%2002x08%20-%20Computers%20and%20Sports%20%281985%29.mp4
+#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="NoLogoFound.png",Computer Chronicles - 02x09 - Personal Finance Software
+https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chronicles.zip/Computer%20Chronicles%2FSeason%2002%2FEnglish%2FComputer%20Chronicles%20-%2002x09%20-%20Personal%20Finance%20Software.mp4
+#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="NoLogoFound.png",Computer Chronicles - 02x10 - The Macintosh Computer
+https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chronicles.zip/Computer%20Chronicles%2FSeason%2002%2FEnglish%2FComputer%20Chronicles%20-%2002x10%20-%20The%20Macintosh%20Computer.mp4
+#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="NoLogoFound.png",Computer Chronicles - 02x11 - Profile of Big Blue (IBM)
+https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chronicles.zip/Computer%20Chronicles%2FSeason%2002%2FEnglish%2FComputer%20Chronicles%20-%2002x11%20-%20Profile%20of%20Big%20Blue%20%28IBM%29.mp4
+#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="NoLogoFound.png",Computer Chronicles - 02x13 - Computers & Communications
+https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chronicles.zip/Computer%20Chronicles%2FSeason%2002%2FEnglish%2FComputer%20Chronicles%20-%2002x13%20-%20Computers%20%26%20Communications.mp4
+#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="NoLogoFound.png",Computer Chronicles - 02x15 - Low End Computers
+https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chronicles.zip/Computer%20Chronicles%2FSeason%2002%2FEnglish%2FComputer%20Chronicles%20-%2002x15%20-%20Low%20End%20Computers.mp4
+#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="NoLogoFound.png",Computer Chronicles - 02x18 - Japanese PCs
+https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chronicles.zip/Computer%20Chronicles%2FSeason%2002%2FEnglish%2FComputer%20Chronicles%20-%2002x18%20-%20Japanese%20PCs.mp4
+#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="NoLogoFound.png",Computer Chronicles - 02x19 - Robots (1985)
+https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chronicles.zip/Computer%20Chronicles%2FSeason%2002%2FEnglish%2FComputer%20Chronicles%20-%2002x19%20-%20Robots%20%281985%29.mp4
+#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="NoLogoFound.png",Computer Chronicles - 02x22 - Computer Graphics
+https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chronicles.zip/Computer%20Chronicles%2FSeason%2002%2FEnglish%2FComputer%20Chronicles%20-%2002x22%20-%20Computer%20Graphics.mp4
+#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="NoLogoFound.png",Computer Chronicles - 03x03 - Women in Computing
+https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chronicles.zip/Computer%20Chronicles%2FSeason%2003%2FEnglish%2FComputer%20Chronicles%20-%2003x03%20-%20Women%20in%20Computing.mp4
+#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="NoLogoFound.png",Computer Chronicles - 03x04 - Printers & Business Graphics
+https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chronicles.zip/Computer%20Chronicles%2FSeason%2003%2FEnglish%2FComputer%20Chronicles%20-%2003x04%20-%20Printers%20%26%20Business%20Graphics.mp4
+#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="NoLogoFound.png",Computer Chronicles - 03x07 - Computers and the Media
+https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chronicles.zip/Computer%20Chronicles%2FSeason%2003%2FEnglish%2FComputer%20Chronicles%20-%2003x07%20-%20Computers%20and%20the%20Media.mp4
+#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="NoLogoFound.png",Computer Chronicles - 03x08 - Modems & Bulletin Boards
+https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chronicles.zip/Computer%20Chronicles%2FSeason%2003%2FEnglish%2FComputer%20Chronicles%20-%2003x08%20-%20Modems%20%26%20Bulletin%20Boards.mp4
+#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="NoLogoFound.png",Computer Chronicles - 03x09 - Computer Networks
+https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chronicles.zip/Computer%20Chronicles%2FSeason%2003%2FEnglish%2FComputer%20Chronicles%20-%2003x09%20-%20Computer%20Networks.mp4
+#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="NoLogoFound.png",Computer Chronicles - 03x10 - Computers and Politics (1985)
+https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chronicles.zip/Computer%20Chronicles%2FSeason%2003%2FEnglish%2FComputer%20Chronicles%20-%2003x10%20-%20Computers%20and%20Politics%20%281985%29.mp4
+#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="NoLogoFound.png",Computer Chronicles - 03x11 - Computers and Medicine
+https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chronicles.zip/Computer%20Chronicles%2FSeason%2003%2FEnglish%2FComputer%20Chronicles%20-%2003x11%20-%20Computers%20and%20Medicine.mp4
+#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="NoLogoFound.png",Computer Chronicles - 03x12 - Optical Storage Devices
+https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chronicles.zip/Computer%20Chronicles%2FSeason%2003%2FEnglish%2FComputer%20Chronicles%20-%2003x12%20-%20Optical%20Storage%20Devices.mp4
+#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="NoLogoFound.png",Computer Chronicles - 03x13 - Business Applications (1985)
+https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chronicles.zip/Computer%20Chronicles%2FSeason%2003%2FEnglish%2FComputer%20Chronicles%20-%2003x13%20-%20Business%20Applications%20%281985%29.mp4
+#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="NoLogoFound.png",Computer Chronicles - 03x14 - Amiga and Atari
+https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chronicles.zip/Computer%20Chronicles%2FSeason%2003%2FEnglish%2FComputer%20Chronicles%20-%2003x14%20-%20Amiga%20and%20Atari.mp4
+#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="NoLogoFound.png",Computer Chronicles - 03x15 - Consumer's Buyers Guide (1985)
+https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chronicles.zip/Computer%20Chronicles%2FSeason%2003%2FEnglish%2FComputer%20Chronicles%20-%2003x15%20-%20Consumer%27s%20Buyers%20Guide%20%281985%29.mp4
+#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="NoLogoFound.png",Computer Chronicles - 03x16 - Hard Disk Storage
+https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chronicles.zip/Computer%20Chronicles%2FSeason%2003%2FEnglish%2FComputer%20Chronicles%20-%2003x16%20-%20Hard%20Disk%20Storage.mp4
+#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="NoLogoFound.png",Computer Chronicles - 03x17 - Artificial Intelligence (1986)
+https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chronicles.zip/Computer%20Chronicles%2FSeason%2003%2FEnglish%2FComputer%20Chronicles%20-%2003x17%20-%20Artificial%20Intelligence%20%281986%29.mp4
+#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="NoLogoFound.png",Computer Chronicles - 03x18 - Computers in Law Enforcement
+https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chronicles.zip/Computer%20Chronicles%2FSeason%2003%2FEnglish%2FComputer%20Chronicles%20-%2003x18%20-%20Computers%20in%20Law%20Enforcement.mp4
+#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="NoLogoFound.png",Computer Chronicles - 03x19 - Investment Software
+https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chronicles.zip/Computer%20Chronicles%2FSeason%2003%2FEnglish%2FComputer%20Chronicles%20-%2003x19%20-%20Investment%20Software.mp4
+#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="NoLogoFound.png",Computer Chronicles - 03x20 - Psychological Software
+https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chronicles.zip/Computer%20Chronicles%2FSeason%2003%2FEnglish%2FComputer%20Chronicles%20-%2003x20%20-%20Psychological%20Software.mp4
+#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="NoLogoFound.png",Computer Chronicles - 03x21 - Astronomy Software
+https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chronicles.zip/Computer%20Chronicles%2FSeason%2003%2FEnglish%2FComputer%20Chronicles%20-%2003x21%20-%20Astronomy%20Software.mp4
+#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="NoLogoFound.png",Computer Chronicles - 03x23 - Careers in Computing
+https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chronicles.zip/Computer%20Chronicles%2FSeason%2003%2FEnglish%2FComputer%20Chronicles%20-%2003x23%20-%20Careers%20in%20Computing.mp4
+#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="NoLogoFound.png",Computer Chronicles - 03x24 - Parallel Processing
+https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chronicles.zip/Computer%20Chronicles%2FSeason%2003%2FEnglish%2FComputer%20Chronicles%20-%2003x24%20-%20Parallel%20Processing.mp4
+#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="NoLogoFound.png",Computer Chronicles - 04x03 - MIDI Music
+https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chronicles.zip/Computer%20Chronicles%2FSeason%2004%2FEnglish%2FComputer%20Chronicles%20-%2004x03%20-%20MIDI%20Music.mp4
+#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="NoLogoFound.png",Computer Chronicles - 04x04 - RISC Processors
+https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chronicles.zip/Computer%20Chronicles%2FSeason%2004%2FEnglish%2FComputer%20Chronicles%20-%2004x04%20-%20RISC%20Processors.mp4
+#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="NoLogoFound.png",Computer Chronicles - 04x05 - Software Utilities
+https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chronicles.zip/Computer%20Chronicles%2FSeason%2004%2FEnglish%2FComputer%20Chronicles%20-%2004x05%20-%20Software%20Utilities.mp4
+#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="NoLogoFound.png",Computer Chronicles - 04x06 - Second Hand Computers
+https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chronicles.zip/Computer%20Chronicles%2FSeason%2004%2FEnglish%2FComputer%20Chronicles%20-%2004x06%20-%20Second%20Hand%20Computers.mp4
+#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="NoLogoFound.png",Computer Chronicles - 04x09 - Software Macros
+https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chronicles.zip/Computer%20Chronicles%2FSeason%2004%2FEnglish%2FComputer%20Chronicles%20-%2004x09%20-%20Software%20Macros.mp4
+#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="NoLogoFound.png",Computer Chronicles - 04x10 - RAM Resident Software
+https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chronicles.zip/Computer%20Chronicles%2FSeason%2004%2FEnglish%2FComputer%20Chronicles%20-%2004x10%20-%20RAM%20Resident%20Software.mp4
+#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="NoLogoFound.png",Computer Chronicles - 04x11 - Comdex Special (1986)
+https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chronicles.zip/Computer%20Chronicles%2FSeason%2004%2FEnglish%2FComputer%20Chronicles%20-%2004x11%20-%20Comdex%20Special%20%281986%29.mp4
+#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="NoLogoFound.png",Computer Chronicles - 04x12 - Project Management Software
+https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chronicles.zip/Computer%20Chronicles%2FSeason%2004%2FEnglish%2FComputer%20Chronicles%20-%2004x12%20-%20Project%20Management%20Software.mp4
+#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="NoLogoFound.png",Computer Chronicles - 04x13 - Consumer's Buyers Guide (1986)
+https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chronicles.zip/Computer%20Chronicles%2FSeason%2004%2FEnglish%2FComputer%20Chronicles%20-%2004x13%20-%20Consumer%27s%20Buyers%20Guide%20%281986%29.mp4
+#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="NoLogoFound.png",Computer Chronicles - 04x14 - E-Mail Applications
+https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chronicles.zip/Computer%20Chronicles%2FSeason%2004%2FEnglish%2FComputer%20Chronicles%20-%2004x14%20-%20E-Mail%20Applications.mp4
+#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="NoLogoFound.png",Computer Chronicles - 04x15 - Intel 386 Microprocessor
+https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chronicles.zip/Computer%20Chronicles%2FSeason%2004%2FEnglish%2FComputer%20Chronicles%20-%2004x15%20-%20Intel%20386%20Microprocessor.mp4
+#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="NoLogoFound.png",Computer Chronicles - 04x18 - Intelligent Buildings
+https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chronicles.zip/Computer%20Chronicles%2FSeason%2004%2FEnglish%2FComputer%20Chronicles%20-%2004x18%20-%20Intelligent%20Buildings.mp4
+#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="NoLogoFound.png",Computer Chronicles - 04x20 - Speech Recognition & Synthesis
+https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chronicles.zip/Computer%20Chronicles%2FSeason%2004%2FEnglish%2FComputer%20Chronicles%20-%2004x20%20-%20Speech%20Recognition%20%26%20Synthesis.mp4
+#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="NoLogoFound.png",Computer Chronicles - 04x21 - Tex Preparation Software
+https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chronicles.zip/Computer%20Chronicles%2FSeason%2004%2FEnglish%2FComputer%20Chronicles%20-%2004x21%20-%20Tex%20Preparation%20Software.mp4
+#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="NoLogoFound.png",Computer Chronicles - 04x22 - Portable Computers
+https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chronicles.zip/Computer%20Chronicles%2FSeason%2004%2FEnglish%2FComputer%20Chronicles%20-%2004x22%20-%20Portable%20Computers.mp4
+#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="NoLogoFound.png",Computer Chronicles - 04x23 - Kids and Computers
+https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chronicles.zip/Computer%20Chronicles%2FSeason%2004%2FEnglish%2FComputer%20Chronicles%20-%2004x23%20-%20Kids%20and%20Computers.mp4
+#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="NoLogoFound.png",Computer Chronicles - 04x24 - Computers and the Arts
+https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chronicles.zip/Computer%20Chronicles%2FSeason%2004%2FEnglish%2FComputer%20Chronicles%20-%2004x24%20-%20Computers%20and%20the%20Arts.mp4
+#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="NoLogoFound.png",Computer Chronicles - 04x25 - Computers and Illiteracy
+https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chronicles.zip/Computer%20Chronicles%2FSeason%2004%2FEnglish%2FComputer%20Chronicles%20-%2004x25%20-%20Computers%20and%20Illiteracy.mp4
+#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="NoLogoFound.png",Computer Chronicles - 04x26 - Computers and Gambling
+https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chronicles.zip/Computer%20Chronicles%2FSeason%2004%2FEnglish%2FComputer%20Chronicles%20-%2004x26%20-%20Computers%20and%20Gambling.mp4
 #EXTM3U
-#EXTINF:-1 group-title="VOD" ,NBC Nightly News August 3, 1970
-https://archive.org/download/nbc-19700803/NBC%E6%99%9A%E9%97%B4%E6%96%B0%E9%97%BB%2019700803.ia.mp4
-#EXTINF:-1 group-title="VOD" ,06/21/1979 (1979-06-21)
-https://archive.org/download/aapb-cpb-aacip-259-nv998p58/cpb-aacip-259-nv998p58_06_21_1979.mp4
-#EXTINF:-1 group-title="VOD" ,NBC October 1989 Commercial Collection
-https://archive.org/download/nbc-commercial-break-october-19-1989-another-world-360p/NBC%20Commercial%20Break%20October%2019%201989%20Another%20World%20360p.mp4
-#EXTINF:-1 group-title="VOD" ,2002 promo for Southern Cross Nightly News
-https://archive.org/download/2002-promo-for-southern-cross-nightly-news/2002%20promo%20for%20Southern%20Cross%20Nightly%20News.mp4
-#EXTINF:-1 group-title="VOD" ,2014 Political Ad by Tom Wolf for Governor
-https://archive.org/download/PolAd_TomWolf_puk6z/PolAd_TomWolf_puk6z.webm
+#EXTINF:-1 group-title="VOD" ,''The Ed Wynn Show'' - 6 October 1949
+https://archive.org/download/TheEdWynnShow6October1949/TheEdWynnShow6October1949.ogv
+#EXTINF:-1 group-title="VOD" ,''Studio One'' - Wintertime
+https://archive.org/download/StudioOneWintertime/StudioOne-wintertime.ogv
+#EXTINF:-1 group-title="VOD" ,'Love of Life' - March 20, 1953
+https://archive.org/download/Love_Of_Life_Soap/LoveofLifeMarch20-1953.ogv
+#EXTINF:-1 group-title="VOD" ,''The George Burns and Gracie Allen Show'' (Episode aired 1/November/1954)
+https://archive.org/download/DriversLicence/GracieDrivers.ogv
+#EXTINF:-1 group-title="VOD" ,''Four Star Playhouse'' - Henry And The Psychopathic Horse
+https://archive.org/download/FourStarPlayhouseHenryAndThePsychopathicHorse/Four%20Star%20Playhouse%20-%20Henry%20and%20the%20Psychopathic%20Horse.ogv
+#EXTINF:-1 group-title="VOD" ,CBS ID from 1957 (Classic TV)
+https://archive.org/download/CBS_ID_4/CBS_ID_4.ogv
+#EXTINF:-1 group-title="VOD" ,As the World Turns - March 31, 1961
+https://archive.org/download/AsTheWorldTurns-March311961/AsTheWorldTurns31March1961.ogv
+#EXTINF:-1 group-title="VOD" ,''I've Got a Secret'' - 23 January 1967
+https://archive.org/download/iveGotASecret-23January1967/IveGotaSecret23January1967.ogv
+#EXTINF:-1 group-title="VOD" ,Smothers Brothers Comedy Hour 69 03 16 3 21 Glen Campbell, Righteous Brothers, David Frye
+https://archive.org/download/69-03-16-3-21-glen-campbell-righteous-brothers-david-frye/69-03-16%203-21%20Glen%20Campbell%2C%20Righteous%20Brothers%2C%20David%20Frye.mp4
+#EXTINF:-1 group-title="VOD" ,KPIX/CBS Commercial Breaks, 9/25/1979
+https://archive.org/download/kpixcommercials-sep-251979wm/KPIXCommercials_Sep251979wm.mp4
 #EXTM3U
 #EXTM3U
 #EXTM3U
 #EXTM3U
 #EXTM3U
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/T16tVjFT/TVP-ARGENTINA.jpg" group-title="ARGENTINA",TVP ARGENTINA HD
+https://edgetvp.global.ssl.fastly.net/b16/ngrp:c7_vivo01_dai_source-20001_all/c7_vivo01_dai_source-20001_1080p.m3u8
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/cLCrSRdh/CRONICA-TV-HD.jpg" group-title="ARGENTINA",CRONICA TV HD
+https://g2.proy-slo.transport.edge-access.net/a14/ngrp:cronicatv_video1-100044_all/cronicatv_video1-100044_720p.m3u8
 #EXTM3U url-tvg="https://iptv-epg.org/files/epg-mx.xml.gz" x-tvg-url="https://iptv-epg.org/files/epg-mx.xml.gz"
-#EXTINF:-1 tvg-id="Canal15ILCE.mx" group-title="Education" tvg-logo="https://i.imgur.com/r7czgOc.png",Canal 15 ILCE Summa Sabres (720p)
+#EXTINF:-1 group-title="Education" tvg-logo="https://i.imgur.com/r7czgOc.png",Canal 15 ILCE Summa Sabres (720p)
 https://live-ilce.ovp-vivaro.digital/ovp-origin-abr/ngrp:6359ef999f3fb_all/playlist.m3u8
 #EXTINF:-1 tvg-id="Canal5.mx" tvg-logo="https://i.imgur.com/uZdVSoW.png",Canal 5 (720p) [Geo-blocked]
 http://45.5.119.43:4000/play/a05o/index.m3u8
@@ -24,8 +220,6 @@ http://45.5.119.43:4000/play/a05o/index.m3u8
 https://estrellatv-oando.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/bFG4Rqz.png",Presumiendo México (720p)
 https://60417ddeaf0d9.streamlock.net/telemetrika/smil:telemetrika.smil/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/XpcCZvu.png",Radiotele Morelia (352p)
-http://linkrt.ddns.net:8080/hls/rtmorelia_MID.m3u8
 #EXTINF:-1 tvg-id="Canal4.mx" group-title="Culture;Education" tvg-logo="https://i.imgur.com/N4meE8I.png",Jalisco TV (720p)
 https://video0.rogohosting.com:19360/sisjalisciense/sisjalisciense.m3u8
 #EXTINF:-1 tvg-id="TVCuatro.mx" tvg-logo="https://i.imgur.com/Of044Jx.png",TV Cuatro 4.2 (1080p)
@@ -34,9 +228,9 @@ https://5f2c1b0d880e5.streamlock.net/tv42/tv42.smil/.m3u8
 https://the-pet-collective-international-mx.samsung.wurl.tv/playlist.m3u8
 #EXTINF:-1 group-title="Entertainment;Family" tvg-logo="https://i.imgur.com/Z52nEnH.png",Estrella Games (1080p)
 https://estrella-games-oando.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="TVUG.mx" tvg-logo="https://i.imgur.com/pxkDpTU.jpeg",TV UG (1080p) [Not 24/7]
+#EXTINF:-1 tvg-logo="https://i.imgur.com/pxkDpTU.jpeg",TV UG (1080p) [Not 24/7]
 https://5ca3e84a76d30.streamlock.net/universidadgto/videouniversidadgto/playlist.m3u8
-#EXTINF:-1 tvg-id="8NTV.mx" group-title="General" tvg-logo="https://i.imgur.com/7ecgGIG.png",8NTV (1080p)
+#EXTINF:-1 group-title="General" tvg-logo="https://i.imgur.com/7ecgGIG.png",8NTV (1080p)
 https://60417ddeaf0d9.streamlock.net/ntv/videontv/playlist.m3u8
 #EXTINF:-1 tvg-id="Canal5.mx" tvg-logo="https://i.imgur.com/0nzNMuP.jpeg",Canal 5 TV Cozumel (1080p)
 https://video0.rogohosting.com:19360/tvcozumel/tvcozumel.m3u8
@@ -62,81 +256,77 @@ https://servilive.com:3263/live/channel12live.m3u8
 https://5ca9af4645e15.streamlock.net/nuevetv/videonuevetv/.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/RxhABeK.png",SIZART Canal 24 (XHZHZ-TDT) (720p)
 https://5f2c1b0d880e5.streamlock.net/zacatecas/videozacatecas/playlist.m3u8
-#EXTINF:-1 tvg-id="NayaritComunica.mx" tvg-logo="https://i.imgur.com/aZCTkjU.jpg",Nayarit Comunica (1080p)
+#EXTINF:-1 tvg-logo="https://i.imgur.com/aZCTkjU.jpg",Nayarit Comunica (1080p)
 https://live.iplanay.gob.mx/hls/nayarittv.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/R3icGuG.png",IERTBCS Canal 8.2 La Paz (1080p) [Not 24/7]
 https://s5.mexside.net:1936/xhbzc82/xhbzc82/playlist.m3u8
 #EXTINF:-1 tvg-id="TVCuatro.mx" tvg-logo="https://i.imgur.com/Of044Jx.png",TV Cuatro 4.1 (1080p)
 https://5f1af61612fb5.streamlock.net/tv4/tv4.smil/.m3u8
-#EXTINF:-1 tvg-id="TVMarPuertoVallarta.mx" tvg-logo="https://i.imgur.com/z9iVlMn.png",TV Mar Puerto Vallarta (1080p)
+#EXTINF:-1 tvg-logo="https://i.imgur.com/z9iVlMn.png",TV Mar Puerto Vallarta (1080p)
 https://5ca9af4645e15.streamlock.net/tvmarvallarta/videotvmarvallarta/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/MeV5N08.png",Teleplay Sureste (720p)
 https://player.tvstream.mx/livestream/teleplay/livehd/playlist.m3u8
-#EXTINF:-1 group-title="Culture" tvg-logo="https://i.imgur.com/aKvPd4g.jpg",El Sonorense (1080p) [Not 24/7]
-https://s5.mexside.net:1936/elsonorense/elsonorense/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/5qlVblr.png",VB Media TV (1080p)
 https://capomo01-enitv.eninetworks.com/locales_vbmedia_publico/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/dbJKErB.png",SET Televisión Canal 26.2 (720p) [Not 24/7]
 https://5d0d1d7a6be9e.streamlock.net/sicom/canal2/playlist.m3u8
-#EXTINF:-1 tvg-id="Canal28.mx" tvg-logo="https://i.imgur.com/9qL4LJF.png",TV Nuevo León Canal 28 (XHMNL-TDT) (720p)
-https://s5.mexside.net:1936/canal28/canal28/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/R3icGuG.png",IERTBCS Canal 8 La Paz (1080p) [Not 24/7]
 https://s5.mexside.net:1936/xhbzc81/xhbzc81/playlist.m3u8
-#EXTINF:-1 tvg-id="ElChavo.mx" group-title="Kids" tvg-logo="https://gia.tv/streams/pptv/211465.png",El Chavo TV (720p)
+#EXTINF:-1 group-title="Kids" tvg-logo="https://gia.tv/streams/pptv/211465.png",El Chavo TV (720p)
 https://live20.bozztv.com/giatvplayout7/giatv-211465/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/D3dj4mv.png",Filmex Clásico (1080p) [Geo-blocked]
 https://filmex-filmexclasico-xumo.amagi.tv/playlist.m3u8
 #EXTINF:-1 group-title="Movies" tvg-logo="https://i.imgur.com/Hiz2OyC.png",Filmex (Xumo) (1080p) [Geo-blocked]
 https://filmex-filmex-xumo.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="TVMarLaPaz.mx" tvg-logo="https://i.imgur.com/z9iVlMn.png",TV Mar La Paz (1080p)
+#EXTINF:-1 tvg-logo="https://i.imgur.com/z9iVlMn.png",TV Mar La Paz (1080p)
 https://5fc584f3f19c9.streamlock.net/tvmarlapaz/smil:tvmarlapaz.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="TVPLosMochis.mx" tvg-logo="https://i.imgur.com/uX1S3kt.png",TVP Los Mochis (720p) [Not 24/7]
+#EXTINF:-1 tvg-logo="https://i.imgur.com/uX1S3kt.png",TVP Los Mochis (720p) [Not 24/7]
 https://5ca3e84a76d30.streamlock.net/gpacifico2/mochis.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="TVPObregon.mx" tvg-logo="https://i.imgur.com/uX1S3kt.png",TVP Obregón (720p) [Not 24/7]
+#EXTINF:-1 tvg-logo="https://i.imgur.com/uX1S3kt.png",TVP Obregón (720p) [Not 24/7]
 https://5ca3e84a76d30.streamlock.net/gpacifico3/obregon.smil/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/Bnjj29f.png",CreaLaTV (1080p)
 https://stream.crealatv.com/live.m3u8
-#EXTINF:-1 tvg-id="TVPMazatlan.mx" tvg-logo="https://i.imgur.com/uX1S3kt.png",TVP Mazatlán (720p) [Not 24/7]
+#EXTINF:-1 tvg-logo="https://i.imgur.com/uX1S3kt.png",TVP Mazatlán (720p) [Not 24/7]
 https://5ca3e84a76d30.streamlock.net/gpacifico4/smil:mazatlan.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="TVPCuliacan.mx" tvg-logo="https://i.imgur.com/uX1S3kt.png",TVP Culiacán (720p) [Not 24/7]
+#EXTINF:-1 tvg-logo="https://i.imgur.com/uX1S3kt.png",TVP Culiacán (720p) [Not 24/7]
 https://5ca3e84a76d30.streamlock.net/gpacifico1/smil:gpculiacan.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="EstrellaNews.mx" group-title="News" tvg-logo="https://i.imgur.com/HRrkhLq.png",Estrella News (1080p)
+#EXTINF:-1 group-title="News" tvg-logo="https://i.imgur.com/HRrkhLq.png",Estrella News (1080p)
 https://estrella-news-oando.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="TVMarLosCabos.mx" tvg-logo="https://i.imgur.com/z9iVlMn.png",TV Mar Los Cabos (1080p)
+#EXTINF:-1 tvg-logo="https://i.imgur.com/z9iVlMn.png",TV Mar Los Cabos (1080p)
 https://5fc584f3f19c9.streamlock.net/tvmarloscabos/smil:tvmarloscabos.smil/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/W8a1dIa.png",Raly TV (720p)
 https://cloudvideo.servers10.com:8081/8072/index.m3u8
-#EXTINF:-1 tvg-id="LoboTv.mx" tvg-logo="https://i.imgur.com/3fA50RJ.png",Lobo TV (720p)
+#EXTINF:-1 tvg-logo="https://i.imgur.com/3fA50RJ.png",Lobo TV (720p)
 https://5ca3e84a76d30.streamlock.net/tvlobo/videotvlobo/playlist.m3u8
 #EXTINF:-1 tvg-id="CanalDelCongreso.mx" tvg-logo="https://i.imgur.com/fLpkHfZ.png",Canal Parlamento del Congreso de Jalisco (720p) [Not 24/7]
 https://60417ddeaf0d9.streamlock.net/srtc/smil:srtc.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="ConectaTV.mx" group-title="Music" tvg-logo="https://i.imgur.com/qEk0QGa.png",Conecta TV (720p)
+#EXTINF:-1 group-title="Music" tvg-logo="https://i.imgur.com/qEk0QGa.png",Conecta TV (720p)
 https://stream8.mexiserver.com:19360/conectatvx/conectatvx.m3u8
-#EXTINF:-1 tvg-id="MariaVision.mx" tvg-logo="https://i.imgur.com/GylOPxE.png",María Visión Mexico (360p) [Not 24/7]
+#EXTINF:-1 tvg-logo="https://i.imgur.com/GylOPxE.png",María Visión Mexico (360p) [Not 24/7]
 https://1601580044.rsc.cdn77.org/live/_jcn_/amlst:Mariavision/master.m3u8
-#EXTINF:-1 tvg-id="ICRTVColima.mx" tvg-logo="https://i.imgur.com/iUks0ot.png",ICRTV Colima (1080p)
+#EXTINF:-1 tvg-logo="https://i.imgur.com/iUks0ot.png",ICRTV Colima (1080p)
 https://5fc584f3f19c9.streamlock.net/icrtvcolima/smil:icrtvcolima.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="Canal26AGS.mx",CANAL 26 AGUASCALIENTES
+#EXTINF:-1,CANAL 26 AGUASCALIENTES
 http://streamingcws10.com:1935/telemetrika3/videotelemetrika3/.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/0rMHbbM.png",Monte Maria (1080p)
 https://5ca9af4645e15.streamlock.net/montemaria/videomontemaria/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://iptv-epg.org/images/OpVbQCtFLJ_KiRA0BqybxIM2F-nTOzG4-98dx7j09m8sBiAO19Hhj-Y9RhYuNZhwAj40hf0ii85lqhfer8HqskcurLgAFVDnhoYzwg",HBO2
 http://190.60.37.154:45000/play/a052/index.m3u8
-#EXTINF:-1 tvg-id="MariaVision.mx" tvg-logo="https://raw.githubusercontent.com/Osares10/ipmx/refs/heads/main/logos/Maria%20Vision.png",Maria Vision
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Osares10/ipmx/refs/heads/main/logos/Maria%20Vision.png",Maria Vision
 https://1601580044.rsc.cdn77.org/live/_jcn_/amls:Mariavision/chunklist.m3u8
-#EXTINF:-1 tvg-id="TuristikTV.mx" group-title="Travel" tvg-logo="https://i.imgur.com/g9j0ze8.png",Turistik TV (720p)
+#EXTINF:-1 group-title="Travel" tvg-logo="https://i.imgur.com/g9j0ze8.png",Turistik TV (720p)
 https://cdn1.cef-technology.com/stream_web/turistik/playlist.m3u8
-#EXTINF:-1 tvg-id="AlcanceTV.mx" group-title="Religious" tvg-logo="https://i.imgur.com/5nYjRlb.png",Alcance TV (720p)
+#EXTINF:-1 group-title="Religious" tvg-logo="https://i.imgur.com/5nYjRlb.png",Alcance TV (720p)
 https://5bf8041cb3fed.streamlock.net/AlcanceTV/AlcanceTV/playlist.m3u8
 #EXTINF:-1 tvg-id="Canal4.mx" tvg-logo="https://i.imgur.com/7i7GkSL.png",PSN Canal 45.2 (288p)
 https://srspsn2.live/live/livestream.m3u8
-#EXTINF:-1 tvg-id="DW.mx" tvg-logo="https://raw.githubusercontent.com/Osares10/ipmx/refs/heads/main/logos/DW.png",DW
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Osares10/ipmx/refs/heads/main/logos/DW.png",DW
 https://dwamdstream104.akamaized.net/hls/live/2015530-b/dwstream104/stream04/streamPlaylist.m3u8
 #EXTINF:-1 tvg-id="TVCuatro.mx" tvg-logo="https://raw.githubusercontent.com/Osares10/ipmx/refs/heads/main/logos/TV%20Cuatro.png",TV Cuatro 4.2
 https://5f2c1b0d880e5.streamlock.net/tv42/videotv42/playlist.m3u8
 #EXTINF:-1,ESTRELLA TV
 https://estrellatv-roku.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://iptv-epg.org/images/jQnQYLInVH7MB99Vt78IZh5j1KYs4wCZCmF1lCJN87u_f1lQVYXuPlbAUSFQZcB7AOdvQ7SmTs4B6DDXElRDvUBS2vfSV7bO3Hcmk1Sy3g",US CANAL 57
+#EXTINF:-1 tvg-id="Canal5.mx" tvg-logo="https://iptv-epg.org/images/jQnQYLInVH7MB99Vt78IZh5j1KYs4wCZCmF1lCJN87u_f1lQVYXuPlbAUSFQZcB7AOdvQ7SmTs4B6DDXElRDvUBS2vfSV7bO3Hcmk1Sy3g",US CANAL 57
 https://167790.global.ssl.fastly.net/6189746bccf0424c112f5476/live_50bbca50292011ed8d265962bedee5f9/tracks-v2a1/mono.m3u8
 #EXTINF:-1 tvg-id="TVCuatro.mx" tvg-logo="https://raw.githubusercontent.com/Osares10/ipmx/refs/heads/main/logos/TV%20Cuatro.png",TV Cuatro 4.1
 https://5f1af61612fb5.streamlock.net/tv4/videotv4/playlist.m3u8
@@ -146,9 +336,9 @@ https://5ca3e84a76d30.streamlock.net:443/mexiquense/videomexiquense/playlist.m3u
 https://stream.ads.ottera.tv/playlist.m3u8?network_id=5396
 #EXTINF:-1 tvg-logo="https://iptv-epg.org/images/zuvPQTsHPVWTnzz8SgZsLV50CWsACZtou3n5ZzFxzkPFeyqGzKsCeo1IIPSudXHihBi8GZ9mbDXj8BfiL1qLn5IsKU23DdC-7x7WuZtjqDff_tKL",ITV Deportes
 https://thm-it-roku.otteravision.com/thm/it/it.m3u8
-#EXTINF:-1 tvg-id="RCGTV.mx",RCG 1 Saltillo | MX
+#EXTINF:-1,RCG 1 Saltillo | MX
 https://video1.getstreamhosting.com:1936/8172/8172/playlist.m3u8?PlaylistM3UCL
-#EXTINF:-1 tvg-id="AztecaInternacional.mx",Azteca Internacional
+#EXTINF:-1,Azteca Internacional
 https://azt-mun.otteravision.com/azt/mun/mun.m3u8
 #EXTINF:-1 tvg-id="AYMSports.mx" tvg-logo="https://iptv-epg.org/images/rKekuBLIwPixJbCPb0-hwVLyMJcuqKm5gURmWIX1g37bZeWkFXnuFY5OcHY62nNxQ2i0dar2MrGL7yLKz42rnXBVU6Sps7prkxR2LTucQGeSNQ",MX AYM SPORTS
 https://aym-as.otteravision.com/aym/as/as_1080p.m3u8
@@ -174,10 +364,8 @@ https://s5.mexside.net:1936/tvmigrante/tvmigrante/playlist.m3u8
 https://59d39900ebfb8.streamlock.net:443/8312/8312/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://iptv-epg.org/images/zuvPQTsHPVWTnzz8SgZsLV50CWsACZtou3n5ZzFxzkPFeyqGzKsCeo1IIPSudXHihBi8GZ9mbDXj8BfiL1qLn5IsKU23DdC-7x7WuZtjqDff_tKL",MX INTERNETV DEPORTES
 https://stream.ads.ottera.tv/playlist.m3u8?network_id=5999
-#EXTINF:-1 tvg-id="VisionTV.mx" tvg-logo="https://i.imgur.com/HV5tgcM.png",Visión Televisión (720p)
+#EXTINF:-1 tvg-logo="https://i.imgur.com/HV5tgcM.png",Visión Televisión (720p)
 https://cloudvideo.servers10.com:8081/8016/index.m3u8
-#EXTINF:-1 tvg-id="Azteca7.mx" tvg-logo="https://iptv-epg.org/images/JvoZXsuwnPjc4vg3gV_andEtTcrP6QlTzilCUzwlv8wrIog5Yb--a0FFT_4RIwMgNiBnnN85TstPOBYb9p20XY2jsBKCyaBlFN_SqA3HIhM",Azteca 7
-https://dai.google.com/linear/hls/event/YHoOj51dSKCvBQOBG2OvLQ/master.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Osares10/ipmx/refs/heads/main/logos/RT.png",RT
 https://rt-esp.rttv.com/dvr/rtesp/playlist_1600Kb.m3u8
 #EXTINF:-1,RCN
@@ -190,11 +378,11 @@ https://stream.ads.ottera.tv/playlist.m3u8?network_id=3528
 https://stream.ads.ottera.tv/playlist.m3u8?network_id=2649
 #EXTINF:-1,Run Time Comedia
 https://stream.ads.ottera.tv/playlist.m3u8?network_id=2551
-#EXTINF:-1 tvg-id="Canal30Bethel.mx",Canal 30 TV Bethel
+#EXTINF:-1,Canal 30 TV Bethel
 https://s.emisoras.tv:8081/canal30tvbethel/index.m3u8
 #EXTINF:-1,Run Time Terror
 https://stream.ads.ottera.tv/playlist.m3u8?network_id=3529
-#EXTINF:-1 tvg-id="AMXNoticias.mx",AMX Noticias
+#EXTINF:-1,AMX Noticias
 https://5e50264bd6766.streamlock.net/mexiquense2/videomexiquense2/playlist.m3u8
 #EXTINF:-1,Aguacate TV
 https://streamtv.intervenhosting.net:3040/hybrid/play.m3u8
@@ -204,17 +392,17 @@ https://stream.ads.ottera.tv/playlist.m3u8?network_id=2153
 https://nbculocallive.akamaized.net/hls/live/2037499/puertorico/stream1/master.m3u8
 #EXTINF:-1,Run Time Acción
 https://stream.ads.ottera.tv/playlist.m3u8?network_id=2550
-#EXTINF:-1 tvg-id="CanalSur2.mx",Canal Sur 2
+#EXTINF:-1,Canal Sur 2
 https://cdnlive.codev8.net/rtvalive/smil:channel22.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="A+.mx" tvg-logo="https://iptv-epg.org/images/DFQ3fQzwRzbMBKxDwxBWr4qgoQP8Ps0CQ2D2XLDmun5PFWc3kJDckLZGJnKvrlGps-30gpvl0_dP2oskPGIGXKeL0bGso-ItreiNxAY",Fifa+
 https://is.gd/7PhGkV?5e20b730f2f8d5003d739db7-66628d4a8dfc36b8c8a399c4.m3u8
 #EXTINF:-1,Run Time Crimen
 https://stream.ads.ottera.tv/playlist.m3u8?network_id=3533
-#EXTINF:-1 tvg-id="CatatumboTV.mx",Catatumbo TV
+#EXTINF:-1,Catatumbo TV
 https://cloud.fastchannel.es/manifiest/hls/prog9/catatumbotv.m3u8
 #EXTINF:-1,3ABN Latino
 https://3abn.bozztv.com/3abn2/Lat_live/smil:Lat_live.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="Canal8.mx",Canal 8 Catacaos
+#EXTINF:-1,Canal 8 Catacaos
 https://live.obslivestream.com/canal8/index.m3u8
 #EXTINF:-1,Dios Te Ve
 https://s.emisoras.tv:8081/diostevetv/index.m3u8
@@ -232,23 +420,19 @@ https://cdn3.wowza.com/5/dk84U1p2UUdoMGxT/cupertino/G0067_003/playlist.m3u8
 https://cdn3.wowza.com/1/ZVBYYXFLLzE0c3NC/Qk1FMURC/hls/live/playlist.m3u8
 #EXTINF:-1 tvg-id="adn40.mx" group-title="Uncategorized" tvg-logo="https://raw.githubusercontent.com/Osares10/ipmx/refs/heads/main/logos/ADN%2040.png",ADN 40
 https://mdstrm.com/live-stream-playlist/60b578b060947317de7b57ac.m3u8
-#EXTINF:-1 tvg-logo="https://iptv-epg.org/images/zuvPQTsHPVWTnzz8SgZsLV50CWsACZtou3n5ZzFxzkPFeyqGzKsCeo1IIPSudXHihBi8GZ9mbDXj8BfiL1qLn5IsKU23DdC-7x7WuZtjqDff_tKL",MX CLARO SPORTS
-https://dai.google.com/linear/hls/event/yINISWAPQ0CPhPixe-40wQ/master.m3u8
 #EXTINF:-1 tvg-id="JusticiaTV.mx" tvg-logo="https://iptv-epg.org/images/pr7qhMKmdm81CfsvT8ZdhRcjg8BdQf7i9xWWGcf1Egq7yk52-YNYMrP5EK9ETAQoU9chHFvKcqi0Oa7RTgQ4HF4_vlP3YVgN7MkhM9gIe_2BVPc",Justicia TV
 https://live-scjn.ovp-vivaro.digital/ovp-origin/638a22b47746d/playlist.m3u8
 #EXTINF:-1 tvg-id="MTV.mx" tvg-logo="https://iptv-epg.org/images/41PoR-RCVsYjY7nzVipGHYjpYsi48jmyNrNleBXDJfmFiTfDlm67tTh_GozfNB3nkAW2zVBXfQgqY-_qZez-sue5XCmRRgEhwPT3Nw",FMTV
 https://s2.tvdatta.com:3307/hybrid/play.m3u8
 #EXTINF:-1,KSCE-DT1
 https://2-fss-2.streamhoster.com/pl_138/200226-1359204-1/playlist.m3u8
-#EXTINF:-1,La liga Inside
-https://d3bb58xoj568xi.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-don7i7nmbho0q/index.m3u8
 #EXTINF:-1,Caritas TV
 https://rds3.desdeparaguay.net/caritastv/caritastv/playlist.m3u8
 #EXTINF:-1,Infinita TV
 https://s2.tvdatta.com:3753/hybrid/play.m3u8
-#EXTINF:-1 tvg-id="France24.mx",France 24 Espanol
+#EXTINF:-1,France 24 Espanol
 https://a-cdn.klowdtv.com/live2/france24sp_720p/playlist.m3u8
-#EXTINF:-1 tvg-id="CanalMalaga.mx" tvg-logo="https://iptv-epg.org/images/zuvPQTsHPVWTnzz8SgZsLV50CWsACZtou3n5ZzFxzkPFeyqGzKsCeo1IIPSudXHihBi8GZ9mbDXj8BfiL1qLn5IsKU23DdC-7x7WuZtjqDff_tKL",Canal Malaga RTV
+#EXTINF:-1 tvg-logo="https://iptv-epg.org/images/zuvPQTsHPVWTnzz8SgZsLV50CWsACZtou3n5ZzFxzkPFeyqGzKsCeo1IIPSudXHihBi8GZ9mbDXj8BfiL1qLn5IsKU23DdC-7x7WuZtjqDff_tKL",Canal Malaga RTV
 https://canalmalaga-tv-live.flumotion.com/playlist.m3u8
 #EXTINF:-1,KSCE-DT2
 https://2-fss-2.streamhoster.com/pl_120/200226-1449024-1/playlist.m3u8
@@ -274,7 +458,7 @@ https://cdn3.wowza.com/5/UWpORHhLSEs5SkJs/cerritos/G0010_002/playlist.m3u8
 https://brightstar-latino-pull-secure.akamaized.net/brightstarlatino/stream.m3u8
 #EXTINF:-1 tvg-id="StingrayClassica.mx",Stingray Classica
 https://lotus.stingray.com/manifest/classica-cla008-montreal/samsungtvplus/master.m3u8
-#EXTINF:-1 tvg-logo="https://iptv-epg.org/images/41PoR-RCVsYjY7nzVipGHYjpYsi48jmyNrNleBXDJfmFiTfDlm67tTh_GozfNB3nkAW2zVBXfQgqY-_qZez-sue5XCmRRgEhwPT3Nw",SUMtv Latino
+#EXTINF:-1 tvg-id="MTV.mx" tvg-logo="https://iptv-epg.org/images/41PoR-RCVsYjY7nzVipGHYjpYsi48jmyNrNleBXDJfmFiTfDlm67tTh_GozfNB3nkAW2zVBXfQgqY-_qZez-sue5XCmRRgEhwPT3Nw",SUMtv Latino
 https://bozztv.com/uni10rtmp/ssstv2-cdn/smil:ssstv2web.smil/playlist.m3u8
 #EXTINF:-1,Ecuador TV
 https://samson.streamerr.co:8081/shogun/index.m3u8
@@ -314,11 +498,11 @@ https://stream.solmediaeg.com/soltv/soltv.m3u8
 https://livetv.305streamhd.com:3667/live/majestadtvlive.m3u8
 #EXTINF:-1,Vepaco TV
 https://cloud.fastchannel.es/manifiest/hls/prog9/vepacotv.m3u8
-#EXTINF:-1 tvg-id="RTQQueretaro.mx" tvg-logo="https://iptv-epg.org/images/zuvPQTsHPVWTnzz8SgZsLV50CWsACZtou3n5ZzFxzkPFeyqGzKsCeo1IIPSudXHihBi8GZ9mbDXj8BfiL1qLn5IsKU23DdC-7x7WuZtjqDff_tKL",RTQ Queretaro | MX
+#EXTINF:-1 tvg-logo="https://iptv-epg.org/images/zuvPQTsHPVWTnzz8SgZsLV50CWsACZtou3n5ZzFxzkPFeyqGzKsCeo1IIPSudXHihBi8GZ9mbDXj8BfiL1qLn5IsKU23DdC-7x7WuZtjqDff_tKL",RTQ Queretaro | MX
 https://59d39900ebfb8.streamlock.net/rytqrolive/rytqrolive/playlist.m3u8?PlaylistM3UCL
-#EXTINF:-1 tvg-id="ConectaTV.mx",Conecta TV | MX
+#EXTINF:-1,Conecta TV | MX
 https://stream8.mexiserver.com:19360/conectatvx/conectatvx.m3u8?PlaylistM3UCL
-#EXTINF:-1 tvg-id="Canal10Chiapas.mx",Canal 10 Chiapas | MX
+#EXTINF:-1,Canal 10 Chiapas | MX
 https://5ca9af4645e15.streamlock.net:443/chiapas/videochiapas/playlist.m3u8?PlaylistM3UCL
 #EXTINF:-1,Yuma Channel 73
 https://livestream.telvue.com/yumaaz2/f7b44cfafd5c52223d5498196c8a2e7b.sdp/playlist.m3u8
@@ -328,9 +512,9 @@ https://tvturf4.janus.cl/playlist/stream.m3u8?d=w&id=
 https://stream.eleden.com/livesalvatv/ngrp:livesalvatv_all/playlist.m3u8
 #EXTINF:-1,RadioMensaje TV
 https://eu1.servers10.com:8081/8230/index.m3u8
-#EXTINF:-1 tvg-id="TempusStream.mx",Tempus Stream | MX
+#EXTINF:-1,Tempus Stream | MX
 https://video1.getstreamhosting.com:1936/8116/8116/playlist.m3u8?PlaylistM3UCL
-#EXTINF:-1 tvg-id="TV4Noticias.mx",TV4 Noticias | MX
+#EXTINF:-1,TV4 Noticias | MX
 https://5ca3e84a76d30.streamlock.net/tv4/smil:tv4.smil/playlist.m3u8?PlaylistM3UCL
 #EXTINF:-1,XHSPR-TDT1
 https://s5.mexside.net:1936/canal14/canal14/playlist.m3u8
@@ -338,21 +522,21 @@ https://s5.mexside.net:1936/canal14/canal14/playlist.m3u8
 https://627bb251f23c7.streamlock.net:444/TopRadioTV/TopRadioTV/playlist.m3u8
 #EXTINF:-1,VIVO TV
 https://stream.vivotv.uy/hls/stream.m3u8
-#EXTINF:-1 tvg-id="TVPMazatlan.mx",TVP Mazatlan | MX
+#EXTINF:-1,TVP Mazatlan | MX
 https://5ca3e84a76d30.streamlock.net:443/gpacifico4/smil:mazatlan.smil/playlist.m3u8?PlaylistM3UCL
-#EXTINF:-1 tvg-id="TVPObregon.mx",TVP Obregon | MX
+#EXTINF:-1,TVP Obregon | MX
 https://5ca3e84a76d30.streamlock.net:443/gpacifico3/smil:obregon.smil/playlist.m3u8?PlaylistM3UCL
 #EXTINF:-1,Prensa Latina TV
 https://eu1.servers10.com:8081/8192/index.m3u8
-#EXTINF:-1 tvg-id="AlJazeera.mx",US AL JAZEERA EN
+#EXTINF:-1,US AL JAZEERA EN
 https://live-hls-web-aje-fa.getaj.net/AJE/03.m3u8
 #EXTINF:-1,Platzi TV
 https://mdstrm.com/live-stream-playlist/629a63ae8df27c082901f78b.m3u8
-#EXTINF:-1 tvg-id="TVPLosMochis.mx",TVP Los Mochis | MX
+#EXTINF:-1,TVP Los Mochis | MX
 https://5ca3e84a76d30.streamlock.net:443/gpacifico2/smil:mochis.smil/playlist.m3u8?PlaylistM3UCL
-#EXTINF:-1 tvg-id="AMXNoticias.mx",AMX Noticias | MX
+#EXTINF:-1,AMX Noticias | MX
 https://5e50264bd6766.streamlock.net/mexiquense2/videomexiquense2/playlist.m3u8?PlaylistM3UCL
-#EXTINF:-1 tvg-logo="https://iptv-epg.org/images/41PoR-RCVsYjY7nzVipGHYjpYsi48jmyNrNleBXDJfmFiTfDlm67tTh_GozfNB3nkAW2zVBXfQgqY-_qZez-sue5XCmRRgEhwPT3Nw",UMTV | MX
+#EXTINF:-1 tvg-id="MTV.mx" tvg-logo="https://iptv-epg.org/images/41PoR-RCVsYjY7nzVipGHYjpYsi48jmyNrNleBXDJfmFiTfDlm67tTh_GozfNB3nkAW2zVBXfQgqY-_qZez-sue5XCmRRgEhwPT3Nw",UMTV | MX
 https://60417ddeaf0d9.streamlock.net:443/montemorelos/videomontemorelos/playlist.m3u8?PlaylistM3UCL
 #EXTINF:-1,PR PUNTO 2
 https://nbculocallive.akamaized.net/hls/live/2037499/puertorico/stream2/master.m3u8
@@ -362,15 +546,15 @@ https://cdn3.wowza.com/1/SmVrQmZCUXZhVDgz/b3J3MFJv/hls/live/playlist.m3u8
 https://panel.tvstream.cl:1936/8034/8034/playlist.m3u8?PlaylistM3UCL
 #EXTINF:-1 tvg-id="AztecaUno.mx" tvg-logo="https://iptv-epg.org/images/AP9vXjbBBVbU_jPtdkBUh0_S18KDIY0Udol-wdTBY1YVQ-eZbxXxn1VCZp53pDw3pv1V9ijDLps6Hj_sqw9lAVbXIW_i3cAjA4uNeSQRheFeKQ",Azteca Uno - 1H
 https://azt-oo.otteravision.com/out/v1/da53d7d388be437e92bf8f464018eb48/index.m3u8
-#EXTINF:-1 tvg-id="MariaVision.mx",MX MARIA VISION
+#EXTINF:-1,MX MARIA VISION
 https://1601580044.rsc.cdn77.org/live/_jcn_/amlst:Mariavision/playlist.m3u8
-#EXTINF:-1 tvg-id="AlcanceTV.mx",Alcance TV | MX
+#EXTINF:-1,Alcance TV | MX
 https://5bf8041cb3fed.streamlock.net:443/AlcanceTV/AlcanceTV/playlist.m3u8?PlaylistM3UCL
-#EXTINF:-1 tvg-id="Canal26AGS.mx",AGS CANAL 26
+#EXTINF:-1,AGS CANAL 26
 https://60417ddeaf0d9.streamlock.net/telemetrika3/smil:telemetrika3.smil/playlist.m3u8
 #EXTINF:-1,ROMANCE LATINO
 https://lotus.stingray.com/manifest/ose-202ads-montreal/samsungtvplus/master.m3u8
-#EXTINF:-1 tvg-id="TelediarioNow.mx" tvg-logo="https://iptv-epg.org/images/XQHe6ipCzaYDguaLpwd58iI0aHH8yVdb8mL6xe3Pgapn1V2tO122piGR7y30Lvw8Q3FdY8VG3vwPwKJNLH1zKFfh0B9kr3tLHmsVC9kfia7ceW-my2hKUA",MX MULTIMEDIOS TELEDIARIO NOW
+#EXTINF:-1 tvg-id="MultimediosPlus.mx" tvg-logo="https://iptv-epg.org/images/XQHe6ipCzaYDguaLpwd58iI0aHH8yVdb8mL6xe3Pgapn1V2tO122piGR7y30Lvw8Q3FdY8VG3vwPwKJNLH1zKFfh0B9kr3tLHmsVC9kfia7ceW-my2hKUA",MX MULTIMEDIOS TELEDIARIO NOW
 https://stream.ads.ottera.tv/playlist.m3u8?network_id=11014&avod=1&coppa=0&is_lat=0&dnt=0&td=6&us_privacy=1ynn&did=3dafe10496907bcf3d5a3415a3135845&ifa_type=sessionid&app_bundle=com.canela.ott&app_store_url=https%3A%2F%2Fwww.canela.tv%2Fdevices&app_domain=canela.tv&app_name=canelatv&custom_targeting=web&custom_4=internal&player_height=720&player_width=1280&content_channel=canelatv&content_dist_name=internal&device_make=&device_model=&device_os=web&preferred_language=en&consent=1&gdpr=0&custom_12=0&custom_15=es&custom_16=en&custom_17=es&country=mx&country_region=mexico%20city&postal_code=07890&site_page=https%253a%252f%252fwww.canela.tv%252fes%252flinear%252ftelediario-now&gender=not_specified&yob=0&livestream=1&custom_param_0=&custom_param_1=handset&custom_param_2=&custom_param_3=&custom_param_4=internal&custom_param_5=web&timestamp=1726015280&id=69276&ip=2806%3A2f0%3Aa2a0%3Afb1d%3A7121%3A79d4%3Ac454%3A16ac&override_expiration=1500&deliveryProfileId=23762&sign=1MztDmTEi0FHwHXT9qSFpZNa08kwr6CgtXl8ZbK0rIs%3D
 #EXTINF:-1,LATIN POP
 https://lotus.stingray.com/manifest/ose-190ads-montreal/samsungtvplus/master.m3u8
@@ -380,33 +564,27 @@ https://bild-und-ton.stream/sophiatv-es/smil:sophia-tv-es.smil/playlist.m3u8
 https://5ca9af4645e15.streamlock.net/rtv/videortv/playlist.m3u8
 #EXTINF:-1,SEASON
 https://lotus.stingray.com/manifest/ose-155ads-montreal/samsungtvplus/master.m3u8
-#EXTINF:-1,COUNTRY
-https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/master.m3u8?ads.xumo_channelId=99991118
 #EXTINF:-1,Yahoo! Finance
 https://yahoo-plex.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="Canal10Chiapas.mx",CHIAP CANAL 10
+#EXTINF:-1,CHIAP CANAL 10
 https://5ca9af4645e15.streamlock.net/chiapas/videochiapas/playlist.m3u8
-#EXTINF:-1 tvg-id="TVUJAT.mx",TAB TV UJAT
+#EXTINF:-1,TAB TV UJAT
 https://5e50264bd6766.streamlock.net/ujat/videoujat/playlist.m3u8
-#EXTINF:-1 tvg-id="TRC.mx",CAM TRC
+#EXTINF:-1,CAM TRC
 https://5f1af61612fb5.streamlock.net/trc/videotrc/playlist.m3u8
-#EXTINF:-1,GREATEST HITS
-https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/master.m3u8?ads.xumo_channelId=99991120
 #EXTINF:-1,3/24
 https://directes-tv-int.3catdirectes.cat/live-content/canal324-hls/master.m3u8
 #EXTINF:-1 tvg-id="MilenioTV.mx" tvg-logo="https://i.imgur.com/TG1T5Oh.png",Milenio Televisión (720p)
 https://jmp2.uk/plu-652e922db4b047000825f975.m3u8
-#EXTINF:-1,REMEMBER THE 80s
-https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/master.m3u8?ads.xumo_channelId=99991742
 #EXTINF:-1,Ecuavisa
 https://jireh-4-hls-video-us-isp.dps.live/hls-video/c54ac2799874375c81c1672abb700870537c5223/ecuavisa/ecuavisa.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="TVCuatro.mx" tvg-logo="https://iptv-epg.org/images/FL5YjD7fNOgMDqrzqGsOk3cWdBXsX5QOVXymne_gvLwDbl9UZPExgh93x8FPjSrw1qP5NOLoiM1642gXaQHDQImFwbwJsnQ2qRTwcumFJ6g2",GTO TV 4.1
 https://5f1af61612fb5.streamlock.net/tv4/smil:tv4.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="CGTN.mx",CGTN Espanol
+#EXTINF:-1,CGTN Espanol
 https://espanol-livews.cgtn.com/hls/LSveOGBaBw41Ea7ukkVAUdKQ220802LSTexu6xAuFH8VZNBLE1ZNEa220802cd/playlist.m3u8
 #EXTINF:-1 tvg-id="AYMSports.mx" tvg-logo="https://iptv-epg.org/images/rKekuBLIwPixJbCPb0-hwVLyMJcuqKm5gURmWIX1g37bZeWkFXnuFY5OcHY62nNxQ2i0dar2MrGL7yLKz42rnXBVU6Sps7prkxR2LTucQGeSNQ",AYM Sports
 https://stream.ads.ottera.tv/playlist.m3u8?network_id=5106
-#EXTINF:-1 tvg-id="TelediarioNow.mx",Telediario Now
+#EXTINF:-1,Telediario Now
 https://stream.ads.ottera.tv/playlist.m3u8?network_id=11014
 #EXTINF:-1,Corazón Fast
 https://stream.ads.ottera.tv/playlist.m3u8?network_id=4826
@@ -426,7 +604,7 @@ https://stream.ads.ottera.tv/playlist.m3u8?network_id=6149
 https://stream.ads.ottera.tv/playlist.m3u8?network_id=6404
 #EXTINF:-1 tvg-id="Canal6CDMX.mx" tvg-logo="https://iptv-epg.org/images/6Auk-WnCFAvrbyrmjeoJHBtAyCdUXh_EKh1-GyWK_EhwmeiDdM153z199jlaz0iR3FA2LAiHNOEhoPXtN2lhhF9ie7BFyKmTyVCX-vLt9CgxeMg",Canal 6 CDMX
 https://stream.ads.ottera.tv/playlist.m3u8?network_id=6405
-#EXTINF:-1 tvg-id="8NTV.mx",8NTV
+#EXTINF:-1,8NTV
 https://60417ddeaf0d9.streamlock.net/ntv/videontv/chunklist_w1674309445.m3u8
 #EXTINF:-1 tvg-id="AztecaUno.mx" tvg-logo="https://iptv-epg.org/images/AP9vXjbBBVbU_jPtdkBUh0_S18KDIY0Udol-wdTBY1YVQ-eZbxXxn1VCZp53pDw3pv1V9ijDLps6Hj_sqw9lAVbXIW_i3cAjA4uNeSQRheFeKQ",Azteca Uno (-1h)
 https://stream.ads.ottera.tv/playlist.m3u8?network_id=4833
@@ -448,13 +626,11 @@ https://mdstrm.com/live-stream-playlist/60b578b060947317de7b57ac.m3u8?PlaylistM3
 https://bit.controlstreams.com:5443/LiveApp/streams/punt3.m3u8
 #EXTINF:-1,WPT
 https://stream.ads.ottera.tv/playlist.m3u8?network_id=5504
-#EXTINF:-1,Rockola tv
-https://e46fa4a445464f8a9150fa7d510eb85c.mediatailor.us-west-2.amazonaws.com/v1/manifest/2d2d0d97b0e548f025b2598a69b55bf30337aa0e/npp/f1e41991-852e-4879-9352-73da780e9230/2.m3u8
 #EXTINF:-1 tvg-logo="https://iptv-epg.org/images/zuvPQTsHPVWTnzz8SgZsLV50CWsACZtou3n5ZzFxzkPFeyqGzKsCeo1IIPSudXHihBi8GZ9mbDXj8BfiL1qLn5IsKU23DdC-7x7WuZtjqDff_tKL",Portal FoxMix
 https://panel.tvstream.cl:1936/8040/8040/playlist.m3u8
 #EXTINF:-1,Vevo 2k
 https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00056-vevotv-vevo2kau-samsungau/playlist.m3u8
-#EXTINF:-1 tvg-id="RTQQueretaro.mx" tvg-logo="https://i.imgur.com/RRckCvf.png",RTQ Querétaro (1080p)
+#EXTINF:-1 tvg-logo="https://i.imgur.com/RRckCvf.png",RTQ Querétaro (1080p)
 https://59d39900ebfb8.streamlock.net/rytqrolive/rytqrolive/chunklist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/k9M2MOT.png",RTG (720p)
 https://5e50264bd6766.streamlock.net/radtvguerrero/videoradtvguerrero/playlist.m3u8
@@ -474,17 +650,17 @@ https://webprod.sipse.com.mx:8080/show/merida.m3u8
 https://servilive.com:3879/live/telesaltillolive.m3u8
 #EXTINF:-1 group-title="Weather" tvg-logo="https://i.imgur.com/KIEKOt1.png",WeatherSpy (720p)
 https://jukin-weatherspy-2-mx.samsung.wurl.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="RCGTV.mx" tvg-logo="https://i.imgur.com/kYtAR26.png",RCG TV (1080p)
+#EXTINF:-1 tvg-logo="https://i.imgur.com/kYtAR26.png",RCG TV (1080p)
 https://video1.getstreamhosting.com:1936/8172/8172/playlist.m3u8
-#EXTINF:-1 tvg-id="UltraTVPuebla.mx" tvg-logo="https://www.ultralaradio.mx/sad/imagenes/sucursales/1.png",Ultra TV Puebla (720p) [Not 24/7]
+#EXTINF:-1 tvg-logo="https://www.ultralaradio.mx/sad/imagenes/sucursales/1.png",Ultra TV Puebla (720p) [Not 24/7]
 https://5e50264bd6766.streamlock.net/telemetrika2/smil:telemetrika2.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="TVLoboDurango.mx" tvg-logo="https://i.imgur.com/q9p1Spj.png",TV Lobo Durango (720p)
+#EXTINF:-1 tvg-logo="https://i.imgur.com/q9p1Spj.png",TV Lobo Durango (720p)
 https://5ca9af4645e15.streamlock.net/lobodurango/videolobodurango/playlist.m3u8
 #EXTINF:-1 tvg-id="CanalOnce.mx" group-title="Cultural;Education" tvg-logo="https://iptv-epg.org/images/Rs82drCMaij586gjO4z8cFXgHPsBXeH4Fmp1MzBijzab4QJWwTVQPDN0RsLnPXQsB4QbF5SpH6JQmPadokgtpFQeD4GjH4PfjGg8TgA5ksjT3w",Canal Once (1080p)
 https://d24sa4vr9gvjv.cloudfront.net/index.m3u8
-#EXTINF:-1 tvg-id="TRC.mx" tvg-logo="https://i.imgur.com/W4xwCdl.png",TRC Televisión (720p)
+#EXTINF:-1 tvg-logo="https://i.imgur.com/W4xwCdl.png",TRC Televisión (720p)
 https://5fe2654d6127d.streamlock.net/trc/videotrc/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/sjxVdPh.png",UMTV (1080p) [Not 24/7]
+#EXTINF:-1 tvg-id="MTV.mx" tvg-logo="https://i.imgur.com/sjxVdPh.png",UMTV (1080p) [Not 24/7]
 https://60417ddeaf0d9.streamlock.net/montemorelos/videomontemorelos/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/5vaEhfy.png",Tlaxcala Televisión (360p) [Not 24/7]
 https://vid26.mega00.com:5443/live/streams/qNmc7nulmq8zPYZE1582752735050.m3u8
@@ -492,7 +668,7 @@ https://vid26.mega00.com:5443/live/streams/qNmc7nulmq8zPYZE1582752735050.m3u8
 http://ebsonair.ebs.co.kr/ebsufamilypc/familypc1m/playlist.m3u8
 #EXTINF:-1,Radio 3
 https://ztnr.rtve.es/ztnr/6982918.m3u8
-#EXTINF:-1 tvg-id="Telemax.mx" tvg-logo="https://i.imgur.com/klhTyDU.png",Telemax (XEWH-TDT) (1080p)
+#EXTINF:-1 tvg-logo="https://i.imgur.com/klhTyDU.png",Telemax (XEWH-TDT) (1080p)
 https://s5.mexside.net:1936/telemax/telemax/playlist.m3u8
 #EXTINF:-1 tvg-id="Canal22.mx" group-title="Cultural" tvg-logo="https://iptv-epg.org/images/wH5P9_wey373HwvsSWknH15Z2pU7CN-66-7mIRGIXbtUlYTqqA4O6wozzxvIGvyTnOrhHj02XQIA7r0NQWr9wEPAE3lTHfUx65FkCQ1qx3o",Canal 22 (1080p)
 https://5f700d5b2c46f.streamlock.net/canal22/canal22/playlist.m3u8
@@ -506,57 +682,30 @@ https://rtvelivestream-rtveplayplus.rtve.es/rtvesec/int/star_main_dvr_1080.m3u8
 https://59ef525c24caa.streamlock.net/vmtv/vmlatino/playlist.m3u8
 #EXTINF:-1 tvg-id="TUDNMexico.mx" tvg-logo="https://i.imgur.com/oT5CAvd.png",TUDN (1080p)
 https://streaming.alwaysdata.net/tudn.php
-#EXTINF:-1 tvg-id="MultimediosPlus.mx" tvg-logo="https://iptv-epg.org/images/XQHe6ipCzaYDguaLpwd58iI0aHH8yVdb8mL6xe3PgaVCCsdERh1NGjzL3FmqV_qJFJX96W8d_2rI2tqF3B8axK7LdFzAxiyBm97OQ_Y_5SlTYW5qqp-1c" group-title="General",Multimedios Televisión (1080p)
+#EXTINF:-1 tvg-id="MultimediosPlus.mx" group-title="General" tvg-logo="https://iptv-epg.org/images/XQHe6ipCzaYDguaLpwd58iI0aHH8yVdb8mL6xe3PgaVCCsdERh1NGjzL3FmqV_qJFJX96W8d_2rI2tqF3B8axK7LdFzAxiyBm97OQ_Y_5SlTYW5qqp-1c",Multimedios Televisión (1080p)
 https://stream.ads.ottera.tv/playlist.m3u8?network_id=11014
-#EXTM3U url-tvg="https://github.com/limaalef/BrazilTVEPG/raw/refs/heads/main/globo.xml https://github.com/limaalef/BrazilTVEPG/raw/refs/heads/main/claro.xml https://github.com/limaalef/BrazilTVEPG/raw/refs/heads/main/vivoplay.xml https://epgshare01.online/epgshare01/epg_ripper_US2.xml.gz"
-#EXTINF:-1 tvg-id="tv-globo" tvg-logo="https://s02.video.glbimg.com/x720/7813173.jpg" group-title="GLOBO AO VIVO",Teste Live CDN Google | Assista ao vivo pelo Globoplay
-https://live-as-08-16.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJVUyIsImRvbWFpbiI6ImxpdmUtYXMtMDgtMTYudmlkZW8uZ2xvYm8uY29tIiwiZXhwIjoxNzgxMjQ5NTE4LCJpYXQiOjE3ODEyMjc5MTgsImlzcyI6InBsYXliYWNrLWFwaS1wcm9kLWdjcCIsIm93bmVyIjoiIiwicGF0aCI6Ii9saXZlL2YoaT0yKS9nbGIvcGxheWxpc3QubTN1OCJ9.lnDk4KWfuDAHtxl1Cj2Y2APvRC9ZWat0rq5B4iA0k0DLd3rcHWtyh0AxtBufArYcMJbT1kWPUk97kq0_N6ODUtjLYVU2lMdUCmjfc9g5hXDKohrGfx4rTVf8LZe-2cAqAqcSksonpWuNQGL2L9NG4V-W5VfJ7sJdg-ZnpsWB8fd3L0bauc0_dEuovayL1ViPTJ8kT_vLtcC5bjvyN4qQeePJbNPHHqAFsq30wuq33RdZ4-vBz04_BGrQ4R7IUx1HHnwvKuOFbeZXKEh1aiKr7nSkqtRPWuBeSAGSnumpZXmvQCoxisY6p2YTJrtedB1zlblB-sFgIDfcFNYY1TnIuw/live/f(i=2)/glb/playlist.m3u8
-#EXTINF:-1 tvg-id="tv-globo" tvg-logo="https://s03.video.glbimg.com/x720/1328766.jpg" group-title="GLOBO AO VIVO",Assistir G1 ao vivo - g1 ao vivo: Transmissão ao vivo online | Globoplay
-https://live-as-10-22.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJVUyIsImRvbWFpbiI6ImxpdmUtYXMtMTAtMjIudmlkZW8uZ2xvYm8uY29tIiwiZXhwIjoxNzgxMjQ5NjA2LCJpYXQiOjE3ODEyMjgwMDYsImlzcyI6InBsYXliYWNrLWFwaS1wcm9kLWdjcCIsIm93bmVyIjoiIiwicGF0aCI6Ii9saXZlL2YoaT0yKS9nMXJqMS9wbGF5bGlzdC5tM3U4In0.L-FrwfyqCQNf8HjTFGM4NHL11dMfvAWSaLOatF1SEPyKwQgJ1hKkEQkjwiyFXd3qBkB7kyaXrkDdcG1k07GyE3kAbSf7GsCm075Jggror6UvBhNXUhgBfKFd--i_pl7oPsu34BFpMUe5453dy87QIjFCLdwgCbkg698RAD3jNVuP0bE-7wvLAVzJbyMKLlVUlkxdBTRwE-dt__HYLBOJ0J3PRgre0deRlH71wPaDSJJZTVzolOUgDGh9MYCXbMZn4AkB3CjK0QT6ADbODl1Q1IPAuT2ZR-EcpvHX6RRRp171mllGWoba8utNdRj26YpiC4zSmYyvoqpRpcwd8G-g-g/live/f(i=2)/g1rj1/playlist.m3u8
-#EXTINF:-1 tvg-id="tv-globo" tvg-logo="https://s04.video.glbimg.com/x720/4064559.jpg" group-title="GLOBO AO VIVO",Assistir G1 ao vivo - Transmissão ao vivo g1 online | Globoplay
-https://live-as-11-19.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJVUyIsImRvbWFpbiI6ImxpdmUtYXMtMTEtMTkudmlkZW8uZ2xvYm8uY29tIiwiZXhwIjoxNzgxMjQ5NjIxLCJpYXQiOjE3ODEyMjgwMjEsImlzcyI6InBsYXliYWNrLWFwaS1wcm9kLWdjcCIsIm93bmVyIjoiIiwicGF0aCI6Ii9saXZlL2YoaT0yKS9qYjEvcGxheWxpc3QubTN1OCJ9.WQfc8KjkFjoAk-OVb3ow_LGijW3trFi2y6HMXg8Gi0FOGO7yJVp63KL7LThZfXkKzOe4acydYpL7FqHGxi1uTnrI4_t9uIN0lYxSLITztIrdD8OnfHYmwAbVi_0RcsA6xUfqfQt4dcu0wMYC5TMr2xw9sL_ite6LpB2xJIwSqrxDIJyq6YHtpj769leOntjvPNPGZoLkXh_4XEq2dTPjLMyQkk4UwMjsZfCLChklDl6uoB-igHjaHXUMcSpsmvqnMudLzxasdcZF6g6I2_7bwtIhc5wfK9708smk6nz_7cv-hNdOxJ2DbdbXbR6WJqyexVu3BaquicChjNlmJWO5JQ/live/f(i=2)/jb1/playlist.m3u8
-#EXTINF:-1 tvg-id="tv-globo" tvg-logo="https://s04.video.glbimg.com/x720/10865071.jpg" group-title="GLOBO AO VIVO",G1 TV Vanguarda Ao Vivo | Assista ao vivo pelo Globoplay
-https://live-as-04-13.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJVUyIsImRvbWFpbiI6ImxpdmUtYXMtMDQtMTMudmlkZW8uZ2xvYm8uY29tIiwiZXhwIjoxNzgxMjQ5NjY0LCJpYXQiOjE3ODEyMjgwNjQsImlzcyI6InBsYXliYWNrLWFwaS1wcm9kLWdjcCIsIm93bmVyIjoiIiwicGF0aCI6Ii9saXZlL2YoYk1pbj01NTg5NzYpL3Zhbmd1YXJkYTEvcGxheWxpc3QubTN1OCJ9.qvGRIKsHa9KXy0Fng3Cp1oqhez3LuUFCYxaQryakheaMPRKaOI9uFR1hELqd0dwszwB9EbKG-_LAx49-5eEpqKKTpiWl4RC886y3RZ0kmWFlyWU6nrvKOC9GRECyM8xiwdl5TqFg_yhYxGXoz5abLavyM6vzgI05DhR4MpWzqp2jWSbY7tGjoET7TADgSbu7xNPJOdUJzudgTjvnP1CkTRYfxEoVODZJ44ZSaLYQr-XD_Vt-f0e75CJn6-tq9xoy1xxM5wnNNx4pJHBBZVV1e1J-4iSHc2fOYqnWaPfztrsxTHryY2hgAZgj5tKe8JVPfjNaSxeeZ3AfwTUN0yw4zg/live/f(bMin=558976)/vanguarda1/playlist.m3u8
-#EXTINF:-1 tvg-id="tv-globo" tvg-logo="https://s01.video.glbimg.com/x720/4039160.jpg" group-title="GLOBO AO VIVO",Assistir G1 CE - Assista à TV Verdes Mares ao vivo online | Globoplay
-https://live-as-01-01.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJVUyIsImRvbWFpbiI6ImxpdmUtYXMtMDEtMDEudmlkZW8uZ2xvYm8uY29tIiwiZXhwIjoxNzgxMjQ5Njc4LCJpYXQiOjE3ODEyMjgwNzgsImlzcyI6InBsYXliYWNrLWFwaS1wcm9kLWdjcCIsIm93bmVyIjoiIiwicGF0aCI6Ii9saXZlL2YoYk1pbj01NTg5NzYpL3R2dm1jZWZvcjIvcGxheWxpc3QubTN1OCJ9.BLB08Jg3K9xccUi0R-fgtijBAqxpD2MqewnOueLKPgn89ZfW5X_1Ueh1NrwVa1A8AekC7rH4GLvBKxScZ-zlJUMla28MeYmhQ8BgZuOGwN-PVZ3FxgVgFJwHig9vrDWNnvkITK-mOdMQRuVPohGJg1VENznhmh-HV8bVvOwAC0R96KEi-KKq55mDUjlEFhp8hMOdYmHhieXsv2xUz-aIQaJVNTBweXiX5uN5ksRxFz9uQXZZszJsmBvhshwwzMQOce7G4KqTB4Uh-6avJila9i6--jsRWbPk2zB2JJEZ2WAyFy3gZ7ZhfLPJcNmMkMWF3s-DR16eymz5k7vtG6bqyQ/live/f(bMin=558976)/tvvmcefor2/playlist.m3u8
-#EXTINF:-1 tvg-id="tv-globo" tvg-logo="https://s01.video.glbimg.com/x720/11999480.jpg" group-title="GLOBO AO VIVO",Assistir G1 ES - Transmissão ao vivo do jornal Regional no g1 ES online | Globoplay
-https://live-as-11-21.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJVUyIsImRvbWFpbiI6ImxpdmUtYXMtMTEtMjEudmlkZW8uZ2xvYm8uY29tIiwiZXhwIjoxNzgxMjQ5NjkzLCJpYXQiOjE3ODEyMjgwOTMsImlzcyI6InBsYXliYWNrLWFwaS1wcm9kLWdjcCIsIm93bmVyIjoiIiwicGF0aCI6Ii9saXZlL2YoaT0yKS9nMXR2Z2F6ZXRhZXMvcGxheWxpc3QubTN1OCJ9.oqnE1CqSnsBXal4Qcj53kv4Hsppbmkp1y0dCssPj4fpyrgrmFx5T8E4mSrojoK7Tp9QOsLealIFZX27dzjUTU9n_ns6wpNXzE9kh173IFL0qAGlPRFzYBBCwCKD9lyCYULkEaq_8taQ1TG3htBbNP5YIZJaXFpWMMCVD09OR__xAnjE2bF2bSm7lzkGoIazUTF5OkCJoFAk7g_XVa01uvLh58Lhwz7ifhfKKvJWB-NRG-ldjv8jyLvhKDqYyd743kOnI1-I6Qk8GnxAVspFgSFCVsrw_4sK57ibo_rCepf0EE5ThH12JxZz0FEz1-m0gbO6XtHLtuIqgxJienwvETw/live/f(i=2)/g1tvgazetaes/playlist.m3u8
-#EXTINF:-1 tvg-id="tv-globo" tvg-logo="https://s04.video.glbimg.com/x720/3667427.jpg" group-title="GLOBO AO VIVO",TV Integração Juiz de Fora - Transmissão ao vivo | Assista ao vivo pelo Globoplay
-https://live-as-11-11.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJVUyIsImRvbWFpbiI6ImxpdmUtYXMtMTEtMTEudmlkZW8uZ2xvYm8uY29tIiwiZXhwIjoxNzgxMjQ5NzEzLCJpYXQiOjE3ODEyMjgxMTMsImlzcyI6InBsYXliYWNrLWFwaS1wcm9kLWdjcCIsIm93bmVyIjoiIiwicGF0aCI6Ii9saXZlL2YoaT0yKS9nMWludGVncmFtZ2pkZi9wbGF5bGlzdC5tM3U4In0.oRKLprQrRm3nrAC7FqnpyvSN0Ih2PTal1YAP3OQRhPuxMNQkSxudnZiiJHOtZyoVL4ITOzW_zK6beFOMceY8SwaYayqd-9GlRDQq3q1pBenO5rGN0v9YOcvcbUS25u8-5KbYE_3WQJZ7rYv6CMRS2EBzGk-FhOKeVh5BwGojjvITbIPiVlZ4yL0ppCJl12jtk5jyLJreZPwZXVUoozvxIJIJFIXBy6gRTyF7Tjvqnj-jMMTJYwSEscO4RSI3QiaAWBMHwwv1zmqAg1IN14eQXzdGWigtWluRbMCoKUqvaFtBIqwGD1u8g-szcQ5WVphbw5WLG3tZcYX98DtV2lclrw/live/f(i=2)/g1integramgjdf/playlist.m3u8
-#EXTINF:-1 tvg-id="tv-globo" tvg-logo="https://s02.video.glbimg.com/x720/4218681.jpg" group-title="GLOBO AO VIVO",Assistir G1 Triângulo Mineiro - TV Integração Uberlândia - Transmissão ao vivo online | Globoplay
-https://live-as-11-33.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJVUyIsImRvbWFpbiI6ImxpdmUtYXMtMTEtMzMudmlkZW8uZ2xvYm8uY29tIiwiZXhwIjoxNzgxMjQ5NzE1LCJpYXQiOjE3ODEyMjgxMTUsImlzcyI6InBsYXliYWNrLWFwaS1wcm9kLWdjcCIsIm93bmVyIjoiIiwicGF0aCI6Ii9saXZlL2YoaT0yKS9nMWludGVncmFtZ3ViZS9wbGF5bGlzdC5tM3U4In0.ISKt97DI4O8M8MrfuVmYUCcD8HladYREo4gAKWXChh7g_2GKmPv7aVjAziKHxjpxtOV8LEiyyhpNRsQoM6IQUpYLdiiG1eBBJwxqwpWvcB1QrlomXvwoE_e3VUkne83-IA0NgDNFAgcOecgTWYexF93YS72ARp3vCh7qEV4euvrvf26wYhyhi6K0iIjgSNCQ17ymUoB9xbDZ9sNrXV6sG00GGIyj_HE90y5j2WbJ0X9ie3jjmJVJEVtAg95uNSIZc7_y3Frs2jQvtYDl0xdTs6Xr5ppvJioPvrQKw5nnin7J8kSK26cQzA1v0JEXJMCmuf3f_6MqrwI9SslDsHtkNQ/live/f(i=2)/g1integramgube/playlist.m3u8
-#EXTINF:-1 tvg-id="tv-globo" tvg-logo="https://s02.video.glbimg.com/x720/12945385.jpg" group-title="GLOBO AO VIVO",Assistir G1 Triângulo Mineiro - TV Integração Uberaba - Transmissão ao vivo online | Globoplay
-https://live-as-08-05.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJVUyIsImRvbWFpbiI6ImxpdmUtYXMtMDgtMDUudmlkZW8uZ2xvYm8uY29tIiwiZXhwIjoxNzgxMjQ5NzI5LCJpYXQiOjE3ODEyMjgxMjksImlzcyI6InBsYXliYWNrLWFwaS1wcm9kLWdjcCIsIm93bmVyIjoiIiwicGF0aCI6Ii9saXZlL2YoaT0yKS9nMWludGVncmFtZ3ViYS9wbGF5bGlzdC5tM3U4In0.rtQ31qyww1N2AXrpCGG7FVOBz-D2zQ42xdW5LbWbofvezO-gtJSYZo9zQzCuAlArteCxuJPRDYmW2O7ExdNC72VT6pDouEfx9_SSDZeXeXaQPEWzEkzXDdIgIvEja6JtSD3siXwHpbsidZb8nIj601ekt8ZJ2297gglbtCyksOiS4vEnxEGkntrJlqFEdkp3EgfbXYC6oMzz8QXQP4-nXtnbe856vT-XMOe9cUEf8RGMH6ZSDKGBbgGtxELS_W1I2TlPCeR-g_i1smbd-8kFw9BUS37sBgp9D9u3GizjdSIGjzw-a_75V8ohKTcdBWMizKybh80_G6_Z_--f2L9qgw/live/f(i=2)/g1integramguba/playlist.m3u8
-#EXTINF:-1 tvg-id="tv-globo" tvg-logo="https://s04.video.glbimg.com/x720/2923579.jpg" group-title="GLOBO AO VIVO",Assistir G1 AP - Assista ao vivo aos telejornais da Rede Amazônica online | Globoplay
-https://live-as-10-05.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJVUyIsImRvbWFpbiI6ImxpdmUtYXMtMTAtMDUudmlkZW8uZ2xvYm8uY29tIiwiZXhwIjoxNzgxMjQ5NzUwLCJpYXQiOjE3ODEyMjgxNTAsImlzcyI6InBsYXliYWNrLWFwaS1wcm9kLWdjcCIsIm93bmVyIjoiIiwicGF0aCI6Ii9saXZlL2YoaT0yKS9yZWRlYXAvcGxheWxpc3QubTN1OCJ9.IV09-TrlyCNn82IPGO6OB0hv6bUqmz3g6rnkv9hzyr8-LGxeuBigEnKVGV_-_MZzG4Z2mG4M38cU-KY9FkhmqoM324xNgID_tU3hs3peAuD9zOHeJoRuunxY2u3bNCSukgXr_m3gdESGIRUPtvs5ZUtB2xMk4XL6bkjTTJ6nx4jLTZjB0CWhhW4gxITQS1K9IOrtWQspnxBEMVu4dUyiUfTQyR5nUJuAVW7bgylf9GdLA6Xi_MmgtLVP_LnYOV_X88mVJ1tkyM3LFrjMXYj4mWUdkNPWnKdj1A9UYF7pD0iwruix7qXkWzQsPhFziFrujN4BuCbEXW4jonlIbJMOAw/live/f(i=2)/redeap/playlist.m3u8
-#EXTINF:-1 tvg-id="tv-globo" tvg-logo="https://s03.video.glbimg.com/x720/2923546.jpg" group-title="GLOBO AO VIVO",Assistir G1 AC - Assista aos jornais da Rede Amazônica online | Globoplay
-https://live-as-10-02.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJVUyIsImRvbWFpbiI6ImxpdmUtYXMtMTAtMDIudmlkZW8uZ2xvYm8uY29tIiwiZXhwIjoxNzgxMjQ5NzY1LCJpYXQiOjE3ODEyMjgxNjUsImlzcyI6InBsYXliYWNrLWFwaS1wcm9kLWdjcCIsIm93bmVyIjoiIiwicGF0aCI6Ii9saXZlL2YoaT0yKS9yZWRlYWMvcGxheWxpc3QubTN1OCJ9.rxTEhqXqecXcEn0SNEFqbUeKX9Xw9GeElmdrnvBtda5wkYVA91PtX7uGF5Mqq_iUhnopiJXa6sjqJ6IcImLg9xRaHi-f3ap_z2IgzrGeD1XMgC4Y9n-eBmJEv4P7fF3YdX5TkuYgwO48KF5bDfDfrskC9nDiRziEMoXQ3OV5vArWWrKC8ICrq9yd1kJx7u824ZPZSLZ6Ef5lg4GdnLEwayu8f6hqSB0mU1S11h0-0QxwLALpzd3cZBBH5A_4bMFDpvOCtsJ-_8HRwC0iQ2iB2VGkFVG6gb_Az5EqmyxxxNakTchwqx5jMNZ9keVSpi6NAgpugBQ_2R_e32TCVPgkWg/live/f(i=2)/redeac/playlist.m3u8
-#EXTINF:-1 tvg-id="tv-globo" tvg-logo="https://s02.video.glbimg.com/x720/2168377.jpg" group-title="GLOBO AO VIVO",Assistir G1 PA - Assista aos telejornais da TV Liberal online | Globoplay
-https://live-as-03-33.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJVUyIsImRvbWFpbiI6ImxpdmUtYXMtMDMtMzMudmlkZW8uZ2xvYm8uY29tIiwiZXhwIjoxNzgxMjQ5NzcwLCJpYXQiOjE3ODEyMjgxNzAsImlzcyI6InBsYXliYWNrLWFwaS1wcm9kLWdjcCIsIm93bmVyIjoiIiwicGF0aCI6Ii9saXZlL2YoYk1pbj01NTg5NzYpL3R2bGliZXJhbC9wbGF5bGlzdC5tM3U4In0.JuE0vHr40VngFRN7VzSpIhMqvtTvjrR4uG5_QZlk__YHZAfMZ4ai-YyMC-c1tindchPU9iFmSlCiczPG9Pis69yoUogWDY5iwGfrWQKU_me8I1Zpv1MnZ_-V8hJb-a3Dwg1wsxbZZbI0SFaiyiXPNSl_IcXkV5pefYdtxFDAF4geSyxqonPJmUraL88EMPJ5vA-fpky2XxYwqr3V42XnLqLvUr1gIZ9Tzt-o_ZsaVAMWZxzF3cwO3bp-tmF5MDPGkW5Is1PYOIPdK9hFsB7_Qs-xlwdCf4OP2o5Ui_eSt0FUQ5gkyg4tBFZ-15DRSMzT6tx8uZBCs8nIkd46ya0bhg/live/f(bMin=558976)/tvliberal/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://s01.video.glbimg.com/x720/10747444.jpg" group-title="NEWS WORLD",CBN SP | Globoplay
-https://live-as-01-01.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJVUyIsImRvbWFpbiI6ImxpdmUtYXMtMDEtMDEudmlkZW8uZ2xvYm8uY29tIiwiZXhwIjoxNzgxMjQ5ODA1LCJpYXQiOjE3ODEyMjgyMDUsImlzcyI6InBsYXliYWNrLWFwaS1wcm9kLWdjcCIsIm93bmVyIjoiIiwicGF0aCI6Ii9saXZlL2YoYk1pbj01NTg5NzYsZHZyPTEyMCkvY2Juc3AyNGhhL3BsYXlsaXN0Lm0zdTgifQ.WypCEFiPTtag1BONCoigNf3kOa6pGLlFfmaTPQyQU-sNUdM_BrftbxcrfVhE_O8LUv0ajkZSgXdOwUAO76R4lRiVixpoDekM1IjU3fvyC0FIfxPjW39VdRLi4ihhfWGqQrQvwFswIPj2CkDa169PO7aLvDJO43MyvDaBayyQ4hOPhMlsPX6xMDobkxFJV34jfkLoICr8_eAvsT3eAZ5xBOeDe5dmoUF45eGnSObOpEB_-QoUabtpPXjehZGdkS170kzy20zXYQTZzFIAaNSDt65mAn7QlecfMXUhR1D2g_WAW2MnFy5gIxvM8Q5iF-avIau5MnIxouTMI5mBMiC3uw/live/f(bMin=558976,dvr=120)/cbnsp24ha/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://s01.video.glbimg.com/x720/10740500.jpg" group-title="NEWS WORLD",CBN RJ | Globoplay
-https://live-as-09-15.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJVUyIsImRvbWFpbiI6ImxpdmUtYXMtMDktMTUudmlkZW8uZ2xvYm8uY29tIiwiZXhwIjoxNzgxMjQ5ODA4LCJpYXQiOjE3ODEyMjgyMDgsImlzcyI6InBsYXliYWNrLWFwaS1wcm9kLWdjcCIsIm93bmVyIjoiIiwicGF0aCI6Ii9saXZlL2YoYk1pbj01NTg5NzYsZHZyPTEyMCkvY2JucmoyNGhhL3BsYXlsaXN0Lm0zdTgifQ.hMXWBxodJ-liKmRXe2QDer_4FFs95P3ygEXHTI1pSjFfP6a_QB07ZQDDdQAL7AA7DVIjzPQUqco02mLwA2-UcLSs0zo2cb6o85xNsNV4dIeDA0xD2O715fb4_0VPYAREPDxyEzIM7-0XcmAQXvX02BkpdcPNHc0P4Rn3x0ASZQH2TTtmPSqEeLJNw2BqnSqTa5QRMLCBOjZW3-2anD7DXCfyd5m1j7oqiCwb1hUQ2vp3wo4k6_n9WEPo_gRhY7zXj090UR_R1aXyq82oiXDL3SPsQszRtCwnIeukW_DfNPW783A9bSCptjdcH_cYmHTpuIcJSCZXK3mHwi7nNLBtIg/live/f(bMin=558976,dvr=120)/cbnrj24ha/playlist.m3u8
-#EXTINF:-1 tvg-id="ABC.News.Live.us2" tvg-logo="https://keyframe-cdn.abcnews.com/streamprovider11.jpg" group-title="NEWS WORLD",ABC News Live
-https://abcnews-livestreams.akamaized.net/out/v1/6a597119dbd5428a82dc11a2f514a1a2/abcn-live-10-cmaf-manifest/abcn-live-10-index.m3u8
-#EXTINF:-1 tvg-id="FRANCE 24 HD" group-title="NEWS WORLD",France 24 Español
-https://a-cdn.klowdtv.com/live2/france24sp_720p/playlist.m3u8
-#EXTINF:-1 tvg-id="DW-TV" tvg-logo="https://raw.githubusercontent.com/Osares10/ipmx/refs/heads/main/logos/DW.png" group-title="NEWS WORLD",DW
-https://dwamdstream104.akamaized.net/hls/live/2015530-b/dwstream104/stream04/streamPlaylist.m3u8
-#EXTINF:-1 tvg-id="Bloomberg.HD.us2" group-title="NEWS WORLD",Bloomberg TV
-https://www.bloomberg.com/media-manifest/streams/us.m3u8
-#EXTINF:-1 tvg-id="ESTRELLA.NEWS.us2" tvg-logo="https://i.imgur.com/HRrkhLq.png" group-title="NEWS WORLD",Estrella News
-https://estrella-news-oando.amagi.tv/playlist.m3u8
-#EXTINF:-1 group-title="NEWS WORLD",Al Jazeera English
-https://live-hls-web-aje-fa.getaj.net/AJE/03.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Osares10/ipmx/refs/heads/main/logos/RT.png" group-title="NEWS WORLD",RT Español
-https://rt-esp.rttv.com/dvr/rtesp/playlist_1600Kb.m3u8
-#EXTINF:-1 group-title="NEWS WORLD",24 Horas RTVE
-https://rtvelivestream.rtve.es/rtvesec/24h/24h_main_dvr_360.m3u8
+#EXTINF:-1 tvg-id="Canal5.mx" group-title="General" tvg-logo="https://iptv-epg.org/images/jQnQYLInVH7MB99Vt78IZh5j1KYs4wCZCmF1lCJN87u_f1lQVYXuPlbAUSFQZcB7AOdvQ7SmTs4B6DDXElRDvUBS2vfSV7bO3Hcmk1Sy3g",Canal 5 (Televisa) (1080p)
+https://stream.ads.ottera.tv/playlist.m3u8?network_id=5396
+#EXTINF:-1 tvg-id="CanalOnce.mx" group-title="Cultural;Education" tvg-logo="https://iptv-epg.org/images/Rs82drCMaij586gjO4z8cFXgHPsBXeH4Fmp1MzBijzab4QJWwTVQPDN0RsLnPXQsB4QbF5SpH6JQmPadokgtpFQeD4GjH4PfjGg8TgA5ksjT3w",Canal Once (1080p)
+https://d24sa4vr9gvjv.cloudfront.net/index.m3u8
+#EXTINF:-1 tvg-id="MilenioTV.mx" group-title="News" tvg-logo="https://iptv-epg.org/images/2eGmh8SKNh4f8rZnFsple8cQaAVwddRPA0AeJI25ocb4yFfrwTSqJG_nlpGVxt97qSgUl9NSpdVYUy9ep3cVQVTISbtkiQRed9AN1p9MxM73KA",Milenio Televisión (720p)
+https://jmp2.uk/plu-652e922db4b047000825f975.m3u8
+#EXTINF:-1 tvg-id="TVUNAM.mx" group-title="Cultural;Education" tvg-logo="https://iptv-epg.org/images/IHAVUMFN89vWiz1l-YAB3u7BGg8pAtaa29Mbvhvyc2YOym8j_WMkPBj8pHSetg7Yia7tfnItcOpTXT3jIcIS0C3gdYuKzYU6Jjrhlv1wXw",TV UNAM (1080p)
+https://5fc584f3f19c9.streamlock.net/tvunam/videotvunam/chunklist_w372205069_DVR.m3u8
+#EXTINF:-1 tvg-id="Canal22.mx" group-title="Cultural" tvg-logo="https://iptv-epg.org/images/wH5P9_wey373HwvsSWknH15Z2pU7CN-66-7mIRGIXbtUlYTqqA4O6wozzxvIGvyTnOrhHj02XQIA7r0NQWr9wEPAE3lTHfUx65FkCQ1qx3o",Canal 22 (1080p)
+https://5f700d5b2c46f.streamlock.net/canal22/canal22/playlist.m3u8
+#EXTINF:-1 tvg-id="ImagenTV.mx" group-title="News" tvg-logo="https://iptv-epg.org/images/k_qE8E3YzXDXKm8ZH1W3-j8wccP95nzhrEZvPGa6tX5_FIorFOexUqaeEGY8DT_jD_mwbzzpixZne1-jE4OW4O7_h0LooeEXfN-mBDLgcoGx",Imagen TV (1080p)
+https://stream.ads.ottera.tv/playlist.m3u8?network_id=6149
+#EXTINF:-1 tvg-id="MultimediosPlus.mx" group-title="General" tvg-logo="https://iptv-epg.org/images/XQHe6ipCzaYDguaLpwd58iI0aHH8yVdb8mL6xe3Pgapn1V2tO122piGR7y30Lvw8Q3FdY8VG3vwPwKJNLH1zKFfh0B9kr3tLHmsVC9kfia7ceW-my2hKUA",Multimedios Televisión (1080p)
+https://stream.ads.ottera.tv/playlist.m3u8?network_id=11014
+#EXTINF:-1 tvg-id="Canal14.mx" group-title="General" tvg-logo="https://iptv-epg.org/images/DfXkxV-939ociQQ4tpVZqPl1yVPs9UyQbCFg5SjPbW5q7_BQUXcmT9R9oe15MAPzaEuv6O9-L_e1-aX2vLRI5-y6qPWhAXx1yuDwX7im-to",Canal 14 (1080p)
+https://s5.mexside.net:1936/canal14/canal14/chunklist.m3u8
+#EXTINF:-1 tvg-id="ForoTV.mx" group-title="News",Foro TV (720p)
+https://mdstrm.com/live-stream-playlist/60b578b060947317de7b57ac.m3u8
+#EXTINF:-1 tvg-id="LasEstrellas.mx" group-title="Entertainment" tvg-logo="https://iptv-epg.org/images/BxFFtHBWA5cPPHWQuZPrlBlulefLsykX6i-cO6LZRAL0a3Me85HPgE0Vb-QSP_fJZRymINc9LEc7MmNldF-zAOpIuOz2MAwElK--yJJeepWRUBZzNQ",Las Estrellas (1080p)
+https://stream.ads.ottera.tv/playlist.m3u8?network_id=5397
 #EXTINF:-1 tvg-logo="https://iptv-epg.org/images/fvKmINMYNkVgrxSxY-TDJK8E1tgQQRJKW_OiBozHV3jVdOVPAQiPmcr6sQZ2fuYp25p2LE3tXm8YCzGph_kY5OZct1_IR7YHI43coF6BHoc6Bw" group-title="NEWS WORLD",Univision Noticias
 https://linear-254.frequency.stream/mt/studio/254/hls/master/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://iptv-epg.org/images/gBz71qdo9OkrhEuGSvkG_vN6kUQoZ6vivyKDbhogEc7gJH35A2UfFBa8M2ne-bYu5QY5oWmsf3WLM4KodtQnbROZOkLl7d6K-4Lm800YJHc6mQ" group-title="NEWS WORLD",Telemundo
-https://nbculocallive.akamaized.net/hls/live/2037499/puertorico/stream1/master.m3u8
 #EXTM3U url-tvg="https://github.com/limaalef/BrazilTVEPG/raw/refs/heads/main/globo.xml https://github.com/limaalef/BrazilTVEPG/raw/refs/heads/main/claro.xml https://github.com/limaalef/BrazilTVEPG/raw/refs/heads/main/vivoplay.xml"
 #EXTINF:-1 tvg-id="tv-globo" tvg-logo="https://s02.video.glbimg.com/x720/7813173.jpg" group-title="GLOBO AO VIVO",Teste Live CDN Google | Assista ao vivo pelo Globoplay
 https://live-as-08-16.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJVUyIsImRvbWFpbiI6ImxpdmUtYXMtMDgtMTYudmlkZW8uZ2xvYm8uY29tIiwiZXhwIjoxNzgxMzQ0NjExLCJpYXQiOjE3ODEzMjMwMTEsImlzcyI6InBsYXliYWNrLWFwaS1wcm9kLWdjcCIsIm93bmVyIjoiIiwicGF0aCI6Ii9saXZlL2YoaT0yKS9nbGIvcGxheWxpc3QubTN1OCJ9.GuH0AJe23aZqmlaijyO7-6CuLbpDuGFXBTnYYZaR1q-c8rYcun63lSZhG1HUWRfqAD76RMn9iAITAnNTtJylT9s2UqZ7HKwE_R8TapYMAbqjuM_adJEXkZK-NSu_8Z1Q7m5PJkyXbUljP_0JvAVghyRWWkhyBysuvOmf23QdG3UpSQMARzhluXKZ4-KUZnBGTN7IYFAZMwxWUmxzkYgzQkp1W0FpqTIL7T2vylKqXBqjRy4mppVN-D4aP9dZ3JQ52pOEkriQhQ5bqzJcRRCoFRitnWV60yjMiwKeATW9P_ZOUEQf5tRj4IrSCnoV2VAmba4QLDGyo8XEHc4WdKiN_w/live/f(i=2)/glb/playlist.m3u8
