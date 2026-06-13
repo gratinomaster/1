@@ -363,7 +363,7 @@ options.add_argument("--disable-infobars")
 driver = webdriver.Chrome(options=options)
 
 # URL of the desired page
-url_archive = "https://archive.org/details/television?query=nightly%20news&sort=date"
+url_archive = "https://archive.org/details/television?query=cbs&sort=date&tab=collection"
 
 # Open the desired page
 driver.get(url_archive)
