@@ -19,8 +19,14 @@ http://hls1.sua.tv/live/globotvbahiafhdbr2/s.m3u8
 http://hls1.sua.tv/live/globotvbahiafhdbr2/s.m3u8
 #EXTINF:-1 group-title="GLOBO AO VIVO" tvg-id="Globo TV Bahia.br" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/1/1e/Logotipo_TV_Bahia.png",TV Bahia
 http://hls1.sua.tv/live/globotvbahiafhdbr2/s.m3u8
+#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="NoLogoFound.png",Computer Chronicles - 01x01 - Mainframes to Minis to Micros
+https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chronicles.zip/Computer%20Chronicles%2FSeason%2001%2FEnglish%2FComputer%20Chronicles%20-%2001x01%20-%20Mainframes%20to%20Minis%20to%20Micros.mp4
+#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="NoLogoFound.png",Computer Chronicles - 01x02 - Integrated Software
+https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chronicles.zip/Computer%20Chronicles%2FSeason%2001%2FEnglish%2FComputer%20Chronicles%20-%2001x02%20-%20Integrated%20Software.mp4
 #EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="NoLogoFound.png",Computer Chronicles - 01x03 - Computers and Music
 https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chronicles.zip/Computer%20Chronicles%2FSeason%2001%2FEnglish%2FComputer%20Chronicles%20-%2001x03%20-%20Computers%20and%20Music.mp4
+#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="NoLogoFound.png",Computer Chronicles - 01x04 - Computer Simulations
+https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chronicles.zip/Computer%20Chronicles%2FSeason%2001%2FEnglish%2FComputer%20Chronicles%20-%2001x04%20-%20Computer%20Simulations.mp4
 #EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="NoLogoFound.png",Computer Chronicles - 01x05 - Operating Systems
 https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chronicles.zip/Computer%20Chronicles%2FSeason%2001%2FEnglish%2FComputer%20Chronicles%20-%2001x05%20-%20Operating%20Systems.mp4
 #EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="NoLogoFound.png",Computer Chronicles - 01x06 - Word Processing
@@ -39,6 +45,10 @@ https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chroni
 https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chronicles.zip/Computer%20Chronicles%2FSeason%2001%2FEnglish%2FComputer%20Chronicles%20-%2001x12%20-%20Business%20Applications%20%281984%29.mp4
 #EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="NoLogoFound.png",Computer Chronicles - 01x13 - Storage Devices
 https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chronicles.zip/Computer%20Chronicles%2FSeason%2001%2FEnglish%2FComputer%20Chronicles%20-%2001x13%20-%20Storage%20Devices.mp4
+#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="NoLogoFound.png",Computer Chronicles - 01x14 - Printers
+https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chronicles.zip/Computer%20Chronicles%2FSeason%2001%2FEnglish%2FComputer%20Chronicles%20-%2001x14%20-%20Printers.mp4
+#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="NoLogoFound.png",Computer Chronicles - 01x15 - Databases
+https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chronicles.zip/Computer%20Chronicles%2FSeason%2001%2FEnglish%2FComputer%20Chronicles%20-%2001x15%20-%20Databases.mp4
 #EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="NoLogoFound.png",Computer Chronicles - 01x16 - Computer Graphics
 https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chronicles.zip/Computer%20Chronicles%2FSeason%2001%2FEnglish%2FComputer%20Chronicles%20-%2001x16%20-%20Computer%20Graphics.mp4
 #EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="NoLogoFound.png",Computer Chronicles - 01x17 - Decision Support Systems
@@ -83,6 +93,8 @@ https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chroni
 https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chronicles.zip/Computer%20Chronicles%2FSeason%2002%2FEnglish%2FComputer%20Chronicles%20-%2002x09%20-%20Personal%20Finance%20Software.mp4
 #EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="NoLogoFound.png",Computer Chronicles - 02x10 - The Macintosh Computer
 https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chronicles.zip/Computer%20Chronicles%2FSeason%2002%2FEnglish%2FComputer%20Chronicles%20-%2002x10%20-%20The%20Macintosh%20Computer.mp4
+#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="NoLogoFound.png",Computer Chronicles - 02x11 - Profile of Big Blue (IBM)
+https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chronicles.zip/Computer%20Chronicles%2FSeason%2002%2FEnglish%2FComputer%20Chronicles%20-%2002x11%20-%20Profile%20of%20Big%20Blue%20%28IBM%29.mp4
 #EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="NoLogoFound.png",Computer Chronicles - 02x13 - Computers & Communications
 https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chronicles.zip/Computer%20Chronicles%2FSeason%2002%2FEnglish%2FComputer%20Chronicles%20-%2002x13%20-%20Computers%20%26%20Communications.mp4
 #EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="NoLogoFound.png",Computer Chronicles - 02x15 - Low End Computers
@@ -161,29 +173,15 @@ https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chroni
 https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chronicles.zip/Computer%20Chronicles%2FSeason%2004%2FEnglish%2FComputer%20Chronicles%20-%2004x21%20-%20Tex%20Preparation%20Software.mp4
 #EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="NoLogoFound.png",Computer Chronicles - 04x22 - Portable Computers
 https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chronicles.zip/Computer%20Chronicles%2FSeason%2004%2FEnglish%2FComputer%20Chronicles%20-%2004x22%20-%20Portable%20Computers.mp4
+#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="NoLogoFound.png",Computer Chronicles - 04x23 - Kids and Computers
+https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chronicles.zip/Computer%20Chronicles%2FSeason%2004%2FEnglish%2FComputer%20Chronicles%20-%2004x23%20-%20Kids%20and%20Computers.mp4
+#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="NoLogoFound.png",Computer Chronicles - 04x24 - Computers and the Arts
+https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chronicles.zip/Computer%20Chronicles%2FSeason%2004%2FEnglish%2FComputer%20Chronicles%20-%2004x24%20-%20Computers%20and%20the%20Arts.mp4
 #EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="NoLogoFound.png",Computer Chronicles - 04x25 - Computers and Illiteracy
 https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chronicles.zip/Computer%20Chronicles%2FSeason%2004%2FEnglish%2FComputer%20Chronicles%20-%2004x25%20-%20Computers%20and%20Illiteracy.mp4
 #EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="NoLogoFound.png",Computer Chronicles - 04x26 - Computers and Gambling
 https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chronicles.zip/Computer%20Chronicles%2FSeason%2004%2FEnglish%2FComputer%20Chronicles%20-%2004x26%20-%20Computers%20and%20Gambling.mp4
 #EXTM3U
-#EXTINF:-1 group-title="VOD" ,''Studio One'' - Wintertime
-https://archive.org/download/StudioOneWintertime/StudioOne-wintertime.ogv
-#EXTINF:-1 group-title="VOD" ,'The Guiding Light' - March 4, 1953
-https://archive.org/download/Guiding_Light/GuidingLightMarch4-1953.ogv
-#EXTINF:-1 group-title="VOD" ,Another "What's My Line" with guest Lucille Ball (Classic TV)
-https://archive.org/download/Yet_More_Lucy/WhatsMyLine21February1954.ogv
-#EXTINF:-1 group-title="VOD" ,Misc episode of 'Arthur Godfrey Time'
-https://archive.org/download/Arthur_Godfrey_Time/ArthurGodfreyTime1955.mp4
-#EXTINF:-1 group-title="VOD" ,1957 CBS-TV Special ''The Edsel Show'' with Guests
-https://archive.org/download/TheEdselShow1957/EdselShow.ogv
-#EXTINF:-1 group-title="VOD" ,You're in the Picture
-https://archive.org/download/610120/61-01-20.mp4
-#EXTINF:-1 group-title="VOD" ,1967 commercial breaks from ''To Tell the Truth''
-https://archive.org/download/1967CommercialBreaksFromtoTellTheTruth/TTTT1967Break1.ogv
-#EXTINF:-1 group-title="VOD" ,Smothers Brothers Comedy Hour 69 02 02 3 16 Burl Ives, Chambers Brothers, Jackie & Roy
-https://archive.org/download/69-02-02-3-16-burl-ives-chambers-brothers-jackie-roy/69-02-02%203-16%20Burl%20Ives%2C%20Chambers%20Brothers%2C%20Jackie%20%26%20Roy.mp4
-#EXTINF:-1 group-title="VOD" ,Can You Hear the Laughter, The Story of Freddie Prinze - 1979 CBS Tuesday Night Movie
-https://archive.org/download/can-you-hear-the-laughter-the-story-of-freddie-prinze-1979-cbs-tuesday-night-movie/Can%20You%20Hear%20the%20Laughter%2C%20The%20Story%20of%20Freddie%20Prinze%20-%201979%20CBS%20Tuesday%20Night%20Movie.mp4
 #EXTM3U
 #EXTM3U
 #EXTM3U
@@ -562,11 +560,91 @@ https://live-as-03-33.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAi
 https://live-as-01-01.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJVUyIsImRvbWFpbiI6ImxpdmUtYXMtMDEtMDEudmlkZW8uZ2xvYm8uY29tIiwiZXhwIjoxNzgyMjA4ODQ1LCJpYXQiOjE3ODIxODcyNDUsImlzcyI6InBsYXliYWNrLWFwaS1wcm9kLWdjcCIsIm93bmVyIjoiIiwicGF0aCI6Ii9saXZlL2YoYk1pbj0zMTM5ODQsZHZyPTEyMCkvY2Juc3AyNGhhL3BsYXlsaXN0Lm0zdTgifQ.hsCt9KmEendSBFPLDL-jr5BrQtm8uKzbjbWGU36gIrpqK6qGFSXSSzHHtokm3pX53jlMOOZeegRVmw-KYt4ZphIF8q5_Bk64DztB2naWDr06KXB2FO5U7Bypj9AaNNdDJqbw08PmL1ZbPuQ4tzjzq40M9fLLpYLB4BYIi3m8HiWpMA5KLq1EFGOFD55t44gzDHSVUNxLb77iBtV2bT7oDHvnq0KUChaeqUH9i852WdeNqMdxYDZjsINzXxxjTs5vImg_jUlmQ1MxkJHXrz2R7CILnbZ4LRFV0uNUxQglPyZ5CgO1f0nbeOp2Wti9GbQH5eokuXSCaI_D9WGOu-V-Iw/live/f(bMin=313984,dvr=120)/cbnsp24ha/playlist.m3u8
 #EXTM3U
 #EXTINF:-1 tvg-logo="https://s.abcnews.com/images/Live/abc_news_live-abc-ml-250210_1739199021469_hpMain_16x9_608.jpg" group-title="NEWS WORLD",ABCNL Prime with Linsey Davis | Watch Live News on ABCNL
-https://linear-abcnews-ftc-na-west-1.media.dssott.com/dvt2=exp=1782255886~url=%2Flas1%2Fva01%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838%2F~psid=4712c013-5860-46cc-b0d5-8dd559584def~did=63060e51-0c8b-41d5-9992-8dceded8fd02~country=US~kid=k02~hmac=e01f2c961eea648234807822a9046ee2c70f728837676a3d555cb80414358d05/las1/va01/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838/ctr-all-hdri-sliding.m3u8?r=1080&v=1&hash=81fb88da5aab33fe54dc3f8d7ae5f0b2eaa56a8c
+https://linear-abcnews-ftc-na-central-1.media.dssott.com/dvt2=exp=1782280099~url=%2Flas1%2Fva01%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838%2F~psid=3478b546-6c08-4460-9f09-5ae0ab586783~did=0ac32cb2-9c9d-4f32-9578-2bf8e4421b89~country=US~kid=k02~hmac=7a566069074ad011928177f5d324b3081e0a6b1936e461f033f7e9e05fb9532b/las1/va01/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838/ctr-all-hdri-sliding.m3u8?r=1080&v=1&hash=81fb88da5aab33fe54dc3f8d7ae5f0b2eaa56a8c
+#EXTINF:-1 tvg-logo="https://s.abcnews.com/images/Live/abc_news_live-abc-ml-250210_1739199021469_hpMain_16x9_608.jpg" group-title="NEWS WORLD",ABCNL Prime with Linsey Davis | Watch Live News on ABCNL
+https://linear-abcnews-ftc-na-central-1.media.dssott.com/dvt2=exp=1782280099~url=%2Flas1%2Fva01%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838%2F~psid=3478b546-6c08-4460-9f09-5ae0ab586783~did=0ac32cb2-9c9d-4f32-9578-2bf8e4421b89~country=US~kid=k02~hmac=7a566069074ad011928177f5d324b3081e0a6b1936e461f033f7e9e05fb9532b/las1/va01/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838/cmaf-cenc-ctr-1700K/1700_hdri_slide.m3u8
+#EXTINF:-1 tvg-logo="https://s.abcnews.com/images/Live/abc_news_live-abc-ml-250210_1739199021469_hpMain_16x9_608.jpg" group-title="NEWS WORLD",ABCNL Prime with Linsey Davis | Watch Live News on ABCNL
+https://linear-abcnews-ftc-na-central-1.media.dssott.com/dvt2=exp=1782280099~url=%2Flas1%2Fva01%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838%2F~psid=3478b546-6c08-4460-9f09-5ae0ab586783~did=0ac32cb2-9c9d-4f32-9578-2bf8e4421b89~country=US~kid=k02~hmac=7a566069074ad011928177f5d324b3081e0a6b1936e461f033f7e9e05fb9532b/las1/va01/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838/audio-aac-1-64K/64_slide.m3u8
+#EXTINF:-1 tvg-logo="https://s.abcnews.com/images/Live/abc_news_live-abc-ml-250210_1739199021469_hpMain_16x9_608.jpg" group-title="NEWS WORLD",ABCNL Prime with Linsey Davis | Watch Live News on ABCNL
+https://linear-abcnews-ftc-na-central-1.media.dssott.com/dvt2=exp=1782280099~url=%2Flas1%2Fva01%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838%2F~psid=3478b546-6c08-4460-9f09-5ae0ab586783~did=0ac32cb2-9c9d-4f32-9578-2bf8e4421b89~country=US~kid=k02~hmac=7a566069074ad011928177f5d324b3081e0a6b1936e461f033f7e9e05fb9532b/las1/va01/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838/audio-aac-1-64K/64_slide.m3u8
+#EXTINF:-1 tvg-logo="https://s.abcnews.com/images/Live/abc_news_live-abc-ml-250210_1739199021469_hpMain_16x9_608.jpg" group-title="NEWS WORLD",ABCNL Prime with Linsey Davis | Watch Live News on ABCNL
+https://linear-abcnews-ftc-na-central-1.media.dssott.com/dvt2=exp=1782280099~url=%2Flas1%2Fva01%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838%2F~psid=3478b546-6c08-4460-9f09-5ae0ab586783~did=0ac32cb2-9c9d-4f32-9578-2bf8e4421b89~country=US~kid=k02~hmac=7a566069074ad011928177f5d324b3081e0a6b1936e461f033f7e9e05fb9532b/las1/va01/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838/cmaf-cenc-ctr-2400K/2400_hdri_slide.m3u8
+#EXTINF:-1 tvg-logo="https://s.abcnews.com/images/Live/abc_news_live-abc-ml-250210_1739199021469_hpMain_16x9_608.jpg" group-title="NEWS WORLD",ABCNL Prime with Linsey Davis | Watch Live News on ABCNL
+https://linear-abcnews-ftc-na-central-1.media.dssott.com/dvt2=exp=1782280099~url=%2Flas1%2Fva01%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838%2F~psid=3478b546-6c08-4460-9f09-5ae0ab586783~did=0ac32cb2-9c9d-4f32-9578-2bf8e4421b89~country=US~kid=k02~hmac=7a566069074ad011928177f5d324b3081e0a6b1936e461f033f7e9e05fb9532b/las1/va01/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838/audio-aac-1-128K/128_slide.m3u8
+#EXTINF:-1 tvg-logo="https://s.abcnews.com/images/Live/abc_news_live-abc-ml-250210_1739199021469_hpMain_16x9_608.jpg" group-title="NEWS WORLD",ABCNL Prime with Linsey Davis | Watch Live News on ABCNL
+https://linear-abcnews-ftc-na-central-1.media.dssott.com/dvt2=exp=1782280099~url=%2Flas1%2Fva01%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838%2F~psid=3478b546-6c08-4460-9f09-5ae0ab586783~did=0ac32cb2-9c9d-4f32-9578-2bf8e4421b89~country=US~kid=k02~hmac=7a566069074ad011928177f5d324b3081e0a6b1936e461f033f7e9e05fb9532b/las1/va01/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838/cmaf-cenc-ctr-2400K/2400_hdri_slide.m3u8
+#EXTINF:-1 tvg-logo="https://s.abcnews.com/images/Live/abc_news_live-abc-ml-250210_1739199021469_hpMain_16x9_608.jpg" group-title="NEWS WORLD",ABCNL Prime with Linsey Davis | Watch Live News on ABCNL
+https://linear-abcnews-ftc-na-central-1.media.dssott.com/dvt2=exp=1782280099~url=%2Flas1%2Fva01%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838%2F~psid=3478b546-6c08-4460-9f09-5ae0ab586783~did=0ac32cb2-9c9d-4f32-9578-2bf8e4421b89~country=US~kid=k02~hmac=7a566069074ad011928177f5d324b3081e0a6b1936e461f033f7e9e05fb9532b/las1/va01/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838/audio-aac-1-128K/128_slide.m3u8
 #EXTINF:-1 tvg-logo="https://keyframe-cdn.abcnews.com/streamprovider11.jpg" group-title="NEWS WORLD",ABC News Live - ABC News
-https://linear-abcnews-akc-na-west-1.media.dssott.com/dvt2=exp=1782255899~url=%2Flas1%2Fva01%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838%2F~psid=e338ae47-e8f4-4f7b-8e56-c15a2c115315~did=9d441e08-9620-468f-bd5c-1de08b425921~country=US~kid=k02~hmac=b6deb91de5a63d9cbea2eff70a44cb175a81798bd68ca9e97c589b881146ac5d/las1/va01/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838/ctr-all-hdri-sliding.m3u8?r=1080&v=1&hash=81fb88da5aab33fe54dc3f8d7ae5f0b2eaa56a8c
-#EXTINF:-1 tvg-logo="https://assets2.cbsnewsstatic.com/hub/i/r/2024/04/16/0fb75ad2-a909-44bb-87dc-86b9d51cbeb2/thumbnail/1280x720/949f3d3fef16f9c113e3048c6aef229f/247-key-channelthumbnail-1920x1080.jpg" group-title="NEWS WORLD",Watch CBS News 24/7, our free live news stream
-https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/33ac9d55-589c-46c0-ba09-eee904ea9272:MRN2/master.m3u8
+https://linear-abcnews-akc-na-central-1.media.dssott.com/dvt2=exp=1782280117~url=%2Flas1%2Fva01%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838%2F~psid=e6204a99-2450-4398-9dda-bb1f7259a7ef~did=e8506669-8d37-4258-9662-296997ee89bf~country=US~kid=k02~hmac=8842198c9ff148e469c54b2f7e6561958b39bd10501ae0f6c4d88ff19e80468c/las1/va01/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838/ctr-all-hdri-sliding.m3u8?r=1080&v=1&hash=81fb88da5aab33fe54dc3f8d7ae5f0b2eaa56a8c
+#EXTINF:-1 tvg-logo="https://keyframe-cdn.abcnews.com/streamprovider11.jpg" group-title="NEWS WORLD",ABC News Live - ABC News
+https://linear-abcnews-akc-na-central-1.media.dssott.com/dvt2=exp=1782280117~url=%2Flas1%2Fva01%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838%2F~psid=e6204a99-2450-4398-9dda-bb1f7259a7ef~did=e8506669-8d37-4258-9662-296997ee89bf~country=US~kid=k02~hmac=8842198c9ff148e469c54b2f7e6561958b39bd10501ae0f6c4d88ff19e80468c/las1/va01/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838/audio-aac-1-64K/64_slide.m3u8
+#EXTINF:-1 tvg-logo="https://keyframe-cdn.abcnews.com/streamprovider11.jpg" group-title="NEWS WORLD",ABC News Live - ABC News
+https://linear-abcnews-akc-na-central-1.media.dssott.com/dvt2=exp=1782280117~url=%2Flas1%2Fva01%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838%2F~psid=e6204a99-2450-4398-9dda-bb1f7259a7ef~did=e8506669-8d37-4258-9662-296997ee89bf~country=US~kid=k02~hmac=8842198c9ff148e469c54b2f7e6561958b39bd10501ae0f6c4d88ff19e80468c/las1/va01/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838/cmaf-cenc-ctr-1700K/1700_hdri_slide.m3u8
+#EXTINF:-1 tvg-logo="https://keyframe-cdn.abcnews.com/streamprovider11.jpg" group-title="NEWS WORLD",ABC News Live - ABC News
+https://linear-abcnews-akc-na-central-1.media.dssott.com/dvt2=exp=1782280117~url=%2Flas1%2Fva01%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838%2F~psid=e6204a99-2450-4398-9dda-bb1f7259a7ef~did=e8506669-8d37-4258-9662-296997ee89bf~country=US~kid=k02~hmac=8842198c9ff148e469c54b2f7e6561958b39bd10501ae0f6c4d88ff19e80468c/las1/va01/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838/cmaf-cenc-ctr-2400K/2400_hdri_slide.m3u8
+#EXTINF:-1 tvg-logo="https://keyframe-cdn.abcnews.com/streamprovider11.jpg" group-title="NEWS WORLD",ABC News Live - ABC News
+https://linear-abcnews-akc-na-central-1.media.dssott.com/dvt2=exp=1782280117~url=%2Flas1%2Fva01%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838%2F~psid=e6204a99-2450-4398-9dda-bb1f7259a7ef~did=e8506669-8d37-4258-9662-296997ee89bf~country=US~kid=k02~hmac=8842198c9ff148e469c54b2f7e6561958b39bd10501ae0f6c4d88ff19e80468c/las1/va01/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838/audio-aac-1-128K/128_slide.m3u8
+#EXTINF:-1 tvg-logo="https://keyframe-cdn.abcnews.com/streamprovider11.jpg" group-title="NEWS WORLD",ABC News Live - ABC News
+https://linear-abcnews-akc-na-central-1.media.dssott.com/dvt2=exp=1782280117~url=%2Flas1%2Fva01%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838%2F~psid=e6204a99-2450-4398-9dda-bb1f7259a7ef~did=e8506669-8d37-4258-9662-296997ee89bf~country=US~kid=k02~hmac=8842198c9ff148e469c54b2f7e6561958b39bd10501ae0f6c4d88ff19e80468c/las1/va01/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838/cmaf-cenc-ctr-2400K/2400_hdri_slide.m3u8
+#EXTINF:-1 tvg-logo="https://keyframe-cdn.abcnews.com/streamprovider11.jpg" group-title="NEWS WORLD",ABC News Live - ABC News
+https://linear-abcnews-akc-na-central-1.media.dssott.com/dvt2=exp=1782280117~url=%2Flas1%2Fva01%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838%2F~psid=e6204a99-2450-4398-9dda-bb1f7259a7ef~did=e8506669-8d37-4258-9662-296997ee89bf~country=US~kid=k02~hmac=8842198c9ff148e469c54b2f7e6561958b39bd10501ae0f6c4d88ff19e80468c/las1/va01/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838/audio-aac-1-128K/128_slide.m3u8
+#EXTINF:-1 tvg-logo="https://keyframe-cdn.abcnews.com/streamprovider10.jpg" group-title="NEWS WORLD",Video Severe storms in the South and Mid-Atlantic today; heat wave in the West | Watch Live News on ABCNL
+https://abcnews-livestreams.akamaized.net/out/v1/6a597119dbd5428a82dc11a2f514a1a2/abcn-live-10-cmaf-manifest/abcn-live-10-index.m3u8
+#EXTINF:-1 tvg-logo="https://keyframe-cdn.abcnews.com/streamprovider10.jpg" group-title="NEWS WORLD",Video Severe storms in the South and Mid-Atlantic today; heat wave in the West | Watch Live News on ABCNL
+https://abcnews-livestreams.akamaized.net/out/v1/6a597119dbd5428a82dc11a2f514a1a2/abcn-live-10-cmaf-manifest/abcn-live-10-index_4_0.m3u8
+#EXTINF:-1 tvg-logo="https://keyframe-cdn.abcnews.com/streamprovider10.jpg" group-title="NEWS WORLD",Video Severe storms in the South and Mid-Atlantic today; heat wave in the West | Watch Live News on ABCNL
+https://abcnews-livestreams.akamaized.net/out/v1/6a597119dbd5428a82dc11a2f514a1a2/abcn-live-10-cmaf-manifest/abcn-live-10-index_3.m3u8
+#EXTINF:-1 tvg-logo="https://keyframe-cdn.abcnews.com/streamprovider10.jpg" group-title="NEWS WORLD",Video Severe storms in the South and Mid-Atlantic today; heat wave in the West | Watch Live News on ABCNL
+https://abcnews-livestreams.akamaized.net/out/v1/6a597119dbd5428a82dc11a2f514a1a2/abcn-live-10-cmaf-manifest/abcn-live-10-index_4_0.m3u8
+#EXTINF:-1 tvg-logo="https://keyframe-cdn.abcnews.com/streamprovider10.jpg" group-title="NEWS WORLD",Video Severe storms in the South and Mid-Atlantic today; heat wave in the West | Watch Live News on ABCNL
+https://abcnews-livestreams.akamaized.net/out/v1/6a597119dbd5428a82dc11a2f514a1a2/abcn-live-10-cmaf-manifest/abcn-live-10-index_3.m3u8
+#EXTINF:-1 tvg-logo="https://a57.foxnews.com/cf-images.us-east-1.prod.boltdns.net/v1/static/694940094001/c9b2e2eb-7b87-435c-9510-eab2650ff944/8b584585-acf2-4c37-aa07-aaf2d077bb20/1280x720/match/676/380/image.jpg?ve=1&tl=1" group-title="NEWS WORLD",Fox Business Go | Fox News Video
+https://247.foxbusiness.com/hls/live/2003756/FBNHLSv3/master.m3u8?hdnea=exp=1782197299~acl=/*~hmac=383de98f4384e2b8fff890d14face89bd96abc3db97fd73e8e7c94b77338d3ee
+#EXTINF:-1 tvg-logo="https://a57.foxnews.com/cf-images.us-east-1.prod.boltdns.net/v1/static/694940094001/c9b2e2eb-7b87-435c-9510-eab2650ff944/8b584585-acf2-4c37-aa07-aaf2d077bb20/1280x720/match/676/380/image.jpg?ve=1&tl=1" group-title="NEWS WORLD",Fox Business Go | Fox News Video
+https://247.foxbusiness.com/hls/live/2003756/FBNHLSv3/primary_792.m3u8
+#EXTINF:-1 tvg-logo="https://a57.foxnews.com/cf-images.us-east-1.prod.boltdns.net/v1/static/694940094001/d58bb86e-af52-4e22-8c84-a4d8b29ffb1a/28cc1b74-1b19-432e-ac75-de7139e1b203/1280x720/match/400/225/image.jpg" group-title="NEWS WORLD",Watch Fox News Channel Online | Stream Fox News
+https://247.foxnews.com/hls/live/2003586/FNCHLSv3/master.m3u8?hdnea=exp=1782197299~acl=/*~hmac=383de98f4384e2b8fff890d14face89bd96abc3db97fd73e8e7c94b77338d3ee
+#EXTINF:-1 tvg-logo="https://www.cbsnews.com/bundles/cbsnewsvideo/images/cbsn--main-bg.jpg" group-title="NEWS WORLD",Watch CBS News 24/7, our free live news stream
+https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/d4ef6874-135c-4203-a881-d63d95a9b577:MRN2/master.m3u8
+#EXTINF:-1 tvg-logo="https://www.cbsnews.com/bundles/cbsnewsvideo/images/cbsn--main-bg.jpg" group-title="NEWS WORLD",Watch CBS News 24/7, our free live news stream
+https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/d4ef6874-135c-4203-a881-d63d95a9b577:MRN2/variant/93c2acc6479504ccd49e3f4d21db1bec/bandwidth/441000.m3u8
+#EXTINF:-1 tvg-logo="https://www.cbsnews.com/bundles/cbsnewsvideo/images/cbsn--main-bg.jpg" group-title="NEWS WORLD",Watch CBS News 24/7, our free live news stream
+https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/d4ef6874-135c-4203-a881-d63d95a9b577:MRN2/variant/93c2acc6479504ccd49e3f4d21db1bec/bandwidth/441000.m3u8
+#EXTINF:-1 tvg-logo="https://www.cbsnews.com/bundles/cbsnewsvideo/images/cbsn--main-bg.jpg" group-title="NEWS WORLD",Watch CBS News 24/7, our free live news stream
+https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/d4ef6874-135c-4203-a881-d63d95a9b577:MRN2/variant/746103095c4cba0bf336a095edd0798c/bandwidth/733000.m3u8
+#EXTINF:-1 tvg-logo="https://www.cbsnews.com/bundles/cbsnewsvideo/images/cbsn--main-bg.jpg" group-title="NEWS WORLD",Watch CBS News 24/7, our free live news stream
+https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/d4ef6874-135c-4203-a881-d63d95a9b577:MRN2/variant/d97af4c27467beea3da650488b681b9e/bandwidth/1083000.m3u8
+#EXTINF:-1 tvg-logo="https://www.cbsnews.com/bundles/cbsnewsvideo/images/cbsn--main-bg.jpg" group-title="NEWS WORLD",Watch CBS News 24/7, our free live news stream
+https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/d4ef6874-135c-4203-a881-d63d95a9b577:MRN2/variant/df15b3d87264e51b4858655d95765b18/bandwidth/1549000.m3u8
+#EXTINF:-1 tvg-logo="https://www.cbsnews.com/bundles/cbsnewsvideo/images/cbsn--main-bg.jpg" group-title="NEWS WORLD",Watch CBS News 24/7, our free live news stream
+https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/d4ef6874-135c-4203-a881-d63d95a9b577:MRN2/variant/9b9c3d2ac5aa8733095eb4ff47cef5d8/bandwidth/2249000.m3u8
+#EXTINF:-1 tvg-logo="https://www.cbsnews.com/bundles/cbsnewsvideo/images/cbsn--main-bg.jpg" group-title="NEWS WORLD",Watch CBS News 24/7, our free live news stream
+https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/d4ef6874-135c-4203-a881-d63d95a9b577:MRN2/variant/9b9c3d2ac5aa8733095eb4ff47cef5d8/bandwidth/2249000.m3u8
+#EXTINF:-1 tvg-logo="https://www.cbsnews.com/bundles/cbsnewsvideo/images/cbsn--main-bg.jpg" group-title="NEWS WORLD",Watch CBS News 24/7, our free live news stream
+https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/d4ef6874-135c-4203-a881-d63d95a9b577:MRN2/variant/9b9c3d2ac5aa8733095eb4ff47cef5d8/bandwidth/2249000.m3u8
+#EXTINF:-1 tvg-logo="https://www.cbsnews.com/bundles/cbsnewsvideo/images/cbsn--main-bg.jpg" group-title="NEWS WORLD",Watch CBS News 24/7, our free live news stream
+https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/d4ef6874-135c-4203-a881-d63d95a9b577:MRN2/variant/9b9c3d2ac5aa8733095eb4ff47cef5d8/bandwidth/2249000.m3u8
+#EXTINF:-1 tvg-logo="https://www.cbsnews.com/bundles/cbsnewsvideo/images/cbsn--main-bg.jpg" group-title="NEWS WORLD",Watch CBS News 24/7, our free live news stream
+https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/d4ef6874-135c-4203-a881-d63d95a9b577:MRN2/variant/bbe09487996e4026304507dc92286621/bandwidth/4231000.m3u8
+#EXTINF:-1 tvg-logo="https://www.cbsnews.com/bundles/cbsnewsvideo/images/cbsn--main-bg.jpg" group-title="NEWS WORLD",Watch CBS News 24/7, our free live news stream
+https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/d4ef6874-135c-4203-a881-d63d95a9b577:MRN2/variant/bbe09487996e4026304507dc92286621/bandwidth/4231000.m3u8
+#EXTINF:-1 tvg-logo="https://www.cbsnews.com/bundles/cbsnewsvideo/images/cbsn--main-bg.jpg" group-title="NEWS WORLD",Watch CBS News 24/7, our free live news stream
+https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/d4ef6874-135c-4203-a881-d63d95a9b577:MRN2/variant/bbe09487996e4026304507dc92286621/bandwidth/4231000.m3u8
+#EXTINF:-1 tvg-logo="https://www.cbsnews.com/bundles/cbsnewsvideo/images/cbsn--main-bg.jpg" group-title="NEWS WORLD",Watch CBS News 24/7, our free live news stream
+https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/d4ef6874-135c-4203-a881-d63d95a9b577:MRN2/variant/bbe09487996e4026304507dc92286621/bandwidth/4231000.m3u8
+#EXTINF:-1 tvg-logo="https://www.cbsnews.com/bundles/cbsnewsvideo/images/cbsn--main-bg.jpg" group-title="NEWS WORLD",Watch CBS News 24/7, our free live news stream
+https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/d4ef6874-135c-4203-a881-d63d95a9b577:MRN2/variant/bbe09487996e4026304507dc92286621/bandwidth/4231000.m3u8
+#EXTINF:-1 tvg-logo="https://www.cbsnews.com/bundles/cbsnewsvideo/images/cbsn--main-bg.jpg" group-title="NEWS WORLD",Watch CBS News 24/7, our free live news stream
+https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/d4ef6874-135c-4203-a881-d63d95a9b577:MRN2/variant/bbe09487996e4026304507dc92286621/bandwidth/4231000.m3u8
+#EXTINF:-1 tvg-logo="https://www.cbsnews.com/bundles/cbsnewsvideo/images/cbsn--main-bg.jpg" group-title="NEWS WORLD",Watch CBS News 24/7, our free live news stream
+https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/d4ef6874-135c-4203-a881-d63d95a9b577:MRN2/variant/bbe09487996e4026304507dc92286621/bandwidth/4231000.m3u8
+#EXTINF:-1 tvg-logo="https://www.cbsnews.com/bundles/cbsnewsvideo/images/cbsn--main-bg.jpg" group-title="NEWS WORLD",Watch CBS News 24/7, our free live news stream
+https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/d4ef6874-135c-4203-a881-d63d95a9b577:MRN2/variant/bbe09487996e4026304507dc92286621/bandwidth/4231000.m3u8
+#EXTINF:-1 tvg-logo="https://www.cbsnews.com/bundles/cbsnewsvideo/images/cbsn--main-bg.jpg" group-title="NEWS WORLD",Watch CBS News 24/7, our free live news stream
+https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/d4ef6874-135c-4203-a881-d63d95a9b577:MRN2/variant/bbe09487996e4026304507dc92286621/bandwidth/4231000.m3u8
+#EXTINF:-1 tvg-logo="https://www.cbsnews.com/bundles/cbsnewsvideo/images/cbsn--main-bg.jpg" group-title="NEWS WORLD",Watch CBS News 24/7, our free live news stream
+https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/d4ef6874-135c-4203-a881-d63d95a9b577:MRN2/variant/bbe09487996e4026304507dc92286621/bandwidth/4231000.m3u8
 #EXTM3U
 #EXTM3U x-tvg-url="https://iptv-epg.org/files/epg-ar.xml,https://epgshare01.online/epgshare01/epg_ripper_AR1.xml.gz" deinterlaced="1"
 #EXTINF:-1 group-title="ARGENTINA" tvg-id="Telefe.ar" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/cc/Telefe_%28nuevo_logo%29.png",Telefe
