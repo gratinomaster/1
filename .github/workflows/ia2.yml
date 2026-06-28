@@ -37,39 +37,47 @@ jobs:
       - name: Instalar dependências
         run: |
           python -m pip install --upgrade pip
-          # Adicionei lxml e requests que são comuns para scraping
-          python -m pip install yt-dlp beautifulsoup4 lxml requests
+          pip install beautifulsoup4 requests
 
-      - name: Verificar arquivo ia.txt
+      - name: Verificar e criar ia.txt (se não existir)
+        id: check_ia_txt
         run: |
           if [ ! -f ia.txt ]; then
             echo "ia.txt não encontrado, criando arquivo padrão..."
-            cat > ia.txt << 'EOF'
-https://archive.org/details/globo-e-record-novelas-e-variados-2005-2006-e-2010-fita-vhs
-https://archive.org/details/globo-tv-gazeta-sao-paulo-e-redetv-ano-2007-em-fita-vhs
-EOF
+            echo "https://archive.org/details/globo-e-record-novelas-e-variados-2005-2006-e-2010-fita-vhs" > ia.txt
+            echo "https://archive.org/details/globo-tv-gazeta-sao-paulo-e-redetv-ano-2007-em-fita-vhs" >> ia.txt
+            echo "ia_txt_created=true" >> $GITHUB_OUTPUT
+          else
+            echo "ia_txt_created=false" >> $GITHUB_OUTPUT
           fi
 
       - name: Rodar script ia2.py
         run: python3 ia2.py
 
       - name: Verificar arquivos gerados
+        id: check_generated_files
         run: |
           if [ -f lista30.M3U ]; then
             echo "✓ lista30.M3U gerada com sucesso ($(wc -l < lista30.M3U ) linhas)"
+            echo "m3u_generated=true" >> $GITHUB_OUTPUT
           else
             echo "::error::Arquivo lista30.M3U não foi criado!"
+            echo "m3u_generated=false" >> $GITHUB_OUTPUT
             exit 1
           fi
 
       - name: Commit e Push
+        if: steps.check_generated_files.outputs.m3u_generated == 'true'
         run: |
-          # Adiciona apenas os arquivos necessários
-          git add lista30.M3U ia.txt
+          git add lista30.M3U
+          # Adiciona ia.txt apenas se ele foi criado neste run
+          if [ "${{ steps.check_ia_txt.outputs.ia_txt_created }}" == "true" ]; then
+            git add ia.txt
+          fi
           
           # Verifica se existem mudanças antes de commitar
           if git diff --cached --quiet; then
-            echo "Nenhuma mudança detectada na lista."
+            echo "Nenhuma mudança detectada na lista ou em ia.txt."
           else
             git commit -m "🤖 Atualização automática da playlist - $(date '+%Y-%m-%d %H:%M')"
             
