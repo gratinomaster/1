@@ -182,22 +182,18 @@ https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chroni
 #EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="NoLogoFound.png",Computer Chronicles - 04x26 - Computers and Gambling
 https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chronicles.zip/Computer%20Chronicles%2FSeason%2004%2FEnglish%2FComputer%20Chronicles%20-%2004x26%20-%20Computers%20and%20Gambling.mp4
 #EXTM3U
-#EXTINF:-1 group-title="VOD" ,''The Ed Wynn Show'' - 6 October 1949
-https://archive.org/download/TheEdWynnShow6October1949/TheEdWynnShow6October1949.ogv
 #EXTINF:-1 group-title="VOD" ,1950 commercial for Westinghouse television set (2)
 https://archive.org/download/1950-commercial-for-westinghouse-television-set-2/1950%20commercial%20for%20Westinghouse%20television%20set%20%282%29.mp4
 #EXTINF:-1 group-title="VOD" ,'The Guiding Light' - March 4, 1953
 https://archive.org/download/Guiding_Light/GuidingLightMarch4-1953.ogv
 #EXTINF:-1 group-title="VOD" ,Another "What's My Line" with guest Lucille Ball (Classic TV)
 https://archive.org/download/Yet_More_Lucy/WhatsMyLine21February1954.ogv
-#EXTINF:-1 group-title="VOD" ,''Four Star Playhouse'' - Tusitala
-https://archive.org/download/FourStarPlayhouseTusitala/Four%20Star%20Playhouse%20-%20Tusitala.ogv
+#EXTINF:-1 group-title="VOD" ,''The Brighter Day'' - Misc 1955 episode
+https://archive.org/download/TheBrighterDay1955/brighterday1955.ogv
 #EXTINF:-1 group-title="VOD" ,''To Tell The Truth'' - 30 July 1957
 https://archive.org/download/ToTellTheTruth30July1957/To%20Tell%20The%20Truth%20-%2030%20July%201957.ogv
 #EXTINF:-1 group-title="VOD" ,You're in the Picture
 https://archive.org/download/610120/61-01-20.mp4
-#EXTINF:-1 group-title="VOD" ,1967 commercial breaks from ''To Tell the Truth''
-https://archive.org/download/1967CommercialBreaksFromtoTellTheTruth/TTTT1967Break1.ogv
 #EXTINF:-1 group-title="VOD" ,Smothers Brothers Comedy Hour 69 02 02 3 16 Burl Ives, Chambers Brothers, Jackie & Roy
 https://archive.org/download/69-02-02-3-16-burl-ives-chambers-brothers-jackie-roy/69-02-02%203-16%20Burl%20Ives%2C%20Chambers%20Brothers%2C%20Jackie%20%26%20Roy.mp4
 #EXTM3U
@@ -838,12 +834,14 @@ https://live-as-01-01.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAi
 https://live-as-01-01.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJVUyIsImRvbWFpbiI6ImxpdmUtYXMtMDEtMDEudmlkZW8uZ2xvYm8uY29tIiwiZXhwIjoxNzgzMTk5MDgxLCJpYXQiOjE3ODMxNzc0ODEsImlzcyI6InBsYXliYWNrLWFwaS1wcm9kLWdjcCIsIm93bmVyIjoiIiwicGF0aCI6Ii9saXZlL2YoYk1pbj0zMTM5ODQpL3R2dm1jZWZvcjIvcGxheWxpc3QubTN1OCJ9.FtrDcuDAFs1TU2-B7Tc7ait9at7-ZXGND2mlrIt-46VI8I44jh0p6mdcv8fih-2UAA9I7L4X9NDEjKW7i4dOOnRUW-G_a_pUWbPhAfWg9CLumlbp1ubxBhcmkC3Io4Taw3ib0fMSNpwuBYF1X4xZv9NBTafSFLQ_Q-GGA5ricVkpH5OBGzzX0GMlreh5MW4ccMkQQKk6oYeJmX46VlY9ebT0O1BviQDGIeUANj6X8zFlTKLjBqs7esfOx-vDyvo9bG5U8ySzV6BQvRackBWaeu3ku_Y3abxaDpl0aLPnKZ2gmb7Mo6KnqN1EbvI4VSTIo5YJQaKFWLcPTofF_G4N3w/live/f(bMin=313984)/tvvmcefor2/tvvmcefor2-audio_1=96000-video=313984.m3u8
 #EXTM3U
 #EXTM3U
-#EXTINF:-1 tvg-id="6508be683a0d700008c534e4" tvg-url="http://i.mjh.nz/PlutoTV/us.xml" tvg-logo="https://s.abcnews.com/images/US/abc_news_default_2000x2000_update_16x9_992.jpg" group-title="NEWS WORLD",ABC News Live
-https://abcnews-livestreams.akamaized.net/out/v1/173a6e46d5c5423d9611bc7fb7899c73/abcn-live-05-cmaf-manifest/abcn-live-05-index.m3u8
-#EXTINF:-1 tvg-id="465372" tvg-url="https://epg.pw/api/epg.xml?channel_id=465372" tvg-logo="https://images.weserv.nl/?url=https://static.foxnews.com/static/orion/styles/img/fox-news/og/og-fox-news.png&output=jpg&w=400" group-title="NEWS WORLD",Fox News Channel
-https://247.foxnews.com/hls/live/2003586/FNCHLSv3/master.m3u8?hdnea=exp=1783187808~acl=/*~hmac=b47e4a1f0423b8ae28f9b736aaec616ca5e6fe499c27ddcc813fcb77bedc654e
-#EXTINF:-1 tvg-id="464766" tvg-url="https://epg.pw/api/epg.xml?channel_id=464766" tvg-logo="https://images.weserv.nl/?url=https://static.foxnews.com/static/orion/styles/img/fox-business/og/og-fox-business.png&output=jpg&w=400" group-title="NEWS WORLD",Fox Business
-https://247.foxbusiness.com/hls/live/2003756/FBNHLSv3/master.m3u8?hdnea=exp=1783187808~acl=/*~hmac=b47e4a1f0423b8ae28f9b736aaec616ca5e6fe499c27ddcc813fcb77bedc654e
+#EXTINF:-1 tvg-logo="https://keyframe-cdn.abcnews.com/streamprovider11.jpg" group-title="NEWS WORLD",ABC News Live - ABC News
+https://linear-abcnews-akc-na-east-1.media.dssott.com/dvt2=exp=1783274389~url=%2Fclt1%2Fva02%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1781081210579%2F~psid=2b189141-df11-4d7e-8f50-d08643c5be9b~did=a6072cac-5a32-42c0-8655-b54e5538853e~country=US~kid=k02~hmac=71b2f6f77585e5906782318d6f0b0c8a543b25f79e88a9b671586a154e316478/clt1/va02/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1781081210579/ctr-all-hdri-sliding.m3u8?r=1080&v=1&hash=c00ca54a5fd625c2ce1a442c983e81561832da94
+#EXTINF:-1 tvg-logo="https://a57.foxnews.com/cf-images.us-east-1.prod.boltdns.net/v1/static/694940094001/6b73c12d-76c5-4cf0-9475-c4490e393bee/32532dd6-13ea-4194-a742-a546311cf7ca/1280x720/match/400/225/image.jpg" group-title="NEWS WORLD",Fox Business Go | Fox News Video
+https://247.foxbusiness.com/hls/live/2003756/FBNHLSv3/master.m3u8?hdnea=exp=1783191590~acl=/*~hmac=d4eea2af2280f1af757f98cd733d6c742a9d40f1fcc8de0802d6f23287669ffd
+#EXTINF:-1 tvg-logo="https://a57.foxnews.com/cf-images.us-east-1.prod.boltdns.net/v1/static/694940094001/15de0523-3be4-4a9a-8159-7020114e7036/b6ff623a-26d6-4fd9-8bb8-0856adbf38ce/1280x720/match/676/380/image.jpg?ve=1&tl=1" group-title="NEWS WORLD",Watch Fox News Channel Online | Stream Fox News
+https://247.foxnews.com/hls/live/2003586/FNCHLSv3/master.m3u8?hdnea=exp=1783191590~acl=/*~hmac=d4eea2af2280f1af757f98cd733d6c742a9d40f1fcc8de0802d6f23287669ffd
+#EXTINF:-1 tvg-logo="https://www.cbsnews.com/bundles/cbsnewsvideo/images/cbsn--main-bg.jpg" group-title="NEWS WORLD",Watch CBS News 24/7, our free live news stream
+https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/569b2d20-cad0-4830-be0a-261547107d93:CBF2/master.m3u8
 #EXTM3U
 #EXTM3U x-tvg-url="https://iptv-epg.org/files/epg-ar.xml,https://epgshare01.online/epgshare01/epg_ripper_AR1.xml.gz" deinterlaced="1"
 #EXTINF:-1 group-title="ARGENTINA" tvg-id="Telefe.ar" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/cc/Telefe_%28nuevo_logo%29.png",Telefe
