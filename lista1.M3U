@@ -186,14 +186,14 @@ https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chroni
 https://archive.org/download/TheEdWynnShow6October1949/TheEdWynnShow6October1949.ogv
 #EXTINF:-1 group-title="VOD" ,1950 commercial for Westinghouse television set (2)
 https://archive.org/download/1950-commercial-for-westinghouse-television-set-2/1950%20commercial%20for%20Westinghouse%20television%20set%20%282%29.mp4
-#EXTINF:-1 group-title="VOD" ,'The Guiding Light' - March 4, 1953
-https://archive.org/download/Guiding_Light/GuidingLightMarch4-1953.ogv
+#EXTINF:-1 group-title="VOD" ,Ozzie & Harriet: The Boxing Matches
+https://archive.org/download/Ozzie-Harriet_Boxing_Matches/01-33_Boxing_Matches.mp4
 #EXTINF:-1 group-title="VOD" ,Another "What's My Line" with guest Lucille Ball (Classic TV)
 https://archive.org/download/Yet_More_Lucy/WhatsMyLine21February1954.ogv
 #EXTINF:-1 group-title="VOD" ,''The Brighter Day'' - Misc 1955 episode
 https://archive.org/download/TheBrighterDay1955/brighterday1955.ogv
-#EXTINF:-1 group-title="VOD" ,The Sound Of Jazz ( 1957)
-https://archive.org/download/thesoundofjazz1957/The%20Sound%20Of%20Jazz%20%281957%29.ogv
+#EXTINF:-1 group-title="VOD" ,1957 CBS-TV Special ''The Edsel Show'' with Guests
+https://archive.org/download/TheEdselShow1957/EdselShow.ogv
 #EXTINF:-1 group-title="VOD" ,You're in the Picture
 https://archive.org/download/610120/61-01-20.mp4
 #EXTINF:-1 group-title="VOD" ,1967 commercial breaks from ''To Tell the Truth''
@@ -202,7 +202,6 @@ https://archive.org/download/1967CommercialBreaksFromtoTellTheTruth/TTTT1967Brea
 https://archive.org/download/69-02-02-3-16-burl-ives-chambers-brothers-jackie-roy/69-02-02%203-16%20Burl%20Ives%2C%20Chambers%20Brothers%2C%20Jackie%20%26%20Roy.mp4
 #EXTINF:-1 group-title="VOD" ,CBS Evening News May 29, 1979
 https://archive.org/download/cbs-19790529/CBS%E6%99%9A%E9%97%B4%E6%96%B0%E9%97%BB%2019790529.mp4
-#EXTM3U
 #EXTM3U
 #EXTM3U
 #EXTM3U url-tvg="https://epgshare01.online/epgshare01/epg_ripper_AR1.xml.gz,https://raw.githubusercontent.com/dvds1151/AR-TV/main/epg/artv-guide.xml" tvg-shift=-3 cache=500 deinterlace=1 aspect-ratio=16:9
@@ -903,10 +902,10 @@ https://live-as-01-01.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAi
 #EXTINF:-1 tvg-id="tv-globo" tvg-logo="" group-title="GLOBO AO VIVO",Assistir CBN - CBN RJ online | Globoplay
 https://live-as-09-15.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJVUyIsImRvbWFpbiI6ImxpdmUtYXMtMDktMTUudmlkZW8uZ2xvYm8uY29tIiwiZXhwIjoxNzg0ODI0NjEyLCJpYXQiOjE3ODQ4MDMwMTIsImlzcyI6InBsYXliYWNrLWFwaS1wcm9kLWdjcCIsIm93bmVyIjoiIiwicGF0aCI6Ii9saXZlL2YoYk1pbj01NTg5NzYsZHZyPTEyMCkvY2JucmoyNGhhL3BsYXlsaXN0Lm0zdTgifQ.jXgTgZjp54bCH9Rpg-pDZcm6ko6vKKmUEQXno4T32ritWSKAK2KeU5eXkZexa9QOkXwY7XMDd8AhkW6w6Hqx25nCzSAu1eoga-nMF00x8PLeaKoV2Nd02WW29SufehHY2tgKU7vxXhH15pLWOHEto0efgKyEMoEiZzVQPBvvQWAar0WRF0GPGXeL5tQiwCUwgYjHbbwQDxoWG8OHzqtKu3GEGrYz9s6e4eXe4dXDNkjq3TsZWDWLcensd5SUrcae3XdRLifLb1f-fR9t3W09PSRfsQmcrQEFrZ1jOB09wSycXKpXyBu_LfUXAU5rRv0FwDmKkswCtNrGORTYLZ1EOA/live/f(bMin=558976,dvr=120)/cbnrj24ha/cbnrj24ha-audio_1=96000-video=2262976.m3u8?dvr_window_length=120
 #EXTM3U
-#EXTINF:-1 group-title="GLOBO AO VIVO" tvg-logo="https://s02.video.glbimg.com/x720/4039160.jpg",AO VIVO: Assista à TV Verdes Mares ao vivo
-https://live-as-02-17.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJVUyIsImRvbWFpbiI6ImxpdmUtYXMtMDItMTcudmlkZW8uZ2xvYm8uY29tIiwiZXhwIjoxNzg0ODIzMTQ4LCJpYXQiOjE3ODQ4MDE1NDgsImlzcyI6InBsYXliYWNrLWFwaS1wcm9kLWdjcCIsIm93bmVyIjoiIiwicGF0aCI6Ii9saXZlL2YoYk1pbj0zMTM5ODQpL3JlZGViYWhpYS9wbGF5bGlzdC5tM3U4In0.caCRqkzjm-VAFn7pGZIiki8F62x_iJop8U-NC2mqTpdyV7PSsPv628VKZwfjKgOhhO0ElhSzGe3yuPR4ZeqOb-Vupmwkoagg16iOcczdfkwH1XqOEfRqG8jxovTzaEk1I_VvXvMH4iWML0gwyBDgCQYoF6N6MJAGGg6uB0jRuK1O9SPNUbOv6ePRNnq-mJ1rh9aZ870V7ibPgjF2N5KxmbMbyTAQuj8PRoSYh4UVuEKN-pcqHm4gD87LoqbHglATc4wNLE8urlGLV5PmF2uZAX2AVwanGWQovhNEaUbk056MuH18TlH3_Mp2zsknI5sC47ExaVCnpJqZ_Iss1l4wZw/live/f(bMin=313984)/redebahia/playlist.m3u8
-#EXTINF:-1 group-title="GLOBO AO VIVO" tvg-logo="https://s02.video.glbimg.com/x720/12395240.jpg",AO VIVO: Assista ao Bom Dia ES
-https://live-as-01-01.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJVUyIsImRvbWFpbiI6ImxpdmUtYXMtMDEtMDEudmlkZW8uZ2xvYm8uY29tIiwiZXhwIjoxNzg0ODIzMjQ1LCJpYXQiOjE3ODQ4MDE2NDUsImlzcyI6InBsYXliYWNrLWFwaS1wcm9kLWdjcCIsIm93bmVyIjoiIiwicGF0aCI6Ii9saXZlL2YoYk1pbj0zMTM5ODQpL3R2dm1jZWZvcjIvcGxheWxpc3QubTN1OCJ9.w1hoYz0AMa8uPGBFaNy2ltNJkypX6FjjrZheySDM36MFQDMFvB2sWxOz5VFxijokLqv3Lig9fUoWJ7KV5Y5YdGATvXnwEAY0mw1uwVYh58q2sMfPPOBdOnWUDVds5jODpie28pLCeccj5PBBU-D0XCCF_MWbvsocd-Mqt6SkiKf_cs3KD9HAFKeDIFp4d7qT5qHIzLVPEnZFSN77U2nn85rneQea4BSiA3Za3gVhL2AOqkthpRetwq_YtO1yWc6889HKwofIj311D6UEoeAkNd_xtZJfGvhYZWZ5MAKBhz5_bkbbfTC1DSJZZyFwTrEQI5RhjThOg_MtExJqcAgAIg/live/f(bMin=313984)/tvvmcefor2/tvvmcefor2-audio_1=96000-video=1476992.m3u8
+#EXTINF:-1 group-title="GLOBO AO VIVO" tvg-logo="https://s02.video.glbimg.com/x720/2134039.jpg",AO VIVO: Assista ao Bahia Meio Dia
+https://live-as-10-28.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJVUyIsImRvbWFpbiI6ImxpdmUtYXMtMTAtMjgudmlkZW8uZ2xvYm8uY29tIiwiZXhwIjoxNzg0ODQwNTg3LCJpYXQiOjE3ODQ4MTg5ODcsImlzcyI6InBsYXliYWNrLWFwaS1wcm9kLWdjcCIsIm93bmVyIjoiIiwicGF0aCI6Ii9saXZlL2YoYk1pbj0zMTM5ODQpL3JlZGViYWhpYS9wbGF5bGlzdC5tM3U4In0.Hw923G2i4Mhae1BdDgYIkWDqw5cis2xCfAGO8F4KEs8VdzEqNJO8jg9Gh9JaV0CcmoNbAojrMvqbc77AgZ4RC3fctQL51AbzjSaVMOvEta54nkEwxbZQd4MO4T478qCcDf56d1WgKhbjApcnKAwh0-ev_cyCiEufmhtpLfjngr1DrxJi6dFobMNLD4Yp_83S6iVa5Do9PYiW7acyKywMgFPcZ5S7t8CWJqNjAwkmuxE1w8DpOGgaNwgQ7HW9yw58aalk9SWGCdoZURQz9jmRIWyHAvj3ocOjYV7lsVnZfKnsZkgHfhja7T2sc3jR6nqJj1kckwj1JXzVwOml7rYTkw/live/f(bMin=313984)/redebahia/playlist.m3u8
+#EXTINF:-1 group-title="GLOBO AO VIVO" tvg-logo="https://s02.video.glbimg.com/x720/2168377.jpg",AO VIVO: Assista aos telejornais da TV Liberal
+https://live-as-03-33.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJVUyIsImRvbWFpbiI6ImxpdmUtYXMtMDMtMzMudmlkZW8uZ2xvYm8uY29tIiwiZXhwIjoxNzg0ODQwNzE4LCJpYXQiOjE3ODQ4MTkxMTgsImlzcyI6InBsYXliYWNrLWFwaS1wcm9kLWdjcCIsIm93bmVyIjoiIiwicGF0aCI6Ii9saXZlL2YoYk1pbj0zMTM5ODQpL3R2bGliZXJhbC9wbGF5bGlzdC5tM3U4In0.qGV8exhrwbdwc4NbiPM1q4rfbpH_hHR55xhKnXTyUZUu-k2b8X64oFCT4xowwT-3Me5C7nT0yfhfIxt83Xuw0NljG4f4x-MBL31XHL-rkNpqmq-INYd7XZTkH49ioY5_yIxCuPg3cdAmJB7H4zMQuTNFW_I1-dPwDscWtAJVn9uvpspO43RFHz08jeaxZQ2HhzzmbUs0nd5Sjlgh7svSzR7xHKtqtOiwFzA5r4v3ddZSyzNSFKUODYTnpDfLAB2Y94_YLEw3d4dKpDeo98AlN_4BoYOkJqaIS4ie4EMIhljFS_A_OEkH8bd6DM4J6RSAbq1hBrLBJr9An_PQv87Eag/live/f(bMin=313984)/tvliberal/playlist.m3u8
 #EXTM3U
 #EXTM3U
 #EXTINF:-1 tvg-logo="https://keyframe-cdn.abcnews.com/streamprovider11.jpg" group-title="NEWS WORLD",ABC News Live - ABC News
