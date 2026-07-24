@@ -1,197 +1,15 @@
 #EXTM3U
-#EXTINF:-1 group-title="GLOBO AO VIVO" tvg-id="Globo SP.br" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLBbr7-LGDTs8A4UlZaQ-v0s-u_T294dLLGlTkDsWp9mh_OPCP6ysZoaUkWA&s",TV Globo São Paulo
-http://hls1.sua.tv:80/live/globosphd/s.m3u8
-#EXTINF:-1 group-title="GLOBO AO VIVO" tvg-id="Globo SP.br" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVTA2lPxgzulUUqfQtAZ91PEug5evdlLfqP1l7Sr6U38KAtWklLFsOtIyqHg&s",TV Globo São Paulo
-http://hls1.sua.tv:80/live/globosphd/s.m3u8
-#EXTINF:-1 group-title="GLOBO AO VIVO" tvg-id="Globo SP.br" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDL0hiZWrm3Adfp7RouFKTT_oIyrYNUoouTMHacd4Zjf0oUUr49R-4em6lLA&s",TV Globo São Paulo
-http://hls1.sua.tv:80/live/globosphd/s.m3u8
-#EXTINF:-1 group-title="GLOBO AO VIVO" tvg-id="TV Bahia HD.br" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/1/1e/Logotipo_TV_Bahia.png",TV Bahia
-http://hls1.sua.tv/live/globotvbahiafhdbr2/s.m3u8
-#EXTINF:-1 group-title="GLOBO AO VIVO" tvg-id="TV Bahia HD.br" tvg-logo="https://i.imgur.com/k4fl1wF.png",TV Bahia
-http://hls1.sua.tv/live/globotvbahiafhdbr2/s.m3u8
-#EXTINF:-1 group-title="GLOBO AO VIVO" tvg-id="TV Bahia HD.br" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/1/1e/Logotipo_TV_Bahia.png",TV Bahia
-http://hls1.sua.tv/live/globotvbahiafhdbr2/s.m3u8
-#EXTINF:-1 group-title="GLOBO AO VIVO" tvg-id="TV Bahia HD.br" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/1/1e/Logotipo_TV_Bahia.png",TV Bahia
-http://hls1.sua.tv/live/globotvbahiafhdbr2/s.m3u8
-#EXTINF:-1 group-title="GLOBO AO VIVO" tvg-id="Globo TV Bahia.br" tvg-logo="https://i.imgur.com/k4fl1wF.png",TV Bahia
-http://hls1.sua.tv/live/globotvbahiafhdbr2/s.m3u8
-#EXTINF:-1 group-title="GLOBO AO VIVO" tvg-id="Globo TV Bahia.br" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/1/1e/Logotipo_TV_Bahia.png",TV Bahia
-http://hls1.sua.tv/live/globotvbahiafhdbr2/s.m3u8
-#EXTINF:-1 group-title="GLOBO AO VIVO" tvg-id="Globo TV Bahia.br" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/1/1e/Logotipo_TV_Bahia.png",TV Bahia
-http://hls1.sua.tv/live/globotvbahiafhdbr2/s.m3u8
-#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="NoLogoFound.png",Computer Chronicles - 01x01 - Mainframes to Minis to Micros
-https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chronicles.zip/Computer%20Chronicles%2FSeason%2001%2FEnglish%2FComputer%20Chronicles%20-%2001x01%20-%20Mainframes%20to%20Minis%20to%20Micros.mp4
-#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="NoLogoFound.png",Computer Chronicles - 01x02 - Integrated Software
-https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chronicles.zip/Computer%20Chronicles%2FSeason%2001%2FEnglish%2FComputer%20Chronicles%20-%2001x02%20-%20Integrated%20Software.mp4
-#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="NoLogoFound.png",Computer Chronicles - 01x03 - Computers and Music
-https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chronicles.zip/Computer%20Chronicles%2FSeason%2001%2FEnglish%2FComputer%20Chronicles%20-%2001x03%20-%20Computers%20and%20Music.mp4
-#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="NoLogoFound.png",Computer Chronicles - 01x04 - Computer Simulations
-https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chronicles.zip/Computer%20Chronicles%2FSeason%2001%2FEnglish%2FComputer%20Chronicles%20-%2001x04%20-%20Computer%20Simulations.mp4
-#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="NoLogoFound.png",Computer Chronicles - 01x05 - Operating Systems
-https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chronicles.zip/Computer%20Chronicles%2FSeason%2001%2FEnglish%2FComputer%20Chronicles%20-%2001x05%20-%20Operating%20Systems.mp4
-#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="NoLogoFound.png",Computer Chronicles - 01x06 - Word Processing
-https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chronicles.zip/Computer%20Chronicles%2FSeason%2001%2FEnglish%2FComputer%20Chronicles%20-%2001x06%20-%20Word%20Processing.mp4
-#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="NoLogoFound.png",Computer Chronicles - 01x07 - Computer Security
-https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chronicles.zip/Computer%20Chronicles%2FSeason%2001%2FEnglish%2FComputer%20Chronicles%20-%2001x07%20-%20Computer%20Security.mp4
-#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="NoLogoFound.png",Computer Chronicles - 01x08 - Robotics
-https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chronicles.zip/Computer%20Chronicles%2FSeason%2001%2FEnglish%2FComputer%20Chronicles%20-%2001x08%20-%20Robotics.mp4
-#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="NoLogoFound.png",Computer Chronicles - 01x09 - Speech Synthesis
-https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chronicles.zip/Computer%20Chronicles%2FSeason%2001%2FEnglish%2FComputer%20Chronicles%20-%2001x09%20-%20Speech%20Synthesis.mp4
-#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="NoLogoFound.png",Computer Chronicles - 01x10 - Networking
-https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chronicles.zip/Computer%20Chronicles%2FSeason%2001%2FEnglish%2FComputer%20Chronicles%20-%2001x10%20-%20Networking.mp4
-#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="NoLogoFound.png",Computer Chronicles - 01x11 - Microchips
-https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chronicles.zip/Computer%20Chronicles%2FSeason%2001%2FEnglish%2FComputer%20Chronicles%20-%2001x11%20-%20Microchips.mp4
-#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="NoLogoFound.png",Computer Chronicles - 01x12 - Business Applications (1984)
-https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chronicles.zip/Computer%20Chronicles%2FSeason%2001%2FEnglish%2FComputer%20Chronicles%20-%2001x12%20-%20Business%20Applications%20%281984%29.mp4
-#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="NoLogoFound.png",Computer Chronicles - 01x13 - Storage Devices
-https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chronicles.zip/Computer%20Chronicles%2FSeason%2001%2FEnglish%2FComputer%20Chronicles%20-%2001x13%20-%20Storage%20Devices.mp4
-#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="NoLogoFound.png",Computer Chronicles - 01x14 - Printers
-https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chronicles.zip/Computer%20Chronicles%2FSeason%2001%2FEnglish%2FComputer%20Chronicles%20-%2001x14%20-%20Printers.mp4
-#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="NoLogoFound.png",Computer Chronicles - 01x15 - Databases
-https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chronicles.zip/Computer%20Chronicles%2FSeason%2001%2FEnglish%2FComputer%20Chronicles%20-%2001x15%20-%20Databases.mp4
-#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="NoLogoFound.png",Computer Chronicles - 01x16 - Computer Graphics
-https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chronicles.zip/Computer%20Chronicles%2FSeason%2001%2FEnglish%2FComputer%20Chronicles%20-%2001x16%20-%20Computer%20Graphics.mp4
-#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="NoLogoFound.png",Computer Chronicles - 01x17 - Decision Support Systems
-https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chronicles.zip/Computer%20Chronicles%2FSeason%2001%2FEnglish%2FComputer%20Chronicles%20-%2001x17%20-%20Decision%20Support%20Systems.mp4
-#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="NoLogoFound.png",Computer Chronicles - 01x18 - Computer Ergonomics
-https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chronicles.zip/Computer%20Chronicles%2FSeason%2001%2FEnglish%2FComputer%20Chronicles%20-%2001x18%20-%20Computer%20Ergonomics.mp4
-#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="NoLogoFound.png",Computer Chronicles - 01x19 - Programming Languages
-https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chronicles.zip/Computer%20Chronicles%2FSeason%2001%2FEnglish%2FComputer%20Chronicles%20-%2001x19%20-%20Programming%20Languages.mp4
-#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="NoLogoFound.png",Computer Chronicles - 01x21 - Computer Games
-https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chronicles.zip/Computer%20Chronicles%2FSeason%2001%2FEnglish%2FComputer%20Chronicles%20-%2001x21%20-%20Computer%20Games.mp4
-#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="NoLogoFound.png",Computer Chronicles - 01x22 - Computer Entrepreneurs (v1)
-https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chronicles.zip/Computer%20Chronicles%2FSeason%2001%2FEnglish%2FComputer%20Chronicles%20-%2001x22%20-%20Computer%20Entrepreneurs%20%28v1%29.mp4
-#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="NoLogoFound.png",Computer Chronicles - 01x22 - Computer Entrepreneurs (v2)
-https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chronicles.zip/Computer%20Chronicles%2FSeason%2001%2FEnglish%2FComputer%20Chronicles%20-%2001x22%20-%20Computer%20Entrepreneurs%20%28v2%29.mp4
-#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="NoLogoFound.png",Computer Chronicles - 01x23 - Fifth Generation Computers
-https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chronicles.zip/Computer%20Chronicles%2FSeason%2001%2FEnglish%2FComputer%20Chronicles%20-%2001x23%20-%20Fifth%20Generation%20Computers.mp4
-#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="NoLogoFound.png",Computer Chronicles - 01x24 - Super Computers
-https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chronicles.zip/Computer%20Chronicles%2FSeason%2001%2FEnglish%2FComputer%20Chronicles%20-%2001x24%20-%20Super%20Computers.mp4
-#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="NoLogoFound.png",Computer Chronicles - 01x25 - Artificial Intelligence (1984) (v1)
-https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chronicles.zip/Computer%20Chronicles%2FSeason%2001%2FEnglish%2FComputer%20Chronicles%20-%2001x25%20-%20Artificial%20Intelligence%20%281984%29%20%28v1%29.mp4
-#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="NoLogoFound.png",Computer Chronicles - 01x25 - Artificial Intelligence (1984) (v2)
-https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chronicles.zip/Computer%20Chronicles%2FSeason%2001%2FEnglish%2FComputer%20Chronicles%20-%2001x25%20-%20Artificial%20Intelligence%20%281984%29%20%28v2%29.mp4
-#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="NoLogoFound.png",Computer Chronicles - 01x26 - Computers in Education
-https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chronicles.zip/Computer%20Chronicles%2FSeason%2001%2FEnglish%2FComputer%20Chronicles%20-%2001x26%20-%20Computers%20in%20Education.mp4
-#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="NoLogoFound.png",Computer Chronicles - 02x01 - Laser Disk Storage
-https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chronicles.zip/Computer%20Chronicles%2FSeason%2002%2FEnglish%2FComputer%20Chronicles%20-%2002x01%20-%20Laser%20Disk%20Storage.mp4
-#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="NoLogoFound.png",Computer Chronicles - 02x02 - Portable Computers
-https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chronicles.zip/Computer%20Chronicles%2FSeason%2002%2FEnglish%2FComputer%20Chronicles%20-%2002x02%20-%20Portable%20Computers.mp4
-#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="NoLogoFound.png",Computer Chronicles - 02x03 - Computer Games
-https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chronicles.zip/Computer%20Chronicles%2FSeason%2002%2FEnglish%2FComputer%20Chronicles%20-%2002x03%20-%20Computer%20Games.mp4
-#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="NoLogoFound.png",Computer Chronicles - 02x04 - IBM Compatible Computers
-https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chronicles.zip/Computer%20Chronicles%2FSeason%2002%2FEnglish%2FComputer%20Chronicles%20-%2002x04%20-%20IBM%20Compatible%20Computers.mp4
-#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="NoLogoFound.png",Computer Chronicles - 02x05 - Software Piracy
-https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chronicles.zip/Computer%20Chronicles%2FSeason%2002%2FEnglish%2FComputer%20Chronicles%20-%2002x05%20-%20Software%20Piracy.mp4
-#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="NoLogoFound.png",Computer Chronicles - 02x06 - Computers and the Disabled
-https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chronicles.zip/Computer%20Chronicles%2FSeason%2002%2FEnglish%2FComputer%20Chronicles%20-%2002x06%20-%20Computers%20and%20the%20Disabled.mp4
-#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="NoLogoFound.png",Computer Chronicles - 02x07 - UNIX (1985)
-https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chronicles.zip/Computer%20Chronicles%2FSeason%2002%2FEnglish%2FComputer%20Chronicles%20-%2002x07%20-%20UNIX%20%281985%29.mp4
-#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="NoLogoFound.png",Computer Chronicles - 02x08 - Computers and Sports (1985)
-https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chronicles.zip/Computer%20Chronicles%2FSeason%2002%2FEnglish%2FComputer%20Chronicles%20-%2002x08%20-%20Computers%20and%20Sports%20%281985%29.mp4
-#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="NoLogoFound.png",Computer Chronicles - 02x09 - Personal Finance Software
-https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chronicles.zip/Computer%20Chronicles%2FSeason%2002%2FEnglish%2FComputer%20Chronicles%20-%2002x09%20-%20Personal%20Finance%20Software.mp4
-#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="NoLogoFound.png",Computer Chronicles - 02x10 - The Macintosh Computer
-https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chronicles.zip/Computer%20Chronicles%2FSeason%2002%2FEnglish%2FComputer%20Chronicles%20-%2002x10%20-%20The%20Macintosh%20Computer.mp4
-#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="NoLogoFound.png",Computer Chronicles - 02x11 - Profile of Big Blue (IBM)
-https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chronicles.zip/Computer%20Chronicles%2FSeason%2002%2FEnglish%2FComputer%20Chronicles%20-%2002x11%20-%20Profile%20of%20Big%20Blue%20%28IBM%29.mp4
-#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="NoLogoFound.png",Computer Chronicles - 02x13 - Computers & Communications
-https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chronicles.zip/Computer%20Chronicles%2FSeason%2002%2FEnglish%2FComputer%20Chronicles%20-%2002x13%20-%20Computers%20%26%20Communications.mp4
-#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="NoLogoFound.png",Computer Chronicles - 02x15 - Low End Computers
-https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chronicles.zip/Computer%20Chronicles%2FSeason%2002%2FEnglish%2FComputer%20Chronicles%20-%2002x15%20-%20Low%20End%20Computers.mp4
-#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="NoLogoFound.png",Computer Chronicles - 02x18 - Japanese PCs
-https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chronicles.zip/Computer%20Chronicles%2FSeason%2002%2FEnglish%2FComputer%20Chronicles%20-%2002x18%20-%20Japanese%20PCs.mp4
-#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="NoLogoFound.png",Computer Chronicles - 02x19 - Robots (1985)
-https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chronicles.zip/Computer%20Chronicles%2FSeason%2002%2FEnglish%2FComputer%20Chronicles%20-%2002x19%20-%20Robots%20%281985%29.mp4
-#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="NoLogoFound.png",Computer Chronicles - 02x22 - Computer Graphics
-https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chronicles.zip/Computer%20Chronicles%2FSeason%2002%2FEnglish%2FComputer%20Chronicles%20-%2002x22%20-%20Computer%20Graphics.mp4
-#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="NoLogoFound.png",Computer Chronicles - 03x03 - Women in Computing
-https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chronicles.zip/Computer%20Chronicles%2FSeason%2003%2FEnglish%2FComputer%20Chronicles%20-%2003x03%20-%20Women%20in%20Computing.mp4
-#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="NoLogoFound.png",Computer Chronicles - 03x04 - Printers & Business Graphics
-https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chronicles.zip/Computer%20Chronicles%2FSeason%2003%2FEnglish%2FComputer%20Chronicles%20-%2003x04%20-%20Printers%20%26%20Business%20Graphics.mp4
-#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="NoLogoFound.png",Computer Chronicles - 03x07 - Computers and the Media
-https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chronicles.zip/Computer%20Chronicles%2FSeason%2003%2FEnglish%2FComputer%20Chronicles%20-%2003x07%20-%20Computers%20and%20the%20Media.mp4
-#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="NoLogoFound.png",Computer Chronicles - 03x08 - Modems & Bulletin Boards
-https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chronicles.zip/Computer%20Chronicles%2FSeason%2003%2FEnglish%2FComputer%20Chronicles%20-%2003x08%20-%20Modems%20%26%20Bulletin%20Boards.mp4
-#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="NoLogoFound.png",Computer Chronicles - 03x09 - Computer Networks
-https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chronicles.zip/Computer%20Chronicles%2FSeason%2003%2FEnglish%2FComputer%20Chronicles%20-%2003x09%20-%20Computer%20Networks.mp4
-#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="NoLogoFound.png",Computer Chronicles - 03x10 - Computers and Politics (1985)
-https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chronicles.zip/Computer%20Chronicles%2FSeason%2003%2FEnglish%2FComputer%20Chronicles%20-%2003x10%20-%20Computers%20and%20Politics%20%281985%29.mp4
-#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="NoLogoFound.png",Computer Chronicles - 03x11 - Computers and Medicine
-https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chronicles.zip/Computer%20Chronicles%2FSeason%2003%2FEnglish%2FComputer%20Chronicles%20-%2003x11%20-%20Computers%20and%20Medicine.mp4
-#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="NoLogoFound.png",Computer Chronicles - 03x12 - Optical Storage Devices
-https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chronicles.zip/Computer%20Chronicles%2FSeason%2003%2FEnglish%2FComputer%20Chronicles%20-%2003x12%20-%20Optical%20Storage%20Devices.mp4
-#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="NoLogoFound.png",Computer Chronicles - 03x13 - Business Applications (1985)
-https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chronicles.zip/Computer%20Chronicles%2FSeason%2003%2FEnglish%2FComputer%20Chronicles%20-%2003x13%20-%20Business%20Applications%20%281985%29.mp4
-#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="NoLogoFound.png",Computer Chronicles - 03x14 - Amiga and Atari
-https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chronicles.zip/Computer%20Chronicles%2FSeason%2003%2FEnglish%2FComputer%20Chronicles%20-%2003x14%20-%20Amiga%20and%20Atari.mp4
-#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="NoLogoFound.png",Computer Chronicles - 03x15 - Consumer's Buyers Guide (1985)
-https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chronicles.zip/Computer%20Chronicles%2FSeason%2003%2FEnglish%2FComputer%20Chronicles%20-%2003x15%20-%20Consumer%27s%20Buyers%20Guide%20%281985%29.mp4
-#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="NoLogoFound.png",Computer Chronicles - 03x16 - Hard Disk Storage
-https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chronicles.zip/Computer%20Chronicles%2FSeason%2003%2FEnglish%2FComputer%20Chronicles%20-%2003x16%20-%20Hard%20Disk%20Storage.mp4
-#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="NoLogoFound.png",Computer Chronicles - 03x17 - Artificial Intelligence (1986)
-https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chronicles.zip/Computer%20Chronicles%2FSeason%2003%2FEnglish%2FComputer%20Chronicles%20-%2003x17%20-%20Artificial%20Intelligence%20%281986%29.mp4
-#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="NoLogoFound.png",Computer Chronicles - 03x18 - Computers in Law Enforcement
-https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chronicles.zip/Computer%20Chronicles%2FSeason%2003%2FEnglish%2FComputer%20Chronicles%20-%2003x18%20-%20Computers%20in%20Law%20Enforcement.mp4
-#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="NoLogoFound.png",Computer Chronicles - 03x19 - Investment Software
-https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chronicles.zip/Computer%20Chronicles%2FSeason%2003%2FEnglish%2FComputer%20Chronicles%20-%2003x19%20-%20Investment%20Software.mp4
-#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="NoLogoFound.png",Computer Chronicles - 03x20 - Psychological Software
-https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chronicles.zip/Computer%20Chronicles%2FSeason%2003%2FEnglish%2FComputer%20Chronicles%20-%2003x20%20-%20Psychological%20Software.mp4
-#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="NoLogoFound.png",Computer Chronicles - 03x21 - Astronomy Software
-https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chronicles.zip/Computer%20Chronicles%2FSeason%2003%2FEnglish%2FComputer%20Chronicles%20-%2003x21%20-%20Astronomy%20Software.mp4
-#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="NoLogoFound.png",Computer Chronicles - 03x23 - Careers in Computing
-https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chronicles.zip/Computer%20Chronicles%2FSeason%2003%2FEnglish%2FComputer%20Chronicles%20-%2003x23%20-%20Careers%20in%20Computing.mp4
-#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="NoLogoFound.png",Computer Chronicles - 03x24 - Parallel Processing
-https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chronicles.zip/Computer%20Chronicles%2FSeason%2003%2FEnglish%2FComputer%20Chronicles%20-%2003x24%20-%20Parallel%20Processing.mp4
-#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="NoLogoFound.png",Computer Chronicles - 04x03 - MIDI Music
-https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chronicles.zip/Computer%20Chronicles%2FSeason%2004%2FEnglish%2FComputer%20Chronicles%20-%2004x03%20-%20MIDI%20Music.mp4
-#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="NoLogoFound.png",Computer Chronicles - 04x04 - RISC Processors
-https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chronicles.zip/Computer%20Chronicles%2FSeason%2004%2FEnglish%2FComputer%20Chronicles%20-%2004x04%20-%20RISC%20Processors.mp4
-#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="NoLogoFound.png",Computer Chronicles - 04x05 - Software Utilities
-https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chronicles.zip/Computer%20Chronicles%2FSeason%2004%2FEnglish%2FComputer%20Chronicles%20-%2004x05%20-%20Software%20Utilities.mp4
-#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="NoLogoFound.png",Computer Chronicles - 04x06 - Second Hand Computers
-https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chronicles.zip/Computer%20Chronicles%2FSeason%2004%2FEnglish%2FComputer%20Chronicles%20-%2004x06%20-%20Second%20Hand%20Computers.mp4
-#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="NoLogoFound.png",Computer Chronicles - 04x09 - Software Macros
-https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chronicles.zip/Computer%20Chronicles%2FSeason%2004%2FEnglish%2FComputer%20Chronicles%20-%2004x09%20-%20Software%20Macros.mp4
-#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="NoLogoFound.png",Computer Chronicles - 04x10 - RAM Resident Software
-https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chronicles.zip/Computer%20Chronicles%2FSeason%2004%2FEnglish%2FComputer%20Chronicles%20-%2004x10%20-%20RAM%20Resident%20Software.mp4
-#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="NoLogoFound.png",Computer Chronicles - 04x11 - Comdex Special (1986)
-https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chronicles.zip/Computer%20Chronicles%2FSeason%2004%2FEnglish%2FComputer%20Chronicles%20-%2004x11%20-%20Comdex%20Special%20%281986%29.mp4
-#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="NoLogoFound.png",Computer Chronicles - 04x12 - Project Management Software
-https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chronicles.zip/Computer%20Chronicles%2FSeason%2004%2FEnglish%2FComputer%20Chronicles%20-%2004x12%20-%20Project%20Management%20Software.mp4
-#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="NoLogoFound.png",Computer Chronicles - 04x13 - Consumer's Buyers Guide (1986)
-https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chronicles.zip/Computer%20Chronicles%2FSeason%2004%2FEnglish%2FComputer%20Chronicles%20-%2004x13%20-%20Consumer%27s%20Buyers%20Guide%20%281986%29.mp4
-#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="NoLogoFound.png",Computer Chronicles - 04x14 - E-Mail Applications
-https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chronicles.zip/Computer%20Chronicles%2FSeason%2004%2FEnglish%2FComputer%20Chronicles%20-%2004x14%20-%20E-Mail%20Applications.mp4
-#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="NoLogoFound.png",Computer Chronicles - 04x15 - Intel 386 Microprocessor
-https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chronicles.zip/Computer%20Chronicles%2FSeason%2004%2FEnglish%2FComputer%20Chronicles%20-%2004x15%20-%20Intel%20386%20Microprocessor.mp4
-#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="NoLogoFound.png",Computer Chronicles - 04x18 - Intelligent Buildings
-https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chronicles.zip/Computer%20Chronicles%2FSeason%2004%2FEnglish%2FComputer%20Chronicles%20-%2004x18%20-%20Intelligent%20Buildings.mp4
-#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="NoLogoFound.png",Computer Chronicles - 04x20 - Speech Recognition & Synthesis
-https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chronicles.zip/Computer%20Chronicles%2FSeason%2004%2FEnglish%2FComputer%20Chronicles%20-%2004x20%20-%20Speech%20Recognition%20%26%20Synthesis.mp4
-#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="NoLogoFound.png",Computer Chronicles - 04x21 - Tex Preparation Software
-https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chronicles.zip/Computer%20Chronicles%2FSeason%2004%2FEnglish%2FComputer%20Chronicles%20-%2004x21%20-%20Tex%20Preparation%20Software.mp4
-#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="NoLogoFound.png",Computer Chronicles - 04x22 - Portable Computers
-https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chronicles.zip/Computer%20Chronicles%2FSeason%2004%2FEnglish%2FComputer%20Chronicles%20-%2004x22%20-%20Portable%20Computers.mp4
-#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="NoLogoFound.png",Computer Chronicles - 04x23 - Kids and Computers
-https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chronicles.zip/Computer%20Chronicles%2FSeason%2004%2FEnglish%2FComputer%20Chronicles%20-%2004x23%20-%20Kids%20and%20Computers.mp4
-#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="NoLogoFound.png",Computer Chronicles - 04x24 - Computers and the Arts
-https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chronicles.zip/Computer%20Chronicles%2FSeason%2004%2FEnglish%2FComputer%20Chronicles%20-%2004x24%20-%20Computers%20and%20the%20Arts.mp4
-#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="NoLogoFound.png",Computer Chronicles - 04x25 - Computers and Illiteracy
-https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chronicles.zip/Computer%20Chronicles%2FSeason%2004%2FEnglish%2FComputer%20Chronicles%20-%2004x25%20-%20Computers%20and%20Illiteracy.mp4
-#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="NoLogoFound.png",Computer Chronicles - 04x26 - Computers and Gambling
-https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chronicles.zip/Computer%20Chronicles%2FSeason%2004%2FEnglish%2FComputer%20Chronicles%20-%2004x26%20-%20Computers%20and%20Gambling.mp4
 #EXTM3U
 #EXTINF:-1 group-title="VOD" ,''The Ed Wynn Show'' - 6 October 1949
 https://archive.org/download/TheEdWynnShow6October1949/TheEdWynnShow6October1949.ogv
 #EXTINF:-1 group-title="VOD" ,1950 commercial for Westinghouse television set (2)
 https://archive.org/download/1950-commercial-for-westinghouse-television-set-2/1950%20commercial%20for%20Westinghouse%20television%20set%20%282%29.mp4
-#EXTINF:-1 group-title="VOD" ,Ozzie & Harriet: The Boxing Matches
-https://archive.org/download/Ozzie-Harriet_Boxing_Matches/01-33_Boxing_Matches.mp4
+#EXTINF:-1 group-title="VOD" ,'Love of Life' - March 20, 1953
+https://archive.org/download/Love_Of_Life_Soap/LoveofLifeMarch20-1953.ogv
 #EXTINF:-1 group-title="VOD" ,Another "What's My Line" with guest Lucille Ball (Classic TV)
 https://archive.org/download/Yet_More_Lucy/WhatsMyLine21February1954.ogv
-#EXTINF:-1 group-title="VOD" ,''The Brighter Day'' - Misc 1955 episode
-https://archive.org/download/TheBrighterDay1955/brighterday1955.ogv
+#EXTINF:-1 group-title="VOD" ,''Valiant Lady'' - Misc 1955 episode (upgrade)
+https://archive.org/download/ValiantLady1955-Upgraded/valiantlady1955.ogv
 #EXTINF:-1 group-title="VOD" ,1957 CBS-TV Special ''The Edsel Show'' with Guests
 https://archive.org/download/TheEdselShow1957/EdselShow.ogv
 #EXTINF:-1 group-title="VOD" ,You're in the Picture
@@ -914,12 +732,14 @@ https://live-as-03-03.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAi
 #EXTINF:-1 tvg-id="cbn" tvg-logo="" group-title="GLOBO AO VIVO",Assistir CBN - CBN RJ online | Globoplay
 https://live-as-08-16.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJVUyIsImRvbWFpbiI6ImxpdmUtYXMtMDgtMTYudmlkZW8uZ2xvYm8uY29tIiwiZXhwIjoxNzg0OTIzNTgwLCJpYXQiOjE3ODQ5MDE5ODAsImlzcyI6InBsYXliYWNrLWFwaS1wcm9kLWdjcCIsIm93bmVyIjoiIiwicGF0aCI6Ii9saXZlL2YoYk1pbj01NTg5NzYsZHZyPTEyMCkvY2JucmoyNGhhL3BsYXlsaXN0Lm0zdTgifQ.xwFn_0U6iBo_AP_PpLNhZ2CYRNr1Q8Q-wiLHf-NTHZBO6Tipg5UfWFy9iQAGk4QZ-ytBlfuibyBwDcPCHsOhFc1HYf5-xpZNHNmP3968n1OhIO5rallWUy3P-c_YY-JkapTZMOJD63fgLOIsCVxFf2Wjb0ktGliXf-3XAZ_Mwsa4g1NHz0Gf0_1xjQjQWxCex5vgbekawd1z1bRSZBpVMqEBTMNnmD7RZCg0E0aQo7Hrdu12dyq_pT4CwZzQOBUw2ZMqmmXtHZDgEjFw0aBoAF5h6T0EgHvm2d0iHm2pYypqHRDuLe9F1VO4QLuG3NB1tl1uPNcIsmDSkBPJ5rBmSw/live/f(bMin=558976,dvr=120)/cbnrj24ha/cbnrj24ha-audio_1=96000-video=2262976.m3u8?dvr_window_length=120
 #EXTM3U
-#EXTINF:-1 group-title="GLOBO AO VIVO" tvg-logo="https://s02.video.glbimg.com/x720/2134039.jpg",AO VIVO: Assista ao Jornal da Manhã
-https://live-as-02-17.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJVUyIsImRvbWFpbiI6ImxpdmUtYXMtMDItMTcudmlkZW8uZ2xvYm8uY29tIiwiZXhwIjoxNzg0OTA5MzEwLCJpYXQiOjE3ODQ4ODc3MTAsImlzcyI6InBsYXliYWNrLWFwaS1wcm9kLWdjcCIsIm93bmVyIjoiIiwicGF0aCI6Ii9saXZlL2YoYk1pbj0zMTM5ODQpL3JlZGViYWhpYS9wbGF5bGlzdC5tM3U4In0.WehIMwlurYR1RM3hi5p2JwRA0rmQqdzjUWCB0VHc2Kep89deCExHJ5xoJdJUAdaYSSvD1oZFHC8g5aESkQ_2eWewJHwdiLYH4U8i6GCUk7-E_r5jX9RlKalCP_aO9X97q8NKwQnz8rHVULHRXjl7Z70KwgTAKNkPDB2np3wzwRrM5moV9cNtKiKUxXVX2lof5K2Qw50Sfu0wuSgRm0PeK6e0ICvyEgMzp3x663a44xOAeE3_SefFp_dn4FMoO33kzbXQbABPIGmBeVWkG_Uu6PU-iWhgwwtsd_7wVrtSDtAL5cBOmAqA94_DbGcTpLQ5WBX07vklUqkQ9VdmMPOa_A/live/f(bMin=313984)/redebahia/playlist.m3u8
+#EXTINF:-1 group-title="GLOBO AO VIVO" tvg-logo="https://s02.video.glbimg.com/x720/2923579.jpg",AO VIVO: Assista ao JAP1 desta sexta (24)
+https://vodstreaming01.video.globo.com/h/05024915205052712048019649152051722452435525XqXMZAuz8digPuwP6Msd3w/k/ads/r240_1080/l/v0/45/10/80/13981311_804f0170ab7e45ec0d2cd3cad3c9c4f0b2675827/13981311-vv8IVr6-manifest.ism/13981311.m3u8
+#EXTINF:-1 group-title="GLOBO AO VIVO" tvg-logo="https://s02.video.glbimg.com/x720/2134039.jpg",AO VIVO: Assista ao Bahia Meio Dia
+https://csi.gstatic.com/csi?v=2&s=ima&dmc=16&puid=b~mrz3a5nc&c=4443596171188&slotId=2221798085594&qqid=CL-XlInP65UDFcKsWgUdRSosJw&fb=web_video-lima&gpm_i=2&gpm_c=2&gpm_a=2&smb=Infinity&br=1287&mt=application%2Fx-mpegurl&vs=854x480&dm=30000&event_name=unmeasurable_asset&resource_name=https%253A%252F%252Fvodstreaming01.video.globo.com%252Fh%252F05024915205052712048019649152051722452435525XqXMZAuz8digPuwP6Msd3w%252Fk%252Fads%252Fr240_1080%252Fl%252Fv0%252F45%252F10%252F80%252F13981311_804f0170ab7e45ec0d2cd3cad3c9c4f0b2675827%252F13981311-vv8IVr6-manifest.ism%252F13981311.m3u8&encoded_body_size=0&transfer_size=0
 #EXTINF:-1 group-title="GLOBO AO VIVO" tvg-logo="https://s02.video.glbimg.com/x720/4039160.jpg",AO VIVO: Assista à TV Verdes Mares ao vivo
-https://live-as-03-03.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJVUyIsImRvbWFpbiI6ImxpdmUtYXMtMDMtMDMudmlkZW8uZ2xvYm8uY29tIiwiZXhwIjoxNzg0OTA5Mzg1LCJpYXQiOjE3ODQ4ODc3ODUsImlzcyI6InBsYXliYWNrLWFwaS1wcm9kLWdjcCIsIm93bmVyIjoiIiwicGF0aCI6Ii9saXZlL2YoYk1pbj0zMTM5ODQpL3R2dm1jZWZvcjIvcGxheWxpc3QubTN1OCJ9.ugZNWUDtHZVQjqmiUFaw-ODThSxMLIoL_OUdcvIORcy2MANx0tR-UUtYjcLwYDArJ0dxLSoieqlqJsvCtRtxxTeB9jWGmWRCNqDv7jGEGfDm_rcIFy5IvcECASLH66zI0F2CnbPIpnAhApOcBJZM8yZbki1g-vPfuOtnA2X4uof-OKJhlS16mo-Y7sjL-WvqVTacE2Nbq3p-5I8m0Qi-PVhXFjLVT4zOJ6moXf7T1JXam4giczRGZidM4NpeuN8gKcNyA_Xdcpt6yDMKC9nnzWVPZxldkJddL5AD6WVlBGcygcLdsUzhu1q2Hx58sD1-Gla7p0S4XvR2cdFfRQx3xQ/live/f(bMin=313984)/tvvmcefor2/playlist.m3u8
-#EXTINF:-1 group-title="GLOBO AO VIVO" tvg-logo="https://s02.video.glbimg.com/x720/12395240.jpg",AO VIVO: Assista ao Bom Dia ES
-https://live-as-03-03.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJVUyIsImRvbWFpbiI6ImxpdmUtYXMtMDMtMDMudmlkZW8uZ2xvYm8uY29tIiwiZXhwIjoxNzg0OTA5Mzg1LCJpYXQiOjE3ODQ4ODc3ODUsImlzcyI6InBsYXliYWNrLWFwaS1wcm9kLWdjcCIsIm93bmVyIjoiIiwicGF0aCI6Ii9saXZlL2YoYk1pbj0zMTM5ODQpL3R2dm1jZWZvcjIvcGxheWxpc3QubTN1OCJ9.ugZNWUDtHZVQjqmiUFaw-ODThSxMLIoL_OUdcvIORcy2MANx0tR-UUtYjcLwYDArJ0dxLSoieqlqJsvCtRtxxTeB9jWGmWRCNqDv7jGEGfDm_rcIFy5IvcECASLH66zI0F2CnbPIpnAhApOcBJZM8yZbki1g-vPfuOtnA2X4uof-OKJhlS16mo-Y7sjL-WvqVTacE2Nbq3p-5I8m0Qi-PVhXFjLVT4zOJ6moXf7T1JXam4giczRGZidM4NpeuN8gKcNyA_Xdcpt6yDMKC9nnzWVPZxldkJddL5AD6WVlBGcygcLdsUzhu1q2Hx58sD1-Gla7p0S4XvR2cdFfRQx3xQ/live/f(bMin=313984)/tvvmcefor2/tvvmcefor2-audio_1=96000-video=2262976.m3u8
+https://live-as-01-01.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJVUyIsImRvbWFpbiI6ImxpdmUtYXMtMDEtMDEudmlkZW8uZ2xvYm8uY29tIiwiZXhwIjoxNzg0OTI4MTkzLCJpYXQiOjE3ODQ5MDY1OTMsImlzcyI6InBsYXliYWNrLWFwaS1wcm9kLWdjcCIsIm93bmVyIjoiIiwicGF0aCI6Ii9saXZlL2YoYk1pbj0zMTM5ODQpL3R2dm1jZWZvcjIvcGxheWxpc3QubTN1OCJ9.BH_qg5KQfN87LKBDvAbjJ0Bi6J4bwwfNbwlqj8NdvJ0iYMCI8Yo-Gi_1nR2sEsL1fL0GDtIqXszGdXkc8on-rYyfmKim3RXYxn010iMZ-c--BL3JfftxsdxyGrH-YjJdJ-fhTKt_heQI4xUdSebPCV8vWo16NbUaULUdupZwz6L9E5UUuW6rXL9QTbSxpNZEKB7fnLqAifJbqWx7Qfe5pZJLvn0SofYwxxw-RnVlzL2Qc37evTH91rJKNZim_eA28eU7lm0Y1hs0yw19fJnG0DNi_fRK5bWRGavBFsLjM6Y9Ai7awT1lJ9rnFbQVGAZmOmLxtMrAYjdjOxFEdKPBug/live/f(bMin=313984)/tvvmcefor2/playlist.m3u8
+#EXTINF:-1 group-title="GLOBO AO VIVO" tvg-logo="https://s02.video.glbimg.com/x720/12395240.jpg",AO VIVO: Assista ao Gazeta Meio Dia
+https://live-as-01-01.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJVUyIsImRvbWFpbiI6ImxpdmUtYXMtMDEtMDEudmlkZW8uZ2xvYm8uY29tIiwiZXhwIjoxNzg0OTI4MTkzLCJpYXQiOjE3ODQ5MDY1OTMsImlzcyI6InBsYXliYWNrLWFwaS1wcm9kLWdjcCIsIm93bmVyIjoiIiwicGF0aCI6Ii9saXZlL2YoYk1pbj0zMTM5ODQpL3R2dm1jZWZvcjIvcGxheWxpc3QubTN1OCJ9.BH_qg5KQfN87LKBDvAbjJ0Bi6J4bwwfNbwlqj8NdvJ0iYMCI8Yo-Gi_1nR2sEsL1fL0GDtIqXszGdXkc8on-rYyfmKim3RXYxn010iMZ-c--BL3JfftxsdxyGrH-YjJdJ-fhTKt_heQI4xUdSebPCV8vWo16NbUaULUdupZwz6L9E5UUuW6rXL9QTbSxpNZEKB7fnLqAifJbqWx7Qfe5pZJLvn0SofYwxxw-RnVlzL2Qc37evTH91rJKNZim_eA28eU7lm0Y1hs0yw19fJnG0DNi_fRK5bWRGavBFsLjM6Y9Ai7awT1lJ9rnFbQVGAZmOmLxtMrAYjdjOxFEdKPBug/live/f(bMin=313984)/tvvmcefor2/tvvmcefor2-audio_1=96000-video=2262976.m3u8
 #EXTM3U
 #EXTM3U
 #EXTINF:-1 tvg-logo="https://keyframe-cdn.abcnews.com/streamprovider11.jpg" group-title="NEWS WORLD",ABC News Live - ABC News
