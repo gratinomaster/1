@@ -58,7 +58,7 @@ jobs:
         id: check_generated_files
         run: |
           if [ -f lista30.M3U ]; then
-            echo "✓ lista30.M3U gerada com sucesso ($(wc -l < lista30.M3U ) linhas)"
+            echo "✓ lista30.M3U gerada com sucesso ($(wc -l < lista30.M3U  ) linhas)"
             echo "m3u_generated=true" >> $GITHUB_OUTPUT
           else
             echo "::error::Arquivo lista30.M3U não foi criado!"
