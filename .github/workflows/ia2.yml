@@ -76,12 +76,17 @@ jobs:
           fi
           
           # Verifica se existem mudanças antes de commitar
-          if git diff --cached --quiet; then
-            echo "Nenhuma mudança detectada na lista ou em ia.txt."
-          else
+          # Usamos 'git status --porcelain' para verificar se há alguma alteração (staged ou unstaged)
+          if git status --porcelain | grep -q .; then
             git commit -m "🤖 Atualização automática da playlist - $(date '+%Y-%m-%d %H:%M')"
+            
+            # Antes de fazer o pull --rebase, garante que não há alterações não rastreadas que possam causar conflito
+            # Isso é crucial para evitar o erro 'You have unstaged changes'
+            git reset --hard HEAD
             
             # Tenta fazer o push com rebase para evitar conflitos de concorrência
             git pull --rebase origin main
             git push origin main
+          else
+            echo "Nenhuma mudança detectada na lista ou em ia.txt. Nada para commitar."
           fi
