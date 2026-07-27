@@ -182,12 +182,16 @@ https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chroni
 #EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="NoLogoFound.png",Computer Chronicles - 04x26 - Computers and Gambling
 https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chronicles.zip/Computer%20Chronicles%2FSeason%2004%2FEnglish%2FComputer%20Chronicles%20-%2004x26%20-%20Computers%20and%20Gambling.mp4
 #EXTM3U
+#EXTINF:-1 group-title="VOD" ,''The Ed Wynn Show'' - 6 October 1949
+https://archive.org/download/TheEdWynnShow6October1949/TheEdWynnShow6October1949.ogv
 #EXTINF:-1 group-title="VOD" ,1950 commercial for Westinghouse television set (2)
 https://archive.org/download/1950-commercial-for-westinghouse-television-set-2/1950%20commercial%20for%20Westinghouse%20television%20set%20%282%29.mp4
 #EXTINF:-1 group-title="VOD" ,'Love of Life' - March 20, 1953
 https://archive.org/download/Love_Of_Life_Soap/LoveofLifeMarch20-1953.ogv
 #EXTINF:-1 group-title="VOD" ,Another "What's My Line" with guest Lucille Ball (Classic TV)
 https://archive.org/download/Yet_More_Lucy/WhatsMyLine21February1954.ogv
+#EXTINF:-1 group-title="VOD" ,1955 promo for Douglas Edwards With The News
+https://archive.org/download/1955-promo-for-douglas-edwards-with-the-news/1955%20promo%20for%20Douglas%20Edwards%20with%20the%20News.mp4
 #EXTINF:-1 group-title="VOD" ,''To Tell The Truth'' - 30 July 1957
 https://archive.org/download/ToTellTheTruth30July1957/To%20Tell%20The%20Truth%20-%2030%20July%201957.ogv
 #EXTINF:-1 group-title="VOD" ,1961 promo for Gunsmoke
@@ -668,385 +672,19 @@ https://mdstrm.com/live-stream-playlist/57b4dc126338448314449d0c.m3u8
 https://jukin-weatherspy-2-mx.samsung.wurl.tv/playlist.m3u8
 #EXTINF:-1 group-title="MÉXICO",The Pet Collective (720p)
 https://the-pet-collective-international-mx.samsung.wurl.tv/playlist.m3u8
-#EXTM3U x-tvg-url="https://raw.githubusercontent.com/MatheusAlves7/Canais_IPTV/refs/heads/main/guide.xml,http://lidns.cc/xmltv.php?username=4x6cXF&password=JDqRqj&type=m3u_plus&output=m3u8,https://www.open-epg.com/files/brazil1.xml.gz,https://www.open-epg.com/files/brazil2.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_BR1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_ALL_SOURCES1.xml.gz,https://www.open-epg.com/files/portugal.xml.gz,https://www.open-epg.com/files/portugal2.xml.gz,https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/PlutoTV/all.xml,https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/Plex/all.xml,https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/SamsungTVPlus/all.xml,https://raw.githubusercontent.com/helenfernanda/gratis/main/distrotv.xml,https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/Stirr/all.xml,https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/Singtel/epg.xml,https://raw.githubusercontent.com/AqFad2811/epg/main/unifitv.xml"
-#EXTM3U url-tvg="https://fastly.jsdelivr.net/gh/limaalef/BrazilTVEPG@main/epg.xml"
-#EXTM3U x-tvg-url="https://raw.githubusercontent.com/limaalef/BrazilTVEPG/main/epg.xml"
-#EXTINF:-1 group-title="TV ABERTA" tvg-id="Globo Sao Paulo HD.br" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/f/ff/TV_Globo_2021_azul.png/revision/latest?cb=20220201030422",GLOBO
-http://limed.cc:80/4x6cXF/ehfxdp/95657.m3u8
-#EXTINF:-1 group-title="TV ABERTA" tvg-id="RecordTV Sao Paulo HD.br" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/1/10/Logotipo_da_Record.png?20190726203014",RECORD SP
-http://limed.cc:80/4x6cXF/ehfxdp/90266.m3u8
-#EXTINF:-1 group-title="TV ABERTA" tvg-id="RecordTV Sao Paulo HD.br" tvg-logo="https://i.imgur.com/lyQ1v9M.png",RecordTV Juara HD
-https://cdn.live.br1.jmvstream.com/w/LVW-10842/LVW10842_513N26MDBL/playlist.m3u8
-#EXTINF:-1 group-title="TV ABERTA" tvg-id="SBT.br" tvg-logo="https://i.imgur.com/srURmsi.png",SBT
-http://limed.cc:80/4x6cXF/ehfxdp/95666.m3u8
-#EXTINF:-1 group-title="TV ABERTA" tvg-id="Band Sao Paulo.br" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Band_Marca.png/120px-Band_Marca.png",BAND
-http://limed.cc:80/4x6cXF/ehfxdp/95649.m3u8
-#EXTINF:-1 group-title="TV ABERTA" tvg-id="Cultura HD.br" tvg-logo="https://i.imgur.com/zmheeSl.png",CULTURA
-http://limed.cc:80/4x6cXF/ehfxdp/89900.m3u8
-#EXTINF:-1 group-title="TV ABERTA" tvg-id="Tvbrasil.br" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/91/TvBrasil2023.png",TV BRASIL
-http://limed.cc:80/4x6cXF/ehfxdp/90409.m3u8
-#EXTINF:-1 group-title="TV ABERTA" tvg-id="Loading.br" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Canal_Loading.png/800px-Canal_Loading.png",X SPORTS
-http://limed.cc:80/4x6cXF/ehfxdp/90149.m3u8
-#EXTINF:-1 group-title="TV ABERTA" tvg-id="RedeTV!.br" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/8/89/Logotipo_da_RedeTV%21.png?20191113234216",REDE TV
-http://limed.cc:80/4x6cXF/ehfxdp/95470.m3u8
-#EXTINF:-1 group-title="TV ABERTA" tvg-id="Viva.br" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/e/ef/Canal_viva_logo_.png/revision/latest?cb=20241224170303",VIVA
-http://limed.cc:80/4x6cXF/ehfxdp/90440.m3u8
-#EXTINF:-1 group-title="TV ABERTA" tvg-id="Multishow.br" tvg-logo="https://logodownload.org/wp-content/uploads/2017/03/multishow-logo.png",MULTISHOW
-http://limed.cc:80/4x6cXF/ehfxdp/90173.m3u8
-#EXTINF:-1 group-title="TV ABERTA" tvg-id="GNT.br" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/c9/GNT_logo-roxo.png",GNT
-http://limed.cc:80/4x6cXF/ehfxdp/90084.m3u8
-#EXTINF:-1 group-title="TV ABERTA" tvg-id="Canalbrasil.br" tvg-logo="https://logodownload.org/wp-content/uploads/2017/11/canal-brasil-logo-2.png",CANAL BRASIL
-http://limed.cc:80/4x6cXF/ehfxdp/89840.m3u8
-#EXTINF:-1 group-title="TV ABERTA" tvg-id="Futura.br" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Canal_Futura.png/120px-Canal_Futura.png",FUTURA
-http://limed.cc:80/4x6cXF/ehfxdp/89846.m3u8
-#EXTINF:-1 group-title="TV ABERTA" tvg-id="TV Gazeta.br" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/TV_Gazeta.svg/120px-TV_Gazeta.svg.png",GAZETA
-http://limed.cc:80/4x6cXF/ehfxdp/90010.m3u8
-#EXTINF:-1 group-title="Canais Abertos" tvg-id="Undefined" tvg-logo="https://i.imgur.com/6UoUybZ.png",TV VERDADE
-https://acesso.ecast.site:3104/hybrid/play.m3u8
-#EXTINF:-1 group-title="Canais Abertos" tvg-id="Undefined" tvg-logo="https://yt3.ggpht.com/Nw3Wmvgdcm9xOQK-UzAcfjSZnu4zho3Mrkeb4KwztlZBTQx8zuEz0C17bGYJLvvYdN57omljiw=s48-c-k-c0x00ffffff-no-rj",TVCB (Campos Belos-GO)
-https://stmv2.samcast.com.br/dermeval8653/dermeval8653/playlist.m3u8
-#EXTINF:-1 group-title="Canais Abertos" tvg-id="TVCidadedePetropolis.br" tvg-logo="https://www.cxtv.com.br/img/Tvs/Logo/webp-l/00bb19faeb0ea5b2ca8adcfcbaa1249c.webp",TV Cidade de Petrópolis
-https://video01.kshost.com.br:4443/inside2133/inside2133/playlist.m3u8
-#EXTINF:-1 group-title="TV ABERTA" tvg-id="TVSergipe.br" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/globo-br.png",TV SERGIPE - SE
-https://isaocorp.cloudecast.com/ngt/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="TV ABERTA" tvg-id="TVSergipe.br" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/globo-br.png",TV SERGIPE - SE
-http://limed.cc:80/4x6cXF/ehfxdp/95484.m3u8
-#EXTINF:-1 group-title="Canais Abertos" tvg-id="RFTV.br" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/rede-tv-br.png",REDE FAMÍLIA
-https://tv03.zas.media:1936/rftv/rftv/chunklist_w1301797576.m3u8
-#EXTINF:-1 group-title="TV ABERTA" tvg-id="GloboNordeste.br" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/globo-br.png",TV GLOBO PERNAMBUCO - PE
-http://limed.cc:80/4x6cXF/ehfxdp/91463.m3u8
-#EXTINF:-1 group-title="TV ABERTA" tvg-id="InterTVCabugi.br" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/rede-inter-tv-br.png",INTERTV CABUGI - RN
-http://limed.cc:80/4x6cXF/ehfxdp/91405.m3u8
-#EXTINF:-1 group-title="Canais Abertos" tvg-id="RedeSuper.br" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/rede-gospel-br.png",REDE SUPER
-https://tv02.zas.media:1936/redesuper/redesuper/chunklist_w1553191580.m3u8
-#EXTINF:-1 group-title="TV ABERTA" tvg-id="TVMorena.br" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/globo-br.png",TV MORENA - MS
-http://limed.cc:80/4x6cXF/ehfxdp/91461.m3u8
-#EXTINF:-1 group-title="TV ABERTA" tvg-id="TVEBahia.br" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/tv-bahia-br.png",TVE BAHIA
-http://rtmp.irdeb.ba.gov.br/stream/dash/tvehd.mpd
-#EXTINF:-1 group-title="TV ABERTA" tvg-id="RedeAmazonica.br" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/globo-br.png",REDE AMAZÔNICA PARINTINS - AM
-http://limed.cc:80/4x6cXF/ehfxdp/117332.m3u8
-#EXTINF:-1 group-title="TV ABERTA" tvg-id="RedeAmazonica.br" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/globo-br.png",REDE AMAZÔNICA MACAPÁ - AP
-http://limed.cc:80/4x6cXF/ehfxdp/90015.m3u8
-#EXTINF:-1 group-title="TV ABERTA" tvg-id="RedeAmazonica.br" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/globo-br.png",REDE AMAZÔNICA PORTO VELHO - RO
-http://limed.cc:80/4x6cXF/ehfxdp/90052.m3u8
-#EXTINF:-1 group-title="TV ABERTA" tvg-id="tv-globo" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/globo-br.png",TV GLOBO - SP
-http://limed.cc:80/4x6cXF/ehfxdp/90059.m3u8
-#EXTINF:-1 group-title="TV ABERTA" tvg-id="RedeBrasil.br" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Rede_Brasil_de_Televis%C3%A3o_Logo2023.png/480px-Rede_Brasil_de_Televis%C3%A3o_Logo2023.png",REDE BRASIL
-https://video09.logicahost.com.br/redebrasiloficial/redebrasiloficial/chunklist_w466484883.m3u8
-#EXTINF:-1 group-title="TV ABERTA" tvg-id="TVTEMBauru.sp" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/TV_Globo_2024_azul.png/480px-TV_Globo_2024_azul.png",TV TEM BAURU - SP
-http://limed.cc:80/4x6cXF/ehfxdp/91469.m3u8
-#EXTINF:-1 group-title="TV ABERTA" tvg-id="COMBrasil.br" tvg-logo="https://combrasiltv.com.br/wp-content/uploads/2022/07/Logo-COMBR.png",COM BRASIL
-https://br5093.streamingdevideo.com.br/abc/abc/master.m3u8
-#EXTINF:-1 group-title="TV ABERTA" tvg-id="Globo SP_local" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/TV_Globo_2024_azul.png/480px-TV_Globo_2024_azul.png",TV TRIBUNA - SP
-http://limed.cc:80/4x6cXF/ehfxdp/91473.m3u8
-#EXTINF:-1 group-title="TV ABERTA" tvg-id="Globo SP_local" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/TV_Globo_2024_azul.png/480px-TV_Globo_2024_azul.png",TV VANGUARDA TAUBATÉ - SP
-http://limed.cc:80/4x6cXF/ehfxdp/91477.m3u8
-#EXTINF:-1 group-title="TV ABERTA" tvg-id="Globo SP_local" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/TV_Globo_2024_azul.png/480px-TV_Globo_2024_azul.png",EPTV CAMPINAS - SP
-http://limed.cc:80/4x6cXF/ehfxdp/91397.m3u8
-#EXTINF:-1 group-title="TV ABERTA" tvg-id="Globo SP_local" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/TV_Globo_2024_azul.png/480px-TV_Globo_2024_azul.png",TV GLOBO - RJ
-http://limed.cc:80/4x6cXF/ehfxdp/91431.m3u8
-#EXTINF:-1 group-title="TV ABERTA" tvg-id="RedeMinas.mg" tvg-logo="https://pbs.twimg.com/profile_images/1151111400615550976/MQW6Uj8p.jpg",REDE MINAS
-https://8hzcavccys.zoeweb.tv/redeminas/ngrp:redeminas_all/chunklist_w1642350627_b2771072.m3u8
-#EXTINF:-1 group-title="TV ABERTA" tvg-id="TVBahia.ba" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/TVGlobo_2024_red.png/480px-TVGlobo_2024_red.png",TV BAHIA - BA
-http://limed.cc:80/4x6cXF/ehfxdp/90064.m3u8
-#EXTINF:-1 group-title="TV ABERTA" tvg-id="TVSantaCruz.ba" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/TVGlobo_2024_red.png/480px-TVGlobo_2024_red.png",TV SANTA CRUZ - BA
-http://limed.cc:80/4x6cXF/ehfxdp/117328.m3u8
-#EXTINF:-1 group-title="TV ABERTA" tvg-id="TVVerdesMares.ce" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/TVGlobo_2024_red.png/480px-TVGlobo_2024_red.png",TV VERDES MARES - CE
-http://limed.cc:80/4x6cXF/ehfxdp/90072.m3u8
-#EXTINF:-1 group-title="TV ABERTA" tvg-id="TVGazetaAlagoas.al" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/TVGlobo_2024_red.png/480px-TVGlobo_2024_red.png",TV GAZETA DE ALAGOAS - AL
-http://limed.cc:80/4x6cXF/ehfxdp/91444.m3u8
-#EXTINF:-1 group-title="TV ABERTA" tvg-id="TVMirante.ma" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/TVGlobo_2024_red.png/480px-TVGlobo_2024_red.png",TV MIRANTE SÃO LUÍS - MA
-http://limed.cc:80/4x6cXF/ehfxdp/90032.m3u8
-#EXTINF:-1 group-title="TV ABERTA" tvg-id="InterTV.mg" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/TV_Globo_2024_azul.png/480px-TV_Globo_2024_azul.png",INTER TV GRANDE MINAS - MG
-http://limed.cc:80/4x6cXF/ehfxdp/91409.m3u8
-#EXTINF:-1 group-title="TV ABERTA" tvg-id="TVIntegracao.mg" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/TV_Globo_2024_azul.png/480px-TV_Globo_2024_azul.png",TV INTEGRAÇÃO JUIZ DE FORA - MG
-http://limed.cc:80/4x6cXF/ehfxdp/91459.m3u8
-#EXTINF:-1 group-title="TV ABERTA" tvg-id="RPC.parana" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/TVGlobo2021_purple.png/480px-TVGlobo2021_purple.png",RPC TV PONTA GROSSA - PR
-http://limed.cc:80/4x6cXF/ehfxdp/91442.m3u8
-#EXTINF:-1 group-title="TV ABERTA" tvg-id="RPC.parana" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/TVGlobo2021_purple.png/480px-TVGlobo2021_purple.png",RPC FOZ DO IGUAÇU - PR
-http://limed.cc:80/4x6cXF/ehfxdp/91435.m3u8
-#EXTINF:-1 group-title="TV ABERTA" tvg-id="NSCTV.sc" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/TVGlobo2021_purple.png/480px-TVGlobo2021_purple.png",NSC TV CHAPECÓ - SC
-http://limed.cc:80/4x6cXF/ehfxdp/91413.m3u8
-#EXTINF:-1 group-title="TV ABERTA" tvg-id="NSCTV.sc" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/TVGlobo2021_purple.png/480px-TVGlobo2021_purple.png",NSC TV JOINVILLE - SC
-http://limed.cc:80/4x6cXF/ehfxdp/91418.m3u8
-#EXTINF:-1 group-title="TV ABERTA" tvg-id="InterTV.mg" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/TV_Globo_2024_azul.png/480px-TV_Globo_2024_azul.png",INTER TV DOS VALES - MG
-http://limed.cc:80/4x6cXF/ehfxdp/91408.m3u8
-#EXTINF:-1 group-title="TV ABERTA" tvg-id="TVIntegracao.mg" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/TV_Globo_2024_azul.png/480px-TV_Globo_2024_azul.png",TV INTEGRAÇÃO UBERLÂNDIA - MG
-http://limed.cc:80/4x6cXF/ehfxdp/119725.m3u8
-#EXTINF:-1 group-title="TV ABERTA" tvg-id="RPC.parana" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/TVGlobo2021_purple.png/480px-TVGlobo2021_purple.png",RPC PARANAVAI - PR
-http://limed.cc:80/4x6cXF/ehfxdp/91440.m3u8
-#EXTINF:-1 group-title="TV ABERTA" tvg-id="TVGazeta.es" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/TVGlobo_2024_red.png/480px-TVGlobo_2024_red.png",TV GAZETA SUL - ES
-http://limed.cc:80/4x6cXF/ehfxdp/91452.m3u8
-#EXTINF:-1 group-title="TV ABERTA" tvg-id="TVGazeta.es" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/TVGlobo_2024_red.png/480px-TVGlobo_2024_red.png",TV GAZETA VITÓRIA - ES
-http://limed.cc:80/4x6cXF/ehfxdp/90073.m3u8
-#EXTINF:-1 group-title="TV ABERTA" tvg-id="RPC.parana" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/TVGlobo2021_purple.png/480px-TVGlobo2021_purple.png",RPC CURITIBA - PR
-http://limed.cc:80/4x6cXF/ehfxdp/91434.m3u8
-#EXTINF:-1 group-title="TV ABERTA" tvg-id="NSCTV.sc" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/TVGlobo2021_purple.png/480px-TVGlobo2021_purple.png",NSC TV FLORIANÓPOLIS - SC
-http://limed.cc:80/4x6cXF/ehfxdp/90031.m3u8
-#EXTINF:-1 group-title="TV ABERTA" tvg-id="NSCTV.sc" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/TVGlobo2021_purple.png/480px-TVGlobo2021_purple.png",NSC TV CRICIÚMA - SC
-http://limed.cc:80/4x6cXF/ehfxdp/91415.m3u8
-#EXTINF:-1 group-title="TV ABERTA" tvg-id="RBSTV.rs" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/TVGlobo2021_purple.png/480px-TVGlobo2021_purple.png",RBS TV PORTO ALEGRE - RS
-http://limed.cc:80/4x6cXF/ehfxdp/90046.m3u8
-#EXTINF:-1 group-title="TV ABERTA" tvg-id="NSCTV.sc" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/TVGlobo2021_purple.png/480px-TVGlobo2021_purple.png",NSC TV BLUMENAU - SC
-http://limed.cc:80/4x6cXF/ehfxdp/95461.m3u8
-#EXTINF:-1 group-title="TV ABERTA" tvg-id="RecordTV.br" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Logotipo_da_Record.png/480px-Logotipo_da_Record.png",RECORD LITORAL E VALE - SP
-http://limed.cc:80/4x6cXF/ehfxdp/123216.m3u8
-#EXTINF:-1 group-title="TV ABERTA" tvg-id="RecordTV.br" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Logotipo_da_Record.png/480px-Logotipo_da_Record.png",RECORD BELÉM - PA
-http://limed.cc:80/4x6cXF/ehfxdp/100400.m3u8
-#EXTINF:-1 group-title="TV ABERTA" tvg-id="SIC.ro" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Logotipo_da_Record.png/480px-Logotipo_da_Record.png",SIC TV - RO
-https://parecisfmlive.brasilstream.com.br/hls/parecisfmlive/index.m3u8
-#EXTINF:-1 group-title="TV ABERTA" tvg-id="RecordTV.br" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Logotipo_da_Record.png/480px-Logotipo_da_Record.png",RECORD - SP
-http://limed.cc:80/4x6cXF/ehfxdp/90265.m3u8
-#EXTINF:-1 group-title="TV ABERTA" tvg-id="TVDifusora.ma" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Band_Marca.png/480px-Band_Marca.png",TV DIFUSORA SÃO LUÍS - MA
-http://limed.cc:80/4x6cXF/ehfxdp/90292.m3u8
-#EXTINF:-1 group-title="TV ABERTA" tvg-id="TVJangadeiro.ce" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Band_Marca.png/480px-Band_Marca.png",TV JANGADEIRO - CE
-http://limed.cc:80/4x6cXF/ehfxdp/95493.m3u8
-#EXTINF:-1 group-title="TV ABERTA" tvg-id="TVAlterosa.mg" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Band_Marca.png/480px-Band_Marca.png",TV ALTEROSA - MG
-http://limed.cc:80/4x6cXF/ehfxdp/97414.m3u8
-#EXTINF:-1 group-title="TV ABERTA" tvg-id="TVTropical.rn" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Logotipo_da_Record.png/480px-Logotipo_da_Record.png",TV TROPICAL - RN
-https://video08.logicahost.com.br/portaldatropical02/portaldatropical02/chunklist_w675410568.m3u8
-#EXTINF:-1 group-title="TV ABERTA" tvg-id="SBTNacional.br" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Band_Marca.png/480px-Band_Marca.png",SBT - SP
-http://limed.cc:80/4x6cXF/ehfxdp/90296.m3u8
-#EXTINF:-1 group-title="TV ABERTA" tvg-id="Band.sp" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Band_Marca.png/480px-Band_Marca.png",BAND - SP
-http://limed.cc:80/4x6cXF/ehfxdp/89823.m3u8
-#EXTINF:-1 group-title="TV ABERTA" tvg-id="Band.sp" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Band_Marca.png/480px-Band_Marca.png",BAND MAIS - SP
-http://limed.cc:80/4x6cXF/ehfxdp/89817.m3u8
-#EXTINF:-1 group-title="TV ABERTA" tvg-id="SBTNacional.br" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Band_Marca.png/480px-Band_Marca.png",SBT INTERIOR - SP
-http://limed.cc:80/4x6cXF/ehfxdp/90287.m3u8
-#EXTINF:-1 group-title="TV ABERTA" tvg-id="SBTNacional.br" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Band_Marca.png/480px-Band_Marca.png",SBT RIO - RJ
-http://limed.cc:80/4x6cXF/ehfxdp/90290.m3u8
-#EXTINF:-1 group-title="TV ABERTA" tvg-id="RecordTV.br" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Logotipo_da_Record.png/480px-Logotipo_da_Record.png",RECORD BAHIA - BA
-http://limed.cc:80/4x6cXF/ehfxdp/90245.m3u8
-#EXTINF:-1 group-title="TV ABERTA" tvg-id="SBTNacional.br" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Band_Marca.png/480px-Band_Marca.png",SBT BRASÍLIA - DF
-http://limed.cc:80/4x6cXF/ehfxdp/90285.m3u8
-#EXTINF:-1 group-title="TV ABERTA" tvg-id="SBTNacional.br" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Band_Marca.png/480px-Band_Marca.png",SBT - RS
-http://limed.cc:80/4x6cXF/ehfxdp/90291.m3u8
-#EXTINF:-1 group-title="TV ABERTA" tvg-id="RecordTV.br" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Logotipo_da_Record.png/480px-Logotipo_da_Record.png",RECORD MANAUS - AM
-http://limed.cc:80/4x6cXF/ehfxdp/90255.m3u8
-#EXTINF:-1 group-title="TV ABERTA" tvg-id="Band.sp" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Band_Marca.png/480px-Band_Marca.png",BAND CAMPINAS - SP
-http://limed.cc:80/4x6cXF/ehfxdp/110231.m3u8
-#EXTINF:-1 group-title="TV ABERTA" tvg-id="RecordTV.br" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Logotipo_da_Record.png/480px-Logotipo_da_Record.png",RECORD GOIÁS - GO
-http://limed.cc:80/4x6cXF/ehfxdp/90253.m3u8
-#EXTINF:-1 group-title="TV ABERTA" tvg-id="TVThathi.sp" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Logotipo_da_Record.png/480px-Logotipo_da_Record.png",TV THATHI CAMPINAS - SP
-http://limed.cc:80/4x6cXF/ehfxdp/90252.m3u8
-#EXTINF:-1 group-title="TV ABERTA" tvg-id="TVGuara.ma" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Logo_da_RedeTV%21.svg/480px-Logo_da_RedeTV%21.svg.png",TV GUARÁ CAXIAS - MA
-https://srv1.zcast.com.br/igo8807/igo8807/playlist.m3u8
-#EXTINF:-1 group-title="Canais Abertos" tvg-id="TVCultura.br" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/TV_Cultura_2023_logo.svg/1200px-TV_Cultura_2023_logo.svg.png",TV CULTURA SP HD
-https://5b33b873179a2.streamlock.net:1443/live/livestream/chunklist_w1027478611.m3u8
-#EXTINF:-1 group-title="Canais Abertos" tvg-id="TVCamara.br" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/C%C3%A2mara_dos_Deputados_%28Brasil%29_logo.svg/480px-C%C3%A2mara_dos_Deputados_%28Brasil%29_logo.svg.png",TV CÂMARA
-https://stream3.camara.gov.br/tv1/manifest.m3u8?ManoTV
-#EXTINF:-1 group-title="Canais Abertos" tvg-id="TVCamara.br" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/C%C3%A2mara_dos_Deputados_%28Brasil%29_logo.svg/480px-C%C3%A2mara_dos_Deputados_%28Brasil%29_logo.svg.png",TV CÂMARA DOS DEPUTADOS HD
-https://stream3.camara.gov.br/tv1/manifest.m3u8
-#EXTINF:-1 group-title="TV ABERTA" tvg-id="Band.sp" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Band_Marca.png/480px-Band_Marca.png",BAND VALE - SP
-http://limed.cc:80/4x6cXF/ehfxdp/110232.m3u8
-#EXTINF:-1 group-title="TV ABERTA" tvg-id="Band.sp" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Band_Marca.png/480px-Band_Marca.png",BAND RIO - RJ
-http://limed.cc:80/4x6cXF/ehfxdp/101480.m3u8
-#EXTINF:-1 group-title="TV ABERTA" tvg-id="RecordTV.br" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Logotipo_da_Record.png/480px-Logotipo_da_Record.png",RECORD MINAS - MG
-http://limed.cc:80/4x6cXF/ehfxdp/90257.m3u8
-#EXTINF:-1 group-title="TV ABERTA" tvg-id="VTV.sp" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Band_Marca.png/480px-Band_Marca.png",VTV - SP
-http://limed.cc:80/4x6cXF/ehfxdp/90305.m3u8
-#EXTINF:-1 group-title="Canais Abertos" tvg-id="TVAleal.al" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/C%C3%A2mara_dos_Deputados_%28Brasil%29_logo.svg/480px-C%C3%A2mara_dos_Deputados_%28Brasil%29_logo.svg.png",TV ALEAL
-https://5c483b9d1019c.streamlock.net/staffvideotv/staffvideotv/chunklist_w1993324451.m3u8
-#EXTINF:-1 group-title="Canais Abertos" tvg-id="CanalGov.br" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Canal_Gov_Logo.png/480px-Canal_Gov_Logo.png",CANAL GOV
-https://canalgov-stream.ebc.com.br/index.m3u8
-#EXTINF:-1 group-title="Canais Abertos" tvg-id="TVCamaraJP.pb" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/C%C3%A2mara_dos_Deputados_%28Brasil%29_logo.svg/480px-C%C3%A2mara_dos_Deputados_%28Brasil%29_logo.svg.png",TV CAMARA TUPÃ
-http://video.sinoinformatica.com.br:1935/cmtupa-live/sessaoaovivo/playlist.m3u8
-#EXTINF:-1 group-title="Canais Abertos" tvg-id="TVOitava.ce" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/C%C3%A2mara_dos_Deputados_%28Brasil%29_logo.svg/480px-C%C3%A2mara_dos_Deputados_%28Brasil%29_logo.svg.png",TV A OITAVA
-https://video05.logicahost.com.br/tvoitava/tvoitava/playlist.m3u8
-#EXTINF:-1 group-title="Canais Abertos" tvg-id="TVCamaraJP.pb" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/C%C3%A2mara_dos_Deputados_%28Brasil%29_logo.svg/480px-C%C3%A2mara_dos_Deputados_%28Brasil%29_logo.svg.png",TV CAMARA JOAO PESSOA
-https://video05.logicahost.com.br/camarajp/camarajp/playlist.m3u8
-#EXTINF:-1 group-title="TV ABERTA" tvg-id="NDTVJoinville.sc" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Logotipo_da_Record.png/480px-Logotipo_da_Record.png",NDTV JOINVILLE - SC
-http://limed.cc:80/4x6cXF/ehfxdp/123212.m3u8
-#EXTINF:-1 group-title="TV ABERTA" tvg-id="TVGuararapes.pe" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Logotipo_da_Record.png/480px-Logotipo_da_Record.png",TV GUARARAPES - PE
-http://limed.cc:80/4x6cXF/ehfxdp/100401.m3u8
-#EXTINF:-1 group-title="Canais Abertos" tvg-id="TVAlego.go" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/C%C3%A2mara_dos_Deputados_%28Brasil%29_logo.svg/480px-C%C3%A2mara_dos_Deputados_%28Brasil%29_logo.svg.png",TV ALEGO
-https://ngbvqmbygn.zoeweb.tv/alegolive/ngrp:alegolive_all/playlist.m3u8
-#EXTINF:-1 group-title="TV ABERTA" tvg-id="Band.sp" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Band_Marca.png/480px-Band_Marca.png",BAND MINAS - MG
-http://limed.cc:80/4x6cXF/ehfxdp/110234.m3u8
-#EXTINF:-1 group-title="Canais Abertos" tvg-id="SBTNacional.br" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Band_Marca.png/480px-Band_Marca.png",SBT TV CIDADE VERDE PI
-https://stmv1.transmissaodigital.com/cidadeverdenovo/cidadeverdenovo/chunklist_w1196569154.m3u8
-#EXTINF:-1 group-title="Canais Abertos" tvg-id="TVAlba.ba" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/C%C3%A2mara_dos_Deputados_%28Brasil%29_logo.svg/480px-C%C3%A2mara_dos_Deputados_%28Brasil%29_logo.svg.png",TV ALBA
-https://live.mediastreaming.com.br/tvalba/7e7b424cc5a8528480d3b2157d27f516.sdp/playlist.m3u8
-#EXTINF:-1 group-title="Canais Abertos" tvg-id="SBTNacional.br" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Band_Marca.png/480px-Band_Marca.png",SBT TV DIFUSORA MA
-https://stream.amsolution.net.br:8443/live/66db1cf131d45/index.m3u8
-#EXTINF:-1 group-title="Canais Abertos" tvg-id="SBTNacional.br" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Band_Marca.png/480px-Band_Marca.png",SBT TV GUAJARÁ PA
-https://video05.logicahost.com.br/tvguajara/tvguajara/chunklist_w505069364.m3u8
-#EXTINF:-1 group-title="Canais Abertos" tvg-id="Band.sp" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Band_Marca.png/480px-Band_Marca.png",BAND (PE)
-https://5b7f3c45ab7c2.streamlock.net/arapuan/ngrp:arapuan_all/playlist.m3u8
-#EXTINF:-1 group-title="Canais Abertos" tvg-id="TVBrasilCentral.go" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/TV_Brasil_2022_logo.svg/480px-TV_Brasil_2022_logo.svg.png",TV BRASIL CENTRAL (GO)
-https://tbc.zoeweb.tv/tbc/ngrp:tbc_all/playlist.m3u8
-#EXTINF:-1 group-title="Canais Abertos" tvg-id="RedeMeioNorte.pi" tvg-logo="https://pbs.twimg.com/profile_images/471169603894882305/yjRoijE8_400x400.jpg",REDE MEIO NORTE
-https://video01.logicahost.com.br/tvdopovo1/tvdopovo1/playlist.m3u8
-#EXTINF:-1 group-title="Canais Abertos" tvg-id="RecordTV.br" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Logotipo_da_Record.png/480px-Logotipo_da_Record.png",RECORD TV MS TV CONQUISTA
-http://tvconquistalrv.duckdns.org:8080/hls/tvconquistalrv.m3u8
-#EXTINF:-1 group-title="Canais Abertos" tvg-id="RecordTV.br" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Logotipo_da_Record.png/480px-Logotipo_da_Record.png",RECORD TV - TV VILA REAL
-https://5a2b083e9f360.streamlock.net:443/tvmt/tvmt.sdp/playlist.m3u8
-#EXTINF:-1 group-title="Canais Abertos" tvg-id="Band.sp" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Band_Marca.png/480px-Band_Marca.png",BAND BELÉM (RBA TV)
-https://streaming.gruporba.com.br/rba.m3u8
-#EXTINF:-1 group-title="Canais Abertos" tvg-id="RecordTV.br" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Logotipo_da_Record.png/480px-Logotipo_da_Record.png",RECORD TV (PB)
-https://video07.logicahost.com.br/portaldatropical/portaldatropical/playlist.m3u8
-#EXTINF:-1 group-title="Canais Abertos" tvg-id="RecordTV.br" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Logotipo_da_Record.png/480px-Logotipo_da_Record.png",RECORDTV CONQUISTA HD
-https://tvconquistalrv.duckdns.org:3334/hls/tvconquistalrv.m3u8?ManoTV
-#EXTINF:-1 group-title="Canais Abertos" tvg-id="RecordTV.br" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Logotipo_da_Record.png/480px-Logotipo_da_Record.png",RECORD TV AMPLITUDE JUAR MT
-https://cdn.live.br1.jmvstream.com/w/LVW-10842/LVW10842_513N26MDBL/chunklist.m3u8
-#EXTINF:-1 group-title="TV ABERTA" tvg-id="Band.sp" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Band_Marca.png/480px-Band_Marca.png",BAND AMAZONAS - AM
-http://limed.cc:80/4x6cXF/ehfxdp/110233.m3u8
-#EXTINF:-1 group-title="Canais Abertos" tvg-id="SBTNacional.br" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Band_Marca.png/480px-Band_Marca.png",SBT CIDADE VERDE FHD
-https://stmv1.transmissaodigital.com/cidadeverdenovo/cidadeverdenovo/playlist.m3u8
-#EXTINF:-1 group-title="Canais Abertos" tvg-id="RecordTV.br" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Logotipo_da_Record.png/480px-Logotipo_da_Record.png",RECORD TV TROPICAL RN
-https://video07.logicahost.com.br/portaldatropical/portaldatropical/chunklist_w1630150607.m3u8
-#EXTINF:-1 group-title="Canais Abertos" tvg-id="TVCultura.br" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/TV_Cultura_2023_logo.svg/1200px-TV_Cultura_2023_logo.svg.png",CATVE TV CULTURA HD
-http://wowza4.catve.com.br:1935/live/livestream/playlist.m3u8?ManoTV
-#EXTINF:-1 group-title="Canais Abertos" tvg-id="TVTropical.rn" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Logotipo_da_Record.png/480px-Logotipo_da_Record.png",TV TROPICAL
-https://video07.logicahost.com.br/portaldatropical/portaldatropical/chunklist_w1630150607.m3u8
-#EXTINF:-1 group-title="TV ABERTA" tvg-id="Band.sp" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Band_Marca.png/480px-Band_Marca.png",BAND BAHIA - BA
-http://limed.cc:80/4x6cXF/ehfxdp/110228.m3u8
-#EXTINF:-1 group-title="TV ABERTA" tvg-id="Band.sp" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Band_Marca.png/480px-Band_Marca.png",BAND CEARÁ - CE
-http://limed.cc:80/4x6cXF/ehfxdp/101479.m3u8
-#EXTINF:-1 group-title="Canais Abertos" tvg-id="SBTNacional.br" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Band_Marca.png/480px-Band_Marca.png",SBT GUAJARÁ
-https://video05.logicahost.com.br/tvguajara/tvguajara/playlist.m3u8
-#EXTINF:-1 group-title="Canais Abertos" tvg-id="SBTNacional.br" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Band_Marca.png/480px-Band_Marca.png",SBT GUAJARÁ 2
-https://5b33b873179a2.streamlock.net:1443/mastertv/livestream/playlist.m3u8
-#EXTINF:-1 group-title="Canais Abertos" tvg-id="RedeTV.br" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Logo_da_RedeTV%21.svg/480px-Logo_da_RedeTV%21.svg.png",REDE TV! SÃO LUIS
-https://stmv1.srvif.com/tvsaoluis8/tvsaoluis8/playlist.m3u8
-#EXTINF:-1 group-title="VARIEDADES" tvg-id="SertaoTV.ce" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Band_Marca.png/480px-Band_Marca.png",SERTÃO TV - CE
-http://wz4.dnip.com.br/sertaotv/sertaotv.sdp/playlist.m3u8
-#EXTINF:-1 group-title="Canais Abertos" tvg-id="RedeTV.br" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Logo_da_RedeTV%21.svg/480px-Logo_da_RedeTV%21.svg.png",REDE TV! MT PANTANAL
-https://5a2b083e9f360.streamlock.net/tvpantanal/tvpantanal.sdp/playlist.m3u8
-#EXTINF:-1 group-title="Canais Abertos" tvg-id="RedeTV.br" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Logo_da_RedeTV%21.svg/480px-Logo_da_RedeTV%21.svg.png",RedeTV! RS
-https://video04.logicahost.com.br/tvpampa/tvpampa/playlist.m3u8
-#EXTINF:-1 group-title="Canais Abertos" tvg-id="RedeTV.br" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Logo_da_RedeTV%21.svg/480px-Logo_da_RedeTV%21.svg.png",RedeTV! PR
-https://tv01.zas.media:1936/redetvparana/redetvparana/playlist.m3u8
-#EXTINF:-1 group-title="VARIEDADES" tvg-id="TVDiario.pb" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Band_Marca.png/480px-Band_Marca.png",TV DIÁRIO DO SERTÃO - PB
-https://5ffab78b24f94.streamlock.net/pdsertaotv/pdsertaotv/chunklist_w2127823782.m3u8
-#EXTINF:-1 group-title="VARIEDADES" tvg-id="ABC.br" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Band_Marca.png/480px-Band_Marca.png",ABC BRASIL - SP
-https://stmv1.srvstm.com/abc7891/abc7891/playlist.m3u8?1756473665
-#EXTINF:-1 group-title="TV ABERTA" tvg-id="Band.sp" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Band_Marca.png/480px-Band_Marca.png",BAND PARANÁ - PR
-http://limed.cc:80/4x6cXF/ehfxdp/110229.m3u8
-#EXTINF:-1 group-title="VARIEDADES" tvg-id="AdessoTV.rs" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Band_Marca.png/480px-Band_Marca.png",ADESSO TV - RS
-https://cdn.live.br1.jmvstream.com/w/LVW-9715/LVW9715_12B26T62tm/chunklist.m3u8
-#EXTINF:-1 group-title="VARIEDADES" tvg-id="TVMetropole.ce" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Band_Marca.png/480px-Band_Marca.png",TV METRÓPOLE - CE
-https://cdn-fundacao-2110.ciclano.io:1443/fundacao-2110/fundacao-2110/playlist.m3u8
-#EXTINF:-1 group-title="VARIEDADES" tvg-id="TVPadreCicero.ce" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Band_Marca.png/480px-Band_Marca.png",TV PADRE CICERO - CE
-https://video01.logicahost.com.br/tvpadrecicero/tvpadrecicero/playlist.m3u8
-#EXTINF:-1 group-title="VARIEDADES" tvg-id="CanalDoBoi.ms" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Band_Marca.png/480px-Band_Marca.png",CANAL DO BOI - MS
-http://limed.cc:80/4x6cXF/ehfxdp/89843.m3u8
-#EXTINF:-1 group-title="VARIEDADES" tvg-id="BraziTV.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Band_Marca.png/480px-Band_Marca.png",BRAZITV - EUA
-https://cbtvnow.com:5866/hls/livest2024.m3u8
-#EXTINF:-1 group-title="VARIEDADES" tvg-id="CanalRural.br" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Band_Marca.png/480px-Band_Marca.png",CANAL RURAL - SP
-http://limed.cc:80/4x6cXF/ehfxdp/100034.m3u8
-#EXTINF:-1 group-title="VARIEDADES" tvg-id="AugeTV.br" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Band_Marca.png/480px-Band_Marca.png",AUGE TV
-https://video01.logicahost.com.br/canalaugetv/canalaugetv/chunklist_w1875588192.m3u8
-#EXTINF:-1 group-title="VARIEDADES" tvg-id="AstralTV.sp" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Band_Marca.png/480px-Band_Marca.png",ASTRAL TV - SP
-https://isaocorp.cloudecast.com/astraltv/playlist.m3u8
-#EXTINF:-1 group-title="TV ABERTA" tvg-id="Band.sp" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Band_Marca.png/480px-Band_Marca.png",BAND - RS
-http://limed.cc:80/4x6cXF/ehfxdp/100660.m3u8
-#EXTINF:-1 group-title="VARIEDADES" tvg-id="CATVE.pr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/TV_Cultura_2023_logo.svg/1200px-TV_Cultura_2023_logo.svg.png",CATVE - PR
-http://wowza4.catve.com.br:1935/live/livestream/media.m3u8
-#EXTINF:-1 group-title="VARIEDADES" tvg-id="BemMelhor.sc" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Band_Marca.png/480px-Band_Marca.png",BEM MELHOR - SC
-https://video01.soultv.com.br/bemmelhor/bemmelhor/playlist.m3u8
-#EXTINF:-1 group-title="VARIEDADES" tvg-id="FashionTV.br" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/TV_Brasil_2022_logo.svg/480px-TV_Brasil_2022_logo.svg.png",FASHION TV BRASIL
-http://limed.cc:80/4x6cXF/ehfxdp/89982.m3u8
-#EXTINF:-1 group-title="VARIEDADES" tvg-id="CanalGov.br" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Canal_Gov_Logo.png/480px-Canal_Gov_Logo.png",CANAL SAÚDE
-https://eitv2.cdn.broadpeak.io/account351-i1495/event/canalsaude/auto.m3u8
-#EXTINF:-1 group-title="VARIEDADES" tvg-id="CanalGov.br" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Canal_Gov_Logo.png/480px-Canal_Gov_Logo.png",CANAL LIBRAS
-https://canallibras-stream.ebc.com.br/index.m3u8
-#EXTINF:-1 group-title="VARIEDADES" tvg-id="NovaEraTV.sc" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Band_Marca.png/480px-Band_Marca.png",NOVA ERA TV - SC
-http://wz3.dnip.com.br:1935/novaeratv/novaeratv.sdp/live.m3u8
-#EXTINF:-1 group-title="VARIEDADES" tvg-id="CentralTV.pr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Band_Marca.png/480px-Band_Marca.png",CENTRAL TV - PR
-https://tv01.zas.media:1936/centraltvweb/centraltvweb/chunklist.m3u8
-#EXTINF:-1 group-title="VARIEDADES" tvg-id="PoopTV.br" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Band_Marca.png/480px-Band_Marca.png",POOP TV
-http://200.194.238.229:8383/live/primer/playlist.m3u8
-#EXTINF:-1 group-title="VARIEDADES" tvg-id="DMaisTV.sp" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Band_Marca.png/480px-Band_Marca.png",D+ TV - SP
-https://stmv1.samcast.com.br/demaistv6503/demaistv6503/playlist.m3u8
-#EXTINF:-1 group-title="VARIEDADES" tvg-id="ColetivaTV.br" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Band_Marca.png/480px-Band_Marca.png",COLETIVA TV
-https://video02.logicahost.com.br/coletivatv/coletivatv/playlist.m3u8
-#EXTINF:-1 group-title="VARIEDADES" tvg-id="PrimerTV.sc" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Band_Marca.png/480px-Band_Marca.png",PRIMER TV - SC
-https://stream.ichibantv.com:3522/stream/play.m3u8
-#EXTINF:-1 group-title="VARIEDADES" tvg-id="SaborArte.br" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Band_Marca.png/480px-Band_Marca.png",SABOR & ARTE
-http://limed.cc:80/4x6cXF/ehfxdp/91388.m3u8
-#EXTINF:-1 group-title="VARIEDADES" tvg-id="UmissTV.br" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Band_Marca.png/480px-Band_Marca.png",UMISS TV
-https://video01.soultv.com.br/umiss/umiss/playlist.m3u8
-#EXTINF:-1 group-title="VARIEDADES" tvg-id="Hollywire.br" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Band_Marca.png/480px-Band_Marca.png",HOLLYWIRE
-https://hwusassai.bozztv.com/HD3400/HD3400.m3u8
-#EXTINF:-1 group-title="VARIEDADES" tvg-id="RedeCanal10.br" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Band_Marca.png/480px-Band_Marca.png",REDE CANAL 10
-https://video05.logicahost.com.br/ararutv/ararutv/chunklist_w1006447719.m3u8
-#EXTINF:-1 group-title="VARIEDADES" tvg-id="RedeUTV.br" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Band_Marca.png/480px-Band_Marca.png",REDE UTV
-https://utvsoultv.acessaradios.com.br/utvsoultv/utvsoultv.stream/playlist.m3u8
-#EXTINF:-1 group-title="VARIEDADES" tvg-id="RSTV.rs" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Band_Marca.png/480px-Band_Marca.png",RS TV - RS
-https://video03.logicahost.com.br/rstv/rstv/chunklist_w1194207943.m3u8
-#EXTINF:-1 group-title="VARIEDADES" tvg-id="RedeSPTV.sp" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Band_Marca.png/480px-Band_Marca.png",REDE SPTV
-https://video01.logicahost.com.br/websptv/websptv/chunklist.m3u8
-#EXTINF:-1 group-title="VARIEDADES" tvg-id="TopMixTV.br" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Band_Marca.png/480px-Band_Marca.png",TOP MIX TV
-https://video03.logicahost.com.br/topmixtv/topmixtv/chunklist.m3u8
-#EXTINF:-1 group-title="VARIEDADES" tvg-id="TVBoqueirao.pr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Band_Marca.png/480px-Band_Marca.png",TV BOQUEIRÃO - PR
-https://srv3.zcast.com.br/tvboqueirao/tvboqueirao/playlist.m3u8
-#EXTINF:-1 group-title="VARIEDADES" tvg-id="TVCanalDez.br" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Band_Marca.png/480px-Band_Marca.png",TV CANAL DEZ
-https://canaldez.acessaradios.com.br/canaldez/canaldez/chunklist_w1649768698.m3u8
-#EXTINF:-1 group-title="VARIEDADES" tvg-id="TVAFolha.br" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Band_Marca.png/480px-Band_Marca.png",TV A FOLHA
-https://video01.logicahost.com.br/tvafolha/tvafolha/master.m3u8
-#EXTINF:-1 group-title="VARIEDADES" tvg-id="TVAracati.ce" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Band_Marca.png/480px-Band_Marca.png",TV ARACATI
-https://video04.logicahost.com.br/tvaracati/tvaracati/chunklist_w328778514.m3u8
-#EXTINF:-1 group-title="VARIEDADES" tvg-id="TVBrasilCentral.go" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/TV_Brasil_2022_logo.svg/480px-TV_Brasil_2022_logo.svg.png",TV BRASIL CENTRAL - GO
-https://tbc.zoeweb.tv/tbc/tbc/master.m3u8
-#EXTINF:-1 group-title="VARIEDADES" tvg-id="TVCultura.br" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/TV_Cultura_2023_logo.svg/1200px-TV_Cultura_2023_logo.svg.png",TV CULTURAL HD
-https://cdn.technettv.com/channel/29912/logo_256.png
-#EXTINF:-1 group-title="VARIEDADES" tvg-id="TVCNB.br" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Band_Marca.png/480px-Band_Marca.png",TV CNB
-https://5cf4a2c2512a2.streamlock.net/tvcnb/tvcnb/chunklist.m3u8
-#EXTINF:-1 group-title="VARIEDADES" tvg-id="TVClubeWeb.br" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Band_Marca.png/480px-Band_Marca.png",TV CLUBE WEB
-https://5c483b9d1019c.streamlock.net/8186/8186/chunklist_w1063983608.m3u8
-#EXTINF:-1 group-title="VARIEDADES" tvg-id="TVBrusque.sc" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Band_Marca.png/480px-Band_Marca.png",TV BRUSQUE
-https://video01.logicahost.com.br/tvbrusque/tvbrusque/chunklist_w345107382.m3u8
-#EXTINF:-1 group-title="VARIEDADES" tvg-id="TVEscola.br" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/TV_Cultura_2023_logo.svg/1200px-TV_Cultura_2023_logo.svg.png",TV ESCOLA
-https://5c483b9d1019c.streamlock.net/8054/8054/playlist.m3u8
-#EXTINF:-1 group-title="VARIEDADES" tvg-id="SolBrasil.br" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Band_Marca.png/480px-Band_Marca.png",SOL BRASIL
-https://video01.soultv.com.br/solbrasil/solbrasil/playlist.m3u8
-#EXTINF:-1 group-title="VARIEDADES" tvg-id="TVGramado.rs" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Band_Marca.png/480px-Band_Marca.png",TV GRAMADO - RS
-https://isaocorp.cloudecast.com/tvgramado/index.m3u8
-#EXTINF:-1 group-title="VARIEDADES" tvg-id="TVMetropolitana.br" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Band_Marca.png/480px-Band_Marca.png",TV METROPOLITANA
-https://stmv1.samcast.com.br/junior4319/junior4319/playlist.m3u8
-#EXTINF:-1 group-title="VARIEDADES" tvg-id="TVLondres.mt" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Band_Marca.png/480px-Band_Marca.png",TV LONDRES
-https://w6oy7eg3dxrg-hls-live.5centscdn.com/8744_push_3653_001/05a4e5d3c1769a61f8350e4fc677a4a5.sdp/live/8744_push_3653_001Tvlondres/chunks.m3u8
-#EXTINF:-1 group-title="VARIEDADES" tvg-id="TVItape.sc" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Band_Marca.png/480px-Band_Marca.png",TV ITAPÊ
-https://stream01.msolutionbrasil.com.br/hls/tvitape/live.m3u8
-#EXTINF:-1 group-title="VARIEDADES" tvg-id="TVGuarulhos.sp" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Band_Marca.png/480px-Band_Marca.png",TV GUARULHOS
-https://br5093.streamingdevideo.com.br/tvguarulhos/tvguarulhos/chunklist_w1676600778.m3u8
-#EXTINF:-1 group-title="VARIEDADES" tvg-id="TerraViva.br" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Band_Marca.png/480px-Band_Marca.png",TERRA VIVA
-http://limed.cc:80/4x6cXF/ehfxdp/90385.m3u8
-#EXTINF:-1 group-title="VARIEDADES" tvg-id="TVJSid.br" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Band_Marca.png/480px-Band_Marca.png",TV J.SID
-https://video05.logicahost.com.br/tvjsid/tvjsid/chunklist_w1649396603.m3u8
-#EXTINF:-1 group-title="VARIEDADES" tvg-id="TVLuzilandia.pi" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Band_Marca.png/480px-Band_Marca.png",TV LUZILÂNDIA - PI
-https://cdn-luzilandi-10589.ciclano.io:1443/luzilandi-10589/luzilandi-10589/chunklist_w666875693.m3u8
-#EXTINF:-1 group-title="VARIEDADES" tvg-id="TVParanaTurismo.pr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Band_Marca.png/480px-Band_Marca.png",TV PARANÁ TURISMO - PR
-http://200.189.113.201/hls/tve.m3u8
-#EXTINF:-1 group-title="VARIEDADES" tvg-id="TVPantanal.ms" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Band_Marca.png/480px-Band_Marca.png",TV PANTANAL - MS
-https://59d39900ebfb8.streamlock.net/tvpantanalms/tvpantanalms/chunklist_w1997466154.m3u8
-#EXTINF:-1 group-title="VARIEDADES" tvg-id="TVMax.br" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Band_Marca.png/480px-Band_Marca.png",TV MAX
-https://video09.logicahost.com.br/tvmax/tvmax/chunklist_w1126990452.m3u8
-#EXTINF:-1 group-title="VARIEDADES" tvg-id="TVNovaNordeste.pe" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Band_Marca.png/480px-Band_Marca.png",TV NOVA NORDESTE - PE
-https://acesso.ecast.site:3675/live/novatvlive.m3u8
-#EXTINF:-1 group-title="VARIEDADES" tvg-id="TVPortalLitoral.sp" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Band_Marca.png/480px-Band_Marca.png",TV PORTAL FALA LITORAL
-https://5c483b9d1019c.streamlock.net/falalitoraltv/falalitoraltv/chunklist_w221710006.m3u8
-#EXTINF:-1 group-title="VARIEDADES" tvg-id="TVPajeu.pe" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Band_Marca.png/480px-Band_Marca.png",TV PAJEÚ
-https://video05.logicahost.com.br/tvpajeu/tvpajeu/chunklist_w913234747.m3u8
-#EXTINF:-1 group-title="VARIEDADES" tvg-id="TVPampa.rs" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Logo_da_RedeTV%21.svg/480px-Logo_da_RedeTV%21.svg.png",TV PAMPA - RS
-https://video04.logicahost.com.br/tvpampa/tvpampa/chunklist_w114853363.m3u8
-#EXTINF:-1 group-title="VARIEDADES" tvg-id="TVRSul.sc" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Band_Marca.png/480px-Band_Marca.png",TVR SUL - SC
-https://5a57bda70564a.streamlock.net/tvrsul/tvrsul.sdp/chunklist_w1525695506.m3u8
-#EXTINF:-1 group-title="VARIEDADES" tvg-id="TVVotorantim.sp" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Band_Marca.png/480px-Band_Marca.png",TV VOTORANTIM
-https://stmv1.paineldevideo.com.br/tvvotorantim/tvvotorantim/chunklist_w1385653592.m3u8
-#EXTINF:-1 group-title="VARIEDADES" tvg-id="TVVideonews.sp" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Band_Marca.png/480px-Band_Marca.png",TV VIDEONEWS - SP
-https://video01.logicahost.com.br/tvideonews/tvideonews/chunklist.m3u8
-#EXTINF:-1 group-title="VARIEDADES" tvg-id="TVSol.pe" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Band_Marca.png/480px-Band_Marca.png",TV SOL
-https://video05.logicahost.com.br/tvsol/tvsol/chunklist_w702936774.m3u8
-#EXTINF:-1 group-title="VARIEDADES" tvg-id="TVWTJ.mg" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Band_Marca.png/480px-Band_Marca.png",TV WTJ - MG
-https://video02.logicahost.com.br/wtjtvminas/wtjtvminas/playlist.m3u8
-#EXTINF:-1 group-title="VARIEDADES" tvg-id="Viamorena.ms" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Band_Marca.png/480px-Band_Marca.png",VIAMORENA
-https://video01.logicahost.com.br/viamorena01/viamorena01/chunklist_w38565330.m3u8
-#EXTINF:-1 group-title="VARIEDADES" tvg-id="VRTChannel.br" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Band_Marca.png/480px-Band_Marca.png",VRT CHANNEL
-https://sistemavrt2023.vrtchannel.tv.br:3626/hybrid/play.m3u8
-#EXTINF:-1 group-title="VARIEDADES" tvg-id="TVCPanorama.br" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Band_Marca.png/480px-Band_Marca.png",TVC PANORAMA
-https://tv02.zas.media:1936/panorama/panorama/chunklist_w1485483103.m3u8
+#EXTM3U x-tvg-url="https://raw.githubusercontent.com/dp247/Freeview-EPG/master/epg.xml,https://open-epg.com/files/unitedkingdom.xml,https://open-epg.com/files/france.xml,https://open-epg.com/files/india.xml,https://open-epg.com/files/newzealand.xml,https://open-epg.com/files/turkey.xml,https://tvprofil.net/xmltv/data/bbc1.uk/weekly_bbc1.uk_tvprofil.net.xml,https://raw.githubusercontent.com/Permanently/sky-epg-xmltv/main/guides/london_hd.xml" tvg-rec="28" catchup-days="28" catchup="shift"
+#EXTINF:-1 tvg-chno="1" tvg-id="Channel4.uk" group-title="General",Channel 4
+https://list.iptvcat.com/my_list/s/c9cd3ea95f88f6aeb6b638859f252194.m3u8
+#EXTINF:-1 tvg-chno="2" tvg-id="Channel4.uk" group-title="General",Channel 4 (alt)
+https://list.iptvcat.com/my_list/s/4cf4c3eeb31f346ed4924fe2a4eda095.m3u8
+#EXTINF:-1 tvg-chno="3" tvg-id="UDave.uk" group-title="General",Dave
+https://list.iptvcat.com/my_list/s/1b6dded3944ab5f4fa11e1401fe6b9be.m3u8
+#EXTINF:-1 tvg-chno="4" tvg-id="Film4.uk" group-title="General",Film4
+https://list.iptvcat.com/my_list/s/6df24f2b583b70501d240dc153c3c01e.m3u8
+#EXTINF:-1 tvg-chno="100" tvg-id="BBCNews.uk" group-title="News",BBC World News
+https://gpuserver3.tier1streams.com/BBC_WORLD_NEWS/index.m3u8
+#EXTINF:-1 tvg-chno="101" tvg-id="GBNews.uk" group-title="News",GB News
+https://amg01076-lightning-amg01076c7-lg-gb-2019.playouts.now.amagi.tv/playlist/amg01076-lightning-gbnews-lggb/playlist.m3u8
 #EXTM3U url-tvg="https://epgshare01.online/epgshare01/epg_ripper_AR1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_BR1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_MX1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_ES1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_FR1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_PT1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_ALL_SOURCES1.xml.gz" x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_AR1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_BR1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_MX1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_ES1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_FR1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_PT1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_ALL_SOURCES1.xml.gz"
 #EXTINF:-1 tvg-id="Rede.Vida.br" tvg-logo="https://redevida.com.br/wp-content/uploads/2024/07/logo-redevida.png.webp" group-title="REDE VIDA",Rede Vida
 https://d12e4o88jd8gex.cloudfront.net/out/v1/cea3de0b76ac4e82ab8ee0fd3f17ce12/index.m3u8
@@ -1139,15 +777,55 @@ https://live-as-09-15.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAi
 #EXTINF:-1 group-title="GLOBO AO VIVO" tvg-logo="https://s02.video.glbimg.com/x720/2923546.jpg",AO VIVO: AO VIVO: Assista ao JAC1 com Melícia Moura
 https://live-as-10-02.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJVUyIsImRvbWFpbiI6ImxpdmUtYXMtMTAtMDIudmlkZW8uZ2xvYm8uY29tIiwiZXhwIjoxNzg0OTM1MTczLCJpYXQiOjE3ODQ5MTM1NzMsImlzcyI6InBsYXliYWNrLWFwaS1wcm9kLWdjcCIsIm93bmVyIjoiIiwicGF0aCI6Ii9saXZlL2YoaT0yKS9yZWRlYWMvcGxheWxpc3QubTN1OCJ9.jiX5uzQmpHH5PJ5paXZosfu3JIP50OUrH3JDiUadJwCsOrnwahPCnOPVhEy9dhulyv4HL106m2E7RA0GyyH8x7TLSdmWI-Mb3Pk4jeXgENvd7U3n4MGu_dYsobGeqrjvFLAkuUewxFiQlhr21hqucXWX2NhBsFC661dHPkjxI2eY36bjbOYW9zFqRLmM6Edpn-jY0wFwTUqvvfl-rf09xQNAl6WagE7y7L54xf4T6H4mDAlEF7lk8W66c7sw0CqowFI_LiRtVNnbn33_Fx6zkmfLTzVr1Cwhdkpw2Wa68fwKSTRoQkpTki54Wh-HNxI6ox347N57554eSZYmwVQIKA/live/f(i=2)/redeac/playlist.m3u8
 #EXTM3U
-#EXTM3U url-tvg="https://epg.pw/xmltv/epg_US.xml"
-#EXTINF:-1 tvg-id="465150" tvg-logo="https://keyframe-cdn.abcnews.com/streamprovider11.jpg" group-title="NEWS WORLD",ABC News Live
+#EXTM3U
+#EXTINF:-1 tvg-logo="https://keyframe-cdn.abcnews.com/streamprovider11.jpg" group-title="NEWS WORLD",ABC News Live - ABC News
+https://linear-abcnews-ftc-na-west-1.media.dssott.com/dvt2=exp=1785201114~url=%2Flas1%2Fva01%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838%2F~psid=227f8ca7-053d-4c2f-8012-c6b604bf18a6~did=c3fb66f4-69e2-4b62-9fe6-1f7c09bec0bc~country=US~kid=k02~hmac=1995ea9834e51baf3f89893dd10ae2582640a845ba286c3bfe71011d04de4b1a/las1/va01/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838/ctr-all-hdri-sliding.m3u8?r=1080&v=1&hash=81fb88da5aab33fe54dc3f8d7ae5f0b2eaa56a8c
+#EXTINF:-1 tvg-logo="https://keyframe-cdn.abcnews.com/streamprovider11.jpg" group-title="NEWS WORLD",ABC News Live - ABC News
+https://linear-abcnews-ftc-na-west-1.media.dssott.com/dvt2=exp=1785201114~url=%2Flas1%2Fva01%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838%2F~psid=227f8ca7-053d-4c2f-8012-c6b604bf18a6~did=c3fb66f4-69e2-4b62-9fe6-1f7c09bec0bc~country=US~kid=k02~hmac=1995ea9834e51baf3f89893dd10ae2582640a845ba286c3bfe71011d04de4b1a/las1/va01/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838/audio-aac-1-64K/64_slide.m3u8
+#EXTINF:-1 tvg-logo="https://keyframe-cdn.abcnews.com/streamprovider11.jpg" group-title="NEWS WORLD",ABC News Live - ABC News
+https://linear-abcnews-ftc-na-west-1.media.dssott.com/dvt2=exp=1785201114~url=%2Flas1%2Fva01%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838%2F~psid=227f8ca7-053d-4c2f-8012-c6b604bf18a6~did=c3fb66f4-69e2-4b62-9fe6-1f7c09bec0bc~country=US~kid=k02~hmac=1995ea9834e51baf3f89893dd10ae2582640a845ba286c3bfe71011d04de4b1a/las1/va01/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838/cmaf-cenc-ctr-1700K/1700_hdri_slide.m3u8
+#EXTINF:-1 tvg-logo="https://keyframe-cdn.abcnews.com/streamprovider11.jpg" group-title="NEWS WORLD",ABC News Live - ABC News
+https://linear-abcnews-ftc-na-west-1.media.dssott.com/int/ps01/disney/95a79cf8-c1f3-4662-8596-bc04f52eb9c5/unenc-all-0532cd01-5261-40e3-b858-2ca1e4287364-8ba115e9-21fa-4b6e-91f6-1110f6f09e85.m3u8?a=1&fr=60&r=720&v=1&xp=1&hash=2f882385ef9e52beaef35f38e52f543f7774aa5a
+#EXTINF:-1 tvg-logo="https://keyframe-cdn.abcnews.com/streamprovider11.jpg" group-title="NEWS WORLD",ABC News Live - ABC News
+https://linear-abcnews-ftc-na-west-1.media.dssott.com/int/ps01/disney/8ac471e1-81ce-4ad9-8474-750f5904aa03/unenc-all-7db98ed5-171b-48ee-9f73-532db3056a80-5d921ce0-b08c-468d-989a-6f9e10c08bb5.m3u8?a=1&fr=60&r=720&v=1&xp=1&hash=2f882385ef9e52beaef35f38e52f543f7774aa5a
+#EXTINF:-1 tvg-logo="https://keyframe-cdn.abcnews.com/streamprovider11.jpg" group-title="NEWS WORLD",ABC News Live - ABC News
+https://linear-abcnews-ftc-na-west-1.media.dssott.com/int/ps01/disney/a433ec2c-b3f8-41a7-94e2-4aab91d2452a/unenc-all-220caf85-7ee3-4cd4-802e-c1462181ad5c-8882057c-afae-475b-af06-fa018ff5558d.m3u8?a=1&fr=60&r=720&v=1&xp=1&hash=2f882385ef9e52beaef35f38e52f543f7774aa5a
+#EXTINF:-1 tvg-logo="https://keyframe-cdn.abcnews.com/streamprovider11.jpg" group-title="NEWS WORLD",ABC News Live - ABC News
+https://linear-abcnews-ftc-na-west-1.media.dssott.com/int/ps01/disney/f1bc3201-f095-4edc-8939-11639d877b39/unenc-all-39cb81e5-4e7d-47bd-85f8-9969efa4c82c-733440a8-f87d-4c92-9a54-c7a211a8c344.m3u8?a=1&fr=60&r=720&v=1&xp=1&hash=2f882385ef9e52beaef35f38e52f543f7774aa5a
+#EXTINF:-1 tvg-logo="https://keyframe-cdn.abcnews.com/streamprovider11.jpg" group-title="NEWS WORLD",ABC News Live - ABC News
+https://linear-abcnews-ftc-na-west-1.media.dssott.com/int/ps01/disney/0c9d28ac-7b2c-46b4-841c-801570cb47a6/unenc-all-f8e9d414-ccc3-4a88-bfc8-e6ec2063a822-97737317-4b34-4d31-8013-fc6fea170320.m3u8?a=1&fr=60&r=720&v=1&xp=1&hash=2f882385ef9e52beaef35f38e52f543f7774aa5a
+#EXTINF:-1 tvg-logo="https://keyframe-cdn.abcnews.com/streamprovider11.jpg" group-title="NEWS WORLD",ABC News Live - ABC News
+https://linear-abcnews-ftc-na-west-1.media.dssott.com/int/ps01/disney/a4d33fad-d3b1-4989-831a-70289716e5f8/unenc-all-ae9bc81c-9924-441c-b902-907c032390c3-15fe6fbf-2033-4099-b281-ac48364bb2e1.m3u8?a=1&fr=60&r=720&v=1&xp=1&hash=2f882385ef9e52beaef35f38e52f543f7774aa5a
+#EXTINF:-1 tvg-logo="https://keyframe-cdn.abcnews.com/streamprovider11.jpg" group-title="NEWS WORLD",ABC News Live - ABC News
+https://linear-abcnews-ftc-na-west-1.media.dssott.com/int/ps01/disney/53aaf8c3-9587-4a3c-bf93-4d302fa583a0/unenc-all-a89a3eac-d794-4bc1-bb34-e9cf5ccc09b2-5e65b479-19c6-4055-9761-e32b8290a1c5.m3u8?a=1&fr=60&r=720&v=1&xp=1&hash=2f882385ef9e52beaef35f38e52f543f7774aa5a
+#EXTINF:-1 tvg-logo="https://keyframe-cdn.abcnews.com/streamprovider11.jpg" group-title="NEWS WORLD",ABC News Live - ABC News
+https://linear-abcnews-ftc-na-west-1.media.dssott.com/int/ps01/disney/53aaf8c3-9587-4a3c-bf93-4d302fa583a0/r/1fd21fc2-52bf-4595-a18a-9d4b93167804/c26b-MAIN/03/1200_complete-724b5bc7-6dc0-48a9-9d02-dc95585f8a30.m3u8
+#EXTINF:-1 tvg-logo="https://keyframe-cdn.abcnews.com/streamprovider11.jpg" group-title="NEWS WORLD",ABC News Live - ABC News
+https://linear-abcnews-ftc-na-west-1.media.dssott.com/int/ps01/disney/53aaf8c3-9587-4a3c-bf93-4d302fa583a0/r/0eeec518-5a18-4669-900e-56daa1104ad6/c26b-MAIN/03/128_complete.m3u8
+#EXTINF:-1 tvg-logo="https://keyframe-cdn.abcnews.com/streamprovider11.jpg" group-title="NEWS WORLD",ABC News Live - ABC News
 https://abcnews-livestreams.akamaized.net/out/v1/6a597119dbd5428a82dc11a2f514a1a2/abcn-live-10-cmaf-manifest/abcn-live-10-index.m3u8
-#EXTINF:-1 tvg-id="465372" tvg-logo="https://a57.foxnews.com/cf-images.us-east-1.prod.boltdns.net/v1/static/694940094001/6896a08f-952b-4e78-93c6-35cd015c214c/85e42af2-f3ff-487f-971e-e105924bc0e9/1280x720/match/400/225/image.jpg" group-title="NEWS WORLD",Fox News Channel
-http://247preview.foxnews.com/hls/live/2020027/fncv3preview/primary.m3u8
-#EXTINF:-1 tvg-id="464766" tvg-logo="https://a57.foxnews.com/cf-images.us-east-1.prod.boltdns.net/v1/static/694940094001/c9b2e2eb-7b87-435c-9510-eab2650ff944/8b584585-acf2-4c37-aa07-aaf2d077bb20/1280x720/match/676/380/image.jpg?ve=1&tl=1" group-title="NEWS WORLD",Fox Business Network
-http://41.205.93.154/FOXBUSINESS/index.m3u8
-#EXTINF:-1 tvg-id="464941" tvg-logo="https://assets2.cbsnewsstatic.com/hub/i/r/2024/04/16/0fb75ad2-a909-44bb-87dc-86b9d51cbeb2/thumbnail/1280x720/949f3d3fef16f9c113e3048c6aef229f/247-key-channelthumbnail-1920x1080.jpg" group-title="NEWS WORLD",CBS News 24/7
-https://cbsnews.akamaized.net/hls/live/2020607/cbsnlineup_8/master.m3u8
+#EXTINF:-1 tvg-logo="https://keyframe-cdn.abcnews.com/streamprovider11.jpg" group-title="NEWS WORLD",ABC News Live - ABC News
+https://abcnews-livestreams.akamaized.net/out/v1/6a597119dbd5428a82dc11a2f514a1a2/abcn-live-10-cmaf-manifest/abcn-live-10-index_4_0.m3u8
+#EXTINF:-1 tvg-logo="https://keyframe-cdn.abcnews.com/streamprovider11.jpg" group-title="NEWS WORLD",ABC News Live - ABC News
+https://abcnews-livestreams.akamaized.net/out/v1/6a597119dbd5428a82dc11a2f514a1a2/abcn-live-10-cmaf-manifest/abcn-live-10-index_3.m3u8
+#EXTINF:-1 tvg-logo="https://a57.foxnews.com/cf-images.us-east-1.prod.boltdns.net/v1/static/694940094001/c6731811-e5d2-4341-a60c-b6c9f45e438c/ee7c56e5-ceaf-4a0e-a6fc-9b13808ff6cd/1280x720/match/624/351/image.jpg" group-title="NEWS WORLD",Fox Business Go | Fox News Video
+https://247.foxbusiness.com/hls/live/2003756/FBNHLSv3/master.m3u8?hdnea=exp=1785118313~acl=/*~hmac=90920b4ef6a5da62460c58dbf8faf04e4a3337a2070192b7b4fa37c9c2279554
+#EXTINF:-1 tvg-logo="https://a57.foxnews.com/cf-images.us-east-1.prod.boltdns.net/v1/static/694940094001/15de0523-3be4-4a9a-8159-7020114e7036/b6ff623a-26d6-4fd9-8bb8-0856adbf38ce/1280x720/match/676/380/image.jpg?ve=1&tl=1" group-title="NEWS WORLD",Watch Fox News Channel Online | Stream Fox News
+https://247.foxnews.com/hls/live/2003586/FNCHLSv3/master.m3u8?hdnea=exp=1785118313~acl=/*~hmac=90920b4ef6a5da62460c58dbf8faf04e4a3337a2070192b7b4fa37c9c2279554
+#EXTINF:-1 tvg-logo="https://www.cbsnews.com/bundles/cbsnewsvideo/images/cbsn--main-bg.jpg" group-title="NEWS WORLD",Watch CBS News 24/7, our free live news stream
+https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/d85e7a13-6e08-45d8-8281-cec475d54496:DLS/master.m3u8
+#EXTINF:-1 tvg-logo="https://www.cbsnews.com/bundles/cbsnewsvideo/images/cbsn--main-bg.jpg" group-title="NEWS WORLD",Watch CBS News 24/7, our free live news stream
+https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/d85e7a13-6e08-45d8-8281-cec475d54496:DLS/variant/93c2acc6479504ccd49e3f4d21db1bec/bandwidth/441000.m3u8
+#EXTINF:-1 tvg-logo="https://www.cbsnews.com/bundles/cbsnewsvideo/images/cbsn--main-bg.jpg" group-title="NEWS WORLD",Watch CBS News 24/7, our free live news stream
+https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/d85e7a13-6e08-45d8-8281-cec475d54496:DLS/variant/746103095c4cba0bf336a095edd0798c/bandwidth/733000.m3u8
+#EXTINF:-1 tvg-logo="https://www.cbsnews.com/bundles/cbsnewsvideo/images/cbsn--main-bg.jpg" group-title="NEWS WORLD",Watch CBS News 24/7, our free live news stream
+https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/d85e7a13-6e08-45d8-8281-cec475d54496:DLS/variant/d97af4c27467beea3da650488b681b9e/bandwidth/1083000.m3u8
+#EXTINF:-1 tvg-logo="https://www.cbsnews.com/bundles/cbsnewsvideo/images/cbsn--main-bg.jpg" group-title="NEWS WORLD",Watch CBS News 24/7, our free live news stream
+https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/d85e7a13-6e08-45d8-8281-cec475d54496:DLS/variant/df15b3d87264e51b4858655d95765b18/bandwidth/1549000.m3u8
+#EXTINF:-1 tvg-logo="https://www.cbsnews.com/bundles/cbsnewsvideo/images/cbsn--main-bg.jpg" group-title="NEWS WORLD",Watch CBS News 24/7, our free live news stream
+https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/d85e7a13-6e08-45d8-8281-cec475d54496:DLS/variant/9b9c3d2ac5aa8733095eb4ff47cef5d8/bandwidth/2249000.m3u8
+#EXTINF:-1 tvg-logo="https://www.cbsnews.com/bundles/cbsnewsvideo/images/cbsn--main-bg.jpg" group-title="NEWS WORLD",Watch CBS News 24/7, our free live news stream
+https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/d85e7a13-6e08-45d8-8281-cec475d54496:DLS/variant/bbe09487996e4026304507dc92286621/bandwidth/4231000.m3u8
 #EXTM3U
 #EXTINF:-1 tvg-logo="https://keyframe-cdn.abcnews.com/streamprovider11.jpg" group-title="NEWS WORLD",ABC News Live - ABC News
 https://linear-abcnews-ftc-na-west-1.media.dssott.com/dvt2=exp=1784087550~url=%2Flas1%2Fva01%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838%2F~psid=4a97ba98-8f66-49c5-9bf6-a221351c2764~did=9235ac9d-b1ed-45fe-8183-a9ef8add22c7~country=US~kid=k02~hmac=741d8a77d63e6aee792cc4c4b1a30eaeb2db3d1a74775b2005cfd352df3e9a32/las1/va01/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838/ctr-all-hdri-sliding.m3u8?r=1080&v=1&hash=81fb88da5aab33fe54dc3f8d7ae5f0b2eaa56a8c
@@ -5401,6 +5079,279 @@ http://tp.nxdns6.com:8080/Xtreamstore100con/BeonJBTzcHUFKotNNbXiW1tb4E/46
 http://tp.nxdns6.com:8080/Xtreamstore100con/BeonJBTzcHUFKotNNbXiW1tb4E/42
 #EXTINF:-1 group-title="SPOR" tvg-id="S.Sport.2.tr" tvg-name="S SPORT 2" tvg-logo="https://i.ibb.co/YccKHLm/s-sport-2.png" ,S SPORT 2
 http://tp.nxdns6.com:8080/Xtreamstore100con/BeonJBTzcHUFKotNNbXiW1tb4E/43
+#EXTM3U x-tvg-url="https://raw.githubusercontent.com/dp247/Freeview-EPG/master/epg.xml,https://experiencersinternational.github.io/tvsetup/epg.xml" tvg-rec="28" catchup-days="28" catchup="shift"
+#EXTINF:-1 group-title="NEWS WORLD" tvg-id="BBCNewsEurope.uk" user-agent="Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML,like Gecko) Mobile/15E148",BBC World News (480p) [Not 24/7]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML,like Gecko) Mobile/15E148
+http://ott-cdn.ucom.am/s24/index.m3u8
+#EXTINF:-1 group-title="UK" tvg-id="BBCOneLondon.uk",BBC One London (720p) [Geo-blocked]
+https://vs-cmaf-push-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_one_london/iptv_hd_abr_v1.mpd
+#EXTINF:-1 group-title="UK" tvg-id="BBCOneLondon.uk",BBC One London (720p) [Geo-blocked]
+https://vs-cmaf-push-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_one_london/pc_hd_abr_v2.mpd
+#EXTINF:-1 group-title="UK" tvg-id="BBCOneScotland.uk",BBC One Scotland HD (720p) [Geo-blocked]
+https://vs-cmaf-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_one_scotland_hd/pc_hd_abr_v2.mpd
+#EXTINF:-1 group-title="UK" tvg-id="BBCOneSouthEast.uk",BBC One South East (720p) [Geo-blocked]
+https://vs-cmaf-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_one_south_east/pc_hd_abr_v2.mpd
+#EXTINF:-1 group-title="UK" tvg-id="BBCOneSouthWest.uk",BBC One South West (720p) [Geo-blocked]
+https://vs-cmaf-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_one_south_west/pc_hd_abr_v2.mpd
+#EXTINF:-1 group-title="UK" tvg-id="BBCOneSouth.uk",BBC One South (720p) [Geo-blocked]
+https://vs-cmaf-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_one_south/pc_hd_abr_v2.mpd
+#EXTINF:-1 group-title="UK" tvg-id="BBCOneWales.uk",BBC One Wales (720p) [Geo-blocked]
+https://vs-cmaf-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_one_wales_hd/pc_hd_abr_v2.mpd
+#EXTINF:-1 group-title="UK" tvg-id="BBCOneWest.uk",BBC One West (720p) [Geo-blocked]
+https://vs-cmaf-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_one_west/pc_hd_abr_v2.mpd
+#EXTINF:-1 group-title="UK" tvg-id="BBCOneWestMidlands.uk",BBC One West Midlands (720p) [Geo-blocked]
+https://vs-cmaf-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_one_west_midlands/pc_hd_abr_v2.mpd
+#EXTINF:-1 group-title="UK" tvg-id="BBCOneYorkshireLincolnshire.uk",BBC One Yorks (720p) [Geo-blocked]
+https://vs-cmaf-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_one_yorks/pc_hd_abr_v2.mpd
+#EXTINF:-1 group-title="UK" tvg-id="BBCParliament.uk",BBC Parliament (720p) [Geo-blocked]
+https://vs-cmaf-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_parliament/iptv_hd_abr_v1.mpd
+#EXTINF:-1 group-title="UK" tvg-id="",BBC Red Button One (720p) [Geo-blocked]
+https://vs-cmaf-pushb-uk.live.cf.md.bbci.co.uk/x=4/i=urn:bbc:pips:service:red_button_one/iptv_hd_abr_v1.mpd
+#EXTINF:-1 group-title="UK" tvg-id="BBCScotland.uk",BBC Scotland HD (720p) [Geo-blocked]
+https://vs-cmaf-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_scotland_hd/iptv_hd_abr_v1.mpd
+#EXTINF:-1 group-title="UK" tvg-id="BBCTwoNorthernIreland.uk",BBC Two Northern Ireland HD (720p) [Geo-blocked]
+https://vs-cmaf-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_two_northern_ireland_hd/iptv_hd_abr_v1.mpd
+#EXTINF:-1 group-title="UK" tvg-id="BBCTwoWales.uk",BBC Two Wales (720p) [Geo-blocked]
+https://vs-cmaf-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_two_wales_digital/iptv_hd_abr_v1.mpd
+#EXTINF:-1 tvg-chno="1" tvg-rec="28" tvg-id="BBCOneEngland.uk" tvg-logo="https://experiencersinternational.github.io/tvsetup/tvg-ico/bbc1-epg.png" group-title="General",BBC 1
+https://vs-cmaf-push-uk.live.cf.md.bbci.co.uk/x=4/i=urn:bbc:pips:service:bbc_one_london/pc_hd_abr_v2.mpd
+#EXTINF:-1 tvg-chno="2" tvg-rec="28" tvg-id="BBCTwoEngland.uk" tvg-logo="https://experiencersinternational.github.io/tvsetup/tvg-ico/bbc2-epg.png" group-title="General",BBC 2
+https://vs-cmaf-push-uk-live.akamaized.net/x=3/i=urn:bbc:pips:service:bbc_two_hd/pc_hd_abr_v2.mpd
+#EXTINF:-1 tvg-chno="2" tvg-rec="28" tvg-id="BBCTwoEngland.uk" tvg-logo="https://experiencersinternational.github.io/tvsetup/tvg-ico/bbc2-epg.png" group-title="General",BBC 2
+https://vs-cmaf-push-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_two_hd/iptv_hd_abr_v1.mpd
+#EXTINF:-1 tvg-chno="7" tvg-rec="28" tvg-id="BBCThree.uk" tvg-logo="https://experiencersinternational.github.io/tvsetup/tvg-ico/bbc3-epg.png",BBC Three
+https://vs-cmaf-pushb-uk.live.fastly.md.bbci.co.uk/x=3/i=urn:bbc:pips:service:bbc_three_hd/iptv_hd_abr_v1.mpd
+#EXTINF:-1 tvg-chno="7" tvg-rec="28" tvg-id="BBCThree.uk" tvg-logo="https://experiencersinternational.github.io/tvsetup/tvg-ico/bbc3-epg.png",BBC Three
+https://vs-cmaf-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_three_hd/iptv_hd_abr_v1.mpd
+#EXTINF:-1 tvg-chno="9" tvg-rec="28" tvg-id="BBCFour.uk" tvg-logo="https://experiencersinternational.github.io/tvsetup/tvg-ico/bbc4-epg.png" status="blocked",BBC Four
+https://vs-cmaf-pushb-uk.live.cf.md.bbci.co.uk/x=4/i=urn:bbc:pips:service:bbc_four_hd/pc_hd_abr_v2.mpd
+#EXTINF:-1 group-title="UK" tvg-id="BBCUHD1.uk",BBC UHD 1 (2160p) [Geo-blocked] [Not 24/7]
+https://ve-uhd-push-uk-live.akamaized.net/x=3/i=urn:bbc:pips:service:uhd_stream_01/iptv_uhd_v1.mpd
+#EXTINF:-1 group-title="UK" tvg-id="BBCUHD2.uk",BBC UHD 2 (2160p) [Geo-blocked] [Not 24/7]
+https://ve-uhd-push-uk-live.akamaized.net/x=3/i=urn:bbc:pips:service:uhd_stream_02/iptv_uhd_v1.mpd
+#EXTINF:-1 group-title="UK" tvg-id="BBCUHD3.uk",BBC UHD 3 (2160p) [Geo-blocked] [Not 24/7]
+https://ve-uhd-push-uk-live.akamaized.net/x=3/i=urn:bbc:pips:service:uhd_stream_03/iptv_uhd_v1.mpd
+#EXTINF:-1 group-title="UK" tvg-id="BBCUHD4.uk",BBC UHD 4 (2160p) [Geo-blocked] [Not 24/7]
+https://ve-uhd-push-uk-live.akamaized.net/x=3/i=urn:bbc:pips:service:uhd_stream_04/iptv_uhd_v1.mpd
+#EXTINF:-1 group-title="UK" tvg-id="BBCUHD5.uk",BBC UHD 5 (2160p) [Geo-blocked] [Not 24/7]
+https://ve-uhd-push-uk-live.akamaized.net/x=3/i=urn:bbc:pips:service:uhd_stream_05/iptv_uhd_v1.mpd
+#EXTINF:-1 tvg-chno="201" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/CBBC_%282023%29.svg/1280px-CBBC_%282023%29.svg.png" tvg-id="CBBC.uk" group-title="Children" status="blocked",CBBC
+https://vs-hls-pushb-uk-live.akamaized.net/x=3/i=urn:bbc:pips:service:cbbc_hd/t=3840/v=pv14/b=5070016/main.m3u8
+#EXTINF:-1 tvg-chno="202" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/CBeebies_2023.svg/1280px-CBeebies_2023.svg.png" tvg-id="CBeebies.uk" group-title="Children" status="blocked",CBeebies
+https://vs-hls-pushb-uk-live.akamaized.net/x=3/i=urn:bbc:pips:service:cbeebies_hd/t=3840/v=pv14/b=5070016/main.m3u8
+#EXTINF:-1 tvg-chno="231" tvg-id="BBCNews.uk" tvg-url="https://i.imgur.com/GjICLWN.png" group-title="News" status="online",BBC News
+https://cdnuk001.broadcastcdn.net/KUK-BBCNEWSHD/index.m3u8
+#EXTINF:-1 tvg-chno="232" tvg-id="BBCParliament.uk" group-title="News" status="blocked",BBC Parliament
+https://vs-hls-pushb-uk-live.akamaized.net/x=3/i=urn:bbc:pips:service:bbc_parliament/mobile_wifi_main_sd_abr_v2_akamai_hls_live_http.m3u8
+#EXTINF:-1 tvg-name="BBC Radio nan Gàidheal" group-title="Radio-UK" radio="true" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/radio/bbcradionangaidheal.png",BBC Radio nan Gàidheal
+#EXTINF:-1 tvg-chno="700" tvg-id="BBCRadio1.uk" tvg-logo="https://experiencersinternational.github.io/tvsetup/tvg-ico/bbcrd1-epg.png" group-title="Radio",BBC Radio 1
+http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/dash/nonuk/dash_low/ak/bbc_radio_one.mpd
+#EXTINF:-1 tvg-chno="701" tvg-id="BBCRadio1X.uk" tvg-logo="https://experiencersinternational.github.io/tvsetup/tvg-ico/bbcrd1x-epg.png" group-title="Radio",BBC Radio 1Xtra
+http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/dash/nonuk/dash_low/aks/bbc_1xtra.mpd
+#EXTINF:-1 tvg-chno="702" tvg-id="BBCRadio2.uk" tvg-logo="https://experiencersinternational.github.io/tvsetup/tvg-ico/bbcrd2-epg.png" group-title="Radio",BBC Radio 2
+http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/dash/nonuk/dash_low/ak/bbc_radio_two.mpd
+#EXTINF:-1 tvg-chno="703" tvg-id="BBCRadio3.uk" tvg-logo="https://experiencersinternational.github.io/tvsetup/tvg-ico/bbcrd3-epg.png" group-title="Radio",BBC Radio 3
+http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/dash/nonuk/dash_low/ak/bbc_radio_three.mpd
+#EXTINF:-1 tvg-chno="704" tvg-id="BBCRadio4FM.uk" tvg-logo="https://experiencersinternational.github.io/tvsetup/tvg-ico/bbcrd4-epg.png" group-title="Radio",BBC Radio 4
+http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/dash/nonuk/dash_low/ak/bbc_radio_fourfm.mpd
+#EXTINF:-1 tvg-chno="705" tvg-id="BBCRadio5Live.uk" tvg-logo="https://experiencersinternational.github.io/tvsetup/tvg-ico/bbcrd5l-epg.png" group-title="Radio",BBC Radio 5 Live
+http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/dash/nonuk/dash_low/aks/bbc_radio_five_live.mpd
+#EXTINF:-1 tvg-chno="706" tvg-id="BBCRadio5SportsExtra.uk" tvg-logo="https://experiencersinternational.github.io/tvsetup/tvg-ico/bbcrd5s-epg.png" group-title="Radio",BBC Radio 5 Sports Extra
+http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/uk/sbr_high/ak/bbc_radio_five_live_sports_extra.m3u8
+#EXTINF:-1 tvg-chno="707" tvg-id="BBCRadio6Music.uk" tvg-logo="https://experiencersinternational.github.io/tvsetup/tvg-ico/bbcrd6-epg.png" group-title="Radio",BBC Radio 6 Music
+http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/dash/nonuk/dash_low/aks/bbc_6music.mpd
+#EXTINF:-1 tvg-chno="708" tvg-id="BBCRadio4Extra.uk" tvg-logo="https://experiencersinternational.github.io/tvsetup/tvg-ico/bbcrd4x-epg.png" group-title="Radio",BBC Radio 4 Extra
+http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/dash/nonuk/dash_low/ak/bbc_radio_four_extra.mpd
+#EXTINF:-1 tvg-chno="709" tvg-id="BBCRadioAsianNetwork.uk" tvg-logo="https://experiencersinternational.github.io/tvsetup/tvg-ico/bbcasiannet-epg.png" group-title="Radio",BBC Radio Asian Network
+http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/dash/nonuk/dash_low/ak/bbc_asian_network.mpd
+#EXTINF:-1 tvg-chno="710" tvg-id="BBCRadioWorldService.uk" tvg-logo="https://experiencersinternational.github.io/tvsetup/tvg-ico/bbcws-epg.png" group-title="Radio",BBC World Service 
+http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/dash/nonuk/dash_low/ak/bbc_world_service.mpd
+#EXTINF:-1 tvg-chno="720-1" tvg-id="BBCRadioHW.uk" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/BBC_Hereford_%26_Worcester_2022.svg/1280px-BBC_Hereford_%26_Worcester_2022.svg.png" group-title="Radio",BBC Radio Hereford and Worcester
+http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/uk/sbr_high/ak/bbc_radio_hereford_worcester.m3u8
+#EXTINF:-1 tvg-chno="720-2" tvg-id="BBCRadioCymru.uk" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/BBC_Radio_Cymru_2022.svg/1280px-BBC_Radio_Cymru_2022.svg.png" group-title="Radio",BBC Radio Cymru (Welsh)
+http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/dash/nonuk/dash_low/ak/bbc_radio_cymru.mpd
+#EXTINF:-1 tvg-chno="720-3" tvg-id="BBCRadioDevon.uk" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/BBC_Radio_Devon_2022.svg/1280px-BBC_Radio_Devon_2022.svg.png" group-title="Radio",BBC Radio Devon
+http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/dash/nonuk/dash_low/ak/bbc_radio_devon.mpd
+#EXTINF:-1 tvg-chno="720-4" tvg-id="BBCRadioFoyle.uk" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/BBC_Radio_Foyle_2022.svg/1280px-BBC_Radio_Foyle_2022.svg.png" group-title="Radio",BBC Radio Foyle
+http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/dash/nonuk/dash_low/ak/bbc_radio_foyle.mpd
+#EXTINF:-1 tvg-chno="720-5" tvg-id="BBCRadioLancashire.uk" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/BBC_Radio_Lancashire_2022.svg/1280px-BBC_Radio_Lancashire_2022.svg.png" group-title="Radio",BBC Radio Lancashire
+http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/uk/sbr_high/ak/bbc_radio_lancashire.m3u8
+#EXTINF:-1 tvg-chno="720-6" tvg-id="BBCRadioNanGaidheal.uk" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/BBC_Radio_nan_G%C3%A0idheal_2022.svg/1280px-BBC_Radio_nan_G%C3%A0idheal_2022.svg.png" group-title="Radio",BBC Radio nan Gàidheal (Gaelic)
+http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/dash/nonuk/dash_low/aks/bbc_radio_nan_gaidheal.mpd
+#EXTINF:-1 tvg-chno="720-7" tvg-id="BBCRadioNottingham.uk" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/BBC_Radio_Nottingham_2022.svg/1280px-BBC_Radio_Nottingham_2022.svg.png" group-title="Radio",BBC Radio Nottingham
+http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/uk/sbr_high/ak/bbc_radio_nottingham.m3u8
+#EXTINF:-1 tvg-chno="720-8" tvg-id="BBCRadioSuffolk.uk" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/BBC_Radio_Suffolk_2022.svg/1280px-BBC_Radio_Suffolk_2022.svg.png" group-title="Radio",BBC Radio Suffolk
+http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/uk/sbr_high/ak/bbc_radio_suffolk.m3u8
+#EXTINF:-1 tvg-chno="720-9" tvg-id="BBCRadioSussex.uk" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/BBC_Radio_Sussex_2022.svg/1280px-BBC_Radio_Sussex_2022.svg.png" group-title="Radio",BBC Radio Sussex
+http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/uk/sbr_high/ak/bbc_radio_sussex.m3u8
+#EXTINF:-1 tvg-chno="720-10" tvg-id="BBCRadioYork.uk" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/BBC_Radio_York_2022.svg/1280px-BBC_Radio_York_2022.svg.png" group-title="Radio",BBC Radio York
+http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/uk/sbr_high/ak/bbc_radio_york.m3u8
+#EXTINF:-1 tvg-chno="720-11" tvg-id="BBCRadioThreeCounties.uk" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/BBC_Three_Counties_Radio_2022.svg/1280px-BBC_Three_Counties_Radio_2022.svg.png" group-title="Radio",BBC Radio Three Counties 
+http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/uk/sbr_high/ak/bbc_three_counties_radio.m3u8
+#EXTINF:-1 tvg-chno="735-1" tvg-id="BBCRadioGloucestershire.uk" tvg-logo="https://experiencersinternational.github.io/tvsetup/tvg-ico/bbcglos-epg.png" group-title="Radio",BBC Radio Gloucestershire
+http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/uk/sbr_high/ak/bbc_radio_gloucestershire.m3u8
+#EXTINF:-1 tvg-chno="735-2" tvg-id="BBCRadioDerby.uk" tvg-logo="https://experiencersinternational.github.io/tvsetup/tvg-ico/bbcderby-epg.png" group-title="Radio",BBC Radio Derby
+http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/uk/sbr_high/ak/bbc_radio_derby.m3u8
+#EXTINF:-1 tvg-chno="719-1" tvg-id="BBCRadioLeeds.uk" tvg-logo="https://experiencersinternational.github.io/tvsetup/tvg-ico/bbcrdleeds-epg.png" group-title="Radio",BBC Radio Leeds
+http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/uk/sbr_high/ak/bbc_radio_leeds.m3u8
+#EXTINF:-1 tvg-chno="726" tvg-id="BBCRadioStoke.uk" tvg-logo="https://experiencersinternational.github.io/tvsetup/tvg-ico/bbcstoke-epg.png" group-title="Radio",BBC Radio Stoke
+http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/uk/sbr_high/ak/bbc_radio_stoke.m3u8
+#EXTINF:-1 tvg-chno="719-2" tvg-id="BBCRadioJersey.uk" tvg-logo="https://experiencersinternational.github.io/tvsetup/tvg-ico/bbcrdjersey-epg.png" group-title="Radio",BBC Radio Jersey
+http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/uk/sbr_high/ak/bbc_radio_jersey.m3u8
+#EXTINF:-1 tvg-chno="719-3" tvg-id="BBCRadioBristol.uk" tvg-logo="https://experiencersinternational.github.io/tvsetup/tvg-ico/bbcrdbristol-epg.png" group-title="Radio",BBC Radio Bristol
+http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/uk/sbr_high/ak/bbc_radio_bristol.m3u8
+#EXTINF:-1 tvg-chno="719-4" tvg-id="BBCRadioBerkshire.uk" tvg-logo="https://experiencersinternational.github.io/tvsetup/tvg-ico/bbcrdberkshire-epg.png" group-title="Radio",BBC Radio Berkshire
+http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/uk/sbr_high/ak/bbc_radio_berkshire.m3u8
+#EXTINF:-1 tvg-chno="719-5" tvg-id="BBCRadioCWR.uk" tvg-logo="https://experiencersinternational.github.io/tvsetup/tvg-ico/bbcrdcwr-epg.png" group-title="Radio",BBC Radio CWR
+http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/uk/sbr_high/ak/bbc_radio_coventry_warwickshire.m3u8
+#EXTINF:-1 tvg-chno="719-6" tvg-id="BBCRadioKent.uk" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/BBC_Radio_Kent_2022.svg/1280px-BBC_Radio_Kent_2022.svg.png" group-title="Radio",BBC Radio Kent
+http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/uk/sbr_high/ak/bbc_radio_kent.m3u8
+#EXTINF:-1 tvg-chno="719-7" tvg-id="BBCRadioManchester.uk" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/BBC_Radio_Manchester_2022.svg/1280px-BBC_Radio_Manchester_2022.svg.png" group-title="Radio",BBC Radio Manchester
+http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/uk/sbr_high/ak/bbc_radio_manchester.m3u8
+#EXTINF:-1 tvg-chno="719-8" tvg-id="BBCRadioNewcastle.uk" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/BBC_Radio_Newcastle_2022.svg/1280px-BBC_Radio_Newcastle_2022.svg.png" group-title="Radio",BBC Radio Newcastle
+http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/uk/sbr_high/ak/bbc_radio_newcastle.m3u8
+#EXTINF:-1 tvg-chno="719-9" tvg-id="BBCRadioNorfolk.uk" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/BBC_Radio_Norfolk_2022.svg/1280px-BBC_Radio_Norfolk_2022.svg.png" group-title="Radio",BBC Radio Norfolk
+http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/uk/sbr_high/ak/bbc_radio_norfolk.m3u8
+#EXTINF:-1 tvg-chno="719-10" tvg-id="BBCRadioScotland.uk" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/BBC_Radio_Scotland_2022.svg/1280px-BBC_Radio_Scotland_2022.svg.png" group-title="Radio",BBC Radio Scotland
+http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/dash/nonuk/dash_low/aks/bbc_radio_scotland_fm.mpd
+#EXTINF:-1 tvg-chno="719-11" tvg-id="BBCRadioUlster.uk" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/BBC_Radio_Ulster_2022.svg/1280px-BBC_Radio_Ulster_2022.svg.png" group-title="Radio",BBC Radio Ulster
+http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/dash/nonuk/dash_low/ak/bbc_radio_ulster.mpd
+#EXTINF:-1 tvg-chno="719-12" tvg-id="BBCRadioWales.uk" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/BBC_Radio_Wales_2022.svg/1280px-BBC_Radio_Wales_2022.svg.png" group-title="Radio",BBC Radio Wales
+http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/dash/nonuk/dash_low/ak/bbc_radio_wales_fm.mpd
+#EXTINF:-1 tvg-chno="721-1" tvg-id="BBCRadioCornwall.uk" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/BBC_Radio_Cornwall_2022.svg/1280px-BBC_Radio_Cornwall_2022.svg.png" group-title="Radio",BBC Radio Cornwall
+http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/uk/sbr_high/ak/bbc_radio_cornwall.m3u8
+#EXTINF:-1 tvg-chno="721-2" tvg-id="BBCRadioCumbria.uk" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/BBC_Radio_Cumbria_2022.svg/1280px-BBC_Radio_Cumbria_2022.svg.png" group-title="Radio",BBC Radio Cumbria
+http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/uk/sbr_high/ak/bbc_radio_cumbria.m3u8
+#EXTINF:-1 tvg-chno="721-3" tvg-id="BBCRadioCymru2.uk" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/BBC_Radio_Cymru_2_2022.svg/1280px-BBC_Radio_Cymru_2_2022.svg.png" group-title="Radio",BBC Radio Cymru 2
+http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/uk/sbr_high/ak/bbc_radio_cymru_2.m3u8
+#EXTINF:-1 tvg-chno="721-4" tvg-id="BBCRadioGuernsey.uk" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/BBC_Radio_Guernsey_2022.svg/1280px-BBC_Radio_Guernsey_2022.svg.png" group-title="Radio",BBC Radio Guernsey
+http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/uk/sbr_high/ak/bbc_radio_guernsey.m3u8
+#EXTINF:-1 tvg-chno="721-5" tvg-id="BBCRadioHumberside.uk" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/BBC_Radio_Humberside_2022.svg/1280px-BBC_Radio_Humberside_2022.svg.png" group-title="Radio",BBC Radio Humberside
+http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/uk/sbr_high/ak/bbc_radio_humberside.m3u8
+#EXTINF:-1 tvg-chno="721-6" tvg-id="BBCRadioLeicester.uk" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/BBC_Radio_Leicester_2022.svg/1280px-BBC_Radio_Leicester_2022.svg.png" group-title="Radio",BBC Radio Leicester
+http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/uk/sbr_high/ak/bbc_radio_leicester.m3u8
+#EXTINF:-1 tvg-chno="721-7" tvg-id="BBCRadioLondon.uk" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/BBC_Radio_London_%282022%29.svg/1280px-BBC_Radio_London_%282022%29.svg.png" group-title="Radio",BBC Radio London
+http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/uk/sbr_high/ak/bbc_london.m3u8
+#EXTINF:-1 tvg-chno="721-8" tvg-id="BBCRadioShropshire.uk" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/BBC_Radio_Shropshire_2022.svg/1280px-BBC_Radio_Shropshire_2022.svg.png" group-title="Radio",BBC Radio Shropshire
+http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/uk/sbr_high/ak/bbc_radio_shropshire.m3u8
+#EXTINF:-1 tvg-chno="721-9" tvg-id="BBCRadioWiltshire.uk" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/BBC_Radio_Wiltshire_2022.svg/1280px-BBC_Radio_Wiltshire_2022.svg.png" group-title="Radio",BBC Radio Wiltshire
+http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/uk/sbr_high/ak/bbc_radio_wiltshire.m3u8
+#EXTINF:-1 tvg-chno="722-1" tvg-id="BBCRadioCambridge.uk" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/BBC_Radio_Cambridgeshire_2022.svg/1280px-BBC_Radio_Cambridgeshire_2022.svg.png" group-title="Radio",BBC Radio Cambridgeshire
+http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/uk/sbr_high/ak/bbc_radio_cambridge.m3u8
+#EXTINF:-1 tvg-chno="722-2" tvg-id="BBCRadioLincolnshire.uk" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/BBC_Radio_Lincolnshire_2022.svg/1280px-BBC_Radio_Lincolnshire_2022.svg.png" group-title="Radio",BBC Radio Lincolnshire
+http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/uk/sbr_high/ak/bbc_radio_lincolnshire.m3u8
+#EXTINF:-1 tvg-chno="722-3" tvg-id="BBCRadioMerseyside.uk" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/BBC_Radio_Merseyside_2022.svg/1280px-BBC_Radio_Merseyside_2022.svg.png" group-title="Radio",BBC Radio Merseyside
+http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/uk/sbr_high/ak/bbc_radio_merseyside.m3u8
+#EXTINF:-1 tvg-chno="722-4" tvg-id="BBCRadioOxford.uk" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/BBC_Radio_Oxford_2022.svg/1280px-BBC_Radio_Oxford_2022.svg.png" group-title="Radio",BBC Radio Oxford
+http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/uk/sbr_high/ak/bbc_radio_oxford.m3u8
+#EXTINF:-1 tvg-chno="722-5" tvg-id="BBCRadioSolent.uk" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/BBC_Radio_Solent_2022.svg/1280px-BBC_Radio_Solent_2022.svg.png" group-title="Radio",BBC Radio Solent
+http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/uk/sbr_high/ak/bbc_radio_solent.m3u8
+#EXTINF:-1 tvg-chno="722-6" tvg-id="BBCRadioSomerset.uk" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/BBC_Radio_Somerset_2022.svg/1280px-BBC_Radio_Somerset_2022.svg.png" group-title="Radio",BBC Radio Somerset
+http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/uk/sbr_high/ak/bbc_radio_somerset_sound.m3u8
+#EXTINF:-1 tvg-chno="722-7" tvg-id="BBCRadioSurrey.uk" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/BBC_Radio_Surrey_2022.svg/1280px-BBC_Radio_Surrey_2022.svg.png" group-title="Radio",BBC Radio Surrey
+http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/uk/sbr_high/ak/bbc_radio_surrey.m3u8
+#EXTINF:-1 tvg-chno="722-8" tvg-id="BBCRadioTees.uk" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/BBC_Radio_Tees_2022.svg/1280px-BBC_Radio_Tees_2022.svg.png" group-title="Radio",BBC Radio Tees
+http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/uk/sbr_high/ak/bbc_tees.m3u8
+#EXTINF:-1 tvg-chno="722-9" tvg-id="BBCRadioWM.uk" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/BBC_Radio_WM_logo_2022.svg/1280px-BBC_Radio_WM_logo_2022.svg.png" group-title="Radio",BBC Radio WM
+http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/uk/sbr_high/ak/bbc_wm.m3u8
+#EXTINF:-1 tvg-chno="734-1" tvg-id="BBCRadioEssex.uk" tvg-logo="https://experiencersinternational.github.io/tvsetup/tvg-ico/bbcessex-epg.png" group-title="Radio",BBC Essex
+http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/uk/sbr_high/ak/bbc_radio_essex.m3u8
+#EXTINF:-1 tvg-chno="734-2" tvg-id="BBCRadioNorthampton.uk" tvg-logo="https://experiencersinternational.github.io/tvsetup/tvg-ico/bbcnorthampton-epg.png" group-title="Radio",BBC Radio Northampton
+http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/uk/sbr_high/ak/bbc_radio_northampton.m3u8
+#EXTINF:-1 tvg-chno="734-3" tvg-id="BBCRadioSheffield.uk" tvg-logo="https://experiencersinternational.github.io/tvsetup/tvg-ico/bbcsheff-epg.png" group-title="Radio",BBC Radio Sheffield
+http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/uk/sbr_high/ak/bbc_radio_sheffield.m3u8
+#EXTINF:-1 tvg-chno="740" tvg-id="BBCRadioOrkney.uk" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/10/BBC_Radio_Orkney.png" group-title="Radio",BBC Radio Orkney
+http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/uk/sbr_high/ak/bbc_radio_orkney.m3u8
+#EXTINF:-1 tvg-chno="741" tvg-id="BBCRadioShetland.uk" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/be/BBC_Radio_Shetland.png" group-title="Radio",BBC Radio Shetland
+http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/uk/sbr_high/ak/bbc_radio_shetland.m3u8
+#EXTINF:-1 tvg-chno="742" tvg-id="BBCRadio1D.uk" tvg-logo="https://experiencersinternational.github.io/tvsetup/tvg-ico/bbcrd1d-epg.png" group-title="Radio",BBC Radio 1 Dance
+http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/uk/sbr_high/ak/bbc_radio_one_dance.m3u8
+#EXTINF:-1 tvg-chno="743" tvg-id="BBCRadio1R.uk" tvg-logo="https://experiencersinternational.github.io/tvsetup/tvg-ico/bbcrd1r-epg.png" group-title="Radio",BBC Radio 1 Relax
+http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/uk/sbr_high/ak/bbc_radio_one_relax.m3u8
+#EXTINF:-1 tvg-chno="744" tvg-id="CBeebiesRadio.uk" tvg-logo="" group-title="Radio",CBeebies Radio
+http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/uk/sbr_high/ak/cbeebies_radio.m3u8
+#EXTINF:-1 tvg-chno="716" tvg-id="GreatestHitsSouthWest.uk" status="timeout", Greatest Hits Radio (Bath and South West)
+https://stream-mz.planetradio.co.uk/net2bath.aac
+#EXTINF:-1 tvg-chno="718" tvg-id="SmoothRadio.uk" tvg-logo="https://www.smoothradio.com/assets_v4r/dist/combined/img/smooth-logo_desktop.png" group-title="Radio",Smooth Radio
+http://media-ice.musicradio.com/SmoothUKMP3
+#EXTINF:-1 tvg-chno="724" tvg-id="CapitalFM.uk" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/b/b8/Capital_2022.svg/1024px-Capital_2022.svg.png" group-title="Radio",Capital
+http://media-ice.musicradio.com/CapitalUKMP3
+#EXTINF:-1 tvg-chno="728" tvg-id="HeartRadio.uk" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/0/05/The_Heart_Network_logo.svg/1024px-The_Heart_Network_logo.svg.png" group-title="Radio",Heart Radio
+http://media-ice.musicradio.com/HeartUKMP3
+#EXTINF:-1 tvg-chno="731" tvg-id="ClassicFM.uk" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Classic_FM_logo.svg/1024px-Classic_FM_logo.svg.png" group-title="Radio",Classic FM
+http://media-ice.musicradio.com/ClassicFMMP3
+#EXTINF:-1 tvg-chno="732" tvg-id="LBC.uk" tvg-logo="https://upload.wikimedia.org/wikipedia/en/3/30/LBC_Radio.png" group-title="Radio",LBC
+http://media-ice.musicradio.com/LBCUKMP3
+#EXTINF:-1 tvg-chno="732" tvg-id="TransWorldRadio.uk" tvg-logo="https://upload.wikimedia.org/wikipedia/en/0/0f/Trans_World_Radio_logo.png" group-title="Radio",Trans World Radio
+https://direct.sharp-stream.com/twruk.mp3
+#EXTINF:-1 tvg-chno="800" tvg-id="France24English.fr" status="timeout",France 24
+https://d4de59d01af447a498cb0565ad005588.mediatailor.us-east-1.amazonaws.com/v1/master/82ded7a88773aef3d6dd1fedce15ba2d57eb6bca/viewmedia-7/live_091/HD/playlist.m3u8
+#EXTINF:-1 tvg-chno="801" tvg-id="4Music.uk" status="timeout",4Music
+https://csm-e-boxplus.tls1.yospace.com/csm/extlive/boxplus01,boxhits-alldev.m3u8?spotxc1=195996&spotxc2=190878&yo.up=https://boxtv.secure.footprint.net/boxhits/
+#EXTINF:-1 tvg-chno="804" tvg-id="NHKWorldJapan.jp" status="timeout",NHK World Japan
+https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index_4M.m3u8
+#EXTINF:-1 tvg-chno="805" tvg-id="Now80s.uk" group-title="Music",Now 80s
+https://lightning-now80s-samsunguk.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-chno="806" tvg-id="KissTVUK.uk" group-title="Music",Kiss TV
+https://csm-e-boxplus.tls1.yospace.com/csm/extlive/boxplus01,kiss-alldev.m3u8?spotxc1=195996&spotxc2=190878&yo.up=https://boxtv.secure.footprint.net/kiss/
+#EXTINF:-1 tvg-chno="808" tvg-id="BloombergTVEurope.uk" status="timeout",Bloomberg 
+https://bloomberg-bloomberg-1-ie.samsung.wurl.com/manifest/playlist.m3u8
+#EXTINF:-1 tvg-chno="809" tvg-id="Kerrang.uk" group-title="Music",Kerrang! TV
+https://csm-e-boxplus.tls1.yospace.com/csm/extlive/boxplus01,kerrang-alldev.m3u8?yo.up=http://boxtv-origin-elb.cds1.yospace.com/uploads/kerrang/
+#EXTINF:-1 tvg-chno="803" tvg-id="TheBoxUK.uk" group-title="Music",The Box
+https://csm-e-boxplus.tls1.yospace.com/csm/extlive/boxplus01,thebox-alldev.m3u8?yo.up=https://boxtv.secure.footprint.net/thebox/
+#EXTINF:-1 tvg-chno="810" tvg-id="Magic.uk" group-title="Music",Magic TV
+https://csm-e-boxplus.tls1.yospace.com/csm/extlive/boxplus01,magic-alldev.m3u8?yo.up=https%3A%2F%2Fboxtv.secure.footprint.net%2Fmagic%2F&spotxc1=195996&spotxc2=190878
+#EXTINF:-1 tvg-chno="900" tvg-id="S4C.uk" tvg-logo="https://experiencersinternational.github.io/tvsetup/tvg-ico/s4c-epg.png" status="blocked",S4C (Welsh)
+https://live-uk.s4c-cdn.co.uk/out/v1/a0134f1fd5a2461b9422b574566d4442/live_uk.m3u8
+#EXTINF:-1 tvg-chno="3" tvg-id="STV.uk" status="timeout" tvg-logo="https://experiencersinternational.github.io/tvsetup/tvg-ico/stv-epg.png",STV
+https://csm-e-stv-eb.tls1.yospace.com/csm/live/139900483.m3u8?yo.l=true&yo.ls=2,3,4,5,6&yo.p=3&ref=a1c9d4c18ab942e779c3b0fb86ebf4fdbcf81cad3cfc56b066c275621098fc84&s=web-stv1-west&yo.so=0&yo.po=2&yo.pm=true&ru=https%3A%2F%2Fplayer.stv.tv%2Flive%2F
+#EXTINF:-1 tvg-chno="35" tvg-id="STVPlus1.uk" status="timeout",STV+1
+https://csm-e-ces1aeuw1live102-0ad3dd531b3c30bf5.tls1.yospace.com/csm/live/181023311.m3u8?yo.l=true&yo.ls=2,3,4,5,6&yo.p=3&ref=a1c9d4c18ab942e779c3b0fb86ebf4fdbcf81cad3cfc56b066c275621098fc84&s=web-stv-plus-1&yo.so=0&yo.po=2&yo.pm=true&ru=https%3A%2F%2Fplayer.stv.tv%2Flive%2Fstv-plus-1&yo.oh=Y3NtLWUtc3R2LWViLnRsczEueW9zcGFjZS5jb20=
+#EXTINF:-1 tvg-chno="912" tvg-id="BBCAlba.uk" tvg-logo="https://experiencersinternational.github.io/tvsetup/tvg-ico/bbcalba-epg.png" status="blocked",BBC Alba (Gaelic)
+https://vs-hls-pushb-uk-live.akamaized.net/x=3/i=urn:bbc:pips:service:bbc_alba/mobile_wifi_main_sd_abr_v2_akamai_hls_live_http.m3u8
+#EXTINF:-1 tvg-chno="913" tvg-id="BBCScotland.uk" tvg-logo="https://experiencersinternational.github.io/tvsetup/tvg-ico/bbcscot-epg.png" status="blocked",BBC Scotland
+https://vs-hls-pushb-uk-live.akamaized.net/x=3/i=urn:bbc:pips:service:bbc_scotland_hd/mobile_wifi_main_sd_abr_v2_akamai_hls_live_http.m3u8
+#EXTINF:-1 tvg-chno="950" tvg-id="BBCOneYorksLincs.uk" tvg-logo="https://experiencersinternational.github.io/tvsetup/tvg-ico/bbc1-epg.png" group-title="General",BBC One Yorks
+https://vs-cmaf-pushb-uk-live.akamaized.net/x=3/i=urn:bbc:pips:service:bbc_one_yorks/pc_hd_abr_v2.mpd
+#EXTINF:-1 tvg-chno="951" tvg-id="BBCOneWestMidlands.uk" tvg-logo="https://experiencersinternational.github.io/tvsetup/tvg-ico/bbc1-epg.png" group-title="General",BBC One W Mid
+https://vs-cmaf-pushb-uk-live.akamaized.net/x=3/i=urn:bbc:pips:service:bbc_one_west_midlands/pc_hd_abr_v2.mpd
+#EXTINF:-1 tvg-chno="952" tvg-id="BBCOneWales.uk" tvg-logo="https://experiencersinternational.github.io/tvsetup/tvg-ico/bbc1-epg.png" group-title="General",BBC One Wales
+https://vs-cmaf-pushb-uk-live.akamaized.net/x=3/i=urn:bbc:pips:service:bbc_one_wales_hd/pc_hd_abr_v2.mpd
+#EXTINF:-1 tvg-chno="850" tvg-id="Channel4.uk" tvg-logo="https://staticqbr-gb-prod.prod.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/channel-4-hd.png" status="blocked",Channel 4 (alternative stream)
+https://list.iptvcat.com/my_list/s/c9cd3ea95f88f6aeb6b638859f252194.m3u8
+#EXTINF:-1 tvg-chno="850-1" tvg-id="Channel4.uk" tvg-logo="https://staticqbr-gb-prod.prod.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/channel-4-hd.png" status="blocked",Channel 4 (alternative stream 2)
+https://list.iptvcat.com/my_list/s/4cf4c3eeb31f346ed4924fe2a4eda095.m3u8
+#EXTINF:-1 tvg-chno="851" tvg-id="Dave.uk" status="blocked",Dave (alternative stream)
+https://list.iptvcat.com/my_list/s/1b6dded3944ab5f4fa11e1401fe6b9be.m3u8
+#EXTINF:-1 tvg-chno="852" tvg-id="Film4.uk" status="blocked",Film4 (alternative stream)
+https://list.iptvcat.com/my_list/s/6df24f2b583b70501d240dc153c3c01e.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148
+#EXTM3U x-tvg-url="https://github.com/LITUATUI/M3UPT/raw/main/EPG/epg-vodafone-pt.xml.gz"
+#EXTM3U x-tvg-url="https://github.com/LITUATUI/M3UPT/raw/main/epg/epg-vodafone.xml.gz"
+#EXTM3U x-tvg-url="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/epg/epg-meo.xml"
+#EXTM3U x-tvg-url="https://iptv-org.github.io/epg/guides/tr/digiturk.com.tr.xml"
+#EXTM3U url-tvg="http://m3u4u.com/epg/p192y791p3s3d1v8ymeg"c
+#EXTM3U x-tvg-url="https://iptv-org.github.io/epg/guides/ao/guide.dstv.com.epg.xml.gz,https://iptv-org.github.io/epg/guides/ar/mi.tv.epg.xml.gz,https://iptv-org.github.io/epg/guides/bf/canalplus-afrique.com.epg.xml.gz,https://iptv-org.github.io/epg/guides/bi/startimestv.com.epg.xml.gz,https://iptv-org.github.io/epg/guides/bo/comteco.com.bo.epg.xml.gz,https://iptv-org.github.io/epg/guides/cn/tv.cctv.com.epg.xml.gz,https://iptv-org.github.io/epg/guides/cz/m.tv.sms.cz.epg.xml.gz,https://iptv-org.github.io/epg/guides/dk/allente.se.epg.xml.gz,https://iptv-org.github.io/epg/guides/fr/chaines-tv.orange.fr.epg.xml.gz,https://iptv-org.github.io/epg/guides/ga/startimestv.com.epg.xml.gz,https://iptv-org.github.io/epg/guides/gr/cosmote.gr.epg.xml.gz,https://iptv-org.github.io/epg/guides/hk-en/nowplayer.now.com.epg.xml.gz,https://iptv-org.github.io/epg/guides/id-en/mncvision.id.epg.xml.gz,https://iptv-org.github.io/epg/guides/it/guidatv.sky.it.epg.xml.gz,https://iptv-org.github.io/epg/guides/lt/cgates.lt.epg.xml.gz,https://iptv-org.github.io/epg/guides/my/astro.com.my.epg.xml.gz,https://iptv-org.github.io/epg/guides/ng/dstv.com.epg.xml.gz,https://iptv-org.github.io/epg/guides/nl/delta.nl.epg.xml.gz,https://iptv-org.github.io/epg/guides/tr/digiturk.com.tr.epg.xml.gz,https://iptv-org.github.io/epg/guides/uk/bt.com.epg.xml.gz,https://iptv-org.github.io/epg/guides/us-pluto/i.mjh.nz.epg.xml.gz,https://iptv-org.github.io/epg/guides/en/directv.com.xml,https://iptv-org.github.io/epg/guides/za/guide.dstv.com.epg.xml.gz"
+#EXTINF:-1 tvg-logo="https://i.imgur.com/0c8iZq8.png" group-title="TÜRKIYE",Kanal D 
+https://demiroren-live.daioncdn.net/kanald/kanald.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/0c8iZq8.png" group-title="TÜRKIYE",Kanal D 2
+https://live.duhnet.tv/S2/HLS_LIVE/kanaldnp/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/TQwXlDO.png" group-title="TURKISH ENTERTAINMENT",Euro D
+https://live.duhnet.tv/S2/HLS_LIVE/eurodnp/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/OSEdWCp.png" group-title="TURKISH ENTERTAINMENT",Kanal 7 Avrupa
+https://live.kanal7.com/live/kanal7AvrupaLive/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/TZUqAbI.png" group-title="TURKISH ENTERTAINMENT",TGRT EU
+https://tv.ensonhaber.com/tv/tr/tgrteu/index.m3u8
+#EXTINF:-1 tvg-id="KBSWorld.kr" tvg-logo="https://i.imgur.com/zPSO1up.png" group-title="KOREAN ENTERTAINMENT",KBS World
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
+https://kbsworld-ott.akamaized.net:443/hls/live/2002341/kbsworld/01.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/nEHL1S1.png" group-title="PARLIAMENTARY",Parliament TV
+https://ptvlive.kordia.net.nz/out/v1/daf20b9a9ec5449dadd734e50ce52b74/index.m3u8
+#EXTINF:-1 tvg-id="IndiaToday.in" tvg-logo="https://i.imgur.com/r38Camc.png" group-title="INDIAN NEWS",India Today
+https://indiatodaylive.akamaized.net/hls/live/2014320/indiatoday/indiatodaylive/live_720p/chunks.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/LA7_-_Logo_2011.svg/1024px-LA7_-_Logo_2011.svg.png" group-title="ITALY",La 7
+https://d15umi5iaezxgx.cloudfront.net/LA7/CLN/HLS/Live_1280x720_.m3u8
 #EXTM3U url-tvg="https://timbiriche.me/epg/brazil.xml.gz,https://iptv-org.github.io/epg/guides/pt/meo.pt.xml.gz"
 #EXTM3U url-tvg="https://timbiriche.me/epg/brazil.xml.gz"
 #EXTINF:-1 group-title="Portugal" tvg-id="CMTV.pt" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPDzlkhbwl_sNwhenVnU4KMquY8dMVVXcPLh9NI1N5u1HNLWozEawIJjyJEnU&s",PT: CMTV
@@ -5509,162 +5460,8 @@ http://streaming.hotmix-radio.net/hotmixradio-80-128.mp3
 #EXTM3U x-tvg-url="https://iptv-org.github.io/epg/guides/mx/izzi.mx.epg.xml,https://iptv-org.github.io/epg/guides/pt/meo.pt.epg.xml,https://iptv-org.github.io/epg/guides/rs/mts.rs.epg.xml,https://iptv-org.github.io/epg/guides/il/yes.co.il.epg.xml,https://epgshare01.online/epgshare01/epg_ripper_MX1.xml.gz"
 #EXTINF:-1 group-title="Reality Show's Live" tvg-id="tv-globo" tvg-name="Globo" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/1f/TV_Globo_logo_%28April_2025%29.png",GLOBO (VIVO)
 http://xlsdfgvertydthdfdfgh5634dsfdsr4f.ethertwo.sbs/cesar3377/cse3377/12723.ts
-#EXTINF:-1 tvg-logo="https://i.imgur.com/MN5tnPw.png" group-title="Reality Show's Live",Casa do Patrao: Casa Convivencia (B)
-http://play.1list.vip/live/8gZav5kQe2/duoiptv/1009226.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/MN5tnPw.png" group-title="Reality Show's Live",Casa do Patrao: Piscina (B)
-http://play.1list.vip/live/8gZav5kQe2/duoiptv/1009227.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/MN5tnPw.png" group-title="Reality Show's Live",Casa do Patrao: Quarto Coletivo (B)
-http://play.1list.vip/live/8gZav5kQe2/duoiptv/1009223.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/MN5tnPw.png" group-title="Reality Show's Live",Casa do Patrao: Quarto dos Parças (B)
-http://play.1list.vip/live/8gZav5kQe2/duoiptv/1009225.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/MN5tnPw.png" group-title="Reality Show's Live",Casa do Patrao: Sala e Cozinha (B)
-http://play.1list.vip/live/8gZav5kQe2/duoiptv/1009222.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/MN5tnPw.png" group-title="Reality Show's Live",Casa do Patrao: Suite do Patrao (B)
-http://play.1list.vip/live/8gZav5kQe2/duoiptv/1009224.m3u8
-#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Casa do Patrão | Multicam 1" tvg-logo="http://lgfp.one/SWV3" group-title="Reality Show's Live",Casa do Patrão | Multicam 1
-http://cdc55.cc:80/live/7125938483/5158/385857.ts
-#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Casa do patrão | Multicam 2" tvg-logo="http://lgfp.one/SWW2" group-title="Reality Show's Live",Casa do patrão | Multicam 2
-http://cdc55.cc:80/live/7125938483/5158/385966.ts
-#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Casa do patrão | Piscina" tvg-logo="http://lgfp.one/SWV6" group-title="Reality Show's Live",Casa do patrão | Piscina
-http://cdc55.cc:80/live/7125938483/5158/385960.ts
-#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Casa do patrão | Casa Convivência" tvg-logo="http://lgfp.one/SWV7" group-title="Reality Show's Live",Casa do patrão | Casa Convivência
-http://cdc55.cc:80/live/7125938483/5158/385961.ts
-#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Casa do patrão | Suíte do patrão" tvg-logo="http://lgfp.one/SWV9" group-title="Reality Show's Live",Casa do patrão | Suíte do patrão
-http://cdc55.cc:80/live/7125938483/5158/385963.ts
-#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Casa do patrão | Quarto dos Parças" tvg-logo="http://lgfp.one/SWV8" group-title="Reality Show's Live",Casa do patrão | Quarto dos Parças
-http://cdc55.cc:80/live/7125938483/5158/385962.ts
-#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Casa do patrão | Quarto coletivo (Casa trampo)" tvg-logo="http://lgfp.one/SWW0" group-title="Reality Show's Live",Casa do patrão | Quarto coletivo (Casa trampo)
-http://cdc55.cc:80/live/7125938483/5158/385964.ts
-#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Casa do patrão | Sala e Cozinha (Casa Trampo)" tvg-logo="http://lgfp.one/SWW1" group-title="Reality Show's Live",Casa do patrão | Sala e Cozinha (Casa Trampo)
-http://cdc55.cc:80/live/7125938483/5158/385965.ts
-#EXTINF:-1 tvg-chno="240" tvg-logo="https://cdn.mitvstatic.com/channels/60ef29f0-d7fb-487d-85c8-a1fbcf2ff8da_m.jpg" group-title="Reality Show's Live",RCN
-http://181.78.7.90:12500/play/a06l/index.m3u8
-#EXTINF:-1 tvg-chno="800" tvg-logo="https://www.laopinion.co/sites/default/files/styles/portada_principal_mobile_376x211/public/2025-09/LCDLF-3.jpg?itok=wD9eFKBG" group-title="Reality Show's Live",LCDLF 3 (Principal) 🇨🇴
-http://domestipo1.online:80/live/ser682mun/5w49evr21/736727.m3u8
-#EXTINF:-1 tvg-chno="800" tvg-logo="https://www.laopinion.co/sites/default/files/styles/portada_principal_mobile_376x211/public/2025-09/LCDLF-3.jpg?itok=wD9eFKBG" group-title="Reality Show's Live",LCDLF 3 (Sala) 🇨🇴
-http://domestipo1.online:80/live/ser682mun/5w49evr21/736728.m3u8
-#EXTINF:-1 tvg-chno="800" tvg-logo="https://www.laopinion.co/sites/default/files/styles/portada_principal_mobile_376x211/public/2025-09/LCDLF-3.jpg?itok=wD9eFKBG" group-title="Reality Show's Live",LCDLF 3 (Comedor) 🇨🇴
-http://domestipo1.online:80/live/ser682mun/5w49evr21/736729.m3u8
-#EXTINF:-1 tvg-chno="800" tvg-logo="https://www.laopinion.co/sites/default/files/styles/portada_principal_mobile_376x211/public/2025-09/LCDLF-3.jpg?itok=wD9eFKBG" group-title="Reality Show's Live",LCDLF 3 (Beauty) 🇨🇴
-http://domestipo1.online:80/live/ser682mun/5w49evr21/736732.m3u8
-#EXTINF:-1 tvg-chno="800" tvg-logo="https://www.laopinion.co/sites/default/files/styles/portada_principal_mobile_376x211/public/2025-09/LCDLF-3.jpg?itok=wD9eFKBG" group-title="Reality Show's Live",LCDLF 3 (Hab. Calma) 🇨🇴
-http://domestipo1.online:80/live/ser682mun/5w49evr21/736730.m3u8
-#EXTINF:-1 tvg-chno="800" tvg-logo="https://www.laopinion.co/sites/default/files/styles/portada_principal_mobile_376x211/public/2025-09/LCDLF-3.jpg?itok=wD9eFKBG" group-title="Reality Show's Live",LCDLF 3 (Hab. Tormenta) 🇨🇴
-http://domestipo1.online:80/live/ser682mun/5w49evr21/736731.m3u8
-#EXTINF:-1 tvg-chno="800" tvg-logo="https://www.laopinion.co/sites/default/files/styles/portada_principal_mobile_376x211/public/2025-09/LCDLF-3.jpg?itok=wD9eFKBG" group-title="Reality Show's Live",LCDLF 3 (Baños) 🇨🇴
-http://domestipo1.online:80/live/ser682mun/5w49evr21/736733.m3u8
-#EXTINF:-1 tvg-chno="800" tvg-logo="https://deadline.com/wp-content/uploads/2026/02/la-casa-de-los-famosos-season-6-2026-telemundo-cast-photos.jpg?w=681&h=383&crop=1" group-title="Reality Show's Live",LCDLF 6 USA (24/7 - 1) 🇺🇸
-http://domestipo1.online:80/live/ser682mun/5w49evr21/747415.m3u8
-#EXTINF:-1 tvg-chno="800" tvg-logo="https://deadline.com/wp-content/uploads/2026/02/la-casa-de-los-famosos-season-6-2026-telemundo-cast-photos.jpg?w=681&h=383&crop=1" group-title="Reality Show's Live",LCDLF 6 USA (24/7 - 2) 🇺🇸
-http://domestipo1.online:80/live/ser682mun/5w49evr21/747416.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://www.clarin.com/img/2025/12/16/rcuIRK9gO_2000x1500__1.jpg" group-title="Reality Show's Live",GH PRINCIPAL
-https://tv.nousiptv.com:8443/mparodi/6900/1285296
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://www.clarin.com/img/2025/12/16/rcuIRK9gO_2000x1500__1.jpg" group-title="Reality Show's Live",GH CAM 1
-https://tv.nousiptv.com:8443/mparodi/6900/1285661
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://www.clarin.com/img/2025/12/16/rcuIRK9gO_2000x1500__1.jpg" group-title="Reality Show's Live",GH CAM 2
-https://tv.nousiptv.com:8443/mparodi/6900/1285662
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://www.clarin.com/img/2025/12/16/rcuIRK9gO_2000x1500__1.jpg" group-title="Reality Show's Live",GH CAM 3
-https://tv.nousiptv.com:8443/mparodi/6900/1285663
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://www.clarin.com/img/2025/12/16/rcuIRK9gO_2000x1500__1.jpg" group-title="Reality Show's Live",GH MULTICÁMARA
-https://tv.nousiptv.com:8443/mparodi/6900/1285664
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://www.clarin.com/img/2025/12/16/rcuIRK9gO_2000x1500__1.jpg" group-title="Reality Show's Live",PRINCIPAL
-https://tv.nousiptv.com:8443/nelsonr/nr099391093/1285296
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://www.clarin.com/img/2025/12/16/rcuIRK9gO_2000x1500__1.jpg" group-title="Reality Show's Live",CAM 1
-https://tv.nousiptv.com:8443/nelsonr/nr099391093/1285661
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://www.clarin.com/img/2025/12/16/rcuIRK9gO_2000x1500__1.jpg" group-title="Reality Show's Live",CAM 2
-https://tv.nousiptv.com:8443/nelsonr/nr099391093/1285662
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://www.clarin.com/img/2025/12/16/rcuIRK9gO_2000x1500__1.jpg" group-title="Reality Show's Live",CAM 3
-https://tv.nousiptv.com:8443/nelsonr/nr099391093/1285663
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://www.clarin.com/img/2025/12/16/rcuIRK9gO_2000x1500__1.jpg" group-title="Reality Show's Live",MULTICÁMARA
-https://tv.nousiptv.com:8443/nelsonr/nr099391093/1285664
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Telefe_%28nuevo_logo%29.png/330px-Telefe_%28nuevo_logo%29.png" group-title="Reality Show's Live",TELEFE (VIVO)
-https://tv.nousiptv.com:8443/nelsonr/nr099391093/1155824
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/4/47/Casadopatrao.jpg" group-title="Reality Show's Live",CAM 1
-http://xlsdfgvertydthdfdfgh5634dsfdsr4f.ethertwo.sbs/live/5856140/6215848/1652946.m3u
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/4/47/Casadopatrao.jpg" group-title="Reality Show's Live",CAM 2
-http://xlsdfgvertydthdfdfgh5634dsfdsr4f.ethertwo.sbs/live/5856140/6215848/1652949.m3u
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/4/47/Casadopatrao.jpg" group-title="Reality Show's Live",CAM 3
-http://xlsdfgvertydthdfdfgh5634dsfdsr4f.ethertwo.sbs/live/5856140/6215848/1652952.m3u
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/4/47/Casadopatrao.jpg" group-title="Reality Show's Live",CAM 4
-http://xlsdfgvertydthdfdfgh5634dsfdsr4f.ethertwo.sbs/live/5856140/6215848/1652955.m3u
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/4/47/Casadopatrao.jpg" group-title="Reality Show's Live",CAM 5
-http://xlsdfgvertydthdfdfgh5634dsfdsr4f.ethertwo.sbs/live/5856140/6215848/1652961.m3u
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/4/47/Casadopatrao.jpg" group-title="Reality Show's Live",CAM 6
-http://xlsdfgvertydthdfdfgh5634dsfdsr4f.ethertwo.sbs/live/5856140/6215848/1652988.m3u
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/4/47/Casadopatrao.jpg" group-title="Reality Show's Live",CAM 7
-http://xlsdfgvertydthdfdfgh5634dsfdsr4f.ethertwo.sbs/live/5856140/6215848/1652991.m3u
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/4/47/Casadopatrao.jpg" group-title="Reality Show's Live",CAM 8
-http://xlsdfgvertydthdfdfgh5634dsfdsr4f.ethertwo.sbs/live/5856140/6215848/1652992.m3u
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/1/10/Logotipo_da_Record.png" group-title="Reality Show's Live",RECORD (VIVO)
 http://xlsdfgvertydthdfdfgh5634dsfdsr4f.ethertwo.sbs/live/5856140/6215848/902.m3u
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/4/47/Casadopatrao.jpg" group-title="Reality Show's Live",CAM 1
-http://xlsdfgvertydthdfdfgh5634dsfdsr4f.ethertwo.sbs/live/4792916/8539232/1652946.m3u
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/4/47/Casadopatrao.jpg" group-title="Reality Show's Live",CAM 2
-http://xlsdfgvertydthdfdfgh5634dsfdsr4f.ethertwo.sbs/live/4792916/8539232/1652949.m3u
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/4/47/Casadopatrao.jpg" group-title="Reality Show's Live",CAM 3
-http://xlsdfgvertydthdfdfgh5634dsfdsr4f.ethertwo.sbs/live/4792916/8539232/1652952.m3u
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/4/47/Casadopatrao.jpg" group-title="Reality Show's Live",CAM 4
-http://xlsdfgvertydthdfdfgh5634dsfdsr4f.ethertwo.sbs/live/4792916/8539232/1652955.m3u
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/4/47/Casadopatrao.jpg" group-title="Reality Show's Live",CAM 5
-http://xlsdfgvertydthdfdfgh5634dsfdsr4f.ethertwo.sbs/live/4792916/8539232/1652961.m3u
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/4/47/Casadopatrao.jpg" group-title="Reality Show's Live",CAM 6
-http://xlsdfgvertydthdfdfgh5634dsfdsr4f.ethertwo.sbs/live/4792916/8539232/1652988.m3u
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/4/47/Casadopatrao.jpg" group-title="Reality Show's Live",CAM 7
-http://xlsdfgvertydthdfdfgh5634dsfdsr4f.ethertwo.sbs/live/4792916/8539232/1652991.m3u
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/4/47/Casadopatrao.jpg" group-title="Reality Show's Live",CAM 8
-http://xlsdfgvertydthdfdfgh5634dsfdsr4f.ethertwo.sbs/live/4792916/8539232/1652992.m3u
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/1/10/Logotipo_da_Record.png" group-title="Reality Show's Live",RECORD (VIVO)
-http://xlsdfgvertydthdfdfgh5634dsfdsr4f.ethertwo.sbs/live/4792916/8539232/902.m3u
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/4/47/Casadopatrao.jpg" group-title="Reality Show's Live",CAM 1
-http://xlsdfgvertydthdfdfgh5634dsfdsr4f.ethertwo.sbs/live/4846140/5740524/1652946.m3u
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/4/47/Casadopatrao.jpg" group-title="Reality Show's Live",CAM 2
-http://xlsdfgvertydthdfdfgh5634dsfdsr4f.ethertwo.sbs/live/4846140/5740524/1652949.m3u
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/4/47/Casadopatrao.jpg" group-title="Reality Show's Live",CAM 3
-http://xlsdfgvertydthdfdfgh5634dsfdsr4f.ethertwo.sbs/live/4846140/5740524/1652952.m3u
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/4/47/Casadopatrao.jpg" group-title="Reality Show's Live",CAM 4
-http://xlsdfgvertydthdfdfgh5634dsfdsr4f.ethertwo.sbs/live/4846140/5740524/1652955.m3u
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/4/47/Casadopatrao.jpg" group-title="Reality Show's Live",CAM 5
-http://xlsdfgvertydthdfdfgh5634dsfdsr4f.ethertwo.sbs/live/4846140/5740524/1652961.m3u
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/4/47/Casadopatrao.jpg" group-title="Reality Show's Live",CAM 6
-http://xlsdfgvertydthdfdfgh5634dsfdsr4f.ethertwo.sbs/live/4846140/5740524/1652988.m3u
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/4/47/Casadopatrao.jpg" group-title="Reality Show's Live",CAM 7
-http://xlsdfgvertydthdfdfgh5634dsfdsr4f.ethertwo.sbs/live/4846140/5740524/1652991.m3u
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/4/47/Casadopatrao.jpg" group-title="Reality Show's Live",CAM 8
-http://xlsdfgvertydthdfdfgh5634dsfdsr4f.ethertwo.sbs/live/4846140/5740524/1652992.m3u
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/1/10/Logotipo_da_Record.png" group-title="Reality Show's Live",RECORD (VIVO)
-http://xlsdfgvertydthdfdfgh5634dsfdsr4f.ethertwo.sbs/live/4846140/5740524/902.m3u
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/4/47/Casadopatrao.jpg" group-title="Reality Show's Live",CAM 1
-http://172.110.219.252:80/85836530/57158922/5144915.ts
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/4/47/Casadopatrao.jpg" group-title="Reality Show's Live",CAM 2
-http://172.110.219.252:80/85836530/57158922/5144916.ts
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/4/47/Casadopatrao.jpg" group-title="Reality Show's Live",CAM 3
-http://172.110.219.252:80/85836530/57158922/5144917.ts
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/4/47/Casadopatrao.jpg" group-title="Reality Show's Live",CAM 4
-http://172.110.219.252:80/85836530/57158922/5144918.ts
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/4/47/Casadopatrao.jpg" group-title="Reality Show's Live",CAM 5
-http://172.110.219.252:80/85836530/57158922/5144919.ts
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/4/47/Casadopatrao.jpg" group-title="Reality Show's Live",CAM 6
-http://172.110.219.252:80/85836530/57158922/5144920.ts
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/4/47/Casadopatrao.jpg" group-title="Reality Show's Live",CAM 7
-http://172.110.219.252:80/85836530/57158922/5144921.ts
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/4/47/Casadopatrao.jpg" group-title="Reality Show's Live",CAM 8
-http://172.110.219.252:80/85836530/57158922/5144922.ts
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/1/10/Logotipo_da_Record.png" group-title="Reality Show's Live",RECORD (VIVO)
-http://172.110.219.252:80/85836530/57158922/127585.ts
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Telefe_%28nuevo_logo%29.png/330px-Telefe_%28nuevo_logo%29.png" group-title="Reality Show's Live",TELEFE (VIVO)
-https://tv.nousiptv.com:8443/mparodi/6900/1155824
-#EXTINF:-1 group-title="Reality Show's Live" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaEZjACp2gNRjpN7T3EO0SInnfOFlrFx4rM8UJSg3ELD1drQm7aX0NaaUzyw&s",196 Univision Los Angeles
-http://aztkplay.pro:8080/live/eliseoVICENTE6060/orRAY2FalJ/555458.m3u8
-#EXTINF:-1 group-title="Reality Show's Live" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIcr7-V_2CAur4p_dc9WRzQ8Vkot5WsgcXB0xqxNWcDm0pfka7rIoTGKnjwlc&s",Univision KMEX-TV
-http://aztkplay.pro:8080/live/eliseoVICENTE6060/orRAY2FalJ/555480.m3u8
-#EXTINF:-1 group-title="Reality Show's Live" tvg-id="Undefined" tvg-logo="https://www.lyngsat.com/logo/tv/kk/kmex_los_angeles.png",Univision 34 KMEX-TV
-http://aztkplay.pro:8080/live/eliseoVICENTE6060/orRAY2FalJ/555488.m3u8
-#EXTINF:-1 group-title="Reality Show's Live" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSu4YS4CcKefG5L-8xUZUq0yOAkgdooKhQYus3tlWRQx0dVimBNzPMrmC9u_g&s",UNIVISION CHICAGO (WGBO) Local
-http://aztkplay.pro:8080/live/eliseoVICENTE6060/orRAY2FalJ/555506.m3u8
-#EXTINF:-1 group-title="Reality Show's Live" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSu4YS4CcKefG5L-8xUZUq0yOAkgdooKhQYus3tlWRQx0dVimBNzPMrmC9u_g&s",HD | Univision Chicago (WGBO)
-http://aztkplay.pro:8080/live/eliseoVICENTE6060/orRAY2FalJ/555507.m3u8
-#EXTINF:-1 group-title="Reality Show's Live" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSu4YS4CcKefG5L-8xUZUq0yOAkgdooKhQYus3tlWRQx0dVimBNzPMrmC9u_g&s",Univision WGBO Chicago HD
-http://aztkplay.pro:8080/live/eliseoVICENTE6060/orRAY2FalJ/555502.m3u8
 #EXTINF:-1 group-title="Reality Show's Live" tvg-id="Las.Estrellas.mx" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Las_Estrellas_2016.svg/250px-Las_Estrellas_2016.svg.png",1 Las Estrellas
 https://channel01-onlymex.akamaized.net/hls/live/2022749/event01/index.m3u8
 #EXTINF:-1 group-title="Reality Show's Live" tvg-id="Las.Estrellas.mx" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Las_Estrellas_2016.svg/250px-Las_Estrellas_2016.svg.png",1 Las Estrellas (Alt)
@@ -9367,162 +9164,8 @@ https://centova.radio.com.pt/proxy/491?mp=/stream
 #EXTM3U x-tvg-url="https://iptv-org.github.io/epg/guides/mx/izzi.mx.epg.xml,https://iptv-org.github.io/epg/guides/pt/meo.pt.epg.xml,https://iptv-org.github.io/epg/guides/rs/mts.rs.epg.xml,https://iptv-org.github.io/epg/guides/il/yes.co.il.epg.xml,https://epgshare01.online/epgshare01/epg_ripper_MX1.xml.gz"
 #EXTINF:-1 group-title="Reality Show's Live" tvg-id="tv-globo" tvg-name="Globo" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/1f/TV_Globo_logo_%28April_2025%29.png",GLOBO (VIVO)
 http://xlsdfgvertydthdfdfgh5634dsfdsr4f.ethertwo.sbs/cesar3377/cse3377/12723.ts
-#EXTINF:-1 tvg-logo="https://i.imgur.com/MN5tnPw.png" group-title="Reality Show's Live",Casa do Patrao: Casa Convivencia (B)
-http://play.1list.vip/live/8gZav5kQe2/duoiptv/1009226.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/MN5tnPw.png" group-title="Reality Show's Live",Casa do Patrao: Piscina (B)
-http://play.1list.vip/live/8gZav5kQe2/duoiptv/1009227.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/MN5tnPw.png" group-title="Reality Show's Live",Casa do Patrao: Quarto Coletivo (B)
-http://play.1list.vip/live/8gZav5kQe2/duoiptv/1009223.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/MN5tnPw.png" group-title="Reality Show's Live",Casa do Patrao: Quarto dos Parças (B)
-http://play.1list.vip/live/8gZav5kQe2/duoiptv/1009225.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/MN5tnPw.png" group-title="Reality Show's Live",Casa do Patrao: Sala e Cozinha (B)
-http://play.1list.vip/live/8gZav5kQe2/duoiptv/1009222.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/MN5tnPw.png" group-title="Reality Show's Live",Casa do Patrao: Suite do Patrao (B)
-http://play.1list.vip/live/8gZav5kQe2/duoiptv/1009224.m3u8
-#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Casa do Patrão | Multicam 1" tvg-logo="http://lgfp.one/SWV3" group-title="Reality Show's Live",Casa do Patrão | Multicam 1
-http://cdc55.cc:80/live/7125938483/5158/385857.ts
-#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Casa do patrão | Multicam 2" tvg-logo="http://lgfp.one/SWW2" group-title="Reality Show's Live",Casa do patrão | Multicam 2
-http://cdc55.cc:80/live/7125938483/5158/385966.ts
-#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Casa do patrão | Piscina" tvg-logo="http://lgfp.one/SWV6" group-title="Reality Show's Live",Casa do patrão | Piscina
-http://cdc55.cc:80/live/7125938483/5158/385960.ts
-#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Casa do patrão | Casa Convivência" tvg-logo="http://lgfp.one/SWV7" group-title="Reality Show's Live",Casa do patrão | Casa Convivência
-http://cdc55.cc:80/live/7125938483/5158/385961.ts
-#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Casa do patrão | Suíte do patrão" tvg-logo="http://lgfp.one/SWV9" group-title="Reality Show's Live",Casa do patrão | Suíte do patrão
-http://cdc55.cc:80/live/7125938483/5158/385963.ts
-#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Casa do patrão | Quarto dos Parças" tvg-logo="http://lgfp.one/SWV8" group-title="Reality Show's Live",Casa do patrão | Quarto dos Parças
-http://cdc55.cc:80/live/7125938483/5158/385962.ts
-#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Casa do patrão | Quarto coletivo (Casa trampo)" tvg-logo="http://lgfp.one/SWW0" group-title="Reality Show's Live",Casa do patrão | Quarto coletivo (Casa trampo)
-http://cdc55.cc:80/live/7125938483/5158/385964.ts
-#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Casa do patrão | Sala e Cozinha (Casa Trampo)" tvg-logo="http://lgfp.one/SWW1" group-title="Reality Show's Live",Casa do patrão | Sala e Cozinha (Casa Trampo)
-http://cdc55.cc:80/live/7125938483/5158/385965.ts
-#EXTINF:-1 tvg-chno="240" tvg-logo="https://cdn.mitvstatic.com/channels/60ef29f0-d7fb-487d-85c8-a1fbcf2ff8da_m.jpg" group-title="Reality Show's Live",RCN
-http://181.78.7.90:12500/play/a06l/index.m3u8
-#EXTINF:-1 tvg-chno="800" tvg-logo="https://www.laopinion.co/sites/default/files/styles/portada_principal_mobile_376x211/public/2025-09/LCDLF-3.jpg?itok=wD9eFKBG" group-title="Reality Show's Live",LCDLF 3 (Principal) 🇨🇴
-http://domestipo1.online:80/live/ser682mun/5w49evr21/736727.m3u8
-#EXTINF:-1 tvg-chno="800" tvg-logo="https://www.laopinion.co/sites/default/files/styles/portada_principal_mobile_376x211/public/2025-09/LCDLF-3.jpg?itok=wD9eFKBG" group-title="Reality Show's Live",LCDLF 3 (Sala) 🇨🇴
-http://domestipo1.online:80/live/ser682mun/5w49evr21/736728.m3u8
-#EXTINF:-1 tvg-chno="800" tvg-logo="https://www.laopinion.co/sites/default/files/styles/portada_principal_mobile_376x211/public/2025-09/LCDLF-3.jpg?itok=wD9eFKBG" group-title="Reality Show's Live",LCDLF 3 (Comedor) 🇨🇴
-http://domestipo1.online:80/live/ser682mun/5w49evr21/736729.m3u8
-#EXTINF:-1 tvg-chno="800" tvg-logo="https://www.laopinion.co/sites/default/files/styles/portada_principal_mobile_376x211/public/2025-09/LCDLF-3.jpg?itok=wD9eFKBG" group-title="Reality Show's Live",LCDLF 3 (Beauty) 🇨🇴
-http://domestipo1.online:80/live/ser682mun/5w49evr21/736732.m3u8
-#EXTINF:-1 tvg-chno="800" tvg-logo="https://www.laopinion.co/sites/default/files/styles/portada_principal_mobile_376x211/public/2025-09/LCDLF-3.jpg?itok=wD9eFKBG" group-title="Reality Show's Live",LCDLF 3 (Hab. Calma) 🇨🇴
-http://domestipo1.online:80/live/ser682mun/5w49evr21/736730.m3u8
-#EXTINF:-1 tvg-chno="800" tvg-logo="https://www.laopinion.co/sites/default/files/styles/portada_principal_mobile_376x211/public/2025-09/LCDLF-3.jpg?itok=wD9eFKBG" group-title="Reality Show's Live",LCDLF 3 (Hab. Tormenta) 🇨🇴
-http://domestipo1.online:80/live/ser682mun/5w49evr21/736731.m3u8
-#EXTINF:-1 tvg-chno="800" tvg-logo="https://www.laopinion.co/sites/default/files/styles/portada_principal_mobile_376x211/public/2025-09/LCDLF-3.jpg?itok=wD9eFKBG" group-title="Reality Show's Live",LCDLF 3 (Baños) 🇨🇴
-http://domestipo1.online:80/live/ser682mun/5w49evr21/736733.m3u8
-#EXTINF:-1 tvg-chno="800" tvg-logo="https://deadline.com/wp-content/uploads/2026/02/la-casa-de-los-famosos-season-6-2026-telemundo-cast-photos.jpg?w=681&h=383&crop=1" group-title="Reality Show's Live",LCDLF 6 USA (24/7 - 1) 🇺🇸
-http://domestipo1.online:80/live/ser682mun/5w49evr21/747415.m3u8
-#EXTINF:-1 tvg-chno="800" tvg-logo="https://deadline.com/wp-content/uploads/2026/02/la-casa-de-los-famosos-season-6-2026-telemundo-cast-photos.jpg?w=681&h=383&crop=1" group-title="Reality Show's Live",LCDLF 6 USA (24/7 - 2) 🇺🇸
-http://domestipo1.online:80/live/ser682mun/5w49evr21/747416.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://www.clarin.com/img/2025/12/16/rcuIRK9gO_2000x1500__1.jpg" group-title="Reality Show's Live",GH PRINCIPAL
-https://tv.nousiptv.com:8443/mparodi/6900/1285296
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://www.clarin.com/img/2025/12/16/rcuIRK9gO_2000x1500__1.jpg" group-title="Reality Show's Live",GH CAM 1
-https://tv.nousiptv.com:8443/mparodi/6900/1285661
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://www.clarin.com/img/2025/12/16/rcuIRK9gO_2000x1500__1.jpg" group-title="Reality Show's Live",GH CAM 2
-https://tv.nousiptv.com:8443/mparodi/6900/1285662
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://www.clarin.com/img/2025/12/16/rcuIRK9gO_2000x1500__1.jpg" group-title="Reality Show's Live",GH CAM 3
-https://tv.nousiptv.com:8443/mparodi/6900/1285663
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://www.clarin.com/img/2025/12/16/rcuIRK9gO_2000x1500__1.jpg" group-title="Reality Show's Live",GH MULTICÁMARA
-https://tv.nousiptv.com:8443/mparodi/6900/1285664
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://www.clarin.com/img/2025/12/16/rcuIRK9gO_2000x1500__1.jpg" group-title="Reality Show's Live",PRINCIPAL
-https://tv.nousiptv.com:8443/nelsonr/nr099391093/1285296
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://www.clarin.com/img/2025/12/16/rcuIRK9gO_2000x1500__1.jpg" group-title="Reality Show's Live",CAM 1
-https://tv.nousiptv.com:8443/nelsonr/nr099391093/1285661
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://www.clarin.com/img/2025/12/16/rcuIRK9gO_2000x1500__1.jpg" group-title="Reality Show's Live",CAM 2
-https://tv.nousiptv.com:8443/nelsonr/nr099391093/1285662
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://www.clarin.com/img/2025/12/16/rcuIRK9gO_2000x1500__1.jpg" group-title="Reality Show's Live",CAM 3
-https://tv.nousiptv.com:8443/nelsonr/nr099391093/1285663
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://www.clarin.com/img/2025/12/16/rcuIRK9gO_2000x1500__1.jpg" group-title="Reality Show's Live",MULTICÁMARA
-https://tv.nousiptv.com:8443/nelsonr/nr099391093/1285664
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Telefe_%28nuevo_logo%29.png/330px-Telefe_%28nuevo_logo%29.png" group-title="Reality Show's Live",TELEFE (VIVO)
-https://tv.nousiptv.com:8443/nelsonr/nr099391093/1155824
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/4/47/Casadopatrao.jpg" group-title="Reality Show's Live",CAM 1
-http://xlsdfgvertydthdfdfgh5634dsfdsr4f.ethertwo.sbs/live/5856140/6215848/1652946.m3u
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/4/47/Casadopatrao.jpg" group-title="Reality Show's Live",CAM 2
-http://xlsdfgvertydthdfdfgh5634dsfdsr4f.ethertwo.sbs/live/5856140/6215848/1652949.m3u
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/4/47/Casadopatrao.jpg" group-title="Reality Show's Live",CAM 3
-http://xlsdfgvertydthdfdfgh5634dsfdsr4f.ethertwo.sbs/live/5856140/6215848/1652952.m3u
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/4/47/Casadopatrao.jpg" group-title="Reality Show's Live",CAM 4
-http://xlsdfgvertydthdfdfgh5634dsfdsr4f.ethertwo.sbs/live/5856140/6215848/1652955.m3u
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/4/47/Casadopatrao.jpg" group-title="Reality Show's Live",CAM 5
-http://xlsdfgvertydthdfdfgh5634dsfdsr4f.ethertwo.sbs/live/5856140/6215848/1652961.m3u
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/4/47/Casadopatrao.jpg" group-title="Reality Show's Live",CAM 6
-http://xlsdfgvertydthdfdfgh5634dsfdsr4f.ethertwo.sbs/live/5856140/6215848/1652988.m3u
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/4/47/Casadopatrao.jpg" group-title="Reality Show's Live",CAM 7
-http://xlsdfgvertydthdfdfgh5634dsfdsr4f.ethertwo.sbs/live/5856140/6215848/1652991.m3u
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/4/47/Casadopatrao.jpg" group-title="Reality Show's Live",CAM 8
-http://xlsdfgvertydthdfdfgh5634dsfdsr4f.ethertwo.sbs/live/5856140/6215848/1652992.m3u
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/1/10/Logotipo_da_Record.png" group-title="Reality Show's Live",RECORD (VIVO)
 http://xlsdfgvertydthdfdfgh5634dsfdsr4f.ethertwo.sbs/live/5856140/6215848/902.m3u
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/4/47/Casadopatrao.jpg" group-title="Reality Show's Live",CAM 1
-http://xlsdfgvertydthdfdfgh5634dsfdsr4f.ethertwo.sbs/live/4792916/8539232/1652946.m3u
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/4/47/Casadopatrao.jpg" group-title="Reality Show's Live",CAM 2
-http://xlsdfgvertydthdfdfgh5634dsfdsr4f.ethertwo.sbs/live/4792916/8539232/1652949.m3u
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/4/47/Casadopatrao.jpg" group-title="Reality Show's Live",CAM 3
-http://xlsdfgvertydthdfdfgh5634dsfdsr4f.ethertwo.sbs/live/4792916/8539232/1652952.m3u
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/4/47/Casadopatrao.jpg" group-title="Reality Show's Live",CAM 4
-http://xlsdfgvertydthdfdfgh5634dsfdsr4f.ethertwo.sbs/live/4792916/8539232/1652955.m3u
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/4/47/Casadopatrao.jpg" group-title="Reality Show's Live",CAM 5
-http://xlsdfgvertydthdfdfgh5634dsfdsr4f.ethertwo.sbs/live/4792916/8539232/1652961.m3u
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/4/47/Casadopatrao.jpg" group-title="Reality Show's Live",CAM 6
-http://xlsdfgvertydthdfdfgh5634dsfdsr4f.ethertwo.sbs/live/4792916/8539232/1652988.m3u
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/4/47/Casadopatrao.jpg" group-title="Reality Show's Live",CAM 7
-http://xlsdfgvertydthdfdfgh5634dsfdsr4f.ethertwo.sbs/live/4792916/8539232/1652991.m3u
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/4/47/Casadopatrao.jpg" group-title="Reality Show's Live",CAM 8
-http://xlsdfgvertydthdfdfgh5634dsfdsr4f.ethertwo.sbs/live/4792916/8539232/1652992.m3u
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/1/10/Logotipo_da_Record.png" group-title="Reality Show's Live",RECORD (VIVO)
-http://xlsdfgvertydthdfdfgh5634dsfdsr4f.ethertwo.sbs/live/4792916/8539232/902.m3u
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/4/47/Casadopatrao.jpg" group-title="Reality Show's Live",CAM 1
-http://xlsdfgvertydthdfdfgh5634dsfdsr4f.ethertwo.sbs/live/4846140/5740524/1652946.m3u
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/4/47/Casadopatrao.jpg" group-title="Reality Show's Live",CAM 2
-http://xlsdfgvertydthdfdfgh5634dsfdsr4f.ethertwo.sbs/live/4846140/5740524/1652949.m3u
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/4/47/Casadopatrao.jpg" group-title="Reality Show's Live",CAM 3
-http://xlsdfgvertydthdfdfgh5634dsfdsr4f.ethertwo.sbs/live/4846140/5740524/1652952.m3u
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/4/47/Casadopatrao.jpg" group-title="Reality Show's Live",CAM 4
-http://xlsdfgvertydthdfdfgh5634dsfdsr4f.ethertwo.sbs/live/4846140/5740524/1652955.m3u
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/4/47/Casadopatrao.jpg" group-title="Reality Show's Live",CAM 5
-http://xlsdfgvertydthdfdfgh5634dsfdsr4f.ethertwo.sbs/live/4846140/5740524/1652961.m3u
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/4/47/Casadopatrao.jpg" group-title="Reality Show's Live",CAM 6
-http://xlsdfgvertydthdfdfgh5634dsfdsr4f.ethertwo.sbs/live/4846140/5740524/1652988.m3u
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/4/47/Casadopatrao.jpg" group-title="Reality Show's Live",CAM 7
-http://xlsdfgvertydthdfdfgh5634dsfdsr4f.ethertwo.sbs/live/4846140/5740524/1652991.m3u
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/4/47/Casadopatrao.jpg" group-title="Reality Show's Live",CAM 8
-http://xlsdfgvertydthdfdfgh5634dsfdsr4f.ethertwo.sbs/live/4846140/5740524/1652992.m3u
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/1/10/Logotipo_da_Record.png" group-title="Reality Show's Live",RECORD (VIVO)
-http://xlsdfgvertydthdfdfgh5634dsfdsr4f.ethertwo.sbs/live/4846140/5740524/902.m3u
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/4/47/Casadopatrao.jpg" group-title="Reality Show's Live",CAM 1
-http://172.110.219.252:80/85836530/57158922/5144915.ts
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/4/47/Casadopatrao.jpg" group-title="Reality Show's Live",CAM 2
-http://172.110.219.252:80/85836530/57158922/5144916.ts
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/4/47/Casadopatrao.jpg" group-title="Reality Show's Live",CAM 3
-http://172.110.219.252:80/85836530/57158922/5144917.ts
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/4/47/Casadopatrao.jpg" group-title="Reality Show's Live",CAM 4
-http://172.110.219.252:80/85836530/57158922/5144918.ts
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/4/47/Casadopatrao.jpg" group-title="Reality Show's Live",CAM 5
-http://172.110.219.252:80/85836530/57158922/5144919.ts
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/4/47/Casadopatrao.jpg" group-title="Reality Show's Live",CAM 6
-http://172.110.219.252:80/85836530/57158922/5144920.ts
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/4/47/Casadopatrao.jpg" group-title="Reality Show's Live",CAM 7
-http://172.110.219.252:80/85836530/57158922/5144921.ts
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/4/47/Casadopatrao.jpg" group-title="Reality Show's Live",CAM 8
-http://172.110.219.252:80/85836530/57158922/5144922.ts
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/1/10/Logotipo_da_Record.png" group-title="Reality Show's Live",RECORD (VIVO)
-http://172.110.219.252:80/85836530/57158922/127585.ts
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Telefe_%28nuevo_logo%29.png/330px-Telefe_%28nuevo_logo%29.png" group-title="Reality Show's Live",TELEFE (VIVO)
-https://tv.nousiptv.com:8443/mparodi/6900/1155824
-#EXTINF:-1 group-title="Reality Show's Live" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaEZjACp2gNRjpN7T3EO0SInnfOFlrFx4rM8UJSg3ELD1drQm7aX0NaaUzyw&s",196 Univision Los Angeles
-http://aztkplay.pro:8080/live/eliseoVICENTE6060/orRAY2FalJ/555458.m3u8
-#EXTINF:-1 group-title="Reality Show's Live" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIcr7-V_2CAur4p_dc9WRzQ8Vkot5WsgcXB0xqxNWcDm0pfka7rIoTGKnjwlc&s",Univision KMEX-TV
-http://aztkplay.pro:8080/live/eliseoVICENTE6060/orRAY2FalJ/555480.m3u8
-#EXTINF:-1 group-title="Reality Show's Live" tvg-id="Undefined" tvg-logo="https://www.lyngsat.com/logo/tv/kk/kmex_los_angeles.png",Univision 34 KMEX-TV
-http://aztkplay.pro:8080/live/eliseoVICENTE6060/orRAY2FalJ/555488.m3u8
-#EXTINF:-1 group-title="Reality Show's Live" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSu4YS4CcKefG5L-8xUZUq0yOAkgdooKhQYus3tlWRQx0dVimBNzPMrmC9u_g&s",UNIVISION CHICAGO (WGBO) Local
-http://aztkplay.pro:8080/live/eliseoVICENTE6060/orRAY2FalJ/555506.m3u8
-#EXTINF:-1 group-title="Reality Show's Live" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSu4YS4CcKefG5L-8xUZUq0yOAkgdooKhQYus3tlWRQx0dVimBNzPMrmC9u_g&s",HD | Univision Chicago (WGBO)
-http://aztkplay.pro:8080/live/eliseoVICENTE6060/orRAY2FalJ/555507.m3u8
-#EXTINF:-1 group-title="Reality Show's Live" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSu4YS4CcKefG5L-8xUZUq0yOAkgdooKhQYus3tlWRQx0dVimBNzPMrmC9u_g&s",Univision WGBO Chicago HD
-http://aztkplay.pro:8080/live/eliseoVICENTE6060/orRAY2FalJ/555502.m3u8
 #EXTINF:-1 group-title="Reality Show's Live" tvg-id="Las.Estrellas.mx" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Las_Estrellas_2016.svg/250px-Las_Estrellas_2016.svg.png",1 Las Estrellas
 https://channel01-onlymex.akamaized.net/hls/live/2022749/event01/index.m3u8
 #EXTINF:-1 group-title="Reality Show's Live" tvg-id="Las.Estrellas.mx" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Las_Estrellas_2016.svg/250px-Las_Estrellas_2016.svg.png",1 Las Estrellas (Alt)
