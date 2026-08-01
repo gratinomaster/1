@@ -186,14 +186,14 @@ https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chroni
 https://archive.org/download/TheEdWynnShow6October1949/TheEdWynnShow6October1949.ogv
 #EXTINF:-1 group-title="VOD" ,1950 commercial for Westinghouse television set (2)
 https://archive.org/download/1950-commercial-for-westinghouse-television-set-2/1950%20commercial%20for%20Westinghouse%20television%20set%20%282%29.mp4
-#EXTINF:-1 group-title="VOD" ,'Love of Life' - March 20, 1953
-https://archive.org/download/Love_Of_Life_Soap/LoveofLifeMarch20-1953.ogv
+#EXTINF:-1 group-title="VOD" ,Ozzie & Harriet: The Boxing Matches
+https://archive.org/download/Ozzie-Harriet_Boxing_Matches/01-33_Boxing_Matches.mp4
 #EXTINF:-1 group-title="VOD" ,Another "What's My Line" with guest Lucille Ball (Classic TV)
 https://archive.org/download/Yet_More_Lucy/WhatsMyLine21February1954.ogv
 #EXTINF:-1 group-title="VOD" ,''Four Star Playhouse'' - Henry And The Psychopathic Horse
 https://archive.org/download/FourStarPlayhouseHenryAndThePsychopathicHorse/Four%20Star%20Playhouse%20-%20Henry%20and%20the%20Psychopathic%20Horse.ogv
-#EXTINF:-1 group-title="VOD" ,''To Tell The Truth'' - 30 July 1957
-https://archive.org/download/ToTellTheTruth30July1957/To%20Tell%20The%20Truth%20-%2030%20July%201957.ogv
+#EXTINF:-1 group-title="VOD" ,1957 CBS-TV Special ''The Edsel Show'' with Guests
+https://archive.org/download/TheEdselShow1957/EdselShow.ogv
 #EXTINF:-1 group-title="VOD" ,1961 promo for Gunsmoke
 https://archive.org/download/1961-promo-for-gunsmoke/1961%20promo%20for%20Gunsmoke.mp4
 #EXTINF:-1 group-title="VOD" ,''To Tell the Truth'' - May 22, 1967
@@ -202,25 +202,7 @@ https://archive.org/download/toTellTheTruth-May221967/ToTellTheTruth1967.ogv
 https://archive.org/download/NBC1969isGood/NBC1969-FallPreview.ogv
 #EXTINF:-1 group-title="VOD" ,1979 NBA All-Star Game
 https://archive.org/download/1979-nba-all-star-game/1979%20NBA%20All%20Star%20Game.mp4
-#EXTM3U url-tvg="https://github.com/LITUATUI/M3UPT/raw/main/EPG/epg-m3upt.xml.xz"
-# M3UPT.com - IPTV playlist in M3U format with TV and radio stations in Portuguese. Public and official streams only.
-# 📺 TV
-#EXTINF:-1 group-title="TV" tvg-id="RTP1.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP1.png",RTP 1
-#EXTVLCOPT:http-user-agent="Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0"
-#EXTVLCOPT:http-origin=https://www.rtp.pt
-#EXTVLCOPT:http-referrer=https://www.rtp.pt/play/direto/rtp1
-https://streaming-live.rtp.pt/liverepeater/smil:rtp1HD.smil/playlist.m3u8
-#EXTINF:-1 group-title="TV" tvg-id="RTP2.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP2.png",RTP 2
-#EXTVLCOPT:http-user-agent="Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0"
-#EXTVLCOPT:http-origin=https://www.rtp.pt
-#EXTVLCOPT:http-referrer=https://www.rtp.pt/play/direto/rtp2
-https://streaming-live.rtp.pt/liverepeater/rtp2HD.smil/playlist.m3u8
-#EXTINF:-1 group-title="TV" tvg-id="SIC.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/SIC.png",SIC
-#EXTVLCOPT:http-user-agent="Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0"
-#EXTVLCOPT:http-origin=https://sic.pt
-#EXTVLCOPT:http-referrer=https://sic.pt/
-https://sic.live.impresa.pt/sic1080p.m3u8
-#EXTINF:-1 group-title="TV" tvg-id="TVI.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/TVI.png",TVI
+#EXTM3U
 #EXTM3U
 #EXTM3U
 #EXTM3U url-tvg="https://epgshare01.online/epgshare01/epg_ripper_AR1.xml.gz" tvg-shift=-3 cache=500 deinterlace=1 aspect-ratio=16:9
