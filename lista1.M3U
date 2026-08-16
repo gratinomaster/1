@@ -182,8 +182,26 @@ https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chroni
 #EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="NoLogoFound.png",Computer Chronicles - 04x26 - Computers and Gambling
 https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chronicles.zip/Computer%20Chronicles%2FSeason%2004%2FEnglish%2FComputer%20Chronicles%20-%2004x26%20-%20Computers%20and%20Gambling.mp4
 #EXTM3U
-#EXTM3U
-#EXTM3U
+#EXTINF:-1 group-title="VOD" ,''The Ed Wynn Show'' - 6 October 1949
+https://archive.org/download/TheEdWynnShow6October1949/TheEdWynnShow6October1949.ogv
+#EXTINF:-1 group-title="VOD" ,1950 commercial for Westinghouse television set (2)
+https://archive.org/download/1950-commercial-for-westinghouse-television-set-2/1950%20commercial%20for%20Westinghouse%20television%20set%20%282%29.mp4
+#EXTINF:-1 group-title="VOD" ,'Love of Life' - March 20, 1953
+https://archive.org/download/Love_Of_Life_Soap/LoveofLifeMarch20-1953.ogv
+#EXTINF:-1 group-title="VOD" ,Another "What's My Line" with guest Lucille Ball (Classic TV)
+https://archive.org/download/Yet_More_Lucy/WhatsMyLine21February1954.ogv
+#EXTINF:-1 group-title="VOD" ,''Valiant Lady'' - Misc 1955 episode (upgrade)
+https://archive.org/download/ValiantLady1955-Upgraded/valiantlady1955.ogv
+#EXTINF:-1 group-title="VOD" ,''To Tell The Truth'' - 30 July 1957
+https://archive.org/download/ToTellTheTruth30July1957/To%20Tell%20The%20Truth%20-%2030%20July%201957.ogv
+#EXTINF:-1 group-title="VOD" ,1961 promo for Gunsmoke
+https://archive.org/download/1961-promo-for-gunsmoke/1961%20promo%20for%20Gunsmoke.mp4
+#EXTINF:-1 group-title="VOD" ,1967 TV Soap: ''Love is a Many Splendored Thing'' - 1st of December 1967
+https://archive.org/download/1967_PD_Soapie/LoveisaManySplenderedThing1967.ogv
+#EXTINF:-1 group-title="VOD" ,1969 promo for Here's Lucy
+https://archive.org/download/1969PromoForHeresLucy/1969%20Promo%20for%20%27%27Here%27s%20Lucy%27%27.ogv
+#EXTINF:-1 group-title="VOD" ,Dummy 1979 ( Le Var Burton, Paul Sorvino)
+https://archive.org/download/dummy-1979-le-var-burton-paul-sorvino/%28output004%29%28output001%29Dummy%20-%201979%20%28LeVar%20Burton%2C%20Paul%20Sorvino%29.mp4
 #EXTM3U
 #EXTM3U
 #EXTM3U url-tvg="https://iptv-epg.org/files/epg-ar.xml.gz" tvg-shift=-3 cache=500 deinterlace=1 aspect-ratio=16:9
@@ -563,22 +581,6 @@ https://d12e4o88jd8gex.cloudfront.net/out/v1/cea3de0b76ac4e82ab8ee0fd3f17ce12/in
 #EXTINF:-1 tvg-id="Rede.Vida.br" tvg-logo="https://redevida.com.br/wp-content/uploads/2024/07/logo-redevida.png.webp" group-title="REDE VIDA",Rede Vida (Oficial 240p)
 https://d12e4o88jd8gex.cloudfront.net/out/v1/cea3de0b76ac4e82ab8ee0fd3f17ce12/index_3.m3u8
 #EXTM3U url-tvg="https://github.com/gratinomaster/JCTV/raw/refs/heads/main/EPGFULL.xml.gz" x-tvg-url="https://github.com/gratinomaster/JCTV/raw/refs/heads/main/EPGFULL.xml.gz"
-#EXTINF:-1 group-title="Astra - Mesmo Conteúdo",Astra a059 - Canal Original
-http://190.7.19.197:232/play/a059/index.m3u8
-#EXTINF:-1 group-title="Astra - Mesmo Conteúdo",Astra a009 - Canal Espelho
-http://190.7.19.197:232/play/a009/index.m3u8
-#EXTINF:-1 group-title="Astra - Mesmo Conteúdo",Astra a014 - Canal Espelho
-http://190.7.19.197:232/play/a014/index.m3u8
-#EXTINF:-1 group-title="Astra - Mesmo Conteúdo",Astra a017 - Canal Espelho
-http://190.7.19.197:232/play/a017/index.m3u8
-#EXTINF:-1 group-title="Astra - Mesmo Conteúdo",Astra a050 - Canal Espelho
-http://190.7.19.197:232/play/a050/index.m3u8
-#EXTINF:-1 group-title="Astra - Mesmo Conteúdo",Astra a057 - Canal Espelho
-http://190.7.19.197:232/play/a057/index.m3u8
-#EXTINF:-1 group-title="Astra - Mesmo Conteúdo",Astra a065 - Canal Espelho
-http://190.7.19.197:232/play/a065/index.m3u8
-#EXTINF:-1 group-title="Astra - Mesmo Conteúdo",Astra a083 - Canal Espelho
-http://190.7.19.197:232/play/a083/index.m3u8
 #EXTINF:-1 tvg-id="CBS.Streaming.SD.East.feed.us2" tvg-name="CBS (EUA)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/88/CBS_2018.png" group-title="🇺🇸 Big Brother 28 (CBS)",CBS (EUA)
 http://stream.cammonitorplus.net/1783/index.m3u8
 #EXTINF:-1 tvg-id="BigBrother.us" tvg-name="Big Brother 24/7 (Pluto TV)" tvg-logo="https://images.pluto.tv/channels/6661f11a41af6400080e90d8/colorLogoPNG.png" group-title="🇺🇸 Big Brother 28 (CBS)",Big Brother 24/7 (Pluto TV)
@@ -596,9 +598,9 @@ http://151.80.18.177:86/TMC/index.m3u8
 #EXTM3U url-tvg="https://github.com/gratinomaster/JCTV/raw/refs/heads/main/EPGVE.xml.gz" x-tvg-url="https://github.com/gratinomaster/JCTV/raw/refs/heads/main/EPGVE.xml.gz"
 #EXTINF:-1 tvg-id="VenezolanadeTelevision.ve" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/2/23/Venezolana_de_Television_%282018%29.png/revision/latest?cb=20211116165346" group-title="VENEZUELA",VTV
 http://181.78.8.199:8000/play/a0jl/index.m3u8
-#EXTINF:-1 tvg-id="Telesur.ve" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/0/0a/Telesur_%282017%29.png/revision/latest?cb=20220719220939" group-title="VENEZUELA",Telesur
+#EXTINF:-1 tvg-id="Telesur.ve" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/TeleSUR.png/500px-TeleSUR.png" group-title="VENEZUELA",Telesur
 https://mblesmain01.telesur.ultrabase.net/mbliveMain/hd/playlist.m3u8
-#EXTINF:-1 tvg-id="HispanTV.ir" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/e/e6/HispanTV_logo_header.png/revision/latest?cb=20250127074537" group-title="VENEZUELA",HispanTV
+#EXTINF:-1 tvg-id="HispanTV.ir" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/9f/Hispantv_logo.jpg" group-title="VENEZUELA",HispanTV
 https://live.presstv.ir/hls/hispantv.m3u8
 #EXTINF:-1 tvg-id="TVes.ve" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/TVes_logo.PNG/500px-TVes_logo.PNG" group-title="VENEZUELA",TVes
 http://181.78.8.199:8000/play/a0ft/index.m3u8
@@ -612,24 +614,26 @@ http://181.78.8.199:8000/play/a0jk/index.m3u8
 https://cdnbarinas.tvzamora.com/showven/index.m3u8
 #EXTINF:-1 tvg-id="CGTNSpanish.cn" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/CGTN_Espanol.png/250px-CGTN_Espanol.png" group-title="VENEZUELA",CGTN-Español
 https://espanol-livews.cgtn.com/hls/LSveOGBaBw41Ea7ukkVAUdKQ220802LSTexu6xAuFH8VZNBLE1ZNEa220802cd/playlist.m3u8
-#EXTINF:-1 tvg-id="Vive.ve" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/0a/ViVe_Logo_2020.webp" group-title="VENEZUELA",Vive TV
+#EXTINF:-1 tvg-id="ConCienciaTV.ve" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/ConcienciaTV_logo_letras.png/330px-ConcienciaTV_logo_letras.png" group-title="VENEZUELA",ConCiencia TV
+http://181.78.8.199:8000/play/a0fq/index.m3u8
+#EXTINF:-1 tvg-id="Vive.ve" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Vivetv.png/500px-Vivetv.png" group-title="VENEZUELA",Vive TV
 http://192.144.113.132:1935/live/ViveTV/playlist.m3u8
+#EXTINF:-1 tvg-id="Colombeia.ve" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Logo_Colombeia.png/330px-Logo_Colombeia.png" group-title="VENEZUELA",Colombeia
+http://181.78.8.199:8000/play/a0fn/index.m3u8
 #EXTINF:-1 tvg-id="ANTV.ve" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/ANTV_Logo_2023.webp/500px-ANTV_Logo_2023.webp.png" group-title="VENEZUELA",ANTV Asamblea Nacional
 http://181.78.8.199:8000/play/a0fo/index.m3u8
 #EXTINF:-1 tvg-id="TVFANB.ve" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/TVFANB_Logo_2021.png/500px-TVFANB_Logo_2021.png" group-title="VENEZUELA",TV FANB
 http://181.78.8.199:8000/play/a0fp/index.m3u8
 #EXTINF:-1 tvg-id="Globovision.ve" tvg-logo="https://www.globovision.com/img/gv-logo-og.png" group-title="VENEZUELA",Globovision
 http://181.78.8.199:8000/play/a09k/index.m3u8
-#EXTINF:-1 tvg-id="VepacoTV.ve" tvg-logo="https://vepaco.tv/wp-content/uploads/2022/09/logovepacotv_mediano.png" group-title="VENEZUELA",Vepaco TV
-https://cloud.fastchannel.es/manifiest/hls/prog9/vepacotv.m3u8
-#EXTINF:-1 tvg-id="TeleAragua.ve" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/TeleAragua_Logo.png/250px-TeleAragua_Logo.png" group-title="VENEZUELA",TeleAragua
-http://45.173.198.59:8080/hls/nginx3.m3u8?tla=
 #EXTINF:-1 tvg-id="Venevision.ve" tvg-logo="https://w2-venevision-com.s3.amazonaws.com/public/media/seo/logo-venevision_600x600.png" group-title="VENEZUELA",Venevision
 http://181.78.8.199:8000/play/a0if/index.m3u8
 #EXTINF:-1 tvg-id="Televen.ve" tvg-logo="https://televen.com/wp-content/uploads/2026/06/cropped-logo-televen-250x60-1.png" group-title="VENEZUELA",Televen
 http://181.78.8.199:8000/play/a09j/index.m3u8
 #EXTINF:-1 tvg-id="ValeTV.ve" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Logo_de_VALE_TV.png/250px-Logo_de_VALE_TV.png" group-title="VENEZUELA",Vale TV
 https://59d39900ebfb8.streamlock.net/valetv_480/valetv_480/playlist.m3u8
+#EXTINF:-1 tvg-id="VepacoTV.ve" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/fa/Logo-Vepaco-TV.png" group-title="VENEZUELA",Vepaco TV
+https://cloud.fastchannel.es/manifiest/hls/prog9/vepacotv.m3u8
 #EXTINF:-1 tvg-id="VenevisionInternacional.ve" tvg-logo="https://w2-venevision-com.s3.amazonaws.com/public/media/seo/logo-venevision_600x600.png" group-title="VENEZUELA",Venevision Internacional
 https://vod2live.univtec.com/manifest/4c41c0d8-e2e4-43cc-bd43-79afe715e1b3.m3u8
 #EXTINF:-1 tvg-id="LatinaTV.ve" tvg-logo="https://intervenhosting.net/imagenes/latinatv.jpg" group-title="VENEZUELA",Latina TV
@@ -642,6 +646,8 @@ https://streamtv.intervenhosting.net:3439/hybrid/play.m3u8
 https://stream.arcast.net:4443/canal21/ngrp:canal21_all/playlist.m3u8
 #EXTINF:-1 tvg-id="GuaroTV.ve" tvg-logo="https://guarotv.net/wp-content/uploads/2024/08/logo300.png" group-title="VENEZUELA",Guaro TV
 https://stream.guarotv.net:3592/hybrid/play.m3u8
+#EXTINF:-1 tvg-id="TeleAragua.ve" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/TeleAragua_Logo.png/250px-TeleAragua_Logo.png" group-title="VENEZUELA",TeleAragua
+http://45.173.198.59:8080/hls/nginx3.m3u8?tla=
 #EXTM3U
 #EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/4/49/CBN.png" group-title="NEWS WORLD",CBN SP
 https://live-as-01-01.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJVUyIsImRvbWFpbiI6ImxpdmUtYXMtMDEtMDEudmlkZW8uZ2xvYm8uY29tIiwiZXhwIjoxNzg2ODg0NDgzLCJpYXQiOjE3ODY4NjI4ODMsImlzcyI6InBsYXliYWNrLWFwaS1wcm9kLWdjcCIsIm93bmVyIjoiIiwicGF0aCI6Ii9saXZlL2YoYk1pbj0zMTM5ODQsZHZyPTEyMCkvY2Juc3AyNGhhL3BsYXlsaXN0Lm0zdTgifQ.HTBtWsGU9y_MHDoFwGtAGo3Xgs3TdheiwwkaP2uLMvMpD01y6Ib5eU5hmg4lfMF-A9_67ICRL2eqi76DGfobZZv0MDyVPbhX96ukts5vlGSenL8aWy1mEyKC5MsiCpOY3ewfxl0Svi1GhVXhcPGQ09PwNGT3gB2Dk81U1jvLs8f4PeiSwSVcsIUU8EJVSXCUmcTvpOnoE7CehelZvupoWXpP2Qa4c4khxl1c2TSwJob2m7lMEGq1aKheHLDK-ZYex1pDHAxxngF6pSywCDHr0tLT7kXcbxrZG4AnkFjRYLu8AE6XnQH3cvxQSDgImV8QSXjhopKHITLaeCgxWQhE0g/live/f(bMin=313984,dvr=120)/cbnsp24ha/playlist.m3u8
