@@ -2,7 +2,6 @@
 #EXTM3U
 #EXTM3U
 #EXTM3U
-#EXTM3U
 #EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_IL1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_ALJAZEERA1.xml.gz"
 #EXTINF:-1 group-title="NEWS WORLD" tvg-chno="1303" tvg-id="רשת.il" tvg-logo="https://gurutv.online/wp-content/uploads/ch13.jpg",רשת 13
 https://d198ztbnlup2iq.cloudfront.net/out/v1/2d9050c90fb94df8b78d1d98306a1a65/index.m3u8
@@ -429,21 +428,6 @@ https://d12e4o88jd8gex.cloudfront.net/out/v1/cea3de0b76ac4e82ab8ee0fd3f17ce12/in
 https://d12e4o88jd8gex.cloudfront.net/out/v1/cea3de0b76ac4e82ab8ee0fd3f17ce12/index_2.m3u8
 #EXTINF:-1 tvg-id="Rede.Vida.br" tvg-logo="https://redevida.com.br/wp-content/uploads/2024/07/logo-redevida.png.webp" group-title="REDE VIDA",Rede Vida (Oficial 240p)
 https://d12e4o88jd8gex.cloudfront.net/out/v1/cea3de0b76ac4e82ab8ee0fd3f17ce12/index_3.m3u8
-#EXTM3U url-tvg="https://github.com/gratinomaster/JCTV/raw/refs/heads/main/EPGFULL.xml.gz" x-tvg-url="https://github.com/gratinomaster/JCTV/raw/refs/heads/main/EPGFULL.xml.gz"
-#EXTINF:-1 tvg-id="CBS.Streaming.SD.East.feed.us2" tvg-name="CBS (EUA)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/88/CBS_2018.png" group-title="🇺🇸 Big Brother 28 (CBS)",CBS (EUA)
-http://stream.cammonitorplus.net/1783/index.m3u8
-#EXTINF:-1 tvg-id="BigBrother.us" tvg-name="Big Brother 24/7 (Pluto TV)" tvg-logo="https://images.pluto.tv/channels/6661f11a41af6400080e90d8/colorLogoPNG.png" group-title="🇺🇸 Big Brother 28 (CBS)",Big Brother 24/7 (Pluto TV)
-https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/6661f11a41af6400080e90d8/master.m3u8?advertisingId=&appName=web&appStoreName=web&appVersion=5.14.0&deviceDNT=0&deviceId=a41f6b9e-0d6b-4e1a-b7f5-9a2d0d5c8a72&deviceMake=Chrome&deviceModel=Chrome&deviceType=web&deviceVersion=125.0.6422.26&includeExtendedEvents=false&marketingRegion=US&serverSideAds=true&sid=a41f6b9e-0d6b-4e1a-b7f5-9a2d0d5c8a72&startTime=0&terminate=false
-#EXTINF:-1 tvg-id="TVI.HD.pt" tvg-name="TVI (Portugal)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/24/Log%C3%B3tipo_TVI.png" group-title="🇵🇹 Big Brother Verão (TVI)",TVI (Portugal)
-https://video-auth6.iol.pt/live_tvi/live_tvi/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OC8xNS8yMDI2IDQ6NTc6MzQgUE0maGFzaF92YWx1ZT03MlY2SXlqRzBVL1BzdStRdmxrcldnPT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9dXBkYXRl
-#EXTINF:-1 tvg-id="TVI.Reality.HD.pt" tvg-name="TVI Reality (Portugal)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/e4/TVI_Reality_%282017%29.png" group-title="🇵🇹 Big Brother Verão (TVI)",TVI Reality (Portugal)
-https://raw.githubusercontent.com/thomraider12/canaistvpt/main/m3u8s/tvireality.m3u8
-#EXTINF:-1 tvg-id="Canal.Telefé.(Argentina).ar" tvg-name="Telefe (Argentina)" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/argentina/telefe-ar.png" group-title="🇦🇷 Gran Hermano (Telefe)",Telefe (Argentina)
-http://200.91.32.158:8080/telefehdvalle/index.m3u8
-#EXTINF:-1 tvg-id="Canal.2.de.México.(Canal.Las.Estrellas.-.XEW).mx" tvg-name="Las Estrellas (México)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/4f/Las_Estrellas_logo_%282016%29.png" group-title="🇲🇽 La Casa de los Famosos 4 (Las Estrellas)",Las Estrellas (México)
-http://190.93.224.42/CANAL-LAS-ESTRELLAS/index.m3u8
-#EXTINF:-1 tvg-id="TMC.fr" tvg-name="TMC (França)" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/france/tmc-fr.png" group-title="🇫🇷 Secret Story 14 (TMC)",TMC (França)
-http://151.80.18.177:86/TMC/index.m3u8
 #EXTM3U url-tvg="https://github.com/gratinomaster/JCTV/raw/refs/heads/main/EPGVE.xml.gz" x-tvg-url="https://github.com/gratinomaster/JCTV/raw/refs/heads/main/EPGVE.xml.gz"
 #EXTINF:-1 tvg-id="VenezolanadeTelevision.ve" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/2/23/Venezolana_de_Television_%282018%29.png/revision/latest?cb=20211116165346" group-title="VENEZUELA",VTV
 http://181.78.8.199:8000/play/a0jl/index.m3u8
@@ -624,79 +608,6 @@ https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/99f4955
 https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/99f49550-d684-4b06-909a-48c3fb9388e5:TUL/variant/9b9c3d2ac5aa8733095eb4ff47cef5d8/bandwidth/2249000.m3u8
 #EXTINF:-1 tvg-logo="https://www.cbsnews.com/bundles/cbsnewsvideo/images/cbsn--main-bg.jpg" group-title="NEWS WORLD",Watch CBS News 24/7, our free live news stream
 https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/99f49550-d684-4b06-909a-48c3fb9388e5:TUL/variant/bbe09487996e4026304507dc92286621/bandwidth/4231000.m3u8
-#EXTM3U
-#EXTINF:-1 tvg-logo="https://s.abcnews.com/images/Live/abc_news_live-abc-ml-250210_1739199021469_hpMain_16x9_608.jpg" group-title="NEWS WORLD",What Would You Do? | Watch Live News on ABCNL
-https://linear-abcnews-akc-na-central-1.media.dssott.com/dvt2=exp=1787023733~url=%2Fclt1%2Fva02%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1781081210579%2F~psid=aceeb0f6-1817-4da0-9937-ceb697c054a3~did=9dfab611-4a1b-4e64-b7cd-bdf0d8a5f37d~country=US~kid=k02~hmac=9cf4560657c905fce66257e916a8796f2f561ab684424e87b724003b3da8d567/clt1/va02/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1781081210579/ctr-all-hdri-sliding.m3u8?r=1080&v=1&hash=c00ca54a5fd625c2ce1a442c983e81561832da94
-#EXTINF:-1 tvg-logo="https://s.abcnews.com/images/Live/abc_news_live-abc-ml-250210_1739199021469_hpMain_16x9_608.jpg" group-title="NEWS WORLD",What Would You Do? | Watch Live News on ABCNL
-https://linear-abcnews-akc-na-central-1.media.dssott.com/dvt2=exp=1787023733~url=%2Fclt1%2Fva02%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1781081210579%2F~psid=aceeb0f6-1817-4da0-9937-ceb697c054a3~did=9dfab611-4a1b-4e64-b7cd-bdf0d8a5f37d~country=US~kid=k02~hmac=9cf4560657c905fce66257e916a8796f2f561ab684424e87b724003b3da8d567/clt1/va02/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1781081210579/audio-aac-1-64K/64_slide.m3u8
-#EXTINF:-1 tvg-logo="https://s.abcnews.com/images/Live/abc_news_live-abc-ml-250210_1739199021469_hpMain_16x9_608.jpg" group-title="NEWS WORLD",What Would You Do? | Watch Live News on ABCNL
-https://linear-abcnews-akc-na-central-1.media.dssott.com/dvt2=exp=1787023733~url=%2Fclt1%2Fva02%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1781081210579%2F~psid=aceeb0f6-1817-4da0-9937-ceb697c054a3~did=9dfab611-4a1b-4e64-b7cd-bdf0d8a5f37d~country=US~kid=k02~hmac=9cf4560657c905fce66257e916a8796f2f561ab684424e87b724003b3da8d567/clt1/va02/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1781081210579/cmaf-cenc-ctr-1700K/1700_hdri_slide.m3u8
-#EXTINF:-1 tvg-logo="https://s.abcnews.com/images/Live/abc_news_live-abc-ml-250210_1739199021469_hpMain_16x9_608.jpg" group-title="NEWS WORLD",What Would You Do? | Watch Live News on ABCNL
-https://linear-abcnews-akc-na-central-1.media.dssott.com/int/ps01/disney/3d804519-96ef-4844-9936-3e11cfccd208/unenc-all-5c23917a-e0da-4e07-b06b-c87255e3e897-8de92d41-d86f-46f4-bb4c-081a57d616d4.m3u8?a=1&fr=60&r=720&v=1&xp=1&hash=2f882385ef9e52beaef35f38e52f543f7774aa5a
-#EXTINF:-1 tvg-logo="https://s.abcnews.com/images/Live/abc_news_live-abc-ml-250210_1739199021469_hpMain_16x9_608.jpg" group-title="NEWS WORLD",What Would You Do? | Watch Live News on ABCNL
-https://linear-abcnews-akc-na-central-1.media.dssott.com/int/ps01/disney/df28824b-a275-47ef-861f-dde69fa8a1d0/unenc-all-96099b45-10bf-46b9-b51b-92f7eff7c096-bb8c178f-c937-45a2-a2ac-8aededb3623a.m3u8?a=1&fr=60&r=720&v=1&xp=1&hash=2f882385ef9e52beaef35f38e52f543f7774aa5a
-#EXTINF:-1 tvg-logo="https://s.abcnews.com/images/Live/abc_news_live-abc-ml-250210_1739199021469_hpMain_16x9_608.jpg" group-title="NEWS WORLD",What Would You Do? | Watch Live News on ABCNL
-https://linear-abcnews-akc-na-central-1.media.dssott.com/int/ps01/disney/03f2a911-1638-4913-8f9b-45dc5e58e7ea/unenc-all-a9468ee8-7b68-4c82-8f1c-4e716ca9e988-b437974f-49c7-4212-812b-8892171f3da3.m3u8?a=1&fr=60&r=720&v=1&xp=1&hash=2f882385ef9e52beaef35f38e52f543f7774aa5a
-#EXTINF:-1 tvg-logo="https://s.abcnews.com/images/Live/abc_news_live-abc-ml-250210_1739199021469_hpMain_16x9_608.jpg" group-title="NEWS WORLD",What Would You Do? | Watch Live News on ABCNL
-https://linear-abcnews-akc-na-central-1.media.dssott.com/int/ps01/disney/275fb73d-e79b-4488-b2af-64528ed4b6c9/unenc-all-b36dd7af-b403-4865-99ad-4ad9e4821aa4-c10d85ab-d669-472e-a9c3-5fa0f9a976e5.m3u8?a=1&fr=60&r=720&v=1&xp=1&hash=2f882385ef9e52beaef35f38e52f543f7774aa5a
-#EXTINF:-1 tvg-logo="https://s.abcnews.com/images/Live/abc_news_live-abc-ml-250210_1739199021469_hpMain_16x9_608.jpg" group-title="NEWS WORLD",What Would You Do? | Watch Live News on ABCNL
-https://linear-abcnews-akc-na-central-1.media.dssott.com/int/ps01/disney/d44ed343-ed68-4cb5-a05f-07fdf340653d/unenc-all-a33e6926-c8ba-4385-bb9a-7a302b2d1738-c422f86c-fc0b-4cfb-bcf0-12389f9b4813.m3u8?a=1&fr=60&r=720&v=1&xp=1&hash=2f882385ef9e52beaef35f38e52f543f7774aa5a
-#EXTINF:-1 tvg-logo="https://s.abcnews.com/images/Live/abc_news_live-abc-ml-250210_1739199021469_hpMain_16x9_608.jpg" group-title="NEWS WORLD",What Would You Do? | Watch Live News on ABCNL
-https://linear-abcnews-akc-na-central-1.media.dssott.com/int/ps01/disney/5bc63d60-984d-4ddc-99d8-90b1b1070bca/unenc-all-bf157bbe-e21e-4d80-839c-2ef709e3e5e7-5a0f456d-d0dd-43c3-95f3-f62e48ba4309.m3u8?a=1&fr=60&r=720&v=1&xp=1&hash=2f882385ef9e52beaef35f38e52f543f7774aa5a
-#EXTINF:-1 tvg-logo="https://s.abcnews.com/images/Live/abc_news_live-abc-ml-250210_1739199021469_hpMain_16x9_608.jpg" group-title="NEWS WORLD",What Would You Do? | Watch Live News on ABCNL
-https://linear-abcnews-akc-na-central-1.media.dssott.com/int/ps01/disney/df28824b-a275-47ef-861f-dde69fa8a1d0/r/65110360-a84b-4b14-835c-57195403ef15/11d8-MAIN/03/1200_complete-8d978966-9ac7-4cef-a8aa-a0512ca7df5d.m3u8
-#EXTINF:-1 tvg-logo="https://s.abcnews.com/images/Live/abc_news_live-abc-ml-250210_1739199021469_hpMain_16x9_608.jpg" group-title="NEWS WORLD",What Would You Do? | Watch Live News on ABCNL
-https://linear-abcnews-akc-na-central-1.media.dssott.com/int/ps01/disney/df28824b-a275-47ef-861f-dde69fa8a1d0/r/9ac2dc1c-1187-4449-9fac-1708b88dbe9e/11d8-MAIN/03/128_complete.m3u8
-#EXTINF:-1 tvg-logo="https://s.abcnews.com/images/Live/abc_news_live-abc-ml-250210_1739199021469_hpMain_16x9_608.jpg" group-title="NEWS WORLD",What Would You Do? | Watch Live News on ABCNL
-https://linear-abcnews-akc-na-central-1.media.dssott.com/int/ps01/disney/df28824b-a275-47ef-861f-dde69fa8a1d0/r/65110360-a84b-4b14-835c-57195403ef15/11d8-MAIN/03/1800_complete-8d978966-9ac7-4cef-a8aa-a0512ca7df5d.m3u8
-#EXTINF:-1 tvg-logo="https://s.abcnews.com/images/Live/abc_news_live-abc-ml-250210_1739199021469_hpMain_16x9_608.jpg" group-title="NEWS WORLD",What Would You Do? | Watch Live News on ABCNL
-https://linear-abcnews-akc-na-central-1.media.dssott.com/dvt2=exp=1787023733~url=%2Fclt1%2Fva02%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1781081210579%2F~psid=aceeb0f6-1817-4da0-9937-ceb697c054a3~did=9dfab611-4a1b-4e64-b7cd-bdf0d8a5f37d~country=US~kid=k02~hmac=9cf4560657c905fce66257e916a8796f2f561ab684424e87b724003b3da8d567/clt1/va02/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1781081210579/audio-aac-1-64K/64_slide.m3u8
-#EXTINF:-1 tvg-logo="https://s.abcnews.com/images/Live/abc_news_live-abc-ml-250210_1739199021469_hpMain_16x9_608.jpg" group-title="NEWS WORLD",What Would You Do? | Watch Live News on ABCNL
-https://linear-abcnews-akc-na-central-1.media.dssott.com/dvt2=exp=1787023733~url=%2Fclt1%2Fva02%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1781081210579%2F~psid=aceeb0f6-1817-4da0-9937-ceb697c054a3~did=9dfab611-4a1b-4e64-b7cd-bdf0d8a5f37d~country=US~kid=k02~hmac=9cf4560657c905fce66257e916a8796f2f561ab684424e87b724003b3da8d567/clt1/va02/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1781081210579/cmaf-cenc-ctr-1700K/1700_hdri_slide.m3u8
-#EXTINF:-1 tvg-logo="https://s.abcnews.com/images/Live/abc_news_live-abc-ml-250210_1739199021469_hpMain_16x9_608.jpg" group-title="NEWS WORLD",What Would You Do? | Watch Live News on ABCNL
-https://linear-abcnews-akc-na-central-1.media.dssott.com/int/ps01/disney/03f2a911-1638-4913-8f9b-45dc5e58e7ea/r/de2fa049-4b33-45c4-8ef7-261e7fdb5de2/c028-MAIN/03/128_complete.m3u8
-#EXTINF:-1 tvg-logo="https://s.abcnews.com/images/Live/abc_news_live-abc-ml-250210_1739199021469_hpMain_16x9_608.jpg" group-title="NEWS WORLD",What Would You Do? | Watch Live News on ABCNL
-https://linear-abcnews-akc-na-central-1.media.dssott.com/int/ps01/disney/03f2a911-1638-4913-8f9b-45dc5e58e7ea/r/375be4af-b22d-4161-b0c6-5982608d8efa/c028-MAIN/03/1200_complete-82177c8b-c249-47a5-a9f8-121c1652cb79.m3u8
-#EXTINF:-1 tvg-logo="https://keyframe-cdn.abcnews.com/streamprovider10.jpg" group-title="NEWS WORLD",Video Flooding threat continues from the Midwest to the Ohio Valley; prolonged dangerous heat in the South; tracking the tropics | Watch Live News on ABCNL
-https://abcnews-livestreams.akamaized.net/out/v1/6a597119dbd5428a82dc11a2f514a1a2/abcn-live-10-cmaf-manifest/abcn-live-10-index.m3u8
-#EXTINF:-1 tvg-logo="https://keyframe-cdn.abcnews.com/streamprovider10.jpg" group-title="NEWS WORLD",Video Flooding threat continues from the Midwest to the Ohio Valley; prolonged dangerous heat in the South; tracking the tropics | Watch Live News on ABCNL
-https://abcnews-livestreams.akamaized.net/out/v1/6a597119dbd5428a82dc11a2f514a1a2/abcn-live-10-cmaf-manifest/abcn-live-10-index_3.m3u8
-#EXTINF:-1 tvg-logo="https://keyframe-cdn.abcnews.com/streamprovider10.jpg" group-title="NEWS WORLD",Video Flooding threat continues from the Midwest to the Ohio Valley; prolonged dangerous heat in the South; tracking the tropics | Watch Live News on ABCNL
-https://abcnews-livestreams.akamaized.net/out/v1/6a597119dbd5428a82dc11a2f514a1a2/abcn-live-10-cmaf-manifest/abcn-live-10-index_4_0.m3u8
-#EXTINF:-1 tvg-logo="https://keyframe-cdn.abcnews.com/streamprovider10.jpg" group-title="NEWS WORLD",Video Flooding threat continues from the Midwest to the Ohio Valley; prolonged dangerous heat in the South; tracking the tropics | Watch Live News on ABCNL
-https://abcnews-livestreams.akamaized.net/out/v1/6a597119dbd5428a82dc11a2f514a1a2/abcn-live-10-cmaf-manifest/abcn-live-10-index_3.m3u8
-#EXTINF:-1 tvg-logo="https://keyframe-cdn.abcnews.com/streamprovider10.jpg" group-title="NEWS WORLD",Video Flooding threat continues from the Midwest to the Ohio Valley; prolonged dangerous heat in the South; tracking the tropics | Watch Live News on ABCNL
-https://abcnews-livestreams.akamaized.net/out/v1/6a597119dbd5428a82dc11a2f514a1a2/abcn-live-10-cmaf-manifest/abcn-live-10-index_4_0.m3u8
-#EXTINF:-1 tvg-logo="https://a57.foxnews.com/cf-images.us-east-1.prod.boltdns.net/v1/static/694940094001/c9b2e2eb-7b87-435c-9510-eab2650ff944/8b584585-acf2-4c37-aa07-aaf2d077bb20/1280x720/match/676/380/image.jpg?ve=1&tl=1" group-title="NEWS WORLD",Fox Business Go | Fox News Video
-https://247.foxbusiness.com/hls/live/2003756/FBNHLSv3/master.m3u8?hdnea=exp=1786940933~acl=/*~hmac=a8a0ce17b0e6e75278428cc40f54b859bbe83782d1a063ef1cc0d862a486c0a0
-#EXTINF:-1 tvg-logo="https://a57.foxnews.com/cf-images.us-east-1.prod.boltdns.net/v1/static/694940094001/15de0523-3be4-4a9a-8159-7020114e7036/b6ff623a-26d6-4fd9-8bb8-0856adbf38ce/1280x720/match/676/380/image.jpg?ve=1&tl=1" group-title="NEWS WORLD",Watch Fox News Channel Online | Stream Fox News
-https://247.foxnews.com/hls/live/2003586/FNCHLSv3/master.m3u8?hdnea=exp=1786940933~acl=/*~hmac=a8a0ce17b0e6e75278428cc40f54b859bbe83782d1a063ef1cc0d862a486c0a0
-#EXTINF:-1 tvg-logo="https://www.cbsnews.com/bundles/cbsnewsvideo/images/cbsn--main-bg.jpg" group-title="NEWS WORLD",Watch CBS News 24/7, our free live news stream
-https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/99f49550-d684-4b06-909a-48c3fb9388e5:TUL/master.m3u8
-#EXTINF:-1 tvg-logo="https://www.cbsnews.com/bundles/cbsnewsvideo/images/cbsn--main-bg.jpg" group-title="NEWS WORLD",Watch CBS News 24/7, our free live news stream
-https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/99f49550-d684-4b06-909a-48c3fb9388e5:TUL/variant/93c2acc6479504ccd49e3f4d21db1bec/bandwidth/441000.m3u8
-#EXTINF:-1 tvg-logo="https://www.cbsnews.com/bundles/cbsnewsvideo/images/cbsn--main-bg.jpg" group-title="NEWS WORLD",Watch CBS News 24/7, our free live news stream
-https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/99f49550-d684-4b06-909a-48c3fb9388e5:TUL/variant/d97af4c27467beea3da650488b681b9e/bandwidth/1083000.m3u8
-#EXTINF:-1 tvg-logo="https://www.cbsnews.com/bundles/cbsnewsvideo/images/cbsn--main-bg.jpg" group-title="NEWS WORLD",Watch CBS News 24/7, our free live news stream
-https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/99f49550-d684-4b06-909a-48c3fb9388e5:TUL/variant/df15b3d87264e51b4858655d95765b18/bandwidth/1549000.m3u8
-#EXTINF:-1 tvg-logo="https://www.cbsnews.com/bundles/cbsnewsvideo/images/cbsn--main-bg.jpg" group-title="NEWS WORLD",Watch CBS News 24/7, our free live news stream
-https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/99f49550-d684-4b06-909a-48c3fb9388e5:TUL/variant/9b9c3d2ac5aa8733095eb4ff47cef5d8/bandwidth/2249000.m3u8
-#EXTINF:-1 tvg-logo="https://www.cbsnews.com/bundles/cbsnewsvideo/images/cbsn--main-bg.jpg" group-title="NEWS WORLD",Watch CBS News 24/7, our free live news stream
-https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/99f49550-d684-4b06-909a-48c3fb9388e5:TUL/variant/bbe09487996e4026304507dc92286621/bandwidth/4231000.m3u8
-#EXTINF:-1 tvg-logo="https://www.cbsnews.com/bundles/cbsnewsvideo/images/cbsn--main-bg.jpg" group-title="NEWS WORLD",Watch CBS News 24/7, our free live news stream
-#EXTINF:-1 tvg-logo="https://www.cbsnews.com/bundles/cbsnewsvideo/images/cbsn--main-bg.jpg" group-title="NEWS WORLD",Watch CBS News 24/7, our free live news stream
-#EXTINF:-1 tvg-logo="https://www.cbsnews.com/bundles/cbsnewsvideo/images/cbsn--main-bg.jpg" group-title="NEWS WORLD",Watch CBS News 24/7, our free live news stream
-#EXTINF:-1 tvg-logo="https://www.cbsnews.com/bundles/cbsnewsvideo/images/cbsn--main-bg.jpg" group-title="NEWS WORLD",Watch CBS News 24/7, our free live news stream
-#EXTINF:-1 tvg-logo="https://www.cbsnews.com/bundles/cbsnewsvideo/images/cbsn--main-bg.jpg" group-title="NEWS WORLD",Watch CBS News 24/7, our free live news stream
-#EXTINF:-1 tvg-logo="https://www.cbsnews.com/bundles/cbsnewsvideo/images/cbsn--main-bg.jpg" group-title="NEWS WORLD",Watch CBS News 24/7, our free live news stream
-#EXTINF:-1 tvg-logo="https://www.cbsnews.com/bundles/cbsnewsvideo/images/cbsn--main-bg.jpg" group-title="NEWS WORLD",Watch CBS News 24/7, our free live news stream
-#EXTINF:-1 tvg-logo="https://www.cbsnews.com/bundles/cbsnewsvideo/images/cbsn--main-bg.jpg" group-title="NEWS WORLD",Watch CBS News 24/7, our free live news stream
-#EXTINF:-1 tvg-logo="https://www.cbsnews.com/bundles/cbsnewsvideo/images/cbsn--main-bg.jpg" group-title="NEWS WORLD",Watch CBS News 24/7, our free live news stream
-#EXTINF:-1 tvg-logo="https://www.cbsnews.com/bundles/cbsnewsvideo/images/cbsn--main-bg.jpg" group-title="NEWS WORLD",Watch CBS News 24/7, our free live news stream
-#EXTINF:-1 tvg-logo="https://www.cbsnews.com/bundles/cbsnewsvideo/images/cbsn--main-bg.jpg" group-title="NEWS WORLD",Watch CBS News 24/7, our free live news stream
-#EXTINF:-1 tvg-logo="https://www.cbsnews.com/bundles/cbsnewsvideo/images/cbsn--main-bg.jpg" group-title="NEWS WORLD",Watch CBS News 24/7, our free live news stream
-#EXTINF:-1 tvg-logo="https://www.cbsnews.com/bundles/cbsnewsvideo/images/cbsn--main-bg.jpg" group-title="NEWS WORLD",Watch CBS News 24/7, our free live news stream
-#EXTINF:-1 tvg-logo="https://www.cbsnews.com/bundles/cbsnewsvideo/images/cbsn--main-bg.jpg" group-title="NEWS WORLD",Watch CBS News 24/7, our free live news stream
 #EXTM3U
 #EXTM3U x-tvg-url="https://raw.githubusercontent.com/MatheusAlves7/Canais_IPTV/refs/heads/main/guide.xml,http://lidns.cc/xmltv.php?username=4x6cXF&password=JDqRqj&type=m3u_plus&output=m3u8,https://www.open-epg.com/files/brazil1.xml.gz,https://www.open-epg.com/files/brazil2.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_BR1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_ALL_SOURCES1.xml.gz,https://www.open-epg.com/files/portugal.xml.gz,https://www.open-epg.com/files/portugal2.xml.gz,https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/PlutoTV/all.xml,https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/Plex/all.xml,https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/SamsungTVPlus/all.xml,https://raw.githubusercontent.com/helenfernanda/gratis/main/distrotv.xml,https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/Stirr/all.xml,https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/Singtel/epg.xml,https://raw.githubusercontent.com/AqFad2811/epg/main/unifitv.xml"
 #EXTM3U url-tvg="https://fastly.jsdelivr.net/gh/limaalef/BrazilTVEPG@main/epg.xml"
@@ -1124,39 +1035,6 @@ http://restream-live.realiptv.to:8080/live/19742329/27604387/90546.ts
 https://cvtv.cvalley.net/hls/KOMUCW/KOMUCW.m3u8
 #EXTINF:-1 tvg-id="I80.78851.schedulesdirect.org" group-title="USA" tvg-name="Cozi" tvg-logo="https://www.cozitv.com/wp-content/themes/cozi/static/images/cozilogo.png",Cozi
 https://cvtv.cvalley.net/hls/KSHBCozi/KSHBCozi.m3u8
-#EXTM3U x-tvg-url="https://epg.pw/xmltv/epg_DE.xml|https://epg.pw/xmltv/epg_US.xml|https://epg.pw/xmltv/epg_RU.xml|https://epg.pw/xmltv/epg_CA.xml"
-#EXTINF:-1 group-title="HOME SHOPPING" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Casa_Italia_logo.svg/512px-Casa_Italia_logo.svg.png",Casa Italia 53 (720p) (Itália)
-https://ovp-live.akamaized.net/ac115_live/canale3.smil/playlist.m3u8
-#EXTINF:-1 group-title="HOME SHOPPING" tvg-id="465194" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Gem_Shopping_Network_logo.svg/512px-Gem_Shopping_Network_logo.svg.png",Gem Shopping Network (720p) (Estados Unidos)
-https://amg01460-gemshoppingnetw-gem-ono-x662c.amagi.tv/playlist.m3u8
-#EXTINF:-1 group-title="HOME SHOPPING" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Juwelo_TV_logo.svg/512px-Juwelo_TV_logo.svg.png",Good Idea TV (GTV) - USA Thai (Estados Unidos da América)
-http://stream1.ai-net.net:1935/gtv1/_definst_/smil:gtv.smil/playlist.m3u8
-#EXTINF:-1 group-title="HOME SHOPPING" tvg-id="76661" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/HSE24_Logo.svg/512px-HSE24_Logo.svg.png",HSE24 (1080p) (Alemanha)
-https://hse24.akamaized.net/hls/live/2006663/hse24/playlist.m3u8
-#EXTINF:-1 group-title="HOME SHOPPING" tvg-id="76737" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/HSE24_Logo.svg/512px-HSE24_Logo.svg.png",HSE24 Extra (1080p) (Alemanha)
-https://hse24extra.akamaized.net/hls/live/2006596/hse24extra/playlist.m3u8
-#EXTINF:-1 group-title="HOME SHOPPING" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/HSE24_Logo.svg/512px-HSE24_Logo.svg.png",HSE24 Trend (576p) (Alemanha)
-https://hse24trend.akamaized.net/hls/live/2006597/hse24trend/playlist.m3u8
-#EXTINF:-1 group-title="HOME SHOPPING" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Juwelo_TV_logo.svg/512px-Juwelo_TV_logo.svg.png",Juwelo (720p) (Alemanha)
-https://sdn-global-live-streaming-packager-cache.3qsdn.com/7441/7441_264_live.m3u8
-#EXTINF:-1 group-title="HOME SHOPPING" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/KaufBei_TV_logo.svg/512px-KaufBei_TV_logo.svg.png",KaufBei TV (576p) (Alemanha)
-https://api.alpaca.t62a.com/hls/9103/index.m3u8
-#EXTINF:-1 group-title="HOME SHOPPING" tvg-id="464796" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/QVC_Logo.svg/512px-QVC_Logo.svg.png",QVC 3 (1080p) (Estados Unidos)
-https://qvc-amd-live.akamaized.net/hls/live/2034113/lsqvc3us/master.m3u8
-#EXTINF:-1 group-title="HOME SHOPPING" tvg-id="464816" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/QVC_Logo.svg/512px-QVC_Logo.svg.png",QVC 2 (1080p) (Estados Unidos)
-https://qvc-amd-live.akamaized.net/hls/live/2034113/lsqvc2us/master.m3u8
-#EXTINF:-1 group-title="HOME SHOPPING" tvg-id="465325" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Logo_of_Liquidation_Channel.svg/512px-Logo_of_Liquidation_Channel.svg.png",Shop LC (KCKS-LD10) (480p) [Not 24/7] (Estados Unidos)
-https://cdn.igocast.com/channel10_hls/channel10_master.m3u8
-#EXTINF:-1 group-title="HOME SHOPPING" tvg-id="5859" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Shopping_Live_logo.svg/512px-Shopping_Live_logo.svg.png",Shopping Live (576p) [Not 24/7] (Rússia)
-http://serv30.vintera.tv:8081/shoppinglive/shoppinglive_stream/playlist.m3u8
-#EXTINF:-1 group-title="HOME SHOPPING" tvg-id="470475" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/TSC_logo.svg/512px-TSC_logo.svg.png",Today's Shopping Choice (TSC) (720p) (Canadá)
-https://tscamd.akamaized.net/hls/live/503340/TSCLive/master.m3u8
-#EXTINF:-1 group-title="HOME SHOPPING" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Tommy_Teleshopping_logo.svg/512px-Tommy_Teleshopping_logo.svg.png",Tommy Teleshopping (480p) (Países Baixos)
-https://ms7.mx-cd.net/tv/71-1356094/Tommy_Teleshopping.smil/playlist.m3u8
-#EXTINF:-1 group-title="HOME SHOPPING" tvg-id="6025" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Yuvelirochka_TV_logo.svg/512px-Yuvelirochka_TV_logo.svg.png",Ювелирочка ТВ (576p) (Rússia)
-https://live-uvelirochka.cdnvideo.ru/uvelirochka/uvelirochka_720p3/playlist.m3u8
-#EXTINF:-1 group-title="HOME SHOPPING" tvg-id="464751" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/united-states/hsn-us.png",HSN Home Shopping Network (1080p) (Estados Unidos)
-https://qvc-amd-live.akamaized.net/hls/live/2034113/lshsn1us/master.m3u8
 #EXTM3U url-tvg="https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/SamsungTVPlus/us.xml.gz"
 #EXTINF:-1 group-title="NEWS WORLD" tvg-id="NBCWest.us" tvg-logo="https://creativecloud.adobe.com/content/dam/2017/8/evolution-of-nbc-logo/article-marquee.jpg",NBC 7 San Diego
 https://nbculocallive.akamaized.net/hls/live/2037098/sandiego/stream1/master.m3u8
@@ -5789,107 +5667,6 @@ https://bcovlive-a.akamaihd.net/r21fb8503a4a74d098b798f16922b2a36/us-east-1/7345
 https://1601580044.rsc.cdn77.org/live/_jcn_/amlst:Mariavision/master.m3u8
 #EXTINF:-1 tvg-id="RedeVida.br" tvg-logo="https://graph.facebook.com/redevida/picture?width=200&height=200",Religiosos: Redevida Brasil PT
 https://cvd1.cds.ebtcvd.net/live-redevida/smil:redevida.smil/playlist.m3u8
-#EXTM3U url-tvg="https://raw.githubusercontent.com/limaalef/BrazilTVEPG/main/epg.xml"
-#EXTM3U url-tvg="https://epg.pw/xmltv/epg_lite.xml"
-#EXTINF:-1 group-title="Cameras Ao Vivo" tvg-id="CAM.FOZ.BR277" tvg-name="Foz do Iguaçu - BR277" tvg-logo="https://static.portaldacidade.com/unsafe/1280x720/https://s3.amazonaws.com/fozdoiguacu.portaldacidade.com/img/camera/br277-5a5e6199dd931-5b04548e405cd.jpg",Foz do Iguaçu - BR277
-https://video02.logicahost.com.br/portaldacidade/fozsentidopontedaamizade.stream/chunklist_w781220348.m3u8
-#EXTINF:-1 group-title="Reality Show's Live" tvg-id="RTLTVI.be" tvg-name="RTL-TVI" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/RTL_TVI.svg/200px-RTL_TVI.svg.png",RTL-TVI (1080p)
-https://tvi-live-hls.akamaized.net/hls/live/2038650/TVI-Live-HLS/master.m3u8
-#EXTINF:-1 group-title="Reality Show's Live" tvg-id="RAITRE" tvg-name="IT: Rai 3" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Rai_3_-_Logo_2016.svg/200px-Rai_3_-_Logo_2016.svg.png",IT: Rai 3
-https://dumdumbullet.com/1011454237/bHg8wYxrId/79992114901
-#EXTINF:-1 group-title="Reality Show's Live" tvg-id="FRANCE2.fr" tvg-name="France 2" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/France_2.svg/200px-France_2.svg.png",FRANCE 2
-http://69.64.57.208/france2/playlist.m3u8
-#EXTINF:-1 group-title="Reality Show's Live" tvg-id="FRANCE3.fr" tvg-name="France 3" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/France_3.svg/200px-France_3.svg.png",FRANCE 3
-http://69.64.57.208/france5/playlist.m3u8
-#EXTINF:-1 group-title="Reality Show's Live" tvg-id="FRANCE4.fr" tvg-name="France 4" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/France_4.svg/200px-France_4.svg.png",FRANCE 4
-http://cord-cutter.net:8080/live/j3McKd/673709/160299.m3u8
-#EXTINF:-1 group-title="Reality Show's Live" tvg-id="FRANCE5.fr" tvg-name="France 5" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/France_5.svg/200px-France_5.svg.png",FRANCE 5
-http://cord-cutter.net:8080/live/j3McKd/673709/160300.m3u8
-#EXTM3U
-#EXTINF:-1 group-title="ESCUTA AÉREA" tvg-id="AERO.SP" tvg-name="COORD HELICOPTEROS SP" tvg-logo="https://i.imgur.com/vH9XqXW.png",ESCUTA FREQUENCIA COORDENAÇÃO HELICOPTEROS - SP
-https://ssl1.transmissaodigital.com:20101/HELI127.35RCB
-#EXTINF:-1 group-title="ESCUTA AÉREA" tvg-id="AERO.MARTE" tvg-name="ATIS CAMPO DE MARTE" tvg-logo="https://i.imgur.com/r62z69K.png",ESCUTA ATIS DE CAMPO DE MARTE
-https://ssl1.transmissaodigital.com:20102/127.725ATISMARTERCB
-#EXTINF:-1 group-title="ESCUTA AÉREA" tvg-id="AERO.MARTE.SOLO" tvg-name="SOLO CAMPO DE MARTE" tvg-logo="https://i.imgur.com/vH9XqXW.png",ESCUTA AÉREA DO SOLO DO CAMPO DE MARTE - 121.6
-https://ssl1.transmissaodigital.com:20104/121.6SOLOMARTERCB
-#EXTINF:-1 group-title="ESCUTA AÉREA" tvg-id="AERO.MARTE.TORRE" tvg-name="TORRE CAMPO DE MARTE" tvg-logo="https://i.imgur.com/r62z69K.png",ESCUTA TORRE DO CAMPO DE MARTE
-https://ssl1.transmissaodigital.com:20106/TORREMARTE133.35RCBRCB
-#EXTINF:-1 group-title="ESCUTA AÉREA" tvg-id="AERO.CGH" tvg-name="ATIS CONGONHAS" tvg-logo="https://i.imgur.com/r62z69K.png",ESCUTA AÉREA ATIS AEROPORTO CONGONHAS
-https://ssl1.transmissaodigital.com:20103/127.65ATISCGHRCB
-#EXTINF:-1 group-title="ESCUTA AÉREA" tvg-id="AERO.GRU.ATIS" tvg-name="ATIS GUARULHOS" tvg-logo="https://i.imgur.com/r62z69K.png",ESCUTA ATIS AEROPORTO GUARULHOS
-https://ssl1.transmissaodigital.com:20102/127.75ATISGRURCB
-#EXTINF:-1 group-title="ESCUTA AÉREA" tvg-id="AERO.GRU.TORRE" tvg-name="TORRE GUARULHOS" tvg-logo="https://i.imgur.com/vH9XqXW.png",ESCUTA TORRE GUARULHOS
-https://ssl1.transmissaodigital.com:20105/TORREGRU135.2RCBFONIAEXCLUSIVARADIOCOMBRASIL
-#EXTINF:-1 group-title="CAMERA AO VIVO",MOSAICO TV ALEMANHA
-http://80.61.63.103:81/cam_1.cgi
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="" tvg-chno="5",Canale 5 - VPN
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=
-https://live03-col.msf.cdn.mediaset.net/live/ch-c5/c5-clr.isml/manifest.mpd
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="" tvg-chno="6",Italia 1 - VPN
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=
-https://live03-col.msf.cdn.mediaset.net/live/ch-i1/i1-clr.isml/manifest.mpd
-#EXTINF:-1 group-title="Reality Show'S Live" tvg-id=""  tvg-logo="https://it.wikipedia.org/wiki/File:Grande_Fratello_VIP.png",GRANDE FRATELLO COM VPN1 - BACKUP
-#EXTVLCOPT:http-user-agent=Firefox
-https://live3.msf.cdn.mediaset.net/content/dash_d0_clr_vos/live/channel(b7)/manifest.mpd
-#EXTINF:-1 group-title="Reality Show'S Live" tvg-id=""  tvg-logo="https://it.wikipedia.org/wiki/File:Grande_Fratello_VIP.png",GRANDE FRATELLO COM VPN2 - BACKUP
-#EXTVLCOPT:http-user-agent=Firefox
-https://live3.msf.cdn.mediaset.net/content/dash_d0_clr_vos/live/channel(b8)/manifest.mpd
-#EXTINF:-1 group-title="Reality Show'S Live" tvg-id=""  tvg-logo="https://it.wikipedia.org/wiki/File:Grande_Fratello_VIP.png6",GRANDE FRATELLO COM VPN3 - BACKUP
-#EXTVLCOPT:http-user-agent=Firefox
-https://live3.msf.cdn.mediaset.net/content/dash_d0_clr_vos/live/channel(b9)/manifest.mpd
-#EXTINF:-1 tvg-id="Las Estrellas" tvg-name="Las Estrellas" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/4f/Las_Estrellas_logo_%282016%29.png" group-title="Reality Show's Live", LAS ESTRELLAS
-https://channel01.akamaized.net/hls/live/2022749/event01/index.m3u8
-#EXTINF:-1 tvg-id="Senato Web TV 1" tvg-name="Senato Web TV 1" tvg-logo="https://webtv.senato.it/application/xmanager/projects/leg18/img/webtv/logo_senatoTV.jpg" group-title="ITALIA",Senado Italiano - CAMERA 1
-https://senato-live.morescreens.com/SENATO_1_001/1080p/chunklist.m3u8
-#EXTINF:-1 tvg-id="Senato Web TV 1" tvg-name="Senato Web TV 1" tvg-logo="https://www.radioradicale.it/sites/www.radioradicale.it/files/testata-radio-radicale-500-tiny.png" group-title="ITALIA",Camara dos Deputados - ITALIA
-https://video-ar.radioradicale.it/diretta/camera2/chunklist_w454478514.m3u8
-#EXTM3U x-tvg-url="https://github.com/iptv-org/epg/raw/refs/heads/master/sites/directv.com/directv.com.channels.xml"
-#EXTINF:-1 tvg-id="AuroraArte.it" status="online",Aurora Arte (480p)
-https://59d7d6f47d7fc.streamlock.net/auroraarte/auroraarte/playlist.m3u8
-https://vod05.msf.cdn.mediaset.net/farmunica/2020/02/552643_17055be3b957d2/dashrcclean/hd_no_mpl.mpd
-https://vod05.msf.cdn.mediaset.net/farmunica/2020/02/552643_17055be3b957d2/dashrcclean/hd_no_mpl.mpd
-https://vod05.msf.cdn.mediaset.net/farmunica/2020/02/552643_17055be3b957d2/dashrcclean/hd_no_mpl.mpd
-https://vod05.msf.cdn.mediaset.net/farmunica/2020/02/556084_1706a5704b289c/dashrcclean/hd_no_mpl.mpd
-https://vod05.msf.cdn.mediaset.net/farmunica/2020/02/557323_17079b72ce789c/dashrcclean/hd_no_mpl.mpd
-10 feb 2020 | Canale 5 Decima puntata
-https://vod05.msf.cdn.mediaset.net/farmunica/2020/02/548042_17031af80a57d2/dashrcclean/hd_no_mpl.mpd
-Quattordicesima puntata
-24 feb 2020 | Canale 5
-https://vod05.msf.cdn.mediaset.net/farmunica/2020/02/557323_17079b72ce789c/dashrcclean/hd_no_mpl.mpd
-Sedicesima puntata
-11 mar 2020 | Canale 5
-https://vod05.msf.cdn.mediaset.net/farmunica/2020/03/567703_170cc2dd2e989c/dashrcclean/hd_no_mpl.mpd
-Diciassettesima puntata
-18 mar 2020 | Canale 5
-https://vod05.msf.cdn.mediaset.net/farmunica/2020/03/571604_170f02fcc20965/dashrcclean/hd_no_mpl.mpd
-Diciannovesima puntata
-1 apr 2020 | Canale 5
-https://vod05.msf.cdn.mediaset.net/farmunica/2020/04/579412_1713812c73b7d2/dashrcclean/hd_no_mpl.mpd
-La Finale 8 apr 2020 | Canale 5
-https://vod05.msf.cdn.mediaset.net/farmunica/2020/04/584486_1715f06b3bea2f/dashrcclean/hd_no_mpl.mpd
-#EXTM3U
-#EXTINF:-1 group-title="Cameras Ao Vivo" tvg-id="CAM.FOZ.BR277" tvg-name="Foz do Iguaçu - BR277" tvg-logo="https://static.portaldacidade.com/unsafe/1280x720/https://s3.amazonaws.com/fozdoiguacu.portaldacidade.com/img/camera/br277-5a5e6199dd931-5b04548e405cd.jpg",BR - 277 - Foz do Iguaçu (Sentido Ponte)
-https://video02.logicahost.com.br/portaldacidade/fozsentidopontedaamizade.stream/chunklist_w781220348.m3u8
-#EXTINF:-1 group-title="Cameras Ao Vivo" tvg-id="CAM.FOZ.PONTE.BR" tvg-name="Ponte da Amizade - Brasil" tvg-logo="https://static.portaldacidade.com/unsafe/1280x720/https://s3.amazonaws.com/fozdoiguacu.portaldacidade.com/img/camera/ponte-amizade-5a5e05cf0ee38-5b04561a42b70.jpg",Ponte da Amizade - Foz (Sentido Brasil)
-https://video02.logicahost.com.br/portaldacidade/fozaduanapontedaamizade.stream/chunklist_w1164603525.m3u8
-#EXTINF:-1 group-title="Cameras Ao Vivo" tvg-id="CAM.FOZ.PONTE.PY" tvg-name="Ponte da Amizade - Paraguai" tvg-logo="https://static.portaldacidade.com/unsafe/1280x720/https://s3.amazonaws.com/fozdoiguacu.portaldacidade.com/img/camera/captura-de-tela-de-2018-10-02-16-13-39-5bb3c37f1c08e.png",Ponte da Amizade - Foz (Sentido Paraguai)
-https://video02.logicahost.com.br/portaldacidade/fozpontedaamizadesentidoparaguai.stream/chunklist_w315346688.m3u8
-#EXTINF:-1 group-title="Cameras Ao Vivo" tvg-id="CAM.GO.JAMEL" tvg-name="Goiânia - Av Jamel Cecílio" tvg-logo="https://zoevideos.net/public/uploads/thumbnail/live-1034/jamelcecilio-flamboyant.jpeg",GOIÂNIA - Av. Jamel Cecílio
-https://hunq9fz8yk.zoeweb.tv/flamboyant/flamboyant.stream/chunklist.m3u8
-#EXTINF:-1 group-title="Cameras Ao Vivo" tvg-id="CAM.GO.MENDANHA" tvg-name="Goiânia - Morro do Mendanha" tvg-logo="https://cdn.zoeflix.com.br/storage/cameras/27a8790f-c496-4e66-aec2-6ad5b4f6f9d8.jpg",GOIÂNIA - Morro do Mendanha
-https://5a7d54e35f9d2.streamlock.net/morromendanha1/morromendanha1.stream/playlist.m3u8
-#EXTINF:-1 group-title="Cameras Ao Vivo" tvg-id="CAM.GO.AV85" tvg-name="Goiânia - Av 85" tvg-logo="https://cdn.zoeflix.com.br/storage/cameras/855963b8-222d-4df5-9cc5-1edde67d870f.jpg",GOIÂNIA - Av. 85
-https://hunq9fz8yk.zoeweb.tv/av85/av85.stream/chunklist_w123426081.m3u8
-#EXTINF:-1 group-title="Cameras Ao Vivo" tvg-id="CAM.GO.RUA9" tvg-name="Goiânia - Rua 9 Oeste" tvg-logo="https://i.imgur.com/7DfRiz6.png",GOIÂNIA - Rua 9 (Setor Oeste)
-https://hunq9fz8yk.zoeweb.tv/r9oeste/r9oeste.stream/chunklist_w1793116402.m3u8
-#EXTINF:-1 group-title="Cameras Ao Vivo" tvg-id="CAM.GO.RUA9" tvg-name="Goiânia - Rua 9 Oeste" tvg-logo="https://cdn.zoeflix.com.br/storage/cameras/57b7d43e-5fe5-4d9e-a504-d94cc0122ba5.jpg",GOIÂNIA - Rua 9 (Setor Oeste)
-https://5a7d54e35f9d2.streamlock.net/r9oeste/r9oeste.stream/playlist.m3u8
 #EXTM3U x-tvg-url="http://epg.it999.ru/epg.xml.gz"
 #EXTINF:-1 tvg-id="pervy" tvg-name="Perviy Kanal HD" tvg-logo="http://epg.it999.ru/img2/983.png" group-title="RUSSIA",Первый HD
 https://edge1.1internet.tv/dash-live2/streams/1tv-dvr/1tvdash.mpd
@@ -5901,99 +5678,6 @@ https://vgtrkregion-reg.cdnvideo.ru/vgtrk/0/russia1-hd/index.m3u8
 https://s.pokaz.me/zhk7j0uqDKrpQpDoIutrcw/544/1753896034/index.m3u8
 #EXTINF:-1 tvg-id="rossija24" tvg-name="Rossiya 24" tvg-logo="http://epg.it999.ru/img2/1683.png" group-title="RUSSIA",Россия-24
 https://vgtrkregion-reg.cdnvideo.ru/vgtrk/0/russia24-sd/index.m3u8
-#EXTM3U x-tvg-url="https://raw.githubusercontent.com/globetvapp/epg/main/Venezuela/venezuela1.xml.gz"
-#EXTINF:-1 group-title="VENEZUELA" tvg-id="VENEVISION.ve",Venevisión (1080p) [Geo-blocked]
-https://venevision.akamaized.net/hls/live/2098814/VENEVISION/master.m3u8
-#EXTINF:-1 group-title="VENEZUELA" tvg-id="VENEVISION PLUS.ve",Venevisión Internacional (720p)
-https://vod2live.univtec.com/manifest/4c41c0d8-e2e4-43cc-bd43-79afe715e1b3.m3u8
-#EXTINF:-1 group-title="VENEZUELA" tvg-id="FANB TV.ve",TV FANB (720p)
-https://vcp2.myplaytv.com/tvfanb/tvfanb/playlist.m3u8
-#EXTINF:-1 group-title="VENEZUELA" tvg-id="VIVE TV.ve",Vive (1080p) [Not 24/7]
-#EXTVLCOPT:http-referrer=https://odysee.com/
-https://cloud.odysee.live/content/fed20cff907550b0c7d83991fb3630e2a9f90454/master.m3u8
-#EXTINF:-1 group-title="VENEZUELA" tvg-id="CatatumboTV.ve",Catatumbo TV (406p)
-https://cloud.fastchannel.es/manifiest/hls/prog9/catatumbotv.m3u8
-#EXTINF:-1 group-title="VENEZUELA" tvg-id="BTATV.ve",BTA TV (720p)
-https://cloud.fastchannel.es/manifiest/hls/prog9/btatv.m3u8
-#EXTINF:-1 group-title="VENEZUELA" tvg-id="eSportsMax.ve",eSports Max (480p) [Not 24/7]
-http://vcpar.myplaytv.com/esportsmax/live/playlist.m3u8
-#EXTINF:-1 group-title="VENEZUELA" tvg-id="KandelaTV.ve",KandelaTV (480p)
-https://streamtv.intervenhosting.net:3718/live/kandelamedioslive.m3u8
-#EXTINF:-1 group-title="VENEZUELA" tvg-id="LatinaTV.ve",Latina TV (1080p)
-https://streamtv.intervenhosting.net:3639/live/latinatvlive.m3u8
-#EXTINF:-1 group-title="VENEZUELA" tvg-id="LGDTV.ve",LGD TV (1080p)
-https://streamtv.intervenhosting.net:3259/hybrid/play.m3u8
-#EXTINF:-1 group-title="VENEZUELA" tvg-id="MasTalk.ve",Más Talk (1080p)
-https://vod2live.univtec.com/manifest/89290956-94ab-4950-accb-a54bbd7e176f.m3u8
-#EXTINF:-1 group-title="VENEZUELA" tvg-id="MAXAnime.ve",MAX Anime (720p)
-https://vcp14.myplaytv.com/maxanime/maxanime/playlist.m3u8
-#EXTINF:-1 group-title="VENEZUELA" tvg-id="MDATelevision.ve",MDA Televisión (720p)
-https://vcp.myplaytv.com/mdatv/mdatv/playlist.m3u8
-#EXTINF:-1 group-title="VENEZUELA" tvg-id="MonagasVision.ve",Monagas Visión (720p) [Not 24/7]
-https://cloud2.streaminglivehd.com:1936/monagasvision/monagasvision/playlist.m3u8
-#EXTINF:-1 group-title="VENEZUELA" tvg-id="OasisTelevision.ve",Oasis Televisión (720p)
-http://vcp1.myplaytv.com/oasistv/oasistv/playlist.m3u8
-#EXTINF:-1 group-title="VENEZUELA" tvg-id="OnzaTV.ve",Onza TV (720p)
-https://stmv1.srvstm.com/gproducciones/gproducciones/playlist.m3u8
-#EXTINF:-1 group-title="VENEZUELA" tvg-id="OxigenoTV.ve",Oxigeno TV (360p) [Not 24/7]
-https://vcp.myplaytv.com/oxigenotv/oxigenotv/playlist.m3u8
-#EXTINF:-1 group-title="VENEZUELA" tvg-id="Panavision.ve",Panavisión (1080p)
-https://vcp.myplaytv.com/panavision/panavision/playlist.m3u8
-#EXTINF:-1 group-title="VENEZUELA" tvg-id="PLTV.ve",PLTV (614p)
-https://vcp2.myplaytv.com/pltv/pltv/playlist.m3u8
-#EXTINF:-1 group-title="VENEZUELA" tvg-id="PortuTV.ve",PortuTV (480p)
-https://streamtv.intervenhosting.net:3789/live/portutvlive.m3u8
-#EXTINF:-1 group-title="VENEZUELA" tvg-id="PromarTV.ve",PromarTV (1080p) [Not 24/7]
-http://vcp1.myplaytv.com:1935/promar/promar/playlist.m3u8
-#EXTINF:-1 group-title="VENEZUELA" tvg-id="ReformaTV.ve",Reforma TV (1080p)
-https://5bf8041cb3fed.streamlock.net/ReformaTV/ReformaTV/playlist.m3u8
-#EXTINF:-1 group-title="VENEZUELA" tvg-id="SHOWVEN TV.ve",ShowVen TV (1080p)
-https://vcp.myplaytv.com/coll/coll/playlist.m3u8
-#EXTINF:-1 group-title="VENEZUELA" tvg-id="SomosTV.ve",Somos TV (720p) [Not 24/7]
-https://vcp3.myplaytv.com/somostv/somostv/playlist.m3u8
-#EXTINF:-1 group-title="VENEZUELA" tvg-id="SucreTV.ve",Sucre tv (360p) [Not 24/7]
-https://stream.oursnetworktv.com/latin/sucretv/playlist.m3u8
-#EXTINF:-1 group-title="VENEZUELA" tvg-id="TAMTV.ve",TAM TV (240p)
-https://tv.webtuya.com:3459/live/tammeridalive.m3u8
-#EXTINF:-1 group-title="VENEZUELA" tvg-id="Telearagua.ve",TeleAragua (480p)
-http://45.173.198.59:8080/hls/nginx3.m3u8?tla=
-#EXTINF:-1 group-title="VENEZUELA" tvg-id="Telebocono.ve",Teleboconó (720p) [Not 24/7]
-https://rpn3.bozztv.com/ssh101/ssh101/tcbstreaming/playlist.m3u8
-#EXTINF:-1 group-title="VENEZUELA" tvg-id="Telecentro.ve",Telecentro (480p)
-https://streamtv.intervenhosting.net:3161/live/telecentrolive.m3u8
-#EXTINF:-1 group-title="VENEZUELA" tvg-id="Telecolor.ve",Telecolor (480p)
-https://cloud.livescast.com:19360/telecolor/telecolor.m3u8
-#EXTINF:-1 group-title="VENEZUELA" tvg-id="Telesol.ve",Telesol (720p) [Not 24/7]
-https://vcp2.myplaytv.com/telesol/telesol/playlist.m3u8
-#EXTINF:-1 group-title="VENEZUELA" tvg-id="TVO.ve",Televisora de Oriente (406p)
-https://cloud.fastchannel.es/manifiest/hls/prog9/tvo.m3u8
-#EXTINF:-1 group-title="VENEZUELA" tvg-id="TNORadio.ve",TNO Radio (720p)
-https://stmv1.srvstm.com/tnovideo1/tnovideo1/playlist.m3u8
-#EXTINF:-1 group-title="VENEZUELA" tvg-id="TorococoTV.ve",Torococo TV (720p) [Not 24/7]
-https://oracle.streaminghd.cl/torococotelevision/torococotelevision/playlist.m3u8
-#EXTINF:-1 group-title="VENEZUELA" tvg-id="TRT.ve",TRT (410p)
-https://vcp3.myplaytv.com/trt/trt/playlist.m3u8
-#EXTINF:-1 group-title="VENEZUELA" tvg-id="TRV.ve",TRV (480p)
-https://vcp3.myplaytv.com/trv/trv/playlist.m3u8
-#EXTINF:-1 group-title="VENEZUELA" tvg-id="TVAndes.ve",TV Andes (720p) [Not 24/7]
-https://vcp3.myplaytv.com/tvandes/tvandes/playlist.m3u8
-#EXTINF:-1 group-title="VENEZUELA" tvg-id="TVS.ve",TVS (720p)
-https://vcp3.myplaytv.com/tvs/tvs/playlist.m3u8
-#EXTINF:-1 group-title="VENEZUELA" tvg-id="UnareTV.ve",Unare TV (392p)
-https://srv.panelcast.net/yohancarlos/yohancarlos/playlist.m3u8
-#EXTINF:-1 group-title="VENEZUELA" tvg-id="UniTV.ve",UniTV (720p)
-https://vcp6.myplaytv.com/unitv/unitv/playlist.m3u8
-#EXTINF:-1 group-title="VENEZUELA" tvg-id="VTV.ve",Venezolana de Televisión (720p) [Not 24/7]
-#EXTVLCOPT:http-referrer=https://odysee.com/
-https://cloud.odysee.live/content/9ad6390b9047d4c43ea0ae6ca3199a3ef70fc8aa/master.m3u8
-#EXTINF:-1 group-title="VENEZUELA" tvg-id="TVEPACO.ve",Vepaco TV (480p)
-https://cloud.fastchannel.es/manifiest/hls/prog9/vepacotv.m3u8
-#EXTINF:-1 group-title="VENEZUELA" tvg-id="VivoPlay.ve",VIVOplay (576p)
-https://linear-260.frequency.stream/mt/studio/260/hls/master/playlist.m3u8
-#EXTINF:-1 group-title="VENEZUELA" tvg-id="VPItv.ve",VPItv (1080p)
-https://ott3.streann.com/loadbalancer/services/public/channels/5d23d5882cdce61dae029fd8/playlist.m3u8
-#EXTINF:-1 group-title="VENEZUELA" tvg-id="Yatvo.ve",YATVO (720p)
-https://rpn3.bozztv.com/ssh101/ssh101/yatvo/playlist.m3u8
 #EXTM3U url-tvg="https://epgshare01.online/epgshare01/epg_ripper_ALL_SOURCES1.xml.gz"
 #EXTM3U
 #EXTINF:-1 group-title="TV AO VIVO" tvg-id="TV.Câmara.br" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYHdTw02OttzmZwMjtGoio__PYyI3HSd7jaYbzSE5s6844szteQCmUWM30MQ&s",TV CÂMARA
@@ -6354,92 +6038,3 @@ http://200.4.96.59:8825/play/a052/index.m3u8
 http://200.4.96.59:8825/play/a022/index.m3u8
 #EXTINF:-1 group-title="TV AO VIVO" tvg-id="Premiere.5.br" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRN7niJXjCmUBxr6hFl5ZLC0PGROELmZg4O2Zm0Yq9inFW92jt2_W6kbeNR6Q&s",PREMIERE 5
 http://200.4.96.59:8825/play/a06o/index.m3u8
-#EXTM3U url-tvg="https://epgshare01.online/epgshare01/epg_ripper_ALL_SOURCES1.xml.gz"
-#EXTINF:-1 group-title="AO VIVO" tvg-id="plex.tv.UFC.plex" tvg-logo="https://imgur.com/N36pJ0F.jpg",UFC
-https://linear-893.frequency.stream/mt/plex/893/hls/master/playlist.m3u8
-#EXTINF:-1 group-title="ABERTOS" tvg-id="CNNBrasil.br" tvg-logo="https://imgur.com/lNRgeYH.jpg",CNN BRASIL (STV)
-https://d25usgadhphvwi.cloudfront.net/hls/stv-plus1920x1080/playlist.m3u8
-#EXTINF:-1 group-title="ABERTOS" tvg-id="Jovem.Pan.News.br" tvg-logo="https://images.pluto.tv/channels/6317ba014d4d040007227f72/featuredImage.jpg",JOVEN PAN NEWS (TCLTV)
-https://amg01391-amg01391c3-tcl-spain-5038.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1 group-title="ABERTOS" tvg-id="Record.News.br" tvg-logo="https://imgur.com/prZDV41.jpg",RECORD NEWS
-https://rnw-rn-tcl-roku-syndication.otteravision.com/rnw/rn/rnw_rn.m3u8
-#EXTINF:-1 group-title="ABERTOS" tvg-id="New.Brasil.br" tvg-logo="https://images.pluto.tv/channels/645a99282858cb0008ea8378/featuredImage.jpg",NEW BRASIL (TCLTV)
-https://amg01391-sbtinfast-amg01391c5-tcl-us-5080.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1 group-title="ABERTOS" tvg-id="New.Brasil.br" tvg-logo="https://images.pluto.tv/channels/645a99282858cb0008ea8378/featuredImage.jpg",NEW BRASIL (LGTV)
-https://amg01391-sbtinfast-amg01391c5-lg-br-6099.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1 group-title="ABERTOS" tvg-id="TV.Pampa.br" tvg-logo="https://imgur.com/khkkkuk.jpg",TV PAMPA
-https://video04.logicahost.com.br/tvpampa/tvpampa/playlist.m3u8
-#EXTINF:-1 group-title="ABERTOS" tvg-id="Masper.TV.br" tvg-logo="https://imgur.com/C3sZsX8.jpg",MASPER TV
-https://tv01.zas.media:1936/bahtv/bahtv/playlist.m3u8
-#EXTINF:-1 group-title="ABERTOS" tvg-id="POA.Streaming.br" tvg-logo="https://imgur.com/TtyCrwW.jpg",POA STREAMING TV
-https://video01.logicahost.com.br/poastreaming/poastreaming/playlist.m3u8
-#EXTINF:-1 group-title="ABERTOS" tvg-id="POA.24Horas.br" tvg-logo="https://imgur.com/KOJelN6.jpg",POA 24 HORAS
-https://rtisoluctions.com.br/hls/test_src.m3u8
-#EXTINF:-1 group-title="ABERTOS" tvg-id="RS.Play.TV.br" tvg-logo="https://imgur.com/AS5lg7A.jpg",RS PLAY TV
-https://tv03.zas.media:1936/rsplay/rsplay/playlist.m3u8
-#EXTINF:-1 group-title="ABERTOS" tvg-id="TV.Diario.SM.br" tvg-logo="https://imgur.com/QtW8LDz.jpg",TV DIÁRIO SM
-https://cdn-diariosm.ciclano.io:1443/diariosm/diariosm/chunklist.m3u8
-#EXTINF:-1 group-title="ABERTOS" tvg-id="TV.Cultura.br" tvg-logo="https://imgur.com/hsZ4qV5.jpg",TV CULTURA
-https://player-tvcultura.stream.uol.com.br/live/tvcultura.m3u8
-#EXTINF:-1 group-title="ABERTOS" tvg-id="Rede.Minas.br" tvg-logo="https://imgur.com/IhxadqR.jpg",REDE MINAS
-https://8hzcavccys.zoeweb.tv/redeminas/ngrp:redeminas_all/playlist.m3u8
-#EXTINF:-1 group-title="ABERTOS" tvg-id="YpeTV.br" tvg-logo="https://imgur.com/BrMQeNS.jpg",YPÊTV
-https://video09.logicahost.com.br/yptvoficioal/yptvoficioal/playlist.m3u8
-#EXTINF:-1 group-title="ABERTOS" tvg-id="COM.Brasil.br" tvg-logo="https://imgur.com/WTtsInb.jpg",COM BRASIL TV
-https://br5093.streamingdevideo.com.br/abc/abc/playlist.m3u8
-#EXTINF:-1 group-title="ABERTOS" tvg-id="Canal.Gov.br" tvg-logo="https://imgur.com/s7BoZ89.jpg",CANAL GOV
-https://canalgov-stream.ebc.com.br/index.m3u8
-#EXTINF:-1 group-title="ABERTOS" tvg-id="TV.Brasil.br" tvg-logo="https://imgur.com/I0KjzJj.jpg",TV BRASIL
-https://tvbrasil-stream.ebc.com.br/index.m3u8
-#EXTINF:-1 group-title="ABERTOS" tvg-id="TV.Brasil.Int.br" tvg-logo="https://imgur.com/cSGtFbn.jpg",TV BRASIL INT
-https://tvbrasilinternacional-stream.ebc.com.br/index.m3u8
-#EXTINF:-1 group-title="ABERTOS" tvg-id="Terra.Viva.br" tvg-logo="https://imgur.com/eWQBI6j.jpg",TERRA VIVA
-https://origin-07.nxplay.com.br/TERRAVIVA_FAST/index.m3u8?token=feae3ae46e13c1678350df2c372a20263c9ad27f-c93faaf4f5f0fcc2eb74a0f732899f7e-1740878456-1740835256
-#EXTINF:-1 group-title="ABERTOS" tvg-id="DW.de" tvg-logo="https://static.dw.com/image/132806_302.jpg",DW PORTUGUÊS
-https://dwamdstream104.akamaized.net/hls/live/2015530/dwstream104/index.m3u8
-#EXTINF:-1 group-title="ABERTOS INT" tvg-id="CNN.us" tvg-logo="https://imgur.com/NH3aoAX.jpg",CNN US
-https://turnerlive.warnermediacdn.com/hls/live/586495/cnngo/cnn_slate/VIDEO_0_3564000.m3u8
-#EXTINF:-1 group-title="ABERTOS INT" tvg-id="SIC.pt" tvg-logo="https://imgur.com/tvTrpok.jpg",SIC PT
-https://d1zx6l1dn8vaj5.cloudfront.net/out/v1/b89cc37caa6d418eb423cf092a2ef970/index.m3u8
-#EXTINF:-1 group-title="ABERTOS INT" tvg-id="TVE.es" tvg-logo="https://imgur.com/4s4N14e.jpg",TVE 24 ES
-https://rtvelivestream.rtve.es/rtvesec/24h/24h_main_dvr.m3u8
-#EXTINF:-1 group-title="ESPORTE" tvg-id="ESPN.6.br" tvg-logo="https://imgur.com/h9l4jnB.jpg",ESPN 6
-http://hls1.sua.tv:80/live/espnextrafhd/s.m3u8
-#EXTINF:-1 group-title="ESPORTE" tvg-id="ge-tv" tvg-logo="https://imgur.com/Zgt0eel.jpg",GE TV (TCLTV)
-https://amg00716-globo-amg00716c1-tcl-br-9495.playouts.now.amagi.tv/1080p-cc/index.m3u8
-#EXTINF:-1 group-title="ESPORTE" tvg-id="ge-tv" tvg-logo="https://imgur.com/Zgt0eel.jpg",GE TV (LGTV)
-https://amg00716-globo-amg00716c1-lg-br-9609.playouts.now.amagi.tv/1080p-cc/index.m3u8
-#EXTINF:-1 group-title="ESPORTE" tvg-id="CazeTV.br" tvg-logo="https://imgur.com/aoVzWYh.jpg",CAZÉTV (STV)
-https://dfr80qz435crc.cloudfront.net/MNOP/Amagi/Caze/Caze_TV_BR/1080p-vtt/index.m3u8
-#EXTINF:-1 group-title="ESPORTE" tvg-id="Nsports.br" tvg-logo="https://imgur.com/QgtDIaX.jpg",N SPORTS FAST
-https://cc-zv5hyc9jj47n5.akamaized.net/ogc/nsprt/nsprt.m3u8
-#EXTINF:-1 group-title="ESPORTE INT" tvg-id="beINSportsXtra.us" tvg-logo="https://images.pluto.tv/channels/5df975e2b27cf5000921c102/featuredImage.jpg",beIN SPORTS XTRA (FIRETV)
-https://bein-beinxtrasports-firetv.amagi.tv/playlist.m3u8
-#EXTINF:-1 group-title="ESPORTE INT" tvg-id="beINSportsXtra.us" tvg-logo="https://images.pluto.tv/channels/5df975e2b27cf5000921c102/featuredImage.jpg",beIN SPORTS XTRA (XUMOTV)
-https://bein-xtra-xumo.amagi.tv/playlist.m3u8
-#EXTINF:-1 group-title="ESPORTE INT" tvg-id="beINSportsXTRA.ES.es" tvg-logo="https://images.pluto.tv/channels/60492fdd9989d30007ccd30a/featuredImage.jpg",beIN SPORTS XTRA Ñ (XUMOTV)
-https://bein-esp-xumo.amagi.tv/playlist.m3u8
-#EXTINF:-1 group-title="ESPORTE INT" tvg-id="plex.tv.PickleTV.plex" tvg-logo="https://imgur.com/VQe9ATY.jpg",PICKLETV
-https://jmp2.uk/plex-5e20b730f2f8d5003d739db7-63ec0b739866d8d2120ac759.m3u8
-#EXTINF:-1 group-title="ESPORTE INT" tvg-id="Red.Bull.TV.at" tvg-logo="https://imgur.com/p6dxdzC.jpg",RED BULL TV
-https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master.m3u8
-#EXTINF:-1 group-title="ESPORTE INT" tvg-id="SuperTennis.TV.it" tvg-logo="https://imgur.com/cocgEPF.jpg",SUPERTENNIS TV
-https://live-embed.supertennix.hiway.media/restreamer/supertennix_client/gpu-a-c0-16/restreamer/outgest/aa3673f1-e178-44a9-a947-ef41db73211a/manifest.m3u8
-#EXTINF:-1 group-title="ESPORTE INT" tvg-id="Tennis.Channel.us" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CHBA22000080G_20250107T025336SQUARE.png",TENNIS CHANNEL
-https://tennischannel-int-samsunguk.amagi.tv/playlist.m3u8
-#EXTINF:-1 group-title="ESPORTE INT" tvg-id="Yahoo.Sports.us" tvg-logo="https://imgur.com/EHNOoOy.png",Yahoo Sports Network US
-https://yahoo.global.transmit.live/hls/6862d5fd233e6604b8b457c6/09f289527d9545b38b36cfe7623c619f/us-east-1/6415665815001/playlist_dvr.m3u8
-#EXTINF:-1 group-title="RADIO" tvg-id="Charrua.95.1.br" tvg-logo="https://imgur.com/3YXTSEc.jpg",CHARRUA 95.1 FM
-https://cast.youngtech.radio.br/radio/8780/am
-#EXTINF:-1 group-title="RADIO" tvg-id="Charrua.97.7.br" tvg-logo="https://imgur.com/RGUBFY8.jpg",CHARRUA 97.7 FM
-https://cast.youngtech.radio.br/radio/8780/fm
-#EXTINF:-1 group-title="RADIO" tvg-id="Gaucha.2.br" tvg-logo="https://imgur.com/t0kDObk.jpg",GAUCHA 2
-https://liverdgaupoa2.rbsdirect.com.br/primary/gaucha_rbs2.sdp/playlist.m3u8
-#EXTINF:-1 group-title="RADIO" tvg-id="Atlantida.br" tvg-logo="https://imgur.com/yjjOSCY.jpg",ATLÂNTIDA
-http://liverdatlpoa.rbsdirect.com.br/primary/atl_poa.sdp/chunklist.m3u8
-#EXTINF:-1 group-title="RADIO" tvg-id="Atlantida.Floripa.br" tvg-logo="https://imgur.com/yjjOSCY.jpg",ATLÂNTIDA FLORIPA
-https://24383.live.streamtheworld.com/ATL_FLO.mp3
-#EXTINF:-1 group-title="RADIO" tvg-id="CBN.POA.br" tvg-logo="https://imgur.com/056MqOG.jpg",CBN POA
-https://liverdcbn.rbsdirect.com.br/primary/cbn_poa.sdp/playlist.m3u8
-#EXTINF:-1 group-title="RADIO" tvg-id="Concierto.FM.br" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVL7LDRdHDaX21PVccz1VKUyLWX1ZGkPnLHAngKF5fs8Q5mzUQNWEcgGsojA&s",CONCIERTO FM PUNTA
-https://conectperu.com/8012/stream
