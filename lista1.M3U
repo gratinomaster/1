@@ -19,12 +19,6 @@ http://hls1.sua.tv/live/globotvbahiafhdbr2/s.m3u8
 http://hls1.sua.tv/live/globotvbahiafhdbr2/s.m3u8
 #EXTINF:-1 group-title="GLOBO AO VIVO" tvg-id="Globo TV Bahia.br" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/1/1e/Logotipo_TV_Bahia.png",TV Bahia
 http://hls1.sua.tv/live/globotvbahiafhdbr2/s.m3u8
-#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="NoLogoFound.png",Computer Chronicles - 01x01 - Mainframes to Minis to Micros
-https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chronicles.zip/Computer%20Chronicles%2FSeason%2001%2FEnglish%2FComputer%20Chronicles%20-%2001x01%20-%20Mainframes%20to%20Minis%20to%20Micros.mp4
-#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="NoLogoFound.png",Computer Chronicles - 01x02 - Integrated Software
-https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chronicles.zip/Computer%20Chronicles%2FSeason%2001%2FEnglish%2FComputer%20Chronicles%20-%2001x02%20-%20Integrated%20Software.mp4
-#EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="NoLogoFound.png",Computer Chronicles - 01x03 - Computers and Music
-https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chronicles.zip/Computer%20Chronicles%2FSeason%2001%2FEnglish%2FComputer%20Chronicles%20-%2001x03%20-%20Computers%20and%20Music.mp4
 #EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="NoLogoFound.png",Computer Chronicles - 01x04 - Computer Simulations
 https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chronicles.zip/Computer%20Chronicles%2FSeason%2001%2FEnglish%2FComputer%20Chronicles%20-%2001x04%20-%20Computer%20Simulations.mp4
 #EXTINF:-1 group-title="Undefined" tvg-id="Undefined" tvg-logo="NoLogoFound.png",Computer Chronicles - 01x05 - Operating Systems
@@ -190,10 +184,18 @@ https://archive.org/download/1950-commercial-for-westinghouse-television-set-2/1
 https://archive.org/download/Love_Of_Life_Soap/LoveofLifeMarch20-1953.ogv
 #EXTINF:-1 group-title="VOD" ,Another "What's My Line" with guest Lucille Ball (Classic TV)
 https://archive.org/download/Yet_More_Lucy/WhatsMyLine21February1954.ogv
-#EXTINF:-1 group-title="VOD" ,''Four Star Playhouse'' - Henry And The Psychopathic Horse
-https://archive.org/download/FourStarPlayhouseHenryAndThePsychopathicHorse/Four%20Star%20Playhouse%20-%20Henry%20and%20the%20Psychopathic%20Horse.ogv
+#EXTINF:-1 group-title="VOD" ,''Valiant Lady'' - Misc 1955 episode (upgrade)
+https://archive.org/download/ValiantLady1955-Upgraded/valiantlady1955.ogv
 #EXTINF:-1 group-title="VOD" ,1957 CBS-TV Special ''The Edsel Show'' with Guests
 https://archive.org/download/TheEdselShow1957/EdselShow.ogv
+#EXTINF:-1 group-title="VOD" ,1961 promo for Gunsmoke
+https://archive.org/download/1961-promo-for-gunsmoke/1961%20promo%20for%20Gunsmoke.mp4
+#EXTINF:-1 group-title="VOD" ,1967 TV Soap: ''Love is a Many Splendored Thing'' - 1st of December 1967
+https://archive.org/download/1967_PD_Soapie/LoveisaManySplenderedThing1967.ogv
+#EXTINF:-1 group-title="VOD" ,1969 promo for Here's Lucy
+https://archive.org/download/1969PromoForHeresLucy/1969%20Promo%20for%20%27%27Here%27s%20Lucy%27%27.ogv
+#EXTINF:-1 group-title="VOD" ,Dummy 1979 ( Le Var Burton, Paul Sorvino)
+https://archive.org/download/dummy-1979-le-var-burton-paul-sorvino/%28output004%29%28output001%29Dummy%20-%201979%20%28LeVar%20Burton%2C%20Paul%20Sorvino%29.mp4
 #EXTM3U
 #EXTM3U
 #EXTM3U
