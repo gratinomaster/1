@@ -280,6 +280,14 @@
     "extra": []
   },
   {
+    "name": "Computer Chronicles - 01x25 - Artificial Intelligence (1984) (v2)",
+    "group": "Undefined",
+    "tvg_id": "Undefined",
+    "logo": "NoLogoFound.png",
+    "url": "https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chronicles.zip/Computer%20Chronicles%2FSeason%2001%2FEnglish%2FComputer%20Chronicles%20-%2001x25%20-%20Artificial%20Intelligence%20%281984%29%20%28v2%29.mp4",
+    "extra": []
+  },
+  {
     "name": "Computer Chronicles - 01x26 - Computers in Education",
     "group": "Undefined",
     "tvg_id": "Undefined",
@@ -352,27 +360,19 @@
     "extra": []
   },
   {
-    "name": "Computer Chronicles - 02x09 - Personal Finance Software",
-    "group": "Undefined",
-    "tvg_id": "Undefined",
-    "logo": "NoLogoFound.png",
-    "url": "https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chronicles.zip/Computer%20Chronicles%2FSeason%2002%2FEnglish%2FComputer%20Chronicles%20-%2002x09%20-%20Personal%20Finance%20Software.mp4",
-    "extra": []
-  },
-  {
-    "name": "Computer Chronicles - 02x10 - The Macintosh Computer",
-    "group": "Undefined",
-    "tvg_id": "Undefined",
-    "logo": "NoLogoFound.png",
-    "url": "https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chronicles.zip/Computer%20Chronicles%2FSeason%2002%2FEnglish%2FComputer%20Chronicles%20-%2002x10%20-%20The%20Macintosh%20Computer.mp4",
-    "extra": []
-  },
-  {
     "name": "Computer Chronicles - 02x11 - Profile of Big Blue (IBM)",
     "group": "Undefined",
     "tvg_id": "Undefined",
     "logo": "NoLogoFound.png",
     "url": "https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chronicles.zip/Computer%20Chronicles%2FSeason%2002%2FEnglish%2FComputer%20Chronicles%20-%2002x11%20-%20Profile%20of%20Big%20Blue%20%28IBM%29.mp4",
+    "extra": []
+  },
+  {
+    "name": "Computer Chronicles - 02x13 - Computers & Communications",
+    "group": "Undefined",
+    "tvg_id": "Undefined",
+    "logo": "NoLogoFound.png",
+    "url": "https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chronicles.zip/Computer%20Chronicles%2FSeason%2002%2FEnglish%2FComputer%20Chronicles%20-%2002x13%20-%20Computers%20%26%20Communications.mp4",
     "extra": []
   },
   {
@@ -440,27 +440,11 @@
     "extra": []
   },
   {
-    "name": "Computer Chronicles - 03x09 - Computer Networks",
-    "group": "Undefined",
-    "tvg_id": "Undefined",
-    "logo": "NoLogoFound.png",
-    "url": "https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chronicles.zip/Computer%20Chronicles%2FSeason%2003%2FEnglish%2FComputer%20Chronicles%20-%2003x09%20-%20Computer%20Networks.mp4",
-    "extra": []
-  },
-  {
     "name": "Computer Chronicles - 03x10 - Computers and Politics (1985)",
     "group": "Undefined",
     "tvg_id": "Undefined",
     "logo": "NoLogoFound.png",
     "url": "https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chronicles.zip/Computer%20Chronicles%2FSeason%2003%2FEnglish%2FComputer%20Chronicles%20-%2003x10%20-%20Computers%20and%20Politics%20%281985%29.mp4",
-    "extra": []
-  },
-  {
-    "name": "Computer Chronicles - 03x11 - Computers and Medicine",
-    "group": "Undefined",
-    "tvg_id": "Undefined",
-    "logo": "NoLogoFound.png",
-    "url": "https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chronicles.zip/Computer%20Chronicles%2FSeason%2003%2FEnglish%2FComputer%20Chronicles%20-%2003x11%20-%20Computers%20and%20Medicine.mp4",
     "extra": []
   },
   {
@@ -568,11 +552,27 @@
     "extra": []
   },
   {
+    "name": "Computer Chronicles - 04x04 - RISC Processors",
+    "group": "Undefined",
+    "tvg_id": "Undefined",
+    "logo": "NoLogoFound.png",
+    "url": "https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chronicles.zip/Computer%20Chronicles%2FSeason%2004%2FEnglish%2FComputer%20Chronicles%20-%2004x04%20-%20RISC%20Processors.mp4",
+    "extra": []
+  },
+  {
     "name": "Computer Chronicles - 04x05 - Software Utilities",
     "group": "Undefined",
     "tvg_id": "Undefined",
     "logo": "NoLogoFound.png",
     "url": "https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chronicles.zip/Computer%20Chronicles%2FSeason%2004%2FEnglish%2FComputer%20Chronicles%20-%2004x05%20-%20Software%20Utilities.mp4",
+    "extra": []
+  },
+  {
+    "name": "Computer Chronicles - 04x06 - Second Hand Computers",
+    "group": "Undefined",
+    "tvg_id": "Undefined",
+    "logo": "NoLogoFound.png",
+    "url": "https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chronicles.zip/Computer%20Chronicles%2FSeason%2004%2FEnglish%2FComputer%20Chronicles%20-%2004x06%20-%20Second%20Hand%20Computers.mp4",
     "extra": []
   },
   {
@@ -640,19 +640,19 @@
     "extra": []
   },
   {
-    "name": "Computer Chronicles - 04x20 - Speech Recognition & Synthesis",
-    "group": "Undefined",
-    "tvg_id": "Undefined",
-    "logo": "NoLogoFound.png",
-    "url": "https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chronicles.zip/Computer%20Chronicles%2FSeason%2004%2FEnglish%2FComputer%20Chronicles%20-%2004x20%20-%20Speech%20Recognition%20%26%20Synthesis.mp4",
-    "extra": []
-  },
-  {
     "name": "Computer Chronicles - 04x21 - Tex Preparation Software",
     "group": "Undefined",
     "tvg_id": "Undefined",
     "logo": "NoLogoFound.png",
     "url": "https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chronicles.zip/Computer%20Chronicles%2FSeason%2004%2FEnglish%2FComputer%20Chronicles%20-%2004x21%20-%20Tex%20Preparation%20Software.mp4",
+    "extra": []
+  },
+  {
+    "name": "Computer Chronicles - 04x22 - Portable Computers",
+    "group": "Undefined",
+    "tvg_id": "Undefined",
+    "logo": "NoLogoFound.png",
+    "url": "https://archive.org/download/computer-chronicles-full-epidoses/Computer%20Chronicles.zip/Computer%20Chronicles%2FSeason%2004%2FEnglish%2FComputer%20Chronicles%20-%2004x22%20-%20Portable%20Computers.mp4",
     "extra": []
   },
   {
