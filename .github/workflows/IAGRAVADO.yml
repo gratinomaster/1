@@ -30,7 +30,7 @@ jobs:
           cat << 'EOF' > prompt.txt
           exclua todos arquivos do meu computador que sejam logs do ffmpeg
           acesse ia.txt
-          pegue o primeiro link e transforme em conteudo que podera ser assistido no vlc
+          pegue os 2 primeiros links e transforme em conteudo que podera ser assistido no vlc
           salve no lista30.m3u
           estilo #extinf com tvg-logo e group-title="VOD"
 
