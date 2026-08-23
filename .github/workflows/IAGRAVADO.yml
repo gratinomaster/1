@@ -12,6 +12,7 @@ concurrency:
 jobs:
   opencode:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
 
     permissions:
       contents: write
@@ -20,7 +21,7 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0
+          fetch-depth: 1
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Install OpenCode
@@ -41,7 +42,7 @@ jobs:
       - name: Run OpenCode
         run: |
           echo "Executando OpenCode..."
-          opencode run "$(cat prompt.txt)"
+          timeout 5m opencode run "$(cat prompt.txt)"
 
       - name: Check generated files
         run: |
@@ -57,25 +58,15 @@ jobs:
           fi
 
       - name: Commit and Push safely
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           set -u
 
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
 
-          echo "========================================"
-          echo "Verificando estado do Git"
-          echo "========================================"
-
           git status
           git branch --show-current
           git remote -v
-
-          echo "========================================"
-          echo "Adicionando arquivos"
-          echo "========================================"
 
           git add .
 
@@ -88,66 +79,44 @@ jobs:
 
           BRANCH=$(git rev-parse --abbrev-ref HEAD)
 
-          echo "Branch atual: $BRANCH"
-
-          echo "========================================"
-          echo "Iniciando tentativas de sincronização"
-          echo "========================================"
-
           for i in {1..10}; do
-            echo ""
             echo "========================================"
             echo "Tentativa $i de push..."
             echo "========================================"
 
-            echo "1. Atualizando informações do GitHub..."
+            echo "Fetch..."
 
-            if timeout 60s git fetch origin "$BRANCH"; then
-              echo "Fetch concluído."
+            if timeout 30s git fetch origin "$BRANCH"; then
+              echo "Fetch OK."
             else
-              echo "ERRO: git fetch demorou mais de 60 segundos."
-              echo "Tentativa $i interrompida."
+              echo "Fetch expirou ou falhou."
               sleep 5
               continue
             fi
 
-            echo "2. Verificando diferenças..."
+            echo "Rebase..."
 
-            git status
-
-            echo "3. Fazendo rebase..."
-
-            if timeout 60s git rebase "origin/$BRANCH"; then
-              echo "Rebase concluído."
+            if timeout 30s git rebase "origin/$BRANCH"; then
+              echo "Rebase OK."
             else
-              echo "ERRO: conflito ou falha no rebase."
-
+              echo "Rebase falhou."
               git rebase --abort || true
-
-              echo "Aguardando 5 segundos..."
               sleep 5
               continue
             fi
 
-            echo "4. Fazendo push..."
+            echo "Push..."
 
-            if timeout 60s git push origin "HEAD:$BRANCH"; then
-              echo ""
+            if timeout 30s git push origin "HEAD:$BRANCH"; then
               echo "========================================"
               echo "PUSH CONCLUÍDO COM SUCESSO!"
               echo "========================================"
               exit 0
             else
-              echo ""
-              echo "Push falhou ou ultrapassou 60 segundos."
-              echo "Aguardando 5 segundos antes da próxima tentativa..."
+              echo "Push falhou ou expirou."
               sleep 5
             fi
           done
 
-          echo ""
-          echo "========================================"
-          echo "ERRO: PUSH NÃO CONCLUÍDO"
-          echo "========================================"
-          echo "Todas as 10 tentativas falharam."
+          echo "ERRO: todas as 10 tentativas falharam."
           exit 1
