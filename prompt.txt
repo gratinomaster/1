@@ -1,7 +1,5 @@
 exclua todos arquivos do meu computador que sejam logs do ffmpeg
-leia bbb.txt e adcione a UMA.m3u
 acesse ia.txt
-pegue o primeiro link e transforme em conteudo que podera ser assistido no vlc
-salve no lista30.m3u
+pegue os 2 primeiros links e transforme em conteudo que podera ser assistido no vlc
+salve no lista30.M3U
 estilo #extinf com tvg-logo e group-title="VOD"
-
