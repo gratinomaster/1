@@ -37,6 +37,7 @@ jobs:
           pegue os 29 primeiros links e transforme em conteudo que podera ser assistido no vlc
           salve no lista30.M3U
           estilo #extinf com tvg-logo e group-title="VOD"
+          use yt-dlp
           EOF
 
       - name: Run OpenCode
