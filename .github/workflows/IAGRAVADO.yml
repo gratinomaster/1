@@ -1,4 +1,4 @@
-name: NEWSWORLD
+name: IA GRAVADO
 
 on:
   workflow_dispatch:
@@ -29,7 +29,6 @@ jobs:
         run: |
           cat << 'EOF' > prompt.txt
           exclua todos arquivos do meu computador que sejam logs do ffmpeg
-          leia bbb.txt e adcione a UMA.m3u
           acesse ia.txt
           pegue o primeiro link e transforme em conteudo que podera ser assistido no vlc
           salve no lista30.m3u
