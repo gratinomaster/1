@@ -19,11 +19,14 @@ jobs:
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Install OpenCode
         run: |
           curl -fsSL https://opencode.ai/install | bash
-          echo "$HOME/.opencode/bin" >> $GITHUB_PATH
+          echo "$HOME/.opencode/bin" >> "$GITHUB_PATH"
 
       - name: Create prompt
         run: |
@@ -33,7 +36,6 @@ jobs:
           pegue os 2 primeiros links e transforme em conteudo que podera ser assistido no vlc
           salve no lista30.M3U
           estilo #extinf com tvg-logo e group-title="VOD"
-
           EOF
 
       - name: Run OpenCode
@@ -46,36 +48,106 @@ jobs:
           echo "Arquivos no diretório:"
           ls -la
 
-          if [ -f lista5.m3u ]; then
+          if [ -f lista30.M3U ]; then
             echo "Playlist criada:"
-            cat lista5.m3u
+            cat lista30.M3U
           else
-            echo "lista5.m3u não foi criado"
+            echo "ERRO: lista30.M3U não foi criado"
+            exit 1
           fi
 
       - name: Commit and Push safely
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
+          set -u
+
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
 
-          git add . || true
-          git commit -m "Atualização automática da playlist" || echo "Nada para commit"
+          echo "========================================"
+          echo "Verificando estado do Git"
+          echo "========================================"
 
-          # tenta sincronizar e enviar sem sobrescrever ninguém
+          git status
+          git branch --show-current
+          git remote -v
+
+          echo "========================================"
+          echo "Adicionando arquivos"
+          echo "========================================"
+
+          git add .
+
+          if git diff --cached --quiet; then
+            echo "Nenhuma alteração para commit."
+            exit 0
+          fi
+
+          git commit -m "Atualização automática da playlist"
+
+          BRANCH=$(git rev-parse --abbrev-ref HEAD)
+
+          echo "Branch atual: $BRANCH"
+
+          echo "========================================"
+          echo "Iniciando tentativas de sincronização"
+          echo "========================================"
+
           for i in {1..10}; do
+            echo ""
+            echo "========================================"
             echo "Tentativa $i de push..."
+            echo "========================================"
 
-            git fetch origin
+            echo "1. Atualizando informações do GitHub..."
 
-            git rebase origin/$(git rev-parse --abbrev-ref HEAD) || {
-              echo "Conflito no rebase, abortando e tentando novamente..."
-              git rebase --abort
+            if timeout 60s git fetch origin "$BRANCH"; then
+              echo "Fetch concluído."
+            else
+              echo "ERRO: git fetch demorou mais de 60 segundos."
+              echo "Tentativa $i interrompida."
               sleep 5
               continue
-            }
+            fi
 
-            git push origin HEAD && break
+            echo "2. Verificando diferenças..."
 
-            echo "Push falhou, tentando novamente em 5s..."
-            sleep 5
+            git status
+
+            echo "3. Fazendo rebase..."
+
+            if timeout 60s git rebase "origin/$BRANCH"; then
+              echo "Rebase concluído."
+            else
+              echo "ERRO: conflito ou falha no rebase."
+
+              git rebase --abort || true
+
+              echo "Aguardando 5 segundos..."
+              sleep 5
+              continue
+            fi
+
+            echo "4. Fazendo push..."
+
+            if timeout 60s git push origin "HEAD:$BRANCH"; then
+              echo ""
+              echo "========================================"
+              echo "PUSH CONCLUÍDO COM SUCESSO!"
+              echo "========================================"
+              exit 0
+            else
+              echo ""
+              echo "Push falhou ou ultrapassou 60 segundos."
+              echo "Aguardando 5 segundos antes da próxima tentativa..."
+              sleep 5
+            fi
           done
+
+          echo ""
+          echo "========================================"
+          echo "ERRO: PUSH NÃO CONCLUÍDO"
+          echo "========================================"
+          echo "Todas as 10 tentativas falharam."
+          exit 1
