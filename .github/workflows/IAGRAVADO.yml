@@ -18,6 +18,7 @@ jobs:
       contents: write
 
     steps:
+
       # ========================================
       # CHECKOUT
       # ========================================
@@ -27,8 +28,9 @@ jobs:
           fetch-depth: 1
           token: ${{ secrets.GITHUB_TOKEN }}
 
+
       # ========================================
-      # FFmpeg + yt-dlp
+      # INSTALL FFMPEG + YT-DLP
       # ========================================
       - name: Install FFmpeg and yt-dlp
         shell: bash
@@ -67,8 +69,9 @@ jobs:
           command -v yt-dlp
           yt-dlp --version
 
+
       # ========================================
-      # INSTALAR OPENCODE
+      # INSTALL OPENCODE
       # ========================================
       - name: Install OpenCode
         shell: bash
@@ -83,7 +86,7 @@ jobs:
 
           echo ""
           echo "========================================"
-          echo "Verificando arquivos do OpenCode"
+          echo "Verificando instalação"
           echo "========================================"
 
           echo "HOME=$HOME"
@@ -92,9 +95,7 @@ jobs:
           ls -la "$HOME/.opencode/bin" || true
 
           echo ""
-          echo "========================================"
-          echo "Procurando executável"
-          echo "========================================"
+          echo "Procurando executável..."
 
           if [ -x "$HOME/.opencode/bin/opencode" ]; then
             OPENCODE_PATH="$HOME/.opencode/bin/opencode"
@@ -104,28 +105,36 @@ jobs:
             echo "ERRO: executável do OpenCode não encontrado."
 
             echo ""
-            echo "Procurando possíveis executáveis:"
-            find "$HOME/.opencode" -maxdepth 4 -type f -name "opencode" -print 2>/dev/null || true
+            echo "Possíveis executáveis encontrados:"
+
+            find "$HOME/.opencode" \
+              -maxdepth 4 \
+              -type f \
+              -name "opencode" \
+              -print 2>/dev/null || true
 
             exit 1
           fi
 
-          echo "OpenCode encontrado em:"
+          echo ""
+          echo "OpenCode encontrado:"
           echo "$OPENCODE_PATH"
 
           echo ""
           echo "Versão:"
+
           "$OPENCODE_PATH" --version
 
           echo ""
-          echo "Adicionando diretório ao GITHUB_PATH..."
+          echo "Adicionando PATH..."
 
           echo "$(dirname "$OPENCODE_PATH")" >> "$GITHUB_PATH"
 
           echo "$OPENCODE_PATH" > "$RUNNER_TEMP/opencode_path"
 
+
       # ========================================
-      # VERIFICAR IA.TXT
+      # VERIFY IA.TXT
       # ========================================
       - name: Verify ia.txt
         shell: bash
@@ -141,7 +150,7 @@ jobs:
             exit 1
           fi
 
-          TOTAL=$(grep -cve '^[[:space:]]*$' ia.txt || true)
+          TOTAL=$(sed '/^[[:space:]]*$/d' ia.txt | wc -l)
 
           echo "Links não vazios encontrados: $TOTAL"
 
@@ -151,90 +160,167 @@ jobs:
           fi
 
           echo ""
-          echo "Primeiros 29 links:"
+          echo "========================================"
+          echo "Primeiros 29 links"
+          echo "========================================"
 
-          grep -v '^[[:space:]]*$' ia.txt | head -29
+          sed '/^[[:space:]]*$/d' ia.txt | sed -n '1,29p'
+
+          echo ""
+          echo "Verificação concluída."
+
 
       # ========================================
-      # CRIAR PROMPT
+      # CREATE PROMPT
       # ========================================
       - name: Create prompt
         shell: bash
         run: |
           cat << 'EOF' > prompt.txt
+
           Trabalhe SOMENTE dentro do diretório atual do repositório.
 
           OBJETIVO:
-          Processar os 29 primeiros links não vazios de ia.txt usando yt-dlp e gerar lista30.M3U.
 
-          REGRAS IMPORTANTES:
+          Ler ia.txt, processar os 29 primeiros links não vazios usando yt-dlp
+          e gerar o arquivo lista30.M3U.
 
-          1. Leia o arquivo ia.txt.
+          ========================================
+          REGRAS DE SEGURANÇA
+          ========================================
 
-          2. Ignore linhas vazias.
+          1. Não faça operações fora do diretório atual do repositório.
 
-          3. Pegue exatamente os 29 primeiros links não vazios.
-
-          4. Use yt-dlp para processar os links.
-
-          5. Verifique o ffmpeg somente usando:
-             command -v ffmpeg
-
-          6. NÃO execute:
+          2. NÃO execute:
              find /
 
-          7. NÃO faça buscas recursivas no sistema inteiro.
+          3. NÃO faça buscas recursivas no sistema inteiro.
 
-          8. NÃO procure logs do ffmpeg no sistema inteiro.
+          4. NÃO procure logs do ffmpeg no filesystem inteiro.
 
-          9. NÃO apague arquivos fora do diretório atual do repositório.
+          5. NÃO apague arquivos do sistema.
 
-          10. NÃO apague arquivos do sistema.
+          6. NÃO apague arquivos fora do repositório.
 
-          11. Gere:
-              lista30.M3U
+          7. Não altere arquivos desnecessários.
 
-          12. O arquivo lista30.M3U deve estar no diretório atual do repositório.
+          ========================================
+          IA.TXT
+          ========================================
 
-          13. Use formato M3U válido.
+          8. Leia ia.txt.
 
-          14. A primeira linha deve ser:
-              #EXTM3U
+          9. Ignore linhas vazias.
 
-          15. Use entradas:
-              #EXTINF
+          10. Considere somente os 29 primeiros links não vazios.
 
-          16. Cada entrada deve utilizar:
-              tvg-logo
-              group-title="VOD"
+          11. Não processe links além desses 29.
+
+          ========================================
+          INTERNET ARCHIVE
+          ========================================
+
+          12. Os links são principalmente do Internet Archive.
+
+          13. Um link pode ser:
+
+              - página de item;
+              - página de busca;
+              - página de usuário;
+              - página de coleção;
+              - página contendo mídia.
+
+          14. NÃO presuma que todo link é diretamente um vídeo.
+
+          ========================================
+          YT-DLP
+          ========================================
+
+          15. Use yt-dlp para tentar processar cada um dos 29 links.
+
+          16. Tente obter uma URL de mídia reproduzível.
 
           17. Não invente URLs.
 
-          18. Preserve URLs válidas obtidas através do yt-dlp.
+          18. Não transforme uma página HTML em uma falsa URL de vídeo.
 
-          19. Não altere arquivos desnecessários.
+          19. Se o yt-dlp não conseguir processar um link, registre o erro
+              e continue com o próximo.
 
-          20. Não remova arquivos do sistema.
+          20. Um erro em um link NÃO deve interromper o processamento dos
+              outros links.
 
-          21. Não execute operações destrutivas fora do repositório.
+          21. No final, informe:
 
-          22. Não faça buscas demoradas no filesystem.
+              - total de links analisados;
+              - quantidade processada com sucesso;
+              - quantidade que falhou.
 
-          23. O objetivo principal é criar lista30.M3U.
+          ========================================
+          FFMPEG
+          ========================================
 
-          24. Ao terminar, verifique:
-              - se lista30.M3U existe
-              - se não está vazio
-              - se possui #EXTM3U
-              - se possui #EXTINF
-              - se possui group-title="VOD"
+          22. O FFmpeg já foi instalado pelo workflow.
 
-          25. Mostre no final um resumo do processamento.
+          23. Para verificar sua existência use somente:
 
-          IMPORTANTE:
-          Não tente procurar logs do ffmpeg usando find em /.
-          O ffmpeg já foi instalado e verificado pelo workflow.
-          O yt-dlp também já foi instalado e verificado pelo workflow.
+              command -v ffmpeg
+
+          24. Não procure arquivos de log do FFmpeg.
+
+          ========================================
+          PLAYLIST
+          ========================================
+
+          25. Gere:
+
+              lista30.M3U
+
+          26. O arquivo deve ser criado no diretório atual do repositório.
+
+          27. A primeira linha deve ser:
+
+              #EXTM3U
+
+          28. Use entradas:
+
+              #EXTINF
+
+          29. Cada entrada deve conter:
+
+              tvg-logo
+
+              group-title="VOD"
+
+          30. Não invente URLs.
+
+          31. Não coloque URLs HTML como se fossem URLs de mídia.
+
+          32. Use somente URLs obtidas de forma válida pelo processamento.
+
+          33. Mantenha a correspondência entre os links de entrada e as
+              entradas geradas.
+
+          ========================================
+          FINALIZAÇÃO
+          ========================================
+
+          34. Verifique se lista30.M3U existe.
+
+          35. Verifique se lista30.M3U não está vazio.
+
+          36. Verifique se contém #EXTM3U.
+
+          37. Verifique se contém #EXTINF.
+
+          38. Verifique se contém group-title="VOD".
+
+          39. Mostre um resumo final.
+
+          40. NÃO execute buscas demoradas no sistema de arquivos.
+
+          41. NÃO use find /.
+
           EOF
 
           echo "========================================"
@@ -243,8 +329,9 @@ jobs:
 
           cat prompt.txt
 
+
       # ========================================
-      # EXECUTAR OPENCODE
+      # RUN OPENCODE
       # ========================================
       - name: Run OpenCode
         shell: bash
@@ -255,7 +342,7 @@ jobs:
           echo "Preparando OpenCode"
           echo "========================================"
 
-          export PATH="$HOME/.opencode/bin:$HOME/.opencode:$PATH"
+          export PATH="$HOME/.opencode/bin:$HOME/.opencode:$HOME/.local/bin:$PATH"
 
           if [ -f "$RUNNER_TEMP/opencode_path" ]; then
             OPENCODE_PATH="$(cat "$RUNNER_TEMP/opencode_path")"
@@ -272,7 +359,7 @@ jobs:
           echo "========================================"
 
           if [ ! -x "$OPENCODE_PATH" ]; then
-            echo "ERRO: OpenCode não é executável:"
+            echo "ERRO: OpenCode não é executável."
             echo "$OPENCODE_PATH"
             exit 1
           fi
@@ -300,10 +387,13 @@ jobs:
           echo "Executando OpenCode"
           echo "========================================"
 
-          timeout 15m "$OPENCODE_PATH" run "$(cat prompt.txt)"
+          timeout 15m \
+            "$OPENCODE_PATH" \
+            run "$(cat prompt.txt)"
+
 
       # ========================================
-      # VALIDAR PLAYLIST
+      # VALIDATE PLAYLIST
       # ========================================
       - name: Validate generated playlist
         shell: bash
@@ -335,10 +425,10 @@ jobs:
 
           echo ""
           echo "========================================"
-          echo "Primeiras linhas"
+          echo "Primeiras linhas da playlist"
           echo "========================================"
 
-          head -30 lista30.M3U
+          sed -n '1,30p' lista30.M3U
 
           echo ""
           echo "========================================"
@@ -369,6 +459,7 @@ jobs:
           echo "PLAYLIST VALIDADA COM SUCESSO"
           echo "========================================"
 
+
       # ========================================
       # GIT STATUS
       # ========================================
@@ -380,6 +471,7 @@ jobs:
           echo "========================================"
 
           git status --short
+
 
       # ========================================
       # COMMIT + PUSH
@@ -406,7 +498,7 @@ jobs:
 
           echo ""
           echo "========================================"
-          echo "Adicionando playlist"
+          echo "Adicionando lista30.M3U"
           echo "========================================"
 
           git add lista30.M3U
@@ -427,9 +519,10 @@ jobs:
 
           echo "Branch: $BRANCH"
 
-          # ========================================
-          # PUSH COM RETRIES
-          # ========================================
+          echo ""
+          echo "========================================"
+          echo "Iniciando push"
+          echo "========================================"
 
           for i in {1..10}; do
 
