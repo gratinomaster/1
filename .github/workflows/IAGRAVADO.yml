@@ -18,21 +18,35 @@ jobs:
       contents: write
 
     steps:
+      # ========================================
+      # CHECKOUT
+      # ========================================
       - name: Checkout repo
         uses: actions/checkout@v4
         with:
           fetch-depth: 1
           token: ${{ secrets.GITHUB_TOKEN }}
 
+      # ========================================
+      # FFmpeg + yt-dlp
+      # ========================================
       - name: Install FFmpeg and yt-dlp
+        shell: bash
         run: |
           set -e
 
-          echo "Instalando FFmpeg..."
+          echo "========================================"
+          echo "Instalando FFmpeg"
+          echo "========================================"
+
           sudo apt-get update
           sudo apt-get install -y ffmpeg
 
-          echo "Instalando yt-dlp..."
+          echo ""
+          echo "========================================"
+          echo "Instalando yt-dlp"
+          echo "========================================"
+
           python3 -m pip install --user -U yt-dlp
 
           echo "$HOME/.local/bin" >> "$GITHUB_PATH"
@@ -41,6 +55,7 @@ jobs:
           echo "========================================"
           echo "Verificando FFmpeg"
           echo "========================================"
+
           command -v ffmpeg
           ffmpeg -version | head -1
 
@@ -48,19 +63,83 @@ jobs:
           echo "========================================"
           echo "Verificando yt-dlp"
           echo "========================================"
+
           command -v yt-dlp
           yt-dlp --version
 
-      - name: Verify ia.txt
+      # ========================================
+      # INSTALAR OPENCODE
+      # ========================================
+      - name: Install OpenCode
+        shell: bash
         run: |
           set -e
+
+          echo "========================================"
+          echo "Instalando OpenCode"
+          echo "========================================"
+
+          curl -fsSL https://opencode.ai/install | bash
+
+          echo ""
+          echo "========================================"
+          echo "Verificando arquivos do OpenCode"
+          echo "========================================"
+
+          echo "HOME=$HOME"
+
+          ls -la "$HOME/.opencode" || true
+          ls -la "$HOME/.opencode/bin" || true
+
+          echo ""
+          echo "========================================"
+          echo "Procurando executável"
+          echo "========================================"
+
+          if [ -x "$HOME/.opencode/bin/opencode" ]; then
+            OPENCODE_PATH="$HOME/.opencode/bin/opencode"
+          elif [ -x "$HOME/.opencode/opencode" ]; then
+            OPENCODE_PATH="$HOME/.opencode/opencode"
+          else
+            echo "ERRO: executável do OpenCode não encontrado."
+
+            echo ""
+            echo "Procurando possíveis executáveis:"
+            find "$HOME/.opencode" -maxdepth 4 -type f -name "opencode" -print 2>/dev/null || true
+
+            exit 1
+          fi
+
+          echo "OpenCode encontrado em:"
+          echo "$OPENCODE_PATH"
+
+          echo ""
+          echo "Versão:"
+          "$OPENCODE_PATH" --version
+
+          echo ""
+          echo "Adicionando diretório ao GITHUB_PATH..."
+
+          echo "$(dirname "$OPENCODE_PATH")" >> "$GITHUB_PATH"
+
+          echo "$OPENCODE_PATH" > "$RUNNER_TEMP/opencode_path"
+
+      # ========================================
+      # VERIFICAR IA.TXT
+      # ========================================
+      - name: Verify ia.txt
+        shell: bash
+        run: |
+          set -e
+
+          echo "========================================"
+          echo "Verificando ia.txt"
+          echo "========================================"
 
           if [ ! -f ia.txt ]; then
             echo "ERRO: ia.txt não existe."
             exit 1
           fi
-
-          echo "ia.txt encontrado."
 
           TOTAL=$(grep -cve '^[[:space:]]*$' ia.txt || true)
 
@@ -71,59 +150,163 @@ jobs:
             exit 1
           fi
 
+          echo ""
+          echo "Primeiros 29 links:"
+
+          grep -v '^[[:space:]]*$' ia.txt | head -29
+
+      # ========================================
+      # CRIAR PROMPT
+      # ========================================
       - name: Create prompt
+        shell: bash
         run: |
           cat << 'EOF' > prompt.txt
           Trabalhe SOMENTE dentro do diretório atual do repositório.
 
-          Tarefa:
+          OBJETIVO:
+          Processar os 29 primeiros links não vazios de ia.txt usando yt-dlp e gerar lista30.M3U.
+
+          REGRAS IMPORTANTES:
 
           1. Leia o arquivo ia.txt.
+
           2. Ignore linhas vazias.
+
           3. Pegue exatamente os 29 primeiros links não vazios.
+
           4. Use yt-dlp para processar os links.
-          5. Verifique o ffmpeg somente com:
+
+          5. Verifique o ffmpeg somente usando:
              command -v ffmpeg
-             Não faça buscas recursivas em /.
-          6. Não execute find /.
-          7. Não procure arquivos de log do ffmpeg no sistema inteiro.
-          8. Não apague arquivos fora do diretório atual do repositório.
-          9. Não apague arquivos do sistema.
-          10. Gere o arquivo lista30.M3U no diretório atual.
-          11. O arquivo deve ser uma playlist M3U válida.
-          12. Use entradas #EXTINF.
-          13. Cada entrada deve conter:
+
+          6. NÃO execute:
+             find /
+
+          7. NÃO faça buscas recursivas no sistema inteiro.
+
+          8. NÃO procure logs do ffmpeg no sistema inteiro.
+
+          9. NÃO apague arquivos fora do diretório atual do repositório.
+
+          10. NÃO apague arquivos do sistema.
+
+          11. Gere:
+              lista30.M3U
+
+          12. O arquivo lista30.M3U deve estar no diretório atual do repositório.
+
+          13. Use formato M3U válido.
+
+          14. A primeira linha deve ser:
+              #EXTM3U
+
+          15. Use entradas:
+              #EXTINF
+
+          16. Cada entrada deve utilizar:
               tvg-logo
               group-title="VOD"
-          14. Use as URLs obtidas/processadas pelo yt-dlp de forma compatível com reprodução no VLC.
-          15. Não invente URLs.
-          16. Preserve a correspondência entre os 29 links de entrada e as entradas da playlist.
-          17. Ao terminar, verifique se lista30.M3U existe.
-          18. Mostre um resumo do resultado.
-          19. Não fique procurando arquivos de ffmpeg no sistema.
-          20. Não faça operações demoradas de varredura no sistema de arquivos.
 
-          Importante:
-          - O objetivo é gerar lista30.M3U.
-          - Não altere arquivos desnecessários.
-          - Não remova arquivos do sistema.
-          - Não execute comandos destrutivos fora do repositório.
+          17. Não invente URLs.
+
+          18. Preserve URLs válidas obtidas através do yt-dlp.
+
+          19. Não altere arquivos desnecessários.
+
+          20. Não remova arquivos do sistema.
+
+          21. Não execute operações destrutivas fora do repositório.
+
+          22. Não faça buscas demoradas no filesystem.
+
+          23. O objetivo principal é criar lista30.M3U.
+
+          24. Ao terminar, verifique:
+              - se lista30.M3U existe
+              - se não está vazio
+              - se possui #EXTM3U
+              - se possui #EXTINF
+              - se possui group-title="VOD"
+
+          25. Mostre no final um resumo do processamento.
+
+          IMPORTANTE:
+          Não tente procurar logs do ffmpeg usando find em /.
+          O ffmpeg já foi instalado e verificado pelo workflow.
+          O yt-dlp também já foi instalado e verificado pelo workflow.
           EOF
 
-          echo "Prompt criado:"
+          echo "========================================"
+          echo "Prompt criado"
+          echo "========================================"
+
           cat prompt.txt
 
+      # ========================================
+      # EXECUTAR OPENCODE
+      # ========================================
       - name: Run OpenCode
+        shell: bash
         run: |
           set -e
 
           echo "========================================"
-          echo "Executando OpenCode..."
+          echo "Preparando OpenCode"
           echo "========================================"
 
-          timeout 15m opencode run "$(cat prompt.txt)"
+          export PATH="$HOME/.opencode/bin:$HOME/.opencode:$PATH"
 
+          if [ -f "$RUNNER_TEMP/opencode_path" ]; then
+            OPENCODE_PATH="$(cat "$RUNNER_TEMP/opencode_path")"
+          else
+            OPENCODE_PATH="$HOME/.opencode/bin/opencode"
+          fi
+
+          echo "OpenCode:"
+          echo "$OPENCODE_PATH"
+
+          echo ""
+          echo "========================================"
+          echo "Verificando OpenCode"
+          echo "========================================"
+
+          if [ ! -x "$OPENCODE_PATH" ]; then
+            echo "ERRO: OpenCode não é executável:"
+            echo "$OPENCODE_PATH"
+            exit 1
+          fi
+
+          "$OPENCODE_PATH" --version
+
+          echo ""
+          echo "========================================"
+          echo "Verificando yt-dlp"
+          echo "========================================"
+
+          command -v yt-dlp
+          yt-dlp --version
+
+          echo ""
+          echo "========================================"
+          echo "Verificando FFmpeg"
+          echo "========================================"
+
+          command -v ffmpeg
+          ffmpeg -version | head -1
+
+          echo ""
+          echo "========================================"
+          echo "Executando OpenCode"
+          echo "========================================"
+
+          timeout 15m "$OPENCODE_PATH" run "$(cat prompt.txt)"
+
+      # ========================================
+      # VALIDAR PLAYLIST
+      # ========================================
       - name: Validate generated playlist
+        shell: bash
         run: |
           set -e
 
@@ -132,6 +315,11 @@ jobs:
           echo "========================================"
 
           ls -lah
+
+          echo ""
+          echo "========================================"
+          echo "Verificando lista30.M3U"
+          echo "========================================"
 
           if [ ! -f lista30.M3U ]; then
             echo "ERRO: lista30.M3U não foi criado."
@@ -143,9 +331,11 @@ jobs:
             exit 1
           fi
 
+          echo "lista30.M3U existe e não está vazio."
+
           echo ""
           echo "========================================"
-          echo "Primeiras linhas da playlist"
+          echo "Primeiras linhas"
           echo "========================================"
 
           head -30 lista30.M3U
@@ -162,7 +352,7 @@ jobs:
 
           EXTINF_COUNT=$(grep -c '^#EXTINF:' lista30.M3U || true)
 
-          echo "Entradas #EXTINF encontradas: $EXTINF_COUNT"
+          echo "Quantidade de #EXTINF: $EXTINF_COUNT"
 
           if [ "$EXTINF_COUNT" -eq 0 ]; then
             echo "ERRO: nenhuma entrada #EXTINF encontrada."
@@ -170,14 +360,20 @@ jobs:
           fi
 
           if ! grep -q 'group-title="VOD"' lista30.M3U; then
-            echo "ERRO: nenhuma entrada possui group-title=\"VOD\"."
+            echo "ERRO: group-title=\"VOD\" não encontrado."
             exit 1
           fi
 
           echo ""
-          echo "Playlist validada com sucesso."
+          echo "========================================"
+          echo "PLAYLIST VALIDADA COM SUCESSO"
+          echo "========================================"
 
+      # ========================================
+      # GIT STATUS
+      # ========================================
       - name: Show git changes
+        shell: bash
         run: |
           echo "========================================"
           echo "Git status"
@@ -185,12 +381,33 @@ jobs:
 
           git status --short
 
+      # ========================================
+      # COMMIT + PUSH
+      # ========================================
       - name: Commit and Push safely
+        shell: bash
         run: |
           set -e
 
+          echo "========================================"
+          echo "Configurando Git"
+          echo "========================================"
+
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
+
+          echo ""
+          echo "Branch:"
+          git branch --show-current
+
+          echo ""
+          echo "Remote:"
+          git remote -v
+
+          echo ""
+          echo "========================================"
+          echo "Adicionando playlist"
+          echo "========================================"
 
           git add lista30.M3U
 
@@ -199,18 +416,29 @@ jobs:
             exit 0
           fi
 
+          echo ""
+          echo "========================================"
+          echo "Criando commit"
+          echo "========================================"
+
           git commit -m "Atualização automática da playlist"
 
           BRANCH=$(git rev-parse --abbrev-ref HEAD)
 
-          echo "Branch atual: $BRANCH"
+          echo "Branch: $BRANCH"
+
+          # ========================================
+          # PUSH COM RETRIES
+          # ========================================
 
           for i in {1..10}; do
+
+            echo ""
             echo "========================================"
-            echo "Tentativa $i de push"
+            echo "Tentativa $i de 10"
             echo "========================================"
 
-            echo "Atualizando informações do remoto..."
+            echo "Fetch..."
 
             if timeout 60s git fetch origin "$BRANCH"; then
               echo "Fetch OK."
@@ -220,33 +448,47 @@ jobs:
               continue
             fi
 
-            echo "Verificando alterações remotas..."
+            echo ""
+            echo "Rebase..."
 
             if timeout 60s git rebase "origin/$BRANCH"; then
               echo "Rebase OK."
             else
               echo "Rebase falhou."
+
               git rebase --abort || true
+
               sleep 5
               continue
             fi
 
-            echo "Enviando alterações..."
+            echo ""
+            echo "Push..."
 
             if timeout 60s git push origin "HEAD:$BRANCH"; then
+
+              echo ""
               echo "========================================"
               echo "PUSH CONCLUÍDO COM SUCESSO!"
               echo "========================================"
+
               exit 0
+
             else
+
               echo "Push falhou ou expirou."
+
               sleep 5
+
             fi
+
           done
 
+          echo ""
           echo "========================================"
           echo "ERRO"
-          echo "Todas as 10 tentativas de push falharam."
           echo "========================================"
+
+          echo "Todas as 10 tentativas de push falharam."
 
           exit 1
