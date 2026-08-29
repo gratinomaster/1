@@ -2,7 +2,7 @@ name: Baixando Lista
 
 on:
   schedule:
-    - cron: '*/50 * * * *'  # Executa a cada 50 minutos
+    - cron: '*/50 * * * *'  # Executa nos minutos 00 e 50 de cada hora
   pull_request:
     branches:
       - main
@@ -67,26 +67,53 @@ jobs:
           fi
 
       - name: Commit e Push
-        if: steps.check_generated_files.outputs.m3u_generated == 'true'
+        # Pull requests apenas testam o workflow; não fazem push para main.
+        if: steps.check_generated_files.outputs.m3u_generated == 'true' && github.event_name != 'pull_request'
         run: |
+          set -e
+
+          # log.txt é um arquivo de diagnóstico e não faz parte do commit.
+          # Restaura a versão do repositório ou remove-o se for não rastreado.
+          if git ls-files --error-unmatch log.txt >/dev/null 2>&1; then
+            git restore --source=HEAD --worktree -- log.txt
+          else
+            rm -f -- log.txt
+          fi
+
+          # Adiciona somente os arquivos de saída desejados.
           git add lista30.M3U
-          # Adiciona ia.txt apenas se ele foi criado neste run
-          if [ "${{ steps.check_ia_txt.outputs.ia_txt_created }}" == "true" ]; then
+
+          # Adiciona ia.txt quando foi criado neste run ou quando o script o modificou.
+          if [ "${{ steps.check_ia_txt.outputs.ia_txt_created }}" == "true" ] || ! git diff --quiet -- ia.txt; then
             git add ia.txt
           fi
-          
-          # Verifica se existem mudanças antes de commitar
-          # Usamos 'git status --porcelain' para verificar se há alguma alteração (staged ou unstaged)
-          if git status --porcelain | grep -q .; then
-            git commit -m "🤖 Atualização automática da playlist - $(date '+%Y-%m-%d %H:%M')"
-            
-            # Antes de fazer o pull --rebase, garante que não há alterações não rastreadas que possam causar conflito
-            # Isso é crucial para evitar o erro 'You have unstaged changes'
-            git reset --hard HEAD
-            
-            # Tenta fazer o push com rebase para evitar conflitos de concorrência
-            git pull --rebase origin main
-            git push origin main
-          else
-            echo "Nenhuma mudança detectada na lista ou em ia.txt. Nada para commitar."
+
+          # Nenhum outro arquivo pode permanecer alterado.
+          EXTRA_FILES=$(git status --porcelain \
+            | sed -E 's/^.. //' \
+            | grep -Ev '^(lista30\.M3U|ia\.txt)$' || true)
+
+          if [ -n "$EXTRA_FILES" ]; then
+            echo "::error::Arquivos inesperados foram alterados:"
+            git status --short
+            exit 1
           fi
+
+          # Também não pode haver alteração não preparada para commit.
+          if [ -n "$(git diff --name-only)" ]; then
+            echo "::error::Ainda existem alterações fora do stage:"
+            git status --short
+            exit 1
+          fi
+
+          if git diff --cached --quiet; then
+            echo "Nenhuma mudança detectada na lista ou em ia.txt. Nada para commitar."
+            exit 0
+          fi
+
+          git commit -m "Atualização automática da playlist - $(date '+%Y-%m-%d %H:%M')"
+
+          # Atualiza a branch local antes do push, preservando o commit recém-criado.
+          git fetch origin main
+          git rebase origin/main
+          git push origin HEAD:main
