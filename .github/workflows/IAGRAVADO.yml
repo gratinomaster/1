@@ -25,7 +25,8 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v4
         with:
-          fetch-depth: 1
+          # Histórico completo evita limitações ao fazer rebase antes do push.
+          fetch-depth: 0
           token: ${{ secrets.GITHUB_TOKEN }}
 
 
@@ -176,7 +177,7 @@ jobs:
       - name: Create prompt
         shell: bash
         run: |
-          cat << 'EOF' > prompt.txt
+          cat << 'EOF' > "$RUNNER_TEMP/opencode-prompt.txt"
 
           Trabalhe SOMENTE dentro do diretório atual do repositório.
 
@@ -327,7 +328,7 @@ jobs:
           echo "Prompt criado"
           echo "========================================"
 
-          cat prompt.txt
+          cat "$RUNNER_TEMP/opencode-prompt.txt"
 
 
       # ========================================
@@ -387,9 +388,16 @@ jobs:
           echo "Executando OpenCode"
           echo "========================================"
 
+          PROMPT_FILE="$RUNNER_TEMP/opencode-prompt.txt"
+
+          if [ ! -s "$PROMPT_FILE" ]; then
+            echo "ERRO: arquivo de prompt não foi criado ou está vazio."
+            exit 1
+          fi
+
           timeout 15m \
             "$OPENCODE_PATH" \
-            run "$(cat prompt.txt)"
+            run "$(cat "$PROMPT_FILE")"
 
 
       # ========================================
@@ -508,6 +516,18 @@ jobs:
             exit 0
           fi
 
+          # O OpenCode deve alterar somente a playlist. Falhar aqui evita
+          # que arquivos auxiliares bloqueiem o rebase ou entrem no commit.
+          EXTRA_FILES=$(git status --porcelain \
+            | sed -E 's/^.. //' \
+            | grep -v '^lista30\.M3U$' || true)
+
+          if [ -n "$EXTRA_FILES" ]; then
+            echo "ERRO: existem alterações adicionais além de lista30.M3U."
+            git status --short
+            exit 1
+          fi
+
           echo ""
           echo "========================================"
           echo "Criando commit"
@@ -549,7 +569,10 @@ jobs:
             else
               echo "Rebase falhou."
 
-              git rebase --abort || true
+              # Só tenta abortar quando um rebase realmente foi iniciado.
+              if [ -d .git/rebase-merge ] || [ -d .git/rebase-apply ]; then
+                git rebase --abort || true
+              fi
 
               sleep 5
               continue
