@@ -123,12 +123,10 @@ jobs:
 
           echo ""
           echo "Versão:"
-
           "$OPENCODE_PATH" --version
 
           echo ""
           echo "Adicionando PATH..."
-
           echo "$(dirname "$OPENCODE_PATH")" >> "$GITHUB_PATH"
 
           echo "$OPENCODE_PATH" > "$RUNNER_TEMP/opencode_path"
@@ -245,13 +243,16 @@ jobs:
 
           18. Não transforme uma página HTML em uma falsa URL de vídeo.
 
-          19. Se o yt-dlp não conseguir processar um link, registre o erro
-              e continue com o próximo.
+          19. Se o yt-dlp não conseguir processar um link, registre a falha
+              no resumo final e continue com o próximo. NÃO crie err.txt.
 
-          20. Um erro em um link NÃO deve interromper o processamento dos
+          20. NÃO crie err.txt nem outros arquivos auxiliares no diretório
+              do repositório.
+
+          21. Um erro em um link NÃO deve interromper o processamento dos
               outros links.
 
-          21. No final, informe:
+          22. No final, informe:
 
               - total de links analisados;
               - quantidade processada com sucesso;
@@ -261,66 +262,69 @@ jobs:
           FFMPEG
           ========================================
 
-          22. O FFmpeg já foi instalado pelo workflow.
+          23. O FFmpeg já foi instalado pelo workflow.
 
-          23. Para verificar sua existência use somente:
+          24. Para verificar sua existência use somente:
 
               command -v ffmpeg
 
-          24. Não procure arquivos de log do FFmpeg.
+          25. Não procure arquivos de log do FFmpeg.
 
           ========================================
           PLAYLIST
           ========================================
 
-          25. Gere:
+          26. Gere:
 
               lista30.M3U
 
-          26. O arquivo deve ser criado no diretório atual do repositório.
+          27. O arquivo deve ser criado no diretório atual do repositório.
 
-          27. A primeira linha deve ser:
+          28. A primeira linha deve ser:
 
               #EXTM3U
 
-          28. Use entradas:
+          29. Use entradas:
 
               #EXTINF
 
-          29. Cada entrada deve conter:
+          30. Cada entrada deve conter:
 
               tvg-logo
 
               group-title="VOD"
 
-          30. Não invente URLs.
+          31. Não invente URLs.
 
-          31. Não coloque URLs HTML como se fossem URLs de mídia.
+          32. Não coloque URLs HTML como se fossem URLs de mídia.
 
-          32. Use somente URLs obtidas de forma válida pelo processamento.
+          33. Use somente URLs obtidas de forma válida pelo processamento.
 
-          33. Mantenha a correspondência entre os links de entrada e as
+          34. Mantenha a correspondência entre os links de entrada e as
               entradas geradas.
 
           ========================================
           FINALIZAÇÃO
           ========================================
 
-          34. Verifique se lista30.M3U existe.
+          35. Verifique se lista30.M3U existe.
 
-          35. Verifique se lista30.M3U não está vazio.
+          36. Verifique se lista30.M3U não está vazio.
 
-          36. Verifique se contém #EXTM3U.
+          37. Verifique se contém #EXTM3U.
 
-          37. Verifique se contém #EXTINF.
+          38. Verifique se contém #EXTINF.
 
-          38. Verifique se contém group-title="VOD".
+          39. Verifique se contém group-title="VOD".
 
-          39. Mostre um resumo final.
+          40. Mostre um resumo final.
 
-          40. NÃO execute buscas demoradas no sistema de arquivos.
+          41. NÃO execute buscas demoradas no sistema de arquivos.
 
-          41. NÃO use find /.
+          42. NÃO use find /.
+
+          43. Não execute comandos Git e não altere outros arquivos do
+              repositório.
 
           EOF
 
@@ -506,34 +510,47 @@ jobs:
 
           echo ""
           echo "========================================"
-          echo "Adicionando lista30.M3U"
+          echo "Limpando artefatos temporários"
           echo "========================================"
 
-          git add lista30.M3U
+          # O OpenCode pode criar err.txt ao registrar falhas do yt-dlp.
+          # Remove-o somente quando ele for um arquivo não rastreado.
+          # Se err.txt fizer parte do repositório, não o apaga.
+          if [ -f err.txt ] && ! git ls-files --error-unmatch -- err.txt >/dev/null 2>&1; then
+            rm -f -- err.txt
+          fi
 
-          if git diff --cached --quiet; then
+          echo ""
+          echo "========================================"
+          echo "Adicionando somente lista30.M3U"
+          echo "========================================"
+
+          git add -- lista30.M3U
+
+          if git diff --cached --quiet -- lista30.M3U; then
             echo "Nenhuma alteração na playlist."
             exit 0
           fi
 
-          # O OpenCode deve alterar somente a playlist. Falhar aqui evita
-          # que arquivos auxiliares bloqueiem o rebase ou entrem no commit.
-          EXTRA_FILES=$(git status --porcelain \
+          # O commit deve conter somente a playlist. Qualquer outro arquivo
+          # inesperado faz o workflow falhar para evitar commit indevido.
+          EXTRA_FILES=$(git status --porcelain=v1 \
             | sed -E 's/^.. //' \
-            | grep -v '^lista30\.M3U$' || true)
+            | grep -Fvx 'lista30.M3U' || true)
 
           if [ -n "$EXTRA_FILES" ]; then
             echo "ERRO: existem alterações adicionais além de lista30.M3U."
+            printf '%s\n' "$EXTRA_FILES"
             git status --short
             exit 1
           fi
 
           echo ""
           echo "========================================"
-          echo "Criando commit"
+          echo "Criando commit somente da playlist"
           echo "========================================"
 
-          git commit -m "Atualização automática da playlist"
+          git commit --only lista30.M3U -m "Atualização automática da playlist"
 
           BRANCH=$(git rev-parse --abbrev-ref HEAD)
 
@@ -593,7 +610,6 @@ jobs:
             else
 
               echo "Push falhou ou expirou."
-
               sleep 5
 
             fi
