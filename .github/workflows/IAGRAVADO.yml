@@ -10,7 +10,7 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  opencode:
+  playlist:
     runs-on: ubuntu-latest
     timeout-minutes: 30
 
@@ -25,8 +25,11 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v4
         with:
-          # Histórico completo evita limitações ao fazer rebase antes do push.
-          fetch-depth: 0
+          # Checkout raso: o workflow só precisa do estado atual para gerar a playlist.
+          # O fetch posterior atualiza a referência remota antes do rebase/push.
+          fetch-depth: 1
+          fetch-tags: false
+          show-progress: true
           token: ${{ secrets.GITHUB_TOKEN }}
 
 
@@ -72,67 +75,6 @@ jobs:
 
 
       # ========================================
-      # INSTALL OPENCODE
-      # ========================================
-      - name: Install OpenCode
-        shell: bash
-        run: |
-          set -e
-
-          echo "========================================"
-          echo "Instalando OpenCode"
-          echo "========================================"
-
-          curl -fsSL https://opencode.ai/install | bash
-
-          echo ""
-          echo "========================================"
-          echo "Verificando instalação"
-          echo "========================================"
-
-          echo "HOME=$HOME"
-
-          ls -la "$HOME/.opencode" || true
-          ls -la "$HOME/.opencode/bin" || true
-
-          echo ""
-          echo "Procurando executável..."
-
-          if [ -x "$HOME/.opencode/bin/opencode" ]; then
-            OPENCODE_PATH="$HOME/.opencode/bin/opencode"
-          elif [ -x "$HOME/.opencode/opencode" ]; then
-            OPENCODE_PATH="$HOME/.opencode/opencode"
-          else
-            echo "ERRO: executável do OpenCode não encontrado."
-
-            echo ""
-            echo "Possíveis executáveis encontrados:"
-
-            find "$HOME/.opencode" \
-              -maxdepth 4 \
-              -type f \
-              -name "opencode" \
-              -print 2>/dev/null || true
-
-            exit 1
-          fi
-
-          echo ""
-          echo "OpenCode encontrado:"
-          echo "$OPENCODE_PATH"
-
-          echo ""
-          echo "Versão:"
-          "$OPENCODE_PATH" --version
-
-          echo ""
-          echo "Adicionando PATH..."
-          echo "$(dirname "$OPENCODE_PATH")" >> "$GITHUB_PATH"
-
-          echo "$OPENCODE_PATH" > "$RUNNER_TEMP/opencode_path"
-
-
-      # ========================================
       # VERIFY IA.TXT
       # ========================================
       - name: Verify ia.txt
@@ -169,239 +111,81 @@ jobs:
           echo "Verificação concluída."
 
 
+
       # ========================================
-      # CREATE PROMPT
+      # GENERATE PLAYLIST DIRECTLY
       # ========================================
-      - name: Create prompt
+      - name: Generate playlist with yt-dlp
         shell: bash
         run: |
-          cat << 'EOF' > "$RUNNER_TEMP/opencode-prompt.txt"
-
-          Trabalhe SOMENTE dentro do diretório atual do repositório.
-
-          OBJETIVO:
-
-          Ler ia.txt, processar os 29 primeiros links não vazios usando yt-dlp
-          e gerar o arquivo lista30.M3U.
-
-          ========================================
-          REGRAS DE SEGURANÇA
-          ========================================
-
-          1. Não faça operações fora do diretório atual do repositório.
-
-          2. NÃO execute:
-             find /
-
-          3. NÃO faça buscas recursivas no sistema inteiro.
-
-          4. NÃO procure logs do ffmpeg no filesystem inteiro.
-
-          5. NÃO apague arquivos do sistema.
-
-          6. NÃO apague arquivos fora do repositório.
-
-          7. Não altere arquivos desnecessários.
-
-          ========================================
-          IA.TXT
-          ========================================
-
-          8. Leia ia.txt.
-
-          9. Ignore linhas vazias.
-
-          10. Considere somente os 29 primeiros links não vazios.
-
-          11. Não processe links além desses 29.
-
-          ========================================
-          INTERNET ARCHIVE
-          ========================================
-
-          12. Os links são principalmente do Internet Archive.
-
-          13. Um link pode ser:
-
-              - página de item;
-              - página de busca;
-              - página de usuário;
-              - página de coleção;
-              - página contendo mídia.
-
-          14. NÃO presuma que todo link é diretamente um vídeo.
-
-          ========================================
-          YT-DLP
-          ========================================
-
-          15. Use yt-dlp para tentar processar cada um dos 29 links.
-
-          16. Tente obter uma URL de mídia reproduzível.
-
-          17. Não invente URLs.
-
-          18. Não transforme uma página HTML em uma falsa URL de vídeo.
-
-          19. Se o yt-dlp não conseguir processar um link, registre a falha
-              no resumo final e continue com o próximo. NÃO crie err.txt.
-
-          20. NÃO crie err.txt nem outros arquivos auxiliares no diretório
-              do repositório.
-
-          21. Um erro em um link NÃO deve interromper o processamento dos
-              outros links.
-
-          22. No final, informe:
-
-              - total de links analisados;
-              - quantidade processada com sucesso;
-              - quantidade que falhou.
-
-          ========================================
-          FFMPEG
-          ========================================
-
-          23. O FFmpeg já foi instalado pelo workflow.
-
-          24. Para verificar sua existência use somente:
-
-              command -v ffmpeg
-
-          25. Não procure arquivos de log do FFmpeg.
-
-          ========================================
-          PLAYLIST
-          ========================================
-
-          26. Gere:
-
-              lista30.M3U
-
-          27. O arquivo deve ser criado no diretório atual do repositório.
-
-          28. A primeira linha deve ser:
-
-              #EXTM3U
-
-          29. Use entradas:
-
-              #EXTINF
-
-          30. Cada entrada deve conter:
-
-              tvg-logo
-
-              group-title="VOD"
-
-          31. Não invente URLs.
-
-          32. Não coloque URLs HTML como se fossem URLs de mídia.
-
-          33. Use somente URLs obtidas de forma válida pelo processamento.
-
-          34. Mantenha a correspondência entre os links de entrada e as
-              entradas geradas.
-
-          ========================================
-          FINALIZAÇÃO
-          ========================================
-
-          35. Verifique se lista30.M3U existe.
-
-          36. Verifique se lista30.M3U não está vazio.
-
-          37. Verifique se contém #EXTM3U.
-
-          38. Verifique se contém #EXTINF.
-
-          39. Verifique se contém group-title="VOD".
-
-          40. Mostre um resumo final.
-
-          41. NÃO execute buscas demoradas no sistema de arquivos.
-
-          42. NÃO use find /.
-
-          43. Não execute comandos Git e não altere outros arquivos do
-              repositório.
-
-          EOF
-
-          echo "========================================"
-          echo "Prompt criado"
-          echo "========================================"
-
-          cat "$RUNNER_TEMP/opencode-prompt.txt"
-
-
-      # ========================================
-      # RUN OPENCODE
-      # ========================================
-      - name: Run OpenCode
-        shell: bash
-        run: |
-          set -e
-
-          echo "========================================"
-          echo "Preparando OpenCode"
-          echo "========================================"
-
-          export PATH="$HOME/.opencode/bin:$HOME/.opencode:$HOME/.local/bin:$PATH"
-
-          if [ -f "$RUNNER_TEMP/opencode_path" ]; then
-            OPENCODE_PATH="$(cat "$RUNNER_TEMP/opencode_path")"
-          else
-            OPENCODE_PATH="$HOME/.opencode/bin/opencode"
-          fi
-
-          echo "OpenCode:"
-          echo "$OPENCODE_PATH"
-
-          echo ""
-          echo "========================================"
-          echo "Verificando OpenCode"
-          echo "========================================"
-
-          if [ ! -x "$OPENCODE_PATH" ]; then
-            echo "ERRO: OpenCode não é executável."
-            echo "$OPENCODE_PATH"
+          set -euo pipefail
+
+          OUTPUT="lista30.M3U"
+          TMP_OUTPUT="$RUNNER_TEMP/lista30.M3U.tmp"
+          ERROR_LOG="$RUNNER_TEMP/yt-dlp-errors.txt"
+
+          : > "$ERROR_LOG"
+          printf '%s\n' '#EXTM3U' > "$TMP_OUTPUT"
+
+          TOTAL=0
+          SUCCESS=0
+          FAILURES=0
+
+          while IFS= read -r URL; do
+            # Remove espaços no início e no fim da linha.
+            URL="${URL#"${URL%%[![:space:]]*}"}"
+            URL="${URL%"${URL##*[![:space:]]}"}"
+
+            [ -z "$URL" ] && continue
+
+            TOTAL=$((TOTAL + 1))
+            [ "$TOTAL" -gt 29 ] && break
+
+            echo "Processando link $TOTAL de 29..."
+
+            MEDIA_URL="$(
+              timeout 45s yt-dlp \
+                --no-warnings \
+                --no-playlist \
+                --get-url \
+                --format 'best[protocol^=http]/best' \
+                -- "$URL" 2>> "$ERROR_LOG" \
+              | sed -n '1p' \
+              || true
+            )"
+
+            if [[ "$MEDIA_URL" =~ ^https?:// ]]; then
+              printf '#EXTINF:-1 tvg-logo="" group-title="VOD",Item %d\n%s\n' \
+                "$TOTAL" "$MEDIA_URL" >> "$TMP_OUTPUT"
+              SUCCESS=$((SUCCESS + 1))
+              echo "Link $TOTAL processado com sucesso."
+            else
+              FAILURES=$((FAILURES + 1))
+              printf 'Falha no link %d: %s\n' "$TOTAL" "$URL" >> "$ERROR_LOG"
+              echo "Link $TOTAL falhou; continuando."
+            fi
+          done < ia.txt
+
+          if [ "$TOTAL" -eq 0 ]; then
+            echo "ERRO: nenhum link não vazio foi encontrado em ia.txt."
             exit 1
           fi
 
-          "$OPENCODE_PATH" --version
+          mv "$TMP_OUTPUT" "$OUTPUT"
 
           echo ""
           echo "========================================"
-          echo "Verificando yt-dlp"
+          echo "Resumo do processamento"
           echo "========================================"
+          echo "Links analisados: $TOTAL"
+          echo "Processados com sucesso: $SUCCESS"
+          echo "Falhas: $FAILURES"
 
-          command -v yt-dlp
-          yt-dlp --version
-
-          echo ""
-          echo "========================================"
-          echo "Verificando FFmpeg"
-          echo "========================================"
-
-          command -v ffmpeg
-          ffmpeg -version | head -1
-
-          echo ""
-          echo "========================================"
-          echo "Executando OpenCode"
-          echo "========================================"
-
-          PROMPT_FILE="$RUNNER_TEMP/opencode-prompt.txt"
-
-          if [ ! -s "$PROMPT_FILE" ]; then
-            echo "ERRO: arquivo de prompt não foi criado ou está vazio."
-            exit 1
+          # O log fica fora do repositório para não bloquear o commit.
+          if [ -s "$ERROR_LOG" ]; then
+            echo "Foram registradas falhas em $ERROR_LOG."
           fi
 
-          timeout 15m \
-            "$OPENCODE_PATH" \
-            run "$(cat "$PROMPT_FILE")"
 
 
       # ========================================
@@ -513,7 +297,7 @@ jobs:
           echo "Limpando artefatos temporários"
           echo "========================================"
 
-          # O OpenCode pode criar err.txt ao registrar falhas do yt-dlp.
+          # Um processo de geração pode criar err.txt ao registrar falhas do yt-dlp.
           # Remove-o somente quando ele for um arquivo não rastreado.
           # Se err.txt fizer parte do repositório, não o apaga.
           if [ -f err.txt ] && ! git ls-files --error-unmatch -- err.txt >/dev/null 2>&1; then
