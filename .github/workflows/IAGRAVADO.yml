@@ -12,7 +12,7 @@ concurrency:
 jobs:
   playlist:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 45
 
     permissions:
       contents: write
@@ -25,53 +25,139 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v4
         with:
-          # Checkout raso: o workflow só precisa do estado atual para gerar a playlist.
-          # O fetch posterior atualiza a referência remota antes do rebase/push.
-          fetch-depth: 1
+          fetch-depth: 0
           fetch-tags: false
           show-progress: true
           token: ${{ secrets.GITHUB_TOKEN }}
 
 
       # ========================================
-      # INSTALL FFMPEG + YT-DLP
+      # SETUP PYTHON
       # ========================================
-      - name: Install FFmpeg and yt-dlp
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+
+      # ========================================
+      # INSTALL SYSTEM TOOLS
+      # ========================================
+      - name: Install system tools
         shell: bash
         run: |
-          set -e
+          set -euo pipefail
 
           echo "========================================"
-          echo "Instalando FFmpeg"
+          echo "INSTALANDO FERRAMENTAS DO SISTEMA"
           echo "========================================"
 
           sudo apt-get update
-          sudo apt-get install -y ffmpeg
+
+          sudo apt-get install -y \
+            ffmpeg \
+            aria2 \
+            curl \
+            wget \
+            git
 
           echo ""
           echo "========================================"
-          echo "Instalando yt-dlp"
+          echo "VERSÕES"
           echo "========================================"
 
-          python3 -m pip install --user -U yt-dlp
+          python --version
+          pip --version
+          ffmpeg -version | head -n 1
+          aria2c --version | head -n 1
+          git --version
 
-          echo "$HOME/.local/bin" >> "$GITHUB_PATH"
+
+      # ========================================
+      # INSTALL PYTHON TOOLS
+      # ========================================
+      - name: Install Python tools
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          echo "========================================"
+          echo "INSTALANDO PYTHON TOOLS"
+          echo "========================================"
+
+          python -m pip install --upgrade pip
+
+          python -m pip install \
+            crawl4ai \
+            yt-dlp
 
           echo ""
           echo "========================================"
-          echo "Verificando FFmpeg"
+          echo "VERIFICANDO PYTHON TOOLS"
           echo "========================================"
 
-          command -v ffmpeg
-          ffmpeg -version | head -1
-
-          echo ""
-          echo "========================================"
-          echo "Verificando yt-dlp"
-          echo "========================================"
-
-          command -v yt-dlp
+          python -c "import crawl4ai; print('Crawl4AI: OK')"
           yt-dlp --version
+
+
+      # ========================================
+      # SETUP CRAWL4AI
+      # ========================================
+      - name: Setup Crawl4AI
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          echo "========================================"
+          echo "CONFIGURANDO CRAWL4AI"
+          echo "========================================"
+
+          if command -v crawl4ai >/dev/null 2>&1; then
+            echo "Executável crawl4ai encontrado."
+            crawl4ai --help >/dev/null 2>&1 || true
+          else
+            echo "Executável crawl4ai não encontrado."
+          fi
+
+          echo ""
+          echo "Tentando inicialização do Crawl4AI..."
+
+          crawl4ai-setup || true
+
+          echo ""
+          echo "Crawl4AI configurado."
+
+
+      # ========================================
+      # INSTALL OPENCODE
+      # ========================================
+      - name: Install OpenCode
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          echo "========================================"
+          echo "INSTALANDO OPENCODE"
+          echo "========================================"
+
+          curl -fsSL https://opencode.ai/install | bash
+
+          echo "$HOME/.opencode/bin" >> "$GITHUB_PATH"
+
+          export PATH="$HOME/.opencode/bin:$HOME/.local/bin:$PATH"
+
+          echo ""
+          echo "========================================"
+          echo "VERIFICANDO OPENCODE"
+          echo "========================================"
+
+          if ! command -v opencode >/dev/null 2>&1; then
+            echo "ERRO: OpenCode não foi encontrado após instalação."
+            exit 1
+          fi
+
+          command -v opencode
+          opencode --version
 
 
       # ========================================
@@ -80,10 +166,10 @@ jobs:
       - name: Verify ia.txt
         shell: bash
         run: |
-          set -e
+          set -euo pipefail
 
           echo "========================================"
-          echo "Verificando ia.txt"
+          echo "VERIFICANDO IA.TXT"
           echo "========================================"
 
           if [ ! -f ia.txt ]; then
@@ -93,118 +179,263 @@ jobs:
 
           TOTAL=$(sed '/^[[:space:]]*$/d' ia.txt | wc -l)
 
-          echo "Links não vazios encontrados: $TOTAL"
+          echo "Links encontrados: $TOTAL"
 
           if [ "$TOTAL" -lt 29 ]; then
-            echo "ERRO: ia.txt possui menos de 29 links."
+            echo "ERRO: ia.txt precisa possuir pelo menos 29 links."
             exit 1
           fi
 
           echo ""
-          echo "========================================"
-          echo "Primeiros 29 links"
-          echo "========================================"
+          echo "Primeiros 29 links:"
 
           sed '/^[[:space:]]*$/d' ia.txt | sed -n '1,29p'
 
-          echo ""
-          echo "Verificação concluída."
-
-
 
       # ========================================
-      # GENERATE PLAYLIST DIRECTLY
+      # REMOVE OLD PLAYLIST
       # ========================================
-      - name: Generate playlist with yt-dlp
+      - name: Remove old playlist
         shell: bash
         run: |
           set -euo pipefail
 
-          OUTPUT="lista30.M3U"
-          TMP_OUTPUT="$RUNNER_TEMP/lista30.M3U.tmp"
-          ERROR_LOG="$RUNNER_TEMP/yt-dlp-errors.txt"
+          rm -f lista30.M3U
 
-          : > "$ERROR_LOG"
-          printf '%s\n' '#EXTM3U' > "$TMP_OUTPUT"
+          echo "Playlist anterior removida."
 
-          TOTAL=0
-          SUCCESS=0
-          FAILURES=0
 
-          while IFS= read -r URL; do
-            # Remove espaços no início e no fim da linha.
-            URL="${URL#"${URL%%[![:space:]]*}"}"
-            URL="${URL%"${URL##*[![:space:]]}"}"
+      # ========================================
+      # OPENCODE EXECUTION
+      # ========================================
+      - name: OpenCode generates IPTV playlist
+        shell: bash
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: |
+          set -euo pipefail
 
-            [ -z "$URL" ] && continue
+          export PATH="$HOME/.opencode/bin:$HOME/.local/bin:$PATH"
 
-            TOTAL=$((TOTAL + 1))
-            [ "$TOTAL" -gt 29 ] && break
-
-            echo "Processando link $TOTAL de 29..."
-
-            MEDIA_URL="$(
-              timeout 45s yt-dlp \
-                --no-warnings \
-                --no-playlist \
-                --get-url \
-                --format 'best[protocol^=http]/best' \
-                -- "$URL" 2>> "$ERROR_LOG" \
-              | sed -n '1p' \
-              || true
-            )"
-
-            if [[ "$MEDIA_URL" =~ ^https?:// ]]; then
-              printf '#EXTINF:-1 tvg-logo="" group-title="VOD",Item %d\n%s\n' \
-                "$TOTAL" "$MEDIA_URL" >> "$TMP_OUTPUT"
-              SUCCESS=$((SUCCESS + 1))
-              echo "Link $TOTAL processado com sucesso."
-            else
-              FAILURES=$((FAILURES + 1))
-              printf 'Falha no link %d: %s\n' "$TOTAL" "$URL" >> "$ERROR_LOG"
-              echo "Link $TOTAL falhou; continuando."
-            fi
-          done < ia.txt
-
-          if [ "$TOTAL" -eq 0 ]; then
-            echo "ERRO: nenhum link não vazio foi encontrado em ia.txt."
+          if [ -z "${OPENAI_API_KEY:-}" ]; then
+            echo "ERRO: OPENAI_API_KEY não configurada."
             exit 1
           fi
 
-          mv "$TMP_OUTPUT" "$OUTPUT"
-
-          echo ""
-          echo "========================================"
-          echo "Resumo do processamento"
-          echo "========================================"
-          echo "Links analisados: $TOTAL"
-          echo "Processados com sucesso: $SUCCESS"
-          echo "Falhas: $FAILURES"
-
-          # O log fica fora do repositório para não bloquear o commit.
-          if [ -s "$ERROR_LOG" ]; then
-            echo "Foram registradas falhas em $ERROR_LOG."
+          if ! command -v opencode >/dev/null 2>&1; then
+            echo "ERRO: OpenCode não está disponível."
+            exit 1
           fi
 
+          echo "========================================"
+          echo "EXECUTANDO OPENCODE"
+          echo "========================================"
+
+          opencode run '
+          Você é o agente responsável por executar esta tarefa inteira no ambiente atual do GitHub Actions.
+
+          NÃO apenas explique.
+          NÃO forneça tutorial.
+          NÃO apenas mostre comandos.
+
+          EXECUTE a tarefa.
+
+          ==================================================
+          OBJETIVO
+          ==================================================
+
+          O arquivo ia.txt contém URLs.
+
+          Sua missão é pegar SOMENTE os primeiros 29 links
+          NÃO VAZIOS de ia.txt e transformá-los em uma playlist
+          IPTV/M3U.
+
+          O arquivo final obrigatório é:
+
+          lista30.M3U
+
+          Ele deve ser criado na raiz do repositório.
+
+          ==================================================
+          REGRAS DOS LINKS
+          ==================================================
+
+          Leia ia.txt.
+
+          Ignore linhas vazias.
+
+          Considere somente os primeiros 29 links não vazios.
+
+          NÃO processe um 30º link.
+
+          Para cada um dos 29 links:
+
+          1. Analise a URL.
+          2. Determine o tipo de conteúdo.
+          3. Use Crawl4AI quando necessário.
+          4. Use yt-dlp quando apropriado.
+          5. Use ffmpeg ou outras ferramentas somente quando necessário.
+          6. Tente encontrar uma URL real de mídia utilizável.
+          7. Não invente URLs.
+          8. Não crie URLs falsas.
+          9. Se o link falhar, registre a falha fora da playlist.
+          10. Continue processando os outros links.
+
+          ==================================================
+          CRAWL4AI
+          ==================================================
+
+          Crawl4AI é OBRIGATÓRIO.
+
+          Verifique se está disponível.
+
+          Use Crawl4AI para análise das páginas quando necessário,
+          especialmente quando a URL não for diretamente uma mídia.
+
+          Não baixe vídeos inteiros desnecessariamente.
+
+          Prefira descobrir URLs de mídia/streaming.
+
+          ==================================================
+          YT-DLP
+          ==================================================
+
+          Use yt-dlp quando a URL for compatível.
+
+          Prefira obter informações e URLs de mídia sem baixar
+          o conteúdo completo.
+
+          Não invente resultados.
+
+          ==================================================
+          PLAYLIST IPTV
+          ==================================================
+
+          O resultado precisa ser uma playlist M3U válida.
+
+          A primeira linha obrigatoriamente deve ser:
+
+          #EXTM3U
+
+          Cada entrada deve possuir exatamente este conceito:
+
+          #EXTINF:-1 tvg-logo="" group-title="VOD",Item N
+          URL
+
+          Exemplo:
+
+          #EXTM3U
+          #EXTINF:-1 tvg-logo="" group-title="VOD",Item 1
+          https://exemplo.com/video1.mp4
+          #EXTINF:-1 tvg-logo="" group-title="VOD",Item 2
+          https://exemplo.com/video2.mp4
+
+          ==================================================
+          REGRAS DA PLAYLIST
+          ==================================================
+
+          - Nome obrigatório: lista30.M3U
+          - Local obrigatório: raiz do repositório
+          - Primeira linha: #EXTM3U
+          - Cada entrada deve ter #EXTINF
+          - Cada #EXTINF deve ser seguido imediatamente por uma URL
+          - Toda entrada deve possuir group-title="VOD"
+          - URLs devem começar com http:// ou https://
+          - Não colocar Markdown
+          - Não colocar logs
+          - Não colocar erros
+          - Não colocar comentários
+          - Não colocar explicações
+          - Não colocar URLs falsas
+          - Não criar entradas para links que falharam
+          - Não processar mais de 29 links
+
+          ==================================================
+          QUANTIDADE
+          ==================================================
+
+          Podem existir menos de 29 entradas na playlist.
+
+          Isso é permitido se alguns dos 29 links não produzirem
+          uma URL de mídia real.
+
+          NÃO invente URLs para tentar chegar a 29 entradas.
+
+          ==================================================
+          VALIDAÇÃO
+          ==================================================
+
+          Depois de criar lista30.M3U, valide completamente.
+
+          Verifique:
+
+          1. arquivo existe;
+          2. arquivo não está vazio;
+          3. primeira linha é exatamente #EXTM3U;
+          4. existem entradas #EXTINF;
+          5. cada #EXTINF possui URL na linha seguinte;
+          6. cada URL começa com http:// ou https://;
+          7. todas as entradas possuem group-title="VOD";
+          8. não existem mensagens de erro;
+          9. não existem blocos Markdown;
+          10. não existem URLs inventadas;
+          11. não existem linhas de URL sem #EXTINF correspondente;
+          12. não existem arquivos auxiliares na raiz do repositório.
+
+          Se encontrar problema, corrija lista30.M3U.
+
+          ==================================================
+          LIMPEZA
+          ==================================================
+
+          O único arquivo que pode ser alterado no repositório é:
+
+          lista30.M3U
+
+          NÃO altere:
+
+          ia.txt
+
+          NÃO crie:
+
+          logs
+          JSON
+          TXT
+          HTML
+          scripts
+          arquivos temporários
+          arquivos de debug
+
+          Arquivos temporários devem ficar fora do repositório.
+
+          ==================================================
+          RESUMO
+          ==================================================
+
+          Ao terminar, mostre no terminal:
+
+          - total de links encontrados;
+          - quantidade de links analisados;
+          - quantidade de sucessos;
+          - quantidade de falhas;
+          - quantidade de entradas em lista30.M3U;
+          - ferramentas utilizadas;
+          - confirmação da validação.
+
+          Execute a tarefa completamente agora.
+          '
 
 
       # ========================================
       # VALIDATE PLAYLIST
       # ========================================
-      - name: Validate generated playlist
+      - name: Validate lista30.M3U
         shell: bash
         run: |
-          set -e
+          set -euo pipefail
 
           echo "========================================"
-          echo "Arquivos no diretório"
-          echo "========================================"
-
-          ls -lah
-
-          echo ""
-          echo "========================================"
-          echo "Verificando lista30.M3U"
+          echo "VALIDANDO LISTA30.M3U"
           echo "========================================"
 
           if [ ! -f lista30.M3U ]; then
@@ -217,38 +448,135 @@ jobs:
             exit 1
           fi
 
-          echo "lista30.M3U existe e não está vazio."
+          FIRST_LINE=$(sed -n '1p' lista30.M3U)
 
-          echo ""
-          echo "========================================"
-          echo "Primeiras linhas da playlist"
-          echo "========================================"
-
-          sed -n '1,30p' lista30.M3U
-
-          echo ""
-          echo "========================================"
-          echo "Validação M3U"
-          echo "========================================"
-
-          if ! grep -q '^#EXTM3U' lista30.M3U; then
-            echo "ERRO: lista30.M3U não possui #EXTM3U."
+          if [ "$FIRST_LINE" != "#EXTM3U" ]; then
+            echo "ERRO: arquivo não começa com #EXTM3U."
             exit 1
           fi
 
           EXTINF_COUNT=$(grep -c '^#EXTINF:' lista30.M3U || true)
-
-          echo "Quantidade de #EXTINF: $EXTINF_COUNT"
 
           if [ "$EXTINF_COUNT" -eq 0 ]; then
             echo "ERRO: nenhuma entrada #EXTINF encontrada."
             exit 1
           fi
 
-          if ! grep -q 'group-title="VOD"' lista30.M3U; then
-            echo "ERRO: group-title=\"VOD\" não encontrado."
+          VOD_COUNT=$(grep -c 'group-title="VOD"' lista30.M3U || true)
+
+          if [ "$VOD_COUNT" -ne "$EXTINF_COUNT" ]; then
+            echo "ERRO: existem entradas sem group-title=\"VOD\"."
             exit 1
           fi
+
+          BAD_EXTINF=$(grep '^#EXTINF:' lista30.M3U |
+            grep -v 'group-title="VOD"' ||
+            true)
+
+          if [ -n "$BAD_EXTINF" ]; then
+            echo "ERRO: entrada #EXTINF inválida."
+            echo "$BAD_EXTINF"
+            exit 1
+          fi
+
+          echo ""
+          echo "Verificando pares #EXTINF + URL..."
+
+          awk '
+          BEGIN {
+            errors = 0
+            extinf = 0
+          }
+
+          NR == 1 {
+            if ($0 != "#EXTM3U") {
+              print "ERRO: primeira linha inválida."
+              errors++
+            }
+            next
+          }
+
+          /^#EXTINF:/ {
+            extinf++
+            nextline = 1
+            next
+          }
+
+          nextline == 1 {
+            if ($0 !~ /^https?:\/\//) {
+              print "ERRO: URL inválida após #EXTINF na linha " NR ":"
+              print $0
+              errors++
+            }
+
+            nextline = 0
+            next
+          }
+
+          /^https?:\/\// {
+            next
+          }
+
+          {
+            if ($0 != "") {
+              print "ERRO: linha inesperada na linha " NR ":"
+              print $0
+              errors++
+            }
+          }
+
+          END {
+            if (nextline == 1) {
+              print "ERRO: último #EXTINF não possui URL."
+              errors++
+            }
+
+            if (errors > 0) {
+              exit 1
+            }
+
+            print "Pares #EXTINF + URL: OK"
+          }
+          ' lista30.M3U
+
+          HTTP_URLS=$(grep -E '^https?://' lista30.M3U || true)
+
+          if [ -z "$HTTP_URLS" ]; then
+            echo "ERRO: nenhuma URL HTTP/HTTPS encontrada."
+            exit 1
+          fi
+
+          MARKDOWN=$(grep -E '^```|^\[[^]]+\]\(https?://' lista30.M3U || true)
+
+          if [ -n "$MARKDOWN" ]; then
+            echo "ERRO: Markdown encontrado na playlist."
+            echo "$MARKDOWN"
+            exit 1
+          fi
+
+          ERRORS=$(grep -Ei 'erro|error|falha|failed|exception' lista30.M3U || true)
+
+          if [ -n "$ERRORS" ]; then
+            echo "ERRO: mensagens de erro encontradas na playlist."
+            echo "$ERRORS"
+            exit 1
+          fi
+
+          echo ""
+          echo "========================================"
+          echo "RESULTADO"
+          echo "========================================"
+
+          echo "Entradas #EXTINF: $EXTINF_COUNT"
+          echo "URLs: $(grep -cE '^https?://' lista30.M3U || true)"
+          echo "VOD: $VOD_COUNT"
+
+          echo ""
+          echo "========================================"
+          echo "PLAYLIST GERADA"
+          echo "========================================"
+
+          cat lista30.M3U
 
           echo ""
           echo "========================================"
@@ -257,16 +585,42 @@ jobs:
 
 
       # ========================================
-      # GIT STATUS
+      # CHECK UNEXPECTED CHANGES
       # ========================================
-      - name: Show git changes
+      - name: Check unexpected changes
         shell: bash
         run: |
+          set -euo pipefail
+
           echo "========================================"
-          echo "Git status"
+          echo "VERIFICANDO ALTERAÇÕES"
           echo "========================================"
 
           git status --short
+
+          EXTRA_FILES=$(
+            git status --porcelain=v1 |
+            awk '
+              {
+                status=substr($0,1,2)
+                path=substr($0,4)
+
+                if (path != "lista30.M3U") {
+                  print $0
+                }
+              }
+            '
+          )
+
+          if [ -n "$EXTRA_FILES" ]; then
+            echo ""
+            echo "ERRO: arquivos adicionais foram alterados/criados:"
+            printf '%s\n' "$EXTRA_FILES"
+            exit 1
+          fi
+
+          echo ""
+          echo "OK: somente lista30.M3U foi alterado."
 
 
       # ========================================
@@ -275,39 +629,14 @@ jobs:
       - name: Commit and Push safely
         shell: bash
         run: |
-          set -e
-
-          echo "========================================"
-          echo "Configurando Git"
-          echo "========================================"
+          set -euo pipefail
 
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
 
-          echo ""
-          echo "Branch:"
-          git branch --show-current
+          BRANCH="${GITHUB_REF_NAME}"
 
-          echo ""
-          echo "Remote:"
-          git remote -v
-
-          echo ""
-          echo "========================================"
-          echo "Limpando artefatos temporários"
-          echo "========================================"
-
-          # Um processo de geração pode criar err.txt ao registrar falhas do yt-dlp.
-          # Remove-o somente quando ele for um arquivo não rastreado.
-          # Se err.txt fizer parte do repositório, não o apaga.
-          if [ -f err.txt ] && ! git ls-files --error-unmatch -- err.txt >/dev/null 2>&1; then
-            rm -f -- err.txt
-          fi
-
-          echo ""
-          echo "========================================"
-          echo "Adicionando somente lista30.M3U"
-          echo "========================================"
+          echo "Branch: $BRANCH"
 
           git add -- lista30.M3U
 
@@ -316,34 +645,8 @@ jobs:
             exit 0
           fi
 
-          # O commit deve conter somente a playlist. Qualquer outro arquivo
-          # inesperado faz o workflow falhar para evitar commit indevido.
-          EXTRA_FILES=$(git status --porcelain=v1 \
-            | sed -E 's/^.. //' \
-            | grep -Fvx 'lista30.M3U' || true)
-
-          if [ -n "$EXTRA_FILES" ]; then
-            echo "ERRO: existem alterações adicionais além de lista30.M3U."
-            printf '%s\n' "$EXTRA_FILES"
-            git status --short
-            exit 1
-          fi
-
-          echo ""
-          echo "========================================"
-          echo "Criando commit somente da playlist"
-          echo "========================================"
-
-          git commit --only lista30.M3U -m "Atualização automática da playlist"
-
-          BRANCH=$(git rev-parse --abbrev-ref HEAD)
-
-          echo "Branch: $BRANCH"
-
-          echo ""
-          echo "========================================"
-          echo "Iniciando push"
-          echo "========================================"
+          git commit --only lista30.M3U \
+            -m "Atualização automática da playlist"
 
           for i in {1..10}; do
 
@@ -352,26 +655,21 @@ jobs:
             echo "Tentativa $i de 10"
             echo "========================================"
 
-            echo "Fetch..."
-
             if timeout 60s git fetch origin "$BRANCH"; then
               echo "Fetch OK."
             else
-              echo "Fetch falhou ou expirou."
+              echo "Fetch falhou."
               sleep 5
               continue
             fi
-
-            echo ""
-            echo "Rebase..."
 
             if timeout 60s git rebase "origin/$BRANCH"; then
               echo "Rebase OK."
             else
               echo "Rebase falhou."
 
-              # Só tenta abortar quando um rebase realmente foi iniciado.
-              if [ -d .git/rebase-merge ] || [ -d .git/rebase-apply ]; then
+              if [ -d .git/rebase-merge ] ||
+                 [ -d .git/rebase-apply ]; then
                 git rebase --abort || true
               fi
 
@@ -379,32 +677,23 @@ jobs:
               continue
             fi
 
-            echo ""
-            echo "Push..."
-
             if timeout 60s git push origin "HEAD:$BRANCH"; then
 
               echo ""
               echo "========================================"
-              echo "PUSH CONCLUÍDO COM SUCESSO!"
+              echo "PUSH CONCLUÍDO COM SUCESSO"
               echo "========================================"
 
               exit 0
 
-            else
-
-              echo "Push falhou ou expirou."
-              sleep 5
-
             fi
+
+            echo "Push falhou."
+            sleep 5
 
           done
 
           echo ""
-          echo "========================================"
-          echo "ERRO"
-          echo "========================================"
-
-          echo "Todas as 10 tentativas de push falharam."
+          echo "ERRO: todas as tentativas de push falharam."
 
           exit 1
