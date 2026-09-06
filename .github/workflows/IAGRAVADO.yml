@@ -381,6 +381,7 @@ jobs:
           10. não existem URLs inventadas;
           11. não existem linhas de URL sem #EXTINF correspondente;
           12. não existem arquivos auxiliares na raiz do repositório.
+          13. não baixe nenhum video para meu computador.
 
           Se encontrar problema, corrija lista30.M3U.
 
