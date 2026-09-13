@@ -20,6 +20,7 @@ jobs:
 
     env:
       OUTPUT_FILE: lista30.M3U
+      MAX_ENTRIES: "29"
 
     steps:
       # ========================================
@@ -58,7 +59,7 @@ jobs:
             wget \
             git
 
-          echo "Ferramentas do sistema instaladas."
+          echo "Ferramentas instaladas."
 
           python --version
           pip --version
@@ -81,7 +82,7 @@ jobs:
             yt-dlp \
             beautifulsoup4
 
-          python -c "import crawl4ai; print('Crawl4AI: OK')"
+          python -c "import crawl4ai; print('Crawl4AI: OK' )"
           python -c "import bs4; print('BeautifulSoup: OK')"
           yt-dlp --version
 
@@ -95,7 +96,7 @@ jobs:
 
           crawl4ai-setup
 
-          echo "Crawl4AI configurado com sucesso."
+          echo "Crawl4AI configurado."
 
       # ========================================
       # VERIFY IA.TXT
@@ -106,7 +107,7 @@ jobs:
           set -euo pipefail
 
           if [ ! -f ia.txt ]; then
-            echo "ERRO: o arquivo ia.txt não existe."
+            echo "ERRO: ia.txt não existe."
             exit 1
           fi
 
@@ -114,22 +115,21 @@ jobs:
             sed '/^[[:space:]]*$/d' ia.txt | wc -l
           )"
 
-          echo "Links encontrados: ${TOTAL_LINKS}"
+          echo "Links de origem encontrados: ${TOTAL_LINKS}"
 
-          if [ "${TOTAL_LINKS}" -lt 29 ]; then
-            echo "ERRO: ia.txt precisa possuir pelo menos 29 links."
+          if [ "${TOTAL_LINKS}" -lt 1 ]; then
+            echo "ERRO: ia.txt está vazio."
             exit 1
           fi
 
           echo ""
-          echo "Primeiros 29 links:"
+          echo "Links que serão usados como origem:"
           sed '/^[[:space:]]*$/d' ia.txt | sed -n '1,29p'
 
       # ========================================
       # GENERATE PLAYLIST
-      # WITHOUT OPENCODE, AI OR API KEY
       # ========================================
-      - name: Generate playlist with titles and logos
+      - name: Generate playlist from profiles and items
         shell: bash
         run: |
           set -euo pipefail
@@ -144,7 +144,15 @@ jobs:
           import sys
           from contextlib import AsyncExitStack
           from pathlib import Path
-          from urllib.parse import quote, unquote, urljoin, urlparse
+          from urllib.parse import (
+              parse_qsl,
+              quote,
+              unquote,
+              urlencode,
+              urljoin,
+              urlparse,
+              urlunparse,
+          )
           from urllib.request import Request, urlopen
 
           from bs4 import BeautifulSoup
@@ -153,6 +161,7 @@ jobs:
 
           INPUT_FILE = Path("ia.txt")
           OUTPUT_FILE = Path("lista30.M3U")
+          MAX_ENTRIES = 29
 
           USER_AGENT = (
               "Mozilla/5.0 (X11; Linux x86_64) "
@@ -240,11 +249,23 @@ jobs:
               )
 
 
-          def archive_identifier(source_url: str) -> str | None:
-              parsed = urlparse(source_url)
+          def is_archive_url(value: str) -> bool:
+              try:
+                  hostname = urlparse(value).netloc.lower()
 
-              if not parsed.netloc.lower().endswith("archive.org"):
+                  return (
+                      hostname == "archive.org"
+                      or hostname.endswith(".archive.org")
+                  )
+              except Exception:
+                  return False
+
+
+          def archive_identifier(source_url: str) -> str | None:
+              if not is_archive_url(source_url):
                   return None
+
+              parsed = urlparse(source_url)
 
               parts = [
                   unquote(part)
@@ -252,22 +273,70 @@ jobs:
                   if part
               ]
 
-              if len(parts) >= 2 and parts[0] == "details":
-                  return parts[1]
+              if len(parts) < 2:
+                  return None
 
-              return None
+              if parts[0].lower() != "details":
+                  return None
+
+              identifier = parts[1]
+
+              if identifier.startswith("@"):
+                  return None
+
+              return identifier
 
 
-          def archive_page_url(source_url: str) -> str:
+          def is_archive_profile(source_url: str) -> bool:
+              if not is_archive_url(source_url):
+                  return False
+
+              parsed = urlparse(source_url)
+
+              parts = [
+                  unquote(part)
+                  for part in parsed.path.split("/")
+                  if part
+              ]
+
+              return (
+                  len(parts) == 2
+                  and parts[0].lower() == "details"
+                  and parts[1].startswith("@")
+              )
+
+
+          def canonical_item_url(source_url: str) -> str | None:
               identifier = archive_identifier(source_url)
 
-              if identifier:
-                  return (
-                      "https://archive.org/details/"
-                      + quote(identifier, safe="" )
-                  )
+              if not identifier:
+                  return None
 
-              return source_url
+              return (
+                  "https://archive.org/details/"
+                  + quote(identifier, safe="" )
+              )
+
+
+          def page_url_with_number(
+              source_url: str,
+              page_number: int,
+          ) -> str:
+              parsed = urlparse(source_url)
+
+              query = dict(parse_qsl(parsed.query))
+              query["page"] = str(page_number)
+
+              return urlunparse(
+                  (
+                      parsed.scheme,
+                      parsed.netloc,
+                      parsed.path,
+                      parsed.params,
+                      urlencode(query),
+                      parsed.fragment,
+                  )
+              )
 
 
           def fetch_html(page_url: str) -> str:
@@ -298,7 +367,7 @@ jobs:
 
               except Exception as exc:
                   print(
-                      f"Não foi possível ler a página {page_url}: {exc}"
+                      f"Não foi possível ler {page_url}: {exc}"
                   )
                   return ""
 
@@ -350,7 +419,7 @@ jobs:
 
               title = None
 
-              # Título principal do Internet Archive.
+              # Título principal dos itens do Internet Archive.
               item_title = soup.select_one("h1.item-title")
 
               if item_title:
@@ -361,7 +430,7 @@ jobs:
                       )
                   )
 
-              # Título Open Graph para outros sites.
+              # Título Open Graph para outras páginas.
               if not title:
                   meta_title = soup.find(
                       "meta",
@@ -373,7 +442,7 @@ jobs:
                           meta_title.get("content", "")
                       )
 
-              # Título HTML como último recurso.
+              # Último recurso para o título.
               if not title and soup.title:
                   title = clean_text(
                       soup.title.get_text(
@@ -431,19 +500,153 @@ jobs:
               return title or None, logo
 
 
-          def get_metadata(
-              source_url: str,
+          def extract_item_links(
+              page_url: str,
+              contents: list[str],
+          ) -> list[str]:
+              found = []
+              seen = set()
+
+              def add_candidate(candidate: str) -> None:
+                  candidate = clean_url(
+                      urljoin(page_url, candidate)
+                  )
+
+                  item_url = canonical_item_url(candidate)
+
+                  if not item_url:
+                      return
+
+                  if is_archive_profile(candidate):
+                      return
+
+                  if item_url in seen:
+                      return
+
+                  seen.add(item_url)
+                  found.append(item_url)
+
+              for content in contents:
+                  if not content:
+                      continue
+
+                  soup = BeautifulSoup(
+                      content,
+                      "html.parser",
+                  )
+
+                  for anchor in soup.select("a[href]"):
+                      add_candidate(anchor.get("href", ""))
+
+                  for match in re.findall(
+                      r"(?:https://archive\.org )?/details/[^\s\"'<>]+",
+                      content,
+                      flags=re.IGNORECASE,
+                  ):
+                      add_candidate(match)
+
+              return found
+
+
+          async def crawl_page(
+              crawler,
+              page_url: str,
+          ) -> list[str]:
+              try:
+                  result = await crawler.arun(url=page_url)
+
+              except Exception as exc:
+                  print(
+                      f"Crawl4AI falhou ao abrir {page_url}: {exc}"
+                  )
+                  return []
+
+              contents = []
+
+              for attribute in (
+                  "html",
+                  "cleaned_html",
+                  "markdown",
+              ):
+                  value = getattr(result, attribute, None)
+
+                  if value:
+                      contents.append(str(value))
+
+              return contents
+
+
+          async def expand_archive_profile(
+              crawler,
+              profile_url: str,
+          ) -> list[str]:
+              items = []
+              seen = set()
+
+              print(f"Expandindo perfil: {profile_url}")
+
+              # O perfil tem muitas páginas. Dez páginas são suficientes
+              # para encontrar 29 itens na maioria dos casos.
+              for page_number in range(1, 11):
+                  page_url = page_url_with_number(
+                      profile_url,
+                      page_number,
+                  )
+
+                  contents = await crawl_page(
+                      crawler,
+                      page_url,
+                  )
+
+                  page_items = extract_item_links(
+                      page_url,
+                      contents,
+                  )
+
+                  before = len(items)
+
+                  for item_url in page_items:
+                      if item_url in seen:
+                          continue
+
+                      seen.add(item_url)
+                      items.append(item_url)
+
+                      if len(items) >= MAX_ENTRIES:
+                          break
+
+                  print(
+                      f"Página {page_number}: "
+                      f"{len(items) - before} itens novos"
+                  )
+
+                  if len(items) >= MAX_ENTRIES:
+                      break
+
+                  if not page_items:
+                      break
+
+              print(
+                  f"Total de itens encontrados no perfil: {len(items)}"
+              )
+
+              return items[:MAX_ENTRIES]
+
+
+          def get_item_metadata(
+              item_url: str,
           ) -> tuple[str | None, str | None]:
-              page_url = archive_page_url(source_url)
-              page_html = fetch_html(page_url)
+              page_html = fetch_html(item_url)
 
               return metadata_from_html(
-                  page_url,
+                  item_url,
                   page_html,
               )
 
 
-          def run_ytdlp(source_url: str) -> str | None:
+          def run_ytdlp_media(
+              source_url: str,
+          ) -> str | None:
               command = [
                   sys.executable,
                   "-m",
@@ -468,11 +671,15 @@ jobs:
                   )
 
               except subprocess.TimeoutExpired:
-                  print(f"yt-dlp excedeu o tempo: {source_url}")
+                  print(
+                      f"yt-dlp excedeu o tempo: {source_url}"
+                  )
                   return None
 
               except Exception as exc:
-                  print(f"Erro ao executar yt-dlp: {exc}")
+                  print(
+                      f"Erro no yt-dlp: {exc}"
+                  )
                   return None
 
               candidates = []
@@ -489,91 +696,121 @@ jobs:
               return candidates[-1]
 
 
-          def extract_media_candidates(
-              page_url: str,
-              content: str,
-          ) -> list[str]:
-              content = html.unescape(content)
-              content = content.replace("\\/", "/")
+          def run_ytdlp_title(
+              source_url: str,
+          ) -> str | None:
+              command = [
+                  sys.executable,
+                  "-m",
+                  "yt_dlp",
+                  "--quiet",
+                  "--no-warnings",
+                  "--no-playlist",
+                  "--skip-download",
+                  "--get-title",
+                  source_url,
+              ]
 
-              candidates = []
-
-              for match in URL_PATTERN.findall(content):
-                  candidate = clean_url(match)
-
-                  if not is_http_url(candidate ):
-                      continue
-
-                  if is_media_url(candidate):
-                      candidates.append(candidate)
-
-              relative_pattern = re.compile(
-                  r"""(?:src|href|file|url|source)\s*[:=]\s*["']([^"']+)["']""",
-                  re.IGNORECASE,
-              )
-
-              for match in relative_pattern.findall(content):
-                  candidate = clean_url(
-                      urljoin(page_url, match)
+              try:
+                  result = subprocess.run(
+                      command,
+                      capture_output=True,
+                      text=True,
+                      timeout=60,
+                      check=False,
                   )
 
-                  if not is_http_url(candidate ):
-                      continue
+              except Exception:
+                  return None
 
-                  if is_media_url(candidate):
-                      candidates.append(candidate)
+              titles = [
+                  clean_text(line)
+                  for line in result.stdout.splitlines()
+                  if clean_text(line)
+              ]
 
-              unique = []
+              return titles[-1] if titles else None
+
+
+          def extract_media_candidates(
+              page_url: str,
+              contents: list[str],
+          ) -> list[str]:
+              candidates = []
               seen = set()
 
-              for candidate in candidates:
-                  if candidate in seen:
-                      continue
+              for content in contents:
+                  content = html.unescape(content)
+                  content = content.replace("\\/", "/")
 
-                  seen.add(candidate)
-                  unique.append(candidate)
+                  for match in URL_PATTERN.findall(content):
+                      candidate = clean_url(match)
 
-              return unique
+                      if not is_http_url(candidate ):
+                          continue
+
+                      if not is_media_url(candidate):
+                          continue
+
+                      if candidate not in seen:
+                          seen.add(candidate)
+                          candidates.append(candidate)
+
+                  relative_pattern = re.compile(
+                      r"""(?:src|href|file|url|source)\s*[:=]\s*["']([^"']+)["']""",
+                      re.IGNORECASE,
+                  )
+
+                  for match in relative_pattern.findall(content):
+                      candidate = clean_url(
+                          urljoin(page_url, match)
+                      )
+
+                      if not is_http_url(candidate ):
+                          continue
+
+                      if not is_media_url(candidate):
+                          continue
+
+                      if candidate not in seen:
+                          seen.add(candidate)
+                          candidates.append(candidate)
+
+              return candidates
 
 
-          async def crawl_for_media(
+          async def media_from_item_page(
               crawler,
-              page_url: str,
+              item_url: str,
           ) -> tuple[str | None, str | None, str | None]:
-              try:
-                  result = await crawler.arun(url=page_url)
-
-              except Exception as exc:
-                  print(f"Crawl4AI falhou para {page_url}: {exc}")
-                  return None, None, None
-
-              page_html = getattr(result, "html", "") or ""
-              page_markdown = getattr(result, "markdown", "") or ""
-
-              title, logo = metadata_from_html(
-                  page_url,
-                  page_html,
+              contents = await crawl_page(
+                  crawler,
+                  item_url,
               )
 
-              contents = (
-                  page_html,
-                  page_markdown,
-              )
+              title = None
+              logo = None
 
               for content in contents:
-                  candidates = extract_media_candidates(
-                      page_url,
+                  found_title, found_logo = metadata_from_html(
+                      item_url,
                       content,
                   )
 
-                  for candidate in candidates:
-                      resolved = run_ytdlp(candidate)
+                  title = title or found_title
+                  logo = logo or found_logo
 
-                      if resolved and is_http_url(resolved ):
-                          return resolved, title, logo
+              for candidate in extract_media_candidates(
+                  item_url,
+                  contents,
+              ):
+                  resolved = run_ytdlp_media(candidate)
 
-                      if is_http_url(candidate ):
-                          return candidate, title, logo
+                  if resolved and is_http_url(resolved ):
+                      return resolved, title, logo
+
+                  if is_http_url(candidate ):
+                      return candidate, title, logo
 
               return None, title, logo
 
@@ -582,97 +819,170 @@ jobs:
               if not INPUT_FILE.exists():
                   raise RuntimeError("ia.txt não existe.")
 
-              links = [
+              source_links = [
                   line.strip()
                   for line in INPUT_FILE.read_text(
                       encoding="utf-8",
                       errors="replace",
                   ).splitlines()
                   if line.strip()
-              ][:29]
+              ][:MAX_ENTRIES]
 
+              crawler = None
               successes = []
               failures = 0
-              crawler = None
+              seen_items = set()
+              seen_media = set()
 
               async with AsyncExitStack() as stack:
-                  for index, source_url in enumerate(
-                      links,
-                      start=1,
-                  ):
-                      print(
-                          f"[{index}/29] Analisando: {source_url}"
+                  crawler = await stack.enter_async_context(
+                      AsyncWebCrawler(
+                          config=BrowserConfig(
+                              headless=True
+                          )
                       )
+                  )
 
-                      page_url = archive_page_url(source_url)
+                  item_links = []
 
-                      title, logo = get_metadata(source_url)
-                      media_url = run_ytdlp(source_url)
-
-                      if not media_url:
-                          if crawler is None:
-                              try:
-                                  crawler = await stack.enter_async_context(
-                                      AsyncWebCrawler(
-                                          config=BrowserConfig(
-                                              headless=True
-                                          )
-                                      )
-                                  )
-
-                              except Exception as exc:
-                                  print(
-                                      "Crawl4AI não pôde ser iniciado: "
-                                      f"{exc}"
-                                  )
-                                  crawler = False
-
-                          if crawler:
-                              (
-                                  media_url,
-                                  crawled_title,
-                                  crawled_logo,
-                              ) = await crawl_for_media(
+                  for source_url in source_links:
+                      if is_archive_profile(source_url):
+                          profile_items = (
+                              await expand_archive_profile(
                                   crawler,
-                                  page_url,
+                                  source_url,
                               )
-
-                              title = title or crawled_title
-                              logo = logo or crawled_logo
-
-                      if (
-                          media_url
-                          and is_http_url(media_url )
-                          and title
-                          and logo
-                          and valid_image_url(logo)
-                      ):
-                          successes.append(
-                              {
-                                  "title": title,
-                                  "logo": logo,
-                                  "media": media_url,
-                              }
                           )
 
-                          print(
-                              f"[{index}/29] OK: "
-                              f"{title}"
-                          )
+                          for item_url in profile_items:
+                              if item_url not in seen_items:
+                                  seen_items.add(item_url)
+                                  item_links.append(item_url)
+
+                              if len(item_links) >= MAX_ENTRIES:
+                                  break
 
                       else:
-                          failures += 1
-
-                          print(
-                              f"[{index}/29] Ignorado: "
-                              "mídia, título ou logo inválido."
+                          item_url = (
+                              canonical_item_url(source_url)
+                              or source_url
                           )
+
+                          if item_url not in seen_items:
+                              seen_items.add(item_url)
+                              item_links.append(item_url)
+
+                      if len(item_links) >= MAX_ENTRIES:
+                          break
+
+                  print("")
+                  print(
+                      f"Itens individuais para processar: "
+                      f"{len(item_links)}"
+                  )
+
+                  for index, item_url in enumerate(
+                      item_links,
+                      start=1,
+                  ):
+                      if len(successes) >= MAX_ENTRIES:
+                          break
+
+                      print(
+                          f"[{index}/{len(item_links)}] "
+                          f"Processando {item_url}"
+                      )
+
+                      title, logo = get_item_metadata(
+                          item_url
+                      )
+
+                      media_url = run_ytdlp_media(
+                          item_url
+                      )
+
+                      if not media_url:
+                          (
+                              media_url,
+                              crawled_title,
+                              crawled_logo,
+                          ) = await media_from_item_page(
+                              crawler,
+                              item_url,
+                          )
+
+                          title = title or crawled_title
+                          logo = logo or crawled_logo
+
+                      if not title:
+                          title = run_ytdlp_title(
+                              item_url
+                          )
+
+                      if not media_url:
+                          failures += 1
+                          print(
+                              "Falha: mídia não encontrada."
+                          )
+                          continue
+
+                      if not is_http_url(media_url ):
+                          failures += 1
+                          print(
+                              "Falha: URL de mídia inválida."
+                          )
+                          continue
+
+                      if not title:
+                          failures += 1
+                          print(
+                              "Falha: título não encontrado."
+                          )
+                          continue
+
+                      if not logo or not valid_image_url(logo):
+                          failures += 1
+                          print(
+                              "Falha: tvg-logo real não encontrado."
+                          )
+                          continue
+
+                      if media_url in seen_media:
+                          print(
+                              "Ignorado: mídia duplicada."
+                          )
+                          continue
+
+                      seen_media.add(media_url)
+
+                      successes.append(
+                          {
+                              "title": title,
+                              "logo": logo,
+                              "media": media_url,
+                          }
+                      )
+
+                      print(
+                          f"Sucesso: {title}"
+                      )
+
+              if not successes:
+                  raise RuntimeError(
+                      "Nenhuma entrada válida foi encontrada."
+                  )
 
               lines = ["#EXTM3U"]
 
               for item in successes:
-                  title = escape_m3u_attribute(item["title"])
-                  logo = escape_m3u_attribute(item["logo"])
+                  title = escape_m3u_attribute(
+                      item["title"]
+                  )
+
+                  logo = escape_m3u_attribute(
+                      item["logo"]
+                  )
+
                   media = item["media"]
 
                   lines.append(
@@ -685,11 +995,6 @@ jobs:
 
                   lines.append(media)
 
-              if not successes:
-                  raise RuntimeError(
-                      "Nenhuma entrada válida foi encontrada."
-                  )
-
               OUTPUT_FILE.write_text(
                   "\n".join(lines) + "\n",
                   encoding="utf-8",
@@ -699,15 +1004,28 @@ jobs:
               print("========================================")
               print("RESULTADO")
               print("========================================")
-              print(f"Links encontrados: {len(links)}")
-              print(f"Links analisados: {len(links)}")
-              print(f"Sucessos: {len(successes)}")
-              print(f"Falhas: {failures}")
-              print(f"Entradas criadas: {len(successes)}")
-              print("Títulos: metadata real das páginas")
-              print("Logos: og:image real das páginas")
-              print("Ferramentas: yt-dlp, Crawl4AI e BeautifulSoup")
-              print(f"Arquivo criado: {OUTPUT_FILE}")
+              print(
+                  f"Fontes lidas: {len(source_links)}"
+              )
+              print(
+                  f"Itens individuais encontrados: "
+                  f"{len(item_links)}"
+              )
+              print(
+                  f"Entradas criadas: {len(successes)}"
+              )
+              print(
+                  f"Falhas: {failures}"
+              )
+              print(
+                  "Títulos: metadata pública das páginas"
+              )
+              print(
+                  "Logos: og:image público das páginas"
+              )
+              print(
+                  "Ferramentas: Crawl4AI, yt-dlp e BeautifulSoup"
+              )
 
 
           if __name__ == "__main__":
@@ -736,10 +1054,6 @@ jobs:
         run: |
           set -euo pipefail
 
-          echo "========================================"
-          echo "VALIDANDO PLAYLIST"
-          echo "========================================"
-
           if [ ! -f "${OUTPUT_FILE}" ]; then
             echo "ERRO: arquivo não encontrado."
             exit 1
@@ -761,53 +1075,54 @@ jobs:
             grep -c '^#EXTINF:' "${OUTPUT_FILE}" || true
           )"
 
-          if [ "${EXTINF_COUNT}" -eq 0 ]; then
-            echo "ERRO: nenhuma entrada #EXTINF encontrada."
-            exit 1
-          fi
-
-          VOD_COUNT="$(
-            grep -c 'group-title="VOD"' "${OUTPUT_FILE}" || true
-          )"
-
-          if [ "${VOD_COUNT}" -ne "${EXTINF_COUNT}" ]; then
-            echo "ERRO: existem entradas sem group-title=\"VOD\"."
-            exit 1
-          fi
-
-          EMPTY_LOGOS="$(
-            grep -E '^#EXTINF:.*tvg-logo=""' \
-              "${OUTPUT_FILE}" ||
-              true
-          )"
-
-          if [ -n "${EMPTY_LOGOS}" ]; then
-            echo "ERRO: existe entrada sem tvg-logo."
-            echo "${EMPTY_LOGOS}"
-            exit 1
-          fi
-
-          INVALID_LOGOS="$(
-            grep -E '^#EXTINF:' "${OUTPUT_FILE}" |
-            grep -Ev 'tvg-logo="https?://[^"]+"' ||
-            true
+          URL_COUNT="$(
+            grep -cE '^https?://' "${OUTPUT_FILE}" || true
            )"
 
-          if [ -n "${INVALID_LOGOS}" ]; then
-            echo "ERRO: existe entrada com tvg-logo inválido."
-            echo "${INVALID_LOGOS}"
+          if [ "${EXTINF_COUNT}" -eq 0 ]; then
+            echo "ERRO: nenhuma entrada encontrada."
             exit 1
           fi
 
-          EMPTY_NAMES="$(
-            grep -E '^#EXTINF:.*tvg-name=""' \
-              "${OUTPUT_FILE}" ||
-              true
-          )"
+          if [ "${EXTINF_COUNT}" -gt "${MAX_ENTRIES}" ]; then
+            echo "ERRO: mais de ${MAX_ENTRIES} entradas."
+            exit 1
+          fi
 
-          if [ -n "${EMPTY_NAMES}" ]; then
-            echo "ERRO: existe entrada sem tvg-name."
-            echo "${EMPTY_NAMES}"
+          if [ "${URL_COUNT}" -ne "${EXTINF_COUNT}" ]; then
+            echo "ERRO: quantidade de URLs diferente da quantidade de entradas."
+            exit 1
+          fi
+
+          if grep -E '^#EXTINF:.*tvg-logo=""' \
+            "${OUTPUT_FILE}" >/dev/null; then
+            echo "ERRO: existe entrada sem tvg-logo."
+            exit 1
+          fi
+
+          if grep -E '^#EXTINF:' "${OUTPUT_FILE}" |
+            grep -Ev 'tvg-logo="https?://[^"]+"' >/dev/null; then
+            echo "ERRO: existe tvg-logo inválido."
+            exit 1
+          fi
+
+          if grep -E '^#EXTINF:.*tvg-name=""' \
+            "${OUTPUT_FILE}" >/dev/null; then
+            echo "ERRO: existe título vazio."
+            exit 1
+          fi
+
+          if grep -E '^#EXTINF:.*tvg-logo="[^"]+\.svg' \
+            "${OUTPUT_FILE}" >/dev/null; then
+            echo "ERRO: logo SVG não permitido."
+            exit 1
+          fi
+
+          if grep -E '^#EXTINF:.*group-title="VOD"' \
+            "${OUTPUT_FILE}" >/dev/null; then
+            echo "group-title=VOD: OK"
+          else
+            echo "ERRO: group-title=VOD não encontrado."
             exit 1
           fi
 
@@ -828,8 +1143,7 @@ jobs:
 
             expecting_url == 1 {
               if ($0 !~ /^https?:\/\// ) {
-                print "ERRO: URL inválida após #EXTINF na linha " NR ":"
-                print $0
+                print "ERRO: URL inválida após #EXTINF na linha " NR
                 errors++
               }
 
@@ -838,8 +1152,7 @@ jobs:
             }
 
             /^https?:\/\// {
-              print "ERRO: URL sem #EXTINF correspondente na linha " NR ":"
-              print $0
+              print "ERRO: URL sem #EXTINF na linha " NR
               errors++
               next
             }
@@ -849,14 +1162,13 @@ jobs:
             }
 
             {
-              print "ERRO: linha inesperada na linha " NR ":"
-              print $0
+              print "ERRO: linha inesperada na linha " NR
               errors++
             }
 
             END {
               if (expecting_url == 1 ) {
-                print "ERRO: o último #EXTINF não possui URL."
+                print "ERRO: último #EXTINF sem URL."
                 errors++
               }
 
@@ -866,23 +1178,10 @@ jobs:
             }
           ' "${OUTPUT_FILE}"
 
-          MARKDOWN="$(
-            grep -E '^```|^\[[^]]+\]\(https?://' \
-              "${OUTPUT_FILE}" ||
-              true
-           )"
-
-          if [ -n "${MARKDOWN}" ]; then
-            echo "ERRO: Markdown encontrado na playlist."
-            exit 1
-          fi
-
           echo ""
-          echo "Playlist validada com sucesso."
+          echo "Playlist validada."
           echo "Entradas: ${EXTINF_COUNT}"
-          echo "URLs: $(grep -cE '^https?://' "${OUTPUT_FILE}" || true )"
-          echo "Títulos: ${EXTINF_COUNT}"
-          echo "Logos: ${EXTINF_COUNT}"
+          echo "URLs: ${URL_COUNT}"
 
       # ========================================
       # CHECK UNEXPECTED CHANGES
@@ -908,8 +1207,7 @@ jobs:
           )"
 
           if [ -n "${EXTRA_FILES}" ]; then
-            echo ""
-            echo "ERRO: arquivos adicionais foram criados ou alterados:"
+            echo "ERRO: arquivos extras alterados:"
             printf '%s\n' "${EXTRA_FILES}"
             exit 1
           fi
@@ -932,7 +1230,7 @@ jobs:
           git add -- "${OUTPUT_FILE}"
 
           if git diff --cached --quiet -- "${OUTPUT_FILE}"; then
-            echo "Nenhuma alteração nova na playlist."
+            echo "Nenhuma alteração nova."
             exit 0
           fi
 
@@ -940,20 +1238,19 @@ jobs:
             -m "Atualiza playlist com titulos e logos"
 
           for i in 1 2 3 4 5; do
-            echo ""
             echo "Tentativa ${i} de push."
 
             if git push origin "HEAD:${BRANCH}"; then
-              echo "Push concluído com sucesso."
+              echo "Push concluído."
               exit 0
             fi
 
-            echo "Push falhou. Atualizando branch remota."
+            echo "Push falhou. Sincronizando branch."
 
             git fetch origin "${BRANCH}"
 
             if ! git rebase "origin/${BRANCH}"; then
-              echo "ERRO: conflito durante o rebase."
+              echo "ERRO: conflito durante rebase."
               git rebase --abort || true
               exit 1
             fi
