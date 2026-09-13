@@ -3,7 +3,6 @@ name: IA GRAVADO
 on:
   workflow_dispatch:
 
-  # Executa automaticamente a cada 8 horas.
   schedule:
     - cron: "0 */8 * * *"
 
@@ -12,7 +11,7 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  opencode:
+  playlist:
     runs-on: ubuntu-latest
     timeout-minutes: 45
 
@@ -21,7 +20,6 @@ jobs:
 
     env:
       OUTPUT_FILE: lista30.M3U
-      OPENCODE_MODEL: opencode/mimo-v2.5-free
 
     steps:
       # ========================================
@@ -119,177 +117,295 @@ jobs:
           echo "Links encontrados: ${TOTAL_LINKS}"
 
           if [ "${TOTAL_LINKS}" -lt 29 ]; then
-            echo "ERRO: ia.txt precisa possuir pelo menos 29 links não vazios."
+            echo "ERRO: ia.txt precisa possuir pelo menos 29 links."
             exit 1
           fi
 
+          echo ""
           echo "Primeiros 29 links:"
           sed '/^[[:space:]]*$/d' ia.txt | sed -n '1,29p'
 
       # ========================================
-      # INSTALL OPENCODE
+      # GENERATE PLAYLIST WITHOUT AI OR API
       # ========================================
-      - name: Install OpenCode
+      - name: Generate playlist
         shell: bash
         run: |
           set -euo pipefail
-
-          curl -fsSL https://opencode.ai/install | bash
-
-          echo "$HOME/.opencode/bin" >> "$GITHUB_PATH"
-
-          export PATH="$HOME/.opencode/bin:$HOME/.local/bin:$PATH"
-
-          if ! command -v opencode >/dev/null 2>&1; then
-            echo "ERRO: OpenCode não foi encontrado."
-            exit 1
-          fi
-
-          opencode --version
-
-      # ========================================
-      # RUN OPENCODE WITH FIXED PROMPT
-      # ========================================
-      - name: Run OpenCode
-        env:
-          OPENCODE_API_KEY: ${{ secrets.OPENCODE_API_KEY }}
-        shell: bash
-        run: |
-          set -euo pipefail
-
-          export PATH="$HOME/.opencode/bin:$HOME/.local/bin:$PATH"
-
-          if [ -z "${OPENCODE_API_KEY:-}" ]; then
-            echo "ERRO: o segredo OPENCODE_API_KEY não está configurado."
-            echo ""
-            echo "Crie o segredo em:"
-            echo "Settings > Secrets and variables > Actions > Secrets"
-            exit 1
-          fi
 
           rm -f -- "${OUTPUT_FILE}"
 
-          # ============================================================
-          # PROMPT FIXO
-          # Edite somente este bloco quando quiser mudar a tarefa.
-          # ============================================================
-          PROMPT_FIXO="$(cat <<'PROMPT'
-Você é o agente executor desta tarefa dentro do GitHub Actions.
+          cat > "${RUNNER_TEMP}/generate_playlist.py" <<'PYTHON'
+          import asyncio
+          import html
+          import re
+          import subprocess
+          import sys
+          from contextlib import AsyncExitStack
+          from pathlib import Path
+          from urllib.parse import urljoin, urlparse
 
-Execute a tarefa completamente no ambiente atual.
-Não apenas explique.
-Não forneça tutorial.
-Não mostre somente comandos.
-Use as ferramentas disponíveis no ambiente.
+          from crawl4ai import AsyncWebCrawler, BrowserConfig
 
-OBJETIVO:
 
-O arquivo ia.txt contém URLs.
+          INPUT_FILE = Path("ia.txt")
+          OUTPUT_FILE = Path("lista30.M3U")
 
-Leia o arquivo ia.txt e considere SOMENTE os primeiros 29 links não vazios.
+          MEDIA_EXTENSIONS = (
+              ".m3u8",
+              ".mp4",
+              ".m4v",
+              ".webm",
+              ".mov",
+              ".ts",
+              ".mp3",
+              ".m4a",
+              ".aac",
+          )
 
-Para cada um desses 29 links:
+          URL_PATTERN = re.compile(
+              r"https?://[^\s\"'<>\\]+",
+              re.IGNORECASE,
+           )
 
-1. Analise a URL.
-2. Determine o tipo de conteúdo.
-3. Use Crawl4AI quando for necessário analisar uma página.
-4. Use yt-dlp quando a URL for compatível.
-5. Use aria2 somente se for necessário.
-6. Use ffmpeg somente se for necessário.
-7. Tente descobrir uma URL real de mídia utilizável.
-8. Não baixe vídeos inteiros desnecessariamente.
-9. Não invente URLs.
-10. Não crie URLs falsas.
-11. Se um link falhar, ignore-o e continue com os demais.
-12. Não processe um 30º link.
 
-ARQUIVO FINAL OBRIGATÓRIO:
+          def is_http_url(value: str ) -> bool:
+              try:
+                  parsed = urlparse(value)
+                  return parsed.scheme in {"http", "https"} and bool(parsed.netloc )
+              except Exception:
+                  return False
 
-Crie este arquivo na raiz do repositório:
 
-lista30.M3U
+          def clean_url(value: str) -> str:
+              value = html.unescape(value)
+              value = value.replace("\\/", "/")
+              value = value.strip()
 
-O arquivo precisa ser uma playlist IPTV/M3U válida.
+              while value and value[-1] in ".,;:)]}'\"":
+                  value = value[:-1]
 
-O conteúdo deve seguir exatamente este formato:
+              return value
 
-#EXTM3U
-#EXTINF:-1 tvg-logo="" group-title="VOD",Item 1
-https://exemplo.com/video1.mp4
 
-REGRAS DA PLAYLIST:
+          def is_media_url(value: str) -> bool:
+              lower = value.lower().split("#", 1)[0]
 
-- A primeira linha deve ser exatamente #EXTM3U.
-- Cada entrada deve possuir uma linha #EXTINF.
-- Cada #EXTINF deve ser imediatamente seguido por uma URL.
-- Toda entrada deve possuir group-title="VOD".
-- As URLs devem começar com http:// ou https://.
-- Não coloque Markdown.
-- Não coloque cercas de código.
-- Não coloque explicações.
-- Não coloque logs.
-- Não coloque erros.
-- Não coloque comentários.
-- Não coloque URLs inventadas.
-- Não crie entradas para links que falharam.
-- Podem existir menos de 29 entradas se alguns links não produzirem uma URL real.
-- Nunca invente URLs para completar a quantidade.
-- Não processe mais de 29 links.
+              if any(lower.endswith(ext) for ext in MEDIA_EXTENSIONS):
+                  return True
 
-REGRAS DE ARQUIVOS:
+              query = urlparse(value).query.lower()
 
-- O único arquivo que pode ser alterado ou criado no repositório é lista30.M3U.
-- Não altere ia.txt.
-- Não crie logs.
-- Não crie JSON.
-- Não crie TXT.
-- Não crie HTML.
-- Não crie scripts.
-- Não crie arquivos temporários no repositório.
-- Arquivos temporários devem ficar fora do repositório.
-- Não baixe vídeos para o computador.
+              return any(
+                  f".{ext}" in query
+                  for ext in (
+                      "m3u8",
+                      "mp4",
+                      "m4v",
+                      "webm",
+                      "mov",
+                      "ts",
+                      "mp3",
+                      "m4a",
+                  )
+              )
 
-VALIDAÇÃO OBRIGATÓRIA:
 
-Depois de criar lista30.M3U, verifique:
+          def run_ytdlp(url: str) -> str | None:
+              command = [
+                  sys.executable,
+                  "-m",
+                  "yt_dlp",
+                  "--quiet",
+                  "--no-warnings",
+                  "--no-playlist",
+                  "--skip-download",
+                  "--get-url",
+                  "--format",
+                  "best",
+                  url,
+              ]
 
-1. Se o arquivo existe.
-2. Se o arquivo não está vazio.
-3. Se a primeira linha é exatamente #EXTM3U.
-4. Se existem entradas #EXTINF.
-5. Se cada #EXTINF possui uma URL na linha seguinte.
-6. Se todas as URLs começam com http:// ou https://.
-7. Se todas as entradas possuem group-title="VOD".
-8. Se não existem erros na playlist.
-9. Se não existem blocos Markdown.
-10. Se não existem URLs inventadas.
-11. Se não existem URLs sem #EXTINF correspondente.
-12. Se nenhum arquivo adicional foi criado no repositório.
+              try:
+                  result = subprocess.run(
+                      command,
+                      capture_output=True,
+                      text=True,
+                      timeout=75,
+                      check=False,
+                  )
+              except subprocess.TimeoutExpired:
+                  return None
+              except Exception:
+                  return None
 
-Execute a tarefa agora.
+              candidates = []
 
-No final, o arquivo lista30.M3U deve estar criado diretamente na raiz do repositório.
-PROMPT
- )"
+              for line in result.stdout.splitlines():
+                  line = clean_url(line)
 
-          echo "Executando OpenCode com o prompt fixo."
+                  if is_http_url(line ):
+                      candidates.append(line)
 
-          OPENCODE_LOG="${RUNNER_TEMP}/opencode-output.txt"
+              if not candidates:
+                  return None
 
-          opencode run \
-            --dir "${GITHUB_WORKSPACE}" \
-            --model "${OPENCODE_MODEL}" \
-            --auto \
-            "${PROMPT_FIXO}" \
-            > "${OPENCODE_LOG}" 2>&1
+              return candidates[-1]
 
-          echo "OpenCode terminou a execução."
+
+          def extract_media_candidates(page_url: str, content: str) -> list[str]:
+              content = html.unescape(content)
+              content = content.replace("\\/", "/")
+
+              candidates = []
+
+              for match in URL_PATTERN.findall(content):
+                  candidate = clean_url(match)
+
+                  if not is_http_url(candidate ):
+                      continue
+
+                  if is_media_url(candidate):
+                      candidates.append(candidate)
+
+              relative_pattern = re.compile(
+                  r"""(?:src|href|file|url|source)\s*[:=]\s*["']([^"']+)["']""",
+                  re.IGNORECASE,
+              )
+
+              for match in relative_pattern.findall(content):
+                  candidate = clean_url(urljoin(page_url, match))
+
+                  if not is_http_url(candidate ):
+                      continue
+
+                  if is_media_url(candidate):
+                      candidates.append(candidate)
+
+              unique = []
+              seen = set()
+
+              for candidate in candidates:
+                  if candidate not in seen:
+                      seen.add(candidate)
+                      unique.append(candidate)
+
+              return unique
+
+
+          async def crawl_for_media(crawler, page_url: str) -> str | None:
+              try:
+                  result = await crawler.arun(url=page_url)
+              except Exception as exc:
+                  print(f"Crawl4AI falhou para {page_url}: {exc}")
+                  return None
+
+              contents = []
+
+              for attribute in ("html", "cleaned_html", "markdown"):
+                  value = getattr(result, attribute, None)
+
+                  if value:
+                      contents.append(str(value))
+
+              for content in contents:
+                  candidates = extract_media_candidates(page_url, content)
+
+                  for candidate in candidates:
+                      resolved = run_ytdlp(candidate)
+
+                      if resolved and is_http_url(resolved ):
+                          return resolved
+
+                      if is_http_url(candidate ):
+                          return candidate
+
+              return None
+
+
+          async def main() -> None:
+              if not INPUT_FILE.exists():
+                  raise RuntimeError("ia.txt não existe.")
+
+              links = [
+                  line.strip()
+                  for line in INPUT_FILE.read_text(
+                      encoding="utf-8",
+                      errors="replace",
+                  ).splitlines()
+                  if line.strip()
+              ][:29]
+
+              successes = []
+              failures = 0
+              crawler = None
+
+              async with AsyncExitStack() as stack:
+                  for index, source_url in enumerate(links, start=1):
+                      print(f"[{index}/29] Analisando: {source_url}")
+
+                      media_url = run_ytdlp(source_url)
+
+                      if media_url and is_http_url(media_url ):
+                          successes.append((index, media_url))
+                          print(f"[{index}/29] Mídia encontrada via yt-dlp.")
+                          continue
+
+                      if crawler is None:
+                          try:
+                              crawler = await stack.enter_async_context(
+                                  AsyncWebCrawler(
+                                      config=BrowserConfig(headless=True)
+                                  )
+                              )
+                          except Exception as exc:
+                              print(f"Crawl4AI não pôde ser iniciado: {exc}")
+                              crawler = False
+
+                      if crawler:
+                          media_url = await crawl_for_media(crawler, source_url)
+
+                      if media_url and is_http_url(media_url ):
+                          successes.append((index, media_url))
+                          print(f"[{index}/29] Mídia encontrada via Crawl4AI.")
+                      else:
+                          failures += 1
+                          print(f"[{index}/29] Nenhuma mídia utilizável encontrada.")
+
+              lines = ["#EXTM3U"]
+
+              for item_number, media_url in successes:
+                  lines.append(
+                      f'#EXTINF:-1 tvg-logo="" group-title="VOD",Item {item_number}'
+                  )
+                  lines.append(media_url)
+
+              OUTPUT_FILE.write_text(
+                  "\n".join(lines) + "\n",
+                  encoding="utf-8",
+              )
+
+              print("")
+              print("========================================")
+              print("RESULTADO")
+              print("========================================")
+              print(f"Links encontrados: {len(links)}")
+              print(f"Links analisados: {len(links)}")
+              print(f"Sucessos: {len(successes)}")
+              print(f"Falhas: {failures}")
+              print(f"Entradas criadas: {len(successes)}")
+              print("Ferramentas utilizadas: yt-dlp e Crawl4AI")
+              print(f"Arquivo criado: {OUTPUT_FILE}")
+
+
+          if __name__ == "__main__":
+              asyncio.run(main())
+          PYTHON
+
+          python "${RUNNER_TEMP}/generate_playlist.py"
 
           if [ ! -f "${OUTPUT_FILE}" ]; then
-            echo "ERRO: o OpenCode não criou ${OUTPUT_FILE}."
-            echo ""
-            echo "Últimas mensagens do OpenCode:"
-            tail -n 100 "${OPENCODE_LOG}" || true
+            echo "ERRO: ${OUTPUT_FILE} não foi criado."
             exit 1
           fi
 
@@ -303,12 +419,14 @@ PROMPT
       # ========================================
       # VALIDATE PLAYLIST
       # ========================================
-      - name: Validate lista30.M3U
+      - name: Validate playlist
         shell: bash
         run: |
           set -euo pipefail
 
-          echo "Validando ${OUTPUT_FILE}."
+          echo "========================================"
+          echo "VALIDANDO PLAYLIST"
+          echo "========================================"
 
           if [ ! -f "${OUTPUT_FILE}" ]; then
             echo "ERRO: arquivo não encontrado."
@@ -323,7 +441,7 @@ PROMPT
           FIRST_LINE="$(sed -n '1p' "${OUTPUT_FILE}")"
 
           if [ "${FIRST_LINE}" != "#EXTM3U" ]; then
-            echo "ERRO: a primeira linha deve ser exatamente #EXTM3U."
+            echo "ERRO: a primeira linha deve ser #EXTM3U."
             exit 1
           fi
 
@@ -332,7 +450,7 @@ PROMPT
           )"
 
           if [ "${EXTINF_COUNT}" -eq 0 ]; then
-            echo "ERRO: nenhuma entrada #EXTINF foi encontrada."
+            echo "ERRO: nenhuma entrada #EXTINF encontrada."
             exit 1
           fi
 
@@ -421,7 +539,7 @@ PROMPT
 
           echo ""
           echo "Playlist validada com sucesso."
-          echo "Entradas #EXTINF: ${EXTINF_COUNT}"
+          echo "Entradas: ${EXTINF_COUNT}"
           echo "URLs: $(grep -cE '^https?://' "${OUTPUT_FILE}" || true )"
 
       # ========================================
@@ -459,7 +577,7 @@ PROMPT
       # ========================================
       # COMMIT AND PUSH
       # ========================================
-      - name: Commit and push safely
+      - name: Commit and push
         shell: bash
         run: |
           set -euo pipefail
@@ -480,7 +598,6 @@ PROMPT
             -m "Atualiza playlist automaticamente"
 
           for i in 1 2 3 4 5; do
-            echo ""
             echo "Tentativa ${i} de push."
 
             if git push origin "HEAD:${BRANCH}"; then
@@ -488,7 +605,7 @@ PROMPT
               exit 0
             fi
 
-            echo "Push falhou. Atualizando a branch remota."
+            echo "Push falhou. Atualizando branch remota."
 
             git fetch origin "${BRANCH}"
 
