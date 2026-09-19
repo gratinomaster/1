@@ -107,25 +107,15 @@ jobs:
       - name: Run OpenCode
         shell: bash
         env:
-          # Crie este segredo em Settings > Secrets and variables > Actions.
-          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-          # Opcional: variável de repositório com formato provider/model,
-          # por exemplo openai/gpt-5-mini. Se vazia, o OpenCode usa o padrão.
+          # Opcional: variável de repositório com formato provider/model.
+          # Sem essa variável, usa o modelo gratuito público do OpenCode.
           OPENCODE_MODEL: ${{ vars.OPENCODE_MODEL }}
         run: |
           set -euo pipefail
-          test -n "${OPENAI_API_KEY:-}" || {
-            echo '::error::Configure o segredo OPENAI_API_KEY no repositório.'
-            exit 1
-          }
-
           export PATH="$HOME/.opencode/bin:$PATH"
-          model_args=()
-          if [ -n "${OPENCODE_MODEL:-}" ]; then
-            model_args+=(--model "$OPENCODE_MODEL")
-          fi
-
-          opencode run --auto "${model_args[@]}" "$(cat prompt.txt)"
+          model="${OPENCODE_MODEL:-opencode/big-pickle}"
+          echo "Modelo OpenCode: ${model}"
+          opencode run --auto --model "$model" "$(cat prompt.txt)"
 
       - name: Validate generated playlist
         shell: bash
