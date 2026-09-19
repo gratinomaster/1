@@ -1,2 +1,3 @@
 #EXTM3U
-# Nenhum vídeo/stream encontrado
+#EXTINF:-1 tvg-id="rtp1" tvg-name="RTP1" tvg-logo="https://televisao.tv/images/rtp1.jpg" group-title="NEWSWORLD",RTP1
+https://streaming-live.rtp.pt/liverepeater/smil:rtp1HD.smil/playlist.m3u8?DVR
