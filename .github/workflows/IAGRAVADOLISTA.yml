@@ -3,76 +3,201 @@ name: NEWSWORLD
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 */8 * * *"
+    # O cron do GitHub usa UTC: 00:00, 08:00 e 16:00 UTC.
+    - cron: '0 */8 * * *'
 
 concurrency:
   group: newsworld-playlist
   cancel-in-progress: false
 
+permissions:
+  contents: write
+
 jobs:
   opencode:
     runs-on: ubuntu-latest
-
-    permissions:
-      contents: write
+    timeout-minutes: 30
 
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+
+      - name: Install Crawl4AI
+        shell: bash
+        run: |
+          set -euo pipefail
+          python -m pip install --upgrade pip
+          python -m pip install crawl4ai
+          crawl4ai-setup
 
       - name: Install OpenCode
+        shell: bash
         run: |
+          set -euo pipefail
           curl -fsSL https://opencode.ai/install | bash
-          echo "$HOME/.opencode/bin" >> $GITHUB_PATH
+          echo "$HOME/.opencode/bin" >> "$GITHUB_PATH"
+          export PATH="$HOME/.opencode/bin:$PATH"
+          opencode --version
+
+      - name: Validate input
+        shell: bash
+        run: |
+          set -euo pipefail
+          test -s ia.txt || {
+            echo '::error::O arquivo ia.txt não existe ou está vazio.'
+            exit 1
+          }
+
+          grep -Eq 'https?://' ia.txt || {
+            echo '::error::ia.txt não contém nenhum URL http/https.'
+            exit 1
+          }
 
       - name: Create prompt
+        shell: bash
         run: |
-          acesse cada link que está no ia.txt usando crawl4ai
-          faça analise e extração
-          salve em lista30.M3U em estilo #Extinf o conteúdo com tvg-logo
-          que vai funcionar no meu iptv vlc
-          EOF
+          cat > prompt.txt <<'PROMPT'
+          Você está executando no diretório raiz de um repositório GitHub Actions.
+
+          Objetivo: gerar uma playlist IPTV funcional chamada exatamente lista30.M3U,
+          usando todos os URLs encontrados em ia.txt.
+
+          Regras obrigatórias:
+          1. Leia ia.txt linha por linha. Ignore linhas vazias e linhas iniciadas por #,
+             remova URLs duplicados e processe todos os links restantes.
+          2. Use Crawl4AI de verdade para acessar e analisar cada página. Crie um script
+             Python temporário em /tmp, usando AsyncWebCrawler, BrowserConfig e
+             CrawlerRunConfig. Não substitua Crawl4AI por curl, requests ou wget.
+             Um erro em uma página não pode interromper as demais; registre o erro e
+             continue.
+          3. Extraia somente fontes reproduzíveis pelo VLC, tais como URLs http/https
+             de streams .m3u8, .mp4, .ts ou outros streams diretamente utilizáveis.
+             Não invente URLs e não use a URL da página como stream se ela não for uma
+             fonte de mídia reproduzível.
+          4. Extraia o nome do canal/item e uma URL direta de logo quando existir,
+             preferindo og:image, twitter:image, favicon ou imagem equivalente. A URL
+             em tvg-logo deve ser uma URL direta de imagem; quando não houver uma
+             imagem direta confiável, mantenha tvg-logo="" em vez de inventar uma URL.
+          5. Escreva lista30.M3U com esta estrutura exata:
+
+             #EXTM3U
+             #EXTINF:-1 tvg-id="ID" tvg-name="NOME" tvg-logo="URL_DA_IMAGEM" group-title="NEWSWORLD",NOME
+             URL_DO_STREAM
+
+             Use #EXTINF em maiúsculas, uma entrada por stream, e uma URL de stream na
+             linha imediatamente seguinte. Faça escape de aspas duplas nos valores.
+          6. Remova entradas duplicadas, limite a no máximo 30 entradas e não inclua
+             texto explicativo, Markdown ou blocos de código no arquivo M3U.
+          7. Não crie uma playlist vazia ou com páginas HTML. Se nenhum stream válido
+             for encontrado, não gere uma playlist válida e termine com erro explicando
+             o motivo.
+          8. Antes de terminar, valide que o arquivo existe, começa com #EXTM3U, possui
+             pelo menos uma linha #EXTINF e que cada #EXTINF é seguida por uma URL
+             http/https. Use apenas arquivos temporários em /tmp além de lista30.M3U.
+          PROMPT
 
       - name: Run OpenCode
+        shell: bash
+        env:
+          # Crie este segredo em Settings > Secrets and variables > Actions.
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          # Opcional: variável de repositório com formato provider/model,
+          # por exemplo openai/gpt-5-mini. Se vazia, o OpenCode usa o padrão.
+          OPENCODE_MODEL: ${{ vars.OPENCODE_MODEL }}
         run: |
-          echo "Executando OpenCode..."
-          opencode run "$(cat prompt.txt)"
+          set -euo pipefail
+          test -n "${OPENAI_API_KEY:-}" || {
+            echo '::error::Configure o segredo OPENAI_API_KEY no repositório.'
+            exit 1
+          }
 
-      - name: Check generated files
-        run: |
-          echo "Arquivos no diretório:"
-          ls -la
-
-          if [ -f lista5.m3u ]; then
-            echo "Playlist criada:"
-            cat lista5.m3u
-          else
-            echo "lista5.m3u não foi criado"
+          export PATH="$HOME/.opencode/bin:$PATH"
+          model_args=()
+          if [ -n "${OPENCODE_MODEL:-}" ]; then
+            model_args+=(--model "$OPENCODE_MODEL")
           fi
 
-      - name: Commit and Push safely
+          opencode run --auto "${model_args[@]}" "$(cat prompt.txt)"
+
+      - name: Validate generated playlist
+        shell: bash
         run: |
-          git config --global user.name "github-actions"
-          git config --global user.email "github-actions@github.com"
+          set -euo pipefail
+          test -s lista30.M3U || {
+            echo '::error::lista30.M3U não foi criado ou está vazio.'
+            exit 1
+          }
 
-          git add . || true
-          git commit -m "Atualização automática da playlist" || echo "Nada para commit"
-
-          # tenta sincronizar e enviar sem sobrescrever ninguém
-          for i in {1..10}; do
-            echo "Tentativa $i de push..."
-
-            git fetch origin
-
-            git rebase origin/$(git rev-parse --abbrev-ref HEAD) || {
-              echo "Conflito no rebase, abortando e tentando novamente..."
-              git rebase --abort
-              sleep 5
-              continue
+          awk '
+            NR == 1 && $0 !~ /^#EXTM3U([[:space:]]*)$/ { exit 1 }
+            NR > 1 && $0 ~ /^#EXTINF:/ {
+              if (pending) exit 1
+              pending = 1
+              entries++
+              next
             }
+            NR > 1 && $0 ~ /^#/ { next }
+            NR > 1 && $0 ~ /^[[:space:]]*$/ { next }
+            NR > 1 {
+              if (!pending || $0 !~ /^https?:\/\//) exit 1
+              pending = 0
+              urls++
+            }
+            END {
+              if (pending || entries == 0 || entries != urls) exit 1
+            }
+          ' lista30.M3U || {
+            echo '::error::lista30.M3U não está no formato M3U esperado.'
+            exit 1
+          }
 
-            git push origin HEAD && break
+          entries=$(grep -c '^#EXTINF:' lista30.M3U)
+          echo "Playlist válida: ${entries} entrada(s)."
+          sed -n '1,80p' lista30.M3U
 
-            echo "Push falhou, tentando novamente em 5s..."
-            sleep 5
+          rm -f prompt.txt
+
+      - name: Commit and Push safely
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions'
+          git config user.email 'github-actions@github.com'
+
+          git add -A
+          if git diff --cached --quiet; then
+            echo 'Nenhuma alteração para enviar.'
+            exit 0
+          fi
+
+          git commit -m 'Atualização automática da playlist'
+          branch="${GITHUB_REF_NAME}"
+
+          for attempt in {1..10}; do
+            echo "Tentativa ${attempt} de push..."
+            git fetch origin "$branch"
+
+            if ! git rebase "origin/$branch"; then
+              git rebase --abort || true
+              echo '::error::Conflito de rebase; nenhuma alteração remota foi sobrescrita.'
+              exit 1
+            fi
+
+            if git push origin "HEAD:$branch"; then
+              echo 'Push concluído.'
+              exit 0
+            fi
+
+            sleep $((attempt * 5))
           done
+
+          echo '::error::Não foi possível fazer push após 10 tentativas.'
+          exit 1
