@@ -139,6 +139,7 @@ jobs:
           cat > "${RUNNER_TEMP}/generate_playlist.py" <<'PYTHON'
           import asyncio
           import html
+          import json
           import re
           import subprocess
           import sys
@@ -644,6 +645,136 @@ jobs:
               )
 
 
+          def fetch_archive_metadata(identifier: str) -> dict:
+              metadata_url = (
+                  "https://archive.org/metadata/"
+                  + quote(identifier, safe="")
+              )
+
+              request = Request(
+                  metadata_url,
+                  headers={"User-Agent": USER_AGENT},
+              )
+
+              try:
+                  with urlopen(request, timeout=60) as response:
+                      raw = response.read(25_000_000)
+
+                  return json.loads(
+                      raw.decode("utf-8", errors="replace")
+                  )
+
+              except Exception as exc:
+                  print(
+                      f"Não foi possível ler metadados do Archive "
+                      f"{identifier}: {exc}"
+                  )
+                  return {}
+
+
+          def expand_archive_item(
+              source_url: str,
+              limit: int,
+          ) -> list[dict]:
+              identifier = archive_identifier(source_url)
+
+              if not identifier or limit <= 0:
+                  return []
+
+              item_url = canonical_item_url(source_url) or source_url
+              item_title, item_logo = get_item_metadata(item_url)
+
+              if not item_logo:
+                  fallback_logo = (
+                      "https://archive.org/services/img/"
+                      + quote(identifier, safe="")
+                  )
+
+                  if valid_image_url(fallback_logo):
+                      item_logo = fallback_logo
+
+              metadata = fetch_archive_metadata(identifier)
+              files = metadata.get("files", [])
+
+              preferred = []
+              fallback = []
+
+              for entry in files:
+                  if not isinstance(entry, dict):
+                      continue
+
+                  name = clean_text(str(entry.get("name", "")))
+                  lower_name = name.lower()
+
+                  if not name:
+                      continue
+
+                  # Prioriza MP4 derivados H.264 para a playlist.
+                  if (
+                      lower_name.endswith(".mp4")
+                      and entry.get("source") == "derivative"
+                  ):
+                      preferred.append(entry)
+                      continue
+
+                  # Se necessário, usa MP4 originais.
+                  if (
+                      lower_name.endswith(".mp4")
+                      and entry.get("source") == "original"
+                  ):
+                      fallback.append(entry)
+                      continue
+
+                  # Último recurso: outros contêineres de vídeo.
+                  if lower_name.endswith((".m4v", ".webm", ".mov", ".ts")):
+                      fallback.append(entry)
+
+              ordered_files = preferred + fallback
+              result = []
+              seen_names = set()
+
+              for entry in ordered_files:
+                  name = clean_text(str(entry.get("name", "")))
+
+                  if not name or name in seen_names:
+                      continue
+
+                  seen_names.add(name)
+
+                  media_url = (
+                      "https://archive.org/download/"
+                      + quote(identifier, safe="")
+                      + "/"
+                      + quote(name, safe="")
+                  )
+
+                  title = clean_text(
+                      Path(name).stem.replace("_", " ")
+                  )
+
+                  if not title:
+                      title = item_title or identifier
+
+                  result.append(
+                      {
+                          "item_url": item_url,
+                          "media_url": media_url,
+                          "title": title,
+                          "logo": item_logo,
+                      }
+                  )
+
+                  if len(result) >= limit:
+                      break
+
+              print(
+                  f"Arquivos de mídia encontrados em {identifier}: "
+                  f"{len(result)}"
+              )
+
+              return result
+
+
           def run_ytdlp_media(
               source_url: str,
           ) -> str | None:
@@ -843,63 +974,105 @@ jobs:
                       )
                   )
 
-                  item_links = []
+                  item_specs = []
+                  seen_specs = set()
 
                   for source_url in source_links:
+                      remaining = MAX_ENTRIES - len(item_specs)
+
+                      if remaining <= 0:
+                          break
+
+                      # Um /details/ID contém vários arquivos; expanda o item.
+                      if archive_identifier(source_url):
+                          archive_specs = expand_archive_item(
+                              source_url,
+                              remaining,
+                          )
+
+                          for spec in archive_specs:
+                              media_url = spec["media_url"]
+
+                              if media_url in seen_specs:
+                                  continue
+
+                              seen_specs.add(media_url)
+                              item_specs.append(spec)
+
+                          continue
+
+                      # Perfis continuam sendo expandidos por páginas.
                       if is_archive_profile(source_url):
-                          profile_items = (
-                              await expand_archive_profile(
-                                  crawler,
-                                  source_url,
-                              )
+                          profile_items = await expand_archive_profile(
+                              crawler,
+                              source_url,
                           )
 
                           for item_url in profile_items:
-                              if item_url not in seen_items:
-                                  seen_items.add(item_url)
-                                  item_links.append(item_url)
+                              if item_url in seen_items:
+                                  continue
 
-                              if len(item_links) >= MAX_ENTRIES:
+                              seen_items.add(item_url)
+                              item_specs.append(
+                                  {
+                                      "item_url": item_url,
+                                      "media_url": None,
+                                      "title": None,
+                                      "logo": None,
+                                  }
+                              )
+
+                              if len(item_specs) >= MAX_ENTRIES:
                                   break
 
-                      else:
-                          item_url = (
-                              canonical_item_url(source_url)
-                              or source_url
-                          )
+                          continue
 
-                          if item_url not in seen_items:
-                              seen_items.add(item_url)
-                              item_links.append(item_url)
+                      item_url = canonical_item_url(source_url) or source_url
 
-                      if len(item_links) >= MAX_ENTRIES:
-                          break
+                      if item_url in seen_items:
+                          continue
+
+                      seen_items.add(item_url)
+                      item_specs.append(
+                          {
+                              "item_url": item_url,
+                              "media_url": None,
+                              "title": None,
+                              "logo": None,
+                          }
+                      )
 
                   print("")
                   print(
                       f"Itens individuais para processar: "
-                      f"{len(item_links)}"
+                      f"{len(item_specs)}"
                   )
 
-                  for index, item_url in enumerate(
-                      item_links,
+                  for index, spec in enumerate(
+                      item_specs,
                       start=1,
                   ):
+                      item_url = spec["item_url"]
                       if len(successes) >= MAX_ENTRIES:
                           break
 
                       print(
-                          f"[{index}/{len(item_links)}] "
+                          f"[{index}/{len(item_specs)}] "
                           f"Processando {item_url}"
                       )
 
-                      title, logo = get_item_metadata(
-                          item_url
-                      )
+                      title = spec.get("title")
+                      logo = spec.get("logo")
+                      media_url = spec.get("media_url")
 
-                      media_url = run_ytdlp_media(
-                          item_url
-                      )
+                      if not media_url:
+                          title, logo = get_item_metadata(
+                              item_url
+                          )
+
+                          media_url = run_ytdlp_media(
+                              item_url
+                          )
 
                       if not media_url:
                           (
@@ -1009,7 +1182,7 @@ jobs:
               )
               print(
                   f"Itens individuais encontrados: "
-                  f"{len(item_links)}"
+                  f"{len(item_specs)}"
               )
               print(
                   f"Entradas criadas: {len(successes)}"
