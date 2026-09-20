@@ -1,11 +1,59 @@
 #EXTM3U
-#EXTINF:-1 tvg-name="Fox Business Go | Fox News Video" tvg-logo="https://a57.foxnews.com/cf-images.us-east-1.prod.boltdns.net/v1/static/694940094001/c9b2e2eb-7b87-435c-9510-eab2650ff944/8b584585-acf2-4c37-aa07-aaf2d077bb20/1280x720/match/1024/512/image.jpg?ve=1&tl=1" group-title="VOD",Fox Business Go | Fox News Video
-https://247.foxbusiness.com/hls/live/2003756/FBNHLSv3/master.m3u8
-#EXTINF:-1 tvg-name="ABC News Live" tvg-logo="https://s.abcnews.com/images/US/abc_news_default_2000x2000_update_16x9_992.jpg" group-title="VOD",ABC News Live
-https://abcnews-streams.akamaized.net/hls/live/2023569-b/abcnewshudson10/master_4000.m3u8
-#EXTINF:-1 tvg-name="sportv ao vivo no ge.globo | Assista ao vivo pelo Globoplay" tvg-logo="https://s03.video.glbimg.com/x720/7689934.jpg" group-title="VOD",sportv ao vivo no ge.globo | Assista ao vivo pelo Globoplay
-https://live-as-01-02.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJVUyIsImRvbWFpbiI6ImxpdmUtYXMtMDEtMDIudmlkZW8uZ2xvYm8uY29tIiwiZXhwIjoxNzg5ODk3MDgyLCJpYXQiOjE3ODk4NzU0ODIsImlzcyI6InBsYXliYWNrLWFwaS1wcm9kLWdjcCIsIm93bmVyIjoiIiwicGF0aCI6Ii9saXZlL2YoYk1pbj0xMDAwMDAwLGR2cj0xMjApL3NwbzEyNGhhL3BsYXlsaXN0Lm0zdTgifQ.H7d-hDlwOhRqbPF7vebUqoXgeob8uo4eAy0DV7PAgi82U5lMhJ9Vx-INPry4IRaB46qLgdZi4QGxcsQgOSO0kCNjAfJCQf7rn-FRWYrFt2a8zTgcnH2D5Yu1Fmem633yOVEpr4HUrVGJWK0PYDMkYkwhZacEPyVo3RN1UNmBZFGu046sMvlXdW9-Sx5wWEnX00C8n8tGk_NdkM8Z6QyDMsjT4FCq2G2716mbCjI5C5erIsalCOOKJdAGRZdrAoxhiD7yWivOMIz5I4yNqbn7gENqn6PggWmN6JREWc7LYilSkLt5JmZ4c2zaiBSKel899Nhv09x3j7g5e3qlwU1q_g/live/f(bMin=1000000,dvr=120)/spo124ha/spo124ha-audio_1=96000-video=5512000.m3u8?dvr_window_length=120
-#EXTINF:-1 tvg-name="Teste Live CDN Google | Assista ao vivo pelo Globoplay" tvg-logo="https://s02.video.glbimg.com/x720/7813173.jpg" group-title="VOD",Teste Live CDN Google | Assista ao vivo pelo Globoplay
-https://live-as-08-16.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJVUyIsImRvbWFpbiI6ImxpdmUtYXMtMDgtMTYudmlkZW8uZ2xvYm8uY29tIiwiZXhwIjoxNzg5ODk3MDkzLCJpYXQiOjE3ODk4NzU0OTMsImlzcyI6InBsYXliYWNrLWFwaS1wcm9kLWdjcCIsIm93bmVyIjoiIiwicGF0aCI6Ii9saXZlL2YoYk1pbj0xMDAwMDAwLGR2cj0xMjApL2dsYi9wbGF5bGlzdC5tM3U4In0.XkS70SRIiMHhPWdFntZhg3aK3I1Yr9WlqsqpsQFfjK5HU0Z6OdNlCpN3KshKRu7PMyAYBc3HI4ibN3lv4VyJUp5qjaMXmuBaG9ikiDKC4_L9EF_ePWAjfgFZGJOAN7uGs85E6Ye2nLrQh9Jp5fpIku6TdvI7FyFEGMz_O_MSrSZiqn4-D5QXF5Vk65Ht5EnasHLEjn9cdc3QIEziYcKxmjAEOUMhRHULE1vYj7KFJRfymINY8s3XWNjGvjtRyIRVF_kMme1ZQoCUT03-luldTY4U0NG7bf_zdRRW0ja7gkA0cRmfSd_se8dqAZkSapxP0aS6gFOfdzcl-EbmsqKvaA/live/f(bMin=1000000,dvr=120)/glb/glb-audio_1=96000-video=3442944.m3u8?dvr_window_length=120
-#EXTINF:-1 tvg-name="Cobertura especial sobre o caso da corretora de imóveis encontrada morta" tvg-logo="https://s2-g1.glbimg.com/zitNiu7Qz1TiEkm8A_f58WPikL0=/smart/filters:strip_icc()/s2-g1.glbimg.com/aIeUbfpX4Z0ZIjJ7KUg7LeijIHU%3D/1700x0/filters%3Aformat%28jpeg%29/https%3A//i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/i/b/4MxUgoRGuGk4gfdoV2Pg/sindico-preso-caldas-novas-suspeito-homicidio-de-corretora.jpg" group-title="VOD",Cobertura especial sobre o caso da corretora de imóveis encontrada morta
-https://vod-as-03-09.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJVUyIsImRvbWFpbiI6InZvZC1hcy0wMy0wOS52aWRlby5nbG9iby5jb20iLCJleHAiOjE3ODk4NzcwMDQsImlhdCI6MTc4OTg3NTUwNCwiaXNzIjoicGxheWJhY2stYXBpLXByb2QtZ2NwIiwib3duZXIiOiIiLCJwYXRoIjoiL3IzNjBfMTA4MC9sL3YwLzQ1LzY2L2RlLzE0MjkzNTA2X2RlZTMxNzFmYTQxYmI3MzU0N2UxZDlhNGNlZTU0NmU5NDJkYjFhYjgvMTQyOTM1MDYtUnBrakIzRy1tYW5pZmVzdC5pc20vMTQyOTM1MDYtcG9yLm0zdTgifQ.G8tfbQrMqdrxKd0InwUqfNy2G2ZKsB0h4ktac_rnCMC42eWpEPTmtstfbGRNPQoppPkqR-A6QqBwvW9fnOH1Aj8Db_p8I0qFFivAhwoxY5qmk-e75awAHxeD33xW-sjSZcI2qkKw3Oc_R1Tafnfui4INqBk66tvulBUQ8zhQBxCmO6hAITAkVg8Fo9Kce_S5bPsAe_5VIuL4UFVm3-XRvQQf_GdWQ63nlYfUCGKOVyxkq4p4eSrA9aX6GO97WbBHnkTFt_nvrGnwEN5eYldzTQX5-SR-XVgAK3R-Gm16v_n_pyv0BZ5B1giq2tEzd_p5ps2izOvkWsRBI8pHWOYDPA/r360_1080/l/v0/45/66/de/14293506_dee3171fa41bb73547e1d9a4cee546e942db1ab8/14293506-RpkjB3G-manifest.ism/14293506-RpkjB3G-manifest-audio_por=128007-video_por=4007000.m3u8
+#EXTINF:-1 tvg-name="FANTASTICO GRANDES REPORTAGENS" tvg-logo="https://archive.org/download/fant30-reportagens-disco1/fant30-reportagens-disco1.thumbs/FANTASTICO_GRANDES_REPORTAGENS_000030.jpg" group-title="VOD",FANTASTICO GRANDES REPORTAGENS
+https://archive.org/download/fant30-reportagens-disco1/FANTASTICO_GRANDES_REPORTAGENS.mp4
+#EXTINF:-1 tvg-name="FANTASTICO GRANDES REPORTAGENS1" tvg-logo="https://archive.org/download/fant30-reportagens-disco1/fant30-reportagens-disco1.thumbs/FANTASTICO_GRANDES_REPORTAGENS_000030.jpg" group-title="VOD",FANTASTICO GRANDES REPORTAGENS1
+https://archive.org/download/fant30-reportagens-disco1/FANTASTICO_GRANDES_REPORTAGENS1.mp4
+#EXTINF:-1 tvg-name="FANTASTICO GRANDES REPORTAGENS10" tvg-logo="https://archive.org/download/fant30-reportagens-disco1/fant30-reportagens-disco1.thumbs/FANTASTICO_GRANDES_REPORTAGENS_000030.jpg" group-title="VOD",FANTASTICO GRANDES REPORTAGENS10
+https://archive.org/download/fant30-reportagens-disco1/FANTASTICO_GRANDES_REPORTAGENS10.mp4
+#EXTINF:-1 tvg-name="FANTASTICO GRANDES REPORTAGENS2" tvg-logo="https://archive.org/download/fant30-reportagens-disco1/fant30-reportagens-disco1.thumbs/FANTASTICO_GRANDES_REPORTAGENS_000030.jpg" group-title="VOD",FANTASTICO GRANDES REPORTAGENS2
+https://archive.org/download/fant30-reportagens-disco1/FANTASTICO_GRANDES_REPORTAGENS2.mp4
+#EXTINF:-1 tvg-name="FANTASTICO GRANDES REPORTAGENS4" tvg-logo="https://archive.org/download/fant30-reportagens-disco1/fant30-reportagens-disco1.thumbs/FANTASTICO_GRANDES_REPORTAGENS_000030.jpg" group-title="VOD",FANTASTICO GRANDES REPORTAGENS4
+https://archive.org/download/fant30-reportagens-disco1/FANTASTICO_GRANDES_REPORTAGENS4.mp4
+#EXTINF:-1 tvg-name="FANTASTICO GRANDES REPORTAGENS5" tvg-logo="https://archive.org/download/fant30-reportagens-disco1/fant30-reportagens-disco1.thumbs/FANTASTICO_GRANDES_REPORTAGENS_000030.jpg" group-title="VOD",FANTASTICO GRANDES REPORTAGENS5
+https://archive.org/download/fant30-reportagens-disco1/FANTASTICO_GRANDES_REPORTAGENS5.mp4
+#EXTINF:-1 tvg-name="FANTASTICO GRANDES REPORTAGENS6" tvg-logo="https://archive.org/download/fant30-reportagens-disco1/fant30-reportagens-disco1.thumbs/FANTASTICO_GRANDES_REPORTAGENS_000030.jpg" group-title="VOD",FANTASTICO GRANDES REPORTAGENS6
+https://archive.org/download/fant30-reportagens-disco1/FANTASTICO_GRANDES_REPORTAGENS6.mp4
+#EXTINF:-1 tvg-name="FANTASTICO GRANDES REPORTAGENS7" tvg-logo="https://archive.org/download/fant30-reportagens-disco1/fant30-reportagens-disco1.thumbs/FANTASTICO_GRANDES_REPORTAGENS_000030.jpg" group-title="VOD",FANTASTICO GRANDES REPORTAGENS7
+https://archive.org/download/fant30-reportagens-disco1/FANTASTICO_GRANDES_REPORTAGENS7.mp4
+#EXTINF:-1 tvg-name="FANTASTICO GRANDES REPORTAGENS8" tvg-logo="https://archive.org/download/fant30-reportagens-disco1/fant30-reportagens-disco1.thumbs/FANTASTICO_GRANDES_REPORTAGENS_000030.jpg" group-title="VOD",FANTASTICO GRANDES REPORTAGENS8
+https://archive.org/download/fant30-reportagens-disco1/FANTASTICO_GRANDES_REPORTAGENS8.mp4
+#EXTINF:-1 tvg-name="FANTASTICO GRANDES REPORTAGENS9" tvg-logo="https://archive.org/download/fant30-reportagens-disco1/fant30-reportagens-disco1.thumbs/FANTASTICO_GRANDES_REPORTAGENS_000030.jpg" group-title="VOD",FANTASTICO GRANDES REPORTAGENS9
+https://archive.org/download/fant30-reportagens-disco1/FANTASTICO_GRANDES_REPORTAGENS9.mp4
+#EXTINF:-1 tvg-name="FANTASTICO GRANDES REPORTAGENS" tvg-logo="https://archive.org/download/fant30-reportagens-disco2/fant30-reportagens-disco2.thumbs/FANTASTICO_GRANDES_REPORTAGENS_000060.jpg" group-title="VOD",FANTASTICO GRANDES REPORTAGENS
+https://archive.org/download/fant30-reportagens-disco2/FANTASTICO_GRANDES_REPORTAGENS.mp4
+#EXTINF:-1 tvg-name="FANTASTICO GRANDES REPORTAGENS1" tvg-logo="https://archive.org/download/fant30-reportagens-disco2/fant30-reportagens-disco2.thumbs/FANTASTICO_GRANDES_REPORTAGENS_000060.jpg" group-title="VOD",FANTASTICO GRANDES REPORTAGENS1
+https://archive.org/download/fant30-reportagens-disco2/FANTASTICO_GRANDES_REPORTAGENS1.mp4
+#EXTINF:-1 tvg-name="FANTASTICO GRANDES REPORTAGENS10" tvg-logo="https://archive.org/download/fant30-reportagens-disco2/fant30-reportagens-disco2.thumbs/FANTASTICO_GRANDES_REPORTAGENS_000060.jpg" group-title="VOD",FANTASTICO GRANDES REPORTAGENS10
+https://archive.org/download/fant30-reportagens-disco2/FANTASTICO_GRANDES_REPORTAGENS10.mp4
+#EXTINF:-1 tvg-name="FANTASTICO GRANDES REPORTAGENS11" tvg-logo="https://archive.org/download/fant30-reportagens-disco2/fant30-reportagens-disco2.thumbs/FANTASTICO_GRANDES_REPORTAGENS_000060.jpg" group-title="VOD",FANTASTICO GRANDES REPORTAGENS11
+https://archive.org/download/fant30-reportagens-disco2/FANTASTICO_GRANDES_REPORTAGENS11.mp4
+#EXTINF:-1 tvg-name="FANTASTICO GRANDES REPORTAGENS12" tvg-logo="https://archive.org/download/fant30-reportagens-disco2/fant30-reportagens-disco2.thumbs/FANTASTICO_GRANDES_REPORTAGENS_000060.jpg" group-title="VOD",FANTASTICO GRANDES REPORTAGENS12
+https://archive.org/download/fant30-reportagens-disco2/FANTASTICO_GRANDES_REPORTAGENS12.mp4
+#EXTINF:-1 tvg-name="FANTASTICO GRANDES REPORTAGENS14" tvg-logo="https://archive.org/download/fant30-reportagens-disco2/fant30-reportagens-disco2.thumbs/FANTASTICO_GRANDES_REPORTAGENS_000060.jpg" group-title="VOD",FANTASTICO GRANDES REPORTAGENS14
+https://archive.org/download/fant30-reportagens-disco2/FANTASTICO_GRANDES_REPORTAGENS14.mp4
+#EXTINF:-1 tvg-name="FANTASTICO GRANDES REPORTAGENS15" tvg-logo="https://archive.org/download/fant30-reportagens-disco2/fant30-reportagens-disco2.thumbs/FANTASTICO_GRANDES_REPORTAGENS_000060.jpg" group-title="VOD",FANTASTICO GRANDES REPORTAGENS15
+https://archive.org/download/fant30-reportagens-disco2/FANTASTICO_GRANDES_REPORTAGENS15.mp4
+#EXTINF:-1 tvg-name="FANTASTICO GRANDES REPORTAGENS16" tvg-logo="https://archive.org/download/fant30-reportagens-disco2/fant30-reportagens-disco2.thumbs/FANTASTICO_GRANDES_REPORTAGENS_000060.jpg" group-title="VOD",FANTASTICO GRANDES REPORTAGENS16
+https://archive.org/download/fant30-reportagens-disco2/FANTASTICO_GRANDES_REPORTAGENS16.mp4
+#EXTINF:-1 tvg-name="FANTASTICO GRANDES REPORTAGENS2" tvg-logo="https://archive.org/download/fant30-reportagens-disco2/fant30-reportagens-disco2.thumbs/FANTASTICO_GRANDES_REPORTAGENS_000060.jpg" group-title="VOD",FANTASTICO GRANDES REPORTAGENS2
+https://archive.org/download/fant30-reportagens-disco2/FANTASTICO_GRANDES_REPORTAGENS2.mp4
+#EXTINF:-1 tvg-name="FANTASTICO GRANDES REPORTAGENS3" tvg-logo="https://archive.org/download/fant30-reportagens-disco2/fant30-reportagens-disco2.thumbs/FANTASTICO_GRANDES_REPORTAGENS_000060.jpg" group-title="VOD",FANTASTICO GRANDES REPORTAGENS3
+https://archive.org/download/fant30-reportagens-disco2/FANTASTICO_GRANDES_REPORTAGENS3.mp4
+#EXTINF:-1 tvg-name="FANTASTICO GRANDES REPORTAGENS4" tvg-logo="https://archive.org/download/fant30-reportagens-disco2/fant30-reportagens-disco2.thumbs/FANTASTICO_GRANDES_REPORTAGENS_000060.jpg" group-title="VOD",FANTASTICO GRANDES REPORTAGENS4
+https://archive.org/download/fant30-reportagens-disco2/FANTASTICO_GRANDES_REPORTAGENS4.mp4
+#EXTINF:-1 tvg-name="FANTASTICO GRANDES REPORTAGENS5" tvg-logo="https://archive.org/download/fant30-reportagens-disco2/fant30-reportagens-disco2.thumbs/FANTASTICO_GRANDES_REPORTAGENS_000060.jpg" group-title="VOD",FANTASTICO GRANDES REPORTAGENS5
+https://archive.org/download/fant30-reportagens-disco2/FANTASTICO_GRANDES_REPORTAGENS5.mp4
+#EXTINF:-1 tvg-name="FANTASTICO GRANDES REPORTAGENS6" tvg-logo="https://archive.org/download/fant30-reportagens-disco2/fant30-reportagens-disco2.thumbs/FANTASTICO_GRANDES_REPORTAGENS_000060.jpg" group-title="VOD",FANTASTICO GRANDES REPORTAGENS6
+https://archive.org/download/fant30-reportagens-disco2/FANTASTICO_GRANDES_REPORTAGENS6.mp4
+#EXTINF:-1 tvg-name="FANTASTICO GRANDES REPORTAGENS7" tvg-logo="https://archive.org/download/fant30-reportagens-disco2/fant30-reportagens-disco2.thumbs/FANTASTICO_GRANDES_REPORTAGENS_000060.jpg" group-title="VOD",FANTASTICO GRANDES REPORTAGENS7
+https://archive.org/download/fant30-reportagens-disco2/FANTASTICO_GRANDES_REPORTAGENS7.mp4
+#EXTINF:-1 tvg-name="FANTASTICO GRANDES REPORTAGENS8" tvg-logo="https://archive.org/download/fant30-reportagens-disco2/fant30-reportagens-disco2.thumbs/FANTASTICO_GRANDES_REPORTAGENS_000060.jpg" group-title="VOD",FANTASTICO GRANDES REPORTAGENS8
+https://archive.org/download/fant30-reportagens-disco2/FANTASTICO_GRANDES_REPORTAGENS8.mp4
+#EXTINF:-1 tvg-name="FANTASTICO GRANDES REPORTAGENS9" tvg-logo="https://archive.org/download/fant30-reportagens-disco2/fant30-reportagens-disco2.thumbs/FANTASTICO_GRANDES_REPORTAGENS_000060.jpg" group-title="VOD",FANTASTICO GRANDES REPORTAGENS9
+https://archive.org/download/fant30-reportagens-disco2/FANTASTICO_GRANDES_REPORTAGENS9.mp4
+#EXTINF:-1 tvg-name="Globo 45 Anos - Espelhos, Janelas e Encontros.ia" tvg-logo="https://archive.org/services/img/dvd-globo-45-anos/full/pct:200/0/default.jpg" group-title="VOD",Globo 45 Anos - Espelhos, Janelas e Encontros.ia
+https://archive.org/download/dvd-globo-45-anos/Globo%2045%20Anos%20-%20Espelhos%2C%20Janelas%20e%20Encontros.ia.mp4
+#EXTINF:-1 tvg-name="Globo 45 Anos - Espelhos, Janelas e Encontros" tvg-logo="https://archive.org/services/img/dvd-globo-45-anos/full/pct:200/0/default.jpg" group-title="VOD",Globo 45 Anos - Espelhos, Janelas e Encontros
+https://archive.org/download/dvd-globo-45-anos/Globo%2045%20Anos%20-%20Espelhos%2C%20Janelas%20e%20Encontros.mp4
+#EXTINF:-1 tvg-name="GLOBOSAT" tvg-logo="https://archive.org/download/globosat10anos-dvd/globosat10anos-dvd.thumbs/GLOBOSAT_000114.jpg" group-title="VOD",GLOBOSAT
+https://archive.org/download/globosat10anos-dvd/GLOBOSAT.mp4
