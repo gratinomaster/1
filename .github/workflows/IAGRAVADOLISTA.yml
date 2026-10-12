@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
   schedule:
     # O cron do GitHub usa UTC: 00:00, 08:00 e 16:00 UTC.
-    - cron: '0 */8 * * *'
+    - cron: '0 */12 * * *'
 
 concurrency:
   group: newsworld-playlist
