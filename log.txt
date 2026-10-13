@@ -1,57 +1,57 @@
-2026-10-12 22:19:45,579 - INFO - URL OK: https://jerrymoz.wordpress.com/wp-content/uploads/2024/03/qr_paypal.png?@iprtlk
-2026-10-12 22:19:45,633 - INFO - URL OK: https://jerrymoz.wordpress.com/wp-content/uploads/2024/03/qr_paypal.png
-2026-10-12 22:19:46,286 - WARNING - URL Error https://cdn.livespanel.com/portaltvportuguesa6356/live/playlist.m3u8?@iprtlk: Status Code 404
-2026-10-12 22:19:47,059 - INFO - URL OK: https://streaming-live.rtp.pt/liverepeater/rtpi.smil/playlist.m3u8
-2026-10-12 22:19:47,633 - WARNING - URL Error http://streaming-live-app.rtp.pt/liverepeater/rtpClean1HD.smil/manifest.mpd: Status Code 204
-2026-10-12 22:19:47,792 - INFO - URL OK: https://streaming-live.rtp.pt/liverepeater/smil:rtp1HD.smil/playlist.m3u8
-2026-10-12 22:19:47,958 - INFO - URL OK: https://streaming-live.rtp.pt/liverepeater/rtp2HD.smil/playlist.m3u8
-2026-10-12 22:19:47,962 - ERROR - Request Error +http://streaming-live-app.rtp.pt/liverepeater/rtpClean2HD.smil/manifest.mpd: No connection adapters were found for '+http://streaming-live-app.rtp.pt/liverepeater/rtpClean2HD.smil/manifest.mpd'
-2026-10-12 22:19:48,226 - INFO - URL OK: https://streaming-live.rtp.pt/liverepeater/rtpnHD.smil/playlist.m3u8?@iprtlk
-2026-10-12 22:19:48,496 - INFO - URL OK: http://streaming-live.rtp.pt/liverepeater/rtpnHD.smil/manifest.mpd?@iprtlk
-2026-10-12 22:19:48,540 - WARNING - URL Error https://streaming-live.rtp.pt/liverepeater/rtpmem.smil/playlist.m3u8: Status Code 204
-2026-10-12 22:19:48,814 - INFO - URL OK: https://streaming-live.rtp.pt/liverepeater/rtpacoresHD.smil/playlist.m3u8
-2026-10-12 22:19:48,972 - INFO - URL OK: https://streaming-live.rtp.pt/liverepeater/rtpmadeira.smil/playlist.m3u8
-2026-10-12 22:19:49,121 - INFO - URL OK: https://streaming-live.rtp.pt/liverepeater/rtpafrica.smil/playlist.m3u8
-2026-10-12 22:19:49,666 - INFO - URL OK: https://playout175.livextend.cloud/livenlin4/2liveartvpub2/playlist.m3u8?@iprtlk
-2026-10-12 22:20:04,683 - ERROR - Request Error http://45.235.0.78/SIC_Internacional/playlist.m3u8: HTTPConnectionPool(host='45.235.0.78', port=80): Max retries exceeded with url: /SIC_Internacional/playlist.m3u8 (Caused by ConnectTimeoutError(<HTTPConnection(host='45.235.0.78', port=80) at 0x7f3ae83aead0>, 'Connection to 45.235.0.78 timed out. (connect timeout=15)'))
-2026-10-12 22:20:05,044 - WARNING - URL Error https://d1zx6l1dn8vaj5.cloudfront.net/out/v1/b89cc37caa6d418eb423cf092a2ef970/index.m3u8?@iprtlk: Status Code 403
-2026-10-12 22:20:05,088 - ERROR - Request Error http://stalker.klma2023.net:80/play/live.php?mac=00:1B:79:F8:59:0E&stream=9083&extension=ts: HTTPConnectionPool(host='stalker.klma2023.net', port=80): Max retries exceeded with url: /play/live.php?mac=00:1B:79:F8:59:0E&stream=9083&extension=ts (Caused by NameResolutionError("HTTPConnection(host='stalker.klma2023.net', port=80): Failed to resolve 'stalker.klma2023.net' ([Errno -2] Name or service not known)"))
-2026-10-12 22:20:05,335 - INFO - URL OK: https://cdnapisec.kaltura.com/p/4526593/sp/4526593/playManifest/entryId/1_j8ztwihx/deliveryProfileId/672/protocol/https/format/applehttp/a.m3u8
-2026-10-12 22:20:05,574 - INFO - URL OK: https://production-fast-sic.content.okast.tv/fa2e8c4385712f9a7dce4ff2dcebac2e/channels/d9070446-8448-455e-8075-773b1ba12562/d47eae0f-ad77-414a-9a1d-2a6628ba18c3/media_.m3u8?@iprtlk
-2026-10-12 22:20:05,736 - INFO - URL OK: https://production-fast-sic.content.okast.tv/fa2e8c4385712f9aa54bbe52b1bd9b6b/channels/d9070446-8448-455e-8075-773b1ba12562/fc831b20-f252-4e7d-8cc5-2d05f4d43c1c/media_.m3u8?@iprtlk
-2026-10-12 22:20:05,786 - WARNING - URL Error https://raw.githubusercontent.com/ipstreet312/freeiptv/master/ressources/tvipt/sh/tviint.m3u8?@iprtlk: Status Code 404
-2026-10-12 22:20:06,238 - WARNING - URL Error https://video-auth6.iol.pt/live_tvi_internacional/live_tvi_internacional/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9MS8yMy8yMDI2IDg6NTI6MTYgQU0maGFzaF92YWx1ZT1aNnBTdGlZTFRjM0UzRENDUDBhUDhnPT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9ZTg4YjYxYjQtNWUxYi00OTQ5LThiOGItZWJhYzRjZmY3MTVi/: Status Code 403
-2026-10-12 22:20:06,284 - WARNING - URL Error https://raw.githubusercontent.com/ipstreet312/freeiptv/master/ressources/tvipt/sh/tvi.m3u8?@iprtlk: Status Code 404
-2026-10-12 22:20:06,489 - INFO - URL OK: https://github.com/thomraider12/canaistvpt/raw/main/m3u8s/tvi.m3u8?@iprtlk
-2026-10-12 22:20:06,951 - WARNING - URL Error https://video-auth6.iol.pt/live_tvi/live_tvi/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9MS8yMy8yMDI2IDg6NTI6MTQgQU0maGFzaF92YWx1ZT0wcU4xdUlGcTB1VU41ZmRBbkY4V3JBPT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9YmM1ODMxOWQtNTM3MC00NTQzLTgzODYtNTc5OWQ1OTIyZjUy/: Status Code 403
-2026-10-12 22:20:07,018 - WARNING - URL Error https://raw.githubusercontent.com/ipstreet312/freeiptv/master/ressources/tvipt/sh/cnnpt.m3u8?@iprtlk: Status Code 404
-2026-10-12 22:20:07,258 - INFO - URL OK: https://github.com/thomraider12/canaistvpt/raw/main/m3u8s/cnnpt.m3u8?@iprtlk
-2026-10-12 22:20:07,723 - WARNING - URL Error https://video-auth7.iol.pt/live_cnn/live_cnn/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9MS8yMy8yMDI2IDg6NTI6MTUgQU0maGFzaF92YWx1ZT1HYjVjd3B3WFhIVStQV1RpUGxNbTFBPT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9NWRmNDY3Y2MtOWMzZC00MmQ5LThlZGEtY2QwMDhlMjQ4OGM3/: Status Code 403
-2026-10-12 22:20:08,213 - WARNING - URL Error https://video-auth2.iol.pt/live_vmais/live_vmais/edge_servers/vmais-720p/playlist.m3u8?@iprtlk: Status Code 403
-2026-10-12 22:20:08,706 - WARNING - URL Error https://video-auth1.iol.pt/live_tvi_ficcao/live_tvi_ficcao/edge_servers/tvificcao-720p/playlist.m3u8?@iprtlk: Status Code 403
-2026-10-12 22:20:09,077 - WARNING - URL Error https://video-auth4.iol.pt/live_tvi_africa/live_tvi_africa/edge_servers/tviafrica-480p/playlist.m3u8?@iprtlk: Status Code 404
-2026-10-12 22:20:09,528 - WARNING - URL Error https://video-auth5.iol.pt/live_tvi_reality/live_tvi_reality/edge_servers/tvireality-720_passthrough/playlist.m3u8?@iprtlk: Status Code 403
-2026-10-12 22:20:09,655 - INFO - URL OK: https://pull-live-156-1.global.ssl.fastly.net/pc5865dc25400thmb-ea6bf03b14fa318f7133/smil:pc1-jhrgyuoqe5865db-68tkgb14fa318f7133f03.smil/playlist.m3u8?@iprtlk
-2026-10-12 22:20:09,656 - ERROR - Request Error +https://cr7v.short.gy/ManoTV/af2/index.m3u8: No connection adapters were found for '+https://cr7v.short.gy/ManoTV/af2/index.m3u8'
-2026-10-12 22:20:09,876 - INFO - URL OK: https://a128aivottepl-a.akamaihd.net/gru-nitro/live/clients/dash/enc/ds9ertnhrl/out/v1/cb791b7362754ba1b87d9474ccd95fa3/cenc.mpd
-2026-10-12 22:20:09,878 - ERROR - Request Error +https://02.arlivre.online/globosp/index.m3u8?@iprtlk: No connection adapters were found for '+https://02.arlivre.online/globosp/index.m3u8?@iprtlk'
-2026-10-12 22:20:10,092 - WARNING - URL Error https://aovivo.maissbt.com/v1/manifest/215c0da80606fed29372070168106400a6ca7e1a/SSAI_TITAN_V3/ac63b34e-0615-4402-a359-892f205ccd70/5.m3u8: Status Code 403
-2026-10-12 22:20:25,431 - ERROR - Request Error https://viamotionhsi.netplus.ch/live/eds/rederecordinternacional/browser-dash/rederecordinternacional.mpd: HTTPSConnectionPool(host='viamotionhsi.netplus.ch', port=443): Read timed out. (read timeout=15)
-2026-10-12 22:20:25,662 - WARNING - URL Error https://5b7f3c45ab7c2.streamlock.net/arapuan/ngrp:arapuan_all/playlist.m3u8: Status Code 404
-2026-10-12 22:20:26,073 - INFO - URL OK: https://cnl-cl.otteravision.com/cnl/cl_h265/cl_h265.m3u8?@iprtlk
-2026-10-12 22:20:26,193 - INFO - URL OK: https://gpa-vja-samsungtvplus-br.otteravision.com/gpa/vja/vja_h265.m3u8?@iprtlk
-2026-10-12 22:20:26,338 - INFO - URL OK: https://dfr80qz435crc.cloudfront.net/IJKL/Amagi/Caras/CarasTV_BR/CarasTV.m3u8?@iprtlk
-2026-10-12 22:20:29,243 - INFO - URL OK: https://globallive.tdm.com.mo/ch2/ch2.live/playlist.m3u8?@iprtlk
-2026-10-12 22:20:30,099 - INFO - URL OK: https://sgn-cdn-video.vods2africa.com/Tv-Zimbo/index.fmp4.m3u8
-2026-10-12 22:20:45,521 - ERROR - Request Error http://online.tvm.co.mz:1935/live/Channel2.smil/playlist.m3u8?@iprtlk: HTTPConnectionPool(host='online.tvm.co.mz', port=1935): Max retries exceeded with url: /live/Channel2.smil/playlist.m3u8?@iprtlk (Caused by ConnectTimeoutError(<HTTPConnection(host='online.tvm.co.mz', port=1935) at 0x7f3ae81c8050>, 'Connection to online.tvm.co.mz timed out. (connect timeout=15)'))
-2026-10-12 22:20:45,718 - INFO - URL OK: https://stream01.msolutionbrasil.com.br/hls/conectv/live.m3u8?@iprtlk
-2026-10-12 22:20:45,844 - INFO - URL OK: https://www.youtube.com/watch?v=3YotInjS45A
-2026-10-12 22:20:46,058 - WARNING - URL Error https://tv2.fastcast4u.com:3310/live/famatvlive.m3u8?@iprtlk: Status Code 500
-2026-10-12 22:20:46,913 - INFO - URL OK: https://video04.logicahost.com.br/assimeportugal/assimeportugal/playlist.m3u8
-2026-10-12 22:20:47,322 - INFO - URL OK: https://video03.logicahost.com.br/rfptv/rfptv/playlist.m3u8
-2026-10-12 22:20:47,659 - INFO - URL OK: https://38cf202f635c4e6d9a9ecd1dc805222a.mediatailor.eu-west-1.amazonaws.com/v1/manifest/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6572/aa7d84c5-ed1b-4706-aa89-11c525faf07d/5.m3u8?@iprtlk
-2026-10-12 22:20:47,660 - ERROR - Request Error +https:: No connection adapters were found for '+https:'
-2026-10-12 22:20:47,841 - INFO - URL OK: https://rnw-rn-samsungtvplus.otteravision.com/rnw/rn/rnw_rn.m3u8?@iprtlk
-2026-10-12 22:20:48,146 - INFO - URL OK: https://amg00527-amg00527c5-amgplt0026.playout.now3.amagi.tv/ts-us-w2-n1/playlist/amg00527-amg00527c5-amgplt0026/playlist.m3u8?@iprtlk
-2026-10-12 22:20:48,286 - INFO - URL OK: https://d25usgadhphvwi.cloudfront.net/hls/main.m3u8?@iprtlk
-2026-10-12 22:20:48,287 - ERROR - Request Error +https://amg01391-sbtinfast-amg01391c4-lg-br-4597.playouts.now.amagi.tv/playlist/amg01391-addigital-cnnbrasil-lgbr/playlist.m3u8?@iprtlk: No connection adapters were found for '+https://amg01391-sbtinfast-amg01391c4-lg-br-4597.playouts.now.amagi.tv/playlist/amg01391-addigital-cnnbrasil-lgbr/playlist.m3u8?@iprtlk'
+2026-10-13 03:13:24,267 - INFO - URL OK: https://jerrymoz.wordpress.com/wp-content/uploads/2024/03/qr_paypal.png?@iprtlk
+2026-10-13 03:13:24,367 - INFO - URL OK: https://jerrymoz.wordpress.com/wp-content/uploads/2024/03/qr_paypal.png
+2026-10-13 03:13:25,234 - WARNING - URL Error https://cdn.livespanel.com/portaltvportuguesa6356/live/playlist.m3u8?@iprtlk: Status Code 404
+2026-10-13 03:13:26,145 - INFO - URL OK: https://streaming-live.rtp.pt/liverepeater/rtpi.smil/playlist.m3u8
+2026-10-13 03:13:26,900 - WARNING - URL Error http://streaming-live-app.rtp.pt/liverepeater/rtpClean1HD.smil/manifest.mpd: Status Code 204
+2026-10-13 03:13:27,259 - INFO - URL OK: https://streaming-live.rtp.pt/liverepeater/smil:rtp1HD.smil/playlist.m3u8
+2026-10-13 03:13:27,497 - INFO - URL OK: https://streaming-live.rtp.pt/liverepeater/rtp2HD.smil/playlist.m3u8
+2026-10-13 03:13:27,498 - ERROR - Request Error +http://streaming-live-app.rtp.pt/liverepeater/rtpClean2HD.smil/manifest.mpd: No connection adapters were found for '+http://streaming-live-app.rtp.pt/liverepeater/rtpClean2HD.smil/manifest.mpd'
+2026-10-13 03:13:27,717 - INFO - URL OK: https://streaming-live.rtp.pt/liverepeater/rtpnHD.smil/playlist.m3u8?@iprtlk
+2026-10-13 03:13:27,976 - INFO - URL OK: http://streaming-live.rtp.pt/liverepeater/rtpnHD.smil/manifest.mpd?@iprtlk
+2026-10-13 03:13:28,056 - WARNING - URL Error https://streaming-live.rtp.pt/liverepeater/rtpmem.smil/playlist.m3u8: Status Code 204
+2026-10-13 03:13:28,427 - INFO - URL OK: https://streaming-live.rtp.pt/liverepeater/rtpacoresHD.smil/playlist.m3u8
+2026-10-13 03:13:28,660 - INFO - URL OK: https://streaming-live.rtp.pt/liverepeater/rtpmadeira.smil/playlist.m3u8
+2026-10-13 03:13:28,921 - INFO - URL OK: https://streaming-live.rtp.pt/liverepeater/rtpafrica.smil/playlist.m3u8
+2026-10-13 03:13:29,702 - INFO - URL OK: https://playout175.livextend.cloud/livenlin4/2liveartvpub2/playlist.m3u8?@iprtlk
+2026-10-13 03:13:44,719 - ERROR - Request Error http://45.235.0.78/SIC_Internacional/playlist.m3u8: HTTPConnectionPool(host='45.235.0.78', port=80): Max retries exceeded with url: /SIC_Internacional/playlist.m3u8 (Caused by ConnectTimeoutError(<HTTPConnection(host='45.235.0.78', port=80) at 0x7f291c692ad0>, 'Connection to 45.235.0.78 timed out. (connect timeout=15)'))
+2026-10-13 03:13:45,195 - WARNING - URL Error https://d1zx6l1dn8vaj5.cloudfront.net/out/v1/b89cc37caa6d418eb423cf092a2ef970/index.m3u8?@iprtlk: Status Code 403
+2026-10-13 03:13:45,259 - ERROR - Request Error http://stalker.klma2023.net:80/play/live.php?mac=00:1B:79:F8:59:0E&stream=9083&extension=ts: HTTPConnectionPool(host='stalker.klma2023.net', port=80): Max retries exceeded with url: /play/live.php?mac=00:1B:79:F8:59:0E&stream=9083&extension=ts (Caused by NameResolutionError("HTTPConnection(host='stalker.klma2023.net', port=80): Failed to resolve 'stalker.klma2023.net' ([Errno -2] Name or service not known)"))
+2026-10-13 03:13:46,427 - INFO - URL OK: https://cdnapisec.kaltura.com/p/4526593/sp/4526593/playManifest/entryId/1_j8ztwihx/deliveryProfileId/672/protocol/https/format/applehttp/a.m3u8
+2026-10-13 03:13:46,951 - INFO - URL OK: https://production-fast-sic.content.okast.tv/fa2e8c4385712f9a7dce4ff2dcebac2e/channels/d9070446-8448-455e-8075-773b1ba12562/d47eae0f-ad77-414a-9a1d-2a6628ba18c3/media_.m3u8?@iprtlk
+2026-10-13 03:13:47,271 - INFO - URL OK: https://production-fast-sic.content.okast.tv/fa2e8c4385712f9aa54bbe52b1bd9b6b/channels/d9070446-8448-455e-8075-773b1ba12562/fc831b20-f252-4e7d-8cc5-2d05f4d43c1c/media_.m3u8?@iprtlk
+2026-10-13 03:13:47,382 - WARNING - URL Error https://raw.githubusercontent.com/ipstreet312/freeiptv/master/ressources/tvipt/sh/tviint.m3u8?@iprtlk: Status Code 404
+2026-10-13 03:13:48,052 - WARNING - URL Error https://video-auth6.iol.pt/live_tvi_internacional/live_tvi_internacional/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9MS8yMy8yMDI2IDg6NTI6MTYgQU0maGFzaF92YWx1ZT1aNnBTdGlZTFRjM0UzRENDUDBhUDhnPT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9ZTg4YjYxYjQtNWUxYi00OTQ5LThiOGItZWJhYzRjZmY3MTVi/: Status Code 403
+2026-10-13 03:13:48,166 - WARNING - URL Error https://raw.githubusercontent.com/ipstreet312/freeiptv/master/ressources/tvipt/sh/tvi.m3u8?@iprtlk: Status Code 404
+2026-10-13 03:13:48,566 - INFO - URL OK: https://github.com/thomraider12/canaistvpt/raw/main/m3u8s/tvi.m3u8?@iprtlk
+2026-10-13 03:13:49,118 - WARNING - URL Error https://video-auth6.iol.pt/live_tvi/live_tvi/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9MS8yMy8yMDI2IDg6NTI6MTQgQU0maGFzaF92YWx1ZT0wcU4xdUlGcTB1VU41ZmRBbkY4V3JBPT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9YmM1ODMxOWQtNTM3MC00NTQzLTgzODYtNTc5OWQ1OTIyZjUy/: Status Code 403
+2026-10-13 03:13:49,232 - WARNING - URL Error https://raw.githubusercontent.com/ipstreet312/freeiptv/master/ressources/tvipt/sh/cnnpt.m3u8?@iprtlk: Status Code 404
+2026-10-13 03:13:49,620 - INFO - URL OK: https://github.com/thomraider12/canaistvpt/raw/main/m3u8s/cnnpt.m3u8?@iprtlk
+2026-10-13 03:13:50,333 - WARNING - URL Error https://video-auth7.iol.pt/live_cnn/live_cnn/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9MS8yMy8yMDI2IDg6NTI6MTUgQU0maGFzaF92YWx1ZT1HYjVjd3B3WFhIVStQV1RpUGxNbTFBPT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9NWRmNDY3Y2MtOWMzZC00MmQ5LThlZGEtY2QwMDhlMjQ4OGM3/: Status Code 403
+2026-10-13 03:13:50,885 - WARNING - URL Error https://video-auth2.iol.pt/live_vmais/live_vmais/edge_servers/vmais-720p/playlist.m3u8?@iprtlk: Status Code 403
+2026-10-13 03:13:51,577 - WARNING - URL Error https://video-auth1.iol.pt/live_tvi_ficcao/live_tvi_ficcao/edge_servers/tvificcao-720p/playlist.m3u8?@iprtlk: Status Code 403
+2026-10-13 03:13:52,241 - WARNING - URL Error https://video-auth4.iol.pt/live_tvi_africa/live_tvi_africa/edge_servers/tviafrica-480p/playlist.m3u8?@iprtlk: Status Code 404
+2026-10-13 03:13:53,048 - WARNING - URL Error https://video-auth5.iol.pt/live_tvi_reality/live_tvi_reality/edge_servers/tvireality-720_passthrough/playlist.m3u8?@iprtlk: Status Code 403
+2026-10-13 03:13:54,011 - INFO - URL OK: https://pull-live-156-1.global.ssl.fastly.net/pc5865dc25400thmb-ea6bf03b14fa318f7133/smil:pc1-jhrgyuoqe5865db-68tkgb14fa318f7133f03.smil/playlist.m3u8?@iprtlk
+2026-10-13 03:13:54,013 - ERROR - Request Error +https://cr7v.short.gy/ManoTV/af2/index.m3u8: No connection adapters were found for '+https://cr7v.short.gy/ManoTV/af2/index.m3u8'
+2026-10-13 03:13:54,506 - INFO - URL OK: https://a128aivottepl-a.akamaihd.net/gru-nitro/live/clients/dash/enc/ds9ertnhrl/out/v1/cb791b7362754ba1b87d9474ccd95fa3/cenc.mpd
+2026-10-13 03:13:54,508 - ERROR - Request Error +https://02.arlivre.online/globosp/index.m3u8?@iprtlk: No connection adapters were found for '+https://02.arlivre.online/globosp/index.m3u8?@iprtlk'
+2026-10-13 03:13:54,652 - WARNING - URL Error https://aovivo.maissbt.com/v1/manifest/215c0da80606fed29372070168106400a6ca7e1a/SSAI_TITAN_V3/ac63b34e-0615-4402-a359-892f205ccd70/5.m3u8: Status Code 403
+2026-10-13 03:14:10,217 - ERROR - Request Error https://viamotionhsi.netplus.ch/live/eds/rederecordinternacional/browser-dash/rederecordinternacional.mpd: HTTPSConnectionPool(host='viamotionhsi.netplus.ch', port=443): Read timed out. (read timeout=15)
+2026-10-13 03:14:10,529 - WARNING - URL Error https://5b7f3c45ab7c2.streamlock.net/arapuan/ngrp:arapuan_all/playlist.m3u8: Status Code 404
+2026-10-13 03:14:10,824 - INFO - URL OK: https://cnl-cl.otteravision.com/cnl/cl_h265/cl_h265.m3u8?@iprtlk
+2026-10-13 03:14:11,069 - INFO - URL OK: https://gpa-vja-samsungtvplus-br.otteravision.com/gpa/vja/vja_h265.m3u8?@iprtlk
+2026-10-13 03:14:11,268 - INFO - URL OK: https://dfr80qz435crc.cloudfront.net/IJKL/Amagi/Caras/CarasTV_BR/CarasTV.m3u8?@iprtlk
+2026-10-13 03:14:13,549 - INFO - URL OK: https://globallive.tdm.com.mo/ch2/ch2.live/playlist.m3u8?@iprtlk
+2026-10-13 03:14:14,637 - INFO - URL OK: https://sgn-cdn-video.vods2africa.com/Tv-Zimbo/index.fmp4.m3u8
+2026-10-13 03:14:30,284 - ERROR - Request Error http://online.tvm.co.mz:1935/live/Channel2.smil/playlist.m3u8?@iprtlk: HTTPConnectionPool(host='online.tvm.co.mz', port=1935): Max retries exceeded with url: /live/Channel2.smil/playlist.m3u8?@iprtlk (Caused by ConnectTimeoutError(<HTTPConnection(host='online.tvm.co.mz', port=1935) at 0x7f291bf08050>, 'Connection to online.tvm.co.mz timed out. (connect timeout=15)'))
+2026-10-13 03:14:30,605 - INFO - URL OK: https://stream01.msolutionbrasil.com.br/hls/conectv/live.m3u8?@iprtlk
+2026-10-13 03:14:31,101 - WARNING - URL Error https://www.youtube.com/watch?v=3YotInjS45A: Status Code 429
+2026-10-13 03:14:31,351 - WARNING - URL Error https://tv2.fastcast4u.com:3310/live/famatvlive.m3u8?@iprtlk: Status Code 500
+2026-10-13 03:14:33,068 - INFO - URL OK: https://video04.logicahost.com.br/assimeportugal/assimeportugal/playlist.m3u8
+2026-10-13 03:14:34,242 - INFO - URL OK: https://video03.logicahost.com.br/rfptv/rfptv/playlist.m3u8
+2026-10-13 03:14:34,690 - INFO - URL OK: https://38cf202f635c4e6d9a9ecd1dc805222a.mediatailor.eu-west-1.amazonaws.com/v1/manifest/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6572/aa7d84c5-ed1b-4706-aa89-11c525faf07d/5.m3u8?@iprtlk
+2026-10-13 03:14:34,691 - ERROR - Request Error +https:: No connection adapters were found for '+https:'
+2026-10-13 03:14:34,940 - INFO - URL OK: https://rnw-rn-samsungtvplus.otteravision.com/rnw/rn/rnw_rn.m3u8?@iprtlk
+2026-10-13 03:14:35,208 - INFO - URL OK: https://amg00527-amg00527c5-amgplt0026.playout.now3.amagi.tv/ts-us-w2-n1/playlist/amg00527-amg00527c5-amgplt0026/playlist.m3u8?@iprtlk
+2026-10-13 03:14:35,398 - INFO - URL OK: https://d25usgadhphvwi.cloudfront.net/hls/main.m3u8?@iprtlk
+2026-10-13 03:14:35,399 - ERROR - Request Error +https://amg01391-sbtinfast-amg01391c4-lg-br-4597.playouts.now.amagi.tv/playlist/amg01391-addigital-cnnbrasil-lgbr/playlist.m3u8?@iprtlk: No connection adapters were found for '+https://amg01391-sbtinfast-amg01391c4-lg-br-4597.playouts.now.amagi.tv/playlist/amg01391-addigital-cnnbrasil-lgbr/playlist.m3u8?@iprtlk'
