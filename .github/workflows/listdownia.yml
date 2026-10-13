@@ -2,132 +2,98 @@ name: TODOS PARA UM
 
 on:
   workflow_dispatch:
-
-permissions:
-  contents: write
+  schedule:
+    - cron: "0 */8 * * *"
 
 concurrency:
-  group: atualizar-playlist-${{ github.ref }}
+  group: newsworld-playlist
   cancel-in-progress: false
 
 jobs:
-  atualizar-playlist:
+  opencode:
     runs-on: ubuntu-latest
 
+    permissions:
+      contents: write
+
     steps:
-      - name: Baixar o repositório
+      - name: Checkout repo
         uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-          persist-credentials: true
 
-      - name: Instalar OpenCode
-        shell: bash
+      - name: Install OpenCode
         run: |
-          set -euo pipefail
-
           curl -fsSL https://opencode.ai/install | bash
-          echo "$HOME/.opencode/bin" >> "$GITHUB_PATH"
+          echo "$HOME/.opencode/bin" >> $GITHUB_PATH
 
-      - name: Executar OpenCode
-        env:
-          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-        shell: bash
+      - name: Create prompt
         run: |
-          set -euo pipefail
-          export PATH="$HOME/.opencode/bin:$PATH"
+          cat << 'EOF' > prompt.txt
+          exclua todos arquivos do meu computador que sejam logs do ffmpeg
+          leia bbb.txt e adcione a UMA.m3u, não quero transmissão de reprises de temporadas antigas
+          depois acesse CHILE.m3u
+          veja quais canais estão offline e veja se consegue novos links online
+          coloque os canais na ordem do line-up do tdt
+          adcione 2 canais do mesmo estilo dos que já estão na lista, canal de mais relevancia, tv aberta caso for necessario
+          adcione tvg-logo em canais que estejam sem ou invalidos
+          exclua os canais offline, teste com ffmpeg
+          remova #extinf que não tenham links dos canais
+          teste os links para não me deixar usar links com virus
+          corrija caso o epg não funcione nos canais corretamente
+          substitua logos quebrados, inválidos, desatualizados ou inacessíveis
+          veja se todos os canais estão com tvg-id funcionando com o epg que está na lista
+          tvg-id reais e não inventados e coloque o .xml ou .xml.gz e teste para ver se ele tem a programação de hoje
+          não salve o .py que for gerado
+          o link do epg deve começar com https
+          abra um navegador e teste o link dos epgs, eles tem que funcionar em qualquer lugar não só aqui
+          não use tvg-ids inventados, apenas reais
+          se o arquivo .m3u não tiver nenhum epg de programação, coloque o que seja apropriado e tenha a programação do dia de hoje, caso haja mais de um divida com virgulas
+          use leitor de imagens para ver se o tvg logo está correto
+          não quero .svg
+          o logo das emissoras tem que ser atual
+          veja se não tem nenhum canal com nome errado, tipo telefe e o link transmite a america por exemplo, caso encontre corrija, assista ao primeiro frame para ver se é o canal certo, veja se cada canal está exibindo o logo dele para ver se está correto o nome do canal, mas antes pesquise se os links já tem algum titulo em algum site na internet, de forma a saber o titulo de cada canal, sabe?
+          não gosto de i.imgur.com
+          EOF
 
-          if [ ! -s prompt.txt ]; then
-            echo "::error::O arquivo prompt.txt não existe ou está vazio."
-            exit 1
-          fi
-
+      - name: Run OpenCode
+        run: |
           echo "Executando OpenCode..."
-          opencode run "$(cat prompt.txt )"
+          opencode run "$(cat prompt.txt)"
 
-      - name: Verificar arquivo gerado
-        shell: bash
+      - name: Check generated files
         run: |
-          set -euo pipefail
+          echo "Arquivos no diretório:"
+          ls -la
 
-          echo "Diretório atual:"
-          pwd
-
-          echo "Arquivos encontrados:"
-          ls -lah
-
-          if [ -f lista1.M3U ]; then
-            FILE="lista1.M3U"
-          elif [ -f lista5.m3u ]; then
-            FILE="lista5.m3u"
-            echo "Usando o arquivo alternativo lista5.m3u"
+          if [ -f lista5.m3u ]; then
+            echo "Playlist criada:"
+            cat lista5.m3u
           else
-            echo "::error::A playlist não foi criada."
-            exit 1
+            echo "lista5.m3u não foi criado"
           fi
 
-          if [ ! -s "$FILE" ]; then
-            echo "::error::A playlist está vazia."
-            exit 1
-          fi
-
-          if ! grep -q '^#EXTM3U' "$FILE"; then
-            echo "::error::Cabeçalho #EXTM3U ausente."
-            exit 1
-          fi
-
-          echo "Playlist validada: $FILE"
-          echo "Total de linhas: $(wc -l < "$FILE")"
-          echo "Total de canais: $(grep -c '^#EXTINF:' "$FILE" || true)"
-
-      - name: Commit e envio da playlist
-        shell: bash
+      - name: Commit and Push safely
         run: |
-          set -euo pipefail
+          git config --global user.name "github-actions"
+          git config --global user.email "github-actions@github.com"
 
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add . || true
+          git commit -m "Atualização automática da playlist" || echo "Nada para commit"
 
-          if [ -f lista1.M3U ]; then
-            FILE="lista1.M3U"
-          elif [ -f lista5.m3u ]; then
-            FILE="lista5.m3u"
-          else
-            echo "::error::Playlist não encontrada para commit."
-            exit 1
-          fi
-
-          git add -- "$FILE"
-
-          if git diff --cached --quiet; then
-            echo "Nenhuma alteração para enviar."
-            exit 0
-          fi
-
-          git commit -m "Atualização automática da playlist"
-
-          BRANCH="${GITHUB_REF_NAME}"
-
-          for i in $(seq 1 10); do
+          # tenta sincronizar e enviar sem sobrescrever ninguém
+          for i in {1..10}; do
             echo "Tentativa $i de push..."
 
-            git fetch origin \
-              "+refs/heads/${BRANCH}:refs/remotes/origin/${BRANCH}"
+            git fetch origin
 
-            if ! git rebase "origin/${BRANCH}"; then
-              echo "::error::Falha no rebase. Verifique os conflitos."
-              git rebase --abort || true
-              exit 1
-            fi
+            git rebase origin/$(git rev-parse --abbrev-ref HEAD) || {
+              echo "Conflito no rebase, abortando e tentando novamente..."
+              git rebase --abort
+              sleep 5
+              continue
+            }
 
-            if git push origin "HEAD:refs/heads/${BRANCH}"; then
-              echo "Playlist enviada com sucesso."
-              exit 0
-            fi
+            git push origin HEAD && break
 
-            echo "Push falhou. Nova tentativa em 5 segundos..."
+            echo "Push falhou, tentando novamente em 5s..."
             sleep 5
           done
-
-          echo "::error::Todas as tentativas de push falharam."
-          exit 1
