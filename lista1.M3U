@@ -77,6 +77,8 @@ https://globallive.tdm.com.mo/ch2/ch2.live/playlist.m3u8?@iprtlk
 https://sgn-cdn-video.vods2africa.com/Tv-Zimbo/index.fmp4.m3u8
 #EXTINF:-1 group-title="Portugal..." tvg-id="" tvg-logo="https://yt3.googleusercontent.com/9Zrl6psqQDobaLMkdfGFcSl2gqNNtcQhcoYW7mPFeK6YwIExqePsck1LT3AUu1JiX5jcgaEP=w0",❖ Conectv Algarve 🇵🇹🇧🇷
 https://stream01.msolutionbrasil.com.br/hls/conectv/live.m3u8?@iprtlk
+#EXTINF:-1 group-title="Portugal..." tvg-id="" tvg-logo="https://raw.githubusercontent.com/iprtl/p1/master/logo/contala.webp",❖ Conta Lá 🇵🇹 (Youtube)
+https://www.youtube.com/watch?v=3YotInjS45A
 #EXTINF:-1 group-title="Portugal..." tvg-id="" tvg-logo="https://assimeportugal.com/wp-content/uploads/2020/10/lg-assim.png",❖ Assim é Portugal 🇵🇹
 https://video04.logicahost.com.br/assimeportugal/assimeportugal/playlist.m3u8
 #EXTINF:-1 group-title="Portugal..." tvg-id="" tvg-logo="https://www.rfptv.pt/storage/479/config/MYvhCGImba3MPCwmRu2pZgGkFhy2L6tkTLsSO3LN.png",❖ RFPtv ᴸᴼᵂ 🇵🇹
@@ -102,8 +104,8 @@ https://archive.org/download/Love_Of_Life_Soap/LoveofLifeMarch20-1953.ogv
 https://archive.org/download/Yet_More_Lucy/WhatsMyLine21February1954.ogv
 #EXTINF:-1 group-title="VOD" ,''The Brighter Day'' - Misc 1955 episode
 https://archive.org/download/TheBrighterDay1955/brighterday1955.ogv
-#EXTINF:-1 group-title="VOD" ,''To Tell The Truth'' - 30 July 1957
-https://archive.org/download/ToTellTheTruth30July1957/To%20Tell%20The%20Truth%20-%2030%20July%201957.ogv
+#EXTINF:-1 group-title="VOD" ,1957 CBS-TV Special ''The Edsel Show'' with Guests
+https://archive.org/download/TheEdselShow1957/EdselShow.ogv
 #EXTINF:-1 group-title="VOD" ,1961 promo for Gunsmoke
 https://archive.org/download/1961-promo-for-gunsmoke/1961%20promo%20for%20Gunsmoke.mp4
 #EXTINF:-1 group-title="VOD" ,1967 TV Soap: ''Love is a Many Splendored Thing'' - 1st of December 1967
@@ -112,8 +114,6 @@ https://archive.org/download/1967_PD_Soapie/LoveisaManySplenderedThing1967.ogv
 https://archive.org/download/1969PromoForHeresLucy/1969%20Promo%20for%20%27%27Here%27s%20Lucy%27%27.ogv
 #EXTINF:-1 group-title="VOD" ,Dummy 1979 ( Le Var Burton, Paul Sorvino)
 https://archive.org/download/dummy-1979-le-var-burton-paul-sorvino/%28output004%29%28output001%29Dummy%20-%201979%20%28LeVar%20Burton%2C%20Paul%20Sorvino%29.mp4
-#EXTM3U
-#EXTM3U
 #EXTM3U
 #EXTM3U
 #EXTM3U
@@ -1015,523 +1015,127 @@ https://stream.guarotv.net:3592/hybrid/play.m3u8
 #EXTINF:-1 tvg-id="TeleAragua.ve" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/TeleAragua_Logo.png/250px-TeleAragua_Logo.png" group-title="VENEZUELA",TeleAragua
 http://45.173.198.59:8080/hls/nginx3.m3u8?tla=
 #EXTM3U
-#EXTINF:-1 group-title="VOD" tvg-id="campeoes-e-detectives" tvg-logo="https://img.iol.pt/preset/6accf8a3d34e9a786e75be0d/og/tviplayer",Campeões e Detectives - «Pais contra filhos»
+#EXTINF:-1 group-title="RTP" tvg-logo="https://cdn-images.rtp.pt/EPG/imagens/46712_77584_54941.png?v=3&w=860",24 Horas
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod1.iol.pt/vod/1/e/4/9/smil:6accf59b0cf20dc527791e49-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="campeoes-e-detectives" tvg-logo="https://img.iol.pt/preset/6accf893d34e53c759c760dd/og/tviplayer",Campeões e Detectives - «Um clube a sério - Parte II»
+#EXTVLCOPT:http-referrer=https://www.rtp.pt/
+https://streaming-vod.rtp.pt/hls/nas2.share,/h264/512x384/p16068/p16068_1_20261012000000e282t1028.mp4,.urlset/master.m3u8
+#EXTINF:-1 group-title="RTP" tvg-logo="https://cdn-images.rtp.pt/EPG/imagens/48059_77630_17654.png?v=3&w=860",Notícias Noite 2ª Edição
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod1.iol.pt/vod/1/3/b/e/smil:6accf52e0cf22b9f890513be-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="campeoes-e-detectives" tvg-logo="https://img.iol.pt/preset/6accf83dd34e53c759c760d8/og/tviplayer",Campeões e Detectives - «Um clube a sério»
+#EXTVLCOPT:http-referrer=https://www.rtp.pt/
+https://streaming-vod.rtp.pt/hls/nas2.share,/h264/512x384/p16166/p16166_1_20261012000000e207t0872.mp4,.urlset/master.m3u8
+#EXTINF:-1 group-title="RTP" tvg-logo="https://cdn-images.rtp.pt/EPG/imagens/41674_64181_81573.png?v=3&w=860",Prolongamento
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod1.iol.pt/vod/d/f/8/b/smil:6accf57b0cf23b0ed4fddf8b-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="tvi-em-cima-da-hora" tvg-logo="https://img.iol.pt/preset/6accebd9d34e53c759c760bd/og/tviplayer",TVI - Em cima da hora - 12 de outubro de 2026
+#EXTVLCOPT:http-referrer=https://www.rtp.pt/
+https://streaming-vod.rtp.pt/hls/nas2.share,/h264/512x384/p16174/p16174_1_20261012233149e031t4525.mp4,.urlset/master.m3u8
+#EXTINF:-1 group-title="RTP" tvg-logo="https://cdn-images.rtp.pt/EPG/imagens/41787_64329_50687.jpg?v=3&w=860",Tudo é Economia
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod2.iol.pt/vod/d/f/7/e/smil:6acced330cf23b0ed4fddf7e-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="tvi-jornal" tvg-logo="https://img.iol.pt/preset/6acce09dd34e53c759c7609f/og/tviplayer",TVI Jornal - 12 de outubro de 2026
+#EXTVLCOPT:http-referrer=https://www.rtp.pt/
+https://streaming-vod.rtp.pt/hls/nas2.share,/h264/512x384/p16204/p16204_1_20261012230142e035t7924.mp4,.urlset/master.m3u8
+#EXTINF:-1 group-title="RTP" tvg-logo="https://cdn-images.rtp.pt/EPG/imagens/33541_41764_39816.jpg?v=3&w=860",Procissão das Velas
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod1.iol.pt/vod/d/f/5/5/smil:6acce18e0cf23b0ed4fddf55-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="campeoes-e-detectives" tvg-logo="https://img.iol.pt/preset/6accdde8d34e9a786e75bdd7/og/tviplayer",Campeões e Detectives - «Uma bolada no vidro»
+#EXTVLCOPT:http-referrer=https://www.rtp.pt/
+https://streaming-vod.rtp.pt/hls/nas2.share,/h264/512x384/p17278/p17278_1_20261012000000e000t0331.mp4,.urlset/master.m3u8
+#EXTINF:-1 group-title="RTP" tvg-logo="https://cdn-images.rtp.pt/EPG/imagens/32788_39400_60802.jpg?v=3&w=860",Arq 3
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod1.iol.pt/vod/1/3/5/6/smil:6acccac70cf22b9f89051356-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="campeoes-e-detectives" tvg-logo="https://img.iol.pt/preset/6accde56d34e53c759c7609b/og/tviplayer",Campeões e Detectives - «Uma bolada no vidro - Parte II»
+#EXTVLCOPT:http-referrer=https://www.rtp.pt/
+https://streaming-vod.rtp.pt/hls/nas2.share,/h264/512x384/p13775/p13775_1_20261012161102e007t9908d_lo.mp4,/h264/512x384/p13775/p13775_1_20261012161102e007t9908d.mp4,.urlset/master.m3u8
+#EXTINF:-1 group-title="RTP" tvg-logo="https://cdn-images.rtp.pt/EPG/imagens/img_default.jpg?v=3&w=860",Lena D'Água - Iminente 2026
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod1.iol.pt/vod/1/e/b/3/smil:6acccac80cf299bc29541eb3-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="campeoes-e-detectives" tvg-logo="https://img.iol.pt/preset/6accc34bd34e9a786e75bdab/og/tviplayer",Campeões e Detectives - «Espectador intrometido (Coleção objetivo golo)»
+#EXTVLCOPT:http-referrer=https://www.rtp.pt/
+https://streaming-vod.rtp.pt/hls/nas2.share,/h264/512x384/p17320/p17320_1_2026101222520.mp4,.urlset/master.m3u8
+#EXTINF:-1 group-title="RTP" tvg-logo="https://cdn-images.rtp.pt/EPG/imagens/31932_58211_52792.jpg?v=3&w=860",As Aventuras do Max - Atlantos
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod1.iol.pt/vod/1/d/c/d/smil:6accbd560cf20dc527791dcd-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="campeoes-e-detectives" tvg-logo="https://img.iol.pt/preset/6accc2f8d34e9a786e75bda9/og/tviplayer",Campeões e Detectives - «O espectador intrometido»
+#EXTVLCOPT:http-referrer=https://www.rtp.pt/
+https://streaming-vod.rtp.pt/hls/nas2.share,/h264/512x384/p16218/p16218_1_20261011090121e012t7790.mp4,.urlset/master.m3u8
+#EXTINF:-1 group-title="RTP" tvg-logo="https://cdn-images.rtp.pt/EPG/imagens/img_default.jpg?v=3&w=860",Jornal da Tarde - 10 out 2026
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod1.iol.pt/vod/1/3/1/f/smil:6accbd570cf22b9f8905131f-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="campeoes-e-detectives" tvg-logo="https://img.iol.pt/preset/6accc28fd34e9a786e75bda7/og/tviplayer",Campeões e Detectives - «A ameaça da Bola F»
+#EXTVLCOPT:http-referrer=https://www.rtp.pt/
+https://streaming-vod.rtp.pt/hls/nas2.share,/h264/512x384/p16047/p16047_2_20261010142118e283t0297.mp4,.urlset/master.m3u8
+#EXTINF:-1 group-title="RTP" tvg-logo="https://cdn-images.rtp.pt/EPG/imagens/img_default.jpg?v=3&w=860",Telejornal - 10 out 2026
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod1.iol.pt/vod/1/3/1/e/smil:6accbd240cf22b9f8905131e-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="dois-as-10" tvg-logo="https://img.iol.pt/preset/6accbea5d34e9a786e75bd9b/og/tviplayer",Dois às 10 - A primeira entrevista de David Diamond após a expulsão do Big Brother All Stars
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod1.iol.pt/vod/1/3/7/2/smil:6accd4b50cf22b9f89051372-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="diario-da-manha" tvg-logo="https://img.iol.pt/preset/6accb1330cf20dc527791d9e/og/tviplayer",Diário da Manhã - 12 de outubro de 2026
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod2.iol.pt/vod/1/2/b/2/smil:6acca4980cf22b9f890512b2-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="big-brother" tvg-logo="https://img.iol.pt/preset/6acc97a2d34e53c759c75fe5/og/tviplayer",Big Brother All Stars - Gala - 11 de outubro de 2026
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod2.iol.pt/vod/1/d/5/1/smil:6acc9f770cf20dc527791d51-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="funtastico" tvg-logo="https://img.iol.pt/preset/6acbfbafd34e53c759c75f6f/og/tviplayer",Funtástico - 11 de outubro de 2026
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod2.iol.pt/vod/1/c/a/5/smil:6acbeb100cf20dc527791ca5-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="tvi-jornal" tvg-logo="https://img.iol.pt/preset/6acbbe4ad34e9a786e75bc35/og/tviplayer",TVI Jornal - 10 de outubro de 2026
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod2.iol.pt/vod/1/c/5/3/smil:6acb8cd50cf20dc527791c53-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="querido-mudei-a-casa" tvg-logo="https://img.iol.pt/preset/6acbbd74d34e53c759c75eee/og/tviplayer",Querido, Mudei a Casa! - 11 de outubro de 2026
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod1.iol.pt/vod/d/d/7/8/smil:6acb76640cf23b0ed4fddd78-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="missa",Missa: Mosteiro de Grijó, Vila Nova de Gaia - 11 de outubro de 2026
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod1.iol.pt/vod/1/c/1/1/smil:6acb68c00cf20dc527791c11-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="diario-da-manha" tvg-logo="https://img.iol.pt/preset/6acb55b10cf20dc527791bfd/og/tviplayer",Diário da Manhã - 11 de outubro de 2026
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod1.iol.pt/vod/1/b/f/8/smil:6acb51e30cf20dc527791bf8-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="big-brother" tvg-logo="https://img.iol.pt/preset/6acb35640cf20dc527791bd7/og/tviplayer",Big Brother All Stars  - Extra - 10 de outubro de 2026
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod2.iol.pt/vod/1/1/3/e/smil:6acad27d0cf22b9f8905113e-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="momento-certo",Momento Certo - 10 de outubro
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod1.iol.pt/vod/1/b/c/1/smil:6acabf5a0cf20dc527791bc1-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="a-porta-do-algarve" tvg-logo="https://img.iol.pt/preset/6ac924dbd34e9a786e75b92f/og/tviplayer",À Porta do Algarve – Xerém de Amêijoas
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod1.iol.pt/vod/f/8/a/d/smil:6ac7bc060cf20dc52778f8ad-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="ganha-ja" tvg-logo="https://img.iol.pt/preset/6aca57d20cf299bc29541c02/og/tviplayer",Ganha Já - 10 de outubro de 2026
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod2.iol.pt/vod/1/0/d/4/smil:6aca531b0cf22b9f890510d4-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="em-familia" tvg-logo="https://img.iol.pt/preset/6aca28a60cf20dc527791b34/og/tviplayer",Em Família - 10 de outubro de 2026
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod1.iol.pt/vod/1/b/3/1/smil:6aca22930cf20dc527791b31-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="mariana" tvg-logo="https://img.iol.pt/preset/684998d7d34ef72ee4471512/og/tviplayer",Mariana - Veja o episódio aqui
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod2.iol.pt/vod/d/c/7/0/smil:6ac9a1660cf23b0ed4fddc70-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="mariana" tvg-logo="https://img.iol.pt/preset/684998d7d34ef72ee4471512/og/tviplayer",Mariana - Veja o episódio aqui
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod1.iol.pt/vod/1/0/6/e/smil:6ac99d0c0cf22b9f8905106e-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="big-brother" tvg-logo="https://img.iol.pt/preset/6aca04e00cf299bc29541bca/og/tviplayer",Big Brother All Stars - Extra - 9 de outubro de 2026
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod2.iol.pt/vod/1/0/9/1/smil:6aca03de0cf22b9f89051091-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="big-brother" tvg-logo="https://img.iol.pt/preset/6ac9f1fb0cf23b0ed4fddc7b/og/tviplayer",Big Brother All Stars - Especial - 9 de outubro de 2026
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod2.iol.pt/vod/1/0/7/d/smil:6ac9ebcf0cf22b9f8905107d-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="roda-da-sorte" tvg-logo="https://img.iol.pt/preset/6ac9f0c70cf22b9f89051081/og/tviplayer",Roda da Sorte - 9 de outubro de 2026
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod1.iol.pt/vod/1/b/0/5/smil:6ac9ebcf0cf20dc527791b05-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="big-brother" tvg-logo="https://img.iol.pt/preset/6ac9f0c80cf22b9f89051083/og/tviplayer",Big Brother All Stars - Diário - 9 de outubro de 2026
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod1.iol.pt/vod/1/0/7/f/smil:6ac9ec660cf22b9f8905107f-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="a-sentenca" tvg-logo="https://img.iol.pt/preset/6ac9f0c80cf22b9f89051082/og/tviplayer",A Sentença: "Culpa Segurada" e "O Preço da Paternidade"
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod1.iol.pt/vod/1/a/f/a/smil:6ac9dfcb0cf20dc527791afa-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="tvi-em-cima-da-hora" tvg-logo="https://img.iol.pt/preset/6ac8f492d34e53c759c75b7e/og/tviplayer",TVI - Em cima da hora - 9 de outubro de 2026
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod1.iol.pt/vod/0/f/8/a/smil:6ac8f6500cf22b9f89050f8a-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="tvi-jornal" tvg-logo="https://img.iol.pt/preset/6ac8e98fd34e9a786e75b8c3/og/tviplayer",TVI Jornal - 9 de outubro de 2026
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod2.iol.pt/vod/1/a/7/0/smil:6ac8ecfd0cf299bc29541a70-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="dois-as-10" tvg-logo="https://img.iol.pt/preset/6ac8fc78d34e53c759c75b8d/og/tviplayer",Dois às 10 - Patrícia cuida sozinha das três filhas bebés com condições especiais
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod1.iol.pt/vod/1/a/5/8/smil:6ac8ded40cf299bc29541a58-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="diario-da-manha" tvg-logo="https://img.iol.pt/preset/6ac8d0c50cf20dc52779199b/og/tviplayer",Diário da Manhã - 9 de outubro de 2026
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod1.iol.pt/vod/1/8/c/1/smil:6ac8b08a0cf20dc5277918c1-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="mariana",Mariana - 9 de outubro de 2026
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod1.iol.pt/vod/d/a/2/1/smil:6ac84f310cf23b0ed4fdda21-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="big-brother" tvg-logo="https://img.iol.pt/preset/6ac8a4f30cf22b9f89050e2d/og/tviplayer",Big Brother All Stars - Extra - 9 de outubro de 2026
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod2.iol.pt/vod/0/e/0/a/smil:6ac83ac50cf22b9f89050e0a-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="big-brother" tvg-logo="https://img.iol.pt/preset/6ac8a3ca0cf299bc2954195b/og/tviplayer",Big Brother All Stars - Especial - 8 de outubro de 2026
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod1.iol.pt/vod/1/8/7/5/smil:6ac80d350cf20dc527791875-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="roda-da-sorte" tvg-logo="https://img.iol.pt/preset/6ac8a30f0cf20dc5277918a1/og/tviplayer",Roda da Sorte - 8 de outubro de 2026
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod2.iol.pt/vod/1/8/5/3/smil:6ac7e9110cf20dc527791853-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="a-madrasta" tvg-logo="https://img.iol.pt/preset/6ac8cd84d34e53c759c75aef/og/tviplayer",Veja Primeiro: A Madrasta - Episódio do dia 16 de outubro de 2026
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod2.iol.pt/vod/c/a/f/3/smil:6ac7c72f0cf23b0ed4fdcaf3-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="big-brother" tvg-logo="https://img.iol.pt/preset/6ac8a2c70cf23b0ed4fdda41/og/tviplayer",Big Brother All Stars - Diário - 8 de outubro de 2026
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod1.iol.pt/vod/1/8/4/2/smil:6ac7dbce0cf20dc527791842-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="a-madrasta" tvg-logo="https://img.iol.pt/preset/6ac7b363d34e53c759c7593e/og/tviplayer",Veja Primeiro: A Madrasta - Episódio do dia 15 de outubro de 2026
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod2.iol.pt/vod/e/e/2/e/smil:6ac7aba20cf299bc2953ee2e-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="a-madrasta" tvg-logo="https://img.iol.pt/preset/6ac7b31cd34e9a786e75b6c5/og/tviplayer",Veja Primeiro: A Madrasta - Episódio do dia 14 de outubro de 2026
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod1.iol.pt/vod/e/e/2/6/smil:6ac7aaa40cf299bc2953ee26-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="a-sentenca",A Sentença: «Espaço contestado» e «Amor clínico»
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod1.iol.pt/vod/0/8/b/3/smil:6ac7c6cb0cf20dc5277908b3-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="tvi-em-cima-da-hora" tvg-logo="https://img.iol.pt/preset/6ac7a39ad34e53c759c75903/og/tviplayer",TVI - Em cima da hora - 8 de outubro de 2026
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod2.iol.pt/vod/e/c/b/0/smil:6ac7a5d00cf20dc52778ecb0-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="tvi-jornal" tvg-logo="https://img.iol.pt/preset/6ac799f7d34e53c759c758b4/og/tviplayer",TVI Jornal - 8 de outubro de 2026
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod2.iol.pt/vod/e/3/7/3/smil:6ac79c470cf22b9f8904e373-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="a-madrasta" tvg-logo="https://img.iol.pt/preset/6ac77c75d34e53c759c75868/og/tviplayer",Veja Primeiro: A Madrasta - Episódio do dia 13 de outubro de 2026
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod2.iol.pt/vod/a/f/0/4/smil:6ac772a00cf23b0ed4fdaf04-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="a-madrasta" tvg-logo="https://img.iol.pt/preset/6ac77c33d34e53c759c75866/og/tviplayer",Veja Primeiro: A Madrasta - Episódio do dia 12 de outubro de 2026
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod2.iol.pt/vod/e/c/4/b/smil:6ac773730cf20dc52778ec4b-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="dois-as-10" tvg-logo="https://img.iol.pt/preset/6ac79adcd34e9a786e75b657/og/tviplayer",Dois às 10 - Como a doença da irmã roubou parte da infância de Rafael
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod2.iol.pt/vod/e/c/8/2/smil:6ac78da30cf20dc52778ec82-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="diario-da-manha" tvg-logo="https://img.iol.pt/preset/6ac764dd0cf23b0ed4fdaee8/og/tviplayer",Diário da Manhã - 8 de outubro de 2026
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod1.iol.pt/vod/e/c/2/5/smil:6ac75edb0cf20dc52778ec25-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="mariana",Mariana - 8 de outubro de 2026
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod1.iol.pt/vod/a/e/9/0/smil:6ac701000cf23b0ed4fdae90-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="big-brother" tvg-logo="https://img.iol.pt/preset/6ac738460cf22b9f8904e2e2/og/tviplayer",Big Brother All Stars - Especial - 8 de outubro de 2026
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod1.iol.pt/vod/e/b/e/6/smil:6ac6e99e0cf20dc52778ebe6-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="big-brother" tvg-logo="https://img.iol.pt/preset/6ac736bd0cf20dc52778ebf3/og/tviplayer",Big Brother All Stars - Especial - 7 de outubro de 2026
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod2.iol.pt/vod/e/d/4/6/smil:6ac6bc000cf299bc2953ed46-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="roda-da-sorte" tvg-logo="https://img.iol.pt/preset/6ac735c60cf22b9f8904e2df/og/tviplayer",Roda da Sorte - 7 de outubro de 2026
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod1.iol.pt/vod/e/b/a/c/smil:6ac69a330cf20dc52778ebac-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="big-brother" tvg-logo="https://img.iol.pt/preset/6ac735680cf22b9f8904e2de/og/tviplayer",Big Brother All Stars - Diário - 7 de outubro de 2026
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod1.iol.pt/vod/e/2/9/0/smil:6ac68d590cf22b9f8904e290-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="a-sentenca",A Sentença: «A vizinha exemplar» e «Tempo morto»
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod2.iol.pt/vod/e/c/f/7/smil:6ac677350cf299bc2953ecf7-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="tvi-em-cima-da-hora" tvg-logo="https://img.iol.pt/preset/6ac653cfd34e53c759c754ed/og/tviplayer",TVI - Em cima da hora - 7 de outubro de 2026
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod2.iol.pt/vod/e/c/c/2/smil:6ac655290cf299bc2953ecc2-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="terra-forte" tvg-logo="https://img.iol.pt/preset/6ac641aed34e53c759c754b5/og/tviplayer",Veja Primeiro: Terra Forte - Episódio do dia 16 de outubro de 2026
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod1.iol.pt/vod/e/1/d/7/smil:6ac63e470cf22b9f8904e1d7-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="tvi-jornal" tvg-logo="https://img.iol.pt/preset/6ac65099d34e9a786e75b2a9/og/tviplayer",TVI Jornal - 7 de outubro de 2026
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod2.iol.pt/vod/e/a/d/d/smil:6ac64b260cf20dc52778eadd-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="terra-forte" tvg-logo="https://img.iol.pt/preset/6ac6422fd34e53c759c754b8/og/tviplayer",Veja Primeiro: Terra Forte - Episódio do dia 15 de outubro de 2026
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod2.iol.pt/vod/e/c/3/8/smil:6ac630750cf299bc2953ec38-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="terra-forte" tvg-logo="https://img.iol.pt/preset/6ac641d5d34e9a786e75b277/og/tviplayer",Veja Primeiro: Terra Forte - Episódio do dia 14 de outubro de 2026
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod1.iol.pt/vod/a/d/5/8/smil:6ac630f10cf23b0ed4fdad58-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="terra-forte" tvg-logo="https://img.iol.pt/preset/6ac6272cd34e53c759c75479/og/tviplayer",Veja Primeiro: Terra Forte - Episódio do dia 13 de outubro de 2026
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod1.iol.pt/vod/e/a/8/5/smil:6ac622a40cf20dc52778ea85-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="terra-forte" tvg-logo="https://img.iol.pt/preset/6ac626d6d34e9a786e75b231/og/tviplayer",Veja Primeiro: Terra Forte - Episódio do dia 12 de outubro de 2026
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod2.iol.pt/vod/a/d/3/5/smil:6ac622710cf23b0ed4fdad35-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="dois-as-10" tvg-logo="https://img.iol.pt/preset/6ac64ec7d34e9a786e75b29e/og/tviplayer",Dois às 10 - Cristina Ferreira reage ao comunicado em que Cristiano Ronaldo justifica a saída da Seleção Nacional
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod2.iol.pt/vod/e/c/5/6/smil:6ac63d270cf299bc2953ec56-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="diario-da-manha" tvg-logo="https://img.iol.pt/preset/6ac650bc0cf20dc52778eb24/og/tviplayer",Diário da Manhã - 7 de outubro de 2026
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod2.iol.pt/vod/e/a/3/c/smil:6ac60d450cf20dc52778ea3c-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="autores",Autores: Convidada Luísa Sobral
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod1.iol.pt/vod/e/0/f/5/smil:6ac5a7500cf22b9f8904e0f5-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="big-brother" tvg-logo="https://img.iol.pt/preset/6ac605090cf299bc2953eba4/og/tviplayer",Big Brother All Stars - Extra - 7 de outubro de 2026
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod2.iol.pt/vod/e/b/9/8/smil:6ac601e90cf299bc2953eb98-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="big-brother" tvg-logo="https://img.iol.pt/preset/6ac606200cf23b0ed4fdacd4/og/tviplayer",Big Brother All Stars - Especial - 6 de outubro de 2026
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod1.iol.pt/vod/e/9/d/7/smil:6ac56a630cf20dc52778e9d7-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="roda-da-sorte" tvg-logo="https://img.iol.pt/preset/6ac608340cf299bc2953ebb0/og/tviplayer",Roda da Sorte - 6 de outubro de 2026
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod2.iol.pt/vod/e/a/1/2/smil:6ac600d40cf20dc52778ea12-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="big-brother" tvg-logo="https://img.iol.pt/preset/6ac608850cf23b0ed4fdacd9/og/tviplayer",Big Brother All Stars - Diário - 6 de outubro de 2026
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod2.iol.pt/vod/e/0/a/b/smil:6ac53b3d0cf22b9f8904e0ab-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="a-sentenca",A Sentença: «Sucesso e transição» e «Penhora infinita»
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod1.iol.pt/vod/e/9/8/3/smil:6ac526c40cf20dc52778e983-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="tvi-em-cima-da-hora" tvg-logo="https://img.iol.pt/preset/6ac50e71d34e9a786e75b05d/og/tviplayer",TVI - Em cima da hora - 6 de outubro de 2026
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod2.iol.pt/vod/e/0/6/3/smil:6ac50fae0cf22b9f8904e063-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="tvi-jornal" tvg-logo="https://img.iol.pt/preset/6ac4f3cbd34e9a786e75b022/og/tviplayer",TVI Jornal - 6 de outubro de 2026
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod1.iol.pt/vod/e/a/a/d/smil:6ac4fa2e0cf299bc2953eaad-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="dois-as-10" tvg-logo="https://img.iol.pt/preset/6ac4bb7cd34e53c759c751ef/og/tviplayer",Dois às 10 - Sara e Nuno continuam inseparáveis e surpreendem com novidade após o Big Brother Verão
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod1.iol.pt/vod/a/b/b/b/smil:6ac4eac40cf23b0ed4fdabbb-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="diario-da-manha" tvg-logo="https://img.iol.pt/preset/6ac4d1640cf23b0ed4fdab61/og/tviplayer",Diário da Manhã - 6 de outubro de 2026
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod1.iol.pt/vod/d/f/5/8/smil:6ac4bc5b0cf22b9f8904df58-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="mariana",Mariana - 6 de outubro de 2026
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod1.iol.pt/vod/e/8/3/0/smil:6ac463840cf20dc52778e830-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="big-brother" tvg-logo="https://img.iol.pt/preset/6ac4bece0cf299bc2953e9a9/og/tviplayer",Big Brother All Stars - Extra - 6 de outubro de 2026
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod2.iol.pt/vod/a/a/f/a/smil:6ac4bc8f0cf23b0ed4fdaafa-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="big-brother" tvg-logo="https://img.iol.pt/preset/6ac4b86e0cf299bc2953e99b/og/tviplayer",Big Brother All Stars - Especial - 5 de outubro de 2026
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod1.iol.pt/vod/d/f/1/1/smil:6ac418ec0cf22b9f8904df11-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="roda-da-sorte" tvg-logo="https://img.iol.pt/preset/6ac4b8aa0cf22b9f8904df53/og/tviplayer",Roda da Sorte - 5 de outubro de 2026
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod2.iol.pt/vod/d/f/5/0/smil:6ac4b8180cf22b9f8904df50-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="big-brother" tvg-logo="https://img.iol.pt/preset/6ac4b5540cf20dc52778e86e/og/tviplayer",Big Brother All Stars - Diário - 5 de outubro de 2026
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod2.iol.pt/vod/e/7/e/8/smil:6ac3e94b0cf20dc52778e7e8-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="a-sentenca",A Sentença: «Desvio de emergência» e «De viral a vilã»
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod1.iol.pt/vod/d/f/5/4/smil:6ac4ba2b0cf22b9f8904df54-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="tvi-em-cima-da-hora" tvg-logo="https://img.iol.pt/preset/6ac3a6f1d34e9a786e75ae84/og/tviplayer",TVI - Em cima da hora - 5 de outubro de 2026
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod2.iol.pt/vod/a/a/3/c/smil:6ac3b5c20cf23b0ed4fdaa3c-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="tvi-jornal" tvg-logo="https://img.iol.pt/preset/6ac3a717d34e53c759c750d8/og/tviplayer",TVI Jornal - 5 de outubro de 2026
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod2.iol.pt/vod/e/8/c/4/smil:6ac3a7680cf299bc2953e8c4-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="dois-as-10" tvg-logo="https://img.iol.pt/preset/6ac38806d34e9a786e75ae52/og/tviplayer",Dois às 10 - Diogo Marcelino reage à expulsão do Big Brother All Stars
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod2.iol.pt/vod/a/a/1/e/smil:6ac39a400cf23b0ed4fdaa1e-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="diario-da-manha" tvg-logo="https://img.iol.pt/preset/6ac376a7d34e53c759c75087/og/tviplayer",Diário da Manhã - 5 de outubro de 2026
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod2.iol.pt/vod/e/7/5/7/smil:6ac36b0e0cf20dc52778e757-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="big-brother" tvg-logo="https://img.iol.pt/preset/6ac35ef2d34e9a786e75ae04/og/tviplayer",Big Brother All Stars - Ligação à Casa - 5 de outubro de 2026
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod2.iol.pt/vod/a/9/c/9/smil:6ac355700cf23b0ed4fda9c9-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="big-brother" tvg-logo="https://img.iol.pt/preset/6ac358a3d34e53c759c7505a/og/tviplayer",Big Brother All Stars - Gala - 4 de outubro de 2026
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod2.iol.pt/vod/d/e/1/8/smil:6ac35a8a0cf22b9f8904de18-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="funtastico" tvg-logo="https://img.iol.pt/preset/6ac2b65c0cf22b9f8904dda6/og/tviplayer",Funtástico - 4 de outubro de 2026
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod2.iol.pt/vod/e/7/e/7/smil:6ac2ac980cf299bc2953e7e7-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="tvi-jornal" tvg-logo="https://img.iol.pt/preset/6ac293ad0cf20dc52778e6af/og/tviplayer",TVI Jornal - 4 de outubro de 2026
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod1.iol.pt/vod/d/c/b/4/smil:6ac252c10cf22b9f8904dcb4-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="querido-mudei-a-casa" tvg-logo="https://img.iol.pt/preset/6ac2941a0cf22b9f8904dd8a/og/tviplayer",Querido, Mudei a Casa! - 4 de outubro de 2026
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod1.iol.pt/vod/d/c/a/0/smil:6ac23dfd0cf22b9f8904dca0-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="missa" tvg-logo="https://img.iol.pt/preset/6ac232e80cf22b9f8904dc94/og/tviplayer",Missa - Igreja do Convento Franciscano do Varatojo, Torres Vedras
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod2.iol.pt/vod/a/8/1/c/smil:6ac231f60cf23b0ed4fda81c-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="diario-da-manha" tvg-logo="https://img.iol.pt/preset/6ac224090cf20dc52778e598/og/tviplayer",Diário da Manhã - 4 de outubro de 2026
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod1.iol.pt/vod/e/5/8/4/smil:6ac217700cf20dc52778e584-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="big-brother" tvg-logo="https://img.iol.pt/preset/6ac222b00cf22b9f8904dc7f/og/tviplayer",Big Brother All Stars - A Semana - 4 de outubro de 2026
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod1.iol.pt/vod/e/6/4/0/smil:6ac1a7ff0cf299bc2953e640-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="big-brother" tvg-logo="https://img.iol.pt/preset/6ac21ffa0cf22b9f8904dc6f/og/tviplayer",Big Brother All Stars - Extra Especial - 2 de outubro de 2026
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod2.iol.pt/vod/e/5/3/2/smil:6ac1978a0cf20dc52778e532-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="momento-certo" tvg-logo="https://img.iol.pt/preset/6ac21ed10cf23b0ed4fda7fc/og/tviplayer",Momento Certo - 3 de outubro de 2026
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod1.iol.pt/vod/e/5/0/5/smil:6ac1891f0cf20dc52778e505-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="fora-do-baralho" tvg-logo="https://img.iol.pt/preset/6ac17abf0cf23b0ed4fda754/og/tviplayer",Fora do Baralho - 3 de outubro de 2026
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod2.iol.pt/vod/d/b/b/f/smil:6ac174a70cf22b9f8904dbbf-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="tvi-jornal" tvg-logo="https://img.iol.pt/preset/6ac10d0f0cf20dc52778e47f/og/tviplayer",TVI Jornal - 3 de outubro de 2026
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod2.iol.pt/vod/e/5/7/b/smil:6ac101b60cf299bc2953e57b-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="ganha-ja" tvg-logo="https://img.iol.pt/preset/6ac10c140cf23b0ed4fda6ea/og/tviplayer",Ganha Já - 3 de outubro de 2026
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod2.iol.pt/vod/e/5/6/7/smil:6ac0f2380cf299bc2953e567-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="em-familia" tvg-logo="https://img.iol.pt/preset/6ac0e9d70cf23b0ed4fda6d0/og/tviplayer",Em Família - 3 de outubro de 2026
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod1.iol.pt/vod/e/4/5/d/smil:6ac0e8c20cf20dc52778e45d-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="diario-da-manha" tvg-logo="https://img.iol.pt/preset/6ac0cf1f0cf22b9f8904db27/og/tviplayer",Diário da Manhã - 3 de outubro de 2026
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod1.iol.pt/vod/e/5/3/3/smil:6ac0bc3c0cf299bc2953e533-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="mariana" tvg-logo="https://img.iol.pt/preset/6ac0cda00cf23b0ed4fda6b0/og/tviplayer",Mariana - 3 de outubro de 2026
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod2.iol.pt/vod/a/6/a/d/smil:6ac0cc170cf23b0ed4fda6ad-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="big-brother" tvg-logo="https://img.iol.pt/preset/6ac0ccaf0cf20dc52778e43f/og/tviplayer",Big Brother All Stars - Extra - 3 de outubro de 2026
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod1.iol.pt/vod/d/b/2/2/smil:6ac0cc110cf22b9f8904db22-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="big-brother" tvg-logo="https://img.iol.pt/preset/6ac0c2f50cf20dc52778e435/og/tviplayer",Big Brother All Stars - Especial - 2 de outubro de 2026
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod1.iol.pt/vod/d/a/d/b/smil:6ac0237a0cf22b9f8904dadb-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="big-brother" tvg-logo="https://img.iol.pt/preset/6ac0be6e0cf22b9f8904db15/og/tviplayer",Big Brother All Stars - Diário - 2 de outubro de 2026
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod2.iol.pt/vod/e/4/c/9/smil:6abff4e50cf299bc2953e4c9-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="a-sentenca" tvg-logo="https://img.iol.pt/preset/6ac0bdd80cf299bc2953e534/og/tviplayer",A Sentença - “O preço do sonho” e “Concorrência à vista”
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod2.iol.pt/vod/d/a/7/6/smil:6abfe0950cf22b9f8904da76-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="tvi-em-cima-da-hora" tvg-logo="https://img.iol.pt/preset/6abfbf99d34e9a786e75aa60/og/tviplayer",TVI - Em cima da hora - 2 de outubro de 2026
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod2.iol.pt/vod/d/9/e/2/smil:6abfc0ef0cf22b9f8904d9e2-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="tvi-jornal" tvg-logo="https://img.iol.pt/preset/6abfaaecd34e53c759c74ca3/og/tviplayer",TVI Jornal - 2 de outubro de 2026
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod2.iol.pt/vod/e/2/7/1/smil:6abfb3360cf20dc52778e271-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="dois-as-10" tvg-logo="https://img.iol.pt/preset/6abfb259d34e9a786e75aa3a/og/tviplayer",Dois às 10 - Gonçalo Quinaz revela o que verdadeiramente levou Cristiano Ronaldo a abandonar a Seleção Nacional
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod1.iol.pt/vod/e/2/5/2/smil:6abfa4b70cf20dc52778e252-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="diario-da-manha" tvg-logo="https://img.iol.pt/preset/6abf86ec0cf299bc2953e356/og/tviplayer",Diário da Manhã - 2 de outubro de 2026
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod1.iol.pt/vod/d/9/0/7/smil:6abf76200cf22b9f8904d907-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="mariana",Mariana - 2 de outubro de 2026
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod1.iol.pt/vod/e/3/1/a/smil:6abf6b070cf299bc2953e31a-L.smil/playlist.m3u8
-#EXTINF:-1 group-title="VOD" tvg-id="big-brother" tvg-logo="https://img.iol.pt/preset/6abf6ae8d34e53c759c74c09/og/tviplayer",Big Brother All Stars - Extra - 2 de outubro de 2026
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0
-#EXTVLCOPT:http-referrer=https://tviplayer.iol.pt/
-https://streaming-vod1.iol.pt/vod/e/1/d/a/smil:6abf6c630cf20dc52778e1da-L.smil/playlist.m3u8
+#EXTVLCOPT:http-referrer=https://www.rtp.pt/
+https://streaming-vod.rtp.pt/hls/nas2.share,/h264/512x384/p16048/p16048_2_20261010205118e283t0418.mp4,.urlset/master.m3u8
 #EXTM3U url-tvg="https://github.com/limaalef/BrazilTVEPG/raw/refs/heads/main/globo.xml" url-tvg="https://github.com/limaalef/BrazilTVEPG/raw/refs/heads/main/claro.xml" url-tvg="https://github.com/limaalef/BrazilTVEPG/raw/refs/heads/main/vivoplay.xml"
 #EXTM3U
 #EXTM3U
-#EXTINF:-1 tvg-logo="https://s.abcnews.com/images/Live/abc_news_live-abc-ml-250210_1739199021469_hpMain_16x9_608.jpg" group-title="NEWS WORLD",ABC News Live Prime With Linsey Davis | Watch Live News on ABCNL
-https://linear-abcnews-ftc-na-central-1.media.dssott.com/dvt2=exp=1791942529~url=%2Flas1%2Fva01%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838%2F~psid=697bb395-a1a2-40e7-9a72-a0290c3fab31~did=a50d3ba6-a5da-41ed-89e5-082e7f6a6a11~country=US~kid=k02~hmac=60c32143e2b4d867db68b3a606e16c274e86a457041748cee329c5e465a1c0a1/las1/va01/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838/ctr-all-hdri-sliding.m3u8?r=1080&v=1&hash=81fb88da5aab33fe54dc3f8d7ae5f0b2eaa56a8c
-#EXTINF:-1 tvg-logo="https://s.abcnews.com/images/Live/abc_news_live-abc-ml-250210_1739199021469_hpMain_16x9_608.jpg" group-title="NEWS WORLD",ABC News Live Prime With Linsey Davis | Watch Live News on ABCNL
-https://linear-abcnews-ftc-na-central-1.media.dssott.com/dvt2=exp=1791942529~url=%2Flas1%2Fva01%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838%2F~psid=697bb395-a1a2-40e7-9a72-a0290c3fab31~did=a50d3ba6-a5da-41ed-89e5-082e7f6a6a11~country=US~kid=k02~hmac=60c32143e2b4d867db68b3a606e16c274e86a457041748cee329c5e465a1c0a1/las1/va01/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838/audio-aac-1-64K/64_slide.m3u8
-#EXTINF:-1 tvg-logo="https://s.abcnews.com/images/Live/abc_news_live-abc-ml-250210_1739199021469_hpMain_16x9_608.jpg" group-title="NEWS WORLD",ABC News Live Prime With Linsey Davis | Watch Live News on ABCNL
-https://linear-abcnews-ftc-na-central-1.media.dssott.com/dvt2=exp=1791942529~url=%2Flas1%2Fva01%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838%2F~psid=697bb395-a1a2-40e7-9a72-a0290c3fab31~did=a50d3ba6-a5da-41ed-89e5-082e7f6a6a11~country=US~kid=k02~hmac=60c32143e2b4d867db68b3a606e16c274e86a457041748cee329c5e465a1c0a1/las1/va01/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838/cmaf-cenc-ctr-1700K/1700_hdri_slide.m3u8
-#EXTINF:-1 tvg-logo="https://s.abcnews.com/images/Live/abc_news_live-abc-ml-250210_1739199021469_hpMain_16x9_608.jpg" group-title="NEWS WORLD",ABC News Live Prime With Linsey Davis | Watch Live News on ABCNL
-https://linear-abcnews-ftc-na-central-1.media.dssott.com/dvt2=exp=1791942529~url=%2Flas1%2Fva01%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838%2F~psid=697bb395-a1a2-40e7-9a72-a0290c3fab31~did=a50d3ba6-a5da-41ed-89e5-082e7f6a6a11~country=US~kid=k02~hmac=60c32143e2b4d867db68b3a606e16c274e86a457041748cee329c5e465a1c0a1/las1/va01/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838/cmaf-cenc-ctr-2400K/2400_hdri_slide.m3u8
-#EXTINF:-1 tvg-logo="https://s.abcnews.com/images/Live/abc_news_live-abc-ml-250210_1739199021469_hpMain_16x9_608.jpg" group-title="NEWS WORLD",ABC News Live Prime With Linsey Davis | Watch Live News on ABCNL
-https://linear-abcnews-ftc-na-central-1.media.dssott.com/dvt2=exp=1791942529~url=%2Flas1%2Fva01%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838%2F~psid=697bb395-a1a2-40e7-9a72-a0290c3fab31~did=a50d3ba6-a5da-41ed-89e5-082e7f6a6a11~country=US~kid=k02~hmac=60c32143e2b4d867db68b3a606e16c274e86a457041748cee329c5e465a1c0a1/las1/va01/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838/audio-aac-1-128K/128_slide.m3u8
-#EXTINF:-1 tvg-logo="https://s.abcnews.com/images/Live/abc_news_live-abc-ml-250210_1739199021469_hpMain_16x9_608.jpg" group-title="NEWS WORLD",ABC News Live Prime With Linsey Davis | Watch Live News on ABCNL
-https://linear-abcnews-ftc-na-central-1.media.dssott.com/dvt2=exp=1791942529~url=%2Flas1%2Fva01%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838%2F~psid=697bb395-a1a2-40e7-9a72-a0290c3fab31~did=a50d3ba6-a5da-41ed-89e5-082e7f6a6a11~country=US~kid=k02~hmac=60c32143e2b4d867db68b3a606e16c274e86a457041748cee329c5e465a1c0a1/las1/va01/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838/cmaf-cenc-ctr-2400K/2400_hdri_slide.m3u8
 #EXTINF:-1 tvg-logo="https://keyframe-cdn.abcnews.com/streamprovider11.jpg" group-title="NEWS WORLD",ABC News Live - ABC News
-https://linear-abcnews-akc-na-central-1.media.dssott.com/dvt2=exp=1791942544~url=%2Flas1%2Fva01%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838%2F~psid=a3ba174f-d979-45fa-bcf7-bf12c7b11caf~did=ffbb6060-bf71-4c8d-a6f5-9d4726e742ec~country=US~kid=k02~hmac=3c55f9031d5cfa83d2d34dc6aeae5d0e64381c82bde021c1715c3977cf1b9d3d/las1/va01/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838/ctr-all-hdri-sliding.m3u8?r=1080&v=1&hash=81fb88da5aab33fe54dc3f8d7ae5f0b2eaa56a8c
+https://linear-abcnews-akc-na-central-1.media.dssott.com/dvt2=exp=1791967486~url=%2Flas1%2Fva01%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838%2F~psid=23484fe4-2ef8-408d-aefb-e00650c0153d~did=5e69d9d6-1a34-408c-8bbf-084e144ccfc1~country=US~kid=k02~hmac=3e0e1334f064c93b54732493b399baf7f20e9767a037c81e3abe712e23c6dd3c/las1/va01/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838/ctr-all-hdri-sliding.m3u8?r=1080&v=1&hash=81fb88da5aab33fe54dc3f8d7ae5f0b2eaa56a8c
 #EXTINF:-1 tvg-logo="https://keyframe-cdn.abcnews.com/streamprovider11.jpg" group-title="NEWS WORLD",ABC News Live - ABC News
-https://linear-abcnews-akc-na-central-1.media.dssott.com/dvt2=exp=1791942544~url=%2Flas1%2Fva01%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838%2F~psid=a3ba174f-d979-45fa-bcf7-bf12c7b11caf~did=ffbb6060-bf71-4c8d-a6f5-9d4726e742ec~country=US~kid=k02~hmac=3c55f9031d5cfa83d2d34dc6aeae5d0e64381c82bde021c1715c3977cf1b9d3d/las1/va01/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838/audio-aac-1-64K/64_slide.m3u8
+https://linear-abcnews-akc-na-central-1.media.dssott.com/dvt2=exp=1791967486~url=%2Flas1%2Fva01%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838%2F~psid=23484fe4-2ef8-408d-aefb-e00650c0153d~did=5e69d9d6-1a34-408c-8bbf-084e144ccfc1~country=US~kid=k02~hmac=3e0e1334f064c93b54732493b399baf7f20e9767a037c81e3abe712e23c6dd3c/las1/va01/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838/audio-aac-1-64K/64_slide.m3u8
 #EXTINF:-1 tvg-logo="https://keyframe-cdn.abcnews.com/streamprovider11.jpg" group-title="NEWS WORLD",ABC News Live - ABC News
-https://linear-abcnews-akc-na-central-1.media.dssott.com/dvt2=exp=1791942544~url=%2Flas1%2Fva01%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838%2F~psid=a3ba174f-d979-45fa-bcf7-bf12c7b11caf~did=ffbb6060-bf71-4c8d-a6f5-9d4726e742ec~country=US~kid=k02~hmac=3c55f9031d5cfa83d2d34dc6aeae5d0e64381c82bde021c1715c3977cf1b9d3d/las1/va01/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838/cmaf-cenc-ctr-1700K/1700_hdri_slide.m3u8
+https://linear-abcnews-akc-na-central-1.media.dssott.com/dvt2=exp=1791967486~url=%2Flas1%2Fva01%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838%2F~psid=23484fe4-2ef8-408d-aefb-e00650c0153d~did=5e69d9d6-1a34-408c-8bbf-084e144ccfc1~country=US~kid=k02~hmac=3e0e1334f064c93b54732493b399baf7f20e9767a037c81e3abe712e23c6dd3c/las1/va01/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838/cmaf-cenc-ctr-1700K/1700_hdri_slide.m3u8
 #EXTINF:-1 tvg-logo="https://keyframe-cdn.abcnews.com/streamprovider11.jpg" group-title="NEWS WORLD",ABC News Live - ABC News
-https://linear-abcnews-akc-na-central-1.media.dssott.com/dvt2=exp=1791942544~url=%2Flas1%2Fva01%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838%2F~psid=a3ba174f-d979-45fa-bcf7-bf12c7b11caf~did=ffbb6060-bf71-4c8d-a6f5-9d4726e742ec~country=US~kid=k02~hmac=3c55f9031d5cfa83d2d34dc6aeae5d0e64381c82bde021c1715c3977cf1b9d3d/las1/va01/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838/cmaf-cenc-ctr-2400K/2400_hdri_slide.m3u8
+https://linear-abcnews-akc-na-central-1.media.dssott.com/dvt2=exp=1791967486~url=%2Flas1%2Fva01%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838%2F~psid=23484fe4-2ef8-408d-aefb-e00650c0153d~did=5e69d9d6-1a34-408c-8bbf-084e144ccfc1~country=US~kid=k02~hmac=3e0e1334f064c93b54732493b399baf7f20e9767a037c81e3abe712e23c6dd3c/las1/va01/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838/cmaf-cenc-ctr-2400K/2400_hdri_slide.m3u8
 #EXTINF:-1 tvg-logo="https://keyframe-cdn.abcnews.com/streamprovider11.jpg" group-title="NEWS WORLD",ABC News Live - ABC News
-https://linear-abcnews-akc-na-central-1.media.dssott.com/dvt2=exp=1791942544~url=%2Flas1%2Fva01%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838%2F~psid=a3ba174f-d979-45fa-bcf7-bf12c7b11caf~did=ffbb6060-bf71-4c8d-a6f5-9d4726e742ec~country=US~kid=k02~hmac=3c55f9031d5cfa83d2d34dc6aeae5d0e64381c82bde021c1715c3977cf1b9d3d/las1/va01/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838/audio-aac-1-128K/128_slide.m3u8
+https://linear-abcnews-akc-na-central-1.media.dssott.com/dvt2=exp=1791967486~url=%2Flas1%2Fva01%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838%2F~psid=23484fe4-2ef8-408d-aefb-e00650c0153d~did=5e69d9d6-1a34-408c-8bbf-084e144ccfc1~country=US~kid=k02~hmac=3e0e1334f064c93b54732493b399baf7f20e9767a037c81e3abe712e23c6dd3c/las1/va01/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838/audio-aac-1-128K/128_slide.m3u8
 #EXTINF:-1 tvg-logo="https://keyframe-cdn.abcnews.com/streamprovider11.jpg" group-title="NEWS WORLD",ABC News Live - ABC News
-https://linear-abcnews-akc-na-central-1.media.dssott.com/dvt2=exp=1791942544~url=%2Flas1%2Fva01%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838%2F~psid=a3ba174f-d979-45fa-bcf7-bf12c7b11caf~did=ffbb6060-bf71-4c8d-a6f5-9d4726e742ec~country=US~kid=k02~hmac=3c55f9031d5cfa83d2d34dc6aeae5d0e64381c82bde021c1715c3977cf1b9d3d/las1/va01/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838/cmaf-cenc-ctr-2400K/2400_hdri_slide.m3u8
-#EXTINF:-1 tvg-logo="https://keyframe-cdn.abcnews.com/streamprovider10.jpg" group-title="NEWS WORLD",ABC News Live - ABC News
+https://linear-abcnews-akc-na-central-1.media.dssott.com/dvt2=exp=1791967486~url=%2Flas1%2Fva01%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838%2F~psid=23484fe4-2ef8-408d-aefb-e00650c0153d~did=5e69d9d6-1a34-408c-8bbf-084e144ccfc1~country=US~kid=k02~hmac=3e0e1334f064c93b54732493b399baf7f20e9767a037c81e3abe712e23c6dd3c/las1/va01/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838/cmaf-cenc-ctr-2400K/2400_hdri_slide.m3u8
+#EXTINF:-1 tvg-logo="https://keyframe-cdn.abcnews.com/streamprovider11.jpg" group-title="NEWS WORLD",ABC News Live - ABC News
+https://linear-abcnews-akc-na-central-1.media.dssott.com/dvt2=exp=1791967486~url=%2Flas1%2Fva01%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838%2F~psid=23484fe4-2ef8-408d-aefb-e00650c0153d~did=5e69d9d6-1a34-408c-8bbf-084e144ccfc1~country=US~kid=k02~hmac=3e0e1334f064c93b54732493b399baf7f20e9767a037c81e3abe712e23c6dd3c/las1/va01/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838/audio-aac-1-128K/128_slide.m3u8
+#EXTINF:-1 tvg-logo="https://keyframe-cdn.abcnews.com/streamprovider11.jpg" group-title="NEWS WORLD",ABC News Live - ABC News
+https://linear-abcnews-akc-na-central-1.media.dssott.com/dvt2=exp=1791967503~url=%2Flas1%2Fva01%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838%2F~psid=56622c65-69b1-4140-8745-29c2fc43c93c~did=7b5de2f2-b8fd-4674-a40b-8a518de41e05~country=US~kid=k02~hmac=f1a2d699d97a4589139fb87cd78b77d950b3605967eef7d8408951b7e3c1c794/las1/va01/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838/ctr-all-hdri-sliding.m3u8?r=1080&v=1&hash=81fb88da5aab33fe54dc3f8d7ae5f0b2eaa56a8c
+#EXTINF:-1 tvg-logo="https://keyframe-cdn.abcnews.com/streamprovider11.jpg" group-title="NEWS WORLD",ABC News Live - ABC News
+https://linear-abcnews-akc-na-central-1.media.dssott.com/dvt2=exp=1791967503~url=%2Flas1%2Fva01%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838%2F~psid=56622c65-69b1-4140-8745-29c2fc43c93c~did=7b5de2f2-b8fd-4674-a40b-8a518de41e05~country=US~kid=k02~hmac=f1a2d699d97a4589139fb87cd78b77d950b3605967eef7d8408951b7e3c1c794/las1/va01/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838/cmaf-cenc-ctr-1700K/1700_hdri_slide.m3u8
+#EXTINF:-1 tvg-logo="https://keyframe-cdn.abcnews.com/streamprovider11.jpg" group-title="NEWS WORLD",ABC News Live - ABC News
+https://linear-abcnews-akc-na-central-1.media.dssott.com/dvt2=exp=1791967503~url=%2Flas1%2Fva01%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838%2F~psid=56622c65-69b1-4140-8745-29c2fc43c93c~did=7b5de2f2-b8fd-4674-a40b-8a518de41e05~country=US~kid=k02~hmac=f1a2d699d97a4589139fb87cd78b77d950b3605967eef7d8408951b7e3c1c794/las1/va01/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838/audio-aac-1-64K/64_slide.m3u8
+#EXTINF:-1 tvg-logo="https://keyframe-cdn.abcnews.com/streamprovider11.jpg" group-title="NEWS WORLD",ABC News Live - ABC News
+https://linear-abcnews-akc-na-central-1.media.dssott.com/dvt2=exp=1791967503~url=%2Flas1%2Fva01%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838%2F~psid=56622c65-69b1-4140-8745-29c2fc43c93c~did=7b5de2f2-b8fd-4674-a40b-8a518de41e05~country=US~kid=k02~hmac=f1a2d699d97a4589139fb87cd78b77d950b3605967eef7d8408951b7e3c1c794/las1/va01/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838/cmaf-cenc-ctr-2400K/2400_hdri_slide.m3u8
+#EXTINF:-1 tvg-logo="https://keyframe-cdn.abcnews.com/streamprovider11.jpg" group-title="NEWS WORLD",ABC News Live - ABC News
+https://linear-abcnews-akc-na-central-1.media.dssott.com/dvt2=exp=1791967503~url=%2Flas1%2Fva01%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838%2F~psid=56622c65-69b1-4140-8745-29c2fc43c93c~did=7b5de2f2-b8fd-4674-a40b-8a518de41e05~country=US~kid=k02~hmac=f1a2d699d97a4589139fb87cd78b77d950b3605967eef7d8408951b7e3c1c794/las1/va01/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838/audio-aac-1-128K/128_slide.m3u8
+#EXTINF:-1 tvg-logo="https://keyframe-cdn.abcnews.com/streamprovider11.jpg" group-title="NEWS WORLD",ABC News Live - ABC News
+https://linear-abcnews-akc-na-central-1.media.dssott.com/dvt2=exp=1791967503~url=%2Flas1%2Fva01%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838%2F~psid=56622c65-69b1-4140-8745-29c2fc43c93c~did=7b5de2f2-b8fd-4674-a40b-8a518de41e05~country=US~kid=k02~hmac=f1a2d699d97a4589139fb87cd78b77d950b3605967eef7d8408951b7e3c1c794/las1/va01/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838/cmaf-cenc-ctr-2400K/2400_hdri_slide.m3u8
+#EXTINF:-1 tvg-logo="https://keyframe-cdn.abcnews.com/streamprovider11.jpg" group-title="NEWS WORLD",ABC News Live - ABC News
+https://linear-abcnews-akc-na-central-1.media.dssott.com/dvt2=exp=1791967503~url=%2Flas1%2Fva01%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838%2F~psid=56622c65-69b1-4140-8745-29c2fc43c93c~did=7b5de2f2-b8fd-4674-a40b-8a518de41e05~country=US~kid=k02~hmac=f1a2d699d97a4589139fb87cd78b77d950b3605967eef7d8408951b7e3c1c794/las1/va01/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838/audio-aac-1-128K/128_slide.m3u8
+#EXTINF:-1 tvg-logo="https://keyframe-cdn.abcnews.com/streamprovider10.jpg" group-title="NEWS WORLD",Video The flood threat in the West; record high temperatures across the Midwest and South | Watch Live News on ABCNL
 https://abcnews-livestreams.akamaized.net/out/v1/6a597119dbd5428a82dc11a2f514a1a2/abcn-live-10-cmaf-manifest/abcn-live-10-index.m3u8
-#EXTINF:-1 tvg-logo="https://keyframe-cdn.abcnews.com/streamprovider10.jpg" group-title="NEWS WORLD",ABC News Live - ABC News
-https://abcnews-livestreams.akamaized.net/out/v1/6a597119dbd5428a82dc11a2f514a1a2/abcn-live-10-cmaf-manifest/abcn-live-10-index_4_0.m3u8
-#EXTINF:-1 tvg-logo="https://keyframe-cdn.abcnews.com/streamprovider10.jpg" group-title="NEWS WORLD",ABC News Live - ABC News
+#EXTINF:-1 tvg-logo="https://keyframe-cdn.abcnews.com/streamprovider10.jpg" group-title="NEWS WORLD",Video The flood threat in the West; record high temperatures across the Midwest and South | Watch Live News on ABCNL
 https://abcnews-livestreams.akamaized.net/out/v1/6a597119dbd5428a82dc11a2f514a1a2/abcn-live-10-cmaf-manifest/abcn-live-10-index_3.m3u8
-#EXTINF:-1 tvg-logo="https://keyframe-cdn.abcnews.com/streamprovider10.jpg" group-title="NEWS WORLD",ABC News Live - ABC News
+#EXTINF:-1 tvg-logo="https://keyframe-cdn.abcnews.com/streamprovider10.jpg" group-title="NEWS WORLD",Video The flood threat in the West; record high temperatures across the Midwest and South | Watch Live News on ABCNL
 https://abcnews-livestreams.akamaized.net/out/v1/6a597119dbd5428a82dc11a2f514a1a2/abcn-live-10-cmaf-manifest/abcn-live-10-index_4_0.m3u8
-#EXTINF:-1 tvg-logo="https://keyframe-cdn.abcnews.com/streamprovider10.jpg" group-title="NEWS WORLD",ABC News Live - ABC News
+#EXTINF:-1 tvg-logo="https://keyframe-cdn.abcnews.com/streamprovider10.jpg" group-title="NEWS WORLD",Video The flood threat in the West; record high temperatures across the Midwest and South | Watch Live News on ABCNL
 https://abcnews-livestreams.akamaized.net/out/v1/6a597119dbd5428a82dc11a2f514a1a2/abcn-live-10-cmaf-manifest/abcn-live-10-index_3.m3u8
-#EXTINF:-1 tvg-logo="https://a57.foxnews.com/cf-images.us-east-1.prod.boltdns.net/v1/static/694940094001/15de0523-3be4-4a9a-8159-7020114e7036/b6ff623a-26d6-4fd9-8bb8-0856adbf38ce/1280x720/match/676/380/image.jpg?ve=1&tl=1" group-title="NEWS WORLD",Watch Fox News Channel Online | Stream Fox News
-https://247.foxnews.com/hls/live/2003586/FNCHLSv3/master.m3u8?hdnea=exp=1791859730~acl=/*~hmac=ee46013fb81475d9d55a209447fd8a901e1bb517d95c1a8c836c23668d4a2d05
+#EXTINF:-1 tvg-logo="https://keyframe-cdn.abcnews.com/streamprovider10.jpg" group-title="NEWS WORLD",Video The flood threat in the West; record high temperatures across the Midwest and South | Watch Live News on ABCNL
+https://abcnews-livestreams.akamaized.net/out/v1/6a597119dbd5428a82dc11a2f514a1a2/abcn-live-10-cmaf-manifest/abcn-live-10-index_4_0.m3u8
 #EXTINF:-1 tvg-logo="https://a57.foxnews.com/cf-images.us-east-1.prod.boltdns.net/v1/static/694940094001/c9b2e2eb-7b87-435c-9510-eab2650ff944/8b584585-acf2-4c37-aa07-aaf2d077bb20/1280x720/match/676/380/image.jpg?ve=1&tl=1" group-title="NEWS WORLD",Fox Business Go | Fox News Video
-https://247.foxbusiness.com/hls/live/2003756/FBNHLSv3/master.m3u8?hdnea=exp=1791859730~acl=/*~hmac=ee46013fb81475d9d55a209447fd8a901e1bb517d95c1a8c836c23668d4a2d05
+https://247.foxbusiness.com/hls/live/2003756/FBNHLSv3/master.m3u8?hdnea=exp=1791884687~acl=/*~hmac=16a0a5c34c06909d8291efabc1ede1ff783608f7ad38c4ae8bd14339de16cd67
+#EXTINF:-1 tvg-logo="https://a57.foxnews.com/cf-images.us-east-1.prod.boltdns.net/v1/static/694940094001/15de0523-3be4-4a9a-8159-7020114e7036/b6ff623a-26d6-4fd9-8bb8-0856adbf38ce/1280x720/match/676/380/image.jpg?ve=1&tl=1" group-title="NEWS WORLD",Watch Fox News Channel Online | Stream Fox News
+https://247.foxnews.com/hls/live/2003586/FNCHLSv3/master.m3u8?hdnea=exp=1791884686~acl=/*~hmac=5603facbd46e3b965498e4e87ee67b794b0c2d89eac9dea7b9cf89b027fd88b0
 #EXTINF:-1 tvg-logo="https://assets2.cbsnewsstatic.com/hub/i/r/2024/04/16/0fb75ad2-a909-44bb-87dc-86b9d51cbeb2/thumbnail/1280x720/949f3d3fef16f9c113e3048c6aef229f/247-key-channelthumbnail-1920x1080.jpg" group-title="NEWS WORLD",Watch CBS News 24/7, our free live news stream
-https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/2b07ac4e-1b37-4604-bad7-c6ab5d50edf0:TUL/master.m3u8
+https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/154774ae-5440-4134-81d2-423cade7d3dc:ATL/master.m3u8
 #EXTINF:-1 tvg-logo="https://assets2.cbsnewsstatic.com/hub/i/r/2024/04/16/0fb75ad2-a909-44bb-87dc-86b9d51cbeb2/thumbnail/1280x720/949f3d3fef16f9c113e3048c6aef229f/247-key-channelthumbnail-1920x1080.jpg" group-title="NEWS WORLD",Watch CBS News 24/7, our free live news stream
-https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/2b07ac4e-1b37-4604-bad7-c6ab5d50edf0:TUL/variant/2ed2c78fd57ae51fb6ba5d4bbd59e953/bandwidth/441000.m3u8
+https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/154774ae-5440-4134-81d2-423cade7d3dc:ATL/variant/2ed2c78fd57ae51fb6ba5d4bbd59e953/bandwidth/441000.m3u8
 #EXTINF:-1 tvg-logo="https://assets2.cbsnewsstatic.com/hub/i/r/2024/04/16/0fb75ad2-a909-44bb-87dc-86b9d51cbeb2/thumbnail/1280x720/949f3d3fef16f9c113e3048c6aef229f/247-key-channelthumbnail-1920x1080.jpg" group-title="NEWS WORLD",Watch CBS News 24/7, our free live news stream
-https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/2b07ac4e-1b37-4604-bad7-c6ab5d50edf0:TUL/variant/b93ad8358bd5b2b671e137cb4cd530a7/bandwidth/2249000.m3u8
+https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/154774ae-5440-4134-81d2-423cade7d3dc:ATL/variant/9a27c00933e4743a3ea19ac812d5532c/bandwidth/733000.m3u8
 #EXTINF:-1 tvg-logo="https://assets2.cbsnewsstatic.com/hub/i/r/2024/04/16/0fb75ad2-a909-44bb-87dc-86b9d51cbeb2/thumbnail/1280x720/949f3d3fef16f9c113e3048c6aef229f/247-key-channelthumbnail-1920x1080.jpg" group-title="NEWS WORLD",Watch CBS News 24/7, our free live news stream
-https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/2b07ac4e-1b37-4604-bad7-c6ab5d50edf0:TUL/variant/b93ad8358bd5b2b671e137cb4cd530a7/bandwidth/2249000.m3u8
+https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/154774ae-5440-4134-81d2-423cade7d3dc:ATL/variant/e45ac8e413a627d436bba392e6f69412/bandwidth/1549000.m3u8
 #EXTINF:-1 tvg-logo="https://assets2.cbsnewsstatic.com/hub/i/r/2024/04/16/0fb75ad2-a909-44bb-87dc-86b9d51cbeb2/thumbnail/1280x720/949f3d3fef16f9c113e3048c6aef229f/247-key-channelthumbnail-1920x1080.jpg" group-title="NEWS WORLD",Watch CBS News 24/7, our free live news stream
-https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/2b07ac4e-1b37-4604-bad7-c6ab5d50edf0:TUL/variant/b93ad8358bd5b2b671e137cb4cd530a7/bandwidth/2249000.m3u8
+https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/154774ae-5440-4134-81d2-423cade7d3dc:ATL/variant/b93ad8358bd5b2b671e137cb4cd530a7/bandwidth/2249000.m3u8
 #EXTINF:-1 tvg-logo="https://assets2.cbsnewsstatic.com/hub/i/r/2024/04/16/0fb75ad2-a909-44bb-87dc-86b9d51cbeb2/thumbnail/1280x720/949f3d3fef16f9c113e3048c6aef229f/247-key-channelthumbnail-1920x1080.jpg" group-title="NEWS WORLD",Watch CBS News 24/7, our free live news stream
-https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/2b07ac4e-1b37-4604-bad7-c6ab5d50edf0:TUL/variant/b93ad8358bd5b2b671e137cb4cd530a7/bandwidth/2249000.m3u8
+https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/154774ae-5440-4134-81d2-423cade7d3dc:ATL/variant/b93ad8358bd5b2b671e137cb4cd530a7/bandwidth/2249000.m3u8
 #EXTINF:-1 tvg-logo="https://assets2.cbsnewsstatic.com/hub/i/r/2024/04/16/0fb75ad2-a909-44bb-87dc-86b9d51cbeb2/thumbnail/1280x720/949f3d3fef16f9c113e3048c6aef229f/247-key-channelthumbnail-1920x1080.jpg" group-title="NEWS WORLD",Watch CBS News 24/7, our free live news stream
-https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/2b07ac4e-1b37-4604-bad7-c6ab5d50edf0:TUL/variant/b93ad8358bd5b2b671e137cb4cd530a7/bandwidth/2249000.m3u8
+https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/154774ae-5440-4134-81d2-423cade7d3dc:ATL/variant/b93ad8358bd5b2b671e137cb4cd530a7/bandwidth/2249000.m3u8
 #EXTINF:-1 tvg-logo="https://assets2.cbsnewsstatic.com/hub/i/r/2024/04/16/0fb75ad2-a909-44bb-87dc-86b9d51cbeb2/thumbnail/1280x720/949f3d3fef16f9c113e3048c6aef229f/247-key-channelthumbnail-1920x1080.jpg" group-title="NEWS WORLD",Watch CBS News 24/7, our free live news stream
-https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/2b07ac4e-1b37-4604-bad7-c6ab5d50edf0:TUL/variant/b93ad8358bd5b2b671e137cb4cd530a7/bandwidth/2249000.m3u8
+https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/154774ae-5440-4134-81d2-423cade7d3dc:ATL/variant/b93ad8358bd5b2b671e137cb4cd530a7/bandwidth/2249000.m3u8
 #EXTINF:-1 tvg-logo="https://assets2.cbsnewsstatic.com/hub/i/r/2024/04/16/0fb75ad2-a909-44bb-87dc-86b9d51cbeb2/thumbnail/1280x720/949f3d3fef16f9c113e3048c6aef229f/247-key-channelthumbnail-1920x1080.jpg" group-title="NEWS WORLD",Watch CBS News 24/7, our free live news stream
-https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/2b07ac4e-1b37-4604-bad7-c6ab5d50edf0:TUL/variant/b93ad8358bd5b2b671e137cb4cd530a7/bandwidth/2249000.m3u8
+https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/154774ae-5440-4134-81d2-423cade7d3dc:ATL/variant/b93ad8358bd5b2b671e137cb4cd530a7/bandwidth/2249000.m3u8
 #EXTINF:-1 tvg-logo="https://assets2.cbsnewsstatic.com/hub/i/r/2024/04/16/0fb75ad2-a909-44bb-87dc-86b9d51cbeb2/thumbnail/1280x720/949f3d3fef16f9c113e3048c6aef229f/247-key-channelthumbnail-1920x1080.jpg" group-title="NEWS WORLD",Watch CBS News 24/7, our free live news stream
-https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/2b07ac4e-1b37-4604-bad7-c6ab5d50edf0:TUL/variant/b93ad8358bd5b2b671e137cb4cd530a7/bandwidth/2249000.m3u8
+https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/154774ae-5440-4134-81d2-423cade7d3dc:ATL/variant/b93ad8358bd5b2b671e137cb4cd530a7/bandwidth/2249000.m3u8
 #EXTINF:-1 tvg-logo="https://assets2.cbsnewsstatic.com/hub/i/r/2024/04/16/0fb75ad2-a909-44bb-87dc-86b9d51cbeb2/thumbnail/1280x720/949f3d3fef16f9c113e3048c6aef229f/247-key-channelthumbnail-1920x1080.jpg" group-title="NEWS WORLD",Watch CBS News 24/7, our free live news stream
-https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/2b07ac4e-1b37-4604-bad7-c6ab5d50edf0:TUL/variant/b93ad8358bd5b2b671e137cb4cd530a7/bandwidth/2249000.m3u8
+https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/154774ae-5440-4134-81d2-423cade7d3dc:ATL/variant/b93ad8358bd5b2b671e137cb4cd530a7/bandwidth/2249000.m3u8
 #EXTINF:-1 tvg-logo="https://assets2.cbsnewsstatic.com/hub/i/r/2024/04/16/0fb75ad2-a909-44bb-87dc-86b9d51cbeb2/thumbnail/1280x720/949f3d3fef16f9c113e3048c6aef229f/247-key-channelthumbnail-1920x1080.jpg" group-title="NEWS WORLD",Watch CBS News 24/7, our free live news stream
-https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/2b07ac4e-1b37-4604-bad7-c6ab5d50edf0:TUL/variant/b93ad8358bd5b2b671e137cb4cd530a7/bandwidth/2249000.m3u8
+https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/154774ae-5440-4134-81d2-423cade7d3dc:ATL/variant/b93ad8358bd5b2b671e137cb4cd530a7/bandwidth/2249000.m3u8
 #EXTINF:-1 tvg-logo="https://assets2.cbsnewsstatic.com/hub/i/r/2024/04/16/0fb75ad2-a909-44bb-87dc-86b9d51cbeb2/thumbnail/1280x720/949f3d3fef16f9c113e3048c6aef229f/247-key-channelthumbnail-1920x1080.jpg" group-title="NEWS WORLD",Watch CBS News 24/7, our free live news stream
-https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/2b07ac4e-1b37-4604-bad7-c6ab5d50edf0:TUL/variant/b93ad8358bd5b2b671e137cb4cd530a7/bandwidth/2249000.m3u8
+https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/154774ae-5440-4134-81d2-423cade7d3dc:ATL/variant/b93ad8358bd5b2b671e137cb4cd530a7/bandwidth/2249000.m3u8
 #EXTINF:-1 tvg-logo="https://assets2.cbsnewsstatic.com/hub/i/r/2024/04/16/0fb75ad2-a909-44bb-87dc-86b9d51cbeb2/thumbnail/1280x720/949f3d3fef16f9c113e3048c6aef229f/247-key-channelthumbnail-1920x1080.jpg" group-title="NEWS WORLD",Watch CBS News 24/7, our free live news stream
-https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/2b07ac4e-1b37-4604-bad7-c6ab5d50edf0:TUL/variant/b93ad8358bd5b2b671e137cb4cd530a7/bandwidth/2249000.m3u8
+https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/154774ae-5440-4134-81d2-423cade7d3dc:ATL/variant/b93ad8358bd5b2b671e137cb4cd530a7/bandwidth/2249000.m3u8
 #EXTINF:-1 tvg-logo="https://assets2.cbsnewsstatic.com/hub/i/r/2024/04/16/0fb75ad2-a909-44bb-87dc-86b9d51cbeb2/thumbnail/1280x720/949f3d3fef16f9c113e3048c6aef229f/247-key-channelthumbnail-1920x1080.jpg" group-title="NEWS WORLD",Watch CBS News 24/7, our free live news stream
-https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/2b07ac4e-1b37-4604-bad7-c6ab5d50edf0:TUL/variant/b93ad8358bd5b2b671e137cb4cd530a7/bandwidth/2249000.m3u8
+https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/154774ae-5440-4134-81d2-423cade7d3dc:ATL/variant/b93ad8358bd5b2b671e137cb4cd530a7/bandwidth/2249000.m3u8
 #EXTINF:-1 tvg-logo="https://assets2.cbsnewsstatic.com/hub/i/r/2024/04/16/0fb75ad2-a909-44bb-87dc-86b9d51cbeb2/thumbnail/1280x720/949f3d3fef16f9c113e3048c6aef229f/247-key-channelthumbnail-1920x1080.jpg" group-title="NEWS WORLD",Watch CBS News 24/7, our free live news stream
-https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/2b07ac4e-1b37-4604-bad7-c6ab5d50edf0:TUL/variant/b93ad8358bd5b2b671e137cb4cd530a7/bandwidth/2249000.m3u8
+https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/154774ae-5440-4134-81d2-423cade7d3dc:ATL/variant/b93ad8358bd5b2b671e137cb4cd530a7/bandwidth/2249000.m3u8
 #EXTINF:-1 tvg-logo="https://assets2.cbsnewsstatic.com/hub/i/r/2024/04/16/0fb75ad2-a909-44bb-87dc-86b9d51cbeb2/thumbnail/1280x720/949f3d3fef16f9c113e3048c6aef229f/247-key-channelthumbnail-1920x1080.jpg" group-title="NEWS WORLD",Watch CBS News 24/7, our free live news stream
-https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/2b07ac4e-1b37-4604-bad7-c6ab5d50edf0:TUL/variant/b93ad8358bd5b2b671e137cb4cd530a7/bandwidth/2249000.m3u8
+https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/154774ae-5440-4134-81d2-423cade7d3dc:ATL/variant/b93ad8358bd5b2b671e137cb4cd530a7/bandwidth/2249000.m3u8
 #EXTINF:-1 tvg-logo="https://assets2.cbsnewsstatic.com/hub/i/r/2024/04/16/0fb75ad2-a909-44bb-87dc-86b9d51cbeb2/thumbnail/1280x720/949f3d3fef16f9c113e3048c6aef229f/247-key-channelthumbnail-1920x1080.jpg" group-title="NEWS WORLD",Watch CBS News 24/7, our free live news stream
-https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/2b07ac4e-1b37-4604-bad7-c6ab5d50edf0:TUL/variant/b93ad8358bd5b2b671e137cb4cd530a7/bandwidth/2249000.m3u8
+https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/154774ae-5440-4134-81d2-423cade7d3dc:ATL/variant/b93ad8358bd5b2b671e137cb4cd530a7/bandwidth/2249000.m3u8
 #EXTM3U
 #EXTM3U x-tvg-url="https://raw.githubusercontent.com/MatheusAlves7/Canais_IPTV/refs/heads/main/guide.xml,http://lidns.cc/xmltv.php?username=4x6cXF&password=JDqRqj&type=m3u_plus&output=m3u8,https://www.open-epg.com/files/brazil1.xml.gz,https://www.open-epg.com/files/brazil2.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_BR1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_ALL_SOURCES1.xml.gz,https://www.open-epg.com/files/portugal.xml.gz,https://www.open-epg.com/files/portugal2.xml.gz,https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/PlutoTV/all.xml,https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/Plex/all.xml,https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/SamsungTVPlus/all.xml,https://raw.githubusercontent.com/helenfernanda/gratis/main/distrotv.xml,https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/Stirr/all.xml,https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/Singtel/epg.xml,https://raw.githubusercontent.com/AqFad2811/epg/main/unifitv.xml"
 #EXTM3U url-tvg="https://fastly.jsdelivr.net/gh/limaalef/BrazilTVEPG@main/epg.xml"
