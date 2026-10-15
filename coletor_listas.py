@@ -28,7 +28,7 @@ except Exception:  # sem tzdata no sistema
     FUSO = timezone(timedelta(hours=-3))
 
 FUSO_NOME = "America/Sao_Paulo"
-ARQUIVOS_SAIDA = ("lista1.M3U", "lista1.m3u")
+ARQUIVOS_SAIDA = ("lista1.m3u",)
 TIMEOUT = 30
 TRABALHADORES = 10
 MAX_VOD = 20
