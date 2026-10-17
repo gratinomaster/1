@@ -3442,66 +3442,518 @@ https://streamtv.intervenhosting.net:3439/hybrid/play.m3u8
 https://stream.guarotv.net:3592/hybrid/play.m3u8
 #EXTINF:-1 tvg-id="TeleAragua.ve" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/TeleAragua_Logo.png/250px-TeleAragua_Logo.png" group-title="VENEZUELA",TeleAragua
 http://45.173.198.59:8080/hls/nginx3.m3u8?tla=
-#EXTINF:-1 group-title="RTP",RTP1
-https://streaming-live.rtp.pt/liverepeater/smil:rtp1HD.smil/playlist.m3u8?tk=1792206000_02bcca6163e4d6790637c8d678f6406f576069fb
-#EXTINF:-1 group-title="RTP",RTP2
-https://streaming-live.rtp.pt/liverepeater/smil:rtpClean2HD.smil/playlist.m3u8?tk=1792206000_bf17485572267dd18b7425c926ac10a7652dce57
-#EXTINF:-1 group-title="RTP",RTP3
-https://streaming-live.rtp.pt/livetvhlsDVR/rtpnHDdvr.smil/playlist.m3u8?DVR
-#EXTINF:-1 group-title="RTP",RTP Memória
-https://streaming-live.rtp.pt/liverepeater/smil:rtpmem.smil/playlist.m3u8
-#EXTINF:-1 group-title="RTP",RTP África
-https://streaming-live.rtp.pt/liverepeater/smil:rtpafrica.smil/playlist.m3u8
-#EXTINF:-1 group-title="RTP",RTP Internacional
-https://streaming-live.rtp.pt/liverepeater/smil:rtpi.smil/playlist.m3u8
-#EXTINF:-1 group-title="RTP",RTP Madeira
-https://streaming-live.rtp.pt/liverepeater/smil:rtpmadeira.smil/playlist.m3u8
-#EXTINF:-1 group-title="RTP",RTP Açores
-https://streaming-live.rtp.pt/liverepeater/smil:rtpacoresHD.smil/playlist.m3u8
-#EXTINF:-1 group-title="RTP",RTP Desporto 4
-https://streaming-live.rtp.pt/liverepeater/smil:desporto4.smil/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/4/49/CBN.png" group-title="NEWS WORLD",CBN SP
-https://live-as-01-01.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJVUyIsImRvbWFpbiI6ImxpdmUtYXMtMDEtMDEudmlkZW8uZ2xvYm8uY29tIiwiZXhwIjoxNzkyMjE0NTY2LCJpYXQiOjE3OTIxOTI5NjYsImlzcyI6InBsYXliYWNrLWFwaS1wcm9kLWdjcCIsIm93bmVyIjoiIiwicGF0aCI6Ii9saXZlL2YoYk1pbj0zMTM5ODQsZHZyPTEyMCkvY2Juc3AyNGhhL3BsYXlsaXN0Lm0zdTgifQ.IbKeMKq0eTZZtTdodnC9CoiDgvLF8SiYZU67XwwP2_Lm0cUuTqRnG9UJ4zVA-sNOCWpBGauikgLfKa0ugvwxll7LKeRRnw2mmTGp0DTrWdcKs2WKfOqM6NTGw9r_gMyCMv4gTJRfLj7OhuMf9UXntR2Xk7Jsi8DQ9VWR1gDaAe8z1nReN_0KTDLTGsuaBThDqO0EuG0Z-i28xy2Cw40CtuaIDz07OnVIfE6C8ion9dLD1U1J01jqJnmoQLtYJ43-ZfyBzGPw1R-zlj5D4lQw61UKMmdeJUdD4ln8POC4FWrvhvNBnpWJB0RuN4dxFN2EJjkuFq7PzqsUX05ONECfRA/live/f(bMin=313984,dvr=120)/cbnsp24ha/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://s.abcnews.com/images/Live/abc_news_live-abc-ml-250210_1739199021469_hpMain_16x9_608.jpg" group-title="NEWS WORLD",Collapse: The Forgotten Mines Under America | Watch Live News on ABCNL
-https://linear-abcnews-akc-na-west-1.media.dssott.com/dvt2=exp=1792281888~url=%2Flas1%2Fva01%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838%2F~psid=c23cc0a6-cac0-42e3-b33e-2cb21fca3db9~did=19f4459d-6871-4a4d-8362-64030b73fcf1~country=US~kid=k02~hmac=b0f413db3b0cca6f97211784dc83f9d9764acec021a71e268b96a5b71320347b/las1/va01/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838/ctr-all-hdri-sliding.m3u8?r=1080&v=1&hash=81fb88da5aab33fe54dc3f8d7ae5f0b2eaa56a8c
-#EXTINF:-1 tvg-logo="https://s.abcnews.com/images/Live/abc_news_live-abc-ml-250210_1739199021469_hpMain_16x9_608.jpg" group-title="NEWS WORLD",Collapse: The Forgotten Mines Under America | Watch Live News on ABCNL
-https://linear-abcnews-akc-na-west-1.media.dssott.com/dvt2=exp=1792281888~url=%2Flas1%2Fva01%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838%2F~psid=c23cc0a6-cac0-42e3-b33e-2cb21fca3db9~did=19f4459d-6871-4a4d-8362-64030b73fcf1~country=US~kid=k02~hmac=b0f413db3b0cca6f97211784dc83f9d9764acec021a71e268b96a5b71320347b/las1/va01/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838/cmaf-cenc-ctr-1700K/1700_hdri_slide.m3u8
-#EXTINF:-1 tvg-logo="https://s.abcnews.com/images/Live/abc_news_live-abc-ml-250210_1739199021469_hpMain_16x9_608.jpg" group-title="NEWS WORLD",Collapse: The Forgotten Mines Under America | Watch Live News on ABCNL
-https://linear-abcnews-akc-na-west-1.media.dssott.com/dvt2=exp=1792281888~url=%2Flas1%2Fva01%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838%2F~psid=c23cc0a6-cac0-42e3-b33e-2cb21fca3db9~did=19f4459d-6871-4a4d-8362-64030b73fcf1~country=US~kid=k02~hmac=b0f413db3b0cca6f97211784dc83f9d9764acec021a71e268b96a5b71320347b/las1/va01/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838/audio-aac-1-64K/64_slide.m3u8
-#EXTINF:-1 tvg-logo="https://s.abcnews.com/images/Live/abc_news_live-abc-ml-250210_1739199021469_hpMain_16x9_608.jpg" group-title="NEWS WORLD",Collapse: The Forgotten Mines Under America | Watch Live News on ABCNL
-https://linear-abcnews-akc-na-west-1.media.dssott.com/dvt2=exp=1792281888~url=%2Flas1%2Fva01%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838%2F~psid=c23cc0a6-cac0-42e3-b33e-2cb21fca3db9~did=19f4459d-6871-4a4d-8362-64030b73fcf1~country=US~kid=k02~hmac=b0f413db3b0cca6f97211784dc83f9d9764acec021a71e268b96a5b71320347b/las1/va01/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838/audio-aac-1-128K/128_slide.m3u8
-#EXTINF:-1 tvg-logo="https://s.abcnews.com/images/Live/abc_news_live-abc-ml-250210_1739199021469_hpMain_16x9_608.jpg" group-title="NEWS WORLD",Collapse: The Forgotten Mines Under America | Watch Live News on ABCNL
-https://linear-abcnews-akc-na-west-1.media.dssott.com/dvt2=exp=1792281888~url=%2Flas1%2Fva01%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838%2F~psid=c23cc0a6-cac0-42e3-b33e-2cb21fca3db9~did=19f4459d-6871-4a4d-8362-64030b73fcf1~country=US~kid=k02~hmac=b0f413db3b0cca6f97211784dc83f9d9764acec021a71e268b96a5b71320347b/las1/va01/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838/cmaf-cenc-ctr-2400K/2400_hdri_slide.m3u8
+#EXTINF:-1 group-title="VOD" tvg-logo="",La amiga estupenda: tercera temporada de la serie, gratis en Play
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SAMIEST/mp4/1/4/1707147643741.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=15957241
+#EXTINF:-1 group-title="VOD" tvg-logo="",El auténtico motivo de Ridley Scott para rodar 'Marte' en Jordania
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SCINEL1/mp4/7/8/1761054470587.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=16781157
+#EXTINF:-1 group-title="VOD" tvg-logo="",Curiosidades de 'Sonrisas y lágrimas'. ¿Es una historia real?
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SCN7PRE/mp4/4/5/1791545761854.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=6765478
+#EXTINF:-1 group-title="VOD" tvg-logo="",Maribel Verdú y Germán Alcarazu, separados por 'El doble más quince'
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SSOCINE/mp4/8/8/1771442101288.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=16945752
+#EXTINF:-1 group-title="VOD" tvg-logo="","Aborígenes canarios, la memoria del archipiélago", en 'Documentos RNE'
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SCUNASR/mp4/4/1/1791379676014.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17257442
+#EXTINF:-1 group-title="VOD" tvg-logo="",Cine gratis RTVE Play: estrenos del 12 al 18 de octubre
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SCN7PRE/mp4/8/2/1751477771728.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=16034960
+#EXTINF:-1 group-title="VOD" tvg-logo="",Almita defiende su maternidad frente al cuestionamiento en redes en 'FOMO TOTAL'
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/SHO_FOMENT/mp4/1/8/1791909849981.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17265094
+#EXTINF:-1 group-title="VOD" tvg-logo="",Hugh Grant y Drew Barrymore se picaron por cantar en esta película
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SCINEL1/mp4/8/6/1791206097568.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=16718052
+#EXTINF:-1 group-title="VOD" tvg-logo="",La historia real y la película de Maribel Verdú: 'El faro de las orcas'
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SSOCINE/mp4/2/9/1790333384392.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=5031339
+#EXTINF:-1 group-title="VOD" tvg-logo="",Mundial hockey patines masculino 2026: Hora y dónde ver a España
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SHOCSOB/mp4/4/9/1792091209294.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17268965
+#EXTINF:-1 group-title="VOD" tvg-logo="",Vivienda: ¿derecho o negocio? | No solo debate
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/SHO_NOSENT/mp4/7/1/1791906909717.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17264658
+#EXTINF:-1 group-title="VOD" tvg-logo="",Facu Díaz toma el revelo de Miguel Campos en 'Podcast, el podcast'
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/SEA_TEMPOD4/mp4/1/2/1791966293721.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17265733
+#EXTINF:-1 group-title="VOD" tvg-logo="",Bárbara y Genaro confiesan sus sentimientos en 'Valle Salvaje'
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/SHO_VALSER/mp4/3/9/1792075058393.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17268669
+#EXTINF:-1 group-title="VOD" tvg-logo="",Carlos del Amor cuenta en 'Control Central' cómo será el 'telediario de nuestras vidas'
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/SHO_CONENT/mp4/7/4/1792087889447.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17268934
+#EXTINF:-1 group-title="VOD" tvg-logo="",'El perro del hortelano', la película hablada en verso que hizo historia
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SCN7PRE/mp4/8/9/1616799129898.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=5828748
+#EXTINF:-1 group-title="VOD" tvg-logo="",Estrenamos el videopodcast 'Elige tu banda'
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/SHO_ELIPRO/mp4/1/6/1791386185861.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17265031
+#EXTINF:-1 group-title="VOD" tvg-logo="",'Vale ya!': La Prados, Leire Fernández y Dafne Fernández | Ver
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/SHO_VALENT/mp4/8/5/1792150310658.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17268782
+#EXTINF:-1 group-title="VOD" tvg-logo="",'50/50' está basada en una historia real. ¿Qué significa el título?
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SCINEL1/mp4/6/3/1764874635136.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=16846684
+#EXTINF:-1 group-title="VOD" tvg-logo="",Gran momento en 'La Promesa': Manuel descubre quién mató a Jana
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SLAPROM/mp4/2/2/1791978110322.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17266625
+#EXTINF:-1 group-title="VOD" tvg-logo="",La Revuelta: Álvaro Morte defiende la educación libre
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/SEA_TEMLAR3/mp4/9/3/1792098712939.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17268780
+#EXTINF:-1 group-title="VOD" tvg-logo="",Lucas Paulano presenta "Cuore Bello" antes de Eurovisión
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/SHO_ELPENT/mp4/8/0/1785450247708.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17175054
+#EXTINF:-1 group-title="VOD" tvg-logo="",'Matronas' de Léa Fehner, está basada en el propio parto de la directora
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SCINEL1/mp4/0/7/1791369992870.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17267549
+#EXTINF:-1 group-title="VOD" tvg-logo="",La figura de la filántropa Rafaela Ybarra llega al cine
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_STELN01/mp4/3/9/1792068363993.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17268388
+#EXTINF:-1 group-title="VOD" tvg-logo="",Mujeres rurales: la falta de servicios y la sobrecarga de cuidados generan problemas de salud
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_STXD18I/mp4/9/5/1792057922959.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17267858
+#EXTINF:-1 group-title="VOD" tvg-logo="",Mujeres que eligen una vida rural
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_STERI01/mp4/4/5/1792079758554.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17268811
+#EXTINF:-1 group-title="VOD" tvg-logo="",Mujer rural: FEMUR entrega sus premios anuales
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SCASL01/mp4/6/5/1792069992756.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17268396
+#EXTINF:-1 group-title="VOD" tvg-logo="",Puente no descarta "res" sobre les incidències de Renfe a Madrid
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_S90CAEF/mp4/5/2/1729498236425.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=16296173
+#EXTINF:-1 group-title="VOD" tvg-logo="",Ciclismo en pista - Campeonato del Mundo. Sesión Vespertina&nbsp;
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SOTRCAR/mp4/5/1/1792067495915.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17268253
+#EXTINF:-1 group-title="VOD" tvg-logo="",Ciclismo en pista – Campeonato del Mundo. Sesión Vespertina&nbsp;
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SOTRCAR/mp4/8/9/1791980246698.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17266309
+#EXTINF:-1 group-title="VOD" tvg-logo="",D'Artacan y los tres Mosqueperros | Ver películas gratis en RTVE Play
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/SHO_CINCIN/mp4/3/3/1700139980233.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=7013222
+#EXTINF:-1 group-title="VOD" tvg-logo="",Los buscamundos | Ver películas gratis en RTVE Play
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/SHO_CINCIN/mp4/0/0/1730804197000.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=16317047
+#EXTINF:-1 group-title="VOD" tvg-logo="",Friends, Gruñon y la isla de los monstruos | Ver películas gratis en RTVE Play
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/SHO_CINCIN/mp4/6/4/1636630560646.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=6197591
+#EXTINF:-1 group-title="VOD" tvg-logo="",La fiesta de la Tía Rita | Ver películas gratis en RTVE Play
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/SHO_CINCIN/mp4/4/2/1714478790824.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=16083738
+#EXTINF:-1 group-title="VOD" tvg-logo="",La gran aventura de Los Lunnis y el libro mágico | Ver películas gratis en RTVE Play
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/SHO_CINCIN/mp4/8/2/1637605354428.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=6223405
+#EXTINF:-1 group-title="VOD" tvg-logo="",Los Lunnipiratas | Ver películas gratis en RTVE Play
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/SHO_CINCIN/mp4/5/4/1639042101445.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=6239401
+#EXTINF:-1 group-title="VOD" tvg-logo="",Misión panda en África | Ver películas gratis en RTVE Play
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/SHO_CINCIN/mp4/2/5/1781598172652.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17117209
+#EXTINF:-1 group-title="VOD" tvg-logo="",Momonsters. La película | Ver películas gratis en RTVE Play
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/SHO_CINCIN/mp4/6/9/1725012175196.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=16231363
+#EXTINF:-1 group-title="VOD" tvg-logo="",Los futbolísimos | Ver películas gratis en RTVE Play
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/SHO_CINCIN/mp4/5/6/1753896856265.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=16682967
+#EXTINF:-1 group-title="VOD" tvg-logo="",Operación Bebe Oso | Ver películas gratis en RTVE Play
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/SHO_CINCIN/mp4/3/1/1792049625113.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=16278788
+#EXTINF:-1 group-title="VOD" tvg-logo="",Hanna y los monstruos | Ver películas gratis en RTVE Play
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/SHO_CINCIN/mp4/1/1/1736250883311.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=16397128
+#EXTINF:-1 group-title="VOD" tvg-logo="",Lunáticos | Ver película gratis en RTVE Play
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/SHO_CINCIN/mp4/6/2/1696524072426.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=6983252
+#EXTINF:-1 group-title="VOD" tvg-logo="",Los Pitufos | Ver películas gratis en RTVE Play
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/SHO_CINCIN/mp4/3/5/1771328743453.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=16941727
+#EXTINF:-1 group-title="VOD" tvg-logo="",Patrick | Ver películas gratis en RTVE Play
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/SHO_CINCIN/mp4/0/4/1766438932540.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=16872947
+#EXTINF:-1 group-title="VOD" tvg-logo="",Los Pitufos. La aldea escondida | Ver películas gratis en RTVE Play
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/SHO_CINCIN/mp4/9/0/1751358742709.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=16646997
+#EXTINF:-1 group-title="VOD" tvg-logo="",La princesa y su dragón. Una historia interminable | Ver películas gratis en RTVE Play
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/SHO_CINCIN/mp4/3/4/1631535147743.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=6093616
+#EXTINF:-1 group-title="VOD" tvg-logo="",Los Pitufos 2 | Ver películas gratis en RTVE Play
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/SHO_CINCIN/mp4/8/6/1750149982768.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=16628299
+#EXTINF:-1 group-title="VOD" tvg-logo="",Carlos del Amor nos cuenta los entresijos del "telediario de nuestras vidas"
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/SHO_CONENT/mp4/1/4/1792088642141.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17268963
+#EXTINF:-1 group-title="VOD" tvg-logo="",Conoce el internet - Facu Díaz
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SCONOCI/mp4/7/9/1400574299997.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=2572051
+#EXTINF:-1 group-title="VOD" tvg-logo="",Conversatorios en Casa de América - Adolfo Suárez
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SCONVER/mp4/1/5/1792191840051.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17270995
+#EXTINF:-1 group-title="VOD" tvg-logo="",La Sirenita de 'Control Central' se cuela en el 'Benidorm Fest'
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/SHO_CONENT/mp4/3/1/1792089391413.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17268927
+#EXTINF:-1 group-title="VOD" tvg-logo="",Cultura en Rtve.es - Cultura de entrevistas en RTVE Play
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SCINRTV/mp4/8/7/1376667148378.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=1995367
+#EXTINF:-1 group-title="VOD" tvg-logo="",Días de Cine: Julie Andrews: 90 años
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SECDCRE/mp4/8/5/1759491715258.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=16756059
+#EXTINF:-1 group-title="VOD" tvg-logo="",Documaster - 11-S: La reconstrucción de la Zona Cero | Ver ahora
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SDOCUMA/mp4/1/8/1788341455881.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17216381
+#EXTINF:-1 group-title="VOD" tvg-logo="",Entrevista completa con Emma Suárez
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_S20ENPA/mp4/6/2/1607633628526.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=5735725
+#EXTINF:-1 group-title="VOD" tvg-logo="",Diario 24 - 16/10/26
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SDR24DI/mp4/5/9/1792152668295.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17269990
+#EXTINF:-1 group-title="VOD" tvg-logo="",Diario 24 - 15/10/26
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SDR24DI/mp4/6/3/1792065726436.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17268141
+#EXTINF:-1 group-title="VOD" tvg-logo="",DocumentaRTVE - Ortega | Ver ahora
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/SHO_DOCDOC/mp4/1/8/1783946796281.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17155682
+#EXTINF:-1 group-title="VOD" tvg-logo="",11S: Las cintas perdidas - Documentos TV | Ver ahora
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SDOCUM/mp4/6/1/1788879404816.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17217193
+#EXTINF:-1 group-title="VOD" tvg-logo="",Documentos TV - ¡Cóbrame impuestos! | Ver ahora
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SDOCUM/mp4/7/5/1789480346857.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17226207
+#EXTINF:-1 group-title="VOD" tvg-logo="",Documentos TV - Los nuevos 'cowboys' del espacio | Ver ahora
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SDOCUM/mp4/6/9/1791220280596.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17255900
+#EXTINF:-1 group-title="VOD" tvg-logo="",DocumentaRTVE - Cuelgamuros, entre lo difícil y lo imposible | Ver ahora
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/SHO_DOCDOC/mp4/1/5/1790238675651.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17238269
+#EXTINF:-1 group-title="VOD" tvg-logo="",Documentos TV - Escapar de Kabul | Ver ahora
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SDOCUM/mp4/8/0/1786347364808.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17187375
+#EXTINF:-1 group-title="VOD" tvg-logo="",Documentos TV - Yemen, encrucijada de todas las guerras | Ver ahora
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SDOCUM/mp4/5/8/1790667423985.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17246134
+#EXTINF:-1 group-title="VOD" tvg-logo="",Documentos TV - Defender Europa | Ver ahora
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SDOCUM/mp4/0/3/1790095469730.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17236294
+#EXTINF:-1 group-title="VOD" tvg-logo="",Somos documentales - La muerte silenciada - Documental en RTVE
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SDOCUM/mp4/4/8/1637600158684.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=6223322
+#EXTINF:-1 group-title="VOD" tvg-logo="",Xavier Mina, sueños de libertad. Los sitios de Zaragoza
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SELDOCU/mp4/4/0/1309733317204.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=1144600
+#EXTINF:-1 group-title="VOD" tvg-logo="",El perro andaluz: Antonio José y Rodrigo Cuevas | Ver ahora
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/SEA_TEMELP2/mp4/7/0/1792105548207.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17267895
+#EXTINF:-1 group-title="VOD" tvg-logo="",Rodrigo Cuevas reivindica el folclore y la memoria histórica
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/SHO_ELPENT/mp4/5/1/1792107143715.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17268847
+#EXTINF:-1 group-title="VOD" tvg-logo="",El arzobispo de Madrid augura un cónclave "universal", pero "no muy largo"
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SESPECA/mp4/0/8/1745669446180.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=16555968
+#EXTINF:-1 group-title="VOD" tvg-logo="",Especial Informativo - Decreto Maricarmen&nbsp;
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SESPECA/mp4/4/5/1790722012154.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17246624
+#EXTINF:-1 group-title="VOD" tvg-logo="",Especial informativo - Adelanto electoral
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SESPECA/mp4/3/7/1791204933873.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17254015
+#EXTINF:-1 group-title="VOD" tvg-logo="",Especial informativo - Día de la Fiesta Nacional 2026
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SESPECA/mp4/7/3/1791802441937.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17263201
+#EXTINF:-1 group-title="VOD" tvg-logo="",En portada - EEUU: Democracia under pressure | Ver ahora
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SENPOR/mp4/3/5/1782248129453.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17129036
+#EXTINF:-1 group-title="VOD" tvg-logo="",Especiales informativos - Muere Maricarmen
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SESPECA/mp4/7/7/1791410480577.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17258189
+#EXTINF:-1 group-title="VOD" tvg-logo="",En portada - Vivienda: ¿derecho o negocio?
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SENPOR/mp4/0/9/1776713138890.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17033570
+#EXTINF:-1 group-title="VOD" tvg-logo="",Estudio 1 - El perro del hortelano
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SESTUNO/mp4/6/2/1779029159926.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=3468706
+#EXTINF:-1 group-title="VOD" tvg-logo="",Clara Mattei: Trump trata de subvertir el orden mundial
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SFSC24H/mp4/2/3/1748071617832.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=16595003
+#EXTINF:-1 group-title="VOD" tvg-logo="",Especial informativo - Manifestación por la vivienda
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SESPECA/mp4/5/1/1791032201715.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17252216
+#EXTINF:-1 group-title="VOD" tvg-logo="",Cómo Álvaro Morte dio voz a Lorca en 'La voz quebrada'
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/FESTIV949/mp4/5/9/1790335252395.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17239197
+#EXTINF:-1 group-title="VOD" tvg-logo="",Europa 2026 - Programa de información y actualidad en RTVE Play
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/SEA_EUREUR6/mp4/8/9/1792185266498.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17270976
+#EXTINF:-1 group-title="VOD" tvg-logo="","Trump ha hecho lo posible por destruir la economía china"
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SFSC24H/mp4/2/1/1747504290412.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=16585134
+#EXTINF:-1 group-title="VOD" tvg-logo="",Corina Machado: "Quien está contra la pared es Maduro"
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SFSC24H/mp4/7/9/1735410910997.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=16389285
+#EXTINF:-1 group-title="VOD" tvg-logo="",Fomo total - Programa 1: Almita
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/SHO_FOMENT/mp4/8/3/1791909684538.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17265150
+#EXTINF:-1 group-title="VOD" tvg-logo="",El Semáforo de 'FOMO TOTAL' (Programa 1)
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/SHO_FOMENT/mp4/0/9/1791909586890.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17265087
+#EXTINF:-1 group-title="VOD" tvg-logo="",Hockey Patines - Campeonato del Mundo Masculino. 1ª fase: España - Italia
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SHOCSOB/mp4/8/9/1791837473998.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17263641
+#EXTINF:-1 group-title="VOD" tvg-logo="",Hockey Patines - Campeonato del Mundo Masculino. 1ª fase: Portugal - España
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SHOCSOB/mp4/0/9/1791963702490.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17265690
+#EXTINF:-1 group-title="VOD" tvg-logo="",'Hitster', con Dani Martínez: Estreno muy pronto en La 1 y RTVE Play
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/SHO_HITCON/mp4/8/9/1791884281998.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17264097
+#EXTINF:-1 group-title="VOD" tvg-logo="",Hockey Patines - Campeonato del Mundo Masculino. 1ª fase: España - Suiza
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SHOCSOB/mp4/7/5/1792050010857.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17267585
+#EXTINF:-1 group-title="VOD" tvg-logo="",Hoy hablamos de - Lope de Vega
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/SHO_HOYPRO/mp4/3/8/1787727812283.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17202179
+#EXTINF:-1 group-title="VOD" tvg-logo="",Imprescindibles - Me cuesta hablar de mí. Charo López - Documental en RTVE
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SIMPRES/mp4/8/4/1647609600348.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=6404840
+#EXTINF:-1 group-title="VOD" tvg-logo="",Influ-Realismo Mágico - Especial caída (o tropiezo) de los influencers | Ver ahora
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/SEA_TEMINF/mp4/9/0/1789585038209.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17227993
+#EXTINF:-1 group-title="VOD" tvg-logo="",En Play - Influ-Realismo Mágico - Programa 1 - Nuria Marín y la Tombolización de las redes sociales
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/SEA_TEMINF/mp4/1/0/1772444480601.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=16954761
+#EXTINF:-1 group-title="VOD" tvg-logo="",Guerra en Ucrania: de la invasión al cuarto aniversario
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SNOTI24/mp4/4/0/1771929531504.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=16951376
+#EXTINF:-1 group-title="VOD" tvg-logo="",Informativo 24 horas - 14h - 16/10/26
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SNOTI24/mp4/7/4/1792155201347.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17270213
+#EXTINF:-1 group-title="VOD" tvg-logo="",Rusia acusa a Ucrania de matar a 24 personas en un ataque
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SNOTI24/mp4/2/7/1767332987972.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=16880345
+#EXTINF:-1 group-title="VOD" tvg-logo="",Informativo 24 horas - 14h - 15/10/26
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SNOTI24/mp4/9/0/1792068836509.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17268327
+#EXTINF:-1 group-title="VOD" tvg-logo="",Informativo 24 horas - 20h - 15/10/26
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SNOTI24/mp4/5/3/1792089598535.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17268932
+#EXTINF:-1 group-title="VOD" tvg-logo="",Informativo 24 horas - 20h - 14/10/26
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SNOTI24/mp4/3/0/1792002789003.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17267191
+#EXTINF:-1 group-title="VOD" tvg-logo="",Informativo 24 horas - 20h - 16/10/26
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SNOTI24/mp4/0/0/1792175416500.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17270831
+#EXTINF:-1 group-title="VOD" tvg-logo="",Entrevista a Maricarmen, desahuciada en Madrid con 87 años
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SINMA01/mp4/7/5/1790165986257.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17236908
+#EXTINF:-1 group-title="VOD" tvg-logo="",Informe Semanal - Programa de actualidad en RTVE Play
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SESPINF/mp4/9/0/1789847353609.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17232340
+#EXTINF:-1 group-title="VOD" tvg-logo="",Informe Semanal - Programa de actualidad en RTVE Play
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SESPINF/mp4/5/9/1785009104995.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17169255
+#EXTINF:-1 group-title="VOD" tvg-logo="",Informe Semanal - Programa de actualidad en RTVE Play
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SCUNINF/mp4/7/5/1791662502757.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17262202
+#EXTINF:-1 group-title="VOD" tvg-logo="",Informe Semanal - Programa de actualidad en RTVE Play
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SESPINF/mp4/9/2/1788033950529.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17206011
+#EXTINF:-1 group-title="VOD" tvg-logo="",Informe Semanal - Programa de actualidad en RTVE Play
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SESPINF/mp4/1/6/1786823645661.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17192274
+#EXTINF:-1 group-title="VOD" tvg-logo="",Informe Semanal - Programa de actualidad en RTVE Play
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SMUNINF/mp4/7/8/1786824264387.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17192286
+#EXTINF:-1 group-title="VOD" tvg-logo="",Informe Semanal - Programa de actualidad en RTVE Play
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SCUNINF/mp4/5/9/1787428923795.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17199202
+#EXTINF:-1 group-title="VOD" tvg-logo="",Informe Semanal - Programa de actualidad en RTVE Play
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SESPINF/mp4/0/8/1791662315380.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17262199
+#EXTINF:-1 group-title="VOD" tvg-logo="",Informe Semanal - Programa de actualidad en RTVE Play
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SCUNINF/mp4/9/5/1784404926659.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17161650
+#EXTINF:-1 group-title="VOD" tvg-logo="",Informe Semanal - Programa de actualidad en RTVE Play
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SESPINF/mp4/9/9/1788637732499.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17213877
+#EXTINF:-1 group-title="VOD" tvg-logo="",Informe Semanal - Programa de actualidad en RTVE Play
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SESPINF/mp4/7/5/1785009885257.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17169262
+#EXTINF:-1 group-title="VOD" tvg-logo="",Informe Semanal - Programa de actualidad en RTVE Play
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SESPINF/mp4/0/0/1788638472200.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17213883
+#EXTINF:-1 group-title="VOD" tvg-logo="",Informe Semanal - Programa de actualidad en RTVE Play
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SMUNINF/mp4/3/9/1785614575993.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17176855
+#EXTINF:-1 group-title="VOD" tvg-logo="",Informe Semanal - Programa de actualidad en RTVE Play
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SESPINF/mp4/5/0/1783800172305.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17153204
+#EXTINF:-1 group-title="VOD" tvg-logo="",Informe Semanal - Programa de actualidad en RTVE Play
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SESPINF/mp4/8/2/1789848205628.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17232344
+#EXTINF:-1 group-title="VOD" tvg-logo="",La amiga estupenda - Temporada 3 - Episodio 1 | Ver ahora
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/SEA_TEMLAA3/mp4/3/7/1706709998973.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=15950247
+#EXTINF:-1 group-title="VOD" tvg-logo="",La amiga estupenda - Temporada 3 - Capítulo 6 | Ver ahora
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/SEA_TEMLAA3/mp4/0/0/1706176944100.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=15947703
+#EXTINF:-1 group-title="VOD" tvg-logo="",La amiga estupenda - Temporada 3 - Episodio 2 | Ver ahora
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/SEA_TEMLAA3/mp4/8/5/1706174676558.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=15947604
+#EXTINF:-1 group-title="VOD" tvg-logo="",La amiga estupenda - Temporada 3 - Episodio 4 | Ver ahora
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/SEA_TEMLAA3/mp4/8/5/1706175888258.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=15947653
+#EXTINF:-1 group-title="VOD" tvg-logo="",La amiga estupenda - Temporada 3 - Episodio 5 | Ver ahora
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/SEA_TEMLAA3/mp4/8/3/1706709198938.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=15950251
+#EXTINF:-1 group-title="VOD" tvg-logo="",La amiga estupenda - Temporada 3 - Episodio 3 | Ver ahora
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/SEA_TEMLAA3/mp4/2/2/1706174916322.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=15947632
+#EXTINF:-1 group-title="VOD" tvg-logo="",La economía - 15/10/26
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SLAECON/mp4/8/0/1792080189508.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17268800
+#EXTINF:-1 group-title="VOD" tvg-logo="",La alcaldesa de Catarroja sigue reclamando "más medios"
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SHORAL1/mp4/7/0/1734940274907.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=16383574
+#EXTINF:-1 group-title="VOD" tvg-logo="",La hora cultural - 16/10/26
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SHORCUL/mp4/1/0/1792189248401.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17270990
+#EXTINF:-1 group-title="VOD" tvg-logo="",Canarias: unas 2.000 personas han llegado en cinco días
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SHORAL1/mp4/9/5/1735546116459.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=16389958
+#EXTINF:-1 group-title="VOD" tvg-logo="",IU celebra la "rectificación" en el contrato de balas con Israel
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SHORAL1/mp4/3/5/1745565845153.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=16553996
+#EXTINF:-1 group-title="VOD" tvg-logo="",Acuerdo con Mercosur: "Es un acuerdo bueno, pero no para la agricultura"
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SHORAL1/mp4/4/0/1734340402504.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=16373553
+#EXTINF:-1 group-title="VOD" tvg-logo="",Ana Redondo: "El patriarcado se extiende en las redes sociales"
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SHORAL1/mp4/8/7/1732528165278.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=16344839
+#EXTINF:-1 group-title="VOD" tvg-logo="",DANA: Pilar Bernabé denuncia la "desinformación intencionada" sobre las ayudas
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SHORAL1/mp4/7/6/1735549719267.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=16390032
+#EXTINF:-1 group-title="VOD" tvg-logo="",Bustinduy defiende "intervenir" el mercado de la vivienda
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SHORAL1/mp4/4/1/1728890136114.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=16286439
+#EXTINF:-1 group-title="VOD" tvg-logo="",Kallas dice que el plan para Ucrania debe garantizar que a Rusia le resulte "imposible" volver a invadir
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SHORAL1/mp4/1/2/1764315295821.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=16835665
+#EXTINF:-1 group-title="VOD" tvg-logo="",Aranceles: Cuerpo se reunirá el lunes con las comunidades autónomas
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SHORAL1/mp4/7/6/1747383998667.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=16583094
+#EXTINF:-1 group-title="VOD" tvg-logo="",DANA | Marlaska asegura que los "marginales violentos" estaban organizados
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SHORAL1/mp4/9/3/1730714803539.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=16314874
+#EXTINF:-1 group-title="VOD" tvg-logo="",Martín Pallín: "Las regularizaciones fiscales no se hicieron con arreglo a la ley" 0 / 65 Description
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SHORAL1/mp4/3/9/1732523189393.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=16344845
+#EXTINF:-1 group-title="VOD" tvg-logo="",Morant acusa a Mazón de “antisistema”
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SHORAL1/mp4/7/1/1731917603617.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=16334978
+#EXTINF:-1 group-title="VOD" tvg-logo="",Óscar López: "Están tratando de enfangar la vida pública y de que la gente se aleje de la política"
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SHORAL1/mp4/6/5/1733732529456.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=16363980
+#EXTINF:-1 group-title="VOD" tvg-logo="",Óscar López acusa a Ayuso de representar "la peor política"
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SHORAL1/mp4/8/6/1729497975568.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=16296140
+#EXTINF:-1 group-title="VOD" tvg-logo="",Marlaska admite que el caso Errejón ha causado "conmoción"
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SHORAL1/mp4/8/7/1730104630978.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=16305794
+#EXTINF:-1 group-title="VOD" tvg-logo="",Pedro Sánchez anuncia elecciones anticipadas | Vídeo completo
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SHORAL1/mp4/8/0/1791184341908.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17253163
+#EXTINF:-1 group-title="VOD" tvg-logo="",Cristina Fallarás denuncia las amenazas contra la actriz Elisa Mouliaá
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SHORAL1/mp4/7/4/1730102248247.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=16305721
+#EXTINF:-1 group-title="VOD" tvg-logo="",López, sobre el Dos de Mayo: "Ayuso no entiende que es la presidenta de todos los madrileños"
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SHORAL1/mp4/0/2/1746173068520.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=16563031
+#EXTINF:-1 group-title="VOD" tvg-logo="",Montero considera que de Aldama no tiene "ninguna credibilidad"
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SHORAL1/mp4/8/8/1732266728588.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=16341924
+#EXTINF:-1 group-title="VOD" tvg-logo="",Rodríguez defiende sus políticas de vivienda tras las protestas
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SHORAL1/mp4/8/3/1728892254238.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=16286529
+#EXTINF:-1 group-title="VOD" tvg-logo="",UGT insta a manifestarse este 1 de mayo para "plantarle cara" a la "ola conservadora"
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SHORAL1/mp4/2/2/1746087160422.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=16562037
+#EXTINF:-1 group-title="VOD" tvg-logo="",Alegría ve "irónico" que el PP quiera "acercarse" a partidos a los que quería "ilegalizar" como Junts
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SHORAL1/mp4/5/2/1735288802825.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=16387682
+#EXTINF:-1 group-title="VOD" tvg-logo="",CC.OO. advierte de un 1 de mayo "complicado" para los trabajadores por la "extrema derecha"
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SHORAL1/mp4/4/5/1746086214554.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=16562024
+#EXTINF:-1 group-title="VOD" tvg-logo="",La noche en 24 horas - 15/10/26
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SLANOCH/mp4/7/8/1792104316587.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17269099
+#EXTINF:-1 group-title="VOD" tvg-logo="",La noche en 24 horas - 14/10/26
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SLANOCH/mp4/7/4/1792019532947.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17267374
+#EXTINF:-1 group-title="VOD" tvg-logo="",Albares: "Si todos actuaran como España, la guerra de Gaza terminaría hoy"
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SLANOCH/mp4/9/7/1729807291379.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=16302697
+#EXTINF:-1 group-title="VOD" tvg-logo="",La Promesa - Curro revela a Manuel que Leocadia asesinó a Jana
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SLAPROM/mp4/3/2/1791968920823.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17266608
+#EXTINF:-1 group-title="VOD" tvg-logo="",La Revuelta | Álvaro Morte y Francesco Carril reivindican a Lorca
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/SHO_LARENT/mp4/3/2/1792097932723.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17268871
+#EXTINF:-1 group-title="VOD" tvg-logo="",Inés Hernand se solidariza con Maricarmen, desahuciada a los 87 años
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/SHO_LARENT3/mp4/6/9/1780512499496.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17099779
+#EXTINF:-1 group-title="VOD" tvg-logo="",La Promesa - Manuel sobre la actitud de Curro: "Le noté violento"
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SLAPROM/mp4/2/9/1791968847592.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17266587
+#EXTINF:-1 group-title="VOD" tvg-logo="",La Revuelta | ¿Broncano va a ser padre?
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/SHO_LARENT/mp4/9/1/1792094433419.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17268870
+#EXTINF:-1 group-title="VOD" tvg-logo="",La Revuelta | Un traje de luces para Jorge Ponce
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/SHO_LARENT/mp4/9/4/1792098680649.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17268872
+#EXTINF:-1 group-title="VOD" tvg-logo="",La Revuelta - Maribel Verdú y Sofía Otero (06/05/2026) | Ver
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/SEA_TEMLAR2/mp4/8/8/1778102301588.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17057307
+#EXTINF:-1 group-title="VOD" tvg-logo="",La Revuelta | Maribel Verdú: "Me espeluznan los hombres con bermudas"
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/SHO_LARENT/mp4/1/5/1778102159151.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17057148
+#EXTINF:-1 group-title="VOD" tvg-logo="",La Revuelta - Jordi Mollà (13/10/2026) | Ver programa
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/SEA_TEMLAR3/mp4/0/6/1791926307860.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17265159
+#EXTINF:-1 group-title="VOD" tvg-logo="",La Revuelta - Salvador Sobral (14/10/2026) | Ver programa
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/SEA_TEMLAR3/mp4/7/9/1792012930997.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17267263
+#EXTINF:-1 group-title="VOD" tvg-logo="",La Semana - Capítulo 5: Vivienda, la gran emergencia | Ver ahora en RTVE Play
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/SHO_LASINF3/mp4/3/9/1779964076593.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17077840
+#EXTINF:-1 group-title="VOD" tvg-logo="",La Semana - Especial memoria LGTBIQ+ | Ver ahora en RTVE Play
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/SHO_LASINF3/mp4/7/3/1782385991337.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17126000
+#EXTINF:-1 group-title="VOD" tvg-logo="",La tarde en 24 horas - 14/10/26
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SLATARD/mp4/3/6/1792001187563.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17267185
+#EXTINF:-1 group-title="VOD" tvg-logo="",La tarde en 24 horas - 16/10/26
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SLATARD/mp4/3/5/1792173695253.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17270807
+#EXTINF:-1 group-title="VOD" tvg-logo="",La tarde en 24 horas - 15/10/26
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SLATARD/mp4/5/8/1792087303885.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17268914
+#EXTINF:-1 group-title="VOD" tvg-logo="",Los desayunos de RTVE EFE - Imanol Pradales Gil
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/SHO_LOSINF6/mp4/8/7/1783068362978.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17142040
+#EXTINF:-1 group-title="VOD" tvg-logo="",Los desayunos de RTVE EFE - María Jesús Montero
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/SHO_LOSINF6/mp4/2/4/1773913228042.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=16987488
+#EXTINF:-1 group-title="VOD" tvg-logo="",Los desayunos de RTVE EFE - Salvador Illa
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/SHO_LOSINF6/mp4/2/4/1783931827342.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17154084
+#EXTINF:-1 group-title="VOD" tvg-logo="",Los desayunos de RTVE EFE - Carlos Cuerpo, vicepresidente primero del Gobierno y ministro de Economía, Comercio y Empresa
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/SHO_LOSINF6/mp4/1/4/1788770474041.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17214670
+#EXTINF:-1 group-title="VOD" tvg-logo="",Los desayunos de RTVE EFE - Gustavo Petro
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/SHO_LOSINF6/mp4/1/9/1776423920591.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17028676
+#EXTINF:-1 group-title="VOD" tvg-logo="",Entrevista a Pedro Sánchez en RTVE | Vídeo completo
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SMANANE/mp4/6/8/1788948844086.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17217800
+#EXTINF:-1 group-title="VOD" tvg-logo="",David Andújar, David Insua y Carlota Corredera desafían al algoritmo y arrojan un poco de espíritu crítico para mirar el mundo a través de la cultura pop.
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/SHO_MENENT/mp4/9/6/1774283338669.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=16994540
+#EXTINF:-1 group-title="VOD" tvg-logo="",Entrevista a Zapatero en RTVE | Ver vídeo completo
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SMANANE/mp4/3/6/1784807991363.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17166716
+#EXTINF:-1 group-title="VOD" tvg-logo="",Menudo cuadro - Temporada 2 - Programa 1: Juan Sanguino | Ver ahora
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/SHO_MENENT/mp4/5/3/1792081669535.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17268832
+#EXTINF:-1 group-title="VOD" tvg-logo="",Melómanos - Pilar Miró
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/SHO_MELPRO/mp4/6/6/1788850324266.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17216182
+#EXTINF:-1 group-title="VOD" tvg-logo="",Objetivo Planeta - Antártida y el trineo del viento
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SOBJ78P1/mp4/0/2/1792163150920.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17270643
+#EXTINF:-1 group-title="VOD" tvg-logo="",El desierto de Tabernas se convierte en Marte
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SANDA01/mp4/1/8/1790860452981.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17249466
+#EXTINF:-1 group-title="VOD" tvg-logo="",Plano general - Eduard Fernández
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SPL7NAL/mp4/1/7/1742592868271.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=16502563
+#EXTINF:-1 group-title="VOD" tvg-logo="",Plano general - César Rincón
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SPL7NAL/mp4/1/7/1729283851671.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=16294625
+#EXTINF:-1 group-title="VOD" tvg-logo="",Plano general - José Mota
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SPL7NAL/mp4/2/5/1735335015052.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=16388772
+#EXTINF:-1 group-title="VOD" tvg-logo="",Entrevista a Verónica Martínez, portavoz parlamentaria de Sumar
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SPARLA/mp4/4/5/1742054681954.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=16493059
+#EXTINF:-1 group-title="VOD" tvg-logo="",Plano general - Carlos Baute
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SPL7NAL/mp4/4/1/1728678849714.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=16285035
+#EXTINF:-1 group-title="VOD" tvg-logo="",Tellado: "Armengol no reúne condiciones para ser tercer autoridad"
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SPARLA/mp4/4/3/1740238048234.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=16461970
+#EXTINF:-1 group-title="VOD" tvg-logo="",Plano general - Amparo Larrañaga
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SPL7NAL/mp4/9/8/1746218813389.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=16564174
+#EXTINF:-1 group-title="VOD" tvg-logo="",Plano general - Josep Carreras
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SPL7NAL/mp4/2/5/1745615240552.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=16555624
+#EXTINF:-1 group-title="VOD" tvg-logo="",Plano general - Nieves Herrero
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SPL7NAL/mp4/3/4/1747428505743.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=16584591
+#EXTINF:-1 group-title="VOD" tvg-logo="",Plano general - Juan José Benítez
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SPL7NAL/mp4/6/0/1740174199006.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=16461512
+#EXTINF:-1 group-title="VOD" tvg-logo="",Plano general - Nuria March
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SPL7NAL/mp4/9/3/1737756949539.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=16421844
+#EXTINF:-1 group-title="VOD" tvg-logo="",Plano general - Laura Ponte
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SPL7NAL/mp4/4/4/1739568896044.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=16451443
+#EXTINF:-1 group-title="VOD" tvg-logo="",Plano general - Miguel Ángel Tobías
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SPL7NAL/mp4/7/5/1729888443257.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=16304294
+#EXTINF:-1 group-title="VOD" tvg-logo="",Plano general - Millán Salcedo
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SPL7NAL/mp4/4/1/1746822955714.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=16574396
+#EXTINF:-1 group-title="VOD" tvg-logo="",Plano general - Lucrecia
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SPL7NAL/mp4/5/0/1742312136405.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=16492559
+#EXTINF:-1 group-title="VOD" tvg-logo="",Plano general - Luis Fonsi
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SPL7NAL/mp4/2/6/1732915804162.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=16353390
+#EXTINF:-1 group-title="VOD" tvg-logo="",Plano general - María Pagés
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SPL7NAL/mp4/7/3/1744403712637.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=16538168
+#EXTINF:-1 group-title="VOD" tvg-logo="",Plano general - Pedro Cavadas
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SPL7NAL/mp4/1/3/1734730594231.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=16382132
+#EXTINF:-1 group-title="VOD" tvg-logo="",Plano general - Manuel Pizarro
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SPL7NAL/mp4/5/3/1733521186135.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=16362495
+#EXTINF:-1 group-title="VOD" tvg-logo="",Plano general - Luis Tosar
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SPL7NAL/mp4/9/5/1732312622659.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=16343361
+#EXTINF:-1 group-title="VOD" tvg-logo="",Plano general - Ramiro Calle
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SPL7NAL/mp4/5/4/1743198960745.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=16512503
+#EXTINF:-1 group-title="VOD" tvg-logo="",Plano General - Isabel Gemio
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SPL7NAL/mp4/6/4/1740863221046.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=16472407
+#EXTINF:-1 group-title="VOD" tvg-logo="",Plano general - Pepe Habichuela
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SPL7NAL/mp4/2/5/1738359273352.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=16431660
+#EXTINF:-1 group-title="VOD" tvg-logo="",Miguel Campos ahora es Mariang: ¿Sí o qué? | Podcast, el podcast
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/SEA_TEMPOD4/mp4/0/7/1791361782570.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17255936
+#EXTINF:-1 group-title="VOD" tvg-logo="",[Premios Goya 2017][Emma Suárez, mejor actriz de reparto por 'La próxima piel' en los Premios Goya 2017]
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/SHO_PRECIN2/mp4/8/5/1486250594558.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=3900629
+#EXTINF:-1 group-title="VOD" tvg-logo="",Los ataques sobre Ucrania alejan la posibilidad de una tregua
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SUK45A/mp4/5/6/1742589565265.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=16502514
+#EXTINF:-1 group-title="VOD" tvg-logo="",Zelenski se abre a celebrar un referéndum
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SUK45A/mp4/8/7/1765516876978.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=16855383
+#EXTINF:-1 group-title="VOD" tvg-logo="",Emma Suárez, premio Goya a la mejor actriz protagonista por 'Julieta'
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/SHO_PRECIN2/mp4/9/3/1486252234339.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=3900720
+#EXTINF:-1 group-title="VOD" tvg-logo="",Primera reunión tripartita entre Ucrania, Estados Unidos y Rusia
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_PUCRAN/mp4/9/4/1769113450649.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=16906346
+#EXTINF:-1 group-title="VOD" tvg-logo="",Riders - El documental
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_S800012/mp4/9/5/1618500241259.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=5854989
+#EXTINF:-1 group-title="VOD" tvg-logo="",Entrevista completa a Michelle Bachelet
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SV18RTV/mp4/5/9/1734034141995.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=16371736
+#EXTINF:-1 group-title="VOD" tvg-logo="",Entrevista | Padre Ángel: "Prefiero pedir perdón que permiso"
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SV18RTV/mp4/5/0/1737458262005.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=16416304
+#EXTINF:-1 group-title="VOD" tvg-logo="",Afgana, la decisión de Waheda | Ver ahora en RTVE Play
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SV18RTV/mp4/0/8/1786628657080.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17190187
+#EXTINF:-1 group-title="VOD" tvg-logo="",Cuando cae la noche (por un momento)
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SV18RTV/mp4/1/6/1786377901361.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17185972
+#EXTINF:-1 group-title="VOD" tvg-logo="",Elcano y Magallanes, la primera vuelta al mundo | Ver películas gratis en RTVE Play
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SCN8IN6/mp4/0/3/1733314945330.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=5553057
+#EXTINF:-1 group-title="VOD" tvg-logo="",Colón ADN. Su verdadero origen - Ver documental en RTVE Play
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SSCPEDO/mp4/7/4/1728474982847.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=16281015
+#EXTINF:-1 group-title="VOD" tvg-logo="",Somos documentales - Elio. Viaje de un rapero a las entrañas del humanismo - Documental en RTVE
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SSOMDOC/mp4/6/5/1658141015456.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=6651145
+#EXTINF:-1 group-title="VOD" tvg-logo="",Lo que hicimos fue secreto | Documental en RTVE Play
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SSOMDOC/mp4/2/1/1676299852512.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=6809560
+#EXTINF:-1 group-title="VOD" tvg-logo="",Somos documentales - El Reina Sofía. El arte entre latidos - RTVE.es
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SSOMDOC/mp4/5/0/1577671991105.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=5474500
+#EXTINF:-1 group-title="VOD" tvg-logo="",La cumbre de los BRICS en Rusia pone el foco en los conflictos armados
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_STELEDI/mp4/1/6/1729689888161.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=16300382
+#EXTINF:-1 group-title="VOD" tvg-logo="",Hablamos con Christopher Nolan y Matt Damon sobre 'La Odisea'
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_STELEDI/mp4/3/1/1783433791913.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17147363
+#EXTINF:-1 group-title="VOD" tvg-logo="",Luis de la Fuente, a TVE: "Me hace muy feliz ver al país unido"
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/SHO_DEPINF/mp4/0/7/1784813928870.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17166449
+#EXTINF:-1 group-title="VOD" tvg-logo="",Kiev vive uno de los ataques rusos más mortíferos
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_STDINTE/mp4/3/4/1750166303343.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=16629001
+#EXTINF:-1 group-title="VOD" tvg-logo="",Nueva cita de EE.UU y Ucrania entre amenazas de Putin
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_STELEDI/mp4/7/2/1764858309727.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=16845175
+#EXTINF:-1 group-title="VOD" tvg-logo="",ICE: La resistencia digital contra Trump | Ver documental
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SSOMDOC/mp4/5/8/1778763954585.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17066109
+#EXTINF:-1 group-title="VOD" tvg-logo="",100 años de Piedad Isla en la retrospectiva del CNFoto de Torrelavega
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SSECCNT/mp4/8/8/1790771272888.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17247511
+#EXTINF:-1 group-title="VOD" tvg-logo="",Especial '25 años del 11S' en el Telediario
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_STELEDI/mp4/8/6/1789133832668.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17221683
+#EXTINF:-1 group-title="VOD" tvg-logo="",Parir | Ver documental gratis en RTVE Play
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SSOMDOC/mp4/7/4/1727301053847.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=16265946
+#EXTINF:-1 group-title="VOD" tvg-logo="",Las cesiones territoriales, discordia entre Ucrania y Rusia
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_STDINTE/mp4/8/9/1755696927798.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=16702261
+#EXTINF:-1 group-title="VOD" tvg-logo="",La casa de Lena y Sergei en Ucrania, destruida por segunda vez
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_STDINTE/mp4/2/0/1742480915502.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=16500184
+#EXTINF:-1 group-title="VOD" tvg-logo="",El mar Negro, la puerta de salida del cereal ruso y ucraniano
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_STDINTE/mp4/5/9/1742912289995.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=16506807
+#EXTINF:-1 group-title="VOD" tvg-logo="",Los movimientos de tropas y combates continúan en Ucrania
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_STDINTE/mp4/9/4/1755005148249.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=16695071
+#EXTINF:-1 group-title="VOD" tvg-logo="",Al menos 17 muertos en un ataque ruso en Zaporiyia
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_STDINTE/mp4/6/6/1753795143266.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=16681083
+#EXTINF:-1 group-title="VOD" tvg-logo="",Los traumas de las guerras de Gaza y Ucrania, protagonistas de los premios World Press Photo
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_STDOCIO/mp4/0/9/1743086948890.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=16510377
+#EXTINF:-1 group-title="VOD" tvg-logo="",Guerra en Ucrania: Ucrania y EE.UU. negocian el plan de paz
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_STDINTE/mp4/9/4/1763993701649.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=16829153
+#EXTINF:-1 group-title="VOD" tvg-logo="",El PP no aclara si apoyará el envío de tropas de paz a Ucrania
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_STELEDI/mp4/3/9/1767795665293.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=16885400
+#EXTINF:-1 group-title="VOD" tvg-logo="",La reconstrucción de Bucha, una de las ciudades donde más intensos fueron los combates al inicio de la guerra de Ucrania
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_STDINTE/mp4/2/5/1764685466252.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=16841759
+#EXTINF:-1 group-title="VOD" tvg-logo="",La negociación del acuerdo de paz en Ucrania se alarga
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_STDINTE/mp4/0/2/1764168376720.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=16832915
+#EXTINF:-1 group-title="VOD" tvg-logo="",Rusia avanza a las puertas del fin de su ofensiva de verano
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_STDINTE/mp4/6/6/1756301328966.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=16708799
+#EXTINF:-1 group-title="VOD" tvg-logo="",El reparto del Donbás, clave en la primera reunión directa de Rusia y Ucrania mediada por EE.UU.
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_STDINTE/mp4/3/5/1769178282153.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=16907740
+#EXTINF:-1 group-title="VOD" tvg-logo="",Rusia rechazas las aportaciones de Ucrania y Europa al plan de paz mientras EE.UU confía en seguir avanzando
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_STDINTE/mp4/2/3/1764771672932.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=16843511
+#EXTINF:-1 group-title="VOD" tvg-logo="",Ucrania necesita soldados para luchar en el frente
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_STDINTE/mp4/9/5/1763476255659.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=16820892
+#EXTINF:-1 group-title="VOD" tvg-logo="",Díaz anuncia "permisos retribuidos" para los afectados por la DANA
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SW3TD2CP/mp4/5/7/1731099650775.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=16323132
+#EXTINF:-1 group-title="VOD" tvg-logo="",España se une al plan de la OTAN de comprar armas a EE.UU. para Ucrania
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SW3TD2CI/mp4/2/3/1761248059632.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=16784244
+#EXTINF:-1 group-title="VOD" tvg-logo="",Especial '25 años del 11S' en el Telediario 2
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_STELED2/mp4/2/5/1789157408752.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17222239
+#EXTINF:-1 group-title="VOD" tvg-logo="",Telediario - 21 horas - Adelanto electoral - 05/10/26
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_STELED2/mp4/9/1/1791229296919.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17254513
+#EXTINF:-1 group-title="VOD" tvg-logo="",De la 'operación relámpago' ansiada por Putin a guerra de desgaste cuatro años después
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SW3TD2CI/mp4/9/2/1771964361229.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=16952433
+#EXTINF:-1 group-title="VOD" tvg-logo="",El miedo, la resignación y el cansancio de los vecinos de Donetsk tras cuatro años de guerra
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SW3TD2CI/mp4/5/2/1771878292625.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=16950813
+#EXTINF:-1 group-title="VOD" tvg-logo="",Guerra en Ucrania: tres muertos en un ataque ruso contra Kiev
+https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SW3TD2CI/mp4/0/3/1792006069830.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17267252
 #EXTINF:-1 tvg-logo="https://keyframe-cdn.abcnews.com/streamprovider11.jpg" group-title="NEWS WORLD",ABC News Live - ABC News
-https://linear-abcnews-akc-na-west-1.media.dssott.com/dvt2=exp=1792281907~url=%2Flas1%2Fva01%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838%2F~psid=db386feb-c567-4072-aa64-d76ae1c3dcf4~did=320ede16-174e-415f-b14b-5b1d931ce973~country=US~kid=k02~hmac=0afd7e979c01c52d3bd91d17b044b743b7181c7932432afb4d42f893c47b32b3/las1/va01/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838/ctr-all-hdri-sliding.m3u8?r=1080&v=1&hash=81fb88da5aab33fe54dc3f8d7ae5f0b2eaa56a8c
+https://linear-abcnews-ftc-na-central-1.media.dssott.com/dvt2=exp=1792339389~url=%2Flas1%2Fva01%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838%2F~psid=ef887c11-4a58-4706-a02b-b4164de0d5b3~did=40877e41-8b8e-4c9e-bfe4-6fe3181b57ac~country=US~kid=k02~hmac=8f0a7c22d93c0a569cdd2b38cc7cfa5daaf1ef5bffc0f797adf65f16561be0be/las1/va01/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838/ctr-all-hdri-sliding.m3u8?r=1080&v=1&hash=81fb88da5aab33fe54dc3f8d7ae5f0b2eaa56a8c
 #EXTINF:-1 tvg-logo="https://keyframe-cdn.abcnews.com/streamprovider11.jpg" group-title="NEWS WORLD",ABC News Live - ABC News
-https://linear-abcnews-akc-na-west-1.media.dssott.com/dvt2=exp=1792281907~url=%2Flas1%2Fva01%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838%2F~psid=db386feb-c567-4072-aa64-d76ae1c3dcf4~did=320ede16-174e-415f-b14b-5b1d931ce973~country=US~kid=k02~hmac=0afd7e979c01c52d3bd91d17b044b743b7181c7932432afb4d42f893c47b32b3/las1/va01/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838/cmaf-cenc-ctr-1700K/1700_hdri_slide.m3u8
+https://linear-abcnews-ftc-na-central-1.media.dssott.com/dvt2=exp=1792339389~url=%2Flas1%2Fva01%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838%2F~psid=ef887c11-4a58-4706-a02b-b4164de0d5b3~did=40877e41-8b8e-4c9e-bfe4-6fe3181b57ac~country=US~kid=k02~hmac=8f0a7c22d93c0a569cdd2b38cc7cfa5daaf1ef5bffc0f797adf65f16561be0be/las1/va01/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838/cmaf-cenc-ctr-1700K/1700_hdri_slide.m3u8
 #EXTINF:-1 tvg-logo="https://keyframe-cdn.abcnews.com/streamprovider11.jpg" group-title="NEWS WORLD",ABC News Live - ABC News
-https://linear-abcnews-akc-na-west-1.media.dssott.com/dvt2=exp=1792281907~url=%2Flas1%2Fva01%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838%2F~psid=db386feb-c567-4072-aa64-d76ae1c3dcf4~did=320ede16-174e-415f-b14b-5b1d931ce973~country=US~kid=k02~hmac=0afd7e979c01c52d3bd91d17b044b743b7181c7932432afb4d42f893c47b32b3/las1/va01/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838/audio-aac-1-64K/64_slide.m3u8
+https://linear-abcnews-ftc-na-central-1.media.dssott.com/dvt2=exp=1792339389~url=%2Flas1%2Fva01%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838%2F~psid=ef887c11-4a58-4706-a02b-b4164de0d5b3~did=40877e41-8b8e-4c9e-bfe4-6fe3181b57ac~country=US~kid=k02~hmac=8f0a7c22d93c0a569cdd2b38cc7cfa5daaf1ef5bffc0f797adf65f16561be0be/las1/va01/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838/audio-aac-1-64K/64_slide.m3u8
 #EXTINF:-1 tvg-logo="https://keyframe-cdn.abcnews.com/streamprovider11.jpg" group-title="NEWS WORLD",ABC News Live - ABC News
-https://linear-abcnews-akc-na-west-1.media.dssott.com/dvt2=exp=1792281907~url=%2Flas1%2Fva01%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838%2F~psid=db386feb-c567-4072-aa64-d76ae1c3dcf4~did=320ede16-174e-415f-b14b-5b1d931ce973~country=US~kid=k02~hmac=0afd7e979c01c52d3bd91d17b044b743b7181c7932432afb4d42f893c47b32b3/las1/va01/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838/cmaf-cenc-ctr-2400K/2400_hdri_slide.m3u8
-#EXTINF:-1 tvg-logo="https://keyframe-cdn.abcnews.com/streamprovider10.jpg" group-title="NEWS WORLD",Video Potent fall front expected to bring storms, gusty winds, and a big temperature drop in the Northeast; critical fire danger continues for Southern California | Watch Live News on ABCNL
+https://linear-abcnews-ftc-na-central-1.media.dssott.com/dvt2=exp=1792339389~url=%2Flas1%2Fva01%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838%2F~psid=ef887c11-4a58-4706-a02b-b4164de0d5b3~did=40877e41-8b8e-4c9e-bfe4-6fe3181b57ac~country=US~kid=k02~hmac=8f0a7c22d93c0a569cdd2b38cc7cfa5daaf1ef5bffc0f797adf65f16561be0be/las1/va01/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838/audio-aac-1-128K/128_slide.m3u8
+#EXTINF:-1 tvg-logo="https://keyframe-cdn.abcnews.com/streamprovider11.jpg" group-title="NEWS WORLD",ABC News Live - ABC News
+https://linear-abcnews-ftc-na-central-1.media.dssott.com/dvt2=exp=1792339389~url=%2Flas1%2Fva01%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838%2F~psid=ef887c11-4a58-4706-a02b-b4164de0d5b3~did=40877e41-8b8e-4c9e-bfe4-6fe3181b57ac~country=US~kid=k02~hmac=8f0a7c22d93c0a569cdd2b38cc7cfa5daaf1ef5bffc0f797adf65f16561be0be/las1/va01/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838/cmaf-cenc-ctr-2400K/2400_hdri_slide.m3u8
+#EXTINF:-1 tvg-logo="https://keyframe-cdn.abcnews.com/streamprovider10.jpg" group-title="NEWS WORLD",Video One more day of fire danger in southern California; strong cold front bringing fall cooldown and breezy conditions to the East | Watch Live News on ABCNL
 https://abcnews-livestreams.akamaized.net/out/v1/6a597119dbd5428a82dc11a2f514a1a2/abcn-live-10-cmaf-manifest/abcn-live-10-index.m3u8
-#EXTINF:-1 tvg-logo="https://keyframe-cdn.abcnews.com/streamprovider10.jpg" group-title="NEWS WORLD",Video Potent fall front expected to bring storms, gusty winds, and a big temperature drop in the Northeast; critical fire danger continues for Southern California | Watch Live News on ABCNL
+#EXTINF:-1 tvg-logo="https://keyframe-cdn.abcnews.com/streamprovider10.jpg" group-title="NEWS WORLD",Video One more day of fire danger in southern California; strong cold front bringing fall cooldown and breezy conditions to the East | Watch Live News on ABCNL
 https://abcnews-livestreams.akamaized.net/out/v1/6a597119dbd5428a82dc11a2f514a1a2/abcn-live-10-cmaf-manifest/abcn-live-10-index_3.m3u8
-#EXTINF:-1 tvg-logo="https://keyframe-cdn.abcnews.com/streamprovider10.jpg" group-title="NEWS WORLD",Video Potent fall front expected to bring storms, gusty winds, and a big temperature drop in the Northeast; critical fire danger continues for Southern California | Watch Live News on ABCNL
+#EXTINF:-1 tvg-logo="https://keyframe-cdn.abcnews.com/streamprovider10.jpg" group-title="NEWS WORLD",Video One more day of fire danger in southern California; strong cold front bringing fall cooldown and breezy conditions to the East | Watch Live News on ABCNL
 https://abcnews-livestreams.akamaized.net/out/v1/6a597119dbd5428a82dc11a2f514a1a2/abcn-live-10-cmaf-manifest/abcn-live-10-index_4_0.m3u8
-#EXTINF:-1 tvg-logo="https://a57.foxnews.com/cf-images.us-east-1.prod.boltdns.net/v1/static/694940094001/15de0523-3be4-4a9a-8159-7020114e7036/b6ff623a-26d6-4fd9-8bb8-0856adbf38ce/1280x720/match/676/380/image.jpg?ve=1&tl=1" group-title="NEWS WORLD",Watch Fox News Channel Online | Stream Fox News
-https://247.foxnews.com/hls/live/2003586/FNCHLSv3/master.m3u8?hdnea=exp=1792199088~acl=/*~hmac=a3d139ae30a5378a8d5ddc0b08304f4c9eed84031c05684f3438e8b29615aafc
-#EXTINF:-1 tvg-logo="https://a57.foxnews.com/cf-images.us-east-1.prod.boltdns.net/v1/static/694940094001/c9b2e2eb-7b87-435c-9510-eab2650ff944/8b584585-acf2-4c37-aa07-aaf2d077bb20/1280x720/match/676/380/image.jpg?ve=1&tl=1" group-title="NEWS WORLD",Fox Business Go | Fox News Video
-https://247.foxbusiness.com/hls/live/2003756/FBNHLSv3/master.m3u8?hdnea=exp=1792199089~acl=/*~hmac=57dc5856d420e2327e28f6456c1307a93c35000e0b676dbbd1bcc821039b481d
 #EXTINF:-1 tvg-logo="https://assets2.cbsnewsstatic.com/hub/i/r/2024/04/16/0fb75ad2-a909-44bb-87dc-86b9d51cbeb2/thumbnail/1280x720/949f3d3fef16f9c113e3048c6aef229f/247-key-channelthumbnail-1920x1080.jpg" group-title="NEWS WORLD",Watch CBS News 24/7, our free live news stream
-https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/58bfbf14-dbb7-4d56-9db0-3df994d2add8:DLS/master.m3u8
+https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/4f934090-65c8-4a72-8bc4-51aae5d4e003:TUL/master.m3u8
 #EXTINF:-1 tvg-logo="https://assets2.cbsnewsstatic.com/hub/i/r/2024/04/16/0fb75ad2-a909-44bb-87dc-86b9d51cbeb2/thumbnail/1280x720/949f3d3fef16f9c113e3048c6aef229f/247-key-channelthumbnail-1920x1080.jpg" group-title="NEWS WORLD",Watch CBS News 24/7, our free live news stream
-https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/58bfbf14-dbb7-4d56-9db0-3df994d2add8:DLS/variant/2ed2c78fd57ae51fb6ba5d4bbd59e953/bandwidth/441000.m3u8
+https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/4f934090-65c8-4a72-8bc4-51aae5d4e003:TUL/variant/2ed2c78fd57ae51fb6ba5d4bbd59e953/bandwidth/441000.m3u8
 #EXTINF:-1 tvg-logo="https://assets2.cbsnewsstatic.com/hub/i/r/2024/04/16/0fb75ad2-a909-44bb-87dc-86b9d51cbeb2/thumbnail/1280x720/949f3d3fef16f9c113e3048c6aef229f/247-key-channelthumbnail-1920x1080.jpg" group-title="NEWS WORLD",Watch CBS News 24/7, our free live news stream
-https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/58bfbf14-dbb7-4d56-9db0-3df994d2add8:DLS/variant/9a27c00933e4743a3ea19ac812d5532c/bandwidth/733000.m3u8
-#EXTINF:-1 tvg-logo="https://assets2.cbsnewsstatic.com/hub/i/r/2024/04/16/0fb75ad2-a909-44bb-87dc-86b9d51cbeb2/thumbnail/1280x720/949f3d3fef16f9c113e3048c6aef229f/247-key-channelthumbnail-1920x1080.jpg" group-title="NEWS WORLD",Watch CBS News 24/7, our free live news stream
-https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/58bfbf14-dbb7-4d56-9db0-3df994d2add8:DLS/variant/c1de5c45f7968bb580d02bc76f3a9e7e/bandwidth/1083000.m3u8
-#EXTINF:-1 tvg-logo="https://assets2.cbsnewsstatic.com/hub/i/r/2024/04/16/0fb75ad2-a909-44bb-87dc-86b9d51cbeb2/thumbnail/1280x720/949f3d3fef16f9c113e3048c6aef229f/247-key-channelthumbnail-1920x1080.jpg" group-title="NEWS WORLD",Watch CBS News 24/7, our free live news stream
-https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/58bfbf14-dbb7-4d56-9db0-3df994d2add8:DLS/variant/e45ac8e413a627d436bba392e6f69412/bandwidth/1549000.m3u8
-#EXTINF:-1 tvg-logo="https://assets2.cbsnewsstatic.com/hub/i/r/2024/04/16/0fb75ad2-a909-44bb-87dc-86b9d51cbeb2/thumbnail/1280x720/949f3d3fef16f9c113e3048c6aef229f/247-key-channelthumbnail-1920x1080.jpg" group-title="NEWS WORLD",Watch CBS News 24/7, our free live news stream
-https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/58bfbf14-dbb7-4d56-9db0-3df994d2add8:DLS/variant/b93ad8358bd5b2b671e137cb4cd530a7/bandwidth/2249000.m3u8
+https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/4f934090-65c8-4a72-8bc4-51aae5d4e003:TUL/variant/b93ad8358bd5b2b671e137cb4cd530a7/bandwidth/2249000.m3u8
 #EXTINF:-1 group-title="TV ABERTA" tvg-id="Globo Sao Paulo HD.br" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/f/ff/TV_Globo_2021_azul.png/revision/latest?cb=20220201030422",GLOBO
 http://limed.cc:80/4x6cXF/ehfxdp/95657.m3u8
 #EXTINF:-1 group-title="TV ABERTA" tvg-id="RecordTV Sao Paulo HD.br" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/1/10/Logotipo_da_Record.png?20190726203014",RECORD SP
@@ -9380,6 +9832,46 @@ https://24383.live.streamtheworld.com/ATL_FLO.mp3
 https://liverdcbn.rbsdirect.com.br/primary/cbn_poa.sdp/playlist.m3u8
 #EXTINF:-1 group-title="RADIO" tvg-id="Concierto.FM.br" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVL7LDRdHDaX21PVccz1VKUyLWX1ZGkPnLHAngKF5fs8Q5mzUQNWEcgGsojA&s",CONCIERTO FM PUNTA
 https://conectperu.com/8012/stream
+#EXTINF:-1 tvg-id="rep.-james-talarico-on-confronting-christian-nationalism-and-strange-days-in-the" tvg-logo="https://archive.org/services/img/rep.-james-talarico-on-confronting-christian-nationalism-and-strange-days-in-the" group-title="VOD",Rep. James Talarico On Confronting Christian Nationalism, And Strange Days In The Texas Legislature
+https://archive.org/download/rep.-james-talarico-on-confronting-christian-nationalism-and-strange-days-in-the/Rep.%20James%20Talarico%20On%20Confronting%20Christian%20Nationalism%2C%20And%20Strange%20Days%20In%20The%20Texas%20Legislature%20-%20The%20Late%20Show%20with%20Stephen%20Colbert%20%281080p%2C%20h264%29.mp4
+#EXTINF:-1 tvg-id="the-perfect-line-gsn-09092025" tvg-logo="https://archive.org/services/img/the-perfect-line-gsn-09092025" group-title="VOD",The Perfect Line S1E3: Jada vs. Tina vs. Barbara vs. Sharon
+https://archive.org/download/the-perfect-line-gsn-09092025/ThePerfectLine%28GSN%2909092025.ia.mp4
+#EXTINF:-1 tvg-id="nos-news-2025-08-28" tvg-logo="https://archive.org/services/img/nos-news-2025-08-28" group-title="VOD",NOS Achtuurjournaal 2025-08-28
+https://archive.org/download/nos-news-2025-08-28/NOS-Journaal-20.00-uur-NPO-12025-08-2820-00.mp4
+#EXTINF:-1 tvg-id="nos-news-2025-08-20" tvg-logo="https://archive.org/services/img/nos-news-2025-08-20" group-title="VOD",NOS Achtuurjournaal 2025-08-20
+https://archive.org/download/nos-news-2025-08-20/NOS-Journaal-20.00-uur-NPO-12025-08-2020-00.mp4
+#EXTINF:-1 tvg-id="land.of.the.-lost.-s-02-e-10.-baby.-sitter.-480p.-roku.-web-dl.-aac-2.0.-h.-264" tvg-logo="https://archive.org/services/img/land.of.the.-lost.-s-02-e-10.-baby.-sitter.-480p.-roku.-web-dl.-aac-2.0.-h.-264" group-title="VOD",Land of the Lost S01-S03 (1974) Web-DL 480p
+https://archive.org/download/land.of.the.-lost.-s-02-e-10.-baby.-sitter.-480p.-roku.-web-dl.-aac-2.0.-h.-264/Land%20of%20the%20Lost%20S01-S03%20%281974%29%20ROKU/S01/Land.of.the.Lost.S01E01.Cha-Ka.480p.ROKU.WEB-DL.AAC2.0.H.264.mp4
+#EXTINF:-1 tvg-id="nos-news-2025-07-24" tvg-logo="https://archive.org/services/img/nos-news-2025-07-24" group-title="VOD",NOS Achtuurjournaal 2025-07-24
+https://archive.org/download/nos-news-2025-07-24/NOS-Journaal-20.00-uur-NPO-12025-07-2420-00.mp4
+#EXTINF:-1 tvg-id="nos-news-2025-07-18" tvg-logo="https://archive.org/services/img/nos-news-2025-07-18" group-title="VOD",NOS Achtuurjournaal 2025-07-18
+https://archive.org/download/nos-news-2025-07-18/NOS-Journaal-20.00-uur-NPO-12025-07-1820-00.mp4
+#EXTINF:-1 tvg-id="nos-news-2025-07-14" tvg-logo="https://archive.org/services/img/nos-news-2025-07-14" group-title="VOD",NOS Achtuurjournaal 2025-07-14
+https://archive.org/download/nos-news-2025-07-14/NOS-Journaal-20.00-uur-NPO-12025-07-1420-00.mp4
+#EXTINF:-1 tvg-id="nos-news-2025-07-08" tvg-logo="https://archive.org/services/img/nos-news-2025-07-08" group-title="VOD",NOS Achtuurjournaal 2025-07-08
+https://archive.org/download/nos-news-2025-07-08/NOS-Journaal-20.00-uur-NPO-12025-07-0820-00.mp4
+#EXTINF:-1 tvg-id="the-bold-and-the-beautiful-august-15-2001" tvg-logo="https://archive.org/services/img/the-bold-and-the-beautiful-august-15-2001" group-title="VOD",The Bold and the Beautiful (August 15, 2001)
+https://archive.org/download/the-bold-and-the-beautiful-august-15-2001/The%20Bold%20And%20The%20Beautiful%20%28August%2015%2C%202001%29.mp4
+#EXTINF:-1 tvg-id="kmax-a-block-6-20-2025" tvg-logo="https://archive.org/services/img/kmax-a-block-6-20-2025" group-title="VOD",KMAX Primetime Sacramento - A-Block | June 20, 2025
+https://archive.org/download/kmax-a-block-6-20-2025/KMAX%20Primetime%20Sacramento%20-%20A-Block%20_%20June%2020%2C%202025.mp4
+#EXTINF:-1 tvg-id="nos-news-2025-06-17" tvg-logo="https://archive.org/services/img/nos-news-2025-06-17" group-title="VOD",NOS Achtuurjournaal 2025-06-17
+https://archive.org/download/nos-news-2025-06-17/NOS-Journaal-20.00-uur-NPO-12025-06-1720-00.mp4
+#EXTINF:-1 tvg-id="kcal-arvr-debut-6-11-2025" tvg-logo="https://archive.org/services/img/kcal-arvr-debut-6-11-2025" group-title="VOD",KCAL Mornings At 9AM - Debut Of AR/VR Studio | June 11, 2025
+https://archive.org/download/kcal-arvr-debut-6-11-2025/KCAL%20Mornings%20at%209AM%20-%20Debut%20of%20AR_VR%20Studio%20_%20June%2011%2C%202025.mp4
+#EXTINF:-1 tvg-id="wtkr-opens-montage-6-6-2025" tvg-logo="https://archive.org/services/img/wtkr-opens-montage-6-6-2025" group-title="VOD",WTKR News 3 Opens Montage | June 6, 2025
+https://archive.org/download/wtkr-opens-montage-6-6-2025/WTKR%20News%203%20Opens%20Montage%20_%20June%206%2C%202025.mp4
+#EXTINF:-1 tvg-id="the-best-news-bloopers-2023-2025" tvg-logo="https://archive.org/services/img/the-best-news-bloopers-2023-2025" group-title="VOD",The Best News Bloopers 🤣🤣 | (2023 & 2025)
+https://archive.org/download/the-best-news-bloopers-2023-2025/facebook_1748097926878.ia.mp4
+#EXTINF:-1 tvg-id="wcbs-cbs-news-new-york-11-pm-open-up-next-bumper-closing-may-26-27-2025" tvg-logo="https://archive.org/services/img/wcbs-cbs-news-new-york-11-pm-open-up-next-bumper-closing-may-26-27-2025" group-title="VOD",WCBS | CBS News New York @ 11 PM (Open, Up Next Bumper & Closing) | (May 26-27, 2025)
+https://archive.org/download/wcbs-cbs-news-new-york-11-pm-open-up-next-bumper-closing-may-26-27-2025/Video.Guru_20250527_155313126.ia.mp4
+#EXTINF:-1 tvg-id="dvd-transfer-207" tvg-logo="https://archive.org/services/img/dvd-transfer-207" group-title="VOD",DVD Transfer 207 (1978 Week 2 Game - Oakland Raiders at San Diego Chargers - NFL Network Rebroadcast/"Holy Roller" Game)
+https://archive.org/download/dvd-transfer-207/1978%20Week%202%20Game%20%28Oakland%20Raiders%20at%20San%20Diego%20Chargers%20-%20Holy%20Roller%20Game%20-%20NFL%20Network%20Rebroadcast%29.ia.mp4
+#EXTINF:-1 tvg-id="nos-news-2025-05-14" tvg-logo="https://archive.org/services/img/nos-news-2025-05-14" group-title="VOD",NOS Achtuurjournaal 2025-05-14
+https://archive.org/download/nos-news-2025-05-14/NOS-Journaal-20.00-uur-NPO-12025-05-1420-00.mp4
+#EXTINF:-1 tvg-id="flip-side-gsn-04302025" tvg-logo="https://archive.org/services/img/flip-side-gsn-04302025" group-title="VOD",Flip Side S1E166: Alicia and Jolie vs. Larry and Renee
+https://archive.org/download/flip-side-gsn-04302025/FlipSide%28GSN%2904302025.MP4
+#EXTINF:-1 tvg-id="nos-news-2025-04-01" tvg-logo="https://archive.org/services/img/nos-news-2025-04-01" group-title="VOD",NOS Achtuurjournaal 2025-04-01
+https://archive.org/download/nos-news-2025-04-01/NOS-Journaal-20.00-uur-NPO-12025-04-0120-00.mp4
 #EXTINF:-1 group-title="TV" tvg-id="RTP1.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP1.pt.png",RTP 1
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0"
 #EXTVLCOPT:http-origin=https://www.rtp.pt
@@ -11516,46 +12008,58 @@ https://storage.googleapis.com/bitmovin-demos/av1/stream.mpd
 https://storage.googleapis.com/bitmovin-demos/av1/stream.mpd
 #EXTINF:-1 group-title="Teste" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/SIC_Novelas_16-bit.jxl",Logo JXL 16-bit - stream AV1/Opus
 https://storage.googleapis.com/bitmovin-demos/av1/stream.mpd
-#EXTINF:-1 tvg-id="rep.-james-talarico-on-confronting-christian-nationalism-and-strange-days-in-the" tvg-logo="https://archive.org/services/img/rep.-james-talarico-on-confronting-christian-nationalism-and-strange-days-in-the" group-title="VOD",Rep. James Talarico On Confronting Christian Nationalism, And Strange Days In The Texas Legislature
-https://archive.org/download/rep.-james-talarico-on-confronting-christian-nationalism-and-strange-days-in-the/Rep.%20James%20Talarico%20On%20Confronting%20Christian%20Nationalism%2C%20And%20Strange%20Days%20In%20The%20Texas%20Legislature%20-%20The%20Late%20Show%20with%20Stephen%20Colbert%20%281080p%2C%20h264%29.mp4
-#EXTINF:-1 tvg-id="the-perfect-line-gsn-09092025" tvg-logo="https://archive.org/services/img/the-perfect-line-gsn-09092025" group-title="VOD",The Perfect Line S1E3: Jada vs. Tina vs. Barbara vs. Sharon
-https://archive.org/download/the-perfect-line-gsn-09092025/ThePerfectLine%28GSN%2909092025.ia.mp4
-#EXTINF:-1 tvg-id="nos-news-2025-08-28" tvg-logo="https://archive.org/services/img/nos-news-2025-08-28" group-title="VOD",NOS Achtuurjournaal 2025-08-28
-https://archive.org/download/nos-news-2025-08-28/NOS-Journaal-20.00-uur-NPO-12025-08-2820-00.mp4
-#EXTINF:-1 tvg-id="nos-news-2025-08-20" tvg-logo="https://archive.org/services/img/nos-news-2025-08-20" group-title="VOD",NOS Achtuurjournaal 2025-08-20
-https://archive.org/download/nos-news-2025-08-20/NOS-Journaal-20.00-uur-NPO-12025-08-2020-00.mp4
-#EXTINF:-1 tvg-id="land.of.the.-lost.-s-02-e-10.-baby.-sitter.-480p.-roku.-web-dl.-aac-2.0.-h.-264" tvg-logo="https://archive.org/services/img/land.of.the.-lost.-s-02-e-10.-baby.-sitter.-480p.-roku.-web-dl.-aac-2.0.-h.-264" group-title="VOD",Land of the Lost S01-S03 (1974) Web-DL 480p
-https://archive.org/download/land.of.the.-lost.-s-02-e-10.-baby.-sitter.-480p.-roku.-web-dl.-aac-2.0.-h.-264/Land%20of%20the%20Lost%20S01-S03%20%281974%29%20ROKU/S01/Land.of.the.Lost.S01E01.Cha-Ka.480p.ROKU.WEB-DL.AAC2.0.H.264.mp4
-#EXTINF:-1 tvg-id="nos-news-2025-07-24" tvg-logo="https://archive.org/services/img/nos-news-2025-07-24" group-title="VOD",NOS Achtuurjournaal 2025-07-24
-https://archive.org/download/nos-news-2025-07-24/NOS-Journaal-20.00-uur-NPO-12025-07-2420-00.mp4
-#EXTINF:-1 tvg-id="nos-news-2025-07-18" tvg-logo="https://archive.org/services/img/nos-news-2025-07-18" group-title="VOD",NOS Achtuurjournaal 2025-07-18
-https://archive.org/download/nos-news-2025-07-18/NOS-Journaal-20.00-uur-NPO-12025-07-1820-00.mp4
-#EXTINF:-1 tvg-id="nos-news-2025-07-14" tvg-logo="https://archive.org/services/img/nos-news-2025-07-14" group-title="VOD",NOS Achtuurjournaal 2025-07-14
-https://archive.org/download/nos-news-2025-07-14/NOS-Journaal-20.00-uur-NPO-12025-07-1420-00.mp4
-#EXTINF:-1 tvg-id="nos-news-2025-07-08" tvg-logo="https://archive.org/services/img/nos-news-2025-07-08" group-title="VOD",NOS Achtuurjournaal 2025-07-08
-https://archive.org/download/nos-news-2025-07-08/NOS-Journaal-20.00-uur-NPO-12025-07-0820-00.mp4
-#EXTINF:-1 tvg-id="the-bold-and-the-beautiful-august-15-2001" tvg-logo="https://archive.org/services/img/the-bold-and-the-beautiful-august-15-2001" group-title="VOD",The Bold and the Beautiful (August 15, 2001)
-https://archive.org/download/the-bold-and-the-beautiful-august-15-2001/The%20Bold%20And%20The%20Beautiful%20%28August%2015%2C%202001%29.mp4
-#EXTINF:-1 tvg-id="kmax-a-block-6-20-2025" tvg-logo="https://archive.org/services/img/kmax-a-block-6-20-2025" group-title="VOD",KMAX Primetime Sacramento - A-Block | June 20, 2025
-https://archive.org/download/kmax-a-block-6-20-2025/KMAX%20Primetime%20Sacramento%20-%20A-Block%20_%20June%2020%2C%202025.mp4
-#EXTINF:-1 tvg-id="nos-news-2025-06-17" tvg-logo="https://archive.org/services/img/nos-news-2025-06-17" group-title="VOD",NOS Achtuurjournaal 2025-06-17
-https://archive.org/download/nos-news-2025-06-17/NOS-Journaal-20.00-uur-NPO-12025-06-1720-00.mp4
-#EXTINF:-1 tvg-id="kcal-arvr-debut-6-11-2025" tvg-logo="https://archive.org/services/img/kcal-arvr-debut-6-11-2025" group-title="VOD",KCAL Mornings At 9AM - Debut Of AR/VR Studio | June 11, 2025
-https://archive.org/download/kcal-arvr-debut-6-11-2025/KCAL%20Mornings%20at%209AM%20-%20Debut%20of%20AR_VR%20Studio%20_%20June%2011%2C%202025.mp4
-#EXTINF:-1 tvg-id="wtkr-opens-montage-6-6-2025" tvg-logo="https://archive.org/services/img/wtkr-opens-montage-6-6-2025" group-title="VOD",WTKR News 3 Opens Montage | June 6, 2025
-https://archive.org/download/wtkr-opens-montage-6-6-2025/WTKR%20News%203%20Opens%20Montage%20_%20June%206%2C%202025.mp4
-#EXTINF:-1 tvg-id="the-best-news-bloopers-2023-2025" tvg-logo="https://archive.org/services/img/the-best-news-bloopers-2023-2025" group-title="VOD",The Best News Bloopers 🤣🤣 | (2023 & 2025)
-https://archive.org/download/the-best-news-bloopers-2023-2025/facebook_1748097926878.ia.mp4
-#EXTINF:-1 tvg-id="wcbs-cbs-news-new-york-11-pm-open-up-next-bumper-closing-may-26-27-2025" tvg-logo="https://archive.org/services/img/wcbs-cbs-news-new-york-11-pm-open-up-next-bumper-closing-may-26-27-2025" group-title="VOD",WCBS | CBS News New York @ 11 PM (Open, Up Next Bumper & Closing) | (May 26-27, 2025)
-https://archive.org/download/wcbs-cbs-news-new-york-11-pm-open-up-next-bumper-closing-may-26-27-2025/Video.Guru_20250527_155313126.ia.mp4
-#EXTINF:-1 tvg-id="dvd-transfer-207" tvg-logo="https://archive.org/services/img/dvd-transfer-207" group-title="VOD",DVD Transfer 207 (1978 Week 2 Game - Oakland Raiders at San Diego Chargers - NFL Network Rebroadcast/"Holy Roller" Game)
-https://archive.org/download/dvd-transfer-207/1978%20Week%202%20Game%20%28Oakland%20Raiders%20at%20San%20Diego%20Chargers%20-%20Holy%20Roller%20Game%20-%20NFL%20Network%20Rebroadcast%29.ia.mp4
-#EXTINF:-1 tvg-id="nos-news-2025-05-14" tvg-logo="https://archive.org/services/img/nos-news-2025-05-14" group-title="VOD",NOS Achtuurjournaal 2025-05-14
-https://archive.org/download/nos-news-2025-05-14/NOS-Journaal-20.00-uur-NPO-12025-05-1420-00.mp4
-#EXTINF:-1 tvg-id="flip-side-gsn-04302025" tvg-logo="https://archive.org/services/img/flip-side-gsn-04302025" group-title="VOD",Flip Side S1E166: Alicia and Jolie vs. Larry and Renee
-https://archive.org/download/flip-side-gsn-04302025/FlipSide%28GSN%2904302025.MP4
-#EXTINF:-1 tvg-id="nos-news-2025-04-01" tvg-logo="https://archive.org/services/img/nos-news-2025-04-01" group-title="VOD",NOS Achtuurjournaal 2025-04-01
-https://archive.org/download/nos-news-2025-04-01/NOS-Journaal-20.00-uur-NPO-12025-04-0120-00.mp4
+#EXTINF:-1 group-title="RTP",RTP1
+https://streaming-live.rtp.pt/liverepeater/smil:rtp1HD.smil/playlist.m3u8?tk=1792206000_02bcca6163e4d6790637c8d678f6406f576069fb
+#EXTINF:-1 group-title="RTP",RTP2
+https://streaming-live.rtp.pt/liverepeater/smil:rtpClean2HD.smil/playlist.m3u8?tk=1792206000_bf17485572267dd18b7425c926ac10a7652dce57
+#EXTINF:-1 group-title="RTP",RTP3
+https://streaming-live.rtp.pt/livetvhlsDVR/rtpnHDdvr.smil/playlist.m3u8?DVR
+#EXTINF:-1 group-title="RTP",RTP Memória
+https://streaming-live.rtp.pt/liverepeater/smil:rtpmem.smil/playlist.m3u8
+#EXTINF:-1 group-title="RTP",RTP África
+https://streaming-live.rtp.pt/liverepeater/smil:rtpafrica.smil/playlist.m3u8
+#EXTINF:-1 group-title="RTP",RTP Internacional
+https://streaming-live.rtp.pt/liverepeater/smil:rtpi.smil/playlist.m3u8
+#EXTINF:-1 group-title="RTP",RTP Açores
+https://streaming-live.rtp.pt/liverepeater/smil:rtpacoresHD.smil/playlist.m3u8
+#EXTINF:-1 group-title="RTP",RTP Desporto 4
+https://streaming-live.rtp.pt/liverepeater/smil:desporto4.smil/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/4/49/CBN.png" group-title="NEWS WORLD",CBN SP
+https://live-as-01-01.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJVUyIsImRvbWFpbiI6ImxpdmUtYXMtMDEtMDEudmlkZW8uZ2xvYm8uY29tIiwiZXhwIjoxNzkyMjE0NTY2LCJpYXQiOjE3OTIxOTI5NjYsImlzcyI6InBsYXliYWNrLWFwaS1wcm9kLWdjcCIsIm93bmVyIjoiIiwicGF0aCI6Ii9saXZlL2YoYk1pbj0zMTM5ODQsZHZyPTEyMCkvY2Juc3AyNGhhL3BsYXlsaXN0Lm0zdTgifQ.IbKeMKq0eTZZtTdodnC9CoiDgvLF8SiYZU67XwwP2_Lm0cUuTqRnG9UJ4zVA-sNOCWpBGauikgLfKa0ugvwxll7LKeRRnw2mmTGp0DTrWdcKs2WKfOqM6NTGw9r_gMyCMv4gTJRfLj7OhuMf9UXntR2Xk7Jsi8DQ9VWR1gDaAe8z1nReN_0KTDLTGsuaBThDqO0EuG0Z-i28xy2Cw40CtuaIDz07OnVIfE6C8ion9dLD1U1J01jqJnmoQLtYJ43-ZfyBzGPw1R-zlj5D4lQw61UKMmdeJUdD4ln8POC4FWrvhvNBnpWJB0RuN4dxFN2EJjkuFq7PzqsUX05ONECfRA/live/f(bMin=313984,dvr=120)/cbnsp24ha/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://s.abcnews.com/images/Live/abc_news_live-abc-ml-250210_1739199021469_hpMain_16x9_608.jpg" group-title="NEWS WORLD",Collapse: The Forgotten Mines Under America | Watch Live News on ABCNL
+https://linear-abcnews-akc-na-west-1.media.dssott.com/dvt2=exp=1792281888~url=%2Flas1%2Fva01%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838%2F~psid=c23cc0a6-cac0-42e3-b33e-2cb21fca3db9~did=19f4459d-6871-4a4d-8362-64030b73fcf1~country=US~kid=k02~hmac=b0f413db3b0cca6f97211784dc83f9d9764acec021a71e268b96a5b71320347b/las1/va01/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838/ctr-all-hdri-sliding.m3u8?r=1080&v=1&hash=81fb88da5aab33fe54dc3f8d7ae5f0b2eaa56a8c
+#EXTINF:-1 tvg-logo="https://s.abcnews.com/images/Live/abc_news_live-abc-ml-250210_1739199021469_hpMain_16x9_608.jpg" group-title="NEWS WORLD",Collapse: The Forgotten Mines Under America | Watch Live News on ABCNL
+https://linear-abcnews-akc-na-west-1.media.dssott.com/dvt2=exp=1792281888~url=%2Flas1%2Fva01%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838%2F~psid=c23cc0a6-cac0-42e3-b33e-2cb21fca3db9~did=19f4459d-6871-4a4d-8362-64030b73fcf1~country=US~kid=k02~hmac=b0f413db3b0cca6f97211784dc83f9d9764acec021a71e268b96a5b71320347b/las1/va01/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838/cmaf-cenc-ctr-1700K/1700_hdri_slide.m3u8
+#EXTINF:-1 tvg-logo="https://s.abcnews.com/images/Live/abc_news_live-abc-ml-250210_1739199021469_hpMain_16x9_608.jpg" group-title="NEWS WORLD",Collapse: The Forgotten Mines Under America | Watch Live News on ABCNL
+https://linear-abcnews-akc-na-west-1.media.dssott.com/dvt2=exp=1792281888~url=%2Flas1%2Fva01%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838%2F~psid=c23cc0a6-cac0-42e3-b33e-2cb21fca3db9~did=19f4459d-6871-4a4d-8362-64030b73fcf1~country=US~kid=k02~hmac=b0f413db3b0cca6f97211784dc83f9d9764acec021a71e268b96a5b71320347b/las1/va01/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838/audio-aac-1-64K/64_slide.m3u8
+#EXTINF:-1 tvg-logo="https://s.abcnews.com/images/Live/abc_news_live-abc-ml-250210_1739199021469_hpMain_16x9_608.jpg" group-title="NEWS WORLD",Collapse: The Forgotten Mines Under America | Watch Live News on ABCNL
+https://linear-abcnews-akc-na-west-1.media.dssott.com/dvt2=exp=1792281888~url=%2Flas1%2Fva01%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838%2F~psid=c23cc0a6-cac0-42e3-b33e-2cb21fca3db9~did=19f4459d-6871-4a4d-8362-64030b73fcf1~country=US~kid=k02~hmac=b0f413db3b0cca6f97211784dc83f9d9764acec021a71e268b96a5b71320347b/las1/va01/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838/audio-aac-1-128K/128_slide.m3u8
+#EXTINF:-1 tvg-logo="https://s.abcnews.com/images/Live/abc_news_live-abc-ml-250210_1739199021469_hpMain_16x9_608.jpg" group-title="NEWS WORLD",Collapse: The Forgotten Mines Under America | Watch Live News on ABCNL
+https://linear-abcnews-akc-na-west-1.media.dssott.com/dvt2=exp=1792281888~url=%2Flas1%2Fva01%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838%2F~psid=c23cc0a6-cac0-42e3-b33e-2cb21fca3db9~did=19f4459d-6871-4a4d-8362-64030b73fcf1~country=US~kid=k02~hmac=b0f413db3b0cca6f97211784dc83f9d9764acec021a71e268b96a5b71320347b/las1/va01/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838/cmaf-cenc-ctr-2400K/2400_hdri_slide.m3u8
+#EXTINF:-1 tvg-logo="https://keyframe-cdn.abcnews.com/streamprovider11.jpg" group-title="NEWS WORLD",ABC News Live - ABC News
+https://linear-abcnews-akc-na-west-1.media.dssott.com/dvt2=exp=1792281907~url=%2Flas1%2Fva01%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838%2F~psid=db386feb-c567-4072-aa64-d76ae1c3dcf4~did=320ede16-174e-415f-b14b-5b1d931ce973~country=US~kid=k02~hmac=0afd7e979c01c52d3bd91d17b044b743b7181c7932432afb4d42f893c47b32b3/las1/va01/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838/ctr-all-hdri-sliding.m3u8?r=1080&v=1&hash=81fb88da5aab33fe54dc3f8d7ae5f0b2eaa56a8c
+#EXTINF:-1 tvg-logo="https://keyframe-cdn.abcnews.com/streamprovider11.jpg" group-title="NEWS WORLD",ABC News Live - ABC News
+https://linear-abcnews-akc-na-west-1.media.dssott.com/dvt2=exp=1792281907~url=%2Flas1%2Fva01%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838%2F~psid=db386feb-c567-4072-aa64-d76ae1c3dcf4~did=320ede16-174e-415f-b14b-5b1d931ce973~country=US~kid=k02~hmac=0afd7e979c01c52d3bd91d17b044b743b7181c7932432afb4d42f893c47b32b3/las1/va01/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838/cmaf-cenc-ctr-1700K/1700_hdri_slide.m3u8
+#EXTINF:-1 tvg-logo="https://keyframe-cdn.abcnews.com/streamprovider11.jpg" group-title="NEWS WORLD",ABC News Live - ABC News
+https://linear-abcnews-akc-na-west-1.media.dssott.com/dvt2=exp=1792281907~url=%2Flas1%2Fva01%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838%2F~psid=db386feb-c567-4072-aa64-d76ae1c3dcf4~did=320ede16-174e-415f-b14b-5b1d931ce973~country=US~kid=k02~hmac=0afd7e979c01c52d3bd91d17b044b743b7181c7932432afb4d42f893c47b32b3/las1/va01/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838/audio-aac-1-64K/64_slide.m3u8
+#EXTINF:-1 tvg-logo="https://keyframe-cdn.abcnews.com/streamprovider11.jpg" group-title="NEWS WORLD",ABC News Live - ABC News
+https://linear-abcnews-akc-na-west-1.media.dssott.com/dvt2=exp=1792281907~url=%2Flas1%2Fva01%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838%2F~psid=db386feb-c567-4072-aa64-d76ae1c3dcf4~did=320ede16-174e-415f-b14b-5b1d931ce973~country=US~kid=k02~hmac=0afd7e979c01c52d3bd91d17b044b743b7181c7932432afb4d42f893c47b32b3/las1/va01/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838/cmaf-cenc-ctr-2400K/2400_hdri_slide.m3u8
+#EXTINF:-1 tvg-logo="https://a57.foxnews.com/cf-images.us-east-1.prod.boltdns.net/v1/static/694940094001/15de0523-3be4-4a9a-8159-7020114e7036/b6ff623a-26d6-4fd9-8bb8-0856adbf38ce/1280x720/match/676/380/image.jpg?ve=1&tl=1" group-title="NEWS WORLD",Watch Fox News Channel Online | Stream Fox News
+https://247.foxnews.com/hls/live/2003586/FNCHLSv3/master.m3u8?hdnea=exp=1792199088~acl=/*~hmac=a3d139ae30a5378a8d5ddc0b08304f4c9eed84031c05684f3438e8b29615aafc
+#EXTINF:-1 tvg-logo="https://a57.foxnews.com/cf-images.us-east-1.prod.boltdns.net/v1/static/694940094001/c9b2e2eb-7b87-435c-9510-eab2650ff944/8b584585-acf2-4c37-aa07-aaf2d077bb20/1280x720/match/676/380/image.jpg?ve=1&tl=1" group-title="NEWS WORLD",Fox Business Go | Fox News Video
+https://247.foxbusiness.com/hls/live/2003756/FBNHLSv3/master.m3u8?hdnea=exp=1792199089~acl=/*~hmac=57dc5856d420e2327e28f6456c1307a93c35000e0b676dbbd1bcc821039b481d
+#EXTINF:-1 tvg-logo="https://assets2.cbsnewsstatic.com/hub/i/r/2024/04/16/0fb75ad2-a909-44bb-87dc-86b9d51cbeb2/thumbnail/1280x720/949f3d3fef16f9c113e3048c6aef229f/247-key-channelthumbnail-1920x1080.jpg" group-title="NEWS WORLD",Watch CBS News 24/7, our free live news stream
+https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/58bfbf14-dbb7-4d56-9db0-3df994d2add8:DLS/master.m3u8
+#EXTINF:-1 tvg-logo="https://assets2.cbsnewsstatic.com/hub/i/r/2024/04/16/0fb75ad2-a909-44bb-87dc-86b9d51cbeb2/thumbnail/1280x720/949f3d3fef16f9c113e3048c6aef229f/247-key-channelthumbnail-1920x1080.jpg" group-title="NEWS WORLD",Watch CBS News 24/7, our free live news stream
+https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/58bfbf14-dbb7-4d56-9db0-3df994d2add8:DLS/variant/2ed2c78fd57ae51fb6ba5d4bbd59e953/bandwidth/441000.m3u8
+#EXTINF:-1 tvg-logo="https://assets2.cbsnewsstatic.com/hub/i/r/2024/04/16/0fb75ad2-a909-44bb-87dc-86b9d51cbeb2/thumbnail/1280x720/949f3d3fef16f9c113e3048c6aef229f/247-key-channelthumbnail-1920x1080.jpg" group-title="NEWS WORLD",Watch CBS News 24/7, our free live news stream
+https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/58bfbf14-dbb7-4d56-9db0-3df994d2add8:DLS/variant/9a27c00933e4743a3ea19ac812d5532c/bandwidth/733000.m3u8
+#EXTINF:-1 tvg-logo="https://assets2.cbsnewsstatic.com/hub/i/r/2024/04/16/0fb75ad2-a909-44bb-87dc-86b9d51cbeb2/thumbnail/1280x720/949f3d3fef16f9c113e3048c6aef229f/247-key-channelthumbnail-1920x1080.jpg" group-title="NEWS WORLD",Watch CBS News 24/7, our free live news stream
+https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/58bfbf14-dbb7-4d56-9db0-3df994d2add8:DLS/variant/c1de5c45f7968bb580d02bc76f3a9e7e/bandwidth/1083000.m3u8
+#EXTINF:-1 tvg-logo="https://assets2.cbsnewsstatic.com/hub/i/r/2024/04/16/0fb75ad2-a909-44bb-87dc-86b9d51cbeb2/thumbnail/1280x720/949f3d3fef16f9c113e3048c6aef229f/247-key-channelthumbnail-1920x1080.jpg" group-title="NEWS WORLD",Watch CBS News 24/7, our free live news stream
+https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/58bfbf14-dbb7-4d56-9db0-3df994d2add8:DLS/variant/e45ac8e413a627d436bba392e6f69412/bandwidth/1549000.m3u8
+#EXTINF:-1 tvg-logo="https://assets2.cbsnewsstatic.com/hub/i/r/2024/04/16/0fb75ad2-a909-44bb-87dc-86b9d51cbeb2/thumbnail/1280x720/949f3d3fef16f9c113e3048c6aef229f/247-key-channelthumbnail-1920x1080.jpg" group-title="NEWS WORLD",Watch CBS News 24/7, our free live news stream
+https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/58bfbf14-dbb7-4d56-9db0-3df994d2add8:DLS/variant/b93ad8358bd5b2b671e137cb4cd530a7/bandwidth/2249000.m3u8
 #EXTINF:-1 tvg-id="Metro.ar" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/argentina/metro-ar.png" group-title="ARGENTINA",Metro TV
 https://streamtv12.ddns.net:5443/LiveApp/streams/193945633734205616732920.m3u8
 #EXTINF:-1 group-title="ARGENTINA",Chaco TV
@@ -11608,128 +12112,24 @@ https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/SHO_DEPINF/mp4/0/2/17920828
 https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SPF56X/mp4/6/0/1791556661206.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17261153
 #EXTINF:-1 group-title="VOD" tvg-logo="",La economía - 13/10/26
 https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SLAECON/mp4/0/8/1791908239780.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17265152
-#EXTINF:-1 group-title="VOD" tvg-logo="",Salvador Illa
-https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/SHO_LOSINF6/mp4/2/4/1783931827342.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17154084
-#EXTINF:-1 group-title="VOD" tvg-logo="",La noche en 24 horas - 14/10/26
-https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SLANOCH/mp4/7/4/1792019532947.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17267374
-#EXTINF:-1 group-title="VOD" tvg-logo="",Día de la Fiesta Nacional 2026
-https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SESPECA/mp4/7/3/1791802441937.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17263201
-#EXTINF:-1 group-title="VOD" tvg-logo="",Informativo 24 horas - 14h - 15/10/26
-https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SNOTI24/mp4/9/0/1792068836509.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17268327
-#EXTINF:-1 group-title="VOD" tvg-logo="",Imanol Pradales Gil
-https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/SHO_LOSINF6/mp4/8/7/1783068362978.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17142040
-#EXTINF:-1 group-title="VOD" tvg-logo="",Sánchez adelanta las elecciones generales al 29 de noviembre: "Ahora depende de vosotros"
-https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SHORAL1/mp4/8/0/1791184341908.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17253163
 #EXTINF:-1 group-title="VOD" tvg-logo="",La noche en 24 horas - 13/10/26
 https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SLANOCH/mp4/8/1/1791931294918.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17265470
-#EXTINF:-1 group-title="VOD" tvg-logo="",Ceuta, un mes al límite
-https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SESPINF/mp4/9/2/1788033950529.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17206011
-#EXTINF:-1 group-title="VOD" tvg-logo="",Lo que hicimos fue secreto
-https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SSOMDOC/mp4/2/1/1676299852512.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=6809560
-#EXTINF:-1 group-title="VOD" tvg-logo="",Entrevista a Maricarmen, la mujer de 87 años desahuciada en Madrid
-https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SINMA01/mp4/7/5/1790165986257.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17236908
-#EXTINF:-1 group-title="VOD" tvg-logo="",Carlos Cuerpo, vicepresidente primero del Gobierno y ministro de Economía, Comercio y Empresa
-https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/SHO_LOSINF6/mp4/1/4/1788770474041.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17214670
 #EXTINF:-1 group-title="VOD" tvg-logo="",Diario 24 - 14/10/26
 https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SDR24DI/mp4/8/3/1791979675138.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17266290
-#EXTINF:-1 group-title="VOD" tvg-logo="",Uno más de la familia
-https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SESPINF/mp4/5/0/1783800172305.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17153204
-#EXTINF:-1 group-title="VOD" tvg-logo="",Informe Semanal - Eclipse de masas
-https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SESPINF/mp4/1/6/1786823645661.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17192274
-#EXTINF:-1 group-title="VOD" tvg-logo="",Riders - El documental
-https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_S800012/mp4/9/5/1618500241259.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=5854989
 #EXTINF:-1 group-title="VOD" tvg-logo="",Telediario Internacional - 14/10/26
 https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_STELIN/mp4/6/1/1792045326316.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17267460
 #EXTINF:-1 group-title="VOD" tvg-logo="",La economía - 14/10/26
 https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SLAECON/mp4/8/8/1791994091488.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17267019
-#EXTINF:-1 group-title="VOD" tvg-logo="",Especial '25 años del 11S' en el Telediario
-https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_STELEDI/mp4/8/6/1789133832668.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17221683
-#EXTINF:-1 group-title="VOD" tvg-logo="",La economía - 15/10/26
-https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SLAECON/mp4/8/0/1792080189508.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17268800
-#EXTINF:-1 group-title="VOD" tvg-logo="",Vivienda, la emergencia
-https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/SHO_LASINF3/mp4/3/9/1779964076593.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17077840
-#EXTINF:-1 group-title="VOD" tvg-logo="",Una España Mundial
-https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SESPINF/mp4/7/5/1785009885257.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17169262
-#EXTINF:-1 group-title="VOD" tvg-logo="",Especial '25 años del 11S' en el Telediario 2
-https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_STELED2/mp4/2/5/1789157408752.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17222239
-#EXTINF:-1 group-title="VOD" tvg-logo="",Más allá del volcán
-https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SESPINF/mp4/8/2/1789848205628.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17232344
-#EXTINF:-1 group-title="VOD" tvg-logo="",La noche en 24 horas - 15/10/26
-https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SLANOCH/mp4/7/8/1792104316587.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17269099
-#EXTINF:-1 group-title="VOD" tvg-logo="",Entrevista a Pedro Sánchez
-https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SMANANE/mp4/6/8/1788948844086.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17217800
-#EXTINF:-1 group-title="VOD" tvg-logo="",Las voces de Lorca
-https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SCUNINF/mp4/9/5/1784404926659.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17161650
-#EXTINF:-1 group-title="VOD" tvg-logo="",Ortega
-https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/SHO_DOCDOC/mp4/1/8/1783946796281.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17155682
-#EXTINF:-1 group-title="VOD" tvg-logo="",La tarde en 24 horas - 14/10/26
-https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SLATARD/mp4/3/6/1792001187563.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17267185
-#EXTINF:-1 group-title="VOD" tvg-logo="",Carlos Cuerpo Responde
-https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SESPINF/mp4/9/0/1789847353609.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17232340
-#EXTINF:-1 group-title="VOD" tvg-logo="",Adaptarse al clima
-https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SESPINF/mp4/5/9/1785009104995.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17169255
 #EXTINF:-1 group-title="VOD" tvg-logo="",Informativo 24 horas - 20h - 13/10/26
 https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SNOTI24/mp4/3/8/1791916761783.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17265333
-#EXTINF:-1 group-title="VOD" tvg-logo="",Sobrevivir en Cuba
-https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SMUNINF/mp4/3/9/1785614575993.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17176855
-#EXTINF:-1 group-title="VOD" tvg-logo="",Informativo 24 horas - 20h - 14/10/26
-https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SNOTI24/mp4/3/0/1792002789003.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17267191
-#EXTINF:-1 group-title="VOD" tvg-logo="",Decreto Maricarmen
-https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SESPECA/mp4/4/5/1790722012154.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17246624
-#EXTINF:-1 group-title="VOD" tvg-logo="",Informativo 24 horas - 20h - 15/10/26
-https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SNOTI24/mp4/5/3/1792089598535.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17268932
-#EXTINF:-1 group-title="VOD" tvg-logo="",Pulso desde la frontera
-https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SESPINF/mp4/9/9/1788637732499.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17213877
-#EXTINF:-1 group-title="VOD" tvg-logo="",Adelanto electoral
-https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SESPECA/mp4/3/7/1791204933873.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17254015
-#EXTINF:-1 group-title="VOD" tvg-logo="",Manifestación por la vivienda
-https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SESPECA/mp4/5/1/1791032201715.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17252216
 #EXTINF:-1 group-title="VOD" tvg-logo="",Diario 24 - 13/10/26
 https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SDR24DI/mp4/3/6/1791896188963.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17264624
-#EXTINF:-1 group-title="VOD" tvg-logo="",Vivienda: ¿derecho o negocio?
-https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SENPOR/mp4/0/9/1776713138890.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17033570
-#EXTINF:-1 group-title="VOD" tvg-logo="",Escapar de Kabul
-https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SDOCUM/mp4/8/0/1786347364808.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17187375
-#EXTINF:-1 group-title="VOD" tvg-logo="",Luis de la Fuente, a TVE: "Me hace muy feliz ver al país unido"
-https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/SHO_DEPINF/mp4/0/7/1784813928870.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17166449
-#EXTINF:-1 group-title="VOD" tvg-logo="",Entrevista completa a Zapatero en 'Mañaneros': el expresidente defiende su "inocencia absoluta" y no aclara el origen de las joyas
-https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SMANANE/mp4/3/6/1784807991363.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17166716
-#EXTINF:-1 group-title="VOD" tvg-logo="",El latido de Liverpool
-https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SCUNINF/mp4/5/9/1787428923795.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17199202
 #EXTINF:-1 group-title="VOD" tvg-logo="",Informativo 24 horas - 14h - 13/10/26
 https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SNOTI24/mp4/2/0/1791896297602.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17264633
 #EXTINF:-1 group-title="VOD" tvg-logo="",La tarde en 24 horas - 13/10/26
 https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SLATARD/mp4/0/0/1791915593600.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17265312
-#EXTINF:-1 group-title="VOD" tvg-logo="",Eclipse: Cuando cae la noche (por un momento)
-https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SV18RTV/mp4/1/6/1786377901361.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17185972
-#EXTINF:-1 group-title="VOD" tvg-logo="",Muere Maricarmen
-https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SESPECA/mp4/7/7/1791410480577.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17258189
 #EXTINF:-1 group-title="VOD" tvg-logo="",Especial: El Congreso tumba los decretos de vivienda
 https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_STELED2/mp4/9/4/1790971887449.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17251831
-#EXTINF:-1 group-title="VOD" tvg-logo="",EEUU: Democracia under pressure
-https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SENPOR/mp4/3/5/1782248129453.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17129036
-#EXTINF:-1 group-title="VOD" tvg-logo="",El Reina Sofía. El arte entre latidos
-https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SSOMDOC/mp4/5/0/1577671991105.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=5474500
-#EXTINF:-1 group-title="VOD" tvg-logo="",La tarde en 24 horas - 15/10/26
-https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SLATARD/mp4/5/8/1792087303885.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17268914
-#EXTINF:-1 group-title="VOD" tvg-logo="",Diario 24 - 15/10/26
-https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SDR24DI/mp4/6/3/1792065726436.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17268141
-#EXTINF:-1 group-title="VOD" tvg-logo="",70 años viéndonos
-https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SCUNINF/mp4/7/5/1791662502757.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17262202
-#EXTINF:-1 group-title="VOD" tvg-logo="",Especial sobre memoria LGTBIQ+
-https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/SHO_LASINF3/mp4/7/3/1782385991337.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17126000
-#EXTINF:-1 group-title="VOD" tvg-logo="",Informe Semanal - La Guerra del Ébola
-https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SMUNINF/mp4/7/8/1786824264387.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17192286
-#EXTINF:-1 group-title="VOD" tvg-logo="",Afgana, la decisión de Waheda
-https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SV18RTV/mp4/0/8/1786628657080.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17190187
-#EXTINF:-1 group-title="VOD" tvg-logo="",Telediario - 21 horas - Adelanto electoral - 05/10/26
-https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_STELED2/mp4/9/1/1791229296919.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17254513
-#EXTINF:-1 group-title="VOD" tvg-logo="",La crisis del metro cuadrado
-https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SESPINF/mp4/0/0/1788638472200.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17213883
-#EXTINF:-1 group-title="VOD" tvg-logo="",ICE: la resistencia digital contra Trump
-https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SSOMDOC/mp4/5/8/1778763954585.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17066109
-#EXTINF:-1 group-title="VOD" tvg-logo="",Las elecciones de Maricarmen
-https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SESPINF/mp4/0/8/1791662315380.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17262199
 #EXTINF:-1 group-title="VOD" tvg-logo="",Informativo 24 horas - 14h - 14/10/26
 https://rtvehlsvodlote7.rtve.es/mediavodv2/resources/TE_SNOTI24/mp4/8/5/1791982464158.mp4/video.m3u8?hls_no_audio_only=true&hls_client_manifest_version=3&idasset=17266650
 #EXTINF:-1 group-title="VOD" tvg-logo="",Telediario Internacional - 13/10/26
