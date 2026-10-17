@@ -16,27 +16,15 @@
     "extra": []
   },
   {
-    "name": "\u2756 RTP Internacional \u1d38\u1d3c\u1d42 \ud83c\uddf5\ud83c\uddf9",
+    "name": "\u2756 RTP 2 \ud83c\uddf5\ud83c\uddf9",
     "group": "Portugal...",
-    "tvg_id": "RTP.Internacional.pt",
-    "logo": "https://raw.githubusercontent.com/iprtl/p1/master/logo/RTPi.png",
-    "url": "https://streaming-live.rtp.pt/liverepeater/rtpi.smil/playlist.m3u8",
+    "tvg_id": "RTP.2.HD.pt",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/portugal/rtp-2-hd-pt.png",
+    "url": "https://streaming-live.rtp.pt/liverepeater/rtp2HD.smil/playlist.m3u8",
     "extra": [
       "#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:144.0) Gecko/20100101 Firefox/144.0",
       "#EXTVLCOPT:http-origin=https://www.rtp.pt",
-      "#EXTVLCOPT:http-referrer=https://www.rtp.pt/play/direto/rtpinternacional"
-    ]
-  },
-  {
-    "name": "\u2756 RTP1 \ud83c\uddf5\ud83c\uddf9",
-    "group": "Portugal...",
-    "tvg_id": "RTP.1.HD.pt",
-    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/portugal/rtp-1-pt.png",
-    "url": "https://streaming-live.rtp.pt/liverepeater/smil:rtp1HD.smil/playlist.m3u8",
-    "extra": [
-      "#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:144.0) Gecko/20100101 Firefox/144.0",
-      "#EXTVLCOPT:http-origin=https://www.rtp.pt",
-      "#EXTVLCOPT:http-referrer=https://www.rtp.pt/play/direto/rtp1"
+      "#EXTVLCOPT:http-referrer=https://www.rtp.pt/play/direto/rtp2"
     ]
   },
   {
@@ -63,6 +51,18 @@
     ]
   },
   {
+    "name": "\u2756 RTP Memoria \u1d38\u1d3c\u1d42 \ud83c\uddf5\ud83c\uddf9",
+    "group": "Portugal...",
+    "tvg_id": "RTP.Mem\u00f3ria.pt",
+    "logo": "https://github.com/tv-logo/tv-logos/raw/main/countries/portugal/rtp-memoria-pt.png",
+    "url": "https://streaming-live.rtp.pt/liverepeater/rtpmem.smil/playlist.m3u8",
+    "extra": [
+      "#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:144.0) Gecko/20100101 Firefox/144.0",
+      "#EXTVLCOPT:http-origin=https://www.rtp.pt",
+      "#EXTVLCOPT:http-referrer=https://www.rtp.pt/play/direto/rtpmemoria"
+    ]
+  },
+  {
     "name": "\u2756 RTP A\u00e7ores \ud83c\uddf5\ud83c\uddf9",
     "group": "Portugal...",
     "tvg_id": "RTP.A\u00e7ores.pt",
@@ -84,18 +84,6 @@
       "#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:144.0) Gecko/20100101 Firefox/144.0",
       "#EXTVLCOPT:http-origin=https://www.rtp.pt",
       "#EXTVLCOPT:http-referrer=https://www.rtp.pt/play/direto/rtmadeira"
-    ]
-  },
-  {
-    "name": "\u2756 RTP \u00c1frica \u1d38\u1d3c\u1d42 \ud83c\uddf5\ud83c\uddf9",
-    "group": "Portugal...",
-    "tvg_id": "RTP.\u00c1frica.pt",
-    "logo": "https://github.com/tv-logo/tv-logos/raw/main/countries/portugal/rtp-africa-pt.png",
-    "url": "https://streaming-live.rtp.pt/liverepeater/rtpafrica.smil/playlist.m3u8",
-    "extra": [
-      "#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:144.0) Gecko/20100101 Firefox/144.0",
-      "#EXTVLCOPT:http-origin=https://www.rtp.pt",
-      "#EXTVLCOPT:http-referrer=https://www.rtp.pt/play/direto/rtpafrica"
     ]
   },
   {
