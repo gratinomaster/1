@@ -2878,27 +2878,29 @@ https://streaming-vod.rtp.pt/hls/nas2.share,/h264/512x384/p17164/p17164_1_202610
 #EXTINF:-1 group-title="RTP" tvg-logo="https://cdn-images.rtp.pt/multimedia/screenshots/p17164/p17164_1_20260924161006e001t7905d.jpg?q=100&format=pjpg&auto=webp&v=3&w=400",Tonight Show By Night Episódio - de 29 set 2026
 https://streaming-vod.rtp.pt/hls/nas2.share,/h264/512x384/p17164/p17164_1_20260924161006e001t7905d.mp4,.urlset/master.m3u8
 #EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/4/49/CBN.png" group-title="NEWS WORLD",CBN SP
-https://live-as-01-01.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJVUyIsImRvbWFpbiI6ImxpdmUtYXMtMDEtMDEudmlkZW8uZ2xvYm8uY29tIiwiZXhwIjoxNzkyNDM1MzIxLCJpYXQiOjE3OTI0MTM3MjEsImlzcyI6InBsYXliYWNrLWFwaS1wcm9kLWdjcCIsIm93bmVyIjoiIiwicGF0aCI6Ii9saXZlL2YoYk1pbj0zMTM5ODQsZHZyPTEyMCkvY2Juc3AyNGhhL3BsYXlsaXN0Lm0zdTgifQ.S67r1MuajF6v-gFsTzaqQK-zwq3ExAVxgoiazAZXnTCFf12ZOwzPMj9OepihKkhSKfwRZPfZDumSqA7kXdu4wjdaohWF2_6py95gUXJ_bPM1685ZTeC5yDmcbE7kosNLzbnNts-cE3UeDHs8RBqRLa8cGh2YNINSV46dXe0rWmH20Vmwmw4PeHcPg56tHe7axDjy8E_FnIdtUBBVjBdEl6zzAOsvsHYpIK1ENpbYc0CcaO99s_GFmcuWbI_vA_PvRvKpgkWc3FA6SAagwOFsI_aIu8x_nlrsTRMwINlUI_jkiUGnBNzc-yPFvXs2jpZLx6SNNDxQFU1UsNYkTLNn4A/live/f(bMin=313984,dvr=120)/cbnsp24ha/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://s.abcnews.com/images/Live/abc_news_live-abc-ml-250210_1739199021469_hpMain_16x9_608.jpg" group-title="NEWS WORLD",Good Morning America First Look | Watch Live News on ABCNL
-https://linear-abcnews-akc-na-central-1.media.dssott.com/dvt2=exp=1792494540~url=%2Flas1%2Fva01%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838%2F~psid=f301db48-052f-43bf-b2cf-0173b8e1f5f8~did=fc76795b-30a1-47c9-a576-2f932a39f8a2~country=US~kid=k02~hmac=9138e02d1b7d186ea9c3efa5b9057e4a3d2d4837520fcc63bc3066aed4593b3b/las1/va01/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838/ctr-all-hdri-sliding.m3u8?r=1080&v=1&hash=81fb88da5aab33fe54dc3f8d7ae5f0b2eaa56a8c
-#EXTINF:-1 tvg-logo="https://s.abcnews.com/images/Live/abc_news_live-abc-ml-250210_1739199021469_hpMain_16x9_608.jpg" group-title="NEWS WORLD",Good Morning America First Look | Watch Live News on ABCNL
-https://linear-abcnews-akc-na-central-1.media.dssott.com/dvt2=exp=1792494540~url=%2Flas1%2Fva01%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838%2F~psid=f301db48-052f-43bf-b2cf-0173b8e1f5f8~did=fc76795b-30a1-47c9-a576-2f932a39f8a2~country=US~kid=k02~hmac=9138e02d1b7d186ea9c3efa5b9057e4a3d2d4837520fcc63bc3066aed4593b3b/las1/va01/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838/audio-aac-1-64K/64_slide.m3u8
-#EXTINF:-1 tvg-logo="https://s.abcnews.com/images/Live/abc_news_live-abc-ml-250210_1739199021469_hpMain_16x9_608.jpg" group-title="NEWS WORLD",Good Morning America First Look | Watch Live News on ABCNL
-https://linear-abcnews-akc-na-central-1.media.dssott.com/dvt2=exp=1792494540~url=%2Flas1%2Fva01%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838%2F~psid=f301db48-052f-43bf-b2cf-0173b8e1f5f8~did=fc76795b-30a1-47c9-a576-2f932a39f8a2~country=US~kid=k02~hmac=9138e02d1b7d186ea9c3efa5b9057e4a3d2d4837520fcc63bc3066aed4593b3b/las1/va01/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838/cmaf-cenc-ctr-1700K/1700_hdri_slide.m3u8
-#EXTINF:-1 tvg-logo="https://s.abcnews.com/images/Live/abc_news_live-abc-ml-250210_1739199021469_hpMain_16x9_608.jpg" group-title="NEWS WORLD",Good Morning America First Look | Watch Live News on ABCNL
-https://linear-abcnews-akc-na-central-1.media.dssott.com/dvt2=exp=1792494540~url=%2Flas1%2Fva01%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838%2F~psid=f301db48-052f-43bf-b2cf-0173b8e1f5f8~did=fc76795b-30a1-47c9-a576-2f932a39f8a2~country=US~kid=k02~hmac=9138e02d1b7d186ea9c3efa5b9057e4a3d2d4837520fcc63bc3066aed4593b3b/las1/va01/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838/cmaf-cenc-ctr-2400K/2400_hdri_slide.m3u8
-#EXTINF:-1 tvg-logo="https://s.abcnews.com/images/Live/abc_news_live-abc-ml-250210_1739199021469_hpMain_16x9_608.jpg" group-title="NEWS WORLD",Good Morning America First Look | Watch Live News on ABCNL
-https://linear-abcnews-akc-na-central-1.media.dssott.com/dvt2=exp=1792494540~url=%2Flas1%2Fva01%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838%2F~psid=f301db48-052f-43bf-b2cf-0173b8e1f5f8~did=fc76795b-30a1-47c9-a576-2f932a39f8a2~country=US~kid=k02~hmac=9138e02d1b7d186ea9c3efa5b9057e4a3d2d4837520fcc63bc3066aed4593b3b/las1/va01/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838/audio-aac-1-128K/128_slide.m3u8
+https://live-as-03-03.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJVUyIsImRvbWFpbiI6ImxpdmUtYXMtMDMtMDMudmlkZW8uZ2xvYm8uY29tIiwiZXhwIjoxNzkyNDYzMzA3LCJpYXQiOjE3OTI0NDE3MDcsImlzcyI6InBsYXliYWNrLWFwaS1wcm9kLWdjcCIsIm93bmVyIjoiIiwicGF0aCI6Ii9saXZlL2YoYk1pbj0zMTM5ODQsZHZyPTEyMCkvY2Juc3AyNGhhL3BsYXlsaXN0Lm0zdTgifQ.g2h8HgPizfEAzKBNpFHaGWyCFbWHb__lHUNAhZPY9a2bEqIDvGectHSTdsMS2wj70_RrTRcTNaoGyGRaDW8W1D9dPQaTPX3LUmSJ5ROpFNnnauJAdR-MDGZyEoGVjUziRISwUbus6A5eLsP7cmaO1qDDRCbszu44-Gl3QGVewwRAakryAkwc0YYIHZdnCJkBiq4lgVX68CdQkD_BKw3rabht6hMX2pE3JSyrhY-0y9Cmjv3EU1JESHFyJgo3vZ9-kl2x8-HGUvnj5Y58gSf3yJbRrbPDlE1VRyAvpRYeyqxUsKEYKe8G4-keigi1k25cLimJW5-pAS5uCGS95A1_5g/live/f(bMin=313984,dvr=120)/cbnsp24ha/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://keyframe-cdn.abcnews.com/streamprovider11.jpg" group-title="NEWS WORLD",ABC News Live - ABC News
+https://linear-abcnews-akc-na-east-1.media.dssott.com/dvt2=exp=1792518057~url=%2Fclt1%2Fva02%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1781081210579%2F~psid=b5266d49-f511-4255-897f-f1994e22d7e9~did=3b9461a9-c953-40d5-b2c6-3960d2c5bfd6~country=US~kid=k02~hmac=b6f3d1d83b173fb33614e4efd4b75fd3d423adad9bf1f56f7890708c84f7c2e6/clt1/va02/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1781081210579/ctr-all-hdri-sliding.m3u8?r=1080&v=1&hash=c00ca54a5fd625c2ce1a442c983e81561832da94
+#EXTINF:-1 tvg-logo="https://keyframe-cdn.abcnews.com/streamprovider11.jpg" group-title="NEWS WORLD",ABC News Live - ABC News
+https://linear-abcnews-akc-na-east-1.media.dssott.com/dvt2=exp=1792518057~url=%2Fclt1%2Fva02%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1781081210579%2F~psid=b5266d49-f511-4255-897f-f1994e22d7e9~did=3b9461a9-c953-40d5-b2c6-3960d2c5bfd6~country=US~kid=k02~hmac=b6f3d1d83b173fb33614e4efd4b75fd3d423adad9bf1f56f7890708c84f7c2e6/clt1/va02/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1781081210579/cmaf-cenc-ctr-1700K/1700_hdri_slide.m3u8
+#EXTINF:-1 tvg-logo="https://keyframe-cdn.abcnews.com/streamprovider11.jpg" group-title="NEWS WORLD",ABC News Live - ABC News
+https://linear-abcnews-akc-na-east-1.media.dssott.com/dvt2=exp=1792518057~url=%2Fclt1%2Fva02%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1781081210579%2F~psid=b5266d49-f511-4255-897f-f1994e22d7e9~did=3b9461a9-c953-40d5-b2c6-3960d2c5bfd6~country=US~kid=k02~hmac=b6f3d1d83b173fb33614e4efd4b75fd3d423adad9bf1f56f7890708c84f7c2e6/clt1/va02/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1781081210579/audio-aac-1-64K/64_slide.m3u8
+#EXTINF:-1 tvg-logo="https://keyframe-cdn.abcnews.com/streamprovider11.jpg" group-title="NEWS WORLD",ABC News Live - ABC News
+https://linear-abcnews-akc-na-east-1.media.dssott.com/dvt2=exp=1792518057~url=%2Fclt1%2Fva02%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1781081210579%2F~psid=b5266d49-f511-4255-897f-f1994e22d7e9~did=3b9461a9-c953-40d5-b2c6-3960d2c5bfd6~country=US~kid=k02~hmac=b6f3d1d83b173fb33614e4efd4b75fd3d423adad9bf1f56f7890708c84f7c2e6/clt1/va02/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1781081210579/audio-aac-1-128K/128_slide.m3u8
+#EXTINF:-1 tvg-logo="https://keyframe-cdn.abcnews.com/streamprovider11.jpg" group-title="NEWS WORLD",ABC News Live - ABC News
+https://linear-abcnews-akc-na-east-1.media.dssott.com/dvt2=exp=1792518057~url=%2Fclt1%2Fva02%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1781081210579%2F~psid=b5266d49-f511-4255-897f-f1994e22d7e9~did=3b9461a9-c953-40d5-b2c6-3960d2c5bfd6~country=US~kid=k02~hmac=b6f3d1d83b173fb33614e4efd4b75fd3d423adad9bf1f56f7890708c84f7c2e6/clt1/va02/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1781081210579/cmaf-cenc-ctr-2400K/2400_hdri_slide.m3u8
+#EXTINF:-1 tvg-logo="https://a57.foxnews.com/cf-images.us-east-1.prod.boltdns.net/v1/static/694940094001/c9b2e2eb-7b87-435c-9510-eab2650ff944/8b584585-acf2-4c37-aa07-aaf2d077bb20/1280x720/match/676/380/image.jpg?ve=1&tl=1" group-title="NEWS WORLD",Fox Business Go | Fox News Video
+https://247.foxbusiness.com/hls/live/2003756/FBNHLSv3/master.m3u8?hdnea=exp=1792435257~acl=/*~hmac=4136b7ba9e547f6ce9dd260dda98c74fc6ebd9d9df503bfdd0e90b7ccef93309
+#EXTINF:-1 tvg-logo="https://a57.foxnews.com/cf-images.us-east-1.prod.boltdns.net/v1/static/694940094001/15de0523-3be4-4a9a-8159-7020114e7036/b6ff623a-26d6-4fd9-8bb8-0856adbf38ce/1280x720/match/676/380/image.jpg?ve=1&tl=1" group-title="NEWS WORLD",Watch Fox News Channel Online | Stream Fox News
+https://247.foxnews.com/hls/live/2003586/FNCHLSv3/master.m3u8?hdnea=exp=1792435257~acl=/*~hmac=4136b7ba9e547f6ce9dd260dda98c74fc6ebd9d9df503bfdd0e90b7ccef93309
 #EXTINF:-1 tvg-logo="https://assets2.cbsnewsstatic.com/hub/i/r/2024/04/16/0fb75ad2-a909-44bb-87dc-86b9d51cbeb2/thumbnail/1280x720/949f3d3fef16f9c113e3048c6aef229f/247-key-channelthumbnail-1920x1080.jpg" group-title="NEWS WORLD",Watch CBS News 24/7, our free live news stream
-https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/d30b0d4f-0e32-411f-b366-454f9128ac17:ATL/master.m3u8
+https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/26b90fab-a2de-4baf-9d46-0fc8c06eeffb:CHS/master.m3u8
 #EXTINF:-1 tvg-logo="https://assets2.cbsnewsstatic.com/hub/i/r/2024/04/16/0fb75ad2-a909-44bb-87dc-86b9d51cbeb2/thumbnail/1280x720/949f3d3fef16f9c113e3048c6aef229f/247-key-channelthumbnail-1920x1080.jpg" group-title="NEWS WORLD",Watch CBS News 24/7, our free live news stream
-https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/d30b0d4f-0e32-411f-b366-454f9128ac17:ATL/variant/2ed2c78fd57ae51fb6ba5d4bbd59e953/bandwidth/441000.m3u8
+https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/26b90fab-a2de-4baf-9d46-0fc8c06eeffb:CHS/variant/2ed2c78fd57ae51fb6ba5d4bbd59e953/bandwidth/441000.m3u8
 #EXTINF:-1 tvg-logo="https://assets2.cbsnewsstatic.com/hub/i/r/2024/04/16/0fb75ad2-a909-44bb-87dc-86b9d51cbeb2/thumbnail/1280x720/949f3d3fef16f9c113e3048c6aef229f/247-key-channelthumbnail-1920x1080.jpg" group-title="NEWS WORLD",Watch CBS News 24/7, our free live news stream
-https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/d30b0d4f-0e32-411f-b366-454f9128ac17:ATL/variant/c1de5c45f7968bb580d02bc76f3a9e7e/bandwidth/1083000.m3u8
+https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/26b90fab-a2de-4baf-9d46-0fc8c06eeffb:CHS/variant/e45ac8e413a627d436bba392e6f69412/bandwidth/1549000.m3u8
 #EXTINF:-1 tvg-logo="https://assets2.cbsnewsstatic.com/hub/i/r/2024/04/16/0fb75ad2-a909-44bb-87dc-86b9d51cbeb2/thumbnail/1280x720/949f3d3fef16f9c113e3048c6aef229f/247-key-channelthumbnail-1920x1080.jpg" group-title="NEWS WORLD",Watch CBS News 24/7, our free live news stream
-https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/d30b0d4f-0e32-411f-b366-454f9128ac17:ATL/variant/b93ad8358bd5b2b671e137cb4cd530a7/bandwidth/2249000.m3u8
-#EXTINF:-1 tvg-logo="https://assets2.cbsnewsstatic.com/hub/i/r/2024/04/16/0fb75ad2-a909-44bb-87dc-86b9d51cbeb2/thumbnail/1280x720/949f3d3fef16f9c113e3048c6aef229f/247-key-channelthumbnail-1920x1080.jpg" group-title="NEWS WORLD",Watch CBS News 24/7, our free live news stream
-https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/d30b0d4f-0e32-411f-b366-454f9128ac17:ATL/variant/11a57601e846fd8dc9b5aeaa8e410e29/bandwidth/4231000.m3u8
+https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/26b90fab-a2de-4baf-9d46-0fc8c06eeffb:CHS/variant/b93ad8358bd5b2b671e137cb4cd530a7/bandwidth/2249000.m3u8
 #EXTINF:-1 group-title="TV ABERTA" tvg-id="Globo Sao Paulo HD.br" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/f/ff/TV_Globo_2021_azul.png/revision/latest?cb=20220201030422",GLOBO
 http://limed.cc:80/4x6cXF/ehfxdp/95657.m3u8
 #EXTINF:-1 group-title="TV ABERTA" tvg-id="RecordTV Sao Paulo HD.br" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/1/10/Logotipo_da_Record.png?20190726203014",RECORD SP
@@ -9733,3 +9735,123 @@ https://streaming-vod.rtp.pt/hls/nas2.share,/pt/h264/512x384/p13613/p13613_1_202
 https://streaming-vod.rtp.pt/hls/nas2.share,/pt/h264/512x384/p13613/p13613_1_20240807161003e006t0948d_hi.mp4,/pt/h264/512x384/p13613/p13613_1_20240807161003e006t0948d_lo.mp4,/pt/h264/512x384/p13613/p13613_1_20240807161003e006t0948d.mp4,.urlset/index-f3-v1-a1.m3u8
 #EXTINF:-1 group-title="Teste" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/TRT_World.svg",Logo SVG - stream AV1/Opus
 https://storage.googleapis.com/bitmovin-demos/av1/stream.mpd
+#EXTINF:-1 tvg-logo="https://archive.org/services/img/rep.-james-talarico-on-confronting-christian-nationalism-and-strange-days-in-the" group-title="VOD",Rep. James Talarico On Confronting Christian Nationalism, And Strange Days In The Texas Legislature
+https://archive.org/download/rep.-james-talarico-on-confronting-christian-nationalism-and-strange-days-in-the/Rep.%20James%20Talarico%20On%20Confronting%20Christian%20Nationalism%2C%20And%20Strange%20Days%20In%20The%20Texas%20Legislature%20-%20The%20Late%20Show%20with%20Stephen%20Colbert%20%281080p%2C%20h264%29.mp4
+#EXTINF:-1 tvg-logo="https://archive.org/services/img/the-perfect-line-gsn-09092025" group-title="VOD",The Perfect Line S1E3: Jada vs. Tina vs. Barbara vs. Sharon
+https://archive.org/download/the-perfect-line-gsn-09092025/ThePerfectLine%28GSN%2909092025.ia.mp4
+#EXTINF:-1 tvg-logo="https://archive.org/services/img/nos-news-2025-08-28" group-title="VOD",NOS Achtuurjournaal 2025-08-28
+https://archive.org/download/nos-news-2025-08-28/NOS-Journaal-20.00-uur-NPO-12025-08-2820-00.mp4
+#EXTINF:-1 tvg-logo="https://archive.org/services/img/nos-news-2025-08-20" group-title="VOD",NOS Achtuurjournaal 2025-08-20
+https://archive.org/download/nos-news-2025-08-20/NOS-Journaal-20.00-uur-NPO-12025-08-2020-00.mp4
+#EXTINF:-1 tvg-logo="https://archive.org/services/img/land.of.the.-lost.-s-02-e-10.-baby.-sitter.-480p.-roku.-web-dl.-aac-2.0.-h.-264" group-title="VOD",Land of the Lost S01-S03 (1974) Web-DL 480p
+https://archive.org/download/land.of.the.-lost.-s-02-e-10.-baby.-sitter.-480p.-roku.-web-dl.-aac-2.0.-h.-264/Land%20of%20the%20Lost%20S01-S03%20%281974%29%20ROKU/S01/Land.of.the.Lost.S01E01.Cha-Ka.480p.ROKU.WEB-DL.AAC2.0.H.264.mkv
+#EXTINF:-1 tvg-logo="https://archive.org/services/img/nos-news-2025-07-24" group-title="VOD",NOS Achtuurjournaal 2025-07-24
+https://archive.org/download/nos-news-2025-07-24/NOS-Journaal-20.00-uur-NPO-12025-07-2420-00.mp4
+#EXTINF:-1 tvg-logo="https://archive.org/services/img/nos-news-2025-07-18" group-title="VOD",NOS Achtuurjournaal 2025-07-18
+https://archive.org/download/nos-news-2025-07-18/NOS-Journaal-20.00-uur-NPO-12025-07-1820-00.mp4
+#EXTINF:-1 tvg-logo="https://archive.org/services/img/nos-news-2025-07-14" group-title="VOD",NOS Achtuurjournaal 2025-07-14
+https://archive.org/download/nos-news-2025-07-14/NOS-Journaal-20.00-uur-NPO-12025-07-1420-00.mp4
+#EXTINF:-1 tvg-logo="https://archive.org/services/img/nos-news-2025-07-08" group-title="VOD",NOS Achtuurjournaal 2025-07-08
+https://archive.org/download/nos-news-2025-07-08/NOS-Journaal-20.00-uur-NPO-12025-07-0820-00.mp4
+#EXTINF:-1 tvg-logo="https://archive.org/services/img/the-bold-and-the-beautiful-august-15-2001" group-title="VOD",The Bold and the Beautiful (August 15, 2001)
+https://archive.org/download/the-bold-and-the-beautiful-august-15-2001/The%20Bold%20And%20The%20Beautiful%20%28August%2015%2C%202001%29.m4v
+#EXTINF:-1 tvg-logo="https://archive.org/services/img/kmax-a-block-6-20-2025" group-title="VOD",KMAX Primetime Sacramento - A-Block | June 20, 2025
+https://archive.org/download/kmax-a-block-6-20-2025/KMAX%20Primetime%20Sacramento%20-%20A-Block%20_%20June%2020%2C%202025.mp4
+#EXTINF:-1 tvg-logo="https://archive.org/services/img/nos-news-2025-06-17" group-title="VOD",NOS Achtuurjournaal 2025-06-17
+https://archive.org/download/nos-news-2025-06-17/NOS-Journaal-20.00-uur-NPO-12025-06-1720-00.mp4
+#EXTINF:-1 tvg-logo="https://archive.org/services/img/kcal-arvr-debut-6-11-2025" group-title="VOD",KCAL Mornings At 9AM - Debut Of AR/VR Studio | June 11, 2025
+https://archive.org/download/kcal-arvr-debut-6-11-2025/KCAL%20Mornings%20at%209AM%20-%20Debut%20of%20AR_VR%20Studio%20_%20June%2011%2C%202025.mp4
+#EXTINF:-1 tvg-logo="https://archive.org/services/img/wtkr-opens-montage-6-6-2025" group-title="VOD",WTKR News 3 Opens Montage | June 6, 2025
+https://archive.org/download/wtkr-opens-montage-6-6-2025/WTKR%20News%203%20Opens%20Montage%20_%20June%206%2C%202025.mp4
+#EXTINF:-1 tvg-logo="https://archive.org/services/img/the-best-news-bloopers-2023-2025" group-title="VOD",The Best News Bloopers 🤣🤣 | (2023 & 2025)
+https://archive.org/download/the-best-news-bloopers-2023-2025/facebook_1748097926878.ia.mp4
+#EXTINF:-1 tvg-logo="https://archive.org/services/img/wcbs-cbs-news-new-york-11-pm-open-up-next-bumper-closing-may-26-27-2025" group-title="VOD",WCBS | CBS News New York @ 11 PM (Open, Up Next Bumper & Closing) | (May 26-27, 2025)
+https://archive.org/download/wcbs-cbs-news-new-york-11-pm-open-up-next-bumper-closing-may-26-27-2025/Video.Guru_20250527_155313126.ia.mp4
+#EXTINF:-1 tvg-logo="https://archive.org/services/img/dvd-transfer-207" group-title="VOD",DVD Transfer 207 (1978 Week 2 Game - Oakland Raiders at San Diego Chargers - NFL Network Rebroadcast/"Holy Roller" Game)
+https://archive.org/download/dvd-transfer-207/1978%20Week%202%20Game%20%28Oakland%20Raiders%20at%20San%20Diego%20Chargers%20-%20Holy%20Roller%20Game%20-%20NFL%20Network%20Rebroadcast%29.ia.mp4
+#EXTINF:-1 tvg-logo="https://archive.org/services/img/nos-news-2025-05-14" group-title="VOD",NOS Achtuurjournaal 2025-05-14
+https://archive.org/download/nos-news-2025-05-14/NOS-Journaal-20.00-uur-NPO-12025-05-1420-00.mp4
+#EXTINF:-1 tvg-logo="https://archive.org/services/img/flip-side-gsn-04302025" group-title="VOD",Flip Side S1E166: Alicia and Jolie vs. Larry and Renee
+https://archive.org/download/flip-side-gsn-04302025/FlipSide%28GSN%2904302025.MP4
+#EXTINF:-1 tvg-logo="https://archive.org/services/img/nos-news-2025-04-01" group-title="VOD",NOS Achtuurjournaal 2025-04-01
+https://archive.org/download/nos-news-2025-04-01/NOS-Journaal-20.00-uur-NPO-12025-04-0120-00.mp4
+#EXTINF:-1 tvg-logo="https://archive.org/services/img/kcal-kcal-news-10-pm-open-up-next-bumper-closing-march-20-21-2025" group-title="VOD",KCAL | KCAL News @ 10 PM (Open, Up Next Bumper & Closing) | (March 20-21, 2025)
+https://archive.org/download/kcal-kcal-news-10-pm-open-up-next-bumper-closing-march-20-21-2025/Video.Guru_20250321_163227041.ia.mp4
+#EXTINF:-1 tvg-logo="https://archive.org/services/img/wcco-wcco-news-mornings-6-am-open-up-next-bumper-closing-march-19-2025" group-title="VOD",WCCO | WCCO News Mornings @ 6 AM (Open, Up Next Bumper & Closing) | (March 19, 2025)
+https://archive.org/download/wcco-wcco-news-mornings-6-am-open-up-next-bumper-closing-march-19-2025/Video.Guru_20250320_100631872.ia.mp4
+#EXTINF:-1 tvg-logo="https://archive.org/services/img/koln-kgin-cbs-10-11-this-morning-6-am-open-up-next-bumper-closing-march-18-2025" group-title="VOD",KOLN/KGIN | CBS 10/11 This Morning @ 6 AM (Open, Up Next Bumper & Closing) | (March 18, 2025)
+https://archive.org/download/koln-kgin-cbs-10-11-this-morning-6-am-open-up-next-bumper-closing-march-18-2025/Video.Guru_20250319_011758436.ia.mp4
+#EXTINF:-1 tvg-logo="https://archive.org/services/img/wmlw-open-new-graphics-3-29-25" group-title="VOD",WMLW CBS 58 News At 9 PM Open & Talent Rejoin - New Graphics & Music | March 18, 2025
+https://archive.org/download/wmlw-open-new-graphics-3-29-25/WMLW%20CBS%2058%20News%20at%209PM%20Open%20%26%20Talent%20Rejoin%20-%20New%20Graphics%20%26%20Music%20_%20March%2018%2C%202025.mp4
+#EXTINF:-1 tvg-logo="https://archive.org/services/img/kovr-cbs-news-sacramento-6-am-open-up-next-bumper-closing-march-17-2025" group-title="VOD",KOVR | CBS News Sacramento @ 6 AM (Open, Up Next Bumper & Closing) | (March 17, 2025)
+https://archive.org/download/kovr-cbs-news-sacramento-6-am-open-up-next-bumper-closing-march-17-2025/Video.Guru_20250318_005428683.ia.mp4
+#EXTINF:-1 tvg-logo="https://archive.org/services/img/wbbm-cbs-news-chicago-6-am-open-up-next-bumper-closing-march-14-2025" group-title="VOD",WBBM | CBS News Chicago @ 6 AM (Open, Up Next Bumper & Closing) | (March 14, 2025)
+https://archive.org/download/wbbm-cbs-news-chicago-6-am-open-up-next-bumper-closing-march-14-2025/Video.Guru_20250315_010553335.ia.mp4
+#EXTINF:-1 tvg-logo="https://archive.org/services/img/wcbs-cbs-news-new-york-6-am-open-up-next-bumper-closing-march-13-2025" group-title="VOD",WCBS | CBS News New York @ 6 AM (Open, Up Next Bumper & Closing) | (March 13, 2025)
+https://archive.org/download/wcbs-cbs-news-new-york-6-am-open-up-next-bumper-closing-march-13-2025/Video.Guru_20250314_013110480.ia.mp4
+#EXTINF:-1 tvg-logo="https://archive.org/services/img/kcnc-cbs-news-colorado-10-pm-breaking-news-open-up-next-bumper-closing-march-12-13-2025" group-title="VOD",KCNC | CBS News Colorado @ 10 PM (Breaking News Open, Up Next Bumper & Closing) | (March 12-13, 2025)
+https://archive.org/download/kcnc-cbs-news-colorado-10-pm-breaking-news-open-up-next-bumper-closing-march-12-13-2025/Video.Guru_20250313_151443001.ia.mp4
+#EXTINF:-1 tvg-logo="https://archive.org/services/img/ktvt-cbs-news-texas-11-am-open-up-next-bumper-closing-march-12-13-2025" group-title="VOD",KTVT | CBS News Texas @ 11 AM (Open, Up Next Bumper & Closing) | (March 12-13, 2025)
+https://archive.org/download/ktvt-cbs-news-texas-11-am-open-up-next-bumper-closing-march-12-13-2025/Video.Guru_20250313_012449362.ia.mp4
+#EXTINF:-1 tvg-logo="https://archive.org/services/img/wdjt-cbs-58-morning-news-6-am-open-up-next-bumper-closing-march-11-2025" group-title="VOD",WDJT | CBS 58 Morning News @ 6 AM (Open, Up Next Bumper & Closing) | (March 11, 2025)
+https://archive.org/download/wdjt-cbs-58-morning-news-6-am-open-up-next-bumper-closing-march-11-2025/Video.Guru_20250312_014521652.ia.mp4
+#EXTINF:-1 tvg-logo="https://archive.org/services/img/wmlw-cbs-58-morning-news-on-wmlw-7-am-open-up-next-bumper-closing-march-11-2025" group-title="VOD",WMLW | CBS 58 Morning News On WMLW @ 7 AM (Open, Up Next Bumper & Closing) | (March 11, 2025)
+https://archive.org/download/wmlw-cbs-58-morning-news-on-wmlw-7-am-open-up-next-bumper-closing-march-11-2025/Video.Guru_20250312_015221522.ia.mp4
+#EXTINF:-1 tvg-logo="https://archive.org/services/img/wwj-cbs-news-detroit-12-nn-open-closing-march-10-11-2025" group-title="VOD",WWJ | CBS News Detroit @ 12 NN (Open & Closing) | (March 10-11, 2025)
+https://archive.org/download/wwj-cbs-news-detroit-12-nn-open-closing-march-10-11-2025/Video.Guru_20250311_115652313.ia.mp4
+#EXTINF:-1 tvg-logo="https://archive.org/services/img/wfor-cbs-news-miami-11-pm-sunday-cbs-4-sports-desk-open-up-next-bumper-closing-march-09-10-2025" group-title="VOD",WFOR | CBS News Miami @ 11 PM - Sunday & CBS 4 Sports Desk (Open, Up Next Bumper & Closing) | (March 09-10, 2025)
+https://archive.org/download/wfor-cbs-news-miami-11-pm-sunday-cbs-4-sports-desk-open-up-next-bumper-closing-march-09-10-2025/Video.Guru_20250310_152214391.ia.mp4
+#EXTINF:-1 tvg-logo="https://archive.org/services/img/kyw-cbs-news-philadelphia-8-am-sunday-open-march-09-2025" group-title="VOD",KYW | CBS News Philadelphia @ 8 AM - Sunday (Open) | (March 09, 2025)
+https://archive.org/download/kyw-cbs-news-philadelphia-8-am-sunday-open-march-09-2025/Video.Guru_20250309_230730257.ia.mp4
+#EXTINF:-1 tvg-logo="https://archive.org/services/img/kcbs-kcal-news-on-cbs-los-angeles-830-am-inside-socal-sunday-morning-with-erica-" group-title="VOD",KCBS | KCAL News On CBS Los Angeles @ 8:30 AM & Inside SoCal Sunday Morning With Erica Olsen (Open, Up Next Bumper & Closing) | (March 09, 2025)
+https://archive.org/download/kcbs-kcal-news-on-cbs-los-angeles-830-am-inside-socal-sunday-morning-with-erica-/Video.Guru_20250310_013418767.ia.mp4
+#EXTINF:-1 tvg-logo="https://archive.org/services/img/kdka-kdka-tv-news-12-nn-open-up-next-bumper-closing-march-07-08-2025" group-title="VOD",KDKA | KDKA-TV News @ 12 NN (Open, Up Next Bumper & Closing) | (March 07-08, 2025)
+https://archive.org/download/kdka-kdka-tv-news-12-nn-open-up-next-bumper-closing-march-07-08-2025/Video.Guru_20250308_115100629.ia.mp4
+#EXTINF:-1 tvg-logo="https://archive.org/services/img/wafb-mardi-gras-opens-3-4-25" group-title="VOD",WAFB 9 News At 6 PM &n10 PM Opens | March 4, 2025
+https://archive.org/download/wafb-mardi-gras-opens-3-4-25/WAFB%209%20News%20at%206PM%20%26%2010PM%20Opens%20_%20March%204%2C%202025.mp4
+#EXTINF:-1 tvg-logo="https://archive.org/services/img/nos-news-2025-03-03" group-title="VOD",NOS Achtuurjournaal 2025-03-03
+https://archive.org/download/nos-news-2025-03-03/NOS-Journaal-20.00-uur-NPO-12025-03-0320-00.mp4
+#EXTINF:-1 tvg-logo="https://archive.org/services/img/nos-news-2025-02-19" group-title="VOD",NOS Achtuurjournaal 2025-02-19
+https://archive.org/download/nos-news-2025-02-19/NOS-Journaal-20.00-uur-NPO-12025-02-1920-00.mp4
+#EXTINF:-1 tvg-logo="https://archive.org/services/img/nos-news-2025-02-03" group-title="VOD",NOS Achtuurjournaal 2025-02-03
+https://archive.org/download/nos-news-2025-02-03/NOS-Journaal-20.00-uur-NPO-12025-02-0320-00.mp4
+#EXTINF:-1 tvg-logo="https://archive.org/services/img/nos-news-2025-01-30" group-title="VOD",NOS Achtuurjournaal 2025-01-30
+https://archive.org/download/nos-news-2025-01-30/NOS-Journaal-20.00-uur-NPO-12025-01-3020-00.mp4
+#EXTINF:-1 tvg-logo="https://archive.org/services/img/cbs-evening-news-january-27-2025" group-title="VOD",CBS Evening News | (January 27, 2025)
+https://archive.org/download/cbs-evening-news-january-27-2025/CBS_Evening_News___Full_Episode_-_27th_January_2025%28480p%29.ia.mp4
+#EXTINF:-1 tvg-logo="https://archive.org/services/img/patrece-kevin-final-show-wthi" group-title="VOD",Patrece Dayton and Kevin Orpurt's Last Show at WTHI-TV | January 16, 2025
+https://archive.org/download/patrece-kevin-final-show-wthi/2024082407.ia.mp4
+#EXTINF:-1 tvg-logo="https://archive.org/services/img/wtvr-richmond-water-crisis-special-1-7-25" group-title="VOD",WTVR CBS 6 Richmond Water Crisis Special | January 7, 2025
+https://archive.org/download/wtvr-richmond-water-crisis-special-1-7-25/WTVR%20CBS%206%20Richmond%20Water%20Crisis%20Special%20_%20January%207%2C%202024.mp4
+#EXTINF:-1 tvg-logo="https://archive.org/services/img/nos-news-2025-01-07" group-title="VOD",NOS Achtuurjournaal 2025-01-07
+https://archive.org/download/nos-news-2025-01-07/NOS-Journaal-20.00-uur-NPO-12025-01-0720-00.mp4
+#EXTINF:-1 tvg-logo="https://archive.org/services/img/syrian-president-ahmed-al-sharaa-the-60-minutes-interview" group-title="VOD",Syrian President Ahmed Al Sharaa The 60 Minutes Interview
+https://archive.org/download/syrian-president-ahmed-al-sharaa-the-60-minutes-interview/Syrian%20President%20Ahmed%20al-Sharaa_%20The%2060%20Minutes%20Interview.ia.mp4
+#EXTINF:-1 tvg-logo="https://archive.org/services/img/rpreplay-final-1739445450_202502" group-title="VOD",Flip Side S1E90: Mary and Seth vs. Cindy and Jim
+https://archive.org/download/rpreplay-final-1739445450_202502/RPReplay_Final1739445450.mp4
+#EXTINF:-1 tvg-logo="https://archive.org/services/img/nos-news-2024-10-01" group-title="VOD",NOS Achtuurjournaal 2024-10-01
+https://archive.org/download/nos-news-2024-10-01/NOS-Journaal-20.00-uur-NPO-12024-10-0120-00.mp4
+#EXTINF:-1 tvg-logo="https://archive.org/services/img/WCTV_6-1_WCTVDT_20240920_013100_CBS_Fall_First_Look" group-title="VOD",CBS Fall First Look : WCTV : September 19, 2024 9:31pm-10:01pm EDT
+https://archive.org/download/WCTV_6-1_WCTVDT_20240920_013100_CBS_Fall_First_Look/WCTV_6-1_WCTVDT_20240920_013100_CBS_Fall_First_Look.mp4
+#EXTINF:-1 tvg-logo="https://archive.org/services/img/nos-news-2024-08-15" group-title="VOD",NOS Achtuurjournaal 2024-08-15
+https://archive.org/download/nos-news-2024-08-15/NOS-Journaal-NPO-12024-08-1520-00.mp4
+#EXTINF:-1 tvg-logo="https://archive.org/services/img/wtvr-noon-a-block-8-15-24" group-title="VOD",WTVR CBS 6 News At Noon - A-Block | August 15, 2024
+https://archive.org/download/wtvr-noon-a-block-8-15-24/WTVR%20CBS%206%20News%20at%20Noon%20-%20A-Block%20_%20August%2015%2C%202024.mp4
+#EXTINF:-1 tvg-logo="https://archive.org/services/img/WTWC_40-1_NBC_20240814_230000_Entertainment_Tonight" group-title="VOD",Entertainment Tonight : WTWC : August 14, 2024 7:00pm-7:30pm EDT
+https://archive.org/download/WTWC_40-1_NBC_20240814_230000_Entertainment_Tonight/WTWC_40-1_NBC_20240814_230000_Entertainment_Tonight.mp4
+#EXTINF:-1 tvg-logo="https://archive.org/services/img/nieuwsuur-2024-08-13" group-title="VOD",NOS-NTR Nieuwsuur 2024-08-13
+https://archive.org/download/nieuwsuur-2024-08-13/Nieuwsuur-NPO-22024-08-1321-30.mp4
+#EXTINF:-1 tvg-logo="https://archive.org/services/img/nieuwsuur-2024-08-07" group-title="VOD",NOS-NTR Nieuwsuur 2024-08-07
+https://archive.org/download/nieuwsuur-2024-08-07/Nieuwsuur-NPO-22024-08-0721-30.mp4
+#EXTINF:-1 tvg-logo="https://archive.org/services/img/sergeant-preston-of-the-yukon-s-01-e-03-trouble-at-hogback" group-title="VOD",Sergeant Preston Of The Yukon (S01 complete)
+https://archive.org/download/sergeant-preston-of-the-yukon-s-01-e-03-trouble-at-hogback/Sergeant%20Preston%20of%20the%20Yukon%20S01E01%20Vindication%20of%20Yukon%20King.ia.mp4
+#EXTINF:-1 tvg-logo="https://archive.org/services/img/sergeant-preston-of-the-yukon-s-02-e-05-littlest-rookie" group-title="VOD",Sergeant Preston Of The Yukon (S02 complete)
+https://archive.org/download/sergeant-preston-of-the-yukon-s-02-e-05-littlest-rookie/Sergeant%20Preston%20of%20the%20Yukon%20S02E01%20The%20Limping%20King.ia.mp4
+#EXTINF:-1 tvg-logo="https://archive.org/services/img/sergeant-preston-of-the-yukon-s-03-e-19-escape-to-the-north" group-title="VOD",Sergeant Preston Of The Yukon (S03 complete)
+https://archive.org/download/sergeant-preston-of-the-yukon-s-03-e-19-escape-to-the-north/Sergeant%20Preston%20of%20the%20Yukon%20S03E01%20Old%20Ben%27s%20Gold.ia.mp4
+#EXTINF:-1 tvg-logo="https://archive.org/services/img/nos-news-2024-07-30" group-title="VOD",NOS Achtuurjournaal 2024-07-30
+https://archive.org/download/nos-news-2024-07-30/NOS-Journaal-NPO-12024-07-3020-00.mp4
+#EXTINF:-1 tvg-logo="https://archive.org/services/img/WTWC_40-1_NBC_20240730_230000_Entertainment_Tonight" group-title="VOD",Entertainment Tonight : WTWC : July 30, 2024 7:00pm-7:30pm EDT
+https://archive.org/download/WTWC_40-1_NBC_20240730_230000_Entertainment_Tonight/WTWC_40-1_NBC_20240730_230000_Entertainment_Tonight.mp4
+#EXTINF:-1 tvg-logo="https://archive.org/services/img/studio-one-gian-carlo-menotti-the-medium-1948" group-title="VOD",Studio One - Gian Carlo Menotti: The Medium (1948)
+https://archive.org/download/studio-one-gian-carlo-menotti-the-medium-1948/Studio%20One%20-%20Gian%20Carlo%20Menotti%20-%20The%20Medium%20%281948%29-.mp4

@@ -5,7 +5,7 @@ import re
 import json
 import urllib.request
 import urllib.error
-from urllib.parse import quote, urlparse, urlsplit, urlunsplit
+from urllib.parse import quote, urlparse, urlsplit, urlunsplit, parse_qs
 
 UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 
@@ -46,7 +46,15 @@ ADDITIONAL_M3U_SOURCES = [
     "https://github.com/punkrastafari/neta/raw/refs/heads/main/lista_final.m3u",
 ]
 
+# D. Fonte de videos VOD do Internet Archive
+VOD_SOURCES = [
+    "https://archive.org/details/television?query=cbs&sort=date&tab=collection",
+]
+
 ALL_SOURCES = list(dict.fromkeys(SOURCES + API_SOURCES + SCHEDULED_M3U_SOURCES + ADDITIONAL_M3U_SOURCES))
+
+VOD_MAX_ITEMS = 60
+VIDEO_EXTS = (".mp4", ".m4v", ".mkv", ".webm", ".ogv", ".avi", ".mpg", ".mpeg")
 
 OUT_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), "lista1.m3u")
 
@@ -255,6 +263,67 @@ def handle_source(url, out):
         pass
 
 
+def parse_vod_source(url):
+    """Extrai a colecao (path /details/<collection>) e o termo de busca (query)."""
+    p = urlparse(url)
+    parts = [x for x in p.path.split("/") if x]
+    collection = parts[1] if len(parts) > 1 and parts[0] == "details" else ""
+    query = parse_qs(p.query).get("query", [""])[0]
+    return collection, query
+
+
+def collect_vod(url, out, max_items=VOD_MAX_ITEMS):
+    """Pesquisa itens no Internet Archive e extrai apenas videos reproduziveis."""
+    collection, query = parse_vod_source(url)
+    if not query and not collection:
+        return 0
+    q = f"collection:{collection} AND {query}" if collection else query
+    search = (
+        "https://archive.org/advancedsearch.php?q="
+        + quote(q)
+        + "&fl%5B%5D=identifier&fl%5B%5D=title&fl%5B%5D=mediatype"
+        + "&sort%5B%5D=date+desc&rows="
+        + str(max_items)
+        + "&page=1&output=json"
+    )
+    txt = fetch_url(search)
+    if not txt:
+        return 0
+    try:
+        docs = json.loads(txt).get("response", {}).get("docs", []) or []
+    except Exception:
+        return 0
+
+    added = 0
+    for doc in docs:
+        ident = doc.get("identifier")
+        if not ident:
+            continue
+        meta_txt = fetch_url("https://archive.org/metadata/" + quote(ident, safe=""))
+        if not meta_txt:
+            continue
+        try:
+            meta = json.loads(meta_txt)
+        except Exception:
+            continue
+        title = (meta.get("metadata", {}).get("title") or doc.get("title") or ident)
+        play = None
+        for f in meta.get("files", []) or []:
+            name = f.get("name", "") or ""
+            fmt = (f.get("format", "") or "").lower()
+            if name.lower().endswith(VIDEO_EXTS) and fmt != "thumb":
+                play = name
+                break
+        if not play:
+            continue
+        logo = "https://archive.org/services/img/" + ident
+        extinf = f'#EXTINF:-1 tvg-logo="{logo}" group-title="VOD",{title}'
+        play_url = "https://archive.org/download/" + ident + "/" + quote(play, safe="/%")
+        out.append((extinf, title, play_url))
+        added += 1
+    return added
+
+
 def main():
     entries = []
     for url in ALL_SOURCES:
@@ -263,6 +332,11 @@ def main():
         got = len(entries) - before
         status = "ok" if got else "VAZIO"
         print(f"[{status}] {url} -> {got} entradas")
+
+    for url in VOD_SOURCES:
+        got = collect_vod(url, entries)
+        status = "ok" if got else "VAZIO"
+        print(f"[{status}] {url} -> {got} videos VOD")
 
     out_lines = ["#EXTM3U"]
     for extinf, name, url in entries:
