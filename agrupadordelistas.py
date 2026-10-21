@@ -7,7 +7,7 @@ import pytz
 import requests
 
 TIMEZONE = pytz.timezone("America/Sao_Paulo")
-OUTPUT_FILE = "lista1.M3U"
+OUTPUT_FILE = "lista1.m3u"
 REQUEST_TIMEOUT = 30
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0 Safari/537.36"
@@ -51,6 +51,21 @@ ADDITIONAL_M3U_SOURCES = [
     "https://github.com/ipstreet312/freeiptv/raw/refs/heads/master/all.m3u",
     "https://github.com/punkrastafari/neta/raw/refs/heads/main/lista_final.m3u",
 ]
+
+SOURCE_FALLBACKS = {
+    "https://github.com/strikeinthehouse/1/raw/refs/heads/main/lista_1.M3U": [
+        "https://github.com/gratinomaster/JCTV/raw/refs/heads/main/lista1.m3u",
+    ],
+    "https://github.com/strikeinthehouse/1/raw/main/lista2.M3U": [
+        "https://github.com/gratinomaster/1/raw/main/lista2.M3U",
+    ],
+    "https://github.com/strikeinthehouse/M3UPT/raw/main/M3U/M3UPT.m3u": [
+        "https://github.com/LITUATUI/M3UPT/raw/main/M3U/M3UPT.m3u",
+    ],
+    "https://github.com/punkstarbr/STR-YT/raw/main/lista1.M3U": [
+        "https://github.com/punkstarbr/STR-YT/raw/main/lista1.m3u",
+    ],
+}
 
 
 def fetch_text(url):
@@ -101,7 +116,11 @@ def parse_m3u(text):
                 j += 1
                 break
         if url:
-            name = line.split(",")[-1].strip()
+            if "," in line:
+                name = line.split(",")[-1].strip()
+            else:
+                match = re.search(r'tvg-name="([^"]*)"', line)
+                name = match.group(1).strip() if match else line.strip()
             entries.append({"extinf": line, "extras": extras, "url": url, "name": name})
         i = j
     return entries
@@ -110,6 +129,12 @@ def parse_m3u(text):
 def collect_from_url(url):
     print(f"Processando: {url}")
     text = fetch_text(url)
+    if text is None:
+        for fallback in SOURCE_FALLBACKS.get(url, []):
+            print(f"  Tentando alternativa: {fallback}")
+            text = fetch_text(fallback)
+            if text is not None:
+                break
     if text is None:
         return [], []
 

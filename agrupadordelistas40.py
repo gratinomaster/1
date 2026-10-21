@@ -39,7 +39,7 @@ lists = sorted(lists, key=lambda x: x[0])
 
 
 line_count = 0
-with open("lista1.M3U", "a") as f:
+with open("lista1.m3u", "a") as f:
     for l in lists:
         lines = l[1].split("\n")
         for line in lines:
