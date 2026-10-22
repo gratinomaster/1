@@ -110,6 +110,15 @@ PLACEHOLDER_URLS = {
 MANIFEST = {}
 
 
+def normalize_stream_url(url):
+    if not url:
+        return None
+    cleaned = url.strip()
+    while cleaned.startswith("+"):
+        cleaned = cleaned[1:].strip()
+    return cleaned
+
+
 def is_stream_url(url):
     if not url or "://" not in url:
         return False
@@ -182,6 +191,7 @@ def parse_m3u(text):
                 break
         if url and not is_stream_url(url):
             url = None
+        url = normalize_stream_url(url)
         if url:
             if "," in line:
                 name = line.split(",")[-1].strip()
