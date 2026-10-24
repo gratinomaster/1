@@ -11,7 +11,7 @@ import pytz
 import requests
 
 TIMEZONE = pytz.timezone("America/Sao_Paulo")
-OUTPUT_FILE = "lista1.m3u"
+OUTPUT_FILE = "lista1.M3U"
 CACHE_DIR = ".m3u_cache"
 MANIFEST_FILE = os.path.join(CACHE_DIR, "manifest.json")
 REQUEST_TIMEOUT = 30
