@@ -70,7 +70,7 @@ jobs:
               "https://github.com/ipstreet312/freeiptv/raw/refs/heads/master/all.m3u",
               "https://github.com/punkrastafari/neta/raw/refs/heads/main/lista_final.m3u",
           ]
-          salve em lista1.m3u apagando os canais que estavam nesse arquivo antes de colocar os novos
+          salve em lista1.M3U apagando os canais que estavam nesse arquivo antes de colocar os novos
           EOF
 
       - name: Run OpenCode
