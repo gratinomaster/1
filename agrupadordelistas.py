@@ -491,6 +491,16 @@ def main():
         all_entries.extend(entries)
         epg_urls.extend(found_epg)
 
+    print("\n=== Fontes adicionais (E) ===")
+    for add_url in ADDITIONAL_M3U_SOURCES:
+        if add_url in seen_sources:
+            continue
+        seen_sources.add(add_url)
+        print(f"Processando: {add_url}")
+        entries, found_epg = collect_source(add_url, downloaded)
+        all_entries.extend(entries)
+        epg_urls.extend(found_epg)
+
     print("\n=== Fontes programadas (America/Sao_Paulo) ===")
     scheduled_urls = set()
     for source in SCHEDULED_M3U_SOURCES:
