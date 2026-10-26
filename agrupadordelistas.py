@@ -25,7 +25,7 @@ M3U_SOURCES = [
     "https://github.com/gratinomaster/1/raw/refs/heads/main/lista2.M3U",
     "https://github.com/iptv-org/iptv/raw/6b77242580c3b34d34f984265bfed2937708fce0/streams/us_moveonjoy.m3u",
     "https://github.com/strikeinthehouse/1/raw/refs/heads/main/lista_1.M3U",
-    "https://github.com/toxp/wepg/raw/df55b2ba14f8ec85bd198f85bd3c8cf35d3fa482/list/lista-globos-mitv.m3u",
+    "https://github.com/otoxp/wepg/raw/df55b2ba14f8ec85bd198f85bd3c8cf35d3fa482/list/lista-globos-mitv.m3u",
     "https://github.com/punkstarbr/STR-YT/raw/refs/heads/main/REALITY.m3u",
     "https://github.com/iprtl/m3u/raw/b8507db8229defeda88512eaaf66bfe0e385e81c/Freetv.m3u",
     "https://github.com/ipstreet312/freeiptv/raw/refs/heads/master/all.m3u",
@@ -42,8 +42,6 @@ GITHUB_API_SOURCES = [
 SCHEDULED_M3U_SOURCES = [
     {"url": "https://github.com/LITUATUI/M3UPT/raw/main/M3U/M3UPT.m3u", "start": time(17, 30), "end": time(23, 0)},
     {"url": "https://github.com/strikeinthehouse/1/raw/main/lista2.M3U", "start": time(11, 30), "end": time(13, 30)},
-    {"url": "https://github.com/strikeinthehouse/1/raw/main/lista2.M3U", "start": time(19, 0), "end": time(19, 45)},
-    {"url": "https://github.com/strikeinthehouse/1/raw/main/lista2.M3U", "start": time(17, 30), "end": time(20, 0)},
     {"url": "https://github.com/punkstarbr/STR-YT/raw/main/lista1.M3U", "start": time(6, 0), "end": time(23, 59)},
     {"url": "https://github.com/strikeinthehouse/M3UPT/raw/main/M3U/M3UPT.m3u", "start": time(6, 0), "end": time(23, 59)},
 ]
@@ -468,69 +466,16 @@ def main():
     seen_sources = set()
     downloaded = set()
 
-    source_groups = [(M3U_SOURCES, "fontes fixas"), (ADDITIONAL_M3U_SOURCES, "fontes adicionais")]
-    for sources, label in source_groups:
-        print(f"\n=== {label} ===")
-        for url in sources:
-            if url in seen_sources:
-                print(f"Ja processada, ignorando duplicata: {url}")
-                continue
-            seen_sources.add(url)
-            print(f"Processando: {url}")
-            entries, found_epg = collect_source(url, downloaded)
-            all_entries.extend(entries)
-            epg_urls.extend(found_epg)
-
-    print("\n=== API do GitHub ===")
-    for api_url in GITHUB_API_SOURCES:
-        if api_url in seen_sources:
-            continue
-        seen_sources.add(api_url)
-        print(f"Processando API: {api_url}")
-        entries, found_epg = collect_source(api_url, downloaded)
-        all_entries.extend(entries)
-        epg_urls.extend(found_epg)
-
     print("\n=== Fontes adicionais (E) ===")
     for add_url in ADDITIONAL_M3U_SOURCES:
         if add_url in seen_sources:
+            print(f"Ja processada, ignorando duplicata: {add_url}")
             continue
         seen_sources.add(add_url)
         print(f"Processando: {add_url}")
         entries, found_epg = collect_source(add_url, downloaded)
         all_entries.extend(entries)
         epg_urls.extend(found_epg)
-
-    print("\n=== Fontes programadas (America/Sao_Paulo) ===")
-    scheduled_urls = set()
-    for source in SCHEDULED_M3U_SOURCES:
-        if source["url"] in scheduled_urls:
-            continue
-        window = f"{source['start'].strftime('%H:%M')}-{source['end'].strftime('%H:%M')}"
-        if not in_schedule(source["start"], source["end"]):
-            print(f"Fora do horario ({window}): {source['url']}")
-            entries, found_epg = collect_source(source["url"], downloaded, allow_network=False)
-            all_entries.extend(entries)
-            epg_urls.extend(found_epg)
-            continue
-        scheduled_urls.add(source["url"])
-        print(f"Processando ({window}): {source['url']}")
-        entries, found_epg = collect_source(source["url"], downloaded)
-        all_entries.extend(entries)
-        epg_urls.extend(found_epg)
-
-    print("\n=== VOD Internet Archive ===")
-    vod_entries, vod_epg = collect_vod(downloaded)
-    if vod_entries:
-        save_cache(VOD_SOURCES[0], vod_entries, vod_epg)
-        all_entries.extend(vod_entries)
-        epg_urls.extend(vod_epg)
-    else:
-        cached = load_cache(VOD_SOURCES[0])
-        if cached:
-            print(f"  VOD preservado do cache: {len(cached[0])} itens")
-            all_entries.extend(cached[0])
-            epg_urls.extend(cached[1])
 
     deduped = []
     seen_channels = set()
