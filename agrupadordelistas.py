@@ -77,6 +77,9 @@ SOURCE_FALLBACKS = {
     "https://github.com/punkstarbr/STR-YT/raw/refs/heads/main/lista1.M3U": [
         "https://raw.githubusercontent.com/punkstarbr/STR-YT/main/lista1.m3u",
     ],
+    "https://github.com/otoxp/wepg/raw/df55b2ba14f8ec85bd198f85bd3c8cf35d3fa482/list/lista-globos-mitv.m3u": [
+        "https://raw.githubusercontent.com/25011966V/iptv/master/Teste",
+    ],
     "https://github.com/toxp/wepg/raw/df55b2ba14f8ec85bd198f85bd3c8cf35d3fa482/list/lista-globos-mitv.m3u": [
         "https://raw.githubusercontent.com/25011966V/iptv/master/Teste",
     ],
@@ -284,6 +287,10 @@ def load_manifest():
         print(f"Falha ao ler manifesto: {e}")
 
 
+def source_key(url):
+    return normalize_source_url(url).rstrip("/").lower()
+
+
 def parse_payload(url, text, downloaded):
     epg_urls = []
     lines = text.splitlines()
@@ -292,17 +299,17 @@ def parse_payload(url, text, downloaded):
     if url.lower().endswith((".m3u", ".m3u8")) or "#EXTM3U" in text[:200]:
         print("  Arquivo M3U direto")
         epg_urls.extend(extract_epg_urls(first_line))
-        return parse_m3u(text), epg_urls
+        return parse_m3u(text), epg_urls, True
 
     try:
         contents = json.loads(text)
     except ValueError:
         print("  Conteudo nao reconhecido, ignorando")
-        return [], []
+        return [], [], False
 
     if not isinstance(contents, list):
         print("  Resposta JSON invalida, ignorando")
-        return [], []
+        return [], [], False
 
     print(f"  Diretorio GitHub com {len(contents)} itens")
     entries = []
@@ -321,7 +328,7 @@ def parse_payload(url, text, downloaded):
         sub_lines = m3u_text.splitlines()
         epg_urls.extend(extract_epg_urls(sub_lines[0] if sub_lines else ""))
         entries.extend(parse_m3u(m3u_text))
-    return entries, epg_urls
+    return entries, epg_urls, True
 
 
 def source_candidates(url):
@@ -347,10 +354,10 @@ def fetch_source(url, downloaded):
         text = fetch_text(candidate)
         if text is None:
             continue
-        entries, epg_urls = parse_payload(candidate, text, downloaded)
+        entries, epg_urls, valid = parse_payload(candidate, text, downloaded)
         if entries:
             return entries, epg_urls, True
-        if empty_result is None:
+        if valid and empty_result is None:
             empty_result = (entries, epg_urls)
     if empty_result is not None:
         return empty_result[0], empty_result[1], True
@@ -456,6 +463,17 @@ def collect_vod(downloaded):
                 "name": title,
             })
             print(f"  VOD encontrado: {title}")
+
+    vod_url = VOD_SOURCES[0] if VOD_SOURCES else None
+    if entries:
+        if vod_url:
+            save_cache(vod_url, entries, epg_urls)
+        return entries, epg_urls
+    if vod_url:
+        cached = load_cache(vod_url)
+        if cached is not None:
+            print(f"  VOD preservado do cache: {len(cached[0])} itens")
+            return cached[0], cached[1]
     return entries, epg_urls
 
 
@@ -466,16 +484,48 @@ def main():
     seen_sources = set()
     downloaded = set()
 
-    print("\n=== Fontes adicionais (E) ===")
-    for add_url in ADDITIONAL_M3U_SOURCES:
-        if add_url in seen_sources:
-            print(f"Ja processada, ignorando duplicata: {add_url}")
-            continue
-        seen_sources.add(add_url)
-        print(f"Processando: {add_url}")
-        entries, found_epg = collect_source(add_url, downloaded)
+    if os.path.exists(OUTPUT_FILE):
+        try:
+            with open(OUTPUT_FILE, encoding="utf-8") as f:
+                previous_header = f.readline().strip()
+            epg_urls.extend(extract_epg_urls(previous_header))
+        except OSError as e:
+            print(f"Falha ao ler o EPG anterior: {e}")
+
+    def add_source(url, allow_network=True):
+        key = source_key(url)
+        if key in seen_sources:
+            print(f"Ja processada, ignorando duplicata: {url}")
+            return
+        seen_sources.add(key)
+        print(f"Processando: {url}")
+        entries, found_epg = collect_source(url, downloaded, allow_network=allow_network)
         all_entries.extend(entries)
         epg_urls.extend(found_epg)
+
+    print("\n=== A. Playlists M3U ===")
+    for source_url in M3U_SOURCES:
+        add_source(source_url)
+
+    print("\n=== B. Repositorios via API do GitHub ===")
+    for source_url in GITHUB_API_SOURCES:
+        add_source(source_url)
+
+    print("\n=== C. Fontes programadas ===")
+    for item in SCHEDULED_M3U_SOURCES:
+        allowed = in_schedule(item["start"], item["end"])
+        state = "dentro" if allowed else "fora"
+        print(f"Janela {item['start'].strftime('%H:%M')}-{item['end'].strftime('%H:%M')} ({state}): {item['url']}")
+        add_source(item["url"], allow_network=allowed)
+
+    print("\n=== D. VOD do Internet Archive ===")
+    vod_entries, vod_epg = collect_vod(downloaded)
+    all_entries.extend(vod_entries)
+    epg_urls.extend(vod_epg)
+
+    print("\n=== E. Fontes adicionais ===")
+    for source_url in ADDITIONAL_M3U_SOURCES:
+        add_source(source_url)
 
     deduped = []
     seen_channels = set()
@@ -490,6 +540,11 @@ def main():
     for epg_url in epg_urls:
         if epg_url not in unique_epg:
             unique_epg.append(epg_url)
+
+    if not deduped:
+        print("Nenhum canal coletado; preservando o arquivo existente")
+        save_manifest()
+        return
 
     header = "#EXTM3U"
     if unique_epg:
