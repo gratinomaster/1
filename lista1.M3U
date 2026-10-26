@@ -11566,18 +11566,32 @@ https://ztnr.rtve.es/ztnr/res/La1_CAT.m3u8
 https://ztnr.rtve.es/ztnr/res/La1_MAD.m3u8
 #EXTINF:-1 group-title="VOD",Canal 24 Horas
 https://rtvelivestream-lvlt.rtve.es/24h.m3u8
-#EXTINF:-1 tvg-logo="https://a57.foxnews.com/cf-images.us-east-1.prod.boltdns.net/v1/static/694940094001/15de0523-3be4-4a9a-8159-7020114e7036/b6ff623a-26d6-4fd9-8bb8-0856adbf38ce/1280x720/match/676/380/image.jpg?ve=1&tl=1" group-title="NEWS WORLD",Watch Fox News Channel Online | Stream Fox News
-https://247.foxnews.com/hls/live/2003586/FNCHLSv3/master.m3u8?hdnea=exp=1792969199~acl=/*~hmac=03f6c7c6d8a6ba5d5cfbc2ea752c19c8c230c4072907a14d1df31c957ae9dfa8
+#EXTINF:-1 tvg-logo="https://s.abcnews.com/images/Live/abc_news_live-abc-ml-250210_1739199021469_hpMain_16x9_608.jpg" group-title="NEWS WORLD",CMA Presents I Will Always Love You: A Celebration of Dolly Parton | Watch Live News on ABCNL
+https://linear-abcnews-akc-na-west-1.media.dssott.com/dvt2=exp=1793058941~url=%2Flas1%2Fva01%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838%2F~psid=a90fa8f2-3b79-4ed4-9728-0e38a1275b78~did=47c7a949-c3a5-4bd3-8d19-aabf764b3b6b~country=US~kid=k02~hmac=0aed265d8671285898316a334d6ab8c9fce013337f6974fe9bcf7f80569306ba/las1/va01/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838/ctr-all-hdri-sliding.m3u8?r=1080&v=1&hash=81fb88da5aab33fe54dc3f8d7ae5f0b2eaa56a8c
+#EXTINF:-1 tvg-logo="https://s.abcnews.com/images/Live/abc_news_live-abc-ml-250210_1739199021469_hpMain_16x9_608.jpg" group-title="NEWS WORLD",CMA Presents I Will Always Love You: A Celebration of Dolly Parton | Watch Live News on ABCNL
+https://linear-abcnews-akc-na-west-1.media.dssott.com/dvt2=exp=1793058941~url=%2Flas1%2Fva01%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838%2F~psid=a90fa8f2-3b79-4ed4-9728-0e38a1275b78~did=47c7a949-c3a5-4bd3-8d19-aabf764b3b6b~country=US~kid=k02~hmac=0aed265d8671285898316a334d6ab8c9fce013337f6974fe9bcf7f80569306ba/las1/va01/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838/cmaf-cenc-ctr-1700K/1700_hdri_slide.m3u8
+#EXTINF:-1 tvg-logo="https://s.abcnews.com/images/Live/abc_news_live-abc-ml-250210_1739199021469_hpMain_16x9_608.jpg" group-title="NEWS WORLD",CMA Presents I Will Always Love You: A Celebration of Dolly Parton | Watch Live News on ABCNL
+https://linear-abcnews-akc-na-west-1.media.dssott.com/dvt2=exp=1793058941~url=%2Flas1%2Fva01%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838%2F~psid=a90fa8f2-3b79-4ed4-9728-0e38a1275b78~did=47c7a949-c3a5-4bd3-8d19-aabf764b3b6b~country=US~kid=k02~hmac=0aed265d8671285898316a334d6ab8c9fce013337f6974fe9bcf7f80569306ba/las1/va01/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838/audio-aac-1-64K/64_slide.m3u8
+#EXTINF:-1 tvg-logo="https://s.abcnews.com/images/Live/abc_news_live-abc-ml-250210_1739199021469_hpMain_16x9_608.jpg" group-title="NEWS WORLD",CMA Presents I Will Always Love You: A Celebration of Dolly Parton | Watch Live News on ABCNL
+https://linear-abcnews-akc-na-west-1.media.dssott.com/dvt2=exp=1793058941~url=%2Flas1%2Fva01%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838%2F~psid=a90fa8f2-3b79-4ed4-9728-0e38a1275b78~did=47c7a949-c3a5-4bd3-8d19-aabf764b3b6b~country=US~kid=k02~hmac=0aed265d8671285898316a334d6ab8c9fce013337f6974fe9bcf7f80569306ba/las1/va01/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838/audio-aac-1-128K/128_slide.m3u8
+#EXTINF:-1 tvg-logo="https://s.abcnews.com/images/Live/abc_news_live-abc-ml-250210_1739199021469_hpMain_16x9_608.jpg" group-title="NEWS WORLD",CMA Presents I Will Always Love You: A Celebration of Dolly Parton | Watch Live News on ABCNL
+https://linear-abcnews-akc-na-west-1.media.dssott.com/dvt2=exp=1793058941~url=%2Flas1%2Fva01%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838%2F~psid=a90fa8f2-3b79-4ed4-9728-0e38a1275b78~did=47c7a949-c3a5-4bd3-8d19-aabf764b3b6b~country=US~kid=k02~hmac=0aed265d8671285898316a334d6ab8c9fce013337f6974fe9bcf7f80569306ba/las1/va01/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838/cmaf-cenc-ctr-2400K/2400_hdri_slide.m3u8
 #EXTINF:-1 tvg-logo="https://a57.foxnews.com/cf-images.us-east-1.prod.boltdns.net/v1/static/694940094001/c9b2e2eb-7b87-435c-9510-eab2650ff944/8b584585-acf2-4c37-aa07-aaf2d077bb20/1280x720/match/676/380/image.jpg?ve=1&tl=1" group-title="NEWS WORLD",Fox Business Go | Fox News Video
-https://247.foxbusiness.com/hls/live/2003756/FBNHLSv3/master.m3u8?hdnea=exp=1792969199~acl=/*~hmac=03f6c7c6d8a6ba5d5cfbc2ea752c19c8c230c4072907a14d1df31c957ae9dfa8
+https://247.foxbusiness.com/hls/live/2003756/FBNHLSv3/master.m3u8?hdnea=exp=1792976143~acl=/*~hmac=4699bbb5391a3b0c726ca9a4f8af608477b0865fd7699f9eac5b4ca9065c39ca
+#EXTINF:-1 tvg-logo="https://a57.foxnews.com/cf-images.us-east-1.prod.boltdns.net/v1/static/694940094001/c9b2e2eb-7b87-435c-9510-eab2650ff944/8b584585-acf2-4c37-aa07-aaf2d077bb20/1280x720/match/676/380/image.jpg?ve=1&tl=1" group-title="NEWS WORLD",Fox Business Go | Fox News Video
+https://247.foxbusiness.com/hls/live/2003756/FBNHLSv3/primary_2692.m3u8
+#EXTINF:-1 tvg-logo="https://a57.foxnews.com/cf-images.us-east-1.prod.boltdns.net/v1/static/694940094001/15de0523-3be4-4a9a-8159-7020114e7036/b6ff623a-26d6-4fd9-8bb8-0856adbf38ce/1280x720/match/676/380/image.jpg?ve=1&tl=1" group-title="NEWS WORLD",Watch Fox News Channel Online | Stream Fox News
+https://247.foxnews.com/hls/live/2003586/FNCHLSv3/master.m3u8?hdnea=exp=1792976143~acl=/*~hmac=4699bbb5391a3b0c726ca9a4f8af608477b0865fd7699f9eac5b4ca9065c39ca
 #EXTINF:-1 tvg-logo="https://assets2.cbsnewsstatic.com/hub/i/r/2024/04/16/0fb75ad2-a909-44bb-87dc-86b9d51cbeb2/thumbnail/1280x720/949f3d3fef16f9c113e3048c6aef229f/247-key-channelthumbnail-1920x1080.jpg" group-title="NEWS WORLD",Watch CBS News 24/7, our free live news stream
-https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/2820be1c-33f6-43f5-99ed-f69a838bb30c:CHS/master.m3u8
+https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/5a103646-c7fe-4ae4-b08a-157fb8a522a1:ATL/master.m3u8
 #EXTINF:-1 tvg-logo="https://assets2.cbsnewsstatic.com/hub/i/r/2024/04/16/0fb75ad2-a909-44bb-87dc-86b9d51cbeb2/thumbnail/1280x720/949f3d3fef16f9c113e3048c6aef229f/247-key-channelthumbnail-1920x1080.jpg" group-title="NEWS WORLD",Watch CBS News 24/7, our free live news stream
-https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/2820be1c-33f6-43f5-99ed-f69a838bb30c:CHS/variant/2ed2c78fd57ae51fb6ba5d4bbd59e953/bandwidth/441000.m3u8
+https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/5a103646-c7fe-4ae4-b08a-157fb8a522a1:ATL/variant/2ed2c78fd57ae51fb6ba5d4bbd59e953/bandwidth/441000.m3u8
 #EXTINF:-1 tvg-logo="https://assets2.cbsnewsstatic.com/hub/i/r/2024/04/16/0fb75ad2-a909-44bb-87dc-86b9d51cbeb2/thumbnail/1280x720/949f3d3fef16f9c113e3048c6aef229f/247-key-channelthumbnail-1920x1080.jpg" group-title="NEWS WORLD",Watch CBS News 24/7, our free live news stream
-https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/2820be1c-33f6-43f5-99ed-f69a838bb30c:CHS/variant/e45ac8e413a627d436bba392e6f69412/bandwidth/1549000.m3u8
+https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/5a103646-c7fe-4ae4-b08a-157fb8a522a1:ATL/variant/9a27c00933e4743a3ea19ac812d5532c/bandwidth/733000.m3u8
 #EXTINF:-1 tvg-logo="https://assets2.cbsnewsstatic.com/hub/i/r/2024/04/16/0fb75ad2-a909-44bb-87dc-86b9d51cbeb2/thumbnail/1280x720/949f3d3fef16f9c113e3048c6aef229f/247-key-channelthumbnail-1920x1080.jpg" group-title="NEWS WORLD",Watch CBS News 24/7, our free live news stream
-https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/2820be1c-33f6-43f5-99ed-f69a838bb30c:CHS/variant/b93ad8358bd5b2b671e137cb4cd530a7/bandwidth/2249000.m3u8
+https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/5a103646-c7fe-4ae4-b08a-157fb8a522a1:ATL/variant/e45ac8e413a627d436bba392e6f69412/bandwidth/1549000.m3u8
+#EXTINF:-1 tvg-logo="https://assets2.cbsnewsstatic.com/hub/i/r/2024/04/16/0fb75ad2-a909-44bb-87dc-86b9d51cbeb2/thumbnail/1280x720/949f3d3fef16f9c113e3048c6aef229f/247-key-channelthumbnail-1920x1080.jpg" group-title="NEWS WORLD",Watch CBS News 24/7, our free live news stream
+https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/5a103646-c7fe-4ae4-b08a-157fb8a522a1:ATL/variant/b93ad8358bd5b2b671e137cb4cd530a7/bandwidth/2249000.m3u8
 #EXTINF:-1 group-title="TV ABERTA" tvg-id="TVGloboBrasilia.br@SD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/globo-br.png",GLOBO - BRASÍLIA (ALT)
 http://79.127.238.228:14173/
 #EXTINF:-1 group-title="TV ABERTA" tvg-id="TVGloboRiodeJaneiro.br@SD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/globo-br.png",GLOBO - RJ (ALT)
@@ -11591,9 +11605,9 @@ http://limed.cc:80/4x6cXF/ehfxdp/95666.m3u8
 #EXTINF:-1 group-title="TV ABERTA" tvg-id="Band Sao Paulo.br" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Band_Marca.png/120px-Band_Marca.png",BAND
 http://limed.cc:80/4x6cXF/ehfxdp/95649.m3u8
 #EXTINF:-1 group-title="TV ABERTA" tvg-id="Cultura HD.br" tvg-logo="https://i.imgur.com/zmheeSl.png",CULTURA
-http://limed.cc:80/4x6cXF/ehfxdp/89900.m3u8
+http://45.162.64.114/TV_CULTURA/index.m3u8
 #EXTINF:-1 group-title="TV ABERTA" tvg-id="Tvbrasil.br" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/91/TvBrasil2023.png",TV BRASIL
-http://limed.cc:80/4x6cXF/ehfxdp/90409.m3u8
+http://45.162.64.114/TV_BRASIL/index.m3u8
 #EXTINF:-1 group-title="TV ABERTA" tvg-id="Xsports.br" tvg-logo="https://www.xsports.com.br/static/assets/images/x-sports-vem-chegando.jpg",X SPORTS
 https://pb-r54iiecsw1gj5.akamaized.net/XSports.m3u8
 #EXTINF:-1 group-title="TV ABERTA" tvg-id="RedeTV!.br" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/8/89/Logotipo_da_RedeTV%21.png?20191113234216",REDE TV
@@ -11607,16 +11621,16 @@ http://limed.cc:80/4x6cXF/ehfxdp/90084.m3u8
 #EXTINF:-1 group-title="TV ABERTA" tvg-id="Canalbrasil.br" tvg-logo="https://logodownload.org/wp-content/uploads/2017/11/canal-brasil-logo-2.png",CANAL BRASIL
 http://limed.cc:80/4x6cXF/ehfxdp/89840.m3u8
 #EXTINF:-1 group-title="TV ABERTA" tvg-id="Futura.br" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Canal_Futura.png/120px-Canal_Futura.png",FUTURA
-http://limed.cc:80/4x6cXF/ehfxdp/89846.m3u8
+http://170.83.49.66:8083/FUTURAHD/index.m3u8
 #EXTINF:-1 group-title="TV ABERTA" tvg-id="TV Gazeta.br" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/TV_Gazeta.svg/120px-TV_Gazeta.svg.png",GAZETA
-http://limed.cc:80/4x6cXF/ehfxdp/90010.m3u8
+http://45.162.64.114/TV_GAZETA/index.m3u8
 #EXTINF:-1 group-title="Canais Abertos" tvg-id="Undefined" tvg-logo="https://i.imgur.com/6UoUybZ.png",TV VERDADE
 https://acesso.ecast.site:3104/hybrid/play.m3u8
 #EXTINF:-1 group-title="Canais Abertos" tvg-id="Undefined" tvg-logo="https://yt3.ggpht.com/Nw3Wmvgdcm9xOQK-UzAcfjSZnu4zho3Mrkeb4KwztlZBTQx8zuEz0C17bGYJLvvYdN57omljiw=s48-c-k-c0x00ffffff-no-rj",TVCB (Campos Belos-GO)
 https://stmv2.samcast.com.br/dermeval8653/dermeval8653/playlist.m3u8
 #EXTINF:-1 group-title="Canais Abertos" tvg-id="TVCidadedePetropolis.br" tvg-logo="https://www.cxtv.com.br/img/Tvs/Logo/webp-l/00bb19faeb0ea5b2ca8adcfcbaa1249c.webp",TV Cidade de Petrópolis
-https://video01.kshost.com.br:4443/inside2133/inside2133/playlist.m3u8
-#EXTINF:-1 group-title="Canais Abertos" tvg-id="RFTV.br" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/rede-tv-br.png",REDE FAMÍLIA
+https://video02.logicahost.com.br/tvpetropolis/tvpetropolis/playlist.m3u8
+#EXTINF:-1 group-title="Canais Abertos" tvg-id="RFTV.br" tvg-logo="https://www.rftv.com.br/wp-content/uploads/2023/08/og-1.jpg",REDE FAMÍLIA
 https://tv03.zas.media:1936/rftv/rftv/chunklist_w1301797576.m3u8
 #EXTINF:-1 group-title="Canais Abertos" tvg-id="RedeSuper.br" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/rede-gospel-br.png",REDE SUPER
 https://tv02.zas.media:1936/redesuper/redesuper/chunklist_w1553191580.m3u8
@@ -11628,10 +11642,14 @@ https://video09.logicahost.com.br/redebrasiloficial/redebrasiloficial/chunklist_
 https://br5093.streamingdevideo.com.br/abc/abc/master.m3u8
 #EXTINF:-1 group-title="TV ABERTA" tvg-id="Globo SP_local" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/TV_Globo_2024_azul.png/480px-TV_Globo_2024_azul.png",TV GLOBO - RJ
 http://iptv.vivatele.com:80/live/viva_padrao/viva2384/1.m3u8
+#EXTINF:-1 group-title="TV ABERTA" tvg-id="Globo.br" tvg-name="GLOBO HD (NOVA)" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/globo-br.png",GLOBO HD (NOVA)
+http://streaming.sattvgo.com.br/GLOBO_HD/index.m3u8
 #EXTINF:-1 group-title="TV ABERTA" tvg-id="RedeMinas.mg" tvg-logo="https://pbs.twimg.com/profile_images/1151111400615550976/MQW6Uj8p.jpg",REDE MINAS
 https://8hzcavccys.zoeweb.tv/redeminas/ngrp:redeminas_all/chunklist_w1642350627_b2771072.m3u8
 #EXTINF:-1 group-title="TV ABERTA" tvg-id="RecordTV.br" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Logotipo_da_Record.png/480px-Logotipo_da_Record.png",RECORD LITORAL E VALE - SP
 http://limed.cc:80/4x6cXF/ehfxdp/123216.m3u8
+#EXTINF:-1 group-title="TV ABERTA" tvg-id="RecordTVInteriorSP.br@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Logotipo_da_Record.png/480px-Logotipo_da_Record.png",RECORD INTERIOR SP
+http://200.77.176.130:8000/udp/224.0.0.4:49152
 #EXTINF:-1 group-title="TV ABERTA" tvg-id="RecordTV.br" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Logotipo_da_Record.png/480px-Logotipo_da_Record.png",RECORD BELÉM - PA
 http://limed.cc:80/4x6cXF/ehfxdp/100400.m3u8
 #EXTINF:-1 group-title="TV ABERTA" tvg-id="SIC.ro" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Logotipo_da_Record.png/480px-Logotipo_da_Record.png",SIC TV - RO
@@ -11653,7 +11671,7 @@ http://limed.cc:80/4x6cXF/ehfxdp/89823.m3u8
 #EXTINF:-1 group-title="TV ABERTA" tvg-id="Band.sp" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Band_Marca.png/480px-Band_Marca.png",BAND MAIS - SP
 http://limed.cc:80/4x6cXF/ehfxdp/89817.m3u8
 #EXTINF:-1 group-title="TV ABERTA" tvg-id="SBTNacional.br" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Band_Marca.png/480px-Band_Marca.png",SBT INTERIOR - SP
-http://limed.cc:80/4x6cXF/ehfxdp/90287.m3u8
+https://cdn.jmvstream.com/w/LVW-10801/LVW10801_Xvg4R0u57n/playlist.m3u8
 #EXTINF:-1 group-title="TV ABERTA" tvg-id="SBTNacional.br" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Band_Marca.png/480px-Band_Marca.png",SBT RIO - RJ
 http://limed.cc:80/4x6cXF/ehfxdp/90290.m3u8
 #EXTINF:-1 group-title="TV ABERTA" tvg-id="RecordTV.br" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Logotipo_da_Record.png/480px-Logotipo_da_Record.png",RECORD BAHIA - BA
@@ -11675,7 +11693,7 @@ https://srv1.zcast.com.br/igo8807/igo8807/playlist.m3u8
 #EXTINF:-1 group-title="Canais Abertos" tvg-id="TVCultura.br" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/TV_Cultura_2023_logo.svg/1200px-TV_Cultura_2023_logo.svg.png",TV CULTURA SP HD
 https://5b33b873179a2.streamlock.net:1443/live/livestream/chunklist_w1027478611.m3u8
 #EXTINF:-1 group-title="Canais Abertos" tvg-id="TVCamara.br" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/C%C3%A2mara_dos_Deputados_%28Brasil%29_logo.svg/480px-C%C3%A2mara_dos_Deputados_%28Brasil%29_logo.svg.png",TV CÂMARA
-https://stream3.camara.gov.br/tv1/manifest.m3u8?ManoTV
+https://stream3.camara.gov.br/tv1/manifest.m3u8
 #EXTINF:-1 group-title="Canais Abertos" tvg-id="TVCamara.br" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/C%C3%A2mara_dos_Deputados_%28Brasil%29_logo.svg/480px-C%C3%A2mara_dos_Deputados_%28Brasil%29_logo.svg.png",TV CÂMARA DOS DEPUTADOS HD
 https://stream3.camara.gov.br/tv1/manifest.m3u8
 #EXTINF:-1 group-title="TV ABERTA" tvg-id="Band.sp" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Band_Marca.png/480px-Band_Marca.png",BAND VALE - SP
@@ -11689,7 +11707,7 @@ http://limed.cc:80/4x6cXF/ehfxdp/90305.m3u8
 #EXTINF:-1 group-title="Canais Abertos" tvg-id="TVAleal.al" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/C%C3%A2mara_dos_Deputados_%28Brasil%29_logo.svg/480px-C%C3%A2mara_dos_Deputados_%28Brasil%29_logo.svg.png",TV ALEAL
 https://5c483b9d1019c.streamlock.net/staffvideotv/staffvideotv/chunklist_w1993324451.m3u8
 #EXTINF:-1 group-title="Canais Abertos" tvg-id="CanalGov.br" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Canal_Gov_Logo.png/480px-Canal_Gov_Logo.png",CANAL GOV
-https://canalgov-stream.ebc.com.br/index.m3u8
+http://45.177.114.115/TV_BRASIL_2/index.m3u8
 #EXTINF:-1 group-title="Canais Abertos" tvg-id="TVCamaraJP.pb" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/C%C3%A2mara_dos_Deputados_%28Brasil%29_logo.svg/480px-C%C3%A2mara_dos_Deputados_%28Brasil%29_logo.svg.png",TV CAMARA TUPÃ
 http://video.sinoinformatica.com.br:1935/cmtupa-live/sessaoaovivo/playlist.m3u8
 #EXTINF:-1 group-title="Canais Abertos" tvg-id="TVOitava.ce" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/C%C3%A2mara_dos_Deputados_%28Brasil%29_logo.svg/480px-C%C3%A2mara_dos_Deputados_%28Brasil%29_logo.svg.png",TV A OITAVA
@@ -14125,6 +14143,8 @@ https://03-mcteteu.shop/secret_key/77a11442e33a694798f9cc53b6235737.m3u8
 #EXTINF:-1 group-title="NEWS WORLD" tvg-id="Globonews.br" tvg-name="GLOBO NEWS HD (ALT)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Logotipo_da_GloboNews.png/120px-Logotipo_da_GloboNews.png",GLOBO NEWS HD (ALT)
 #EXTVLCOPT:network-caching=1000
 http://45.185.11.126:8000/play/a08d/index.m3u8
+#EXTINF:-1 group-title="NEWS WORLD" tvg-id="Globonews.br" tvg-name="GLOBO NEWS HD (ALT 2)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Logotipo_da_GloboNews.png/120px-Logotipo_da_GloboNews.png",GLOBO NEWS HD (ALT 2)
+http://79.127.238.228:14093/globonews_720
 #EXTINF:-1 tvg-id="RecordNews.br" tvg-logo="https://i.imgur.com/HZDRG0K.png" group-title="NEWS WORLD",Record News
 https://rnw-rn.otteravision.com/rnw/rn/rnw_rn.m3u8
 #EXTINF:-1 group-title="ESPORTES" tvg-id="418725" tvg-name="ESPN" tvg-logo="https://logodownload.org/wp-content/uploads/2015/05/espn-logo-0-1536x1536.png",ESPN
@@ -16802,8 +16822,6 @@ https://cloud.fastchannel.es/manifiest/hls/prog9/vepacotv.m3u8
 https://linear-260.frequency.stream/mt/studio/260/hls/master/playlist.m3u8
 #EXTINF:-1 group-title="VENEZUELA" tvg-id="Yatvo.ve",YATVO (720p)
 https://rpn3.bozztv.com/ssh101/ssh101/yatvo/playlist.m3u8
-#EXTINF:-1 group-title="TV AO VIVO" tvg-id="TV.Câmara.br" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYHdTw02OttzmZwMjtGoio__PYyI3HSd7jaYbzSE5s6844szteQCmUWM30MQ&s",TV CÂMARA
-https://stream3.camara.gov.br/tv1/manifest.m3u8
 #EXTINF:-1 group-title="TV AO VIVO" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpXSMKy9BzIcjtAhMpc9umlBStENZ8Q06o7LMwx1oEmx_TreSEOSgSas6bag&s",TV APARECIDA
 https://dfr80qz435crc.cloudfront.net/EFGH/Amagi/TV_Aparecida/TV_Aparecida_BR/TV_Aparecidap1080.m3u8
 #EXTINF:-1 group-title="TV AO VIVO" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlAhRCOSbKan87s0SGzowtdvg0coSzBJ1fboXuRbnCtd1zPJyMHHTsf-2FVIQ&s",TV NOVO TEMPO
@@ -16826,6 +16844,8 @@ https://5b33b873179a2.streamlock.net:1443/mastertv/livestream/playlist.m3u8
 https://player-tvcultura.stream.uol.com.br/live/tvcultura.m3u8
 #EXTINF:-1 group-title="TV AO VIVO" tvg-id="TV.Brasil.br" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnehOHqD9NOIMXndVizJfZrp2b0RhH0T6tUR52Mj2P7X2kBoyyFav0yK7T5g&s",TV BRASIL
 https://tvbrasil-stream.ebc.com.br/index.m3u8
+#EXTINF:-1 group-title="TV AO VIVO" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlbRdtW0GS7TFIgbtNVyFMhTI3s4Q5hMVIGTkLZMxYdKfFc4I0SXJsZqbQuQ&s",CANAL GOV
+https://canalgov-stream.ebc.com.br/index.m3u8
 #EXTINF:-1 group-title="TV AO VIVO" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSV_3IBkfZH4kWMAtpfwsdPgEzlbiWfQnX8XsLHxb1DMVDTl9-Ejp0v3FYJX60&s",BAND RJ
 http://gerenciar.vivatele.com:80/viva_padrao/viva2384/3
 #EXTINF:-1 group-title="TV AO VIVO" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQrKKtZEiLeWDEKOXEXJlDmuxKzf6JDRoirSMcWIVMF1RX1lxhdEWcxn8j3A&s",SBT SP
