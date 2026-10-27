@@ -11627,7 +11627,7 @@ https://stmv8.samcast.com.br/novatvi2098/novatvi2098/playlist.m3u8
 #EXTINF:-1 group-title="Canais Abertos" tvg-id="RFTV.br" tvg-logo="https://www.rftv.com.br/wp-content/uploads/2023/08/og-1.jpg",REDE FAMÍLIA
 https://tv03.zas.media:1936/rftv/rftv/chunklist_w1301797576.m3u8
 #EXTINF:-1 group-title="Canais Abertos" tvg-id="RedeSuper.br" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/rede-gospel-br.png",REDE SUPER
-https://tv02.zas.media:1936/redesuper/redesuper/chunklist_w1553191580.m3u8
+https://tv01.zas.media:1936/redesuper/redesuper/playlist.m3u8
 #EXTINF:-1 group-title="TV ABERTA" tvg-id="TVEBahia.br" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/tv-bahia-br.png",TVE BAHIA
 http://streaming.procergs.com.br:1935/tve/stve/playlist.m3u8
 #EXTINF:-1 group-title="TV ABERTA" tvg-id="RedeBrasil.br" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Rede_Brasil_de_Televis%C3%A3o_Logo2023.png/480px-Rede_Brasil_de_Televis%C3%A3o_Logo2023.png",REDE BRASIL
@@ -11823,7 +11823,7 @@ https://video01.soultv.com.br/umiss/umiss/playlist.m3u8
 #EXTINF:-1 group-title="VARIEDADES" tvg-id="Hollywire.br" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Band_Marca.png/480px-Band_Marca.png",HOLLYWIRE
 https://hwusassai.bozztv.com/HD3400/HD3400.m3u8
 #EXTINF:-1 group-title="VARIEDADES" tvg-id="RedeCanal10.br" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Band_Marca.png/480px-Band_Marca.png",REDE CANAL 10
-https://video05.logicahost.com.br/ararutv/ararutv/chunklist_w1006447719.m3u8
+https://stmv1.samcast.com.br/marcos8177/marcos8177/playlist.m3u8
 #EXTINF:-1 group-title="VARIEDADES" tvg-id="RedeUTV.br" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Band_Marca.png/480px-Band_Marca.png",REDE UTV
 https://utvsoultv.acessaradios.com.br/utvsoultv/utvsoultv.stream/playlist.m3u8
 #EXTINF:-1 group-title="VARIEDADES" tvg-id="RSTV.rs" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Band_Marca.png/480px-Band_Marca.png",RS TV - RS
@@ -12232,12 +12232,6 @@ https://tgrfriulibis-live.akamaized.net/hls/live/2025579/tgrfriulibis/tgrfriulib
 http://team-tv.co:81/raimovie/index.m3u8
 #EXTINF:-1 tvg-id="RaiWorldPremium.it" tvg-logo="https://tvprofil.com/img/kanali-logo/RAI_World_Premium_IT_logo_v2.png" group-title="Italia",Rai World Premium
 https://d3k8wzt41aflvx.cloudfront.net/RAIP/Live.m3u8
-#EXTINF:-1 group-title="Italia",RAI 1
-https://ilglobotv-live.akamaized.net/channels/RAI1/Live.m3u8
-#EXTINF:-1 group-title="Italia",RAI 2
-https://ilglobotv-live.akamaized.net/channels/RAI2/Live.m3u8
-#EXTINF:-1 group-title="Italia",RAI 3
-https://ilglobotv-live.akamaized.net/channels/RAI2/Live.m3u8
 #EXTINF:-1 group-title="Italia",RAI 3
 https://dash2.antik.sk/live/test_rai_tre_tizen/playlist.m3u8
 #EXTINF:-1 group-title="Italia",RAI 3
@@ -13579,7 +13573,7 @@ https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00488-foxdigital-wnyw-lgus/playlist
 #EXTINF:-1 group-title="JoyOnMove TV" tvg-id="NBC.(WNBC).New.York,.NY.us" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/nbc-logo-flat-us.png?raw=true" tvg-name="NBC",NBC
 http://143.244.60.30/NBC_EAST/index.m3u8
 #EXTINF:-1 group-title="JoyOnMove TV" tvg-id="A.and.E.US.-.Eastern.Feed.us" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/a-and-e-us.png?raw=true" tvg-name="A&E",A&E
-http://23.237.104.106:8080/USA_AE/index.m3u8
+http://23.239.31.26:8989/aande/index.m3u8
 #EXTINF:-1 group-title="JoyOnMove TV" tvg-id="ACC.Network.us" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/acc-network-us.png?raw=true" tvg-name="ACC NETWORK",ACC NETWORK
 http://143.244.60.30/ACC_NETWORK/index.m3u8
 #EXTINF:-1 group-title="JoyOnMove TV" tvg-id="AMC.-.Eastern.Feed.us" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s10021_dark_360w_270h.png" tvg-name="AMC",AMC
@@ -13697,7 +13691,7 @@ http://143.244.60.30/ESPN_U/index.m3u8
 #EXTINF:-1 group-title="JoyOnMove TV" tvg-id="Food.Network.USA.-.Eastern.Feed.us" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s12574_dark_360w_270h.png" tvg-name="FOOD NETWORK",FOOD NETWORK
 http://143.244.60.30/FOOD_NETWORK/index.m3u8
 #EXTINF:-1 group-title="JoyOnMove TV" tvg-id="Fox.Business.us" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/fox-business-us.png?raw=true" tvg-name="FOX Business Network",FOX Business Network
-https://tvsen6.aynaott.com/foxbusiness/index.m3u8
+https://247preview.foxbusiness.com/hls/live/2020026/fbnv3preview/primary.m3u8
 #EXTINF:-1 group-title="JoyOnMove TV" tvg-id="Fox.News.us" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s16374_dark_360w_270h.png" tvg-name="FOX News Channel",FOX News Channel
 http://cdn1host.online:2999/live/kratorius/opLcbhlXaT/267.m3u8
 #EXTINF:-1 group-title="JoyOnMove TV" tvg-id="FOX.Soccer.Plus.us"  tvg-name="FOX SOCCER PLUS",FOX SOCCER PLUS
@@ -15187,7 +15181,7 @@ http://45.186.106.147:8880/play/a06f/index.m3u8
 #EXTINF:-1 group-title="NEWS WORLD" tvg-id="CGTNRussian.cn" tvg-logo="https://i.imgur.com/nDWkCmL.png",CGTN Русский (1080p)
 https://news.cgtn.com/resource/live/russian/cgtn-r.m3u8
 #EXTINF:-1 group-title="NEWS WORLD" tvg-id="CGTNFrench.cn" tvg-logo="https://i.imgur.com/BwhledK.png",CGTN Français (1080p) [Not 24/7]
-http://145.239.5.177/214/index.m3u8
+https://amg01314-cgtn-amg01314c2-rakuten-us-1319.playouts.now.amagi.tv/cgtn-fr-rakuten/playlist.m3u8
 #EXTINF:-1 group-title="NEWS WORLD" tvg-id="CA1500002Q4" tvg-logo="https://m.media-amazon.com/images/I/51Icdznow+L.png",CityNews Toronto (720p)
 https://citynewsregional.akamaized.net/hls/live/1024052/Regional_Live_7/master.m3u8
 #EXTINF:-1 group-title="NEWS WORLD" tvg-id="CityNewsCalgary.ca" tvg-logo="https://m.media-amazon.com/images/I/51Icdznow+L.png",CityNews Calgary (720p)
@@ -15609,7 +15603,7 @@ https://edge.essastream.com/rdntv/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="NEWS WORLD" tvg-id="SadhnaPlusNews.in" tvg-logo="https://i.imgur.com/h4UehKC.png",Sadhna Plus News (720p)
 https://6n3yow8pl9ok-hls-live.5centscdn.com/sadhananewstv/live.stream/playlist.m3u8
 #EXTINF:-1 group-title="NEWS WORLD" tvg-id="SCCurrents.us" tvg-logo="https://i.imgur.com/8FZsNyK.png",SC Currents
-https://reflect-communitytv.cablecast.tv/live-5/live/live.m3u8
+https://reflect-communitytv.cablecast.tv/live-5/live/stream-3/live.m3u8
 #EXTINF:-1 group-title="NEWS WORLD" tvg-id="ShamsTV.iq" tvg-logo="https://www.semakurd.net/sites/default/files/imagecache/400xY/shemis-tv.jpg",Shams TV (1080p)
 https://stream.shams.tv/hls/stream.m3u8
 #EXTINF:-1 group-title="NEWS WORLD" tvg-id="RudawTV.iq" tvg-logo="https://i.imgur.com/Zo3IWOn.png",Rudaw TV (1080p)
@@ -16327,7 +16321,7 @@ https://multimedia.eitb.eus/live-content/oka3hd-hls/master.m3u8
 #EXTINF:-1 tvg-id="RealMadridTV.es" tvg-logo="https://graph.facebook.com/RealMadrid/picture?width=200&height=200",Deportivos: RealMadrid TV
 https://rmtv.akamaized.net/hls/live/2043153/rmtv-es-web/master.m3u8
 #EXTINF:-1 tvg-id="PequeradioTV.es" tvg-logo="https://graph.facebook.com/Pequeradio/picture?width=200&height=200",Infantiles: Pequeradio TV
-https://canadaremar2.todostreaming.es/live/peque-pequetv.m3u8
+https://183.bozztv.com/ssh101/ssh101/pequeradiotv/playlist.m3u8
 #EXTINF:-1 tvg-id="CanalSur2Andalucia.es" tvg-logo="https://graph.facebook.com/canalsurradioytv/picture?width=200&height=200",Andalucía: Canal Sur 2 Andalucía
 https://cdnlive.codev8.net/rtvalive/smil:channel22.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="M95Marbella.es" tvg-logo="https://graph.facebook.com/m95tvmarbella/picture?width=200&height=200",Andalucía: M95 Marbella
@@ -16788,7 +16782,7 @@ https://rtmp.tamtv.com.ve/tmp_hls/stream/index.m3u8
 #EXTINF:-1 group-title="VENEZUELA" tvg-id="Telearagua.ve",TeleAragua (480p)
 http://45.173.198.59:8080/hls/nginx3.m3u8?tla=
 #EXTINF:-1 group-title="VENEZUELA" tvg-id="Telebocono.ve",Teleboconó (720p) [Not 24/7]
-https://rpn3.bozztv.com/ssh101/ssh101/tcbstreaming/playlist.m3u8
+https://live20.bozztv.com/akamaissh101/ssh101/tcbstreaming/playlist.m3u8
 #EXTINF:-1 group-title="VENEZUELA" tvg-id="Telecentro.ve",Telecentro (480p)
 https://streamtv.intervenhosting.net:3531/live/telecentrovelive.m3u8
 #EXTINF:-1 group-title="VENEZUELA" tvg-id="Telecolor.ve",Telecolor (480p)
