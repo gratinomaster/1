@@ -31,6 +31,13 @@ GITHUB_API_SOURCES = [
     "https://api.github.com/repos/punkstarbr/STR-YT/contents",
 ]
 
+SCHEDULED_M3U_SOURCES = [
+    "https://github.com/LITUATUI/M3UPT/raw/main/M3U/M3UPT.m3u",
+    "https://github.com/strikeinthehouse/1/raw/main/lista2.M3U",
+    "https://github.com/punkstarbr/STR-YT/raw/main/lista1.M3U",
+    "https://github.com/strikeinthehouse/M3UPT/raw/main/M3U/M3UPT.m3u",
+]
+
 ADDITIONAL_M3U_SOURCES = [
     "https://github.com/punkstarbr/STR-YT/raw/refs/heads/main/REALITY.m3u",
     "https://github.com/iprtl/m3u/raw/b8507db8229defeda88512eaaf66bfe0e385e81c/Freetv.m3u",
@@ -108,11 +115,18 @@ def extract_m3u_entries(text):
                 if not l2:
                     j += 1
                     continue
+                if l2.startswith('#EXTINF'):
+                    # Next entry started without a URL for this one.
+                    break
                 if l2.startswith('#'):
                     # skip other directives
                     j += 1
                     continue
-                # assume url
+                # Some playlists prefix the URL with "+"; normalize it.
+                l2 = l2.lstrip('+').strip()
+                if not re.match(r'^[a-zA-Z][a-zA-Z0-9+.-]*://', l2):
+                    # Not a usable stream URL; skip this entry.
+                    break
                 entries.append((extinf, l2))
                 i = j
                 break
@@ -133,6 +147,9 @@ def main():
     # B
     for s in GITHUB_API_SOURCES:
         sources_to_fetch.append(('api_contents', s))
+    # C
+    for s in SCHEDULED_M3U_SOURCES:
+        sources_to_fetch.append(('direct_or_contents', s))
     # E
     for s in ADDITIONAL_M3U_SOURCES:
         sources_to_fetch.append(('direct_or_contents', s))
