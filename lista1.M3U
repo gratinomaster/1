@@ -11570,6 +11570,8 @@ https://streaming-vod.rtp.pt/hls/nas2.share/h264/512x384/p16129/p16129_1_2026100
 https://streaming-vod.rtp.pt/hls/nas2.share/h264/512x384/p16129/p16129_1_20261009213118e030t0434.mp4,.urlset/master.m3u8
 #EXTINF:-1 group-title="RTP",A Prova dos Factos Episódio 31 - de 23 out 2026
 https://streaming-vod.rtp.pt/hls/nas2.share/h264/512x384/p16129/p16129_1_20261023213118e031t0425.mp4,.urlset/master.m3u8
+#EXTINF:-1 group-title="RTP",Bom Dia Portugal de 29 out 2026
+https://streaming-vod.rtp.pt/hls/nas2.share/h264/512x384/p16046/p16046_1_20261029090118e216t0571.mp4,.urlset/master.m3u8
 #EXTINF:-1 group-title="RTP",Bom Dia Portugal Fim de Semana de 18 out 2026
 https://streaming-vod.rtp.pt/hls/nas2.share/h264/512x384/p16050/p16050_1_20261018090118e084t0350.mp4,.urlset/master.m3u8
 #EXTINF:-1 group-title="RTP",Bom Dia Portugal Fim de Semana de 24 out 2026
@@ -11578,6 +11580,10 @@ https://streaming-vod.rtp.pt/hls/nas2.share/h264/512x384/p16050/p16050_1_2026102
 https://streaming-vod.rtp.pt/hls/nas2.share/h264/512x384/p16050/p16050_1_20261025090118e086t0420.mp4,.urlset/master.m3u8
 #EXTINF:-1 group-title="RTP",Cinemax Episódio 17 - de 24 abr 2025
 https://streaming-vod.rtp.pt/hls/nas2.share/h264/512x384/p14895/p14895_1_20250424132456e017t1629d.mp4,.urlset/master.m3u8
+#EXTINF:-1 group-title="RTP",Direto RTP Mundo
+https://streaming-live.rtp.pt/liverepeater/smil:rtpi.smil/playlist.m3u8
+#EXTINF:-1 group-title="RTP",Direto RTP1
+https://streaming-live.rtp.pt/liverepeater/smil:rtp1HD.smil/playlist.m3u8?tk=1793332800_f2905b05b8565d3374f5430f41d52ad6a19e781c
 #EXTINF:-1 group-title="RTP",E Agora? Episódio 18 - de 12 out 2026
 https://streaming-vod.rtp.pt/hls/nas2.share/h264/512x384/p16551/p16551_1_20261012000000e018t8415.mp4,.urlset/master.m3u8
 #EXTINF:-1 group-title="RTP",E Agora? Episódio 19 - de 19 out 2026
@@ -11620,12 +11626,16 @@ https://streaming-vod.rtp.pt/hls/nas2.share/h264/512x384/p16194/p16194_1_2026102
 https://streaming-vod.rtp.pt/hls/nas2.share/h264/512x384/p16194/p16194_1_20261027220728e295t7114.mp4,.urlset/master.m3u8
 #EXTINF:-1 group-title="RTP",Jornal 2 de 28 out 2026
 https://streaming-vod.rtp.pt/hls/nas2.share/h264/512x384/p16194/p16194_1_20261028223730e296t3246.mp4,.urlset/master.m3u8
+#EXTINF:-1 group-title="RTP",Jornal da Tarde de 29 out 2026
+https://streaming-vod.rtp.pt/hls/nas2.share/h264/512x384/p16047/p16047_1_20261029140118e302t0309.mp4,.urlset/master.m3u8
 #EXTINF:-1 group-title="RTP",Linha da Frente de 09 jul 2026
 https://streaming-vod.rtp.pt/hls/nas2.share/h264/512x384/p16136/p16136_1_20260709161006e020t2308d.mp4,.urlset/master.m3u8
 #EXTINF:-1 group-title="RTP",Linha da Frente de 16 jul 2026
 https://streaming-vod.rtp.pt/hls/nas2.share/h264/512x384/p16136/p16136_1_20260716001005e022t5190d.mp4,.urlset/master.m3u8
 #EXTINF:-1 group-title="RTP",Linha da Frente de 23 jul 2026
 https://streaming-vod.rtp.pt/hls/nas2.share/h264/512x384/p16136/p16136_1_20260723161006e021t6563d.mp4,.urlset/master.m3u8
+#EXTINF:-1 group-title="RTP",Notícias 11 de 29 out 2026
+https://streaming-vod.rtp.pt/hls/nas2.share/h264/512x384/p16157/p16157_1_20261029112726e297t0382.mp4,.urlset/master.m3u8
 #EXTINF:-1 group-title="RTP",O Outro Lado Episódio 26 - de 14 jul 2025
 https://streaming-vod.rtp.pt/hls/nas2.share/h264/512x384/p14403/p14403_1_20250714000000e026t2794.mp4,.urlset/master.m3u8
 #EXTINF:-1 group-title="RTP",O Outro Lado Episódio 27 - de 21 jul 2025
@@ -11668,12 +11678,16 @@ https://streaming-vod.rtp.pt/hls/nas2.share/h264/512x384/p16075/p16075_1_2026102
 https://streaming-vod.rtp.pt/hls/nas2.share/h264/512x384/p16075/p16075_1_20261027150724e150t4247.mp4,.urlset/master.m3u8
 #EXTINF:-1 group-title="RTP",Sociedade Civil Episódio 151 - de 28 out 2026
 https://streaming-vod.rtp.pt/hls/nas2.share/h264/512x384/p16075/p16075_1_20261028161004e151t6773d.mp4,.urlset/master.m3u8
+#EXTINF:-1 group-title="RTP",Telejornal Açores de 28 out 2026
+https://streaming-vod.rtp.pt/hls/nas2.share/h264/512x384/p16191/p16191_1_20261028212146et6775.mp4,.urlset/master.m3u8
 #EXTINF:-1 group-title="RTP",Telejornal de 26 out 2026
 https://streaming-vod.rtp.pt/hls/nas2.share/h264/512x384/p16048/p16048_1_20261026205718e299t0539.mp4,.urlset/master.m3u8
 #EXTINF:-1 group-title="RTP",Telejornal de 27 out 2026
 https://streaming-vod.rtp.pt/hls/nas2.share/h264/512x384/p16048/p16048_1_20261027205718e300t0308.mp4,.urlset/master.m3u8
 #EXTINF:-1 group-title="RTP",Telejornal de 28 out 2026
 https://streaming-vod.rtp.pt/hls/nas2.share/h264/512x384/p16048/p16048_1_20261028205718e301t0281.mp4,.urlset/master.m3u8
+#EXTINF:-1 group-title="RTP",Telejornal Madeira de 28 out 2026
+https://streaming-vod.rtp.pt/hls/nas2.share/h264/512x384/telejmadeira/tjmadeira_1_20261028214149e299t2674.mp4,.urlset/master.m3u8
 #EXTINF:-1 group-title="RTP",Todas as Palavras Episódio 46 - de 01 fev 2026
 https://streaming-vod.rtp.pt/hls/nas2.share/h264/512x384/p14532/p14532_1_20260201161004e046t9155d.mp4,.urlset/master.m3u8
 #EXTINF:-1 group-title="RTP",Todas as Palavras Episódio 47 - de 07 fev 2026
@@ -11692,20 +11706,32 @@ https://streaming-vod.rtp.pt/hls/nas2.share/h264/512x384/p16204/p16204_1_2026101
 https://streaming-vod.rtp.pt/hls/nas2.share/h264/512x384/p16204/p16204_1_20261019230144e036t1318.mp4,.urlset/master.m3u8
 #EXTINF:-1 group-title="RTP",Tudo é Economia Episódio 37 - de 26 out 2026
 https://streaming-vod.rtp.pt/hls/nas2.share/h264/512x384/p16204/p16204_1_20261026230145e037t7198.mp4,.urlset/master.m3u8
-#EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/4/49/CBN.png" group-title="NEWS WORLD",CBN SP
-https://live-as-03-03.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJVUyIsImRvbWFpbiI6ImxpdmUtYXMtMDMtMDMudmlkZW8uZ2xvYm8uY29tIiwiZXhwIjoxNzkzMjg4NDc3LCJpYXQiOjE3OTMyNjY4NzcsImlzcyI6InBsYXliYWNrLWFwaS1wcm9kLWdjcCIsIm93bmVyIjoiIiwicGF0aCI6Ii9saXZlL2YoYk1pbj0zMTM5ODQsZHZyPTEyMCkvY2Juc3AyNGhhL3BsYXlsaXN0Lm0zdTgifQ.Zz8VLMTywYcDqSqum2olPrwH0yeWECQWmnt5EpXrcfOcWm2188p2eTo8kwncOSFCNsHF4-xXZW-k8dEbGNwmUMyLTsCzd6JY9cMMY5BpFB2oXxDYOtn3kPDCCQiu_gloiFo6RVsnNjoKL-VnyN1tMGD248dmjhIVKJFpCYaglgFDZN8Pe4vI0SDF08unWPEQRwXUTgIoD7zEQLkHFaCrZ3SZeB0THzt8T_LbG_TXbNTuPMYc-NeZeGBaeeM6HqVATv64Zb_7ozfBEs8ZWMTsXyK0FSCw11vOLoVEgs1ycShIB5AU6ss-7iWwxxgiDlh5Ge0QqUyNV7UKHx9E7kk87w/live/f(bMin=313984,dvr=120)/cbnsp24ha/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://a57.foxnews.com/cf-images.us-east-1.prod.boltdns.net/v1/static/694940094001/15de0523-3be4-4a9a-8159-7020114e7036/b6ff623a-26d6-4fd9-8bb8-0856adbf38ce/1280x720/match/676/380/image.jpg?ve=1&tl=1" group-title="NEWS WORLD",Watch Fox News Channel Online | Stream Fox News
-https://247.foxnews.com/hls/live/2003586/FNCHLSv3/master.m3u8?hdnea=exp=1793268570~acl=/*~hmac=da9c9d255e0d39cead22becd5038af8763dc75cbf6fec11a8e0351475a9bdee7
+#EXTINF:-1 tvg-logo="https://s.abcnews.com/images/Live/abc_news_live-abc-ml-250210_1739199021469_hpMain_16x9_608.jpg" group-title="NEWS WORLD",ABC News Live | Watch Live News on ABCNL
+https://linear-abcnews-akc-na-east-1.media.dssott.com/dvt2=exp=1793377354~url=%2Fclt1%2Fva02%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1781081210579%2F~psid=b56d4a1d-46ee-495b-8ee1-56c201c3b3d1~did=d9dc7e75-685d-4bc0-a2f6-51dfed518372~country=US~kid=k02~hmac=62ddbc715d6ec314beadf1b083cac8712360998a307686060b6a6824e1a21c43/clt1/va02/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1781081210579/ctr-all-hdri-sliding.m3u8?r=1080&v=1&hash=c00ca54a5fd625c2ce1a442c983e81561832da94
+#EXTINF:-1 tvg-logo="https://s.abcnews.com/images/Live/abc_news_live-abc-ml-250210_1739199021469_hpMain_16x9_608.jpg" group-title="NEWS WORLD",ABC News Live | Watch Live News on ABCNL
+https://linear-abcnews-akc-na-east-1.media.dssott.com/dvt2=exp=1793377354~url=%2Fclt1%2Fva02%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1781081210579%2F~psid=b56d4a1d-46ee-495b-8ee1-56c201c3b3d1~did=d9dc7e75-685d-4bc0-a2f6-51dfed518372~country=US~kid=k02~hmac=62ddbc715d6ec314beadf1b083cac8712360998a307686060b6a6824e1a21c43/clt1/va02/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1781081210579/audio-aac-1-64K/64_slide.m3u8
+#EXTINF:-1 tvg-logo="https://s.abcnews.com/images/Live/abc_news_live-abc-ml-250210_1739199021469_hpMain_16x9_608.jpg" group-title="NEWS WORLD",ABC News Live | Watch Live News on ABCNL
+https://linear-abcnews-akc-na-east-1.media.dssott.com/dvt2=exp=1793377354~url=%2Fclt1%2Fva02%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1781081210579%2F~psid=b56d4a1d-46ee-495b-8ee1-56c201c3b3d1~did=d9dc7e75-685d-4bc0-a2f6-51dfed518372~country=US~kid=k02~hmac=62ddbc715d6ec314beadf1b083cac8712360998a307686060b6a6824e1a21c43/clt1/va02/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1781081210579/cmaf-cenc-ctr-1700K/1700_hdri_slide.m3u8
+#EXTINF:-1 tvg-logo="https://s.abcnews.com/images/Live/abc_news_live-abc-ml-250210_1739199021469_hpMain_16x9_608.jpg" group-title="NEWS WORLD",ABC News Live | Watch Live News on ABCNL
+https://linear-abcnews-akc-na-east-1.media.dssott.com/dvt2=exp=1793377354~url=%2Fclt1%2Fva02%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1781081210579%2F~psid=b56d4a1d-46ee-495b-8ee1-56c201c3b3d1~did=d9dc7e75-685d-4bc0-a2f6-51dfed518372~country=US~kid=k02~hmac=62ddbc715d6ec314beadf1b083cac8712360998a307686060b6a6824e1a21c43/clt1/va02/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1781081210579/audio-aac-1-128K/128_slide.m3u8
+#EXTINF:-1 tvg-logo="https://s.abcnews.com/images/Live/abc_news_live-abc-ml-250210_1739199021469_hpMain_16x9_608.jpg" group-title="NEWS WORLD",ABC News Live | Watch Live News on ABCNL
+https://linear-abcnews-akc-na-east-1.media.dssott.com/dvt2=exp=1793377354~url=%2Fclt1%2Fva02%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1781081210579%2F~psid=b56d4a1d-46ee-495b-8ee1-56c201c3b3d1~did=d9dc7e75-685d-4bc0-a2f6-51dfed518372~country=US~kid=k02~hmac=62ddbc715d6ec314beadf1b083cac8712360998a307686060b6a6824e1a21c43/clt1/va02/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1781081210579/cmaf-cenc-ctr-2400K/2400_hdri_slide.m3u8
 #EXTINF:-1 tvg-logo="https://a57.foxnews.com/cf-images.us-east-1.prod.boltdns.net/v1/static/694940094001/c9b2e2eb-7b87-435c-9510-eab2650ff944/8b584585-acf2-4c37-aa07-aaf2d077bb20/1280x720/match/676/380/image.jpg?ve=1&tl=1" group-title="NEWS WORLD",Fox Business Go | Fox News Video
-https://247.foxbusiness.com/hls/live/2003756/FBNHLSv3/master.m3u8?hdnea=exp=1793268570~acl=/*~hmac=da9c9d255e0d39cead22becd5038af8763dc75cbf6fec11a8e0351475a9bdee7
+https://247.foxbusiness.com/hls/live/2003756/FBNHLSv3/master.m3u8?hdnea=exp=1793294555~acl=/*~hmac=f2d74a17efd2d2f9e19cf8957a78a6777d6814d0f0b4f84b63976e6bebfb1b09
+#EXTINF:-1 tvg-logo="https://a57.foxnews.com/cf-images.us-east-1.prod.boltdns.net/v1/static/694940094001/15de0523-3be4-4a9a-8159-7020114e7036/b6ff623a-26d6-4fd9-8bb8-0856adbf38ce/1280x720/match/676/380/image.jpg?ve=1&tl=1" group-title="NEWS WORLD",Watch Fox News Channel Online | Stream Fox News
+https://247.foxnews.com/hls/live/2003586/FNCHLSv3/master.m3u8?hdnea=exp=1793294555~acl=/*~hmac=f2d74a17efd2d2f9e19cf8957a78a6777d6814d0f0b4f84b63976e6bebfb1b09
 #EXTINF:-1 tvg-logo="https://assets2.cbsnewsstatic.com/hub/i/r/2024/04/16/0fb75ad2-a909-44bb-87dc-86b9d51cbeb2/thumbnail/1280x720/949f3d3fef16f9c113e3048c6aef229f/247-key-channelthumbnail-1920x1080.jpg" group-title="NEWS WORLD",Watch CBS News 24/7, our free live news stream
-https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/0f14f19c-c281-4c6b-9d1b-0a11f092bf64:TUL/master.m3u8
+https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/4d11ffb0-7e14-482f-b14e-52f2ef1935e0:MRN2/master.m3u8
 #EXTINF:-1 tvg-logo="https://assets2.cbsnewsstatic.com/hub/i/r/2024/04/16/0fb75ad2-a909-44bb-87dc-86b9d51cbeb2/thumbnail/1280x720/949f3d3fef16f9c113e3048c6aef229f/247-key-channelthumbnail-1920x1080.jpg" group-title="NEWS WORLD",Watch CBS News 24/7, our free live news stream
-https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/0f14f19c-c281-4c6b-9d1b-0a11f092bf64:TUL/variant/2ed2c78fd57ae51fb6ba5d4bbd59e953/bandwidth/441000.m3u8
+https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/4d11ffb0-7e14-482f-b14e-52f2ef1935e0:MRN2/variant/2ed2c78fd57ae51fb6ba5d4bbd59e953/bandwidth/441000.m3u8
 #EXTINF:-1 tvg-logo="https://assets2.cbsnewsstatic.com/hub/i/r/2024/04/16/0fb75ad2-a909-44bb-87dc-86b9d51cbeb2/thumbnail/1280x720/949f3d3fef16f9c113e3048c6aef229f/247-key-channelthumbnail-1920x1080.jpg" group-title="NEWS WORLD",Watch CBS News 24/7, our free live news stream
-https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/0f14f19c-c281-4c6b-9d1b-0a11f092bf64:TUL/variant/c1de5c45f7968bb580d02bc76f3a9e7e/bandwidth/1083000.m3u8
+https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/4d11ffb0-7e14-482f-b14e-52f2ef1935e0:MRN2/variant/9a27c00933e4743a3ea19ac812d5532c/bandwidth/733000.m3u8
 #EXTINF:-1 tvg-logo="https://assets2.cbsnewsstatic.com/hub/i/r/2024/04/16/0fb75ad2-a909-44bb-87dc-86b9d51cbeb2/thumbnail/1280x720/949f3d3fef16f9c113e3048c6aef229f/247-key-channelthumbnail-1920x1080.jpg" group-title="NEWS WORLD",Watch CBS News 24/7, our free live news stream
-https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/0f14f19c-c281-4c6b-9d1b-0a11f092bf64:TUL/variant/b93ad8358bd5b2b671e137cb4cd530a7/bandwidth/2249000.m3u8
+https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/4d11ffb0-7e14-482f-b14e-52f2ef1935e0:MRN2/variant/c1de5c45f7968bb580d02bc76f3a9e7e/bandwidth/1083000.m3u8
+#EXTINF:-1 tvg-logo="https://assets2.cbsnewsstatic.com/hub/i/r/2024/04/16/0fb75ad2-a909-44bb-87dc-86b9d51cbeb2/thumbnail/1280x720/949f3d3fef16f9c113e3048c6aef229f/247-key-channelthumbnail-1920x1080.jpg" group-title="NEWS WORLD",Watch CBS News 24/7, our free live news stream
+https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/4d11ffb0-7e14-482f-b14e-52f2ef1935e0:MRN2/variant/e45ac8e413a627d436bba392e6f69412/bandwidth/1549000.m3u8
+#EXTINF:-1 tvg-logo="https://assets2.cbsnewsstatic.com/hub/i/r/2024/04/16/0fb75ad2-a909-44bb-87dc-86b9d51cbeb2/thumbnail/1280x720/949f3d3fef16f9c113e3048c6aef229f/247-key-channelthumbnail-1920x1080.jpg" group-title="NEWS WORLD",Watch CBS News 24/7, our free live news stream
+https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/4d11ffb0-7e14-482f-b14e-52f2ef1935e0:MRN2/variant/b93ad8358bd5b2b671e137cb4cd530a7/bandwidth/2249000.m3u8
 #EXTINF:-1 tvg-logo="https://s.abcnews.com/images/Live/abc_news_live-abc-ml-250210_1739199021469_hpMain_16x9_608.jpg" group-title="NEWS WORLD",ABC News Live Prime With Linsey Davis | Watch Live News on ABCNL
 https://linear-abcnews-ftc-na-west-1.media.dssott.com/dvt2=exp=1793232576~url=%2Flas1%2Fva01%2Fdisneyplus%2Fchannel%2F79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838%2F~psid=e05c601b-1789-47a5-aeea-0ffec1e9382e~did=c55c2f68-6b1b-4160-a2b3-80e58fd8693d~country=US~kid=k02~hmac=8c0bd9c82a35389c27555e05aa7dcde67fffa56e128e2976973e470716093379/las1/va01/disneyplus/channel/79449312-79dd-473d-873c-515ebf4b5e5f-1781164031838/ctr-all-hdri-sliding.m3u8?r=1080&v=1&hash=81fb88da5aab33fe54dc3f8d7ae5f0b2eaa56a8c
 #EXTINF:-1 tvg-logo="https://s.abcnews.com/images/Live/abc_news_live-abc-ml-250210_1739199021469_hpMain_16x9_608.jpg" group-title="NEWS WORLD",ABC News Live Prime With Linsey Davis | Watch Live News on ABCNL
