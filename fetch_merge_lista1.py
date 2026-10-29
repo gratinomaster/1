@@ -2,6 +2,7 @@
 import os
 import re
 import json
+import time
 import base64
 from urllib.parse import urlparse, unquote
 
@@ -54,15 +55,31 @@ def is_direct_file_url(url):
     return False
 
 def fetch_url(url):
-    try:
-        resp = requests.get(url, headers=HEADERS, timeout=60)
-        resp.raise_for_status()
-        return resp.text
-    except Exception as e:
-        print(f"[ERR] fetch {url}: {e}")
-        return None
+    last_error = None
+    for attempt in range(3):
+        try:
+            resp = requests.get(url, headers=HEADERS, timeout=60)
+            resp.raise_for_status()
+            return resp.text
+        except Exception as e:
+            last_error = e
+            if attempt < 2:
+                time.sleep(2 * (attempt + 1))
+    print(f"[ERR] fetch {url}: {last_error}")
+    return None
+
+def normalize_contents_url(url):
+    match = re.match(r'^https?://github\.com/([^/]+)/([^/]+)/contents(?:/(.*))?$', url)
+    if match:
+        owner, repo, path = match.group(1), match.group(2), match.group(3)
+        api_url = f'https://api.github.com/repos/{owner}/{repo}/contents'
+        if path:
+            api_url += '/' + path
+        return api_url
+    return url
 
 def fetch_github_contents_dir(api_url):
+    api_url = normalize_contents_url(api_url)
     try:
         resp = requests.get(api_url, headers=HEADERS, timeout=60)
         resp.raise_for_status()
@@ -214,7 +231,7 @@ def main():
                 all_entries.append((extinf, murl))
     
     # Write to lista1.M3U overwriting
-    out_path = '/home/runner/work/1/1/lista1.M3U'
+    out_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'lista1.M3U')
     with open(out_path, 'w', encoding='utf-8') as f:
         f.write('#EXTM3U\n')
         for extinf, murl in all_entries:
