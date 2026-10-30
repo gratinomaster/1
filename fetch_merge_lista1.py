@@ -4,7 +4,7 @@ import re
 import json
 import time
 import base64
-from urllib.parse import urlparse, unquote
+from urllib.parse import urlparse, unquote, parse_qs, quote
 
 import requests
 
@@ -45,6 +45,16 @@ ADDITIONAL_M3U_SOURCES = [
     "https://github.com/ipstreet312/freeiptv/raw/refs/heads/master/all.m3u",
     "https://github.com/punkrastafari/neta/raw/refs/heads/main/lista_final.m3u",
 ]
+
+VOD_SOURCES = [
+    "https://archive.org/details/television?query=cbs&sort=date&tab=collection",
+]
+
+VIDEO_EXTS = ('.mp4', '.m4v', '.webm', '.mkv', '.ogv', '.avi', '.mov')
+VIDEO_FORMATS = {
+    'mpeg4', 'h.264', 'h.264 ia', 'matroska', 'ogg video', 'webm',
+    '512kb mpeg4', 'mpeg2', 'mpeg1', 'divx', 'quicktime', 'windows media',
+}
 
 def is_direct_file_url(url):
     url_lower = url.lower()
@@ -152,9 +162,87 @@ def extract_m3u_entries(text):
         i += 1
     return entries
 
+def fetch_archive_vod(source, max_items=80, max_videos=60):
+    """Pesquisa itens de vídeo no Internet Archive e retorna apenas os reproduzíveis."""
+    parsed = urlparse(source)
+    collection = ''
+    if '/details/' in parsed.path:
+        collection = parsed.path.split('/details/', 1)[1].split('/')[0]
+    query = parse_qs(parsed.query).get('query', [''])[0]
+
+    search = f'collection:{collection}' if collection else ''
+    if query:
+        search = (search + ' AND ' + query).strip() if search else query
+    if not search:
+        return []
+
+    api_url = 'https://archive.org/advancedsearch.php'
+    params = {
+        'q': search,
+        'fl[]': ['identifier', 'title'],
+        'rows': str(max_items),
+        'page': '1',
+        'output': 'json',
+    }
+    try:
+        resp = requests.get(api_url, params=params, headers=HEADERS, timeout=60)
+        resp.raise_for_status()
+        docs = resp.json().get('response', {}).get('docs', [])
+    except Exception as e:
+        print(f"[ERR] archive search {source}: {e}")
+        return []
+
+    results = []
+    for doc in docs:
+        if len(results) >= max_videos:
+            break
+        ident = doc.get('identifier')
+        if not ident:
+            continue
+        try:
+            meta_resp = requests.get(f'https://archive.org/metadata/{ident}', headers=HEADERS, timeout=60)
+            meta_resp.raise_for_status()
+            meta = meta_resp.json()
+        except Exception as e:
+            print(f"[ERR] archive metadata {ident}: {e}")
+            continue
+
+        title = meta.get('metadata', {}).get('title') or doc.get('title') or ident
+        logo = f'https://archive.org/services/img/{ident}'
+        chosen = None
+        for f in meta.get('files', []):
+            name = f.get('name') or ''
+            lower = name.lower()
+            fmt = (f.get('format') or '').lower()
+            if fmt in VIDEO_FORMATS or lower.endswith(VIDEO_EXTS):
+                if lower.endswith(('.thumbs', '. torrent', '.torrent', '.xml', '.txt')):
+                    continue
+                chosen = name
+                break
+        if not chosen:
+            continue
+
+        video_url = f'https://archive.org/download/{ident}/{quote(chosen)}'
+        safe_title = str(title).replace('"', "'").replace('\n', ' ').strip()
+        extinf = f'#EXTINF:-1 group-title="VOD" tvg-logo="{logo}",{safe_title}'
+        results.append((extinf, video_url))
+    return results
+
+
 def main():
     all_entries = []
     seen = set()
+
+    out_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'lista1.M3U')
+    header = '#EXTM3U'
+    if os.path.exists(out_path):
+        try:
+            with open(out_path, 'r', encoding='utf-8', errors='replace') as f:
+                first = f.readline().strip()
+            if first.startswith('#EXTM3U'):
+                header = first
+        except Exception:
+            pass
     
     # Collect from all sources as requested
     sources_to_fetch = []
@@ -230,10 +318,19 @@ def main():
                 seen.add(key)
                 all_entries.append((extinf, murl))
     
+    # D - VOD do Internet Archive
+    for s in VOD_SOURCES:
+        print(f"[VOD] {s}")
+        for extinf, murl in fetch_archive_vod(s):
+            key = murl.strip()
+            if key in seen:
+                continue
+            seen.add(key)
+            all_entries.append((extinf, murl))
+
     # Write to lista1.M3U overwriting
-    out_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'lista1.M3U')
     with open(out_path, 'w', encoding='utf-8') as f:
-        f.write('#EXTM3U\n')
+        f.write(header + '\n')
         for extinf, murl in all_entries:
             f.write(extinf + '\n')
             f.write(murl.strip() + '\n')
