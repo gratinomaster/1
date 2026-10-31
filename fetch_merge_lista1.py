@@ -333,7 +333,7 @@ def main():
         f.write(header + '\n')
         for extinf, murl in all_entries:
             f.write(extinf + '\n')
-            f.write(murl.strip() + '\n')
+            f.write(murl.strip().replace(' ', '%20') + '\n')
     
     print(f"[DONE] Wrote {len(all_entries)} entries to {out_path}")
 
