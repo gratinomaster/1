@@ -4,6 +4,8 @@
 
 # 📺 TV
 
+#EXTINF:-1 group-title="TV" tvg-id="RTP1.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP1.pt.png",CNN BRASIL RIPA
+https://www.youtube.com/@CNNbrasil/live
 #EXTINF:-1 group-title="TV" tvg-id="RTP1.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP1.pt.png",RTP 1
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0"
 #EXTVLCOPT:http-origin=https://www.rtp.pt
