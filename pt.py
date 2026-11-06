@@ -1,10 +1,65 @@
+# Instalação do Google Chrome, Selenium e as ferramentas de extração de stream (yt-dlp, streamlink) no Colab
+!wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | apt-key add -
+!sh -c 'echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google-chrome.list'
+!apt-get update
+!apt-get install -y google-chrome-stable
+!pip install selenium yt-dlp streamlink
+
+# Script para baixar e configurar o ChromeDriver correto para a versão do Chrome instalada
+import os
+import subprocess
+import urllib.request
+import zipfile
+import json
+import re
+
+def setup_chromedriver():
+    try:
+        # Detectar a versão do Google Chrome instalado
+        chrome_version = subprocess.check_output(["google-chrome", "--version"]).decode("utf-8").strip()
+        print(f"Versão do Google Chrome detectada: {chrome_version}")
+        version_number = re.search(r"(\d+\.\d+\.\d+\.\d+)", chrome_version).group(1)
+
+        # Obter a URL correta do ChromeDriver via API do Chrome for Testing
+        api_url = "https://googlechromelabs.github.io/chrome-for-testing/last-known-good-versions-with-downloads.json"
+        with urllib.request.urlopen(api_url) as response:
+            data = json.loads(response.read().decode())
+
+        # Procurar pela versão estável correspondente
+        downloads = data['channels']['Stable']['downloads']['chromedriver']
+        download_url = None
+        for platform in downloads:
+            if platform['platform'] == 'linux64':
+                download_url = platform['url']
+                break
+
+        if download_url:
+            print(f"Baixando o ChromeDriver compatível de: {download_url}")
+            urllib.request.urlretrieve(download_url, "chromedriver-linux64.zip")
+
+            # Extrair o zip
+            with zipfile.ZipFile("chromedriver-linux64.zip", 'r') as zip_ref:
+                zip_ref.extractall("chromedriver_extracted")
+
+            # Mover o executável para o diretório de execução do sistema
+            os.system("mv chromedriver_extracted/chromedriver-linux64/chromedriver /usr/local/bin/")
+            os.system("chmod +x /usr/local/bin/chromedriver")
+
+            # Limpar arquivos temporários
+            os.system("rm -rf chromedriver-linux64.zip chromedriver_extracted")
+            print("ChromeDriver instalado e configurado com sucesso!")
+        else:
+            print("Não foi possível encontrar uma URL de download adequada para o ChromeDriver.")
+    except Exception as e:
+        print(f"Erro ao configurar o ChromeDriver: {e}")
+
+setup_chromedriver()
 
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
 import time
-import os
-import re
 
 # Configure Chrome options
 options = Options()
@@ -13,6 +68,7 @@ options.add_argument("--no-sandbox")
 options.add_argument("--disable-gpu")
 options.add_argument("--window-size=1280,720")
 options.add_argument("--disable-infobars")
+options.add_argument("--disable-dev-shm-usage")
 
 # Create the webdriver instance
 driver = webdriver.Chrome(options=options)
@@ -63,22 +119,7 @@ driver.quit()
 
 print("Extração de URLs de páginas de vídeo da RTP Play concluída. As URLs foram salvas em pt.txt")
 
-from selenium import webdriver
-from selenium.webdriver.chrome.options import Options
-from selenium.webdriver.common.by import By
-import time
-import os
-
-
-# Configure Chrome options
-options = Options()
-options.add_argument("--headless")
-options.add_argument("--no-sandbox")
-options.add_argument("--disable-gpu")
-options.add_argument("--window-size=1280,720")
-options.add_argument("--disable-infobars")
-
-# Create the webdriver instance
+# Create a new webdriver instance for the second extraction
 driver = webdriver.Chrome(options=options)
 
 # URL of the desired page
@@ -109,13 +150,8 @@ print("Extração de URLs de páginas de vídeo concluída. As URLs foram salvas
 
 import subprocess
 import json
-import os
 import requests
 from bs4 import BeautifulSoup
-from selenium import webdriver
-from selenium.webdriver.chrome.options import Options
-from selenium.webdriver.common.by import By
-import time
 
 # Configurações do Selenium (modo headless)
 chrome_options = Options()
@@ -126,7 +162,7 @@ chrome_options.add_argument("--disable-dev-shm-usage")
 def get_video_details_youtube(url):
     try:
         result = subprocess.run(
-            ['youtube-dl', '-j', '--flat-playlist', url],
+            ['yt-dlp', '-j', '--flat-playlist', url],  # Usando yt-dlp como substituto mais moderno e robusto ao antigo youtube-dl
             capture_output=True,
             text=True,
             check=True
@@ -170,16 +206,16 @@ def get_video_details_streamlink(url):
 def extract_with_selenium(url):
     """Extração de .m3u8, título e thumbnail usando Selenium."""
     try:
-        driver = webdriver.Chrome(options=chrome_options)
-        driver.get(url)
+        driver_extraction = webdriver.Chrome(options=chrome_options)
+        driver_extraction.get(url)
         time.sleep(10)
 
-        title = driver.title
-        logs = driver.execute_script("return window.performance.getEntriesByType('resource');")
+        title = driver_extraction.title
+        logs = driver_extraction.execute_script("return window.performance.getEntriesByType('resource');")
         m3u8_url = next((entry['name'] for entry in logs if ".m3u8" in entry['name']), None)
         thumbnail = next((entry['name'] for entry in logs if entry['name'].endswith('.jpg')), "N/A")
 
-        driver.quit()
+        driver_extraction.quit()
 
         if m3u8_url:
             return [{
@@ -236,23 +272,23 @@ def process_urls_from_file(input_file):
     if not os.path.exists(input_file):
         print(f"O arquivo {input_file} não foi encontrado.")
         return
-    
+
     all_details = []
-    
+
     with open(input_file, 'r') as file:
         urls = file.readlines()
-    
+
     urls = [url.strip() for url in urls if url.strip()]
-    
+
     for i, url in enumerate(urls):
         print(f"\nProcessando URL {i + 1}: {url}")
         details = get_video_details(url)
-        
+
         if details:
             all_details.extend(details)
         else:
             print(f"Nenhum detalhe encontrado para a URL: {url}")
-    
+
     filename = 'lista1.m3u'
     write_m3u_file(all_details, filename)
     print(f"\nArquivo {filename} criado com sucesso.")
