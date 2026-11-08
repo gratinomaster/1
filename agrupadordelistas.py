@@ -4,15 +4,16 @@ import json
 import os
 import re
 from datetime import datetime, time
+from zoneinfo import ZoneInfo
 from time import sleep
 from urllib.parse import quote
 
-import pytz
 import requests
 
-TIMEZONE = pytz.timezone("America/Sao_Paulo")
-OUTPUT_FILE = "lista1.M3U"
-CACHE_DIR = ".m3u_cache"
+TIMEZONE = ZoneInfo("America/Sao_Paulo")
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+OUTPUT_FILE = os.path.join(BASE_DIR, "lista1.M3U")
+CACHE_DIR = os.path.join(BASE_DIR, ".m3u_cache")
 MANIFEST_FILE = os.path.join(CACHE_DIR, "manifest.json")
 REQUEST_TIMEOUT = 30
 CONNECT_TIMEOUT = 10
@@ -367,10 +368,13 @@ def fetch_source(url, downloaded):
 def collect_source(url, downloaded, allow_network=True):
     if allow_network:
         entries, epg_urls, ok = fetch_source(url, downloaded)
-        if ok:
+        if ok and entries:
             save_cache(url, entries, epg_urls)
             return entries, epg_urls
-        print("  Fonte indisponivel, preservando dados anteriores")
+        if ok:
+            print("  Fonte sem canais, preservando dados anteriores")
+        else:
+            print("  Fonte indisponivel, preservando dados anteriores")
     else:
         print("  Fora do horario, sem atualizar")
     cached = load_cache(url)
