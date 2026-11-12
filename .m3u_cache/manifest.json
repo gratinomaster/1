@@ -1,7 +1,11 @@
 {
+  "https://api.github.com/repos/gratinomaster/JCTV/contents": {
+    "channels": 3767,
+    "updated_at": "2026-11-12T00:22:06-03:00"
+  },
   "https://archive.org/details/television?query=cbs&sort=date&tab=collection": {
     "channels": 15,
-    "updated_at": "2026-11-11T19:33:04-03:00"
+    "updated_at": "2026-11-12T00:23:13-03:00"
   },
   "https://github.com/LITUATUI/M3UPT/raw/main/M3U/M3UPT.m3u": {
     "channels": 930,
@@ -9,23 +13,23 @@
   },
   "https://github.com/gratinomaster/1/raw/refs/heads/main/lista2.M3U": {
     "channels": 360,
-    "updated_at": "2026-11-11T19:31:27-03:00"
+    "updated_at": "2026-11-12T00:21:13-03:00"
   },
   "https://github.com/iprtl/m3u/raw/b8507db8229defeda88512eaaf66bfe0e385e81c/Freetv.m3u": {
     "channels": 601,
-    "updated_at": "2026-11-11T19:31:28-03:00"
+    "updated_at": "2026-11-12T00:21:20-03:00"
   },
   "https://github.com/ipstreet312/freeiptv/raw/refs/heads/master/all.m3u": {
     "channels": 754,
-    "updated_at": "2026-11-11T19:31:53-03:00"
+    "updated_at": "2026-11-12T00:21:48-03:00"
   },
   "https://github.com/iptv-org/iptv/raw/6b77242580c3b34d34f984265bfed2937708fce0/streams/us_moveonjoy.m3u": {
     "channels": 139,
-    "updated_at": "2026-11-11T19:31:27-03:00"
+    "updated_at": "2026-11-12T00:21:14-03:00"
   },
   "https://github.com/otoxp/wepg/raw/df55b2ba14f8ec85bd198f85bd3c8cf35d3fa482/list/lista-globos-mitv.m3u": {
     "channels": 907,
-    "updated_at": "2026-11-11T19:31:28-03:00"
+    "updated_at": "2026-11-12T00:21:19-03:00"
   },
   "https://github.com/punkstarbr/STR-YT/raw/main/lista1.M3U": {
     "channels": 32,
@@ -33,7 +37,7 @@
   },
   "https://github.com/punkstarbr/STR-YT/raw/refs/heads/main/REALITY.m3u": {
     "channels": 40,
-    "updated_at": "2026-11-11T19:31:28-03:00"
+    "updated_at": "2026-11-12T00:21:20-03:00"
   },
   "https://github.com/strikeinthehouse/1/raw/main/lista2.M3U": {
     "channels": 360,
@@ -41,7 +45,7 @@
   },
   "https://github.com/strikeinthehouse/1/raw/refs/heads/main/lista_1.M3U": {
     "channels": 25,
-    "updated_at": "2026-11-11T19:31:28-03:00"
+    "updated_at": "2026-11-12T00:21:16-03:00"
   },
   "https://github.com/strikeinthehouse/M3UPT/raw/main/M3U/M3UPT.m3u": {
     "channels": 930,
