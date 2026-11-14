@@ -16502,6 +16502,11 @@ https://video-auth1.iol.pt/beachcam/bccabedelocablepark/playlist.m3u8
 https://video-auth1.iol.pt/beachcam/matadouroskate/playlist.m3u8
 #EXTINF:-1 group-title="Beachcam" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Meo-Beachcam.png",Ria de Aveiro - Murtosa
 https://video-auth1.iol.pt/beachcam/murtosa/playlist.m3u8
+#EXTINF:-1 media="true" group-title="Eixo do Mal" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Eixo_do_Mal.png",Eixo do Mal - 12/11/2026
+#EXTVLCOPT:http-user-agent="Mozilla/5.0 (X11; Linux x86_64; rv:159.0) Gecko/20100101 Firefox/159.0"
+#EXTVLCOPT:http-origin=https://sicnoticias.pt
+#EXTVLCOPT:http-referrer=https://sicnoticias.pt
+https://videos.impresa.pt/videos/hls/sicnot/2026/11/13/8c173d53-6f89-46e3-b2a6-90e674ad1be5/video.m3u8
 #EXTINF:-1 media="true" group-title="Eixo do Mal" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Eixo_do_Mal.png",Eixo do Mal - 5/11/2026
 https://videos.impresa.pt/videos/hls/sicnot/2026/11/06/548a0920-9491-4a83-b7aa-84e9f6a50f15/video.m3u8
 #EXTINF:-1 media="true" group-title="Eixo do Mal" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Eixo_do_Mal.png",Eixo do Mal - 29/10/2026
@@ -16926,6 +16931,11 @@ https://cdn.jwplayer.com/manifests/Mbkr8pJ8.m3u8
 https://cdn.jwplayer.com/manifests/3AhzNuqR.m3u8
 #EXTINF:-1 media="true" group-title="Eixo do Mal" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Eixo_do_Mal.png",Eixo do Mal - 15/4/2022
 https://content.jwplatform.com/manifests/jL3dl5uq.m3u8
+#EXTINF:-1 media="true" group-title="PCNELID" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/PCNELID.png",PCNELID - 13/11/2026
+#EXTVLCOPT:http-user-agent="Mozilla/5.0 (X11; Linux x86_64; rv:159.0) Gecko/20100101 Firefox/159.0"
+#EXTVLCOPT:http-origin=https://sicnoticias.pt
+#EXTVLCOPT:http-referrer=https://sicnoticias.pt
+https://videos.impresa.pt/videos/hls/sicnot/2026/11/13/4da801f2-6d1a-499b-8658-a1cb9b80673b/video.m3u8
 #EXTINF:-1 media="true" group-title="PCNELID" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/PCNELID.png",PCNELID - 6/11/2026
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (X11; Linux x86_64; rv:159.0) Gecko/20100101 Firefox/159.0"
 #EXTVLCOPT:http-origin=https://sicnoticias.pt
@@ -17698,16 +17708,6 @@ https://streaming-vod.rtp.pt/hls/nas2.share,/pt/h264/512x384/p13613/p13613_1_202
 #EXTINF:-1 media="true" group-title="O Planeta Vivo" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/O_Planeta_Vivo.png",O Planeta Vivo - S01E06
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (X11; Linux x86_64; rv:159.0) Gecko/20100101 Firefox/159.0"
 https://streaming-vod.rtp.pt/hls/nas2.share,/pt/h264/512x384/p13613/p13613_1_20240807161003e006t0948d_hi.mp4,/pt/h264/512x384/p13613/p13613_1_20240807161003e006t0948d_lo.mp4,/pt/h264/512x384/p13613/p13613_1_20240807161003e006t0948d.mp4,.urlset/index-f3-v1-a1.m3u8
-#EXTINF:-1 media="true" group-title="Eixo do Mal" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Eixo_do_Mal.png",Eixo do Mal - 12/11/2026
-#EXTVLCOPT:http-user-agent="Mozilla/5.0 (X11; Linux x86_64; rv:159.0) Gecko/20100101 Firefox/159.0"
-#EXTVLCOPT:http-origin=https://sicnoticias.pt
-#EXTVLCOPT:http-referrer=https://sicnoticias.pt
-https://videos.impresa.pt/videos/hls/sicnot/2026/11/13/8c173d53-6f89-46e3-b2a6-90e674ad1be5/video.m3u8
-#EXTINF:-1 media="true" group-title="PCNELID" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/PCNELID.png",PCNELID - 13/11/2026
-#EXTVLCOPT:http-user-agent="Mozilla/5.0 (X11; Linux x86_64; rv:159.0) Gecko/20100101 Firefox/159.0"
-#EXTVLCOPT:http-origin=https://sicnoticias.pt
-#EXTVLCOPT:http-referrer=https://sicnoticias.pt
-https://videos.impresa.pt/videos/hls/sicnot/2026/11/13/4da801f2-6d1a-499b-8658-a1cb9b80673b/video.m3u8
 #EXTINF:-1 group-title="VOD" tvg-logo="https://archive.org/services/img/rep.-james-talarico-on-confronting-christian-nationalism-and-strange-days-in-the",Rep. James Talarico On Confronting Christian Nationalism, And Strange Days In The Texas Legislature
 https://archive.org/download/rep.-james-talarico-on-confronting-christian-nationalism-and-strange-days-in-the/Rep.%20James%20Talarico%20On%20Confronting%20Christian%20Nationalism%2C%20And%20Strange%20Days%20In%20The%20Texas%20Legislature%20-%20The%20Late%20Show%20with%20Stephen%20Colbert%20%281080p%2C%20h264%29.mp4
 #EXTINF:-1 group-title="VOD" tvg-logo="https://archive.org/services/img/the-perfect-line-gsn-09092025",The Perfect Line S1E3: Jada vs. Tina vs. Barbara vs. Sharon
