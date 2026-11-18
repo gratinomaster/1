@@ -6,7 +6,7 @@ import re
 from datetime import datetime, time
 from zoneinfo import ZoneInfo
 from time import sleep
-from urllib.parse import quote
+from urllib.parse import quote, unquote
 
 import requests
 
@@ -95,6 +95,12 @@ SOURCE_FALLBACKS = {
 
 GITHUB_CONTENTS_PATTERN = re.compile(
     r"^https?://github\.com/(?P<owner>[^/]+)/(?P<repo>[^/]+)/contents/?$", re.IGNORECASE
+)
+GITHUB_API_CONTENTS_PATTERN = re.compile(
+    r"^https?://api\.github\.com/repos/(?P<owner>[^/]+)/(?P<repo>[^/]+)/contents/?$", re.IGNORECASE
+)
+GITHUB_REPO_PAGE_PATTERN = re.compile(
+    r"^https?://github\.com/(?P<owner>[^/]+)/(?P<repo>[^/]+)/?$", re.IGNORECASE
 )
 GITHUB_RAW_PATTERN = re.compile(
     r"^https?://github\.com/(?P<owner>[^/]+)/(?P<repo>[^/]+)/raw/(?P<refs>refs/heads/)?(?P<branch>[^/]+)/(?P<path>.+)$",
@@ -212,6 +218,13 @@ def normalize_source_url(url):
     return url
 
 
+def github_repo_page(url):
+    match = GITHUB_CONTENTS_PATTERN.match(url) or GITHUB_API_CONTENTS_PATTERN.match(url)
+    if not match:
+        return None
+    return f"https://github.com/{match.group('owner')}/{match.group('repo')}"
+
+
 def raw_github_equivalent(url):
     match = GITHUB_RAW_PATTERN.match(url)
     if not match:
@@ -302,6 +315,11 @@ def parse_payload(url, text, downloaded):
         epg_urls.extend(extract_epg_urls(first_line))
         return parse_m3u(text), epg_urls, True
 
+    if "<html" in text[:2000].lower() and GITHUB_REPO_PAGE_PATTERN.match(url):
+        print("  Pagina HTML do repositorio GitHub")
+        entries, epg_urls = parse_github_html(url, text, downloaded)
+        return entries, epg_urls, True
+
     try:
         contents = json.loads(text)
     except ValueError:
@@ -332,6 +350,37 @@ def parse_payload(url, text, downloaded):
     return entries, epg_urls, True
 
 
+def parse_github_html(page_url, text, downloaded):
+    match = GITHUB_REPO_PAGE_PATTERN.match(page_url)
+    if not match:
+        return [], []
+    owner = match.group("owner")
+    repo = match.group("repo")
+    paths = []
+    for href in re.findall(r'href="/[^"]+/blob/([^"?#]+)"', text, flags=re.IGNORECASE):
+        path = unquote(href)
+        if "/" in path:
+            path = path.split("/", 1)[1]
+        if not path.lower().endswith((".m3u", ".m3u8")) or path in paths:
+            continue
+        paths.append(path)
+    entries = []
+    epg_urls = []
+    for path in paths:
+        raw_url = f"https://raw.githubusercontent.com/{owner}/{repo}/HEAD/{quote(path, safe='/')}"
+        if raw_url in downloaded:
+            continue
+        downloaded.add(raw_url)
+        print(f"  Baixando: {path}")
+        m3u_text = fetch_text(raw_url)
+        if m3u_text is None:
+            continue
+        sub_lines = m3u_text.splitlines()
+        epg_urls.extend(extract_epg_urls(sub_lines[0] if sub_lines else ""))
+        entries.extend(parse_m3u(m3u_text))
+    return entries, epg_urls
+
+
 def source_candidates(url):
     candidates = []
     target = normalize_source_url(url)
@@ -344,12 +393,16 @@ def source_candidates(url):
     for fallback in SOURCE_FALLBACKS.get(url, []):
         if fallback not in candidates:
             candidates.append(fallback)
+    for candidate in list(candidates):
+        repo_page = github_repo_page(candidate)
+        if repo_page and repo_page not in candidates:
+            candidates.append(repo_page)
     return candidates
 
 
 def fetch_source(url, downloaded):
     empty_result = None
-    for candidate in source_candidates(url):
+    for index, candidate in enumerate(source_candidates(url)):
         if candidate != normalize_source_url(url):
             print(f"  Tentando alternativa: {candidate}")
         text = fetch_text(candidate)
@@ -357,18 +410,22 @@ def fetch_source(url, downloaded):
             continue
         entries, epg_urls, valid = parse_payload(candidate, text, downloaded)
         if entries:
-            return entries, epg_urls, True
+            return entries, epg_urls, True, index == 0
         if valid and empty_result is None:
-            empty_result = (entries, epg_urls)
+            empty_result = (entries, epg_urls, index == 0)
     if empty_result is not None:
-        return empty_result[0], empty_result[1], True
-    return [], [], False
+        return empty_result[0], empty_result[1], True, empty_result[2]
+    return [], [], False, False
 
 
 def collect_source(url, downloaded, allow_network=True):
     if allow_network:
-        entries, epg_urls, ok = fetch_source(url, downloaded)
+        entries, epg_urls, ok, primary_ok = fetch_source(url, downloaded)
         if ok and entries:
+            cached = load_cache(url)
+            if cached is not None and not primary_ok and len(cached[0]) > len(entries):
+                print(f"  Alternativa com menos canais que o cache ({len(entries)} < {len(cached[0])}), preservando dados anteriores")
+                return cached[0], cached[1]
             save_cache(url, entries, epg_urls)
             return entries, epg_urls
         if ok:
@@ -381,7 +438,7 @@ def collect_source(url, downloaded, allow_network=True):
     if cached is None:
         if not allow_network:
             print("  Sem cache anterior, coletando uma unica vez")
-            entries, epg_urls, ok = fetch_source(url, downloaded)
+            entries, epg_urls, ok, _ = fetch_source(url, downloaded)
             if ok:
                 save_cache(url, entries, epg_urls)
                 return entries, epg_urls

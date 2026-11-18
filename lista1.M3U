@@ -17201,12 +17201,6 @@ https://24383.live.streamtheworld.com/ATL_FLO.mp3
 https://liverdcbn.rbsdirect.com.br/primary/cbn_poa.sdp/playlist.m3u8
 #EXTINF:-1 group-title="RADIO" tvg-id="Concierto.FM.br" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVL7LDRdHDaX21PVccz1VKUyLWX1ZGkPnLHAngKF5fs8Q5mzUQNWEcgGsojA&s",CONCIERTO FM PUNTA
 https://conectperu.com/8012/stream
-#EXTINF:-1 group-title="TV ABERTA" tvg-id="Globo SP_local" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/TV_Globo_2024_azul.png/480px-TV_Globo_2024_azul.png",TV GLOBO - RJ
-http://iptv.vivatele.com:80/live/viva_padrao/viva2384/1.m3u8
-#EXTINF:-1 group-title="TV ABERTA" tvg-id="Globo.br" tvg-name="GLOBO HD (NOVA)" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/globo-br.png",GLOBO HD (NOVA)
-http://streaming.sattvgo.com.br/GLOBO_HD/index.m3u8
-#EXTINF:-1 group-title="NEWS WORLD" tvg-id="CNN.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/CNN.svg/512px-CNN.svg.png",CNN SERVIÇO 1
-https://tvsen6.aynaott.com/cnn/index.m3u8
 #EXTINF:-1 group-title="TV" tvg-id="SIC.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/SIC.pt.png",SIC
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (X11; Linux x86_64; rv:159.0) Gecko/20100101 Firefox/159.0"
 #EXTVLCOPT:http-origin=https://sic.pt
@@ -19294,5 +19288,5 @@ https://archive.org/download/wheel-of-fortune-season-44-episode-8422-october-13-
 https://archive.org/download/wheel-of-fortune-season-44-episode-8421-october-12-2026-columbus-day/Wheel%20of%20Fortune%20%5BSeason%2044%5D%20Episode%20%238421%20%28October%2012%2C%202026%2C%20Columbus%20Day%29.mp4
 #EXTINF:-1 group-title="VOD" tvg-logo="https://archive.org/services/img/wheel-of-fortune-season-44-episode-8420-october-9-2026",Wheel of Fortune Episode #8420 (October 9, 2026)
 https://archive.org/download/wheel-of-fortune-season-44-episode-8420-october-9-2026/Wheel%20of%20Fortune%20%5BSeason%2044%5D%20Episode%20%238420%20%28October%209%2C%202026%29.mp4
-#EXTINF:-1 group-title="VOD" tvg-logo="https://archive.org/services/img/img-3884_202610",ETERNALLY YOURS - Joe vs. Joe/The Tannenbaum Company/Cannonball Entertainment/CBS Studios (2026)
-https://archive.org/download/img-3884_202610/ScreenRecording_10-14-2026%2006-14-40_1.mov
+#EXTINF:-1 group-title="VOD" tvg-logo="https://archive.org/services/img/wheel-of-fortune-season-44-episode-8419-october-8-2026",Wheel of Fortune Episode #8419 (October 8, 2026)
+https://archive.org/download/wheel-of-fortune-season-44-episode-8419-october-8-2026/Wheel%20of%20Fortune%20%5BSeason%2044%5D%20Episode%20%238419%20%28October%208%2C%202026%29.mp4
