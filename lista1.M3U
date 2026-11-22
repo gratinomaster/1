@@ -17640,6 +17640,8 @@ https://cdn.teveo.cu/live/video/A36pWmuWvZBQskuZ/ngrp:gppfydfzpSUn9Udy.stream/pl
 https://5fc584f3f19c9.streamlock.net/canal22/videocanal22/chunklist_w770096741.m3u8
 #EXTINF:-1 group-title="TV" tvg-id="AztecaInternacional.mx" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/AztecaInternacional.mx.png",Azteca Internacional
 https://azt-mun.otteravision.com/azt/mun/mun.m3u8
+#EXTINF:-1 group-title="TV" tvg-id="savoir.ca" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/b/b4/Savoir_media.png",Canal Savoir
+https://hls.savoir.media/live/stream.m3u8
 #EXTINF:-1 group-title="TV" tvg-id="EBSEnglish.kr" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/EBSEnglish.kr.png",EBS English
 https://ebsonair.ebs.co.kr/plus3familypc/familypc1m/playlist.m3u8
 #EXTINF:-1 group-title="TV" tvg-id="EBS1TV.kr" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/EBS1TV.kr.png",EBS 1
@@ -17684,9 +17686,6 @@ https://xite-rakuten.amagi.tv/playlist.m3u8
 https://streamcdng5-4c4b867c89244861ac216426883d1ad0.msvdn.net/live/S85984808/sMO0tz9Sr2Rk/playlist.m3u8
 #EXTINF:-1 group-title="TV" tvg-id="4fun.pl" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/4fun.pl.png",4Fun.TV
 https://stream.4fun.tv:8888/hls/4f_high/index.m3u8
-#EXTINF:-1 group-title="TV" tvg-id="KpopTVPlay.br" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/KpopTVPlay.br.png",KpopTV Play
-#https://giatv.bozztv.com/giatv/giatv-kpoptvplay/kpoptvplay/playlist.m3u8
-https://183.bozztv.com/giatv/giatv-kpoptvplay/kpoptvplay/playlist.m3u8
 #EXTINF:-1 group-title="TV" tvg-id="FMITALIA.it" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/FMITALIA.it.png",FM Italia TV
 https://stream1.xdevel.com/video0s975817-1182/stream/playlist.m3u8
 #EXTINF:-1 group-title="TV" tvg-id="ColosalTV.cr" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/ColosalTV.cr.png",Colosal TV
