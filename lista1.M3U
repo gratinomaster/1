@@ -14930,12 +14930,28 @@ https://www.youtube.com/@ARYNewsOfficial/live
 https://www.youtube.com/@CBS42/live
 #EXTINF:-1 group-title="YT" tvg-id="" tvg-logo="https://yt3.googleusercontent.com/PQzlb5315W7PXUfJuZJcxiqHgUBFn9XRRwDyLui9nZNyhRIniOtJj9ogwMaCssSjH38rJ737=s900-c-k-c0x00ffffff-no-rj", Rádio TV CDL SP
 https://www.youtube.com/@radiotvcdlsp/live
-#EXTINF:-1 tvg-id="ABC.News.Live.us2" tvg-name="ABC News Live" tvg-logo="https://s.abcnews.com/images/Live/abc_news_live-abc-ml-250210_1739199021469_hpMain_16x9_608.jpg" group-title="NEWS WORLD",ABC News Live
+#EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/4/49/CBN.png" group-title="NEWS WORLD",CBN SP
+https://live-as-01-01.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJVUyIsImRvbWFpbiI6ImxpdmUtYXMtMDEtMDEudmlkZW8uZ2xvYm8uY29tIiwiZXhwIjoxNzk1NTA3NDcwLCJpYXQiOjE3OTU0ODU4NzAsImlzcyI6InBsYXliYWNrLWFwaS1wcm9kLWdjcCIsIm93bmVyIjoiIiwicGF0aCI6Ii9saXZlL2YoYk1pbj0zMTM5ODQsZHZyPTEyMCkvY2Juc3AyNGhhL3BsYXlsaXN0Lm0zdTgifQ.Kk5Wf8lbBmojt-HqPWshMhAz4rAz7Bkbs3MkoNe9RhwA5uvv4884UwX7MeVYMpUKjn0DXOngRY9y3NLUMcRD7RSgyUCpnyDDEsym-zAiQPk7Lj9vHYmnZ8NdDEUiHCAFtHMaxE9n4lF4mk0LXYJZz-IifS464IpgMXoETQ_bwMDp_v1YEMRCfszyXD8thhM09ZYA_feyTgXZauqAI_q2q5PGEsKZDu2JgqOChwAdpUCgWBHMowS_Ze3eBOU0EmjcCmCG_dxI2UsxMEvD2UvUup0zaSoGrmKB_ZYwvjCv3HP9Ijb2H8iT052e73XR8T8aJ9PxvIguwPfY9quFgS9r8w/live/f(bMin=313984,dvr=120)/cbnsp24ha/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://keyframe-cdn.abcnews.com/streamprovider11.jpg" group-title="NEWS WORLD",ABC News Live - ABC News
 https://abcnews-livestreams.akamaized.net/out/v1/173a6e46d5c5423d9611bc7fb7899c73/abcn-live-05-cmaf-manifest/abcn-live-05-index.m3u8
-#EXTINF:-1 tvg-id="ABC.News.Live.us2" tvg-name="ABC News Live" tvg-logo="https://s.abcnews.com/images/Live/abc_news_live-abc-ml-250210_1739199021469_hpMain_16x9_608.jpg" group-title="NEWS WORLD",ABC News Live (alternativo)
+#EXTINF:-1 tvg-logo="https://keyframe-cdn.abcnews.com/streamprovider11.jpg" group-title="NEWS WORLD",ABC News Live - ABC News
+https://abcnews-livestreams.akamaized.net/out/v1/173a6e46d5c5423d9611bc7fb7899c73/abcn-live-05-cmaf-manifest/abcn-live-05-index_3.m3u8
+#EXTINF:-1 tvg-logo="https://keyframe-cdn.abcnews.com/streamprovider10.jpg" group-title="NEWS WORLD",Video Storm system sweeping up the East Coast; tracking more storms taking aim at the West Coast | Watch Live News on ABCNL
+https://abcnews-livestreams.akamaized.net/out/v1/6a597119dbd5428a82dc11a2f514a1a2/abcn-live-10-cmaf-manifest/abcn-live-10-index.m3u8
+#EXTINF:-1 tvg-logo="https://keyframe-cdn.abcnews.com/streamprovider10.jpg" group-title="NEWS WORLD",Video Storm system sweeping up the East Coast; tracking more storms taking aim at the West Coast | Watch Live News on ABCNL
 https://abcnews-livestreams.akamaized.net/out/v1/6a597119dbd5428a82dc11a2f514a1a2/abcn-live-10-cmaf-manifest/abcn-live-10-index_3.m3u8
-#EXTINF:-1 tvg-id="CBS.News.National.Stream.us2" tvg-name="CBS News National Stream" tvg-logo="https://assets2.cbsnewsstatic.com/hub/i/r/2024/04/16/0fb75ad2-a909-44bb-87dc-86b9d51cbeb2/thumbnail/1280x720/949f3d3fef16f9c113e3048c6aef229f/247-key-channelthumbnail-1920x1080.jpg" group-title="NEWS WORLD",CBS News 24/7
-https://news20e7hhcb.airspace-cdn.cbsivideo.com/index.m3u8
+#EXTINF:-1 tvg-logo="https://a57.foxnews.com/cf-images.us-east-1.prod.boltdns.net/v1/static/694940094001/c9b2e2eb-7b87-435c-9510-eab2650ff944/8b584585-acf2-4c37-aa07-aaf2d077bb20/1280x720/match/676/380/image.jpg?ve=1&tl=1" group-title="NEWS WORLD",Fox Business Go | Fox News Video
+https://247.foxbusiness.com/hls/live/2003756/FBNHLSv3/master.m3u8?hdnea=exp=1795492797~acl=/*~hmac=c99bd5b4c5036f5d28bb87ec96a438d2d0d0d54c7ba42fc764d25620717c8daa
+#EXTINF:-1 tvg-logo="https://a57.foxnews.com/cf-images.us-east-1.prod.boltdns.net/v1/static/694940094001/15de0523-3be4-4a9a-8159-7020114e7036/b6ff623a-26d6-4fd9-8bb8-0856adbf38ce/1280x720/match/676/380/image.jpg?ve=1&tl=1" group-title="NEWS WORLD",Watch Fox News Channel Online | Stream Fox News
+https://247.foxnews.com/hls/live/2003586/FNCHLSv3/master.m3u8?hdnea=exp=1795492797~acl=/*~hmac=c99bd5b4c5036f5d28bb87ec96a438d2d0d0d54c7ba42fc764d25620717c8daa
+#EXTINF:-1 tvg-logo="https://assets2.cbsnewsstatic.com/hub/i/r/2024/04/16/0fb75ad2-a909-44bb-87dc-86b9d51cbeb2/thumbnail/1280x720/949f3d3fef16f9c113e3048c6aef229f/247-key-channelthumbnail-1920x1080.jpg" group-title="NEWS WORLD",Watch CBS News 24/7, our free live news stream
+https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/88b398ca-4691-48ca-93ea-6c46e7bef4e6:ATL/master.m3u8
+#EXTINF:-1 tvg-logo="https://assets2.cbsnewsstatic.com/hub/i/r/2024/04/16/0fb75ad2-a909-44bb-87dc-86b9d51cbeb2/thumbnail/1280x720/949f3d3fef16f9c113e3048c6aef229f/247-key-channelthumbnail-1920x1080.jpg" group-title="NEWS WORLD",Watch CBS News 24/7, our free live news stream
+https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/88b398ca-4691-48ca-93ea-6c46e7bef4e6:ATL/variant/2ed2c78fd57ae51fb6ba5d4bbd59e953/bandwidth/441000.m3u8
+#EXTINF:-1 tvg-logo="https://assets2.cbsnewsstatic.com/hub/i/r/2024/04/16/0fb75ad2-a909-44bb-87dc-86b9d51cbeb2/thumbnail/1280x720/949f3d3fef16f9c113e3048c6aef229f/247-key-channelthumbnail-1920x1080.jpg" group-title="NEWS WORLD",Watch CBS News 24/7, our free live news stream
+https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/88b398ca-4691-48ca-93ea-6c46e7bef4e6:ATL/variant/c1de5c45f7968bb580d02bc76f3a9e7e/bandwidth/1083000.m3u8
+#EXTINF:-1 tvg-logo="https://assets2.cbsnewsstatic.com/hub/i/r/2024/04/16/0fb75ad2-a909-44bb-87dc-86b9d51cbeb2/thumbnail/1280x720/949f3d3fef16f9c113e3048c6aef229f/247-key-channelthumbnail-1920x1080.jpg" group-title="NEWS WORLD",Watch CBS News 24/7, our free live news stream
+https://dai.google.com/linear/hls/pa/event/Sid4xiTQTkCT1SLu6rjUSQ/stream/88b398ca-4691-48ca-93ea-6c46e7bef4e6:ATL/variant/b93ad8358bd5b2b671e137cb4cd530a7/bandwidth/2249000.m3u8
 #EXTINF:-1 group-title="TV ABERTA" tvg-id="Globo SP_local" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/TV_Globo_2024_azul.png/480px-TV_Globo_2024_azul.png",TV GLOBO - RJ
 http://streaming.sattvgo.com.br/GLOBO_HD/index.m3u8
 #EXTINF:-1 group-title="TV ABERTA" tvg-id="Globo.br" tvg-name="GLOBO HD (NOVA)" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/globo-br.png",GLOBO HD (NOVA)
@@ -15961,6 +15977,8 @@ https://raw.githubusercontent.com/InsolenceWillow/insolencetvgo/main/streams/tnt
 https://raw.githubusercontent.com/InsolenceWillow/insolencetvgo/main/streams/trutveast.us.m3u8
 #EXTINF:-1 group-title="Live Channels" tvg-id="truTVPacific.us" tvg-logo="https://www.effectv.com/wp-content/uploads/2021/10/truTV-White-Small.png.webp",truTV West
 https://raw.githubusercontent.com/InsolenceWillow/insolencetvgo/main/streams/trutvwest.us.m3u8
+#EXTINF:-1 group-title="NEWS WORLD" tvg-id="USBA370000104" tvg-logo="https://www.cbsnews.com/fly/bundles/cbsnewscore/icons/icon-512x512.png",CBS News 24/7
+https://news20e7hhcb.airspace-cdn.cbsivideo.com/index.m3u8
 #EXTINF:-1 group-title="NEWS WORLD" tvg-id="USBB2200014DK" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBB2200014DK_20250410T184758SQUARE.png",NBC News NOW (HD)
 https://d1bl6tskrpq9ze.cloudfront.net/hls/master.m3u8?ads.xumo_channelId=99984003
 #EXTINF:-1 tvg-id="I603.10188.schedulesdirect.org" tvg-name="Classic Arts Showcase" group-title="Entertainment",Classic Arts Showcase
@@ -22580,5 +22598,5 @@ https://archive.org/download/wheel-of-fortune-season-44-episode-8422-october-13-
 https://archive.org/download/wheel-of-fortune-season-44-episode-8421-october-12-2026-columbus-day/Wheel%20of%20Fortune%20%5BSeason%2044%5D%20Episode%20%238421%20%28October%2012%2C%202026%2C%20Columbus%20Day%29.mp4
 #EXTINF:-1 group-title="VOD" tvg-logo="https://archive.org/services/img/wheel-of-fortune-season-44-episode-8420-october-9-2026",Wheel of Fortune Episode #8420 (October 9, 2026)
 https://archive.org/download/wheel-of-fortune-season-44-episode-8420-october-9-2026/Wheel%20of%20Fortune%20%5BSeason%2044%5D%20Episode%20%238420%20%28October%209%2C%202026%29.mp4
-#EXTINF:-1 group-title="VOD" tvg-logo="https://archive.org/services/img/img-3884_202610",ETERNALLY YOURS - Joe vs. Joe/The Tannenbaum Company/Cannonball Entertainment/CBS Studios (2026)
-https://archive.org/download/img-3884_202610/ScreenRecording_10-14-2026%2006-14-40_1.mov
+#EXTINF:-1 group-title="VOD" tvg-logo="https://archive.org/services/img/wheel-of-fortune-season-44-episode-8419-october-8-2026",Wheel of Fortune Episode #8419 (October 8, 2026)
+https://archive.org/download/wheel-of-fortune-season-44-episode-8419-october-8-2026/Wheel%20of%20Fortune%20%5BSeason%2044%5D%20Episode%20%238419%20%28October%208%2C%202026%29.mp4
