@@ -11033,7 +11033,7 @@ https://g5.vxral-hor.transport.edge-access.net/b16/ngrp:c7_vivo01_dai_source-200
 #EXTINF:-1 tvg-id="ELTrece.ar" tvg-name="El Trece" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/argentina/eltrece-ar.png" group-title="ARGENTINA",El Trece 33.1 - TDA 33.1
 https://live-01-02-eltrece.vodgc.net/eltrecetv/index.m3u8
 #EXTINF:-1 tvg-id="Telefe.ar" tvg-name="Telefe" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/argentina/telefe-ar.png" group-title="ARGENTINA",Telefe 34.1 - TDA 34.1
-http://45.173.231.22:8000/play/a053/index.m3u8
+http://45.134.141.161:2200/ARG/TELEFE_HD/index.m3u8
 #EXTINF:-1 tvg-id="ELNueve.ar" tvg-name="El Nueve" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/argentina/elnueve-ar.png" group-title="ARGENTINA",El Nueve 35.1 - TDA 35.1
 http://45.188.229.33:8000/play/a1a5/index.m3u8?hls
 #EXTINF:-1 tvg-name="UNIFE" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/f2/UNIFE.jpg" group-title="ARGENTINA",UNIFE 25.1 - TDA 25.1
@@ -11407,12 +11407,10 @@ https://www-senate-gov-media-srs.akamaized.net/hls/live/2036784/capcam/capcam/ma
 https://do7ujvb4kwqvb.cloudfront.net/out/v1/434726d616804d87ae523d226d2b6afd/index.m3u8
 #EXTINF:-1 tvg-id="Rede.Vida.br" tvg-logo="https://redevida.com.br/wp-content/uploads/2024/07/logo-redevida.png.webp" group-title="REDE VIDA",Rede Vida
 https://d12e4o88jd8gex.cloudfront.net/out/v1/cea3de0b76ac4e82ab8ee0fd3f17ce12/index.m3u8
-#EXTINF:-1 tvg-id="Rede.Vida.br" tvg-logo="https://redevida.com.br/wp-content/uploads/2024/07/logo-redevida.png.webp" group-title="REDE VIDA",Rede Vida (Oficial 480p)
-https://d12e4o88jd8gex.cloudfront.net/out/v1/cea3de0b76ac4e82ab8ee0fd3f17ce12/index_2.m3u8
-#EXTINF:-1 tvg-id="Rede.Vida.br" tvg-logo="https://redevida.com.br/wp-content/uploads/2024/07/logo-redevida.png.webp" group-title="REDE VIDA",Rede Vida (Oficial 240p)
-https://d12e4o88jd8gex.cloudfront.net/out/v1/cea3de0b76ac4e82ab8ee0fd3f17ce12/index_3.m3u8
 #EXTINF:-1 tvg-id="CANAL10.uy" tvg-name="Canal 10 Uruguay" tvg-logo="https://www.canal10.com.uy/css-custom/229/images/ogimage-canal10.png" group-title="UMA | Gran Hermano Uruguay",Gran Hermano Uruguay - Canal 10 (vivo oficial)
 https://www.canal10.com.uy/contenidos/vivo.html
+#EXTINF:-1 tvg-id="[CXB10].CANAL.10.uy" tvg-name="Gran Hermano Uruguay 24/7" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Gran_Hermano_Uruguay.png/330px-Gran_Hermano_Uruguay.png" group-title="UMA | Gran Hermano",Gran Hermano Uruguay 24/7
+https://183.giatvcdn.com/ssh101/ssh101/minitv/chunks.m3u8
 #EXTINF:-1 tvg-id="[CXB10].CANAL.10.uy" tvg-name="Gran Hermano Uruguay 24/7" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Gran_Hermano_Uruguay.png/330px-Gran_Hermano_Uruguay.png" group-title="UMA | Gran Hermano Uruguay",Gran Hermano Uruguay 24/7 - Antel TV (requer conta)
 https://www.anteltv.com.uy/
 #EXTINF:-1 tvg-name="Canal Más" tvg-logo="https://canalmasuruguay.com/assets/logo.png" group-title="URUGUAY - TV Aberta",Canal Más
@@ -19864,5 +19862,5 @@ https://archive.org/download/wheel-of-fortune-season-44-episode-8422-october-13-
 https://archive.org/download/wheel-of-fortune-season-44-episode-8421-october-12-2026-columbus-day/Wheel%20of%20Fortune%20%5BSeason%2044%5D%20Episode%20%238421%20%28October%2012%2C%202026%2C%20Columbus%20Day%29.mp4
 #EXTINF:-1 group-title="VOD" tvg-logo="https://archive.org/services/img/wheel-of-fortune-season-44-episode-8420-october-9-2026",Wheel of Fortune Episode #8420 (October 9, 2026)
 https://archive.org/download/wheel-of-fortune-season-44-episode-8420-october-9-2026/Wheel%20of%20Fortune%20%5BSeason%2044%5D%20Episode%20%238420%20%28October%209%2C%202026%29.mp4
-#EXTINF:-1 group-title="VOD" tvg-logo="https://archive.org/services/img/wheel-of-fortune-season-44-episode-8419-october-8-2026",Wheel of Fortune Episode #8419 (October 8, 2026)
-https://archive.org/download/wheel-of-fortune-season-44-episode-8419-october-8-2026/Wheel%20of%20Fortune%20%5BSeason%2044%5D%20Episode%20%238419%20%28October%208%2C%202026%29.mp4
+#EXTINF:-1 group-title="VOD" tvg-logo="https://archive.org/services/img/img-3884_202610",ETERNALLY YOURS - Joe vs. Joe/The Tannenbaum Company/Cannonball Entertainment/CBS Studios (2026)
+https://archive.org/download/img-3884_202610/ScreenRecording_10-14-2026%2006-14-40_1.mov
